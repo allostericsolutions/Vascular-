@@ -115,7 +115,7 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     # Título
     pdf.set_font("Arial", 'B', 16)
-    pdf.cell(0, 10, to_latin1("SPI - ARDMS Exam Result"), ln=True, align='C')
+    pdf.cell(0, 10, to_latin1("RVT - ARDMS Exam Result"), ln=True, align='C')
     pdf.ln(10)
 
     # Datos de usuario
