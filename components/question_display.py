@@ -10,7 +10,7 @@ def display_question(question, question_num):
   with col1:
     st.subheader(f"Question {question_num}:")
   with col2:
-    st.subheader("SPI Practice Exam - ARDMS")
+    st.subheader("RVT Practice Exam - ARDMS")
 
   with st.container():
     st.write(question['enunciado'])
