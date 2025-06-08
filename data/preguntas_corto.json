@@ -1,818 +1,2020 @@
 [
-  {
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In typical transducers, how is the slice-thickness plane focused?",
-    "image": "",
-    "opciones": [
-      "Using a lens",
-      "By the transducer's physical shape",
-      "Electronically",
-      "Through acoustic matching"
-    ],
-    "respuesta_correcta": [
-      "Using a lens"
-    ],
-    "concept_to_study": "Transducer Focusing (Elevational Plane)",
-    "explicacion_openai": "Traditionally, single-row array transducers rely on a mechanical acoustic lens to focus the slice-thickness (elevational) plane. This lens narrows the beam out of plane, improving image resolution in that dimension. In newer 1.5D (multi-row) designs, additional rows of elements can electronically adjust the elevational focus. Understanding both methods helps sonographers select the right transducer and achieve optimal elevational resolution for clear, detailed images."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "When sound travels through a significant amount of water before hitting a reflector, the reflector appears:",
-    "image": "",
-    "opciones": [
-      "Closer than actual",
-      "Fainter than actual",
-      "Harder than actual",
-      "Too far away"
-    ],
-    "respuesta_correcta": [
-      "Too far away"
-    ],
-    "concept_to_study": "Speed Displacement Artifact",
-    "explicacion_openai": "Diagnostic ultrasound systems assume a constant speed of sound of 1540 m/s. In reality, the speed of sound in water is approximately 1480 m/s and is slower, so the wave's round-trip travel time is longer than the machine expects. Since the system still uses 1540 m/s \u00d7 time / 2 to calculate depth, it interprets the extra travel time as if the reflector were located farther away. This results in a display error called speed displacement artifact, where the reflector appears deeper than its true position. Recognizing this phenomenon is vital for understanding and correctly interpreting artifacts in ultrasound imaging."
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the maximum permissible temperature rise to avoid thermally induced biological effects?",
-    "image": "",
-    "opciones": [
-      "1\u00b0C",
-      "3\u00b0C",
-      "5\u00b0C",
-      "2\u00b0C"
-    ],
-    "respuesta_correcta": [
-      "2\u00b0C"
-    ],
-    "concept_to_study": "Thermal Bioeffects",
-    "explicacion_openai": "To minimize the risk of thermally induced biological effects, the maximum permissible temperature rise in tissue during diagnostic ultrasound is 2\u00b0C. This limit is based on guidelines from organizations like the AIUM. Familiarity with these guidelines is vital for ensuring patient safety during ultrasound examinations."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "2",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If two sound beams with different frequencies travel through soft tissue, which travels faster?",
-    "image": "",
-    "opciones": [
-      "Lower frequency beam",
-      "Higher frequency beam",
-      "Both will travel at the same speed",
-      "It depends on attenuation"
-    ],
-    "respuesta_correcta": [
-      "Both will travel at the same speed"
-    ],
-    "concept_to_study": "Speed of Sound in Soft Tissue",
-    "explicacion_openai": "The speed of sound in soft tissue is considered constant (approximately 1540 m/s) and is independent of the frequency of the sound beam. Different frequencies will attenuate differently, but their speed remains the same. This principle is fundamental in understanding how ultrasound images are formed and interpreted.However, factors like tissue density and stiffness do affect the speed of sound. Increased density typically slows down the sound slightly, whereas greater stiffness (or elasticity) increases the speed. These variations are generally minor in soft tissues, allowing for the assumption of a constant speed of sound in most clinical scenarios."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "While performing a carotid artery exam, you detect aliasing in the spectral Doppler waveform. If increasing the PRF does not resolve the aliasing, what is the NEXT best action?",
-    "image": "aliasing.jpg",
-    "opciones": [
-      "Decrease the sample depth",
-      "Increase the Doppler angle",
-      "Use a continuous wave transducer",
-      "Decrease the frequency"
-    ],
-    "respuesta_correcta": [
-      "Decrease the sample depth"
-    ],
-    "concept_to_study": "Aliasing, depth sample and PRF",
-    "explicacion_openai": "If the sonographer has already increased the Pulse Repetition Frequency (PRF) to address aliasing and the issue persists, the next logical steps are to decrease the sample depth to allow a higher PRF and increase the Nyquist limit, lower the transducer frequency to reduce the Doppler shift for a given velocity, adjust the Doppler angle to decrease the magnitude of the Doppler shift (while staying below 60 degrees for accuracy), and, as a last resort, use a continuous-wave (CW) Doppler transducer to eliminate the Nyquist limit and measure high velocities without aliasing."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A display limited to only black and white without shades of gray is known as:",
-    "image": "",
-    "opciones": [
-      "Grayscale",
-      "Color scale",
-      "Bistable",
-      "Multistable"
-    ],
-    "respuesta_correcta": [
-      "Bistable"
-    ],
-    "concept_to_study": "Bistable Display",
-    "explicacion_openai": "A bistable display is one that is limited to only two shades: black and white. There are no intermediate shades of gray. This type of display has high contrast but poor dynamic range. Recognizing display types is crucial for interpreting ultrasound images accurately."
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "2",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the term for the smallest unit of digital storage?",
-    "image": "",
-    "opciones": [
-      "The bit",
-      "The byte",
-      "The nibble",
-      "The word"
-    ],
-    "respuesta_correcta": [
-      "The bit"
-    ],
-    "concept_to_study": "Bit (Binary Digit)",
-    "explicacion_openai": "A bit is the smallest unit of digital storage, representing a single binary value (0 or 1). All digital information is ultimately stored as combinations of bits. Understanding digital storage is essential for managing and interpreting ultrasound data."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "3",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In the Fresnel zone:",
-    "image": "",
-    "opciones": [
-      "The beam area decreases with distance from the transducer",
-      "The beam area increases with distance",
-      "The beam remains collimated",
-      "The attenuation is minimal"
-    ],
-    "respuesta_correcta": [
-      "The beam area decreases with distance from the transducer"
-    ],
-    "concept_to_study": "Fresnel Zone (Near Zone)",
-    "explicacion_openai": "Fresnel zone, also called the near zone, is the region closest to the transducer where the ultrasound beam converges before reaching its focal point. Within this zone, the beam width decreases progressively as the distance from the transducer increases, leading to improved lateral resolution up to the focal point.The length of the Fresnel zone depends on the diameter of the transducer crystal and the frequency of the ultrasound wave. Larger diameters and higher frequencies result in a longer near zone.Beyond the Fresnel zone lies the Fraunhofer zone (far zone), where the beam starts to diverge and resolution decreases. A longer Fresnel zone improves focus and resolution within the near field, which is advantageous for imaging superficial structures.Length and quality of the Fresnel zone can be adjusted by using higher frequency transducers. Higher frequency transducers create a longer Fresnel zone, allowing for better resolution in the near field." 
-  },
-  {
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": "2",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Initially, the information sent to the scan converter from the receiver is in what format?",
-    "image": "",
-    "opciones": [
-      "Digital",
-      "Analog",
-      "Binary",
-      "Pulsed"
-    ],
-    "respuesta_correcta": [
-      "Analog"
-    ],
-    "concept_to_study": "Analog vs. Digital Signals",
-    "explicacion_openai": "The signals returning from the body and received by the transducer are initially in analog format. The scan converter then performs analog-to-digital conversion (ADC) to process and display the image. This conversion is crucial for interpreting ultrasound images accurately."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "2",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which statement about color Doppler is accurate?",
-    "image": "",
-    "opciones": [
-      "It displays only upflow",
-      "Each pixel can either be grayscale or color",
-      "It has no color hues",
-      "It shows flow direction with depth only"
-    ],
-    "respuesta_correcta": [
-      "Each pixel can either be grayscale or color"
-    ],
-    "concept_to_study": "Color Doppler Display",
-    "explicacion_openai": "In color Doppler imaging, each pixel on the display can represent either grayscale information (structural data) or color information (velocity data). The color overlay indicates the presence, direction, and velocity of blood flow. This understanding aids in accurately assessing blood flow characteristics."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "2",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which method maintains pixel density when enlarging an image?",
-    "image": "",
-    "opciones": [
-      "Linear magnification",
-      "Nearest neighbor scaling",
-      "Area magnification",
-      "Write magnification"
-    ],
-    "respuesta_correcta": [
-      "Write magnification"
-    ],
-    "concept_to_study": "Write Magnification (Write Zoom)",
-    "explicacion_openai": "Write magnification, also known as regional expansion selection (RES), is a pre-processing zoom technique. It rescans only the region of interest, maintaining pixel density and improving image resolution. This technique is essential for enhancing image quality in specific areas of interest."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "4",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "How are amplitude and frequency related?",
-    "image": "",
-    "opciones": [
-      "Direct",
-      "Inverse",
-      "No relation",
-      "Quadratic"
-    ],
-    "respuesta_correcta": [
-      "No relation"
-    ],
-    "concept_to_study": "Amplitude and Frequency Relationship",
-    "explicacion_openai": "Amplitude and frequency are two distinct and independent properties of a sound wave. Amplitude refers to the strength or intensity of the wave, which is perceived as loudness in audible sound waves or as the brightness of the reflected signal in ultrasound imaging. For example, a higher amplitude wave produces stronger echoes that can be crucial for visualizing structures clearly. On the other hand, frequency describes the number of cycles a wave completes in one second, measured in Hertz (Hz). It dictates the pitch of audible sound and plays a key role in ultrasound imaging by affecting resolution and penetration depth. Grasping these properties is essential for understanding how ultrasound waves interact with tissues and how they influence the quality of diagnostic images."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "5",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the relationship between spatial pulse length and pulse duration?",
-    "image": "",
-    "opciones": [
-      "They are inversely related",
-      "Directly related",
-      "Not related",
-      "Dependent on frequency"
-    ],
-    "respuesta_correcta": [
-      "Directly related"
-    ],
-    "concept_to_study": "Spatial Pulse Length and Pulse Duration Relationship",
-    "explicacion_openai": "Spatial pulse length (SPL) and pulse duration (PD) are directly related. A longer pulse duration results in a longer spatial pulse length, and vice versa. Both affect axial resolution. Recognizing this relationship is crucial for optimizing image quality and resolution."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "6",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which statement about axial resolution is true?",
-    "image": "",
-    "opciones": [
-      "It varies with depth",
-      "It is always worse than lateral resolution",
-      "It does not vary with depth",
-      "It depends only on frequency"
-    ],
-    "respuesta_correcta": [
-      "It does not vary with depth"
-    ],
-    "concept_to_study": "Axial Resolution",
-    "explicacion_openai": "Axial resolution, also known as longitudinal, depth, or range resolution, is determined by the spatial pulse length. This resolution remains constant regardless of image depth and is crucial for distinguishing between structures that are close together along the direction of the sound beam.Frequency plays a key role in axial resolution. Higher frequencies produce shorter wavelengths, resulting in shorter pulses and improved axial resolution. This allows for better differentiation between closely spaced structures. However, higher frequencies also have less penetration, so there's a trade-off between resolution and imaging depth. Understanding these factors helps in optimizing image quality for accurate clinical assessments."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "3",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "How does increasing the pressure differential across a vessel affect blood flow?",
-    "image": "",
-    "opciones": [
-      "Resistance decreases",
-      "Flow rate increases",
-      "Viscosity increases",
-      "Flow rate decreases"
-    ],
-    "respuesta_correcta": [
-      "Flow rate increases"
-    ],
-    "concept_to_study": "Pressure Differential and Flow Rate",
-    "explicacion_openai": "Increasing the pressure differential (pressure difference) across a vessel, while keeping other factors constant, will increase the flow rate. This is described by Poiseuille's Law, a fundamental principle of fluid dynamics. This relationship is crucial for interpreting Doppler flow measurements."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "4",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which law relates flow to pressure differential, viscosity, and length?",
-    "image": "",
-    "opciones": [
-      "Newton's law",
-      "Poiseuille's law",
-      "Bernoulli's principle",
-      "Snell's law"
-    ],
-    "respuesta_correcta": [
-      "Poiseuille's law"
-    ],
-    "concept_to_study": "Poiseuille's Law",
-    "explicacion_openai": "Poiseuille's law helps us understand how blood flows through vessels by considering three key variables: 1:pressure difference, 2:vessel size (radius), and 3: vessel length. The flow rate depends on these factors, along with the viscosity of the blood.A higher pressure difference increases blood flow, similar to how squeezing a tube of toothpaste harder makes more come out. A larger vessel size (radius) greatly boosts flow, like a wider garden hose allows more water through. Conversely, longer vessels decrease flow, much like a longer straw makes it harder to sip a drink.In clinical settings, understanding these factors is crucial. For example, if blood vessels narrow due to plaque buildup, it reduces flow and increases pressure, leading to conditions like hypertension. In ultrasound, recognizing changes in flow helps identify issues like blockages or abnormal vessel conditions, guiding treatment and ensuring effective patient care."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "5",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the most common type of flow in the body?",
-    "image": "",
-    "opciones": [
-      "Turbulent",
-      "Transitional",
-      "Laminar",
-      "Vortex"
-    ],
-    "respuesta_correcta": [
-      "Laminar"
-    ],
-    "concept_to_study": "Laminar Flow",
-    "explicacion_openai": "Laminar flow is the most common type of blood flow found in the normal circulatory system. It is characterized by smooth, orderly layers of fluid movement, with the highest velocity in the center of the vessel and lower velocities near the vessel walls. Recognizing laminar flow is crucial for interpreting normal and pathological flow patterns."
-  },
-  {
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": "3",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which type of transducer is most suitable for imaging deep structures in the abdomen?",
-    "image": "",
-    "opciones": [
-      "Endocavitary transducer",
-      "Linear sequenced array transducer",
-      "Convex transducer",
-      "Continuous-wave transducer"
-    ],
-    "respuesta_correcta": [
-      "Convex transducer"
-    ],
-    "concept_to_study": "Convex (Curved) Transducers",
-    "explicacion_openai": "Convex transducers, also known as curved array transducers, are well-suited for imaging deep structures in the abdomen. Their curved shape provides a wider field of view at depth, and they typically operate at lower frequencies, allowing for greater penetration. Selecting the appropriate transducer is essential for specific imaging needs."
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "3",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Sonographers best practice while scanning is to avoid abducting the arm more than how many degrees?",
-    "image": "",
-    "opciones": [
-      "50",
-      "90",
-      "30",
-      "40"
-    ],
-    "respuesta_correcta": [
-      "30"
-    ],
-    "concept_to_study": "Sonographer Ergonomics",
-    "explicacion_openai": "To prevent musculoskeletal injuries, sonographers should avoid abducting (raising) their arm more than 30 degrees from their body while scanning. Proper ergonomics are crucial for long-term health and career longevity. Adhering to ergonomic principles is essential for maintaining a healthy work environment."
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "4",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which action demonstrates best practice during ultrasound exams regarding the ALARA principle?",
-    "image": "",
-    "opciones": [
-      "The exposure time should be extended during the exam.",
-      "Use the lowest possible output power that provides a diagnostic image.",
-      "Use the lowest possible gain.",
-      "Ensure that the time gain compensation (TGC) is within acceptable limits."
-    ],
-    "respuesta_correcta": [
-      "Use the lowest possible output power that provides a diagnostic image."
-    ],
-    "concept_to_study": "ALARA Principle",
-    "explicacion_openai": "ALARA stands for \"As Low As Reasonably Achievable.\" In ultrasound, this means using the lowest possible output power and shortest scan time necessary to obtain a diagnostic image, minimizing potential bioeffects. Applying the ALARA principle is crucial for ensuring patient safety during ultrasound examinations."
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "5",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "This type of cavitation is the MOST concerning cause of bioeffects:",
-    "image": "",
-    "opciones": [
-      "Transient",
-      "Absorption",
-      "Stable",
-      "Thermal"
-    ],
-    "respuesta_correcta": [
-      "Transient"
-    ],
-    "concept_to_study": "Transient Cavitation",
-    "explicacion_openai": "Transient cavitation, also known as inertial cavitation, involves the rapid expansion and violent collapse of microbubbles. This collapse generates high temperatures and pressures, potentially causing tissue damage. It is more concerning than stable cavitation. Recognizing cavitation is essential for assessing potential bioeffects in ultrasound imaging."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "3",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A sonographer is performing an abdominal ultrasound examination. The image appears excessively bright, with a loss of detail in some areas and saturation of the echoes. Which of the following adjustments is MOST likely set too high?",
-    "image": "",
-    "opciones": [
-      "Output Power",
-      "Time Gain Compensation (TGC)",
-      "Overall Gain (Receiver Gain)",
-      "Dynamic Range"
-    ],
-    "respuesta_correcta": [
-      "Overall Gain (Receiver Gain)"
-    ],
-    "concept_to_study": "Gain Settings",
-    "explicacion_openai": "Overall Gain (Receiver Gain) controls the amplification of the received echoes. If set too high, it can cause the image to appear excessively bright, leading to a loss of detail and saturation. Proper adjustment of gain settings is essential for optimizing image quality and ensuring accurate diagnostic information."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "6",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which Doppler angle provides the most accurate velocity measurement?",
-    "image": "",
-    "opciones": [
-      "0 degrees",
-      "45 degrees",
-      "60 degrees",
-      "90 degrees"
-    ],
-    "respuesta_correcta": [
-      "0 degrees"
-    ],
-    "concept_to_study": "Doppler Angle and Velocity Accuracy",
-    "explicacion_openai": "The most accurate Doppler velocity measurements are obtained when the ultrasound beam is parallel to the direction of blood flow (Doppler angle of 0 degrees). The Doppler equation includes the cosine of the Doppler angle, and cos(0) = 1. Selecting the correct Doppler angle is crucial for accurate velocity measurements."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "4",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Reverberation artifacts are most likely to occur between:",
-    "image": "",
-    "opciones": [
-      "Two weak reflectors",
-      "Two strong reflectors",
-      "A strong reflector and a weak reflector",
-      "Two tissues with different acoustic impedances"
-    ],
-    "respuesta_correcta": [
-      "Two strong reflectors"
-    ],
-    "concept_to_study": "Reverberation Artifact",
-    "explicacion_openai": "Reverberation artifacts occur when sound bounces back and forth between two strong, parallel reflectors. This creates multiple, equally spaced echoes on the display, appearing deeper than the actual reflectors. Recognizing reverberation artifacts is essential for accurate image interpretation and diagnosis."
-  },
-  {
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": "4",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the primary advantage of using a 1.5D or multi-row array transducer?",
-    "image": "",
-    "opciones": [
-      "Improved lateral resolution",
-      "Improved elevational resolution",
-      "Improved axial resolution",
-      "Increased penetration depth"
-    ],
-    "respuesta_correcta": [
-      "Improved elevational resolution"
-    ],
-    "concept_to_study": "1.5D Array Transducers",
-    "explicacion_openai": "1.5D array transducers have multiple rows of elements in the elevational plane (slice thickness). This allows for electronic focusing in the elevational dimension, improving elevational resolution (slice thickness resolution). Understanding transducer technology is essential for optimizing image quality and resolution."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "7",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following tissues has the highest attenuation coefficient?",
-    "image": "",
-    "opciones": [
-      "Fat",
-      "Muscle",
-      "Bone",
-      "Water"
-    ],
-    "respuesta_correcta": [
-      "Bone"
-    ],
-    "concept_to_study": "Attenuation Coefficient",
-    "explicacion_openai": "Bone has the highest attenuation coefficient of the listed tissues. This means that ultrasound energy is absorbed, scattered, and reflected to a greater extent in bone compared to fat, muscle, or water. Knowledge of attenuation is crucial for interpreting ultrasound images and optimizing imaging techniques."
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "6",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the primary purpose of informed consent in ultrasound examinations?",
-    "image": "",
-    "opciones": [
-      "To protect the sonographer from legal liability",
-      "To ensure the patient understands the procedure and its risks/benefits",
-      "To obtain payment authorization from the patient's insurance",
-      "To document the patient's medical history"
-    ],
-    "respuesta_correcta": [
-      "To ensure the patient understands the procedure and its risks/benefits"
-    ],
-    "concept_to_study": "Informed Consent",
-    "explicacion_openai": "The primary purpose of informed consent is to ensure that the patient has a clear understanding of the ultrasound procedure, including its purpose, potential benefits, risks, and alternatives. This allows the patient to make an autonomous decision about their care. Awareness of informed consent is essential for ethical and legal compliance in medical practice."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "8",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Imagine you are teaching a student. How would you describe the echotexture of the area exhibiting posterior enhancement *compared to* the surrounding tissue in THIS image?",
-    "image": "enhacement.png",
-    "opciones": [
-      "It is relatively darker",
-      "It is relatively brighter",
-      "It has the same brightness",
-      "It is impossible to compare"
-    ],
-    "respuesta_correcta": [
-      "It is relatively brighter"
-    ],
-    "concept_to_study": "Posterior Acoustic Enhancement",
-    "explicacion_openai": "Posterior acoustic enhancement, also known as through transmission, occurs when sound travels through a weakly attenuating structure (like a cyst). The area behind the structure appears brighter than surrounding tissues because the sound beam has experienced less attenuation. Recognizing this artifact is crucial for accurate image interpretation and diagnosis."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "9",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Examine the ultrasound image from a patient presenting with right upper quadrant pain, a condition commonly associated with gallbladder adenomyomatosis. Which ultrasound artifact is displayed in the image?",
-    "image": "comet_tail.png",
-    "opciones": [
-      "Comet tail artifact",
-      "Ring-down artifact",
-      "Mirror image artifact",
-      "Acoustic shadowing"
-    ],
-    "respuesta_correcta": [
-      "Comet tail artifact"
-    ],
-    "concept_to_study": "Comet Tail Artifact",
-    "explicacion_openai": "In this case, the presence of adenomyomatosis indicates a comet tail artifact, characterized by tapering, closely spaced lines due to highly reflective cholesterol crystals or calcifications in the gallbladder. Comet tail artifacts generally do not extend as far distally as ring-down artifacts. Ring-down artifacts, which appear as continuous, uniform bands, often extend further due to resonance effects from gas bubbles or fluid collections, as seen in conditions like emphysematous cholecystitis. Recognizing these features helps in accurately distinguishing between conditions involving solid versus gaseous elements."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "10",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Based on your observation of the image, how does the size of the shadowing object relate to the width of the shadow at its origin?",
-    "image": "shadowing.png",
-    "opciones": [
-      "The shadow is wider than the object.",
-      "The shadow is narrower than the object.",
-      "The shadow is approximately the same width as the object.",
-      "The size of the object and shadow are unrelated."
-    ],
-    "respuesta_correcta": [
-      "The shadow is approximately the same width as the object."
-    ],
-    "concept_to_study": "Acoustic Shadowing",
-    "explicacion_openai": "Acoustic shadowing occurs when sound encounters a highly attenuating or highly reflective structure. The shadow's width at its origin is typically approximately the same width as the object causing the shadowing. The shadow appears as a dark region posterior to the object. Recognizing shadowing is crucial for accurate image interpretation and diagnosis."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "7",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which labeled transducers result in a positive Doppler shift?",
-    "image": "doppler.png",
-    "opciones": [
-      "Transducer A and B",
-      "Transducer B",
-      "Transducer C and E",
-      "Transducer A and C"
-    ],
-    "respuesta_correcta": [
-      "Transducer A and C"
-    ],
-    "concept_to_study": "Doppler Shift",
-    "explicacion_openai": "Imagine standing by the roadside as a car approaches, honking its horn. The horn sounds higher in pitch as it comes closer. This is an example of the Doppler effect: the sound frequency increases because the car is moving toward you. In ultrasound, a positive Doppler shift happens when blood flow moves toward the transducer, similar to the approaching car. This causes the reflected sound to have a higher frequency. Transducers detecting flow toward them will show a positive waveform, those detecting flow away will show a negative waveform, and those positioned perpendicularly will not detect any flow. This concept is crucial for doctors and technicians because it helps them visualize how and how fast blood is moving in the body. For example, detecting abnormal flow in a blood vessel might indicate a blockage or narrowing, which is important for diagnosis and treatment."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "8",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which labeled transducers result in a negative Doppler shift?",
-    "image": "doppler.png",
-    "opciones": [
-      "Transducer A",
-      "Transducer B and D",
-      "Transducer C and E",
-      "Transducer D and A"
-    ],
-    "respuesta_correcta": [
-      "Transducer B and D"
-    ],
-    "concept_to_study": "Doppler Shift",
-    "explicacion_openai": "A negative Doppler shift occurs when the transducer detects flow away from it. Recognizing Doppler shifts is essential for accurately assessing blood flow direction and velocity in clinical practice."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "9",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A sonographer is evaluating blood flow within a vessel using pulsed-wave Doppler. The image displays four sample volumes (A, B, C, and D) placed in different locations within the vessel. Which sample volume is *MOST LIKELY* to provide an accurate representation of the maximum velocity (peak systole) in a non-stenotic vessel segment?",
-    "image": "window2.jpg",
-    "opciones": [
-      "Sample A",
-      "Sample B",
-      "Sample C",
-      "Sample D"
-    ],
-    "respuesta_correcta": [
-      "Sample B"
-    ],
-    "concept_to_study": "Doppler Sample Volume Placement",
-    "explicacion_openai": "Sample volume B, positioned centrally within the vessel, is most likely to accurately represent the peak systolic velocity in a non-stenotic segment. Proper sample volume placement is crucial for obtaining accurate Doppler measurements and assessing blood flow characteristics."
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "11",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What type of resolution is demonstrated in the image if it is determined by the ability to distinguish structures along the ultrasound beam path?",
-    "image": "axial.png",
-    "opciones": [
-      "Lateral",
-      "Axial",
-      "Temporal",
-      "Contrast"
-    ],
-    "respuesta_correcta": [
-      "Axial"
-    ],
-    "concept_to_study": "Resolution Types",
-    "explicacion_openai": "Axial resolution refers to the ability of an ultrasound system to distinguish two structures positioned along the direction of the sound beam. This is essential for accurate imaging and reliable diagnoses because it ensures that closely spaced structures are displayed as separate entities rather than merging into one.\n\n**Synonyms**: Axial resolution is sometimes referred to as longitudinal, depth, or range resolution.\n\n**Improvement**: Axial resolution improves with shorter pulse durations. This is achieved by increasing the frequency of the transducer, as higher frequencies produce shorter wavelengths, resulting in shorter spatial pulse lengths (SPL). Shorter SPL allows for better separation of closely spaced objects in the axial direction.\n\n**Deterioration**: Axial resolution worsens with longer pulses, which occur at lower frequencies. Longer pulses increase the SPL, making it harder to differentiate between structures that are close together in the direction of the sound beam.\n\n**Dependencies**: Axial resolution depends on:\n  - **Spatial Pulse Length (SPL)**: Shorter SPL improves resolution. SPL is a product of the wavelength and the number of cycles in the pulse.\n  - **Frequency**: Higher frequencies improve axial resolution but reduce penetration depth.\n  - **Transducer Quality**: Advanced transducers with optimized pulse-shaping technology can enhance resolution.\n\n**Relationship with Frequency and Wavelength**: Axial resolution is directly related to frequency and inversely related to wavelength. Higher frequencies create shorter wavelengths, which result in improved axial resolution. However, this comes at the cost of reduced penetration, making high frequencies ideal for imaging superficial structures and low frequencies better for deeper structures.\n\n**Artifacts**: Poor axial resolution may lead to merging or overlapping of closely spaced structures, reducing the clarity of diagnostic images.\n\n**Example**: For imaging small vessels or structures in superficial tissues, a high-frequency transducer (e.g., 10 MHz) with excellent axial resolution is preferred. For abdominal imaging in larger patients, a lower frequency transducer (e.g., 3 MHz) may be used, which sacrifices some resolution for greater depth penetration."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "5",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the relationship between pulse repetition frequency and pulse repetition period?",
-    "image": "",
-    "opciones": [
-      "Directly proportional",
-      "Inversely proportional",
-      "Not related",
-      "Exponentially related"
-    ],
-    "respuesta_correcta": [
-      "Inversely proportional"
-    ],
-    "concept_to_study": "Pulse Repetition Frequency and Period",
-    "explicacion_openai": "Pulse repetition frequency (PRF) and pulse repetition period (PRP) are inversely proportional. As PRF increases, PRP decreases, and vice versa. Understanding this relationship is crucial for optimizing ultrasound settings and image quality."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "6",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What happens to the duty factor if the pulse repetition period increases?",
-    "image": "",
-    "opciones": [
-      "Increases",
-      "Decreases",
-      "Remains the same",
-      "Becomes zero"
-    ],
-    "respuesta_correcta": [
-      "Decreases"
-    ],
-    "concept_to_study": "Duty Factor",
-    "explicacion_openai": "The duty factor decreases if the pulse repetition period (PRP) increases. The duty factor is the fraction of time that the ultrasound system is actively transmitting sound. Proper understanding of the duty factor is essential for optimizing ultrasound settings and ensuring patient safety."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "7",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the effect of increasing frequency on the pulse duration?",
-    "image": "",
-    "opciones": [
-      "Increases pulse duration",
-      "Decreases pulse duration",
-      "No effect on pulse duration",
-      "Doubles the pulse duration"
-    ],
-    "respuesta_correcta": [
-      "Decreases pulse duration"
-    ],
-    "concept_to_study": "Frequency and Pulse Duration",
-    "explicacion_openai": "Frequency and pulse duration are inversely related in ultrasound: as frequency increases, pulse duration decreases. Pulse duration refers to the actual: on-time, of an ultrasound pulse, typically measured in microseconds, and shorter durations improve axial resolution, enhancing the ability to distinguish structures close together. This occurs because higher frequencies produce shorter wavelengths, reducing the time for each wave cycle and, thus, the overall pulse duration. For example, a sprinter running faster (higher frequency) completes more laps in the same amount of time, but each lap takes less time (shorter duration). This relationship is vital in balancing image resolution and tissue penetration in medical imaging, as higher frequencies provide greater detail but have limited penetration."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "8",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "How does the spatial pulse length affect axial resolution?",
-    "image": "",
-    "opciones": [
-      "Longer spatial pulse length improves resolution",
-      "Shorter spatial pulse length improves resolution",
-      "Spatial pulse length has no effect on resolution",
-      "Spatial pulse length doubles resolution"
-    ],
-    "respuesta_correcta": [
-      "Shorter spatial pulse length improves resolution"
-    ],
-    "concept_to_study": "Spatial Pulse Length and Axial Resolution",
-    "explicacion_openai": "Shorter spatial pulse length improves axial resolution. Axial resolution is determined by the ability to distinguish structures along the direction of the sound beam. Mastery of this relationship is essential for achieving high-quality images and accurate diagnoses."
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "7",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What does letter D in the phantom image represent?",
-    "image": "phantom.png",
-    "opciones": [
-      "Dead zone assessment",
-      "Spatial resolution testing",
-      "Slice thickness and elevational resolution",
-      "Grey scale accuracy"
-    ],
-    "respuesta_correcta": [
-      "Slice thickness and elevational resolution"
-    ],
-    "concept_to_study": "Slice thickness, elevational resolution",
-    "explicacion_openai": "Letter D represents the assessment of slice thickness and elevational resolution in ultrasound imaging. This test is performed using cystic spaces of various sizes and depths in the quality assurance phantom to evaluate the system's ability to focus and maintain resolution within the elevational plane (the third dimension of imaging).Elevational resolution, also known as slice thickness resolution or out-of-plane resolution, refers to the system's ability to distinguish between two structures in the dimension perpendicular to the imaging plane. This property is vital for ensuring accurate three-dimensional imaging and reducing overlapping or blending of structures.\n\nElevational resolution depends primarily on the thickness of the ultrasound beam in the elevational plane. A thinner beam improves resolution by allowing better differentiation of structures. Conversely, a thicker beam may worsen resolution, causing artifacts like partial volume artifact, where echoes from adjacent structures are averaged, leading to distorted or unclear images.\n\nImprovement in elevational resolution can be achieved by using advanced transducers, such as 1.5D or 2D matrix arrays, which allow for precise control of the beam's shape in all dimensions. These transducers are superior to traditional linear or convex arrays, as they produce narrower beams in the elevational plane, minimizing artifacts and enhancing diagnostic accuracy.For example, in the evaluation of small cysts or fluid-filled spaces, a transducer with poor elevational resolution may create an artifact that combines echoes from the cyst and adjacent tissues, making it appear larger or irregularly shaped. Advanced transducers with focused beams mitigate this issue, ensuring accurate representation of the size structure  and shape."
-    },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "2",
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer type continuously emits and receives ultrasound waves?",
-        "image": "CW.png",
+        "enunciado": "Which artery is responsible for the arterial pulsation felt in front of the ear, just above the zygomatic arch?",
+        "image": "",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
+            "Maxillary",
+            "Facial",
+            "Occipital",
+            "Superficial temporal"
         ],
         "respuesta_correcta": [
-            "Transducer A (CW)"
+            "Superficial temporal"
         ],
-        "concept_to_study": "Continuous Wave (CW) vs. Pulsed Wave (PW) transducers.",
-        "explicacion_openai": "Continuous Wave (CW) transducers, like Transducer A in the image, emit ultrasound waves continuously without pauses. This allows for precise Doppler measurements of high-velocity blood flow but does not provide depth information. In contrast, Pulsed Wave (PW) transducers, like Transducer B, send pulses of sound and wait for echoes, allowing for depth resolution but being limited by aliasing at high velocities.",
-        "image_explanation": "The image 'CW.png' shows Transducer A emitting continuous waves, while Transducer B emits pulses."
+        "concept_to_study": "Arterial supply to the face and head",
+        "explicacion_openai": "The superficial temporal artery, a branch of the external carotid artery, runs just above the zygomatic arch. This positioning makes it the most likely source of palpable pulsations in that area. The maxillary and facial arteries lie deeper, and the occipital artery primarily supplies the posterior head and scalp.",
+        "image_explanation": ""
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "3",
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 2,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer wave type is best suited for measuring high-velocity blood flow without aliasing?",
-        "image": "CW.png",
+        "enunciado": "Which artery is usually the first branch of the external carotid artery (ECA)?",
+        "image": "",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
+            "Inferior thyroid artery",
+            "Superior thyroid artery",
+            "Supraclavicular artery",
+            "Facial artery"
         ],
         "respuesta_correcta": [
-            "Transducer A (CW)"
+            "Superior thyroid artery"
         ],
-        "concept_to_study": "Aliasing in Doppler ultrasound.",
-        "explicacion_openai": "Aliasing occurs when the detected Doppler frequency exceeds the Nyquist limit in Pulsed Wave (PW) Doppler. Continuous Wave (CW) Doppler, as seen in Transducer A, does not suffer from aliasing because it continuously samples the signal, making it ideal for measuring high-velocity blood flow, such as in cardiac and vascular applications.",
-        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) with continuous waves, allowing high-velocity detection without aliasing."
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "The superior thyroid artery is generally the first branch of the external carotid artery. It supplies the thyroid gland and neighboring structures. The inferior thyroid artery originates from the subclavian artery, and the facial artery emerges later from the ECA.",
+        "image_explanation": ""
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "4",
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 3,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer wave type provides depth resolution in Doppler imaging?",
-        "image": "CW.png",
+        "enunciado": "The splenic, common hepatic, and left gastric arteries arise from which abdominal artery?",
+        "image": "",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
+            "Inferior mesenteric artery",
+            "Proper hepatic artery",
+            "Celiac trunk",
+            "Superior mesenteric artery"
         ],
         "respuesta_correcta": [
-            "Transducer B (PW)"
+            "Celiac trunk"
         ],
-        "concept_to_study": "Depth resolution in Doppler ultrasound.",
-        "explicacion_openai": "Pulsed Wave (PW) Doppler, as seen in Transducer B, sends discrete pulses and waits for echoes, allowing the system to determine the depth of the reflecting structures. This enables precise localization of blood flow within a specific vessel. Continuous Wave (CW) Doppler, on the other hand, does not provide depth resolution because it continuously transmits and receives signals.",
-        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, allowing depth resolution."
+        "concept_to_study": "Abdominal arterial supply",
+        "explicacion_openai": "The celiac trunk is the main source for these three branches that supply the spleen, liver, and stomach. The superior mesenteric artery primarily serves the intestines, while the inferior mesenteric artery supplies the lower colon.",
+        "image_explanation": ""
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "5",
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 4,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer wave type is more commonly used in echocardiography for assessing high-speed blood flow?",
-        "image": "CW.png",
+        "enunciado": "Which vascular clinical condition can lead to vision loss due to ischemia affecting the optic nerve?",
+        "image": "",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
+            "Carotid artery stenosis",
+            "Giant Cell Arteritis",
+            "Deep vein thrombosis",
+            "Subclavian steal syndrome"
         ],
         "respuesta_correcta": [
-            "Transducer A (CW)"
+            "Giant Cell Arteritis"
         ],
-        "concept_to_study": "Clinical applications of CW and PW Doppler.",
-        "explicacion_openai": "Continuous Wave (CW) Doppler, as seen in Transducer A, is commonly used in echocardiography to assess high-speed blood flow, such as in stenotic valves or regurgitant jets. Since CW Doppler does not suffer from aliasing, it is ideal for measuring very high velocities accurately. Pulsed Wave (PW) Doppler, while useful for depth resolution, is limited by aliasing at high speeds.",
-        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) emitting continuous waves, which is ideal for high-speed blood flow assessment."
+        "concept_to_study": "Superficial temporal artery relevance in clinical diagnosis",
+        "explicacion_openai": "Temporal arteritis, or Giant Cell Arteritis, is an inflammatory disease that affects the walls of medium and large arteries. The superficial temporal artery is frequently involved and may become thickened and tender upon palpation. Early diagnosis is crucial, as untreated cases can lead to vision loss due to ischemia affecting the optic nerve.",
+        "image_explanation": ""
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "6",
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 5,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer type is limited by the Nyquist limit in Doppler imaging?",
-        "image": "CW.png",
+        "enunciado": "A patient lying down has a Hydrostatic Pressure (HP) of 3 mmHg at the ankle. When standing, what is the HP at the ankle??",
+        "image": "",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
+            "0 mmHg",
+            "103 mmHg",
+            "97 mmHg",
+            "17 mmHg"
         ],
         "respuesta_correcta": [
-            "Transducer B (PW)"
+            "103 mmHg"
         ],
-        "concept_to_study": "Nyquist limit and aliasing in Doppler ultrasound.",
-        "explicacion_openai": "The Nyquist limit is the maximum frequency that can be accurately measured in Pulsed Wave (PW) Doppler imaging. If the detected Doppler frequency exceeds this limit, aliasing occurs, distorting velocity measurements. Continuous Wave (CW) Doppler, as seen in Transducer A, does not have this limitation because it continuously samples the signal. Therefore, PW Doppler (Transducer B) is affected by the Nyquist limit.",
-        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, which are subject to aliasing due to the Nyquist limit."
-   },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 46,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Using the contingency table provided, which of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
-    "image": "especificidad.png",
-    "opciones": [
-        "75%",
-        "80%",
-        "85%",
-        "90%"
-    ],
-    "respuesta_correcta": [
-        "85%"
-    ],
-    "concept_to_study": "Specificity.",
-    "explicacion_openai": "Specificity is calculated by dividing the number of true negatives (TN) by the sum of true negatives (TN) and false positives (FP). In formula terms, Specificity = TN / (TN + FP).\n\nFor example, if a test correctly identifies 9 healthy individuals (TN = 9) and incorrectly labels 1 healthy individual as diseased (FP = 1), the calculation becomes 9 / (9 + 1) = 9/10 = 90%, meaning that the test has a 90% specificity.\n\nIn the context of this question, the provided contingency table (shown in the image 'especificidad.png') contains the values needed for the calculation, and the correct specificity is determined to be 80%. This indicates that 80% of healthy individuals are correctly classified as non-diseased by this test.",
-    "image_explanation": ""
-}
+        "concept_to_study": "Hydrostatic Pressure",
+        "explicacion_openai": "This refers to the pressure exerted by a fluid at rest, due to the force of gravity. In the body, it primarily refers to the pressure of blood within the capillaries. When a person stands, gravity causes the blood to pool in the lower extremities, increasing the hydrostatic pressure, especially at the ankle. A hydrostatic pressure of 100 mmHg at the ankle is the full hydrostatic value that the venous system can reach in the feet when standing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A change in vessel diameter has the most dramatic effect in?",
+        "image": "",
+        "opciones": [
+            "Flow volume",
+            "Viscosity",
+            "Vessel Length",
+            "Friction"
+        ],
+        "respuesta_correcta": [
+            "Flow volume"
+        ],
+        "concept_to_study": "Effect in change in vessel diameter or radius",
+        "explicacion_openai": "A change in vessel diameter has the most dramatic effect on blood flow volume. Vessel diameter is one of the main determinants of resistance in the circulatory system. Changes in diameter, particularly through vasodilation (widening) and vasoconstriction (narrowing), can significantly alter resistance, and thus, flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a stenosis profile, where is the velocity highest?",
+        "image": "",
+        "opciones": [
+            "Stenotic segment",
+            "Pre stenotic segment",
+            "Post stenotic segment",
+            "Distal to the stenosis"
+        ],
+        "respuesta_correcta": [
+            "Stenotic segment"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The Bernoulli effect refers to qualitative behavior of fluids and states that lowering the area of fluid flow causes the increase in fluid flow velocity and decrease in pressure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Another name for the hypogastric artery is:",
+        "image": "",
+        "opciones": [
+            "External iliac artery",
+            "Gastroduodenal artery",
+            "Internal iliac artery",
+            "Celiac artery"
+        ],
+        "respuesta_correcta": [
+            "Internal iliac artery"
+        ],
+        "concept_to_study": "Pelvic arterial supply and nomenclature",
+        "explicacion_openai": "The hypogastric artery is another term for the internal iliac artery, which supplies blood to pelvic organs and structures. The other options refer to arteries with different anatomical distributions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The smallest vessels in the body are:",
+        "image": "",
+        "opciones": [
+            "Arterioles",
+            "Venules",
+            "Capillaries",
+            "Intimas"
+        ],
+        "respuesta_correcta": [
+            "Capillaries"
+        ],
+        "concept_to_study": "Microcirculation and vessel sizes",
+        "explicacion_openai": "Capillaries are the smallest blood vessels and are responsible for the exchange of gases, nutrients, and waste between the blood and tissues. Arterioles and venules are larger and serve as the regulating vessels for blood flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which vessels supply blood to the arterial wall?",
+        "image": "",
+        "opciones": [
+            "Media perforators",
+            "Vasa vasorum",
+            "Osmosis across the intima only",
+            "Septal capillary networks"
+        ],
+        "respuesta_correcta": [
+            "Vasa vasorum"
+        ],
+        "concept_to_study": "Irrigation of large vessel walls",
+        "explicacion_openai": "The vasa vasorum are small vessels that supply the walls of larger arteries and veins, ensuring these structures receive the oxygen and nutrients they need for proper function. The other options do not provide a viable blood supply.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Loss of the spectral window with pulsed Doppler ultrasound occurs with:",
+        "image": "",
+        "opciones": [
+            "Flow turbulence",
+            "Parabolic flow",
+            "Laminar flow",
+            "All the above"
+        ],
+        "respuesta_correcta": [
+            "Flow turbulence"
+        ],
+        "concept_to_study": "Doppler ultrasound physics",
+        "explicacion_openai": "Turbulent flow disrupts the orderly laminar flow, causing a broad range of frequencies to appear on Doppler ultrasound and leading to the loss of the spectral window. Parabolic and laminar flows are more uniform and do not cause this effect.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to the Bernoulli principle, as velocity increases at an area of stenosis, what happens to the pressure at the site of stenosis?",
+        "image": "",
+        "opciones": [
+            "Remains constant",
+            "Increases",
+            "Increases exponentially",
+            "Decreases",
+            "region results in a corresponding decrease in pressure. This is important in understanding the dynamics of blood flow in narrowed vessels."
+        ],
+        "respuesta_correcta": [
+            "Decreases"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "Based on Bernoulli's principle, an increase in velocity within a narrowed (stenotic) region results in a corresponding decrease in pressure. This is important in understanding the dynamics of blood flow in narrowed vessels.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following vessels arises from the anterior surface of the aorta, approximately 2 cm distal from the celiac axis?",
+        "image": "",
+        "opciones": [
+            "SMA",
+            "CHA",
+            "GDA",
+            "IMA"
+        ],
+        "respuesta_correcta": [
+            "SMA"
+        ],
+        "concept_to_study": "Abdominal arterial anatomy",
+        "explicacion_openai": "The Superior Mesenteric Artery (SMA) originates from the anterior surface of the aorta about 2 cm below the celiac trunk, supplying the midgut. The other listed arteries arise at different levels or supply different regions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is potential energy?",
+        "image": "",
+        "opciones": [
+            "The energy an object has due to its position or condition.",
+            "The energy an object has due to its motion.",
+            "The energy an object has due to its chemical composition.",
+            "The energy an object has due to its atomic structure."
+        ],
+        "respuesta_correcta": [
+            "The energy an object has due to its position or condition."
+        ],
+        "concept_to_study": "Fundamentals of energy in physics",
+        "explicacion_openai": "Potential energy is the energy stored in an object due to its position or state. This contrasts with kinetic energy, which is related to motion. Understanding this concept is essential in various physical applications.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is kinetic energy?",
+        "image": "",
+        "opciones": [
+            "The energy an object has due to its position or condition.",
+            "The energy an object has due to its motion.",
+            "The energy an object has due to its chemical composition.",
+            "The energy an object has due to its atomic structure."
+        ],
+        "respuesta_correcta": [
+            "The energy an object has due to its motion."
+        ],
+        "concept_to_study": "Fundamentals of energy in physics",
+        "explicacion_openai": "Kinetic energy is defined as the energy possessed by an object due to its motion. It is calculated using the formula 12mv2 and is distinct from potential energy, which is related to position.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When does an object have no kinetic energy?",
+        "image": "",
+        "opciones": [
+            "When it's at rest.",
+            "When it's moving very slowly.",
+            "When the only force that's acting on it is gravity.",
+            "When it has no electrical charge."
+        ],
+        "respuesta_correcta": [
+            "When it's at rest."
+        ],
+        "concept_to_study": "Understanding kinetic energy",
+        "explicacion_openai": "Kinetic energy depends entirely on the motion of an object. When an object is completely at rest (zero velocity), it has no kinetic energy. The other options do not eliminate motion as a factor.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The internal iliac artery primarily supplies blood to which region of the body?",
+        "image": "",
+        "opciones": [
+            "The brain",
+            "The upper extremities",
+            "The pelvic organs and perineum",
+            "The abdominal viscera"
+        ],
+        "respuesta_correcta": [
+            "The pelvic organs and perineum"
+        ],
+        "concept_to_study": "Pelvic arterial supply and nomenclature",
+        "explicacion_openai": "The internal iliac artery (also known as the hypogastric artery) is the main arterial supply to the pelvic organs, including the bladder, rectum, uterus (in females), and prostate (in males), as well as the perineum.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a stenosis profile, where is the velocity lowest?",
+        "image": "",
+        "opciones": [
+            "Pre stenotic",
+            "Stenituc",
+            "post-stenotic",
+            "Proximal to the stenosis"
+        ],
+        "respuesta_correcta": [
+            "post-stenotic"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The Bernoulli effect refers to qualitative behavior of fluids and states that lowering the area of fluid flow causes the increase in fluid flow velocity and decrease in pressure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the unit of the Reynolds number?",
+        "image": "",
+        "opciones": [
+            "cm/sec",
+            "ml/sec",
+            "Unitless",
+            "Ratio"
+        ],
+        "respuesta_correcta": [
+            "Unitless"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The Reynolds number (Re) is unitless and dimensionless. That it is unitless means that it has no direct standard of measurement, the Reynolds number is determined by the properties of fluid flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Predicts when fluid becomes unstable:",
+        "image": "",
+        "opciones": [
+            "ABI",
+            "Re",
+            "PSV",
+            "<2,000"
+        ],
+        "respuesta_correcta": [
+            "Re"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The Reynolds number (Re) is unitless and dimensionless. That it is unitless means that it has no direct standard of measurement, the Reynolds number is determined by the properties of fluid flow. When the Re is >2,000 means laminar flow tends to become disturbed. When is <2,000 is a normal laminar flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 21,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The dicrotic notch is related to:",
+        "image": "",
+        "opciones": [
+            "Open of the aortic valve",
+            "Systole",
+            "Diastole",
+            "Closure of the aortic valve"
+        ],
+        "respuesta_correcta": [
+            "Closure of the aortic valve"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The dicrotic notch, a small peak or notch on an arterial pressure waveform, is a visual indicator of the aortic valve closing during the cardiac cycle. It marks the end of systole (ventricular contraction) and the beginning of diastole (ventricular relaxation).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 22,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the first major branch that arises directly from the aortic arch?",
+        "image": "",
+        "opciones": [
+            "Left common carotid artery",
+            "Brachiocephalic trunk",
+            "Left subclavian artery",
+            "Right common carotid artery"
+        ],
+        "respuesta_correcta": [
+            "Brachiocephalic trunk"
+        ],
+        "concept_to_study": "Aortic arch anatomy and branches",
+        "explicacion_openai": "The brachiocephalic trunk (also known as the innominate artery) is the first and largest branch arising from the aortic arch. It subsequently divides into the right common carotid and right subclavian arteries.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 23,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The left common carotid artery typically arises directly from which structure?",
+        "image": "",
+        "opciones": [
+            "Brachiocephalic trunk",
+            "Aortic arch",
+            "Right common carotid artery",
+            "Left subclavian artery"
+        ],
+        "respuesta_correcta": [
+            "Aortic arch"
+        ],
+        "concept_to_study": "Aortic arch anatomy and branches",
+        "explicacion_openai": "The left common carotid artery arises directly from the aortic arch, positioned between the brachiocephalic trunk and the left subclavian artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 24,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artery supplies blood to the left arm?",
+        "image": "",
+        "opciones": [
+            "Right subclavian artery",
+            "Left common carotid artery",
+            "Left subclavian artery",
+            "Brachiocephalic trunk"
+        ],
+        "respuesta_correcta": [
+            "Left subclavian artery"
+        ],
+        "concept_to_study": "Aortic arch anatomy and branches",
+        "explicacion_openai": "The left subclavian artery, arising directly from the aortic arch, provides the primary blood supply to the left arm. It continues as the axillary artery and then the brachial artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 25,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The brachiocephalic trunk bifurcates into which two arteries?",
+        "image": "",
+        "opciones": [
+            "Left and right common carotid arteries",
+            "Left and right subclavian arteries",
+            "Right common carotid and right subclavian arteries",
+            "Left common carotid and left subclavian arteries"
+        ],
+        "respuesta_correcta": [
+            "Right common carotid and right subclavian arteries"
+        ],
+        "concept_to_study": "Aortic arch anatomy and branches",
+        "explicacion_openai": "The brachiocephalic trunk divides into the right common carotid artery, which supplies the right side of the head and neck, and the right subclavian artery, which supplies the right arm.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 26,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following structures is NOT a direct branch of the aortic arch?",
+        "image": "",
+        "opciones": [
+            "Brachiocephalic trunk",
+            "Left common carotid artery",
+            "Left subclavian artery",
+            "Right subclavian artery"
+        ],
+        "respuesta_correcta": [
+            "Right subclavian artery"
+        ],
+        "concept_to_study": "Aortic arch anatomy and branches",
+        "explicacion_openai": "The right subclavian artery is not a direct branch of the aortic arch. It arises from the brachiocephalic trunk, which *is* a direct branch of the aortic arch.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 27,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary function of the common carotid arteries?",
+        "image": "",
+        "opciones": [
+            "Supply blood to the brain and head",
+            "Supply blood to the arms",
+            "Supply blood to the heart",
+            "Supply blood to the lungs"
+        ],
+        "respuesta_correcta": [
+            "Supply blood to the brain and head"
+        ],
+        "concept_to_study": "Aortic arch anatomy and branches",
+        "explicacion_openai": "The common carotid arteries (both left and right) are the major arteries supplying blood to the brain, face, and scalp. They subsequently divide into the internal and external carotid arteries.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 28,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The subclavian arteries become which arteries as they pass the first rib?",
+        "image": "",
+        "opciones": [
+            "Brachial arteries",
+            "Axillary arteries",
+            "Radial arteries",
+            "Ulnar arteries"
+        ],
+        "respuesta_correcta": [
+            "Axillary arteries"
+        ],
+        "concept_to_study": "Aortic arch anatomy and branches",
+        "explicacion_openai": "As the subclavian arteries cross the first rib, they become the axillary arteries, which continue to supply the arm. The brachial, radial, and ulnar arteries are further downstream in the arm.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 29,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What causes an increase in resistance?",
+        "image": "",
+        "opciones": [
+            "Stenosis",
+            "Vasoconstriction",
+            "Organ supplied not functioning properly",
+            "All the above"
+        ],
+        "respuesta_correcta": [
+            "Vasoconstriction"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "An increase in flow resistance can be caused by several factors, including an increase in viscosity, an increase in vessel length, or a decrease in vessel radius. In essence, anything that makes it harder for a fluid to move through a given path will increase the resistance.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 30,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The 3rd deflection or second anterograde in late diastole, in a triphasic wave, corresponds with:",
+        "image": "",
+        "opciones": [
+            "Ventricular Contraction",
+            "Peripheral resistance",
+            "Elastic recoil",
+            "None of the above"
+        ],
+        "respuesta_correcta": [
+            "Elastic recoil"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The 3rd component of normal arterial flow, in addition to pressure and resistance, is compliance or elastic recoil. Compliance refers to the ability of the arterial walls to stretch and distend, while elastic recoil is the tendency of the walls to return to their original shape after stretching. This interplay between distensibility and recoil helps maintain a smooth and continuous flow of blood through the arteries.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 31,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The 1st anterograde deflection, in a triphasic wave, corresponds with:",
+        "image": "",
+        "opciones": [
+            "Diastole",
+            "Systole",
+            "Compliance",
+            "Closure aortic valve"
+        ],
+        "respuesta_correcta": [
+            "Systole"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The first anterograde (positive) deflection in a triphasic waveform does correspond with the systole phase of the cardiac cycle. In a normal, healthy artery, this peak velocity during systole represents the forward flow of blood propelled by the heart contraction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 32,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "From which artery does the radial artery originate?",
+        "image": "",
+        "opciones": [
+            "Ulnar artery",
+            "Brachial artery",
+            "Axillary artery",
+            "Subclavian artery"
+        ],
+        "respuesta_correcta": [
+            "Brachial artery"
+        ],
+        "concept_to_study": "Arterial anatomy of the forearm and hand",
+        "explicacion_openai": "The radial artery originates from the brachial artery in the cubital fossa (the region around the elbow) and travels down the lateral side of the forearm.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 33,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "On which side of the forearm does the radial artery travel?",
+        "image": "",
+        "opciones": [
+            "Medial",
+            "Lateral",
+            "Anterior",
+            "Posterior"
+        ],
+        "respuesta_correcta": [
+            "Lateral"
+        ],
+        "concept_to_study": "Arterial anatomy of the forearm and hand",
+        "explicacion_openai": "The radial artery travels down the lateral (thumb-side) aspect of the forearm towards the hand.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The radial artery contributes to the formation of which palmar arch?",
+        "image": "",
+        "opciones": [
+            "Superficial palmar arch",
+            "Deep palmar arch",
+            "Dorsal carpal arch",
+            "Palmar carpal arch"
+        ],
+        "respuesta_correcta": [
+            "Superficial palmar arch"
+        ],
+        "concept_to_study": "Arterial anatomy of the forearm and hand",
+        "explicacion_openai": "The radial artery gives off a branch that contributes to the superficial palmar arch. It terminates by joining the deep branch of the ulnar artery in the deep palmar arch.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 35,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "From which artery does the ulnar artery originate?",
+        "image": "",
+        "opciones": [
+            "Radial artery",
+            "Brachial artery",
+            "Axillary artery",
+            "Subclavian artery"
+        ],
+        "respuesta_correcta": [
+            "Brachial artery"
+        ],
+        "concept_to_study": "Arterial anatomy of the forearm and hand",
+        "explicacion_openai": "Similar to the radial artery, the ulnar artery also originates from the brachial artery in the cubital fossa.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 36,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "On which side of the forearm does the ulnar artery travel?",
+        "image": "",
+        "opciones": [
+            "Lateral",
+            "Medial",
+            "Anterior",
+            "Posterior"
+        ],
+        "respuesta_correcta": [
+            "Medial"
+        ],
+        "concept_to_study": "Arterial anatomy of the forearm and hand",
+        "explicacion_openai": "The ulnar artery travels down the medial (pinky-side) aspect of the forearm towards the hand.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 37,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The ulnar artery is the predominant source of blood flow to which anatomical structure?",
+        "image": "",
+        "opciones": [
+            "The elbow",
+            "The wrist",
+            "The hand",
+            "The fingers"
+        ],
+        "respuesta_correcta": [
+            "The hand"
+        ],
+        "concept_to_study": "Arterial anatomy of the forearm and hand",
+        "explicacion_openai": "The ulnar artery is the main source of blood supply to the hand, ensuring adequate perfusion of the palmar arches and digital arteries.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 38,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which palmar arch does the ulnar artery primarily terminate in?",
+        "image": "",
+        "opciones": [
+            "Deep palmar arch",
+            "Superficial palmar arch",
+            "Dorsal carpal arch",
+            "Palmar carpal arch"
+        ],
+        "respuesta_correcta": [
+            "Superficial palmar arch"
+        ],
+        "concept_to_study": "Arterial anatomy of the forearm and hand",
+        "explicacion_openai": "The ulnar artery terminates in the superficial palmar arch, after giving off a deep palmar branch.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 39,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The radial artery terminates in the deep palmar arch by joining which artery?",
+        "image": "",
+        "opciones": [
+            "The superficial branch of the ulnar artery",
+            "The deep branch of the ulnar artery",
+            "The interosseous artery",
+            "The recurrent radial artery"
+        ],
+        "respuesta_correcta": [
+            "The deep branch of the ulnar artery"
+        ],
+        "concept_to_study": "Arterial anatomy of the forearm and hand",
+        "explicacion_openai": "The radial artery terminates in the deep palmar arch by anastomosing (joining) with the deep branch of the ulnar artery, completing the arch.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 40,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "As the arterial vessel wall becomes less compliant:",
+        "image": "",
+        "opciones": [
+            "The 1st component increase",
+            "The 3erd component diminishes/disappears",
+            "The 2nd component increase",
+            "PSV increase",
+            ", the third component of the wave affecting elastic recoil, which is the elastic recoil itself, is reduced or diminished. This is because less compliant vessels are less able to expand and contract with each heartbeat, thus reducing the amount of elastic recoil that can drive blood flow"
+        ],
+        "respuesta_correcta": [
+            "The 3erd component diminishes/disappears"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "As vessel walls become less compliant (more rigid), the third component of the wave affecting elastic recoil, which is the elastic recoil itself, is reduced or diminished. This is because less compliant vessels are less able to expand and contract with each heartbeat, thus reducing the amount of elastic recoil that can drive blood flow",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 41,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary function of the palmar arches?",
+        "image": "",
+        "opciones": [
+            "To supply blood to the forearm muscles",
+            "To provide collateral circulation to the hand",
+            "To drain blood from the hand",
+            "To supply blood to the elbow joint"
+        ],
+        "respuesta_correcta": [
+            "To provide collateral circulation to the hand"
+        ],
+        "concept_to_study": "Arterial anatomy of the forearm and hand",
+        "explicacion_openai": "The palmar arches (superficial and deep) provide important collateral circulation to the hand. This means that if one artery is blocked, the other can still supply blood to the hand, preventing ischemia.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 42,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which term describes the palmar side of the hand?",
+        "image": "",
+        "opciones": [
+            "Dorsal",
+            "Volar",
+            "Lateral",
+            "Medial"
+        ],
+        "respuesta_correcta": [
+            "Volar"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The term 'volar' is synonymous with 'palmar' and refers to the palm side of the hand. The dorsal side is the back of the hand.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 43,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the clinical significance of the palmar arches' formation?",
+        "image": "",
+        "opciones": [
+            "They increase blood pressure in the hand",
+            "They provide collateral circulation to the hand",
+            "They decrease blood flow to the fingers",
+            "They increase the risk of thrombosis"
+        ],
+        "respuesta_correcta": [
+            "They provide collateral circulation to the hand"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The palmar arches provide crucial collateral circulation. If one artery is blocked, the other can still supply blood to the hand, preventing ischemia and tissue damage.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 44,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artery is typically used to assess the patency of the palmar arches using the Allen test?",
+        "image": "",
+        "opciones": [
+            "Brachial artery",
+            "Radial and ulnar arteries",
+            "Axillary artery",
+            "Interosseous artery"
+        ],
+        "respuesta_correcta": [
+            "Radial and ulnar arteries"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The Allen test assesses the patency of the radial and ulnar arteries and their ability to provide collateral circulation to the hand via the palmar arches. It's a common test performed before arterial puncture or cannulation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 45,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the potential consequence of damage to both the radial and ulnar arteries at the wrist?",
+        "image": "",
+        "opciones": [
+            "Increased blood flow to the hand",
+            "Ischemia and necrosis of the hand",
+            "Increased range of motion in the fingers",
+            "Decreased sensation in the forearm"
+        ],
+        "respuesta_correcta": [
+            "Ischemia and necrosis of the hand"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "Damage to both the radial and ulnar arteries at the wrist can compromise the blood supply to the hand, potentially leading to ischemia (lack of blood flow) and necrosis (tissue death).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is the human audible range?",
+        "image": "",
+        "opciones": [
+            "<20 Hz",
+            "20 Hz - 20 Khz",
+            ">20,000 Hz",
+            "20 KHz - 20 MHz"
+        ],
+        "respuesta_correcta": [
+            "20 Hz - 20 Khz"
+        ],
+        "concept_to_study": "Doppler physics and arterial testing",
+        "explicacion_openai": "The audible range for humans typically spans from 20 Hz to 20,000 Hz (20 kHz).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 47,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What type of blood do the digital arteries carry?",
+        "image": "",
+        "opciones": [
+            "Deoxygenated blood",
+            "Oxygenated blood",
+            "Mixed arterial and venous blood",
+            "Lymph"
+        ],
+        "respuesta_correcta": [
+            "Oxygenated blood"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The digital arteries, like all arteries (with the exception of the pulmonary artery), carry oxygenated blood to the tissues of the fingers.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 48,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the relationship between the superficial and deep palmar arches?",
+        "image": "",
+        "opciones": [
+            "They are completely independent of each other",
+            "They are connected by communicating branches",
+            "The superficial arch drains into the deep arch",
+            "The deep arch drains into the superficial arch"
+        ],
+        "respuesta_correcta": [
+            "They are connected by communicating branches"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The superficial and deep palmar arches are connected by communicating branches, allowing for collateral circulation and ensuring adequate blood supply to the hand even if one arch is compromised.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 49,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is not a risk factor for developing arterial insufficiency in the hand?",
+        "image": "",
+        "opciones": [
+            "Smoking",
+            "High-fiber diet",
+            "Buerger's disease",
+            "All of the above"
+        ],
+        "respuesta_correcta": [
+            "High-fiber diet"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "Risk factors for arterial disease in the hand are largely the same as for peripheral artery disease (PAD) in general, including smoking, diabetes, high blood pressure, high cholesterol, obesity, and a family history of PAD, heart disease, or stroke. Age, especially after 65, is also a significant factor, particularly if other risk factors are present.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 50,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The superficial palmar arch is primarily formed by the distal portion of which artery?",
+        "image": "",
+        "opciones": [
+            "Radial artery",
+            "Ulnar artery",
+            "Brachial artery",
+            "Interosseous artery"
+        ],
+        "respuesta_correcta": [
+            "Ulnar artery"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The superficial palmar arch is mainly formed by the distal portion of the ulnar artery as it continues into the hand.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 51,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Besides the ulnar artery, what other artery contributes to the superficial palmar arch?",
+        "image": "",
+        "opciones": [
+            "Brachial artery",
+            "Radial artery",
+            "Axillary artery",
+            "Interosseous artery"
+        ],
+        "respuesta_correcta": [
+            "Radial artery"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "A branch of the radial artery also contributes to the formation of the superficial palmar arch, although the ulnar artery is the predominant contributor.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 52,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The deep palmar arch is primarily formed by the distal portion of which artery?",
+        "image": "",
+        "opciones": [
+            "Ulnar artery",
+            "Radial artery",
+            "Brachial artery",
+            "Interosseous artery"
+        ],
+        "respuesta_correcta": [
+            "Radial artery"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The deep palmar arch is mainly formed by the distal portion of the radial artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 53,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Besides the distal radial artery, what other arterial structure contributes to the deep palmar arch?",
+        "image": "",
+        "opciones": [
+            "The superficial branch of the ulnar artery",
+            "The deep palmar branch of the ulnar artery",
+            "The interosseous artery",
+            "The recurrent radial artery"
+        ],
+        "respuesta_correcta": [
+            "The deep palmar branch of the ulnar artery"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The deep palmar arch is formed by the distal portion of the radial artery and the deep palmar branch of the ulnar artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 54,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "From which structures do the digital arteries arise?",
+        "image": "",
+        "opciones": [
+            "The brachial artery",
+            "The palmar arches",
+            "The interosseous artery",
+            "The axillary artery"
+        ],
+        "respuesta_correcta": [
+            "The palmar arches"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The digital arteries, which supply blood to the fingers, arise from the palmar arches (both superficial and deep).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 55,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the final destination of the digital arteries?",
+        "image": "",
+        "opciones": [
+            "The wrist",
+            "The elbow",
+            "The fingers",
+            "The palm"
+        ],
+        "respuesta_correcta": [
+            "The fingers"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "The digital arteries extend into the fingers, providing the necessary blood supply for their function and viability.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 56,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Into what branches do the digital arteries divide?",
+        "image": "",
+        "opciones": [
+            "Anterior and posterior branches",
+            "Proximal and distal branches",
+            "Lateral and medial branches",
+            "Superficial and deep branches"
+        ],
+        "respuesta_correcta": [
+            "Lateral and medial branches"
+        ],
+        "concept_to_study": "Arterial anatomy of the hand",
+        "explicacion_openai": "Within the fingers, the digital arteries divide into lateral and medial branches to ensure complete vascularization of each digit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 57,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to Reynolds Number, what factor most influences the transition from laminar to turbulent blood flow?",
+        "image": "",
+        "opciones": [
+            "Blood viscosity",
+            "Flow velocity and vessel diameter",
+            "Blood density",
+            "Heart rate"
+        ],
+        "respuesta_correcta": [
+            "Flow velocity and vessel diameter"
+        ],
+        "concept_to_study": "Reynolds Number and its role in blood flow dynamics",
+        "explicacion_openai": "Reynolds Number quantifies the stability of blood flow within vessels. Since blood density and viscosity remain fairly constant, the primary determinants of turbulence are **flow velocity and vessel diameter**. When the Reynolds Number exceeds 2000, the likelihood of turbulence increases, leading to disrupted flow patterns and potential vascular bruits.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 58,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Turbulent flow, characterized by eddies and vortices, occurs at:",
+        "image": "",
+        "opciones": [
+            "Elevated blood viscosity",
+            "Higher Re",
+            "Pre-stenotic segment",
+            "Pre-occlusive segment"
+        ],
+        "respuesta_correcta": [
+            "Higher Re"
+        ],
+        "concept_to_study": "Reynolds Number and its role in blood flow dynamics",
+        "explicacion_openai": "Reynolds Number quantifies the stability of blood flow within vessels. Since blood density and viscosity remain fairly constant, the primary determinants of turbulence are **flow velocity and vessel diameter**. When the Reynolds Number exceeds 2000, the likelihood of turbulence increases, leading to disrupted flow patterns and potential vascular bruits.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 59,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens when blood flow becomes turbulent?",
+        "image": "",
+        "opciones": [
+            "Blood velocity decreases",
+            "Vessel walls vibrate, producing bruits",
+            "Flow becomes more efficient",
+            "Pressure remains constant"
+        ],
+        "respuesta_correcta": [
+            "Vessel walls vibrate, producing bruits"
+        ],
+        "concept_to_study": "Effects of turbulent blood flow",
+        "explicacion_openai": "Turbulent blood flow causes **vessel wall vibrations**, leading to vascular bruits audible sounds detected with a stethoscope. These bruits indicate abnormal blood flow, often caused by **stenosis, plaques, or vascular abnormalities**.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 60,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which condition is most likely to increase Reynolds Number above 2000?",
+        "image": "",
+        "opciones": [
+            "High intensity exercises",
+            "Aortic stenosis",
+            "High blood viscosity",
+            "Increased heart rate"
+        ],
+        "respuesta_correcta": [
+            "Aortic stenosis"
+        ],
+        "concept_to_study": "Clinical relevance of Reynolds Number",
+        "explicacion_openai": "Aortic stenosis increases **flow velocity**, one of the key parameters in Reynolds Number. As velocity rises, turbulence becomes more likely, contributing to abnormal flow patterns and potential cardiovascular complications.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 61,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Factors influencing Reynolds number:",
+        "image": "",
+        "opciones": [
+            "Blood velocity, elastic arteries walls, and the length of the vessel",
+            "Blood velocity, blood viscosity, and the diameter of the blood vessel",
+            "Blood viscosity, the radius of the vessel, and the length of the vessel",
+            "None of the above",
+            ", or a narrowed vessel (due to plaque buildup or clots) can all increase the Reynolds number, potentially leading to turbulence."
+        ],
+        "respuesta_correcta": [
+            "Blood velocity, blood viscosity, and the diameter of the blood vessel"
+        ],
+        "concept_to_study": "Reynolds Number",
+        "explicacion_openai": "Blood flow Reynolds number is influenced by blood velocity, blood viscosity, and the diameter of the blood vessel. Increased blood velocity, decreased viscosity (as seen in anemia), or a narrowed vessel (due to plaque buildup or clots) can all increase the Reynolds number, potentially leading to turbulence.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 62,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following would cause blood turbulence at lower Reynolds Number values?",
+        "image": "",
+        "opciones": [
+            "High blood viscosity",
+            "Vessel irregularities",
+            "Increased vessel diameter",
+            "Plug flow"
+        ],
+        "respuesta_correcta": [
+            "Vessel irregularities"
+        ],
+        "concept_to_study": "Factors influencing turbulence",
+        "explicacion_openai": "Turbulence can occur at **Reynolds Numbers lower than 2000** due to **pulsatile flow and vessel irregularities such as plaques or stenosis**, further disrupting blood stability.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 63,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What effect does increasing blood viscosity have on Reynolds Number?",
+        "image": "",
+        "opciones": [
+            "It increases Reynolds Number",
+            "It decreases Reynolds Number",
+            "It has no effect",
+            "It increases turbulence"
+        ],
+        "respuesta_correcta": [
+            "It decreases Reynolds Number"
+        ],
+        "concept_to_study": "Relationship between viscosity and turbulence",
+        "explicacion_openai": "Higher blood viscosity **reduces turbulence** by maintaining smoother, laminar flow. Lower viscosity increases Reynolds Number, making turbulence more likely.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 64,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which component of the Reynolds equation contributes the most to turbulence in diseased arteries?",
+        "image": "",
+        "opciones": [
+            "Blood density",
+            "Vessel diameter",
+            "Velocity",
+            "Viscosity"
+        ],
+        "respuesta_correcta": [
+            "Velocity"
+        ],
+        "concept_to_study": "Hemodynamic factors in disease",
+        "explicacion_openai": "Velocity significantly influences turbulence, especially in **stenotic arteries**, where flow speeds up through narrow segments, increasing Reynolds Number and contributing to bruits.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 65,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why does Reynolds Number have no physical units?",
+        "image": "",
+        "opciones": [
+            "It measures relative effects rather than absolute quantities",
+            "It was simplified for fluid dynamics",
+            "It only applies to rigid tubes",
+            "It is an outdated concept"
+        ],
+        "respuesta_correcta": [
+            "It measures relative effects rather than absolute quantities"
+        ],
+        "concept_to_study": "Properties of Reynolds Number",
+        "explicacion_openai": "Reynolds Number is **dimensionless** because it represents a ratio of forces (inertial vs. viscous), making it useful for comparing flow behaviors across different systems.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 66,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary cause of vascular bruits?",
+        "image": "",
+        "opciones": [
+            "Low velocity flow",
+            "Turbulent blood movement",
+            "High blood viscosity",
+            "Elastic artery walls recoil"
+        ],
+        "respuesta_correcta": [
+            "Turbulent blood movement"
+        ],
+        "concept_to_study": "Turbulent flow and clinical manifestations",
+        "explicacion_openai": "Vascular bruits are caused by **turbulent blood flow**, often due to **stenosis or vessel abnormalities**. These vibrations produce distinct sounds detectable in medical examinations.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 67,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What Reynolds Number value typically marks the transition to turbulence?",
+        "image": "",
+        "opciones": [
+            "500",
+            "1000",
+            "2000",
+            "5000"
+        ],
+        "respuesta_correcta": [
+            "2000"
+        ],
+        "concept_to_study": "Threshold for turbulent blood flow",
+        "explicacion_openai": "When Reynolds Number **exceeds 2000**, laminar flow tends to become disturbed, marking the onset of **turbulence**. However, other factors may influence flow stability at lower values.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 68,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which vascular condition is most associated with increased turbulence due to high Reynolds Number?",
+        "image": "",
+        "opciones": [
+            "Arterial stenosis",
+            "Arteria with increased diameter",
+            "Arteria with increased length",
+            "Arterial aneurysm"
+        ],
+        "respuesta_correcta": [
+            "Arterial stenosis"
+        ],
+        "concept_to_study": "Turbulent flow and arterial narrowing",
+        "explicacion_openai": "In **arterial stenosis**, the narrowing of the vessel leads to an **increase in blood velocity**, which raises Reynolds Number above 2000, promoting turbulence. This turbulence contributes to clinical manifestations such as **bruits and altered perfusion**.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 69,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which diagnostic method is used to detect vascular turbulence caused by high Reynolds Number?",
+        "image": "",
+        "opciones": [
+            "Electrocardiogram (ECG)",
+            "Magnetic Resonance Imaging (MRI)",
+            "Doppler ultrasound",
+            "CT scan"
+        ],
+        "respuesta_correcta": [
+            "Doppler ultrasound"
+        ],
+        "concept_to_study": "Turbulent blood flow detection",
+        "explicacion_openai": "**Doppler ultrasound** is widely used to assess blood flow patterns and detect **turbulence** associated with stenosis or abnormal vessel conditions. It helps measure **velocity changes**, which directly impact Reynolds Number calculations.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 70,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In cases of polycythemia vera, how does increased blood viscosity affect Reynolds Number?",
+        "image": "",
+        "opciones": [
+            "It increases Reynolds Number",
+            "It decreases Reynolds Number",
+            "It causes arterial bruits",
+            "It leads to turbulent flow"
+        ],
+        "respuesta_correcta": [
+            "It decreases Reynolds Number"
+        ],
+        "concept_to_study": "Effect of hyperviscosity on flow dynamics",
+        "explicacion_openai": "In **polycythemia vera**, elevated red blood cell levels **increase blood viscosity**, making flow more resistant to turbulence. This results in a **lower Reynolds Number**, reducing the likelihood of turbulent flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 71,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why do vascular bruits occur in stenotic arteries?",
+        "image": "",
+        "opciones": [
+            "Increased laminar flow",
+            "Wall vibrations due to turbulence",
+            "Decreased blood velocity",
+            "Lower vessel diameter"
+        ],
+        "respuesta_correcta": [
+            "Wall vibrations due to turbulence"
+        ],
+        "concept_to_study": "Clinical significance of turbulent flow",
+        "explicacion_openai": "Bruits are **audible vascular sounds** caused by **turbulent blood flow** in **stenotic arteries**. The increased **velocity and disrupted flow patterns** lead to **wall vibrations**, which are detected in clinical assessments.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 72,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In patients with abdominal aortic aneurysms, how does the enlarged vessel affect Reynolds Number?",
+        "image": "",
+        "opciones": [
+            "It increases Reynolds Number due to vessel dilation",
+            "It decreases Reynolds Number due to lower velocity",
+            "It increase Reynolds Number due to elevated pressure",
+            "It has not effect"
+        ],
+        "respuesta_correcta": [
+            "It decreases Reynolds Number due to lower velocity"
+        ],
+        "concept_to_study": "Hemodynamic changes in aneurysms",
+        "explicacion_openai": "In **aneurysms**, vessel dilation increases the radius, causing **blood velocity to drop**. Since Reynolds Number is highly dependent on **flow velocity**, this **reduces the likelihood of turbulence**.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 73,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following conditions is most likely to reduce turbulence in blood flow?",
+        "image": "",
+        "opciones": [
+            "Low hematocrit levels",
+            "Severe dehydration",
+            "Polycythemia vera",
+            "Arterial stenosis"
+        ],
+        "respuesta_correcta": [
+            "Polycythemia vera"
+        ],
+        "concept_to_study": "Viscosity and turbulence relationship",
+        "explicacion_openai": "In **polycythemia vera**, blood viscosity increases due to excessive red blood cells. Since viscosity is an **inverse factor in Reynolds Number**, higher viscosity lowers turbulence in vascular flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 74,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why is turbulence a concern in prosthetic vascular grafts?",
+        "image": "",
+        "opciones": [
+            "It enhances flow efficiency",
+            "It can lead to thrombus formation",
+            "It stabilizes blood flow",
+            "It reduces vascular resistance"
+        ],
+        "respuesta_correcta": [
+            "It can lead to thrombus formation"
+        ],
+        "concept_to_study": "Turbulence risks in vascular interventions",
+        "explicacion_openai": "**Turbulence in prosthetic vascular grafts** increases the risk of **thrombosis**. Disrupted flow patterns promote platelet aggregation, leading to potential graft failure or embolic complications.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 75,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which factor contributes most to increased turbulence in severely narrowed arteries?",
+        "image": "",
+        "opciones": [
+            "Higher blood density",
+            "Increased velocity",
+            "Elevated viscosity",
+            "<2,000 Reynolds Number"
+        ],
+        "respuesta_correcta": [
+            "Increased velocity"
+        ],
+        "concept_to_study": "Hemodynamic effects of arterial stenosis",
+        "explicacion_openai": "In **severely narrowed arteries**, flow velocity increases significantly, raising Reynolds Number above 2000, leading to **unstable blood flow and turbulence**.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 76,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the unit of measurement for Reynolds Number?",
+        "image": "",
+        "opciones": [
+            "Meters per second (m/s)",
+            "Millimeters of mercury (mmHg)",
+            "It has no physical unit",
+            "Liters per minute (L/min)"
+        ],
+        "respuesta_correcta": [
+            "It has no physical unit"
+        ],
+        "concept_to_study": "Reynolds Number as a dimensionless quantity",
+        "explicacion_openai": "Reynolds Number is **dimensionless**, meaning it has no physical unit. It represents a ratio of forces**inertial forces versus viscous forces**which determines whether fluid flow remains laminar or becomes turbulent.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 77,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does Bernoulli's Principle state in fluid dynamics?",
+        "image": "",
+        "opciones": [
+            "An increase in velocity results in a decrease in pressure",
+            "An increase in velocity results in an increase in pressure",
+            "Velocity and pressure are independent variables",
+            "Pressure only changes with the velocity is stable"
+        ],
+        "respuesta_correcta": [
+            "An increase in velocity results in a decrease in pressure"
+        ],
+        "concept_to_study": "Definition of Bernoullis Principle",
+        "explicacion_openai": "Bernoulli's Principle dictates that for a steady flow where gravitational potential energy remains constant, an increase in the fluids velocity must be accompanied by a decrease in its pressure in order to conserve total energy.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 78,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following best defines total fluid energy in the context of Bernoulli's Principle?",
+        "image": "",
+        "opciones": [
+            "The kinetic energy of the moving fluid only",
+            "The sum of the potential (pressure), kinetic, and gravitational energies",
+            "The combination of thermal and gravitational energies",
+            "Only the potential energy from blood pressure"
+        ],
+        "respuesta_correcta": [
+            "The sum of the potential (pressure), kinetic, and gravitational energies"
+        ],
+        "concept_to_study": "Total fluid energy composition",
+        "explicacion_openai": "Total fluid energy is defined as the sum of potential energy (pressure energy), kinetic energy, and gravitational energy. This concept is central to Bernoulli's Principle in fluid dynamics.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 79,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to Bernoulli's Principle, which three components make up the total energy of a moving fluid?",
+        "image": "",
+        "opciones": [
+            "Kinetic, potential, and chemical energies",
+            "Potential, gravitational, and thermal energies",
+            "Kinetic, potential, and gravitational energies",
+            "Electrical, kinetic, and potential energies"
+        ],
+        "respuesta_correcta": [
+            "Kinetic, potential, and gravitational energies"
+        ],
+        "concept_to_study": "Components of total fluid energy",
+        "explicacion_openai": "The total energy in a moving fluid, as considered by Bernoullis Principle, includes kinetic energy, potential energy (in the form of pressure), and gravitational energy.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 80,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the term flow separation refer to in vascular hemodynamics?",
+        "image": "",
+        "opciones": [
+            "A uniform, smooth laminar flow along the vessel",
+            "A sudden acceleration of blood flow through the vessel",
+            "The division of blood flow into regions of stagnation or reversal due to pressure gradients",
+            "The complete stoppage of blood flow in a segment of the vessel"
+        ],
+        "respuesta_correcta": [
+            "The division of blood flow into regions of stagnation or reversal due to pressure gradients"
+        ],
+        "concept_to_study": "Definition of flow separation",
+        "explicacion_openai": "Flow separation occurs when abrupt changes in vessel geometry or pressure gradients cause part of the blood flow to become stagnant or reverse direction. This interrupts the uniform laminar flow and is crucial in understanding local hemodynamic disturbances.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 81,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is a 'pressure gradient' in the context of blood flow?",
+        "image": "",
+        "opciones": [
+            "The uniform pressure measured at all points along a vessel",
+            "The difference in pressure between two points in a vessel",
+            "The increase in pressure due solely to gravitational effects",
+            "The sum of all pressures encountered along the flow path"
+        ],
+        "respuesta_correcta": [
+            "The difference in pressure between two points in a vessel"
+        ],
+        "concept_to_study": "Definition of pressure gradient",
+        "explicacion_openai": "A pressure gradient is defined as the difference in pressure between two points in a vessel. This gradient is the driving force that causes blood to flow from areas of higher pressure to lower pressure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 82,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to Bernoulli's equation, if gravitational potential energy remains unchanged, an increase in which factor will result in a decrease in pressure?",
+        "image": "",
+        "opciones": [
+            "Blood viscosity",
+            "Fluid velocity",
+            "Vessel elasticity",
+            "Blood density"
+        ],
+        "respuesta_correcta": [
+            "Fluid velocity"
+        ],
+        "concept_to_study": "Effects of velocity changes in Bernoulli's equation",
+        "explicacion_openai": "With gravitational energy held constant, Bernoulli's Principle dictates that a rise in fluid velocity leads directly to a drop in pressure within the fluid.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 83,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When the diameter of a vessel increases, what happens to blood velocity and pressure?",
+        "image": "",
+        "opciones": [
+            "Velocity decreases and pressure increases",
+            "Velocity increases and pressure decreases",
+            "Both velocity and pressure increase",
+            "Both velocity and pressure decrease"
+        ],
+        "respuesta_correcta": [
+            "Velocity decreases and pressure increases"
+        ],
+        "concept_to_study": "Influence of vessel diameter on flow dynamics",
+        "explicacion_openai": "A larger vessel diameter increases the cross-sectional area, reducing blood velocity and, accordingly, increasing pressure (if the flow rate remains constant), as per Bernoulli's Principle.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 84,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Bernoulli's equation, a change in fluid velocity primarily causes a change in which of the following?",
+        "image": "",
+        "opciones": [
+            "Gravitational potential",
+            "Fluid direction",
+            "Pressure",
+            "Viscosity"
+        ],
+        "respuesta_correcta": [
+            "Pressure"
+        ],
+        "concept_to_study": "Relating velocity and pressure",
+        "explicacion_openai": "Bernoulli's equation shows that, with other factors held constant, an increase in fluid velocity results in a decrease in pressure. This inverse relationship is fundamental to fluid dynamics.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 85,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is expected to occur if energy is lost (converted into heat) as blood flows through a stenosis?",
+        "image": "",
+        "opciones": [
+            "The total energy of the blood remains constant",
+            "The total energy of the blood increases",
+            "The total energy of the blood decreases",
+            "Pressure energy increases beyond pre-stenotic levels"
+        ],
+        "respuesta_correcta": [
+            "The total energy of the blood decreases"
+        ],
+        "concept_to_study": "Energy loss in stenotic segments",
+        "explicacion_openai": "Energy loss, due to conversion into heat through friction and turbulence, results in a decrease in the total energy of the blood as it passes through a stenotic region.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 86,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which arterial region typically exhibits the highest total energy as defined by Bernoulli's Principle?",
+        "image": "",
+        "opciones": [
+            "Within the stenosis",
+            "Pre-stenosis region",
+            "Post-stenosis region",
+            "At points of flow separation"
+        ],
+        "respuesta_correcta": [
+            "Pre-stenosis region"
+        ],
+        "concept_to_study": "Energy distributions in vascular segments",
+        "explicacion_openai": "The pre-stenosis region usually has high pressure and low velocity, resulting in the highest total energy sum compared to regions within or distal to the stenosis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 87,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient with severe aortic stenosis exhibits a narrowed aortic valve. According to Bernoulli's Principle, what hemodynamic change is most likely within the stenotic segment?",
+        "image": "",
+        "opciones": [
+            "Blood velocity decreases and pressure increases",
+            "Blood velocity increases and pressure decreases",
+            "Both velocity and pressure increase",
+            "No significant change in velocity or pressure"
+        ],
+        "respuesta_correcta": [
+            "Blood velocity increases and pressure decreases"
+        ],
+        "concept_to_study": "Hemodynamic consequences of stenosis",
+        "explicacion_openai": "In a stenotic segment, the narrowing causes an increase in blood velocity. According to Bernoulli's Principle, this higher velocity results in a drop in local pressure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 88,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a carotid Doppler study, turbulent flow with distinct color changes is observed at the carotid bulb. This finding most likely indicates:",
+        "image": "",
+        "opciones": [
+            "Uniform laminar flow",
+            "High pressure in the pre-stenotic region",
+            "Flow separation",
+            "An increase in gravitational energy"
+        ],
+        "respuesta_correcta": [
+            "Flow separation"
+        ],
+        "concept_to_study": "Doppler-detected flow separation",
+        "explicacion_openai": "Flow separation, often depicted on color Doppler ultrasound of the carotid bulb, is a normal phenomenon that occurs due to the unique geometry of the carotid bifurcation and the pulsatile nature of blood flow. It's a localized disturbance of the blood flow pattern, typically seen as an area of swirling or reversed blood flow. Flow separation due to a pressure gradient can be visualized using Doppler color flow imaging.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 89,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "After carotid endarterectomy, a post-procedure Doppler study shows lower velocity with higher pressure in the formerly stenotic segment. This observation illustrates:",
+        "image": "",
+        "opciones": [
+            "An irreversible turbulent flow",
+            "Restoration of pre-stenotic hemodynamic conditions",
+            "Further energy loss through the stenosis",
+            "The development of an aneurysmal segment"
+        ],
+        "respuesta_correcta": [
+            "Restoration of pre-stenotic hemodynamic conditions"
+        ],
+        "concept_to_study": "Normalization of flow post-intervention",
+        "explicacion_openai": "Following endarterectomy, the normalization of flow marked by decreased velocity and a recovery of higher pressure demonstrates the restoration of the pre-stenotic energy balance in the vessel.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 90,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "An aneurysm leads to dilation of a peripheral artery. Based on Bernoulli's Principle, what is the expected hemodynamic change within the aneurysmal segment?",
+        "image": "",
+        "opciones": [
+            "Increased velocity and decreased pressure",
+            "Decreased velocity and increased pressure",
+            "No change in velocity or pressure",
+            "Increased kinetic energy with higher pressure"
+        ],
+        "respuesta_correcta": [
+            "Decreased velocity and increased pressure"
+        ],
+        "concept_to_study": "Hemodynamics of aneurysmal dilation",
+        "explicacion_openai": "Aneurysmal dilation increases the vessel's cross-sectional area, thereby reducing blood velocity. According to Bernoulli's Principle, this lower velocity corresponds with an increase in local pressure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 91,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During systole, a bypass graft shows regions of flow separation with stagnant blood. What does this indicate about the energy distribution in these regions?",
+        "image": "",
+        "opciones": [
+            "High kinetic energy with low pressure",
+            "Low kinetic energy and relatively high pressure",
+            "Uniform energy distribution throughout the graft",
+            "Increased total energy compared to pre-stenotic regions"
+        ],
+        "respuesta_correcta": [
+            "Low kinetic energy and relatively high pressure"
+        ],
+        "concept_to_study": "Flow separation in grafts",
+        "explicacion_openai": "Flow separation results in stagnant or slow-moving blood, where kinetic energy is low and pressure energy is relatively higher compared to regions with rapid blood flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 92,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a patient with severe coronary artery stenosis, a significant drop in pressure is observed across the lesion. According to Bernoulli's Principle, what must be occurring within the stenosis?",
+        "image": "",
+        "opciones": [
+            "There is a decrease in blood velocity",
+            "There is an increase in blood velocity",
+            "Blood velocity remains the same",
+            "Pressure gradient is negligible"
+        ],
+        "respuesta_correcta": [
+            "There is an increase in blood velocity"
+        ],
+        "concept_to_study": "Coronary stenosis and flow dynamics",
+        "explicacion_openai": "A stenosis causes the vessel to narrow, which increases blood velocity across the lesion. Bernoulli's Principle then predicts a corresponding decrease in pressure within that high-velocity region.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 93,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When comparing Doppler ultrasound images during systole and diastole, why is flow separation more evident during systole?",
+        "image": "",
+        "opciones": [
+            "Systole produces a lower gravitational potential",
+            "Systole causes higher velocity and a greater pressure drop in focal regions",
+            "Diastole creates a pressure gradient that masks flow separation",
+            "There is no difference; it is an imaging artifact"
+        ],
+        "respuesta_correcta": [
+            "Systole causes higher velocity and a greater pressure drop in focal regions"
+        ],
+        "concept_to_study": "Temporal variations in flow separation",
+        "explicacion_openai": "During systole, the heart ejects blood with greater force, increasing flow velocity. This increased velocity causes a larger drop in pressure, accentuating flow separation. During diastole, the near-stagnant flow minimizes these separations.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 94,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents with an audible bruit over the carotid artery. Which Bernoulli-related phenomenon is most likely responsible for this finding?",
+        "image": "",
+        "opciones": [
+            "Stable laminar flow in a wide vessel",
+            "High-velocity blood flow through a narrowed segment leading to turbulence",
+            "Increased gravitational energy in the arterial system",
+            "A uniformly high blood pressure across the entire artery",
+            "segment of an artery. The high velocity in the narrowed area leads to a significant pressure drop, resulting in turbulent vibrations that manifest as an audible bruit."
+        ],
+        "respuesta_correcta": [
+            "High-velocity blood flow through a narrowed segment leading to turbulence"
+        ],
+        "concept_to_study": "Clinical significance of turbulent flow",
+        "explicacion_openai": "The presence of a bruit is most commonly caused by turbulent blood flow through a stenotic (narrowed) segment of an artery. The high velocity in the narrowed area leads to a significant pressure drop, resulting in turbulent vibrations that manifest as an audible bruit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 95,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Following the placement of a vascular stent in the femoral artery, a Doppler study shows reduced flow separation and turbulence. What change in the vessel is primarily responsible for this improvement?",
+        "image": "",
+        "opciones": [
+            "The vessel diameter is increased, leading to decreased velocity",
+            "The vessel becomes less compliant",
+            "There is an increase in blood viscosity",
+            "Gravitational potential in the vessel decreases"
+        ],
+        "respuesta_correcta": [
+            "The vessel diameter is increased, leading to decreased velocity"
+        ],
+        "concept_to_study": "Effect of stent placement on flow dynamics",
+        "explicacion_openai": "Stenting restores a more uniform vessel diameter, which reduces blood velocity in the previously narrowed segment. Consequently, turbulence and flow separation are minimized.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 96,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a patient with post-stenotic dilation, what hemodynamic change is generally observed distal to the stenosis?",
+        "image": "",
+        "opciones": [
+            "Lower pressure and higher velocity",
+            "Higher pressure and lower velocity",
+            "No significant change in pressure or velocity",
+            "Increased kinetic energy with an overall energy gain"
+        ],
+        "respuesta_correcta": [
+            "Higher pressure and lower velocity"
+        ],
+        "concept_to_study": "Poststenotic energy recovery",
+        "explicacion_openai": "Distal to a stenosis, the blood flow decelerates, decreasing kinetic energy while allowing pressure to recover. This results in a relatively higher pressure and lower velocity compared to the stenotic segment.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 97,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the main relationship described by Bernoulli's Principle?",
+        "image": "",
+        "opciones": [
+            "A direct proportionality between velocity and pressure",
+            "An inverse relationship between velocity and pressure",
+            "No relationship between velocity and pressure",
+            "A relationship between pressure and gravitational potential only"
+        ],
+        "respuesta_correcta": [
+            "An inverse relationship between velocity and pressure"
+        ],
+        "concept_to_study": "Fundamental concept of Bernoulli's Principle",
+        "explicacion_openai": "Bernoulli's Principle states that as the velocity of a fluid increases, its pressure decreases  an inverse relationship that is fundamental in understanding fluid dynamics.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 98,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If blood flow velocity increases in a vessel segment, what happens to the pressure in that segment?",
+        "image": "",
+        "opciones": [
+            "Pressure increases",
+            "Pressure decreases",
+            "Pressure remains unchanged",
+            "Pressure first increases then decreases"
+        ],
+        "respuesta_correcta": [
+            "Pressure decreases"
+        ],
+        "concept_to_study": "Effect of velocity changes on pressure",
+        "explicacion_openai": "An increase in blood flow velocity causes a reduction in pressure, as described by Bernoulli's Principle.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 99,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The blood flow velocity is decreased in?",
+        "image": "",
+        "opciones": [
+            "Aortic stenosis",
+            "Aortic Aneurysm",
+            "Aortic EVAR",
+            "Aortic filter"
+        ],
+        "respuesta_correcta": [
+            "Aortic Aneurysm"
+        ],
+        "concept_to_study": "Fundamental concept of Bernoulli's Principle",
+        "explicacion_openai": "Bernoulli's Principle states that as the velocity of a fluid increases, its pressure decreases  an inverse relationship that is fundamental in understanding fluid dynamics.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 100,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to Bernoullis equation, high velocity flow typically results in which of the following?",
+        "image": "",
+        "opciones": [
+            "Higher pressure in that region",
+            "Lower pressure in that region",
+            "Constant pressure regardless of velocity",
+            "Erratic and unpredictable pressure changes"
+        ],
+        "respuesta_correcta": [
+            "Lower pressure in that region"
+        ],
+        "concept_to_study": "Direct consequences of increased flow velocity",
+        "explicacion_openai": "Bernoullis equation predicts that when fluid velocity increases, there is a corresponding decrease in pressure, assuming other factors remain constant.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 101,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In fluid dynamics, blood flows from areas of ______ pressure to areas of ______ pressure.",
+        "image": "",
+        "opciones": [
+            "Low; high",
+            "High; low",
+            "Equal; equal",
+            "Variable; unpredictable"
+        ],
+        "respuesta_correcta": [
+            "High; low"
+        ],
+        "concept_to_study": "Basic flow direction driven by pressure gradient",
+        "explicacion_openai": "Blood moves from regions of high pressure to regions of low pressure, as the pressure gradient is the driving force in fluid dynamics.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 102,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does 'flow separation' in a blood vessel typically result in?",
+        "image": "",
+        "opciones": [
+            "A completely uniform laminar flow",
+            "Regions of stagnant or reversed flow",
+            "An overall increase in velocity across the entire vessel",
+            "High kinetic energy throughout the vessel"
+        ],
+        "respuesta_correcta": [
+            "Regions of stagnant or reversed flow"
+        ],
+        "concept_to_study": "Understanding flow separation",
+        "explicacion_openai": "Flow separation creates areas where the blood stagnates or even reverses direction, disrupting the smooth, laminar flow normally seen in vessels.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 103,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If an increase in blood velocity occurs, what happens to the pressure, according to Bernoulli's Principle?",
+        "image": "",
+        "opciones": [
+            "Pressure increases",
+            "Pressure decreases",
+            "Pressure remains constant",
+            "Pressure fluctuates randomly"
+        ],
+        "respuesta_correcta": [
+            "Pressure decreases"
+        ],
+        "concept_to_study": "Basic inverse relationship between velocity and pressure",
+        "explicacion_openai": "Bernoulli's Principle clearly states that an increase in blood velocity results in a decrease in pressure, assuming other factors remain unchanged.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 104,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following best represents a pressure gradient?",
+        "image": "",
+        "opciones": [
+            "Equal pressures in two separate vessel segments",
+            "A measurable difference in pressure between two points in a vessel",
+            "An increase in pressure along with an increase in velocity",
+            "A constant pressure value throughout the vessel"
+        ],
+        "respuesta_correcta": [
+            "A measurable difference in pressure between two points in a vessel"
+        ],
+        "concept_to_study": "Definition of a pressure gradient",
+        "explicacion_openai": "A pressure gradient is defined as the difference in pressure between two points in a vessel, which serves as the driving force for blood flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 105,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the consequence of increased kinetic energy in a vessel, as described by Bernoullis Principle?",
+        "image": "",
+        "opciones": [
+            "Increased pressure in that segment",
+            "Decreased pressure in that segment",
+            "Maintained pressure despite increased velocity",
+            "An unpredictable change in pressure"
+        ],
+        "respuesta_correcta": [
+            "Decreased pressure in that segment"
+        ],
+        "concept_to_study": "Interplay between kinetic energy and pressure",
+        "explicacion_openai": "As kinetic energy increases because of a rise in fluid velocity, Bernoulli's Principle dictates that the pressure within that segment decreases, conserving the total energy.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 106,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When gravitational potential is constant, which two energy forms determine the total energy in a moving fluid?",
+        "image": "",
+        "opciones": [
+            "Kinetic energy and thermal energy",
+            "Potential (pressure) energy and kinetic energy",
+            "Gravitational and chemical energy",
+            "Magnetic energy and kinetic energy"
+        ],
+        "respuesta_correcta": [
+            "Potential (pressure) energy and kinetic energy"
+        ],
+        "concept_to_study": "Energy components in a fluid with constant gravitational potential",
+        "explicacion_openai": "With gravitational energy held constant, the total energy in a moving fluid is determined by the sum of its kinetic energy and potential (pressure) energy.",
+        "image_explanation": ""
+    }
 ]
