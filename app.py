@@ -20,7 +20,7 @@ from instrucctions.tab_view.instructions_tab import instructions_tab
 
 # Configuración de la página de Streamlit
 st.set_page_config(
-   page_title="SPI Practice Exam - ARDMS",
+   page_title="RVT Practice Exam - ARDMS",
    layout="centered",
    initial_sidebar_state="collapsed",
 )
