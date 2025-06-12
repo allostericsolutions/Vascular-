@@ -1,8 +1,8 @@
 
 ─────────────────────────────────────────────────────────────────────
-# Guía Rápida para el Examen SPI (ARDMS)
+# Guía Rápida para el Examen RVT (ARDMS)
 
-¡Bienvenido(a) a tu examen de práctica ARDMS SPI! En esta aplicación podrás realizar un examen en línea, con tiempo límite y revisión de respuestas.
+¡Bienvenido(a) a tu examen de práctica ARDMS RVT! En esta aplicación podrás realizar un examen en línea, con tiempo límite y revisión de respuestas.
 
 ## ¿Cómo Iniciar?
 
