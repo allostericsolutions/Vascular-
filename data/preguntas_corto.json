@@ -17,4 +17,367 @@
   "explicacion_openai": "When frequency increases, wavelength decreases, assuming a constant speed of sound in tissue.",
   "image_explanation": "",
   "codigo": "import matplotlib.pyplot as plt\nx = [1, 2, 3, 4]\ny = [2, 4, 6, 8]\nplt.plot(x, y)\nplt.xlabel('Tiempo')\nplt.ylabel('Frecuencia')\nplt.title('Relación entre frecuencia y tiempo')\nplt.show()"
-}
+},
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artery is responsible for the arterial pulsation felt in front of the ear, just above the zygomatic arch?",
+        "image": "",
+        "opciones": [
+            "Maxillary",
+            "Facial",
+            "Occipital",
+            "Superficial temporal"
+        ],
+        "respuesta_correcta": [
+            "Superficial temporal"
+        ],
+        "concept_to_study": "Arterial supply to the face and head",
+        "explicacion_openai": "The superficial temporal artery, a branch of the external carotid artery, runs just above the zygomatic arch. This positioning makes it the most likely source of palpable pulsations in that area. The maxillary and facial arteries lie deeper, and the occipital artery primarily supplies the posterior head and scalp.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artery is usually the first branch of the external carotid artery (ECA)?",
+        "image": "",
+        "opciones": [
+            "Inferior thyroid artery",
+            "Superior thyroid artery",
+            "Supraclavicular artery",
+            "Facial artery"
+        ],
+        "respuesta_correcta": [
+            "Superior thyroid artery"
+        ],
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "The superior thyroid artery is generally the first branch of the external carotid artery. It supplies the thyroid gland and neighboring structures. The inferior thyroid artery originates from the subclavian artery, and the facial artery emerges later from the ECA.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The splenic, common hepatic, and left gastric arteries arise from which abdominal artery?",
+        "image": "",
+        "opciones": [
+            "Inferior mesenteric artery",
+            "Proper hepatic artery",
+            "Celiac trunk",
+            "Superior mesenteric artery"
+        ],
+        "respuesta_correcta": [
+            "Celiac trunk"
+        ],
+        "concept_to_study": "Abdominal arterial supply",
+        "explicacion_openai": "The celiac trunk is the main source for these three branches that supply the spleen, liver, and stomach. The superior mesenteric artery primarily serves the intestines, while the inferior mesenteric artery supplies the lower colon.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which vascular clinical condition can lead to vision loss due to ischemia affecting the optic nerve?",
+        "image": "",
+        "opciones": [
+            "Carotid artery stenosis",
+            "Giant Cell Arteritis",
+            "Deep vein thrombosis",
+            "Subclavian steal syndrome"
+        ],
+        "respuesta_correcta": [
+            "Giant Cell Arteritis"
+        ],
+        "concept_to_study": "Superficial temporal artery relevance in clinical diagnosis",
+        "explicacion_openai": "Temporal arteritis, or Giant Cell Arteritis, is an inflammatory disease that affects the walls of medium and large arteries. The superficial temporal artery is frequently involved and may become thickened and tender upon palpation. Early diagnosis is crucial, as untreated cases can lead to vision loss due to ischemia affecting the optic nerve.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient lying down has a Hydrostatic Pressure (HP) of 3 mmHg at the ankle. When standing, what is the HP at the ankle??",
+        "image": "",
+        "opciones": [
+            "0 mmHg",
+            "103 mmHg",
+            "97 mmHg",
+            "17 mmHg"
+        ],
+        "respuesta_correcta": [
+            "103 mmHg"
+        ],
+        "concept_to_study": "Hydrostatic Pressure",
+        "explicacion_openai": "This refers to the pressure exerted by a fluid at rest, due to the force of gravity. In the body, it primarily refers to the pressure of blood within the capillaries. When a person stands, gravity causes the blood to pool in the lower extremities, increasing the hydrostatic pressure, especially at the ankle. A hydrostatic pressure of 100 mmHg at the ankle is the full hydrostatic value that the venous system can reach in the feet when standing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A change in vessel diameter has the most dramatic effect in?",
+        "image": "",
+        "opciones": [
+            "Flow volume",
+            "Viscosity",
+            "Vessel Length",
+            "Friction"
+        ],
+        "respuesta_correcta": [
+            "Flow volume"
+        ],
+        "concept_to_study": "Effect in change in vessel diameter or radius",
+        "explicacion_openai": "A change in vessel diameter has the most dramatic effect on blood flow volume. Vessel diameter is one of the main determinants of resistance in the circulatory system. Changes in diameter, particularly through vasodilation (widening) and vasoconstriction (narrowing), can significantly alter resistance, and thus, flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a stenosis profile, where is the velocity highest?",
+        "image": "",
+        "opciones": [
+            "Stenotic segment",
+            "Pre stenotic segment",
+            "Post stenotic segment",
+            "Distal to the stenosis"
+        ],
+        "respuesta_correcta": [
+            "Stenotic segment"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The Bernoulli effect refers to qualitative behavior of fluids and states that lowering the area of fluid flow causes the increase in fluid flow velocity and decrease in pressure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Another name for the hypogastric artery is:",
+        "image": "",
+        "opciones": [
+            "External iliac artery",
+            "Gastroduodenal artery",
+            "Internal iliac artery",
+            "Celiac artery"
+        ],
+        "respuesta_correcta": [
+            "Internal iliac artery"
+        ],
+        "concept_to_study": "Pelvic arterial supply and nomenclature",
+        "explicacion_openai": "The hypogastric artery is another term for the internal iliac artery, which supplies blood to pelvic organs and structures. The other options refer to arteries with different anatomical distributions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The smallest vessels in the body are:",
+        "image": "",
+        "opciones": [
+            "Arterioles",
+            "Venules",
+            "Capillaries",
+            "Intimas"
+        ],
+        "respuesta_correcta": [
+            "Capillaries"
+        ],
+        "concept_to_study": "Microcirculation and vessel sizes",
+        "explicacion_openai": "Capillaries are the smallest blood vessels and are responsible for the exchange of gases, nutrients, and waste between the blood and tissues. Arterioles and venules are larger and serve as the regulating vessels for blood flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which vessels supply blood to the arterial wall?",
+        "image": "",
+        "opciones": [
+            "Media perforators",
+            "Vasa vasorum",
+            "Osmosis across the intima only",
+            "Septal capillary networks"
+        ],
+        "respuesta_correcta": [
+            "Vasa vasorum"
+        ],
+        "concept_to_study": "Irrigation of large vessel walls",
+        "explicacion_openai": "The vasa vasorum are small vessels that supply the walls of larger arteries and veins, ensuring these structures receive the oxygen and nutrients they need for proper function. The other options do not provide a viable blood supply.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Loss of the spectral window with pulsed Doppler ultrasound occurs with:",
+        "image": "",
+        "opciones": [
+            "Flow turbulence",
+            "Parabolic flow",
+            "Laminar flow",
+            "All the above"
+        ],
+        "respuesta_correcta": [
+            "Flow turbulence"
+        ],
+        "concept_to_study": "Doppler ultrasound physics",
+        "explicacion_openai": "Turbulent flow disrupts the orderly laminar flow, causing a broad range of frequencies to appear on Doppler ultrasound and leading to the loss of the spectral window. Parabolic and laminar flows are more uniform and do not cause this effect.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to the Bernoulli principle, as velocity increases at an area of stenosis, what happens to the pressure at the site of stenosis?",
+        "image": "",
+        "opciones": [
+            "Remains constant",
+            "Increases",
+            "Increases exponentially",
+            "Decreases",
+            "region results in a corresponding decrease in pressure. This is important in understanding the dynamics of blood flow in narrowed vessels."
+        ],
+        "respuesta_correcta": [
+            "Decreases"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "Based on Bernoulli's principle, an increase in velocity within a narrowed (stenotic) region results in a corresponding decrease in pressure. This is important in understanding the dynamics of blood flow in narrowed vessels.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following vessels arises from the anterior surface of the aorta, approximately 2 cm distal from the celiac axis?",
+        "image": "",
+        "opciones": [
+            "SMA",
+            "CHA",
+            "GDA",
+            "IMA"
+        ],
+        "respuesta_correcta": [
+            "SMA"
+        ],
+        "concept_to_study": "Abdominal arterial anatomy",
+        "explicacion_openai": "The Superior Mesenteric Artery (SMA) originates from the anterior surface of the aorta about 2 cm below the celiac trunk, supplying the midgut. The other listed arteries arise at different levels or supply different regions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is potential energy?",
+        "image": "",
+        "opciones": [
+            "The energy an object has due to its position or condition.",
+            "The energy an object has due to its motion.",
+            "The energy an object has due to its chemical composition.",
+            "The energy an object has due to its atomic structure."
+        ],
+        "respuesta_correcta": [
+            "The energy an object has due to its position or condition."
+        ],
+        "concept_to_study": "Fundamentals of energy in physics",
+        "explicacion_openai": "Potential energy is the energy stored in an object due to its position or state. This contrasts with kinetic energy, which is related to motion. Understanding this concept is essential in various physical applications.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is kinetic energy?",
+        "image": "",
+        "opciones": [
+            "The energy an object has due to its position or condition.",
+            "The energy an object has due to its motion.",
+            "The energy an object has due to its chemical composition.",
+            "The energy an object has due to its atomic structure."
+        ],
+        "respuesta_correcta": [
+            "The energy an object has due to its motion."
+        ],
+        "concept_to_study": "Fundamentals of energy in physics",
+        "explicacion_openai": "Kinetic energy is defined as the energy possessed by an object due to its motion. It is calculated using the formula 12mv2 and is distinct from potential energy, which is related to position.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When does an object have no kinetic energy?",
+        "image": "",
+        "opciones": [
+            "When it's at rest.",
+            "When it's moving very slowly.",
+            "When the only force that's acting on it is gravity.",
+            "When it has no electrical charge."
+        ],
+        "respuesta_correcta": [
+            "When it's at rest."
+        ],
+        "concept_to_study": "Understanding kinetic energy",
+        "explicacion_openai": "Kinetic energy depends entirely on the motion of an object. When an object is completely at rest (zero velocity), it has no kinetic energy. The other options do not eliminate motion as a factor.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The internal iliac artery primarily supplies blood to which region of the body?",
+        "image": "",
+        "opciones": [
+            "The brain",
+            "The upper extremities",
+            "The pelvic organs and perineum",
+            "The abdominal viscera"
+        ],
+        "respuesta_correcta": [
+            "The pelvic organs and perineum"
+        ],
+        "concept_to_study": "Pelvic arterial supply and nomenclature",
+        "explicacion_openai": "The internal iliac artery (also known as the hypogastric artery) is the main arterial supply to the pelvic organs, including the bladder, rectum, uterus (in females), and prostate (in males), as well as the perineum.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a stenosis profile, where is the velocity lowest?",
+        "image": "",
+        "opciones": [
+            "Pre stenotic",
+            "Stenituc",
+            "post-stenotic",
+            "Proximal to the stenosis"
+        ],
+        "respuesta_correcta": [
+            "post-stenotic"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The Bernoulli effect refers to qualitative behavior of fluids and states that lowering the area of fluid flow causes the increase in fluid flow velocity and decrease in pressure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the unit of the Reynolds number?",
+        "image": "",
+        "opciones": [
+            "cm/sec",
+            "ml/sec",
+            "Unitless",
+            "Ratio"
+        ],
+        "respuesta_correcta": [
+            "Unitless"
+        ],
+        "concept_to_study": "Hemodynamic principles in stenotic vessels",
+        "explicacion_openai": "The Reynolds number (Re) is unitless and dimensionless. That it is unitless means that it has no direct standard of measurement, the Reynolds number is determined by the properties of fluid flow.",
+        "image_explanation": ""
+    }
+]
