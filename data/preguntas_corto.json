@@ -3210,5 +3210,905 @@
         "concept_to_study": "Great saphenous vein characteristics",
         "explicacion_openai": "The inaccurate statement is that the vein courses laterally at the knee, although it actually ascends medially along the thigh.",
         "image_explanation": ""
+    },
+    [
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In laminar flow through a cylindrical vessel, resistance is directly proportional to:",
+        "image": "",
+        "opciones": [
+            "fluid viscosity and vessel radius",
+            "vessel length and fluid viscosity",
+            "vessel radius and vessel length",
+            "fluid density and fluid viscosity"
+        ],
+        "respuesta_correcta": [
+            "vessel length and fluid viscosity"
+        ],
+        "concept_to_study": "Factors Affecting Resistance to Flow",
+        "explicacion_openai": "According to Poiseuille’s Law, R = (8·η·L)/(π·r⁴), resistance (R) is directly proportional to fluid viscosity (η) and vessel length (L), and inversely proportional to the fourth power of radius (r).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Vessel radius has the greatest effect on:",
+        "image": "",
+        "opciones": [
+            "energy loss",
+            "vessel length",
+            "fluid viscosity",
+            "flow rate"
+        ],
+        "respuesta_correcta": [
+            "flow rate"
+        ],
+        "concept_to_study": "Factors Affecting Resistance to Flow",
+        "explicacion_openai": "Because flow ∝ r⁴ (Poiseuille’s Law), small changes in vessel radius produce large changes in flow rate, far exceeding the effects of viscosity or length.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A change in vessel diameter has the most dramatic effect on:",
+        "image": "",
+        "opciones": [
+            "fluid viscosity",
+            "vascular resistance",
+            "vessel length",
+            "energy loss"
+        ],
+        "respuesta_correcta": [
+            "vascular resistance"
+        ],
+        "concept_to_study": "Diameter Change and Resistance",
+        "explicacion_openai": "Resistance varies inversely with the fourth power of radius; thus, even minor diameter reductions markedly increase vascular resistance.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Within an aneurysmal dilation, blood flow is characterized by:",
+        "image": "",
+        "opciones": [
+            "high velocity and low pressure",
+            "high viscosity and low pressure",
+            "high velocity and low viscosity",
+            "low velocity and elevated pressure"
+        ],
+        "respuesta_correcta": [
+            "low velocity and elevated pressure"
+        ],
+        "concept_to_study": "Bernoulli Principle in Aneurysms",
+        "explicacion_openai": "Bernoulli’s principle predicts reduced flow velocity and increased static pressure within a widened (aneurysmal) segment, opposite to the high-velocity, low-pressure profile of a stenosis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the stenotic segment of a vessel, Doppler findings include:",
+        "image": "",
+        "opciones": [
+            "high pressure and low velocity",
+            "low pressure and high velocity",
+            "high pressure and high velocity",
+            "high velocity and low viscosity"
+        ],
+        "respuesta_correcta": [
+            "low pressure and high velocity"
+        ],
+        "concept_to_study": "Bernoulli Principle in Stenosis",
+        "explicacion_openai": "According to Bernoulli’s principle, flow acceleration through a narrowed lumen raises velocity and lowers pressure at the site of stenosis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Distal to a stenosis (post-stenotic region), the flow profile typically shows:",
+        "image": "",
+        "opciones": [
+            "low pressure and high velocity",
+            "high velocity and high pressure",
+            "low velocity and elevated pressure",
+            "low velocity and low pressure"
+        ],
+        "respuesta_correcta": [
+            "low velocity and elevated pressure"
+        ],
+        "concept_to_study": "Post-stenotic Flow Changes",
+        "explicacion_openai": "Beyond the stenosis, velocity decreases; pressure partially recovers above pre-stenotic levels due to kinetic-to-pressure energy conversion and vessel wall recoil.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Proximal to a significant stenosis (pre-stenotic region), Doppler waveforms display:",
+        "image": "",
+        "opciones": [
+            "increased velocity and decreased pressure",
+            "decreased velocity and increased pressure",
+            "increased velocity and increased pressure",
+            "decreased velocity and decreased pressure"
+        ],
+        "respuesta_correcta": [
+            "decreased velocity and increased pressure"
+        ],
+        "concept_to_study": "Pre-stenotic Hemodynamic Effects",
+        "explicacion_openai": "Upstream from a narrowing, flow speed is unchanged until the stenosis but transmitted pressure rises against the resistance, elevating proximal pressure and maintaining normal velocity.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Flow separation downstream of a geometric irregularity results in:",
+        "image": "",
+        "opciones": [
+            "flow reversal zones",
+            "stagnant or recirculating flow regions",
+            "wake formation behind the disturbance",
+            "all of the above"
+        ],
+        "respuesta_correcta": [
+            "all of the above"
+        ],
+        "concept_to_study": "Flow Separation Phenomena",
+        "explicacion_openai": "When blood encounters an adverse pressure gradient or abrupt change in vessel contour, the boundary layer detaches, creating reversed, recirculating zones and a flow “wake.”",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The law of conservation of mass (continuity equation) describes the inverse relationship between:",
+        "image": "",
+        "opciones": [
+            "Enunciado: The law of conservation of mass (continuity equation) describes the inverse relationship between:",
+            "cross-sectional area and fluid viscosity",
+            "velocity and cross-sectional area",
+            "viscosity and flow velocity",
+            "cross-sectional area and vessel length"
+        ],
+        "respuesta_correcta": [
+            "velocity and cross-sectional area"
+        ],
+        "concept_to_study": "Continuity Equation (Conservation of Mass)",
+        "explicacion_openai": "Continuity dictates A₁·V₁ = A₂·V₂; if area decreases, velocity must increase proportionally to maintain constant volumetric flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The dicrotic notch in an arterial pressure waveform is produced by the:",
+        "image": "",
+        "opciones": [
+            "closure of the pulmonary valve",
+            "closure of the mitral valve",
+            "closure of the tricuspid valve",
+            "closure of the aortic valve"
+        ],
+        "respuesta_correcta": [
+            "closure of the aortic valve"
+        ],
+        "concept_to_study": "Dicrotic Notch Mechanism",
+        "explicacion_openai": "The dicrotic notch reflects the transient backflow and sudden rise in pressure when the aortic valve snaps shut at end-systole, marking the onset of diastole.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Distal to a stenosis, the resistance:",
+        "image": "",
+        "opciones": [
+            "Increases",
+            "Decreases",
+            "Stays the same",
+            "None of the above"
+        ],
+        "respuesta_correcta": [
+            "Decreases"
+        ],
+        "concept_to_study": "Factors affecting the resistance",
+        "explicacion_openai": "Distal to a stenosis (an abnormal narrowing of a blood vessel), resistance to blood flow typically decreases. This is primarily due to the compensatory vasodilation that occurs in the downstream vasculature to maintain adequate blood flow to the tissue bed.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Stenosis causes resistance proximal to the stenosis to _____.",
+        "image": "",
+        "opciones": [
+            "decrease",
+            "stay the same",
+            "increase",
+            "none of the above"
+        ],
+        "respuesta_correcta": [
+            "increase"
+        ],
+        "concept_to_study": "Factors affecting vascular resistance",
+        "explicacion_openai": "By narrowing the vessel lumen, stenosis increases frictional losses and raises vascular resistance proximal to the stenotic segment.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a triphasic Doppler waveform, the first forward flow component corresponds to:",
+        "image": "",
+        "opciones": [
+            "atrial contraction",
+            "aortic valve closure",
+            "early diastole",
+            "ventricular systole"
+        ],
+        "respuesta_correcta": [
+            "ventricular systole"
+        ],
+        "concept_to_study": "Normal triphasic waveform components",
+        "explicacion_openai": "The initial forward (anterograde) deflection in a triphasic waveform occurs during systole, reflecting ventricular contraction propelling blood into the peripheral artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a triphasic Doppler waveform, the second (reversal) component reflects:",
+        "image": "",
+        "opciones": [
+            "ventricular contraction",
+            "peripheral resistance",
+            "aortic valve closure",
+            "elastic recoil of the vessel wall"
+        ],
+        "respuesta_correcta": [
+            "peripheral resistance"
+        ],
+        "concept_to_study": "Normal triphasic waveform components",
+        "explicacion_openai": "The brief flow reversal in early diastole is caused by high peripheral resistance in the distal vascular bed, briefly reversing flow direction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The third component of a high-resistance triphasic waveform corresponds to:",
+        "image": "",
+        "opciones": [
+            "peripheral resistance",
+            "aortic valve closure",
+            "ventricular contraction",
+            "elastic recoil of the vessel wall"
+        ],
+        "respuesta_correcta": [
+            "elastic recoil of the vessel wall"
+        ],
+        "concept_to_study": "Normal triphasic waveform components",
+        "explicacion_openai": "Late diastolic forward flow arises from elastic recoil of the arterial wall, which maintains antegrade flow after early diastolic reversal.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a high-resistance biphasic Doppler waveform, which of the following is correct?",
+        "image": "",
+        "opciones": [
+            "It is normal in peripheral vascular beds (e.g., dorsalis pedis)",
+            "It reflects increased arterial stiffness with loss of late-diastolic forward flow",
+            "It indicates loss of the early-diastolic reversal component",
+            "It signifies decreased downstream vascular resistance"
+        ],
+        "respuesta_correcta": [
+            "It reflects increased arterial stiffness with loss of late-diastolic forward flow"
+        ],
+        "concept_to_study": "Pathophysiology of high-resistance biphasic vs. normal triphasic waveforms",
+        "explicacion_openai": "A high-resistance biphasic Doppler waveform typically indicates increased arterial stiffness, which results in the loss of the late-diastolic forward flow component seen in a normal triphasic waveform.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In high-resistance Doppler waveforms, the reverse (diastolic) flow component often disappears when the sample volume is placed:",
+        "image": "",
+        "opciones": [
+            "flow component often disappears when the sample volume is placed:",
+            "Distal to a significant stenosis",
+            "At the site of stenosis",
+            "Proximal to a significant stenosis",
+            "Within a low-resistance vascular bed"
+        ],
+        "respuesta_correcta": [
+            "Distal to a significant stenosis"
+        ],
+        "concept_to_study": "Changes in high-resistance Doppler waveforms",
+        "explicacion_openai": "A significant arterial stenosis increases downstream resistance and alters diastolic flow. When you sample distal to the stenosis, the usual brief reversal in early diastole can be lost, leaving only forward flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Distal to a hemodynamically significant arterial stenosis, the Doppler waveform typically demonstrates:",
+        "image": "",
+        "opciones": [
+            "A blunted (rounded) systolic upstroke",
+            "Reduced peak systolic amplitude",
+            "A low-resistance monophasic pattern",
+            "Options a, b, and c"
+        ],
+        "respuesta_correcta": [
+            "Options a, b, and c"
+        ],
+        "concept_to_study": "Pulsus parvus et tardus distal to stenosis",
+        "explicacion_openai": "Distal waveforms show a delayed systolic upstroke (pulsus tardus), decreased amplitude (pulsus parvus) and loss of diastolic reversal, producing a monophasic, low-resistance pattern.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Doppler flow recorded ______ a hemodynamically significant stenosis exhibits higher-resistance features.",
+        "image": "",
+        "opciones": [
+            "distal to",
+            "proximal to",
+            "with increased diastolic flow",
+            "as a monophasic waveform"
+        ],
+        "respuesta_correcta": [
+            "proximal to"
+        ],
+        "concept_to_study": "Proximal waveform changes in stenotic disease",
+        "explicacion_openai": "Proximal to a critical stenosis, waveforms retain high-resistance characteristics—sharp systolic peaks and diastolic reversal—because downstream vasodilation has not yet occurred.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "As ______ pressure falls due to stenosis, the usual peripheral response is to maintain flow by ________.",
+        "image": "",
+        "opciones": [
+            "Inflow, vasoconstriction",
+            "Outflow, vasodilatation",
+            "Inflow, vasodilatation",
+            "Outflow, vasoconstriction"
+        ],
+        "respuesta_correcta": [
+            "Inflow, vasodilatation"
+        ],
+        "concept_to_study": "Factors Affecting Blood Flow",
+        "explicacion_openai": "When inflow (proximal) pressure decreases because of a stenosis, downstream arterioles dilate (vasodilatation) to reduce resistance and preserve distal perfusion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 21,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A cross-sectional area reduction of ______ corresponds to a diameter reduction of ______.",
+        "image": "",
+        "opciones": [
+            "50%, 75%",
+            "75%, 60%",
+            "50%, 50%",
+            "75%, 50%"
+        ],
+        "respuesta_correcta": [
+            "75%, 50%"
+        ],
+        "concept_to_study": "Hemodynamically significant stenosis",
+        "explicacion_openai": "A 50% reduction in vessel diameter leads to a 75% reduction in cross-sectional area (area ∝ radius²), which is the threshold for hemodynamic significance in many vascular beds.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 22,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the standard Doppler equation, the factor of \"2\" is included because:",
+        "image": "",
+        "opciones": [
+            "The frequency shift is doubled by the ultrasound machine.",
+            "There are two transducers in a CW Doppler probe.",
+            "The ultrasound wave travels to and from the moving blood cells.",
+            "The speed of sound is doubled in blood."
+        ],
+        "respuesta_correcta": [
+            "The ultrasound wave travels to and from the moving blood cells."
+        ],
+        "concept_to_study": "Doppler shift, Doppler equation, Physical basis of Doppler",
+        "explicacion_openai": "The factor of 2 in the Doppler equation is included because the ultrasound wave travels to the moving blood cells and then back to the transducer. This two-way path results in the frequency shift being affected by the motion of the blood cells twice.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 23,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The frequency ______ when the distance between the sound source and receiver remains constant.",
+        "image": "",
+        "opciones": [
+            "Change",
+            "Increase",
+            "Decrease",
+            "Does not change"
+        ],
+        "respuesta_correcta": [
+            "Does not change"
+        ],
+        "concept_to_study": "Doppler effect",
+        "explicacion_openai": "If there is no change in distance (no relative motion), the Doppler shift is zero and the observed frequency remains unchanged.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 24,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Doppler shift (Hz) =",
+        "image": "",
+        "opciones": [
+            "transmitted frequency – reflected frequency",
+            "reflected frequency – transmitted frequency",
+            "received frequency – reflected frequency",
+            "propagated frequency – transmitted",
+            "frequency and the transmitted frequency. Positive when reflector moves toward the transducer, negative when moving away."
+        ],
+        "respuesta_correcta": [
+            "reflected frequency – transmitted frequency"
+        ],
+        "concept_to_study": "Doppler shift",
+        "explicacion_openai": "The Doppler shift is defined as the difference between the received (reflected) frequency and the transmitted frequency. Positive when reflector moves toward the transducer, negative when moving away.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 25,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why is there a “2” in the Doppler equation?",
+        "image": "",
+        "opciones": [
+            "Two cos θ",
+            "Two transducer frequencies",
+            "Two Doppler shifts",
+            "Two propagation speeds"
+        ],
+        "respuesta_correcta": [
+            "Two Doppler shifts"
+        ],
+        "concept_to_study": "Doppler equation",
+        "explicacion_openai": "The factor of 2 appears because the Doppler shift occurs twice: once when the ultrasound wave strikes moving blood cells and again when the shifted echo returns to the transducer.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 26,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The _____ the blood flow velocity, the _____ the Doppler frequency shift",
+        "image": "",
+        "opciones": [
+            "slower, lower",
+            "slower, higher",
+            "faster, lower",
+            "faster, higher"
+        ],
+        "respuesta_correcta": [
+            "faster, higher"
+        ],
+        "concept_to_study": "Doppler Shift and Blood Cell Velocity",
+        "explicacion_openai": "In Doppler ultrasound, blood flow velocity and frequency shift are directly proportional. A faster velocity produces a greater Doppler frequency shift, while a slower velocity yields a smaller shift.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 27,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When the velocity is ______, the Doppler shift is ______",
+        "image": "",
+        "opciones": [
+            "halved, doubled",
+            "halved, halved",
+            "doubled, halved",
+            "none of the above"
+        ],
+        "respuesta_correcta": [
+            "halved, halved"
+        ],
+        "concept_to_study": "Doppler Shift and Blood Cell Velocity",
+        "explicacion_openai": "The Doppler shift is directly proportional to flow velocity. If velocity is halved, the Doppler frequency shift is halved; if velocity doubles, the shift doubles.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 28,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When the frequency is doubled, the Doppler shift is ______",
+        "image": "",
+        "opciones": [
+            "halved",
+            "doubled",
+            "squared",
+            "none of the above"
+        ],
+        "respuesta_correcta": [
+            "doubled"
+        ],
+        "concept_to_study": "Doppler Shift and Frequency",
+        "explicacion_openai": "The Doppler shift is directly proportional to the transmitted frequency. If the frequency is Doubled, the Doppler frequency shift is doubled.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 29,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When the blood cells are moving _____ to the sound beam, the _____ velocity is measured",
+        "image": "",
+        "opciones": [
+            "perpendicular, true velocity",
+            "parallel, reduced velocity",
+            "perpendicular, reduced velocity",
+            "parallel, true velocity"
+        ],
+        "respuesta_correcta": [
+            "parallel, true velocity"
+        ],
+        "concept_to_study": "Sound Beam Direction vs. Flow Direction",
+        "explicacion_openai": "If flow is parallel to the beam (0° angle or 180° angle), the entire (“true”) velocity is measured. When flow is not parallel, only the component along the beam is detected, yielding a reduced velocity (Vₘₑₐₛ = Vₜᵣᵤₑ × cos θ).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 30,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "At which angles between flow direction and the sound beam is the flow parallel to the beam?",
+        "image": "",
+        "opciones": [
+            "0° (angle), 90° (angle)",
+            "180° (angle), 90° (angle)",
+            "0° (angle), 180° (angle)",
+            "0° (angle), 60° (angle)"
+        ],
+        "respuesta_correcta": [
+            "0° (angle), 180° (angle)"
+        ],
+        "concept_to_study": "Doppler Effect",
+        "explicacion_openai": "Flow is parallel to the beam at 0° (angle) (toward the transducer) and at 180° (angle) (away from the transducer), giving the maximal Doppler shift (cos 0° = 1; cos 180° = –1).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 31,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The cosine of 0° (angle) is:",
+        "image": "",
+        "opciones": [
+            "0.5",
+            "1",
+            "0",
+            "None of the above"
+        ],
+        "respuesta_correcta": [
+            "1"
+        ],
+        "concept_to_study": "Doppler Shift and Angle Correction",
+        "explicacion_openai": "cos 0° (angle) = 1, so when flow is parallel to the ultrasound beam, the measured Doppler shift equals the true velocity (maximum shift).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 32,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The cosine of 90° (angle) is:",
+        "image": "",
+        "opciones": [
+            "1",
+            "0.5",
+            "0",
+            "–1"
+        ],
+        "respuesta_correcta": [
+            "0"
+        ],
+        "concept_to_study": "Doppler Shift and Angle Correction",
+        "explicacion_openai": "cos 90° (angle) = 0, meaning flow perpendicular to the beam produces no Doppler frequency shift.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 33,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The cosine of 60° is:",
+        "image": "",
+        "opciones": [
+            "–1",
+            "1",
+            "0",
+            "0.5"
+        ],
+        "respuesta_correcta": [
+            "0.5"
+        ],
+        "concept_to_study": "Doppler shift and angle correction",
+        "explicacion_openai": "The cosine of 60° is 0.5. In Doppler ultrasound, the measured velocity at a 60° insonation angle equals the true velocity multiplied by cos 60°, i.e., half the true velocity.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "At which insonation angle is the Doppler shift highest?",
+        "image": "",
+        "opciones": [
+            "60°",
+            "90°",
+            "45°",
+            "0°"
+        ],
+        "respuesta_correcta": [
+            "0°"
+        ],
+        "concept_to_study": "Angle dependence of Doppler shift",
+        "explicacion_openai": "A 0° angle (flow parallel to the beam) produces the maximum Doppler shift (cos 0° = 1), because the entire velocity vector aligns with the ultrasound beam.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 35,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The greatest advantage of continuous wave Doppler is:",
+        "image": "",
+        "opciones": [
+            "Determines the exact location of moving blood cells",
+            "Has range ambiguity",
+            "Ability to accurately measure very high velocities",
+            "Requires one crystal"
+        ],
+        "respuesta_correcta": [
+            "Ability to accurately measure very high velocities"
+        ],
+        "concept_to_study": "Continuous wave Doppler",
+        "explicacion_openai": "Continuous wave (CW) Doppler continuously emits and receives ultrasound, allowing unaliased measurement of very high velocities. It lacks range resolution because it samples along the entire beam path.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 36,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Aliasing artifact occurs only with:",
+        "image": "",
+        "opciones": [
+            "Continuous wave Doppler",
+            "Power Doppler",
+            "Energy Doppler",
+            "Pulsed wave Doppler"
+        ],
+        "respuesta_correcta": [
+            "Pulsed wave Doppler"
+        ],
+        "concept_to_study": "Pulsed wave Doppler and aliasing",
+        "explicacion_openai": "Aliasing appears when the Doppler frequency shift exceeds half the PRF in pulsed-wave Doppler. Continuous wave, power, and energy Doppler are not subject to the Nyquist limit and therefore do not alias.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 37,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Color Doppler primarily represents:",
+        "image": "",
+        "opciones": [
+            "FFT",
+            "Peak velocity",
+            "Building blocks",
+            "Mean velocity"
+        ],
+        "respuesta_correcta": [
+            "Mean velocity"
+        ],
+        "concept_to_study": "Color flow Doppler",
+        "explicacion_openai": "Color Doppler encodes the mean (average) velocity of blood flow within a region of interest, using color to display both direction and average speed based on the Doppler shift over multiple pulses.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 38,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In color Doppler, the central black region on the color map indicates:",
+        "image": "",
+        "opciones": [
+            "Positive Doppler shift",
+            "No Doppler shift",
+            "Negative Doppler shift",
+            "Faster velocities away from the transducer"
+        ],
+        "respuesta_correcta": [
+            "No Doppler shift"
+        ],
+        "concept_to_study": "Color Doppler baseline and wall-filter",
+        "explicacion_openai": "The black line at the center of a color Doppler map is the baseline—where the Doppler shift is zero. Flow toward the transducer appears above this line (positive shift), flow away below (negative shift).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 39,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "On a velocity-mode color map, velocity magnitude is represented along which axis?",
+        "image": "",
+        "opciones": [
+            "Side to side",
+            "Side to side and up and down",
+            "Up and down",
+            "Laminar to turbulent"
+        ],
+        "respuesta_correcta": [
+            "Up and down"
+        ],
+        "concept_to_study": "Color map orientation in velocity mode",
+        "explicacion_openai": "In velocity mode, the vertical axis of the color bar corresponds to Doppler shift (and thus flow velocity). The higher on the map, the greater the velocity (toward or away, depending on color).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 40,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following does NOT produce aliasing?",
+        "image": "",
+        "opciones": [
+            "Pulsed-wave Doppler",
+            "Color Doppler",
+            "Decreasing the PRF",
+            "Power Doppler"
+        ],
+        "respuesta_correcta": [
+            "Power Doppler"
+        ],
+        "concept_to_study": "Aliasing artifact in Doppler ultrasound",
+        "explicacion_openai": "Aliasing arises when the Doppler frequency shift exceeds the Nyquist limit in pulsed systems. Power Doppler displays signal amplitude (power), not frequency shift, so it does not alias.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 41,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statements correctly define the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "One-half of the pulse repetition frequency",
+            "The highest Doppler frequency measurable without aliasing",
+            "A situation when sampling rate is too low relative to blood velocities",
+            "Both a and b"
+        ],
+        "respuesta_correcta": [
+            "Both a and b"
+        ],
+        "concept_to_study": "Definition of the Nyquist limit",
+        "explicacion_openai": "The Nyquist limit is half the PRF and represents the maximum Doppler shift measurable without aliasing. Option c describes aliasing itself, not the limit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 42,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Acceleration time (AT) is ____ distal to a significant stenosis due to ____ resistance",
+        "image": "",
+        "opciones": [
+            "decreased, increased",
+            "unchanged, decreased",
+            "unchanged, increased",
+            "increased, decreased"
+        ],
+        "respuesta_correcta": [
+            "increased, decreased"
+        ],
+        "concept_to_study": "Acceleration time (AT)",
+        "explicacion_openai": "A hemodynamically significant arterial stenosis forces downstream arterioles to vasodilate in compensation, lowering resistance. That reduced resistance slows systolic upstroke, so the AT measured distal to the stenosis increases as resistance decreases.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 43,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the acceleration time (AT) in the common femoral artery is increased (> 140 ms):",
+        "image": "",
+        "opciones": [
+            "Outflow disease is suspected",
+            "Inflow disease is suspected",
+            "It is normal",
+            "Distal stenosis is suspected"
+        ],
+        "respuesta_correcta": [
+            "Inflow disease is suspected"
+        ],
+        "concept_to_study": "Acceleration time (AT)",
+        "explicacion_openai": "An AT > 140 ms in the femoral artery indicates a delayed systolic upstroke caused by proximal (inflow) obstruction—typically in the iliac or aortoiliac segments—rather than distal disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 44,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Acute arterial occlusion symptoms include:",
+        "image": "",
+        "opciones": [
+            "Paresthesia",
+            "Purplish discoloration",
+            "Polar coldness",
+            "All listed options",
+            "are all components of this syndrome."
+        ],
+        "respuesta_correcta": [
+            "All listed options"
+        ],
+        "concept_to_study": "Acute arterial occlusion (7 P’s)",
+        "explicacion_openai": "Acute limb ischemia classically presents with the “7 P’s”: pain, pallor, pulselessness, paresthesia, paralysis, polar (coldness), and purplish (cyanosis). The features in (a–c) are all components of this syndrome.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 45,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following best describes secondary Raynaud’s phenomenon?",
+        "image": "",
+        "opciones": [
+            "It may be the first manifestation of Buerger’s disease",
+            "Ischemia is continuously present, not just episodic",
+            "Arteriolar vasospasm occurs on top of a fixed arterial obstruction",
+            "All options are valid"
+        ],
+        "respuesta_correcta": [
+            "All options are valid"
+        ],
+        "concept_to_study": "Secondary Raynaud’s phenomenon",
+        "explicacion_openai": "Secondary Raynaud’s, or obstructive Raynaud’s, combines the episodic vasospasm of primary Raynaud’s with a fixed arterial lesion. Because of that obstruction, ischemia is persistent rather than only triggered by cold or stress, and this pattern can herald early Buerger’s disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which connective tissue disease is the most common cause of secondary Raynaud’s phenomenon?",
+        "image": "",
+        "opciones": [
+            "Lupus",
+            "Rheumatoid arthritis",
+            "Scleroderma",
+            "Multiple sclerosis",
+            "is the leading cause of secondary Raynaud’s. Its characteristic fibrosis and microvascular dysfunction drive chronic vasospasm and digital ischemia."
+        ],
+        "respuesta_correcta": [
+            "Scleroderma"
+        ],
+        "concept_to_study": "Causes of secondary Raynaud’s phenomenon",
+        "explicacion_openai": "Among connective tissue disorders, systemic sclerosis (scleroderma) is the leading cause of secondary Raynaud’s. Its characteristic fibrosis and microvascular dysfunction drive chronic vasospasm and digital ischemia.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "grupo": 47,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which vascular disease primarily affects men under 40 years old who smoke heavily?",
+        "image": "",
+        "opciones": [
+            "Takayasu’s arteritis",
+            "Temporal arteritis",
+            "Nutcracker syndrome",
+            "Thromboangiitis obliterans"
+        ],
+        "respuesta_correcta": [
+            "Thromboangiitis obliterans"
+        ],
+        "concept_to_study": "Buerger’s disease (thromboangiitis obliterans)",
+        "explicacion_openai": "Buerger’s disease is marked by segmental inflammation and thrombosis in small- to medium-sized vessels of the limbs. It almost exclusively occurs in young male smokers, leading to digital ischemia, pain, and ulcerations.\n\nAquí está la explicación ampliada para la Pregunta 47:\n\nBuerger's disease, formally known as thromboangiitis obliterans, is a rare inflammatory disease that specifically affects small and medium-sized arteries and veins in the extremities, particularly the hands and feet. Unlike atherosclerosis, which involves the buildup of plaque within the arteries, Buerger's disease involves inflammation and thrombosis (blood clot formation) within the vessel walls.",
+        "image_explanation": ""
     }
+]
 ]
