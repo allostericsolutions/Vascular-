@@ -1,6 +1,6 @@
 [
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In laminar flow through a cylindrical vessel, resistance is directly proportional to:",
@@ -19,7 +19,7 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
         "grupo": 2,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Vessel radius has the greatest effect on:",
@@ -38,7 +38,7 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
         "grupo": 3,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A change in vessel diameter has the most dramatic effect on:",
@@ -57,108 +57,12 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
         "grupo": 4,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Within an aneurysmal dilation, blood flow is characterized by:",
-        "image": "",
-        "opciones": [
-            "high velocity and low pressure",
-            "high viscosity and low pressure",
-            "high velocity and low viscosity",
-            "low velocity and elevated pressure"
-        ],
-        "respuesta_correcta": [
-            "low velocity and elevated pressure"
-        ],
-        "concept_to_study": "Bernoulli Principle in Aneurysms",
-        "explicacion_openai": "Bernoulli’s principle predicts reduced flow velocity and increased static pressure within a widened (aneurysmal) segment, opposite to the high-velocity, low-pressure profile of a stenosis.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 5,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In the stenotic segment of a vessel, Doppler findings include:",
-        "image": "",
-        "opciones": [
-            "high pressure and low velocity",
-            "low pressure and high velocity",
-            "high pressure and high velocity",
-            "high velocity and low viscosity"
-        ],
-        "respuesta_correcta": [
-            "low pressure and high velocity"
-        ],
-        "concept_to_study": "Bernoulli Principle in Stenosis",
-        "explicacion_openai": "According to Bernoulli’s principle, flow acceleration through a narrowed lumen raises velocity and lowers pressure at the site of stenosis.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 6,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Distal to a stenosis (post-stenotic region), the flow profile typically shows:",
-        "image": "",
-        "opciones": [
-            "low pressure and high velocity",
-            "high velocity and high pressure",
-            "low velocity and elevated pressure",
-            "low velocity and low pressure"
-        ],
-        "respuesta_correcta": [
-            "low velocity and elevated pressure"
-        ],
-        "concept_to_study": "Post-stenotic Flow Changes",
-        "explicacion_openai": "Beyond the stenosis, velocity decreases; pressure partially recovers above pre-stenotic levels due to kinetic-to-pressure energy conversion and vessel wall recoil.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 7,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Proximal to a significant stenosis (pre-stenotic region), Doppler waveforms display:",
-        "image": "",
-        "opciones": [
-            "increased velocity and decreased pressure",
-            "decreased velocity and increased pressure",
-            "increased velocity and increased pressure",
-            "decreased velocity and decreased pressure"
-        ],
-        "respuesta_correcta": [
-            "decreased velocity and increased pressure"
-        ],
-        "concept_to_study": "Pre-stenotic Hemodynamic Effects",
-        "explicacion_openai": "Upstream from a narrowing, flow speed is unchanged until the stenosis but transmitted pressure rises against the resistance, elevating proximal pressure and maintaining normal velocity.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 8,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Flow separation downstream of a geometric irregularity results in:",
-        "image": "",
-        "opciones": [
-            "flow reversal zones",
-            "stagnant or recirculating flow regions",
-            "wake formation behind the disturbance",
-            "all of the above"
-        ],
-        "respuesta_correcta": [
-            "all of the above"
-        ],
-        "concept_to_study": "Flow Separation Phenomena",
-        "explicacion_openai": "When blood encounters an adverse pressure gradient or abrupt change in vessel contour, the boundary layer detaches, creating reversed, recirculating zones and a flow “wake.”",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 9,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The law of conservation of mass (continuity equation) describes the inverse relationship between:",
         "image": "",
         "opciones": [
-            "Enunciado: The law of conservation of mass (continuity equation) describes the inverse relationship between:",
             "cross-sectional area and fluid viscosity",
             "velocity and cross-sectional area",
             "viscosity and flow velocity",
@@ -172,141 +76,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 10,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The dicrotic notch in an arterial pressure waveform is produced by the:",
-        "image": "",
-        "opciones": [
-            "closure of the pulmonary valve",
-            "closure of the mitral valve",
-            "closure of the tricuspid valve",
-            "closure of the aortic valve"
-        ],
-        "respuesta_correcta": [
-            "closure of the aortic valve"
-        ],
-        "concept_to_study": "Dicrotic Notch Mechanism",
-        "explicacion_openai": "The dicrotic notch reflects the transient backflow and sudden rise in pressure when the aortic valve snaps shut at end-systole, marking the onset of diastole.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 11,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Distal to a stenosis, the resistance:",
-        "image": "",
-        "opciones": [
-            "Increases",
-            "Decreases",
-            "Stays the same",
-            "None of the above"
-        ],
-        "respuesta_correcta": [
-            "Decreases"
-        ],
-        "concept_to_study": "Factors affecting the resistance",
-        "explicacion_openai": "Distal to a stenosis (an abnormal narrowing of a blood vessel), resistance to blood flow typically decreases. This is primarily due to the compensatory vasodilation that occurs in the downstream vasculature to maintain adequate blood flow to the tissue bed.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 12,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Stenosis causes resistance proximal to the stenosis to _____.",
-        "image": "",
-        "opciones": [
-            "decrease",
-            "stay the same",
-            "increase",
-            "none of the above"
-        ],
-        "respuesta_correcta": [
-            "increase"
-        ],
-        "concept_to_study": "Factors affecting vascular resistance",
-        "explicacion_openai": "By narrowing the vessel lumen, stenosis increases frictional losses and raises vascular resistance proximal to the stenotic segment.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 13,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In a triphasic Doppler waveform, the first forward flow component corresponds to:",
-        "image": "",
-        "opciones": [
-            "atrial contraction",
-            "aortic valve closure",
-            "early diastole",
-            "ventricular systole"
-        ],
-        "respuesta_correcta": [
-            "ventricular systole"
-        ],
-        "concept_to_study": "Normal triphasic waveform components",
-        "explicacion_openai": "The initial forward (anterograde) deflection in a triphasic waveform occurs during systole, reflecting ventricular contraction propelling blood into the peripheral artery.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 14,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In a triphasic Doppler waveform, the second (reversal) component reflects:",
-        "image": "",
-        "opciones": [
-            "ventricular contraction",
-            "peripheral resistance",
-            "aortic valve closure",
-            "elastic recoil of the vessel wall"
-        ],
-        "respuesta_correcta": [
-            "peripheral resistance"
-        ],
-        "concept_to_study": "Normal triphasic waveform components",
-        "explicacion_openai": "The brief flow reversal in early diastole is caused by high peripheral resistance in the distal vascular bed, briefly reversing flow direction.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 15,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The third component of a high-resistance triphasic waveform corresponds to:",
-        "image": "",
-        "opciones": [
-            "peripheral resistance",
-            "aortic valve closure",
-            "ventricular contraction",
-            "elastic recoil of the vessel wall"
-        ],
-        "respuesta_correcta": [
-            "elastic recoil of the vessel wall"
-        ],
-        "concept_to_study": "Normal triphasic waveform components",
-        "explicacion_openai": "Late diastolic forward flow arises from elastic recoil of the arterial wall, which maintains antegrade flow after early diastolic reversal.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 16,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In a high-resistance biphasic Doppler waveform, which of the following is correct?",
-        "image": "",
-        "opciones": [
-            "It is normal in peripheral vascular beds (e.g., dorsalis pedis)",
-            "It reflects increased arterial stiffness with loss of late-diastolic forward flow",
-            "It indicates loss of the early-diastolic reversal component",
-            "It signifies decreased downstream vascular resistance"
-        ],
-        "respuesta_correcta": [
-            "It reflects increased arterial stiffness with loss of late-diastolic forward flow"
-        ],
-        "concept_to_study": "Pathophysiology of high-resistance biphasic vs. normal triphasic waveforms",
-        "explicacion_openai": "A high-resistance biphasic Doppler waveform typically indicates increased arterial stiffness, which results in the loss of the late-diastolic forward flow component seen in a normal triphasic waveform.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 17,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 5,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In high-resistance Doppler waveforms, the reverse (diastolic) flow component often disappears when the sample volume is placed:",
         "image": "",
@@ -325,84 +96,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 18,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Distal to a hemodynamically significant arterial stenosis, the Doppler waveform typically demonstrates:",
-        "image": "",
-        "opciones": [
-            "A blunted (rounded) systolic upstroke",
-            "Reduced peak systolic amplitude",
-            "A low-resistance monophasic pattern",
-            "Options a, b, and c"
-        ],
-        "respuesta_correcta": [
-            "Options a, b, and c"
-        ],
-        "concept_to_study": "Pulsus parvus et tardus distal to stenosis",
-        "explicacion_openai": "Distal waveforms show a delayed systolic upstroke (pulsus tardus), decreased amplitude (pulsus parvus) and loss of diastolic reversal, producing a monophasic, low-resistance pattern.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 19,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Doppler flow recorded ______ a hemodynamically significant stenosis exhibits higher-resistance features.",
-        "image": "",
-        "opciones": [
-            "distal to",
-            "proximal to",
-            "with increased diastolic flow",
-            "as a monophasic waveform"
-        ],
-        "respuesta_correcta": [
-            "proximal to"
-        ],
-        "concept_to_study": "Proximal waveform changes in stenotic disease",
-        "explicacion_openai": "Proximal to a critical stenosis, waveforms retain high-resistance characteristics—sharp systolic peaks and diastolic reversal—because downstream vasodilation has not yet occurred.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 20,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "As ______ pressure falls due to stenosis, the usual peripheral response is to maintain flow by ________.",
-        "image": "",
-        "opciones": [
-            "Inflow, vasoconstriction",
-            "Outflow, vasodilatation",
-            "Inflow, vasodilatation",
-            "Outflow, vasoconstriction"
-        ],
-        "respuesta_correcta": [
-            "Inflow, vasodilatation"
-        ],
-        "concept_to_study": "Factors Affecting Blood Flow",
-        "explicacion_openai": "When inflow (proximal) pressure decreases because of a stenosis, downstream arterioles dilate (vasodilatation) to reduce resistance and preserve distal perfusion.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 21,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A cross-sectional area reduction of ______ corresponds to a diameter reduction of ______.",
-        "image": "",
-        "opciones": [
-            "50%, 75%",
-            "75%, 60%",
-            "50%, 50%",
-            "75%, 50%"
-        ],
-        "respuesta_correcta": [
-            "75%, 50%"
-        ],
-        "concept_to_study": "Hemodynamically significant stenosis",
-        "explicacion_openai": "A 50% reduction in vessel diameter leads to a 75% reduction in cross-sectional area (area ∝ radius²), which is the threshold for hemodynamic significance in many vascular beds.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 22,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 6,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the standard Doppler equation, the factor of \"2\" is included because:",
         "image": "",
@@ -420,8 +115,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 23,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 7,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The frequency ______ when the distance between the sound source and receiver remains constant.",
         "image": "",
@@ -439,8 +134,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 24,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 8,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Doppler shift (Hz) =",
         "image": "",
@@ -459,8 +154,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 25,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 9,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why is there a “2” in the Doppler equation?",
         "image": "",
@@ -478,8 +173,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 26,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 10,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The _____ the blood flow velocity, the _____ the Doppler frequency shift",
         "image": "",
@@ -497,8 +192,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 27,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 11,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When the velocity is ______, the Doppler shift is ______",
         "image": "",
@@ -516,8 +211,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 28,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 12,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When the frequency is doubled, the Doppler shift is ______",
         "image": "",
@@ -535,8 +230,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 29,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 13,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When the blood cells are moving _____ to the sound beam, the _____ velocity is measured",
         "image": "",
@@ -554,8 +249,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 30,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 14,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "At which angles between flow direction and the sound beam is the flow parallel to the beam?",
         "image": "",
@@ -573,8 +268,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 31,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 15,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The cosine of 0° (angle) is:",
         "image": "",
@@ -592,8 +287,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 32,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 16,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The cosine of 90° (angle) is:",
         "image": "",
@@ -611,8 +306,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 33,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 17,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The cosine of 60° is:",
         "image": "",
@@ -630,8 +325,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 34,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 18,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "At which insonation angle is the Doppler shift highest?",
         "image": "",
@@ -649,8 +344,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 35,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 19,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The greatest advantage of continuous wave Doppler is:",
         "image": "",
@@ -668,8 +363,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 36,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 20,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Aliasing artifact occurs only with:",
         "image": "",
@@ -687,8 +382,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 37,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 21,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Color Doppler primarily represents:",
         "image": "",
@@ -706,8 +401,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 38,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 22,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In color Doppler, the central black region on the color map indicates:",
         "image": "",
@@ -725,8 +420,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 39,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 23,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "On a velocity-mode color map, velocity magnitude is represented along which axis?",
         "image": "",
@@ -744,8 +439,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 40,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 24,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following does NOT produce aliasing?",
         "image": "",
@@ -763,8 +458,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 41,
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 25,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which statements correctly define the Nyquist limit?",
         "image": "",
@@ -782,8 +477,217 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 42,
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Within an aneurysmal dilation, blood flow is characterized by:",
+        "image": "",
+        "opciones": [
+            "high velocity and low pressure",
+            "high viscosity and low pressure",
+            "high velocity and low viscosity",
+            "low velocity and elevated pressure"
+        ],
+        "respuesta_correcta": [
+            "low velocity and elevated pressure"
+        ],
+        "concept_to_study": "Bernoulli Principle in Aneurysms",
+        "explicacion_openai": "Bernoulli’s principle predicts reduced flow velocity and increased static pressure within a widened (aneurysmal) segment, opposite to the high-velocity, low-pressure profile of a stenosis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the stenotic segment of a vessel, Doppler findings include:",
+        "image": "",
+        "opciones": [
+            "high pressure and low velocity",
+            "low pressure and high velocity",
+            "high pressure and high velocity",
+            "high velocity and low viscosity"
+        ],
+        "respuesta_correcta": [
+            "low pressure and high velocity"
+        ],
+        "concept_to_study": "Bernoulli Principle in Stenosis",
+        "explicacion_openai": "According to Bernoulli’s principle, flow acceleration through a narrowed lumen raises velocity and lowers pressure at the site of stenosis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Distal to a stenosis (post-stenotic region), the flow profile typically shows:",
+        "image": "",
+        "opciones": [
+            "low pressure and high velocity",
+            "high velocity and high pressure",
+            "low velocity and elevated pressure",
+            "low velocity and low pressure"
+        ],
+        "respuesta_correcta": [
+            "low velocity and elevated pressure"
+        ],
+        "concept_to_study": "Post-stenotic Flow Changes",
+        "explicacion_openai": "Beyond the stenosis, velocity decreases; pressure partially recovers above pre-stenotic levels due to kinetic-to-pressure energy conversion and vessel wall recoil.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Proximal to a significant stenosis (pre-stenotic region), Doppler waveforms display:",
+        "image": "",
+        "opciones": [
+            "increased velocity and decreased pressure",
+            "decreased velocity and increased pressure",
+            "increased velocity and increased pressure",
+            "decreased velocity and decreased pressure"
+        ],
+        "respuesta_correcta": [
+            "decreased velocity and increased pressure"
+        ],
+        "concept_to_study": "Pre-stenotic Hemodynamic Effects",
+        "explicacion_openai": "Upstream from a narrowing, flow speed is unchanged until the stenosis but transmitted pressure rises against the resistance, elevating proximal pressure and maintaining normal velocity.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Flow separation downstream of a geometric irregularity results in:",
+        "image": "",
+        "opciones": [
+            "flow reversal zones",
+            "stagnant or recirculating flow regions",
+            "wake formation behind the disturbance",
+            "all of the above"
+        ],
+        "respuesta_correcta": [
+            "all of the above"
+        ],
+        "concept_to_study": "Flow Separation Phenomena",
+        "explicacion_openai": "When blood encounters an adverse pressure gradient or abrupt change in vessel contour, the boundary layer detaches, creating reversed, recirculating zones and a flow “wake.”",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Distal to a stenosis, the resistance:",
+        "image": "",
+        "opciones": [
+            "Increases",
+            "Decreases",
+            "Stays the same",
+            "None of the above"
+        ],
+        "respuesta_correcta": [
+            "Decreases"
+        ],
+        "concept_to_study": "Factors affecting the resistance",
+        "explicacion_openai": "Distal to a stenosis (an abnormal narrowing of a blood vessel), resistance to blood flow typically decreases. This is primarily due to the compensatory vasodilation that occurs in the downstream vasculature to maintain adequate blood flow to the tissue bed.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Stenosis causes resistance proximal to the stenosis to _____.",
+        "image": "",
+        "opciones": [
+            "decrease",
+            "stay the same",
+            "increase",
+            "none of the above"
+        ],
+        "respuesta_correcta": [
+            "increase"
+        ],
+        "concept_to_study": "Factors affecting vascular resistance",
+        "explicacion_openai": "By narrowing the vessel lumen, stenosis increases frictional losses and raises vascular resistance proximal to the stenotic segment.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a high-resistance biphasic Doppler waveform, which of the following is correct?",
+        "image": "",
+        "opciones": [
+            "It is normal in peripheral vascular beds (e.g., dorsalis pedis)",
+            "It reflects increased arterial stiffness with loss of late-diastolic forward flow",
+            "It indicates loss of the early-diastolic reversal component",
+            "It signifies decreased downstream vascular resistance"
+        ],
+        "respuesta_correcta": [
+            "It reflects increased arterial stiffness with loss of late-diastolic forward flow"
+        ],
+        "concept_to_study": "Pathophysiology of high-resistance biphasic vs. normal triphasic waveforms",
+        "explicacion_openai": "A high-resistance biphasic Doppler waveform typically indicates increased arterial stiffness, which results in the loss of the late-diastolic forward flow component seen in a normal triphasic waveform.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Distal to a hemodynamically significant arterial stenosis, the Doppler waveform typically demonstrates:",
+        "image": "",
+        "opciones": [
+            "A blunted (rounded) systolic upstroke",
+            "Reduced peak systolic amplitude",
+            "A low-resistance monophasic pattern",
+            "Options a, b, and c"
+        ],
+        "respuesta_correcta": [
+            "Options a, b, and c"
+        ],
+        "concept_to_study": "Pulsus parvus et tardus distal to stenosis",
+        "explicacion_openai": "Distal waveforms show a delayed systolic upstroke (pulsus tardus), decreased amplitude (pulsus parvus) and loss of diastolic reversal, producing a monophasic, low-resistance pattern.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Doppler flow recorded ______ a hemodynamically significant stenosis exhibits higher-resistance features.",
+        "image": "",
+        "opciones": [
+            "distal to",
+            "proximal to",
+            "with increased diastolic flow",
+            "as a monophasic waveform"
+        ],
+        "respuesta_correcta": [
+            "proximal to"
+        ],
+        "concept_to_study": "Proximal waveform changes in stenotic disease",
+        "explicacion_openai": "Proximal to a critical stenosis, waveforms retain high-resistance characteristics—sharp systolic peaks and diastolic reversal—because downstream vasodilation has not yet occurred.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "As ______ pressure falls due to stenosis, the usual peripheral response is to maintain flow by ________.",
+        "image": "",
+        "opciones": [
+            "Inflow, vasoconstriction",
+            "Outflow, vasodilatation",
+            "Inflow, vasodilatation",
+            "Outflow, vasoconstriction"
+        ],
+        "respuesta_correcta": [
+            "Inflow, vasodilatation"
+        ],
+        "concept_to_study": "Factors Affecting Blood Flow",
+        "explicacion_openai": "When inflow (proximal) pressure decreases because of a stenosis, downstream arterioles dilate (vasodilatation) to reduce resistance and preserve distal perfusion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 12,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Acceleration time (AT) is ____ distal to a significant stenosis due to ____ resistance",
         "image": "",
@@ -801,8 +705,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 43,
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 13,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the acceleration time (AT) in the common femoral artery is increased (> 140 ms):",
         "image": "",
@@ -820,8 +724,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 44,
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 14,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Acute arterial occlusion symptoms include:",
         "image": "",
@@ -840,8 +744,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 45,
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 15,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following best describes secondary Raynaud’s phenomenon?",
         "image": "",
@@ -859,8 +763,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 46,
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 16,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which connective tissue disease is the most common cause of secondary Raynaud’s phenomenon?",
         "image": "",
@@ -879,8 +783,8 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Normal Anatomy, Perfusión and Function",
-        "grupo": 47,
+        "clasificacion": "Pathology, Perfusion and Function",
+        "grupo": 17,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which vascular disease primarily affects men under 40 years old who smoke heavily?",
         "image": "",
@@ -894,7 +798,1540 @@
             "Thromboangiitis obliterans"
         ],
         "concept_to_study": "Buerger’s disease (thromboangiitis obliterans)",
-        "explicacion_openai": "Buerger’s disease is marked by segmental inflammation and thrombosis in small- to medium-sized vessels of the limbs. It almost exclusively occurs in young male smokers, leading to digital ischemia, pain, and ulcerations.\n\nAquí está la explicación ampliada para la Pregunta 47:\n\nBuerger's disease, formally known as thromboangiitis obliterans, is a rare inflammatory disease that specifically affects small and medium-sized arteries and veins in the extremities, particularly the hands and feet. Unlike atherosclerosis, which involves the buildup of plaque within the arteries, Buerger's disease involves inflammation and thrombosis (blood clot formation) within the vessel walls.",
+        "explicacion_openai": "Buerger’s disease is marked by segmental inflammation and thrombosis in small- to medium-sized vessels of the limbs. It almost exclusively occurs in young male smokers, leading to digital ischemia, pain, and ulcerations.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The dicrotic notch in an arterial pressure waveform is produced by the:",
+        "image": "",
+        "opciones": [
+            "closure of the pulmonary valve",
+            "closure of the mitral valve",
+            "closure of the tricuspid valve",
+            "closure of the aortic valve"
+        ],
+        "respuesta_correcta": [
+            "closure of the aortic valve"
+        ],
+        "concept_to_study": "Dicrotic Notch Mechanism",
+        "explicacion_openai": "The dicrotic notch reflects the transient backflow and sudden rise in pressure when the aortic valve snaps shut at end-systole, marking the onset of diastole.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a triphasic Doppler waveform, the first forward flow component corresponds to:",
+        "image": "",
+        "opciones": [
+            "atrial contraction",
+            "aortic valve closure",
+            "early diastole",
+            "ventricular systole"
+        ],
+        "respuesta_correcta": [
+            "ventricular systole"
+        ],
+        "concept_to_study": "Normal triphasic waveform components",
+        "explicacion_openai": "The initial forward (anterograde) deflection in a triphasic waveform occurs during systole, reflecting ventricular contraction propelling blood into the peripheral artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a triphasic Doppler waveform, the second (reversal) component reflects:",
+        "image": "",
+        "opciones": [
+            "ventricular contraction",
+            "peripheral resistance",
+            "aortic valve closure",
+            "elastic recoil of the vessel wall"
+        ],
+        "respuesta_correcta": [
+            "peripheral resistance"
+        ],
+        "concept_to_study": "Normal triphasic waveform components",
+        "explicacion_openai": "The brief flow reversal in early diastole is caused by high peripheral resistance in the distal vascular bed, briefly reversing flow direction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The third component of a high-resistance triphasic waveform corresponds to:",
+        "image": "",
+        "opciones": [
+            "peripheral resistance",
+            "aortic valve closure",
+            "ventricular contraction",
+            "elastic recoil of the vessel wall"
+        ],
+        "respuesta_correcta": [
+            "elastic recoil of the vessel wall"
+        ],
+        "concept_to_study": "Normal triphasic waveform components",
+        "explicacion_openai": "Late diastolic forward flow arises from elastic recoil of the arterial wall, which maintains antegrade flow after early diastolic reversal.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A cross-sectional area reduction of ______ corresponds to a diameter reduction of ______.",
+        "image": "",
+        "opciones": [
+            "50%, 75%",
+            "75%, 60%",
+            "50%, 50%",
+            "75%, 50%"
+        ],
+        "respuesta_correcta": [
+            "75%, 50%"
+        ],
+        "concept_to_study": "Hemodynamically significant stenosis",
+        "explicacion_openai": "A 50% reduction in vessel diameter leads to a 75% reduction in cross-sectional area (area ∝ radius²), which is the threshold for hemodynamic significance in many vascular beds.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "At which anatomical landmark does the common carotid artery typically split into its external and internal branches?",
+        "image": "",
+        "opciones": [
+            "Hyoid bone",
+            "Thyroid cartilage",
+            "Cricoid cartilage",
+            "Thyrohyoid membrane"
+        ],
+        "respuesta_correcta": [
+            "Thyroid cartilage"
+        ],
+        "concept_to_study": "Bifurcation of the common carotid artery",
+        "explicacion_openai": "The common carotid artery typically bifurcates at the level of the thyroid cartilage, serving as an important surgical and anatomical landmark.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following statements is correct regarding the great saphenous vein?",
+        "opciones": [
+            "It originates along the medial dorsum of the foot",
+            "It passes anterior to the medial malleolus",
+            "It is accompanied by the saphenous nerve",
+            "It receives tributaries from all surfaces of the lower extremity",
+            "Every option is correct"
+        ],
+        "respuesta_correcta": [
+            "Every option is correct"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "Each statement describes a true anatomical feature of the great saphenous vein, so the final option is correct.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following statements is NOT correct regarding the great saphenous vein?",
+        "opciones": [
+            "It passes laterally over the knee",
+            "It ascends along the medial aspect of the thigh",
+            "It drains into the common femoral vein",
+            "It extends to the dorsum of the foot",
+            "It has a greater number of valves in the calf than in the thigh"
+        ],
+        "respuesta_correcta": [
+            "It passes laterally over the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "Because the great saphenous vein ascends medially, stating that it passes laterally over the knee is incorrect.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary function of the great saphenous vein?",
+        "opciones": [
+            "To drain blood from the foot",
+            "To drain blood from the calf",
+            "To drain blood from the thigh",
+            "To drain blood from the entire lower extremity"
+        ],
+        "respuesta_correcta": [
+            "To drain blood from the entire lower extremity"
+        ],
+        "concept_to_study": "Function of the great saphenous vein",
+        "explicacion_openai": "The great saphenous vein collects superficial venous blood from the entire lower extremity, making it vital for overall venous return.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following veins is considered a major perforating vein in the distal calf?",
+        "opciones": [
+            "Small saphenous vein",
+            "Posterior accessory vein",
+            "Peroneal vein",
+            "Perforator trunk vein",
+            "Medial malleolar vein"
+        ],
+        "respuesta_correcta": [
+            "Perforator trunk vein"
+        ],
+        "concept_to_study": "Perforator veins in the distal calf",
+        "explicacion_openai": "The perforator trunk vein is one of the main perforating veins that facilitate drainage between the superficial and deep venous systems in the distal calf.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Where are the paratibial perforating veins (formerly known as Boyd’s perforators) located?",
+        "opciones": [
+            "In the lower calf",
+            "In the distal thigh",
+            "In the proximal thigh",
+            "On the dorsum of the foot",
+            "Below the knee"
+        ],
+        "respuesta_correcta": [
+            "In the lower calf"
+        ],
+        "concept_to_study": "Location of paratibial perforating veins",
+        "explicacion_openai": "These perforating veins are predominantly located in the lower calf, facilitating the drainage from the superficial to the deep venous system.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which superficial vein supplies flow to the three main perforating veins of the distal calf?",
+        "opciones": [
+            "Small saphenous vein",
+            "Posterior accessory vein",
+            "Peroneal vein",
+            "Perforator trunk vein",
+            "Medial malleolar vein"
+        ],
+        "respuesta_correcta": [
+            "Small saphenous vein"
+        ],
+        "concept_to_study": "Superficial venous drainage of the distal calf",
+        "explicacion_openai": "The small saphenous vein is the key vessel that supplies blood to the principal perforating veins in the distal calf.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which diagnostic technique is most commonly used to evaluate venous reflux in the lower extremities?",
+        "opciones": [
+            "Duplex Doppler ultrasound",
+            "Computed tomography",
+            "Magnetic resonance imaging",
+            "Phlebography"
+        ],
+        "respuesta_correcta": [
+            "Duplex Doppler ultrasound"
+        ],
+        "concept_to_study": "Diagnosis of venous reflux",
+        "explicacion_openai": "Duplex Doppler ultrasound is the technique of choice for evaluating venous reflux and valve competence in the lower extremities, due to its high efficacy and widespread availability.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the essential function of venous valves in the lower extremities?",
+        "opciones": [
+            "To facilitate venous return to the heart",
+            "To prevent venous reflux",
+            "To regulate arterial blood pressure",
+            "To increase arterial flow"
+        ],
+        "respuesta_correcta": [
+            "To prevent venous reflux"
+        ],
+        "concept_to_study": "Function of venous valves",
+        "explicacion_openai": "Venous valves prevent the backward flow of blood, ensuring proper directional venous return to the heart.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which vein is most commonly used as a conduit in coronary or peripheral bypass procedures?",
+        "opciones": [
+            "Great saphenous vein",
+            "Small saphenous vein",
+            "Deep femoral vein",
+            "Popliteal vein"
+        ],
+        "respuesta_correcta": [
+            "Great saphenous vein"
+        ],
+        "concept_to_study": "Surgical applications of the great saphenous vein",
+        "explicacion_openai": "Due to its length and suitable caliber, the great saphenous vein is frequently harvested as a graft in coronary and peripheral bypass operations.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the typical anatomical pathway of the great saphenous vein in the lower extremity?",
+        "opciones": [
+            "It courses along the lateral side of the leg",
+            "It is located along the medial aspect of the lower extremity",
+            "It runs on the dorsum of the foot",
+            "It is found in the lateral thigh"
+        ],
+        "respuesta_correcta": [
+            "It is located along the medial aspect of the lower extremity"
+        ],
+        "concept_to_study": "Anatomical course of the great saphenous vein",
+        "explicacion_openai": "The great saphenous vein follows a medial course along the lower extremity, serving as a crucial channel for superficial venous return.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Regarding the perforating veins of the calf, which of the following statements is correct?",
+        "opciones": [
+            "They connect the superficial veins with the deep veins",
+            "They exclusively drain the flow of the great saphenous vein",
+            "They are located only in the proximal region of the calf",
+            "They have no relevance in venous reflux"
+        ],
+        "respuesta_correcta": [
+            "They connect the superficial veins with the deep veins"
+        ],
+        "concept_to_study": "Function of perforating veins",
+        "explicacion_openai": "Perforating veins serve as channels connecting the superficial venous system to the deep system, facilitating efficient venous drainage.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following factors is most commonly associated with chronic venous insufficiency?",
+        "opciones": [
+            "Hypertension",
+            "Incompetence of venous valves",
+            "Hyperbilirubinemia",
+            "Increased cardiac output"
+        ],
+        "respuesta_correcta": [
+            "Incompetence of venous valves"
+        ],
+        "concept_to_study": "Chronic venous insufficiency",
+        "explicacion_openai": "Valve incompetence leads to venous reflux and is one of the primary factors associated with chronic venous insufficiency.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which imaging modality is most commonly used in the diagnosis of deep vein thrombosis in the lower extremities?",
+        "opciones": [
+            "Duplex Doppler ultrasound",
+            "Computed tomography",
+            "Magnetic resonance imaging",
+            "Phlebography"
+        ],
+        "respuesta_correcta": [
+            "Duplex Doppler ultrasound"
+        ],
+        "concept_to_study": "Diagnosis of deep vein thrombosis",
+        "explicacion_openai": "Duplex Doppler ultrasound is the preferred modality for detecting deep vein thrombosis due to its high sensitivity and safety.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the main physiological function of the deep venous system in the lower extremities?",
+        "opciones": [
+            "To store blood",
+            "To efficiently return blood to the heart",
+            "To regulate systemic blood pressure",
+            "To distribute oxygen to tissues"
+        ],
+        "respuesta_correcta": [
+            "To efficiently return blood to the heart"
+        ],
+        "concept_to_study": "Deep venous system",
+        "explicacion_openai": "The deep venous system plays an essential role in returning blood from the lower extremities to the heart, working in conjunction with the muscle pump.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 21,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which therapeutic method is commonly used to treat reflux in an incompetent great saphenous vein?",
+        "opciones": [
+            "Endovenous laser ablation",
+            "Arterial bypass surgery",
+            "Coronary angioplasty",
+            "Phlebectomy"
+        ],
+        "respuesta_correcta": [
+            "Endovenous laser ablation"
+        ],
+        "concept_to_study": "Treatment of venous reflux",
+        "explicacion_openai": "Endovenous laser ablation is a minimally invasive technique used to close an incompetent great saphenous vein and correct venous reflux.",
+        "image_explanation": "",
+        "image": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 22,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The common carotid artery usually divides into internal and external carotid arteries at the level of the upper border of which structure?",
+        "image": "",
+        "opciones": [
+            "Hyoid bone",
+            "Thyroid cartilage",
+            "Cricoid cartilage",
+            "Thyrohyoid membrane"
+        ],
+        "respuesta_correcta": [
+            "Thyroid cartilage"
+        ],
+        "concept_to_study": "Bifurcation of the common carotid artery",
+        "explicacion_openai": "The upper border of the thyroid cartilage is the typical landmark where the carotid bifurcation occurs.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 23,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the structure at the superior margin of which the common carotid artery normally bifurcates:",
+        "image": "",
+        "opciones": [
+            "Hyoid bone",
+            "Cricoid cartilage",
+            "Thyroid cartilage",
+            "Thyrohyoid membrane"
+        ],
+        "respuesta_correcta": [
+            "Thyroid cartilage"
+        ],
+        "concept_to_study": "Bifurcation of the common carotid artery",
+        "explicacion_openai": "The thyroid cartilage marks the superior border where the common carotid artery typically branches into internal and external divisions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 24,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "At what level does the bifurcation of the common carotid artery into its external and internal branches generally occur?",
+        "image": "",
+        "opciones": [
+            "Hyoid bone",
+            "Thyroid cartilage",
+            "Cricoid cartilage",
+            "Thyrohyoid membrane"
+        ],
+        "respuesta_correcta": [
+            "Thyroid cartilage"
+        ],
+        "concept_to_study": "Bifurcation of the common carotid artery",
+        "explicacion_openai": "The carotid bifurcation is most commonly located at the level of the thyroid cartilage, which is a key anatomical landmark.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 25,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artery is most commonly the first branch emerging from the external carotid artery?",
+        "image": "",
+        "opciones": [
+            "Inferior thyroid artery",
+            "Superior thyroid artery",
+            "Facial artery",
+            "Occipital artery"
+        ],
+        "respuesta_correcta": [
+            "Superior thyroid artery"
+        ],
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "The superior thyroid artery is typically recognized as the first branch of the external carotid artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 26,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is generally recognized as the initial branch of the external carotid artery?",
+        "image": "",
+        "opciones": [
+            "Inferior thyroid artery",
+            "Superior thyroid artery",
+            "Facial artery",
+            "Occipital artery"
+        ],
+        "respuesta_correcta": [
+            "Superior thyroid artery"
+        ],
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "The first branch to emerge from the external carotid artery is usually the superior thyroid artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 27,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Select the artery that typically arises first from the external carotid artery:",
+        "image": "",
+        "opciones": [
+            "Inferior thyroid artery",
+            "Superior thyroid artery",
+            "Facial artery",
+            "Occipital artery"
+        ],
+        "respuesta_correcta": [
+            "Superior thyroid artery"
+        ],
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "Among the branches of the external carotid, the superior thyroid artery usually comes off first.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 28,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The earliest branch from the external carotid is usually the:",
+        "image": "",
+        "opciones": [
+            "Inferior thyroid artery",
+            "Superior thyroid artery",
+            "Facial artery",
+            "Occipital artery"
+        ],
+        "respuesta_correcta": [
+            "Superior thyroid artery"
+        ],
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "Typically, the superior thyroid artery is the first branch observed emerging from the external carotid artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 29,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following arteries does not contribute to the formation of the Circle of Willis?",
+        "image": "",
+        "opciones": [
+            "Anterior cerebral artery",
+            "Middle cerebral artery",
+            "Anterior choroidal artery",
+            "Posterior communicating artery"
+        ],
+        "respuesta_correcta": [
+            "Middle cerebral artery"
+        ],
+        "concept_to_study": "Arteries of the Circle of Willis",
+        "explicacion_openai": "Although essential for cerebral perfusion, the middle cerebral artery does not form part of the Circle of Willis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 30,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the artery that is not included among those forming the Circle of Willis:",
+        "image": "",
+        "opciones": [
+            "Anterior cerebral artery",
+            "Middle cerebral artery",
+            "Anterior choroidal artery",
+            "Posterior communicating artery"
+        ],
+        "respuesta_correcta": [
+            "Middle cerebral artery"
+        ],
+        "concept_to_study": "Arteries of the Circle of Willis",
+        "explicacion_openai": "The middle cerebral artery, despite its major role in brain perfusion, is not part of the anatomical circle known as the Circle of Willis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 31,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "One of the following arteries is excluded from the Circle of Willis. Which one is it?",
+        "image": "",
+        "opciones": [
+            "Anterior cerebral artery",
+            "Middle cerebral artery",
+            "Anterior choroidal artery",
+            "Posterior communicating artery"
+        ],
+        "respuesta_correcta": [
+            "Middle cerebral artery"
+        ],
+        "concept_to_study": "Arteries of the Circle of Willis",
+        "explicacion_openai": "Among the listed arteries, the middle cerebral artery does not participate in forming the Circle of Willis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 32,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artery is recognized as not being a component of the Circle of Willis?",
+        "image": "",
+        "opciones": [
+            "Anterior cerebral artery",
+            "Middle cerebral artery",
+            "Anterior choroidal artery",
+            "Posterior communicating artery"
+        ],
+        "respuesta_correcta": [
+            "Middle cerebral artery"
+        ],
+        "concept_to_study": "Arteries of the Circle of Willis",
+        "explicacion_openai": "The middle cerebral artery does not form part of the Circle of Willis, despite supplying a major portion of the cerebral hemispheres.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 33,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following arteries is known to originate from the external carotid artery?",
+        "image": "",
+        "opciones": [
+            "Superior thyroid artery",
+            "Lingual artery",
+            "Occipital artery",
+            "All of the above"
+        ],
+        "respuesta_correcta": [
+            "All of the above"
+        ],
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "The external carotid artery gives off several branches, including the superior thyroid, lingual, and occipital arteries.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The external carotid artery gives rise to several branches. Which option correctly lists these branches?",
+        "image": "",
+        "opciones": [
+            "Superior thyroid artery",
+            "Lingual artery",
+            "Occipital artery",
+            "All of the above"
+        ],
+        "respuesta_correcta": [
+            "All of the above"
+        ],
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "All the listed arteries are branches of the external carotid artery, making 'All of the above' the correct choice.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 35,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the group of arteries that are branches of the external carotid artery:",
+        "image": "",
+        "opciones": [
+            "Superior thyroid artery",
+            "Lingual artery",
+            "Occipital artery",
+            "All of the above"
+        ],
+        "respuesta_correcta": [
+            "All of the above"
+        ],
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "Since the external carotid artery provides branches such as the superior thyroid, lingual, and occipital arteries, the correct answer is 'All of the above'.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 36,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which option correctly states the branches that arise from the external carotid artery?",
+        "image": "",
+        "opciones": [
+            "Superior thyroid artery",
+            "Lingual artery",
+            "Occipital artery",
+            "All of the above"
+        ],
+        "respuesta_correcta": [
+            "All of the above"
+        ],
+        "concept_to_study": "Branches of the external carotid artery",
+        "explicacion_openai": "The external carotid artery branches into several arteries including the superior thyroid, lingual, and occipital arteries, so 'All of the above' is correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 37,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The notable feature of the larynx, commonly known as the 'Adam's apple', is formed by which structure?",
+        "image": "",
+        "opciones": [
+            "Hyoid bone",
+            "Thyroid cartilage",
+            "Arytenoid cartilage",
+            "Epiglottis"
+        ],
+        "respuesta_correcta": [
+            "Thyroid cartilage"
+        ],
+        "concept_to_study": "Laryngeal anatomy: thyroid cartilage",
+        "explicacion_openai": "The prominence of the larynx, or the 'Adam's apple', is due to the thyroid cartilage, a key structure in the laryngeal framework.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 38,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which anatomical structure is responsible for the formation of the laryngeal prominence?",
+        "image": "",
+        "opciones": [
+            "Hyoid bone",
+            "Thyroid cartilage",
+            "Arytenoid cartilage",
+            "Epiglottis"
+        ],
+        "respuesta_correcta": [
+            "Thyroid cartilage"
+        ],
+        "concept_to_study": "Laryngeal anatomy: thyroid cartilage",
+        "explicacion_openai": "The thyroid cartilage forms the laryngeal prominence and plays a crucial role in voice production.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 39,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The 'Adam's apple' is primarily composed of which cartilage?",
+        "image": "",
+        "opciones": [
+            "Hyoid bone",
+            "Thyroid cartilage",
+            "Arytenoid cartilage",
+            "Epiglottis"
+        ],
+        "respuesta_correcta": [
+            "Thyroid cartilage"
+        ],
+        "concept_to_study": "Laryngeal anatomy: thyroid cartilage",
+        "explicacion_openai": "Primarily, the 'Adam's apple' is due to the thyroid cartilage, which is more prominent in males.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 40,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which structure creates the externally visible prominence of the larynx?",
+        "image": "",
+        "opciones": [
+            "Hyoid bone",
+            "Thyroid cartilage",
+            "Arytenoid cartilage",
+            "Epiglottis"
+        ],
+        "respuesta_correcta": [
+            "Thyroid cartilage"
+        ],
+        "concept_to_study": "Laryngeal anatomy: thyroid cartilage",
+        "explicacion_openai": "The externally visible laryngeal prominence, popularly known as the 'Adam's apple', is formed by the thyroid cartilage.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 41,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following statements about the great saphenous vein is entirely correct?",
+        "image": "",
+        "opciones": [
+            "It originates along the medial dorsum of the foot",
+            "It passes anterior to the medial malleolus",
+            "It is accompanied by the saphenous nerve",
+            "All of the above"
+        ],
+        "respuesta_correcta": [
+            "All of the above"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "The great saphenous vein originates on the medial side of the foot, courses in front of the medial malleolus, and is accompanied by the saphenous nerve; thus, all the statements are correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 42,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The great saphenous vein is characterized by which of the following features?",
+        "image": "",
+        "opciones": [
+            "It arises from the medial aspect of the foot",
+            "It travels in front of the medial malleolus",
+            "It runs with the saphenous nerve",
+            "All of the above"
+        ],
+        "respuesta_correcta": [
+            "All of the above"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "Each listed feature accurately describes the great saphenous vein, making 'All of the above' the correct answer.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 43,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Select the feature that accurately describes the great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "It originates along the medial dorsum of the foot",
+            "It passes superficial to the medial malleolus",
+            "It is accompanied by the saphenous nerve",
+            "All of the above"
+        ],
+        "respuesta_correcta": [
+            "All of the above"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "Since the great saphenous vein indeed originates medially, passes in front (or superficial to) the medial malleolus, and is accompanied by the saphenous nerve, every option is correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 44,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is TRUE about the great saphenous vein?",
+        "image": "",
+        "opciones": [
+            "It originates on the medial dorsum of the foot",
+            "It ascends immediately anterior to the medial malleolus",
+            "It is accompanied by the saphenous nerve",
+            "All of the above"
+        ],
+        "respuesta_correcta": [
+            "All of the above"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "All statements correctly describe the anatomical course and relationships of the great saphenous vein.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 45,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following statements about the great saphenous vein is incorrect?",
+        "image": "",
+        "opciones": [
+            "It runs laterally over the knee",
+            "It ascends medially along the thigh",
+            "It drains into the common femoral vein",
+            "It has more valves in the calf than in the thigh"
+        ],
+        "respuesta_correcta": [
+            "It runs laterally over the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "The great saphenous vein runs medially, not laterally, at the knee; the other statements correctly describe its course and features.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Select the statement that does NOT accurately describe the great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "It courses along the lateral aspect of the knee",
+            "It ascends on the medial side of the thigh",
+            "It empties into the common femoral vein",
+            "It extends down to the dorsum of the foot"
+        ],
+        "respuesta_correcta": [
+            "It courses along the lateral aspect of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "The statement that the vein courses laterally is incorrect; the great saphenous vein runs medially throughout its course.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 47,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement about the great saphenous vein is not correct?",
+        "image": "",
+        "opciones": [
+            "It passes on the lateral side of the knee",
+            "It courses along the medial aspect of the thigh",
+            "It drains into the common femoral vein",
+            "It shows a higher valve concentration in the calf than in the thigh"
+        ],
+        "respuesta_correcta": [
+            "It passes on the lateral side of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "Among the options, only the lateral course is incorrect; in reality, the vein ascends medially.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 48,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the false statement regarding the great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "It runs on the lateral side of the knee",
+            "It travels medially in the thigh region",
+            "It terminates in the common femoral vein",
+            "It possesses a greater number of valves in the calf than in the thigh"
+        ],
+        "respuesta_correcta": [
+            "It runs on the lateral side of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "The false statement is that the vein runs laterally; all other descriptions accurately represent its anatomy.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 49,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which superficial vein is primarily responsible for channeling blood to the three main perforator veins in the distal calf?",
+        "image": "",
+        "opciones": [
+            "Small saphenous vein",
+            "Posterior accessory vein",
+            "Peroneal vein",
+            "Medial malleolar vein"
+        ],
+        "respuesta_correcta": [
+            "Small saphenous vein"
+        ],
+        "concept_to_study": "Superficial vein drainage of the distal calf",
+        "explicacion_openai": "The small saphenous vein is known to send blood to the three main perforating veins in the distal calf area, playing an important role in venous drainage.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 50,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the superficial vein that directs blood flow to the three main perforating veins of the lower distal calf:",
+        "image": "",
+        "opciones": [
+            "Small saphenous vein",
+            "Posterior accessory vein",
+            "Peroneal vein",
+            "Anterior accessory vein"
+        ],
+        "respuesta_correcta": [
+            "Small saphenous vein"
+        ],
+        "concept_to_study": "Superficial vein drainage of the distal calf",
+        "explicacion_openai": "The small saphenous vein is the key vessel that delivers blood to the major perforator veins in the distal calf region.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 51,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Select the superficial vein that supplies flow to the trio of perforating veins in the distal calf region:",
+        "image": "",
+        "opciones": [
+            "Small saphenous vein",
+            "Posterior accessory vein",
+            "Peroneal vein",
+            "Medial malleolar vein"
+        ],
+        "respuesta_correcta": [
+            "Small saphenous vein"
+        ],
+        "concept_to_study": "Superficial vein drainage of the distal calf",
+        "explicacion_openai": "Because the small saphenous vein is the vessel that directs blood to the set of perforating veins in the distal calf, it is the correct answer.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 52,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which superficial vein contributes blood to the three principal perforator veins in the distal calf?",
+        "image": "",
+        "opciones": [
+            "Small saphenous vein",
+            "Posterior accessory vein",
+            "Peroneal vein",
+            "Anterior accessory vein"
+        ],
+        "respuesta_correcta": [
+            "Small saphenous vein"
+        ],
+        "concept_to_study": "Superficial vein drainage of the distal calf",
+        "explicacion_openai": "The small saphenous vein plays a vital role in providing blood flow to the main perforating veins in the distal calf, making it the correct answer.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 53,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Where are the paratibial perforating veins (Boyd's perforator) typically located?",
+        "image": "",
+        "opciones": [
+            "In the lower calf",
+            "In the distal thigh",
+            "In the proximal thigh",
+            "On the dorsum of the foot"
+        ],
+        "respuesta_correcta": [
+            "In the lower calf"
+        ],
+        "concept_to_study": "Location of paratibial perforating veins",
+        "explicacion_openai": "Paratibial perforating veins, previously known as Boyd's perforator, are most commonly found in the lower calf region.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 54,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the anatomical region where the paratibial perforating veins are found:",
+        "image": "",
+        "opciones": [
+            "In the lower calf",
+            "In the distal thigh",
+            "In the proximal thigh",
+            "On the medial aspect of the foot"
+        ],
+        "respuesta_correcta": [
+            "In the lower calf"
+        ],
+        "concept_to_study": "Location of paratibial perforating veins",
+        "explicacion_openai": "The paratibial perforating veins are located in the lower calf, which is critical for understanding venous drainage of the leg.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 55,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which location best describes where the paratibial perforating veins (formerly Boyd’s perforator) are situated?",
+        "image": "",
+        "opciones": [
+            "In the lower calf",
+            "In the distal thigh",
+            "In the proximal thigh",
+            "In the lateral leg"
+        ],
+        "respuesta_correcta": [
+            "In the lower calf"
+        ],
+        "concept_to_study": "Location of paratibial perforating veins",
+        "explicacion_openai": "The correct anatomical position of the paratibial perforators is in the lower calf area, essential for proper venous return.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 56,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The paratibial perforating veins, previously known as Boyd's perforator, are predominantly located in which region?",
+        "image": "",
+        "opciones": [
+            "In the lower calf",
+            "In the distal thigh",
+            "In the proximal thigh",
+            "On the anterior aspect of the leg"
+        ],
+        "respuesta_correcta": [
+            "In the lower calf"
+        ],
+        "concept_to_study": "Location of paratibial perforating veins",
+        "explicacion_openai": "Knowing that the paratibial perforating veins are found in the lower calf helps in understanding their role in lower extremity venous drainage.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 57,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement best describes the features of the great saphenous vein?",
+        "image": "",
+        "opciones": [
+            "It originates along the medial dorsum of the foot",
+            "It passes in front of the medial malleolus",
+            "It is accompanied by the saphenous nerve",
+            "Every option is correct"
+        ],
+        "respuesta_correcta": [
+            "Every option is correct"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "The great saphenous vein originates on the medial side of the foot, courses anterior to the medial malleolus, and is accompanied by the saphenous nerve. Every option is correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 58,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The great saphenous vein is characterized by which of the following anatomical features?",
+        "image": "",
+        "opciones": [
+            "It originates on the medial dorsum of the foot",
+            "It courses anteriorly over the medial malleolus",
+            "It runs together with the saphenous nerve",
+            "Every option is correct"
+        ],
+        "respuesta_correcta": [
+            "Every option is correct"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "Each option accurately reflects the anatomy of the great saphenous vein, confirming that every option is correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 59,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the true features of the great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "It originates along the medial foot",
+            "It passes anterior to the medial malleolus",
+            "It is accompanied by the saphenous nerve",
+            "Every option is correct"
+        ],
+        "respuesta_correcta": [
+            "Every option is correct"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "Because the vein originates medially, journeys in front of the medial malleolus, and travels with the saphenous nerve, every option is correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 60,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following accurately describes the great saphenous vein?",
+        "image": "",
+        "opciones": [
+            "It begins at the medial dorsum of the foot",
+            "It ascends anterior to the medial malleolus",
+            "It is accompanied by the saphenous nerve",
+            "Every option is correct"
+        ],
+        "respuesta_correcta": [
+            "Every option is correct"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "All the options detail correct aspects of the great saphenous vein’s origin, course, and surrounding structures, making every option correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 61,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which one of the following statements about the great saphenous vein is NOT correct?",
+        "image": "",
+        "opciones": [
+            "It passes superiorly on the lateral side of the knee",
+            "It passes superiorly on the medial side of the thigh",
+            "It enters the common femoral vein",
+            "It extends distally to the dorsum of the foot"
+        ],
+        "respuesta_correcta": [
+            "It passes superiorly on the lateral side of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "The great saphenous vein normally ascends medially. Claiming that it passes laterally over the knee is incorrect.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 62,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Regarding the great saphenous vein, which statement is false?",
+        "image": "",
+        "opciones": [
+            "It passes superiorly on the lateral aspect of the knee",
+            "It runs superiorly on the medial side of the thigh",
+            "It enters the common femoral vein",
+            "It has more valves in the calf than in the thigh"
+        ],
+        "respuesta_correcta": [
+            "It passes superiorly on the lateral aspect of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "The false statement is the one describing a lateral course at the knee, since the vein typically ascends on the medial side.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 63,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Select the statement that is NOT true about the great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "It passes on the lateral side of the knee",
+            "It ascends on the medial thigh",
+            "It enters the common femoral vein",
+            "It extends to the dorsum of the foot"
+        ],
+        "respuesta_correcta": [
+            "It passes on the lateral side of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "The incorrect option is the one stating a lateral course at the knee, because the vein's course is medial.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 64,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is an inaccurate description of the great saphenous vein?",
+        "image": "",
+        "opciones": [
+            "It passes superiorly on the lateral aspect of the knee",
+            "It courses along the medial side of the thigh",
+            "It drains into the common femoral vein",
+            "It extends distally to the dorsum of the foot"
+        ],
+        "respuesta_correcta": [
+            "It passes superiorly on the lateral aspect of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "Saying that the vein passes laterally over the knee is inaccurate, as it follows a medial path.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 65,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the name of the superficial vein that supplies blood to the three main perforating veins of the distal calf?",
+        "image": "",
+        "opciones": [
+            "Small saphenous vein",
+            "Posterior accessory vein",
+            "Peroneal vein",
+            "Perforator trunk vein"
+        ],
+        "respuesta_correcta": [
+            "Small saphenous vein"
+        ],
+        "concept_to_study": "Superficial vein drainage of the distal calf",
+        "explicacion_openai": "The small saphenous vein is responsible for conveying blood to the key perforator veins in the distal calf.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 66,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the superficial vein that directs flow to the three primary perforating veins of the distal calf:",
+        "image": "",
+        "opciones": [
+            "Small saphenous vein",
+            "Posterior accessory vein",
+            "Peroneal vein",
+            "Medial malleolar vein"
+        ],
+        "respuesta_correcta": [
+            "Small saphenous vein"
+        ],
+        "concept_to_study": "Superficial vein drainage of the distal calf",
+        "explicacion_openai": "The small saphenous vein is the main vessel channeling blood to the perforating veins in the distal calf.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 67,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which superficial vein is known for sending blood flow to the three major perforating veins of the distal calf?",
+        "image": "",
+        "opciones": [
+            "Small saphenous vein",
+            "Peroneal vein",
+            "Perforator trunk vein",
+            "Medial malleolar vein"
+        ],
+        "respuesta_correcta": [
+            "Small saphenous vein"
+        ],
+        "concept_to_study": "Superficial vein drainage of the distal calf",
+        "explicacion_openai": "Among the listed choices, the small saphenous vein is the one that supplies flow to the perforating veins in the distal portion of the calf.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 68,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is the superficial vein that feeds the three principal perforating veins of the distal calf?",
+        "image": "",
+        "opciones": [
+            "Small saphenous vein",
+            "Posterior accessory vein",
+            "Perforator trunk vein",
+            "Medial malleolar vein"
+        ],
+        "respuesta_correcta": [
+            "Small saphenous vein"
+        ],
+        "concept_to_study": "Superficial vein drainage of the distal calf",
+        "explicacion_openai": "The small saphenous vein is responsible for delivering blood to the main perforators in the distal calf, making it the correct answer.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 69,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Where are the paratibial perforating veins (formerly Boyd’s perforator) primarily located?",
+        "image": "",
+        "opciones": [
+            "In the lower calf",
+            "In the distal thigh",
+            "In the proximal thigh",
+            "On the dorsum of the foot"
+        ],
+        "respuesta_correcta": [
+            "In the lower calf"
+        ],
+        "concept_to_study": "Location of paratibial perforating veins",
+        "explicacion_openai": "The paratibial perforating veins are predominantly found in the lower calf region.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 70,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the region where the paratibial perforating veins (Boyd’s perforator) are located:",
+        "image": "",
+        "opciones": [
+            "In the lower calf",
+            "In the distal thigh",
+            "In the proximal thigh",
+            "Below the knee"
+        ],
+        "respuesta_correcta": [
+            "In the lower calf"
+        ],
+        "concept_to_study": "Location of paratibial perforating veins",
+        "explicacion_openai": "Although 'below the knee' may seem similar, the precise anatomical location of Boyd’s perforator is in the lower calf.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 71,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": " Which anatomical area best describes the position of the paratibial perforating veins?",
+        "image": "",
+        "opciones": [
+            "In the lower calf",
+            "In the distal thigh",
+            "On the dorsum of the foot",
+            "Below the knee"
+        ],
+        "respuesta_correcta": [
+            "In the lower calf"
+        ],
+        "concept_to_study": "Location of paratibial perforating veins",
+        "explicacion_openai": "The paratibial (Boyd’s) perforator is consistently located in the lower calf, making that the correct selection.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 72,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following best indicates the location of the paratibial perforating veins (Boyd’s perforator)?",
+        "image": "",
+        "opciones": [
+            "In the lower calf",
+            "In the proximal thigh",
+            "On the dorsum of the foot",
+            "Below the knee"
+        ],
+        "respuesta_correcta": [
+            "In the lower calf"
+        ],
+        "concept_to_study": "Location of paratibial perforating veins",
+        "explicacion_openai": "Despite similar nearby regions, the most precise location for the paratibial perforators is the lower calf.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 73,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "Originates along the medial dorsum of the foot",
+            "Passes superiorly, anterior to the medial malleolus",
+            "Is accompanied by the saphenous nerve",
+            "Receives tributaries from all surfaces of the lower extremity",
+            "Every option is correct"
+        ],
+        "respuesta_correcta": [
+            "Every option is correct"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "Each statement accurately describes a feature of the great saphenous vein, making every option correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 74,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The great saphenous vein is characterized by:",
+        "image": "",
+        "opciones": [
+            "Originates from the medial dorsum of the foot",
+            "Courses superiorly, passing anterior to the medial malleolus",
+            "Travels accompanied by the saphenous nerve",
+            "Receives venous tributaries from all regions of the lower extremity",
+            "All statements are correct"
+        ],
+        "respuesta_correcta": [
+            "All statements are correct"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "Every option reflects a correct anatomical feature of the great saphenous vein; hence, all statements are correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 75,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Regarding the great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "It begins along the medial side of the dorsal foot",
+            "Runs superiorly, anterior to the medial malleolus",
+            "Is accompanied by the saphenous nerve",
+            "Receives tributaries from every part of the lower limb",
+            "Each statement is accurate"
+        ],
+        "respuesta_correcta": [
+            "Each statement is accurate"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "All listed features correctly describe the anatomical pathway and relationships of the great saphenous vein.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 76,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Select the correct features of the great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "It originates on the medial dorsal surface of the foot",
+            "It passes anteriorly over the medial malleolus",
+            "It is accompanied by the saphenous nerve",
+            "It receives venous inflow from all parts of the lower extremity",
+            "All provided statements are accurate"
+        ],
+        "respuesta_correcta": [
+            "All provided statements are accurate"
+        ],
+        "concept_to_study": "Great saphenous vein anatomy",
+        "explicacion_openai": "Since every option reflects a true characteristic of the great saphenous vein, the final option confirms that all provided statements are accurate.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 77,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is NOT correct regarding the great saphenous vein?",
+        "image": "",
+        "opciones": [
+            "It passes superiorly on the lateral side of the knee",
+            "It ascends along the medial aspect of the thigh",
+            "It drains into the common femoral vein",
+            "It extends distally to the dorsum of the foot",
+            "It has more valves in the calf than in the thigh"
+        ],
+        "respuesta_correcta": [
+            "It passes superiorly on the lateral side of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "Because the great saphenous vein ascends medially, the statement claiming a lateral course at the knee is not correct.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 78,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Select the statement that is INCORRECT concerning the great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "It courses on the lateral side of the knee",
+            "It ascends medially along the thigh",
+            "It empties into the common femoral vein",
+            "It reaches the dorsum of the foot",
+            "It exhibits more valves in the calf than in the thigh"
+        ],
+        "respuesta_correcta": [
+            "It courses on the lateral side of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "The incorrect detail is that the vein courses laterally at the knee, while in reality it ascends along the medial side.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 79,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the false statement about the great saphenous vein:",
+        "image": "",
+        "opciones": [
+            "It travels on the lateral side of the knee",
+            "It runs along the medial thigh",
+            "It joins the common femoral vein",
+            "It extends to the dorsal surface of the foot",
+            "It contains a higher concentration of valves in the calf compared to the thigh"
+        ],
+        "respuesta_correcta": [
+            "It travels on the lateral side of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "The great saphenous vein normally ascends medially; therefore, the statement that it travels laterally is false.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion and Function",
+        "grupo": 80,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which one of the following statements regarding the great saphenous vein is inaccurate?",
+        "image": "",
+        "opciones": [
+            "It courses along the lateral region of the knee",
+            "It ascends along the inner aspect of the thigh",
+            "It drains into the common femoral vein",
+            "It reaches the dorsum of the foot",
+            "It possesses a greater number of valves in the calf than in the thigh"
+        ],
+        "respuesta_correcta": [
+            "It courses along the lateral region of the knee"
+        ],
+        "concept_to_study": "Great saphenous vein characteristics",
+        "explicacion_openai": "The inaccurate statement is that the vein courses laterally at the knee, although it actually ascends medially along the thigh.",
         "image_explanation": ""
     }
 ]
