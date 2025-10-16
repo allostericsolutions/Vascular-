@@ -15,13 +15,11 @@ def select_random_questions(total=120):
     """
     preguntas = load_questions()
     classification_percentages = {
-        "Normal Anatomy, Perfusion, and Function": 21,
-        "Pathology, Perfusion, and Function": 32,
-        "Surgically Altered Anatomy and Pathology": 6,
-        "Physiologic Exams": 12,
-        "Ultrasound-guided Procedures/Intraoperative Assessment": 7,
-        "Quality Assurance, Safety, and Physical Principles": 14,
-        "Preparation, Documentation, and Communication": 8,
+       "Physical Principles": 15,
+       "Ultrasound Transducers": 16,
+       "Doppler Imaging Concepts": 31,
+       "Imaging Principles and Instrumentation": 28,
+       "Clinical Safety, Patient Care, and Quality Assurance": 10,
     }
     total_percentage = sum(classification_percentages.values())
     if total_percentage != 100:
@@ -73,7 +71,7 @@ def calculate_score():
     # ──────────────────────────────────────────────────────────
     classification_stats = {}
 
-     # --- CAMBIO AQUÍ: Acceso más robusto al nombre del usuario ---
+    # --- CAMBIO AQUÍ: Acceso más robusto al nombre del usuario ---
     # Aseguramos que user_data exista y luego obtenemos el nombre, con un fallback 'Unknown User'
     user_name = st.session_state.get('user_data', {}).get('nombre', 'Unknown User')
     # --- FIN DEL CAMBIO ---
@@ -86,7 +84,8 @@ def calculate_score():
         classification_stats[clasif]["total"] += 1
 
         user_answer = st.session_state.answers.get(str(idx), None)
-        print(f"Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
+        # Añadir el nombre del usuario al print
+        print(f"[{user_name}] Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
 
         if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
@@ -106,15 +105,12 @@ def calculate_score():
                 "indice_pregunta": idx
             }
             st.session_state.incorrect_answers.append(incorrect_info)
-            print(f"Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG
-          
             # Añadir el nombre del usuario al print
+            print(f"[{user_name}] Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG
+
+    # Añadir el nombre del usuario al print
     print(f"[{user_name}] Total de respuestas correctas: {correct_count}")  # DEBUG
     print(f"[{user_name}] Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
-
-
-    print(f"Total de respuestas correctas: {correct_count}")  # DEBUG
-    print(f"Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
 
     # Guardar la estadística de clasificaciones
     st.session_state.classification_stats = classification_stats
