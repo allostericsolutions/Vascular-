@@ -15,11 +15,13 @@ def select_random_questions(total=120):
     """
     preguntas = load_questions()
     classification_percentages = {
-       "Physical Principles": 15,
-       "Ultrasound Transducers": 16,
-       "Doppler Imaging Concepts": 31,
-       "Imaging Principles and Instrumentation": 28,
-       "Clinical Safety, Patient Care, and Quality Assurance": 10,
+       "Normal Anatomy, Perfusion, and Function": 21,
+        "Pathology, Perfusion, and Function": 32,
+        "Surgically Altered Anatomy and Pathology": 6,
+        "Physiologic Exams": 12,
+        "Ultrasound-guided Procedures/Intraoperative Assessment": 7,
+        "Quality Assurance, Safety, and Physical Principles": 14,
+        "Preparation, Documentation, and Communication": 8,
     }
     total_percentage = sum(classification_percentages.values())
     if total_percentage != 100:
