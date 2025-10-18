@@ -41,7 +41,7 @@ def user_data_input():
                     if exam_type == "short":
                         selected = select_short_questions(total=20)
                     else:
-                        selected = select_random_questions(total=120)
+                        selected = select_random_questions(total=140)
 
                     st.session_state.selected_questions = selected
                     for q in st.session_state.selected_questions:
