@@ -6497,10 +6497,10 @@
             "flow reversal zones",
             "stagnant or recirculating flow regions",
             "wake formation behind the disturbance",
-            "all of the above"
+            "all options are correct"
         ],
         "respuesta_correcta": [
-            "all of the above"
+            "all options are correct"
         ],
         "concept_to_study": "Flow Separation Phenomena",
         "explicacion_openai": "When blood encounters an adverse pressure gradient or abrupt change in vessel contour, the boundary layer detaches, creating reversed, recirculating zones and a flow “wake.”",
