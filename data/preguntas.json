@@ -8487,6 +8487,82 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 110,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary cause of aliasing in a tortuous carotid artery observed on Doppler ultrasound?",
+        "image": "aliasing_carotid_rvt.png",
+        "opciones": [
+            "Elevated cardiac output",
+            "Vessel narrowing due to plaque",
+            "Changes in flow angle due to vessel kinking",
+            "Low transducer frequency"
+        ],
+        "respuesta_correcta": [
+            "Changes in flow angle due to vessel kinking"
+        ],
+        "concept_to_study": "Doppler aliasing",
+        "explicacion_openai": "Aliasing occurs when the Doppler shift exceeds the Nyquist limit. In tortuous arteries, abrupt changes in the angle of insonation—especially at kinks—can cause sudden velocity shifts and misinterpretation of flow direction, even if the actual velocity is normal.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 111,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the presence of both red and blue colors within the same vessel on a color Doppler scan typically indicate?",
+        "image": "aliasing_carotid_rvt.png",
+        "opciones": [
+            "Bidirectional flow due to turbulence or angle shift",
+            "Complete occlusion",
+            "Low velocity laminar flow",
+            "Artifact from poor probe contact"
+        ],
+        "respuesta_correcta": [
+            "Bidirectional flow due to turbulence or angle shift"
+        ],
+        "concept_to_study": "Color Doppler interpretation",
+        "explicacion_openai": "Red and blue colors represent flow toward and away from the transducer. In tortuous vessels, the flow direction can change rapidly due to curvature, leading to bidirectional flow patterns or aliasing, especially near kinks.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 112,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why is angle correction critical when evaluating tortuous vessels with spectral Doppler?",
+        "image": "aliasing_carotid_rvt.png",
+        "opciones": [
+            "It eliminates color Doppler artifacts",
+            "It improves tissue resolution",
+            "It ensures accurate velocity calculation",
+            "It reduces aliasing completely"
+        ],
+        "respuesta_correcta": [
+            "It ensures accurate velocity calculation"
+        ],
+        "concept_to_study": "Spectral Doppler angle correction",
+        "explicacion_openai": "Accurate velocity measurement depends on the angle between the ultrasound beam and the direction of blood flow. In tortuous vessels, this angle varies along the vessel path, requiring frequent adjustment to maintain diagnostic accuracy.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 113,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does a color scale from –23 cm/s to +23 cm/s represent in Doppler imaging?",
+        "image": "aliasing_carotid_rvt.png",
+        "opciones": [
+            "Pressure gradient across the vessel",
+            "Flow velocity and direction relative to the transducer",
+            "Depth of the vessel in tissue",
+            "Turbulence intensity"
+        ],
+        "respuesta_correcta": [
+            "Flow velocity and direction relative to the transducer"
+        ],
+        "concept_to_study": "Doppler color scale",
+        "explicacion_openai": "The color scale indicates the velocity and direction of blood flow. Negative values (blue) show flow away from the transducer, while positive values (red) show flow toward it. This helps identify aliasing and flow reversal.",
+        "image_explanation": ""
+    },
+    {
         "clasificacion": "Surgically Altered Anatomy and Pathology",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -12308,82 +12384,5 @@
         "concept_to_study": "Prevalence Definition",
         "explicacion_openai": "Prevalence is the proportion of a particular population found to be affected by a medical condition at a specific time.",
         "image_explanation": ""
-    },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the primary cause of aliasing in a tortuous carotid artery observed on Doppler ultrasound?",
-    "image": "aliasing_carotid_rvt.png",
-    "opciones": [
-      "Elevated cardiac output",
-      "Vessel narrowing due to plaque",
-      "Changes in flow angle due to vessel kinking",
-      "Low transducer frequency"
-    ],
-    "respuesta_correcta": [
-      "Changes in flow angle due to vessel kinking"
-    ],
-    "concept_to_study": "Doppler aliasing",
-    "explicacion_openai": "Aliasing occurs when the Doppler shift exceeds the Nyquist limit. In tortuous arteries, abrupt changes in the angle of insonation—especially at kinks—can cause sudden velocity shifts and misinterpretation of flow direction, even if the actual velocity is normal.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 2,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What does the presence of both red and blue colors within the same vessel on a color Doppler scan typically indicate?",
-    "image": "aliasing_carotid_rvt.png",
-    "opciones": [
-      "Bidirectional flow due to turbulence or angle shift",
-      "Complete occlusion",
-      "Low velocity laminar flow",
-      "Artifact from poor probe contact"
-    ],
-    "respuesta_correcta": [
-      "Bidirectional flow due to turbulence or angle shift"
-    ],
-    "concept_to_study": "Color Doppler interpretation",
-    "explicacion_openai": "Red and blue colors represent flow toward and away from the transducer. In tortuous vessels, the flow direction can change rapidly due to curvature, leading to bidirectional flow patterns or aliasing, especially near kinks.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 3,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Why is angle correction critical when evaluating tortuous vessels with spectral Doppler?",
-    "image": "aliasing_carotid_rvt.png",
-    "opciones": [
-      "It eliminates color Doppler artifacts",
-      "It improves tissue resolution",
-      "It ensures accurate velocity calculation",
-      "It reduces aliasing completely"
-    ],
-    "respuesta_correcta": [
-      "It ensures accurate velocity calculation"
-    ],
-    "concept_to_study": "Spectral Doppler angle correction",
-    "explicacion_openai": "Accurate velocity measurement depends on the angle between the ultrasound beam and the direction of blood flow. In tortuous vessels, this angle varies along the vessel path, requiring frequent adjustment to maintain diagnostic accuracy.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 4,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What does a color scale from –23 cm/s to +23 cm/s represent in Doppler imaging?",
-    "image": "aliasing_carotid_rvt.png",
-    "opciones": [
-      "Pressure gradient across the vessel",
-      "Flow velocity and direction relative to the transducer",
-      "Depth of the vessel in tissue",
-      "Turbulence intensity"
-    ],
-    "respuesta_correcta": [
-      "Flow velocity and direction relative to the transducer"
-    ],
-    "concept_to_study": "Doppler color scale",
-    "explicacion_openai": "The color scale indicates the velocity and direction of blood flow. Negative values (blue) show flow away from the transducer, while positive values (red) show flow toward it. This helps identify aliasing and flow reversal.",
-    "image_explanation": ""
-  }
+    }
 ]
-
