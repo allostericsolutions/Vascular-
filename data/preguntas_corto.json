@@ -2333,5 +2333,25 @@
         "concept_to_study": "Great saphenous vein characteristics",
         "explicacion_openai": "The inaccurate statement is that the vein courses laterally at the knee, although it actually ascends medially along the thigh.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 112,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Why is angle correction critical when evaluating tortuous vessels with spectral Doppler?",
+    "image": "",
+    "video": "https://www.youtube.com/shorts/NI3InMcHy1s",
+    "opciones": [
+        "It eliminates color Doppler artifacts",
+        "It improves tissue resolution",
+        "It ensures accurate velocity calculation",
+        "It reduces aliasing completely"
+    ],
+    "respuesta_correcta": [
+        "It ensures accurate velocity calculation"
+    ],
+    "concept_to_study": "Spectral Doppler angle correction",
+    "explicacion_openai": "Accurate velocity measurement depends on the angle between the ultrasound beam and the direction of blood flow. In tortuous vessels, this angle varies along the vessel path, requiring frequent adjustment to maintain diagnostic accuracy.",
+    "image_explanation": ""
+}
 ]
