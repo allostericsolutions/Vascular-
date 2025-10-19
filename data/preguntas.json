@@ -15107,8 +15107,123 @@
     "concept_to_study": "Vein mapping suitability criteria",
     "explicacion_openai": "The primary goal of vein mapping for bypass grafting (e.g., for coronary artery bypass or lower extremity arterial bypass) is to identify a healthy, patent, and sufficiently large vein segment. Therefore, the most crucial characteristics are the absence of pathology that would compromise its integrity (thrombus, phlebitis), severe dilatation (varicosities) that indicates weakened walls, and ensuring an adequate luminal diameter (typically >2.0-2.5 mm, though exact thresholds vary by surgeon and use case) to ensure sufficient flow and long-term patency of the graft. While valves are naturally present, their presence alone doesn't guarantee suitability. A diameter of 1.0 mm is usually too small for arterial bypass. Triphasic flow is an arterial characteristic, not venous. (Refer to SVU practice guidelines for Vein Mapping and vascular surgery texts).",
     "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A physician orders a carotid duplex ultrasound for a 40-year-old asymptomatic patient with no family history of early stroke or cardiovascular disease, and no bruits on physical exam. According to common Appropriate Use Criteria (AUC) for carotid artery imaging, this order would most likely be considered:",
+    "image": "",
+    "opciones": [
+      "Appropriate.",
+      "May Be Appropriate.",
+      "Rarely Appropriate.",
+      "Indeterminate."
+    ],
+    "respuesta_correcta": [
+      "Rarely Appropriate."
+    ],
+    "concept_to_study": "AUC for carotid imaging",
+    "explicacion_openai": "Appropriate Use Criteria (AUC) aim to ensure that imaging studies are performed when the expected benefits outweigh the potential risks and costs. In this scenario, an asymptomatic patient with no significant risk factors for carotid artery disease has a very low pre-test probability of finding a clinically significant stenosis. Performing a carotid duplex in this setting is generally categorized as \"Rarely Appropriate\" because the likelihood of false positives, patient anxiety, and downstream unnecessary interventions often outweighs any potential benefit of screening. (Refer to ACC/AHA Appropriate Use Criteria for Carotid Artery Imaging and AIUM practice guidelines).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient undergoes a lower extremity arterial duplex ultrasound which shows a long segment of complete occlusion of the superficial femoral artery (SFA). A prior Ankle-Brachial Index (ABI) obtained one week ago was 0.50. How do these findings correlate?",
+    "image": "",
+    "opciones": [
+      "The duplex findings contradict the ABI.",
+      "The duplex findings are consistent with the ABI, both indicating significant peripheral arterial disease.",
+      "The ABI is falsely elevated due to vessel calcification.",
+      "The duplex indicates a less severe disease than the ABI."
+    ],
+    "respuesta_correcta": [
+      "The duplex findings are consistent with the ABI, both indicating significant peripheral arterial disease."
+    ],
+    "concept_to_study": "Correlation of Duplex and ABI",
+    "explicacion_openai": "An ABI of 0.50 is significantly abnormal and indicates moderate to severe peripheral arterial disease (PAD). Complete occlusion of the SFA, as found on duplex, is a severe form of PAD that would cause such a low ABI. Therefore, the anatomical finding on duplex (occlusion) directly correlates with and explains the physiological finding from the ABI (reduced ankle pressure). An ABI > 1.3 would suggest calcification. (Refer to SVU Intersocietal Standards for Lower Extremity Arterial Duplex and peripheral arterial disease diagnostic criteria).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A sonographer is asked by a referring physician to perform a renal artery duplex for hypertension, but the physician specifically requests a \"quick screen\" with only velocities from the main renal arteries. What is the most appropriate action for the sonographer in this situation?",
+    "image": "",
+    "opciones": [
+      "Proceed exactly as requested, focusing only on the main renal artery velocities.",
+      "Refuse the exam, stating it is not a complete protocol.",
+      "Explain the standard, comprehensive renal duplex protocol and its importance, and discuss with the physician if a modified protocol is clinically justifiable.",
+      "Perform a full renal duplex but only document the main renal artery velocities in the report."
+    ],
+    "respuesta_correcta": [
+      "Explain the standard, comprehensive renal duplex protocol and its importance, and discuss with the physician if a modified protocol is clinically justifiable."
+    ],
+    "concept_to_study": "Sonographer-physician collaboration on protocols",
+    "explicacion_openai": "Sonographers are clinical experts in their field and have a responsibility to ensure diagnostic quality. A \"quick screen\" focusing solely on main renal artery velocities might miss accessory renal arteries, hilar disease, or parenchymal changes crucial for a complete diagnosis. The most appropriate action is to collaborate: educate the referring physician about the standard, evidence-based protocol and its clinical value, and engage in a discussion to understand the clinical question fully. If a modification is still deemed appropriate after discussion, it should be clinically justified and documented. Arbitrarily following a suboptimal request or refusing the exam without discussion is not ideal. (Refer to AIUM practice guidelines on sonographer's role and collaboration, and SVU Intersocietal Standards for Renal Duplex).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a venous duplex exam for DVT, the sonographer observes that the patient is experiencing increasing pain and discomfort with transducer compression, despite careful technique. The patient is also becoming anxious. What is the immediate priority for the sonographer?",
+    "image": "",
+    "opciones": [
+      "Inform the patient that pain is normal for DVT evaluation.",
+      "Continue the exam quickly to minimize the duration of discomfort.",
+      "Adjust scanning technique, communicate with the patient, and consider a brief pause or repositioning.",
+      "Administer a pain reliever to the patient."
+    ],
+    "respuesta_correcta": [
+      "Adjust scanning technique, communicate with the patient, and consider a brief pause or repositioning."
+    ],
+    "concept_to_study": "Patient safety and comfort during ultrasound",
+    "explicacion_openai": "Patient safety and comfort are paramount. While some discomfort can occur during DVT evaluation (especially with compression over an inflamed thrombus), severe or increasing pain and anxiety require immediate attention. The sonographer should first adjust their technique (e.g., lighter pressure, different angle), communicate with the patient to reassure them and explain the need for compression, and offer a brief pause or repositioning to alleviate discomfort. Administering medication is outside the sonographer's scope of practice. Ignoring or downplaying the pain is inappropriate and can harm the patient-sonographer relationship and potentially worsen the patient's condition. (Refer to AIUM practice guidelines on patient care and safety).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "While performing a carotid duplex, the sonographer observes a bright, swirling pattern of color Doppler flow outside the vessel lumen, extending rapidly from a small area on the anterior wall of the common carotid artery. This appearance is most consistent with what artifact or pathology?",
+    "image": "",
+    "opciones": [
+      "Aliasing artifact.",
+      "Mirror image artifact.",
+      "Color bruit artifact.",
+      "Pseudoaneurysm."
+    ],
+    "respuesta_correcta": [
+      "Pseudoaneurysm."
+    ],
+    "concept_to_study": "Pseudoaneurysm identification",
+    "explicacion_openai": "A bright, swirling pattern of color Doppler flow outside the vessel lumen, originating from a connection to the artery, is the classic \"yin-yang\" sign of a pseudoaneurysm. This indicates turbulent blood flow within a contained hematoma that has a communication (neck) with the arterial lumen. Aliasing is misrepresentation of high velocities within a vessel. Mirror image artifact duplicates a structure. Color bruit is disorganized color flow related to severe turbulence within a vessel, often spreading into adjacent tissues due to vibration, but not a distinct sac of swirling blood. (Refer to \"Clinical Vascular Ultrasound\" and ultrasound physics/artifact texts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A sonographer measures a Peak Systolic Velocity (PSV) of 200 cm/s and an End-Diastolic Velocity (EDV) of 50 cm/s in the main renal artery. What is the calculated Resistive Index (RI) for this vessel?",
+    "image": "",
+    "opciones": [
+      "0.25",
+      "0.50",
+      "0.75",
+      "1.00"
+    ],
+    "respuesta_correcta": [
+      "0.75"
+    ],
+    "concept_to_study": "Resistive Index (RI) calculation",
+    "explicacion_openai": "The Resistive Index (RI) is a calculated Doppler parameter used to assess the resistance to blood flow in a vascular bed. The formula for RI is: RI = (PSV - EDV) / PSV Using the given values: RI = (200 cm/s - 50 cm/s) / 200 cm/s RI = 150 cm/s / 200 cm/s RI = 0.75 A normal RI in the renal artery is typically less than 0.70-0.80, so 0.75 would be within or at the upper end of the normal range, depending on specific institutional cutoffs. (Refer to \"Sonography: Principles and Instruments\" by Kremkau, and renal duplex guidelines).",
+    "image_explanation": ""
   }
 ]
+
 
 
 
