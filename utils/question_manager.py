@@ -21,7 +21,7 @@ def select_random_questions(total=120):
         "Physiologic Exams": 12,
         "Ultrasound-guided Procedures/Intraoperative Assessment": 7,
         "Quality Assurance, Safety, and Physical Principles": 14,
-        "Preparation, Documentation, and Communication": 8,
+        "Preparation,Documentation, and communication": 8,
     }
     total_percentage = sum(classification_percentages.values())
     if total_percentage != 100:
