@@ -14879,5 +14879,238 @@
         "concept_to_study": "Knowledge of appropriate indications and contraindications for vascular exams",
         "explicacion_openai": "Amaurosis fugax (transient monocular blindness) is a classic symptom of an embolic event originating from the ipsilateral carotid artery (especially the internal carotid artery). Therefore, a carotid duplex is the most appropriate exam to evaluate for carotid stenosis or plaque as a source.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When performing a duplex ultrasound of the abdominal aorta, what is considered the normal Peak Systolic Velocity (PSV) range in the suprarenal aorta?",
+    "image": "",
+    "opciones": [
+      "20-50 cm/s",
+      "60-100 cm/s",
+      "100-150 cm/s",
+      "160-200 cm/s"
+    ],
+    "respuesta_correcta": [
+      "60-100 cm/s"
+    ],
+    "concept_to_study": "Suprarenal aorta PSV",
+    "explicacion_openai": "The normal Peak Systolic Velocity (PSV) in the suprarenal abdominal aorta typically ranges from 60-100 cm/s. Velocities tend to be slightly higher in the proximal (suprarenal) aorta and decrease slightly as the vessel tapers distally. These velocities can vary slightly based on patient factors, cardiac output, and technique, but this range represents a healthy, non-stenotic vessel. (Refer to \"Clinical Vascular Ultrasound\" by Khan and Daigle, and standard vascular ultrasound reference charts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following describes the normal Doppler flow pattern typically observed in the subclavian and jugular veins?",
+    "image": "",
+    "opciones": [
+      "Pulsatile with a sharp systolic upstroke.",
+      "Phasic with respiration and slightly pulsatile due to cardiac activity.",
+      "Continuous, non-phasic flow without variation.",
+      "Triphasic flow with flow reversal."
+    ],
+    "respuesta_correcta": [
+      "Phasic with respiration and slightly pulsatile due to cardiac activity."
+    ],
+    "concept_to_study": "Upper extremity venous flow pattern",
+    "explicacion_openai": "The large veins of the upper thorax, such as the subclavian and jugular veins, are close to the heart and are significantly influenced by intrathoracic pressure changes. Normal flow is phasic with respiration (flow increases with inspiration and decreases with expiration in the upper extremities) and often exhibits a slight pulsatility transmitted from the adjacent cardiac cycle. Arterial flow is pulsatile with a sharp upstroke. Continuous flow suggests an obstruction distal to the transducer. Triphasic flow is characteristic of normal peripheral arteries. (Refer to \"Vascular Technology: An Illustrated Review\" by King and Rader, and SVU Intersocietal Standards for Upper Extremity Venous Duplex).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When performing a lower extremity venous duplex, what is the expected normal response of venous flow in the common femoral vein during distal augmentation (squeezing the calf)?",
+    "image": "",
+    "opciones": [
+      "A complete cessation of flow.",
+      "A brief, immediate increase in antegrade flow, followed by no significant reflux upon release.",
+      "Sustained retrograde flow for more than 1 second.",
+      "Pulsatile flow with high velocities."
+    ],
+    "respuesta_correcta": [
+      "A brief, immediate increase in antegrade flow, followed by no significant reflux upon release."
+    ],
+    "concept_to_study": "Normal response to distal augmentation",
+    "explicacion_openai": "Distal augmentation is a maneuver used to assess venous patency and valvular competence. When the calf is squeezed, blood is propelled cephalad (towards the heart), causing a brief, immediate increase in antegrade flow in the common femoral vein. Upon release of the squeeze, competent valves should close, preventing any significant backward (reflux) flow. The absence of significant reflux (typically defined as less than 0.5-1.0 seconds, depending on the vein and protocol) indicates normal valve function. (Refer to SVU Intersocietal Standards for the Performance of Lower Extremity Venous Duplex Ultrasound).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following describes the normal spectral Doppler waveform characteristics of the radial and ulnar arteries at rest?",
+    "image": "",
+    "opciones": [
+      "Monophasic, low resistance.",
+      "Biphasic, high resistance.",
+      "Triphasic, high resistance.",
+      "Continuous, non-phasic."
+    ],
+    "respuesta_correcta": [
+      "Triphasic, high resistance."
+    ],
+    "concept_to_study": "Upper extremity arterial waveform at rest",
+    "explicacion_openai": "In a resting state, the peripheral arteries of the upper extremities (like the radial and ulnar arteries) normally exhibit a triphasic, high-resistance waveform. This waveform is characterized by a sharp systolic upstroke, a brief period of diastolic flow reversal, and then a small amount of forward diastolic flow. High resistance is due to vasoconstriction in the distal arterioles. Monophasic flow or low resistance would typically indicate hyperemia or distal arterial disease. (Refer to \"Clinical Vascular Ultrasound\" and SVU Intersocietal Standards for Upper Extremity Arterial Duplex).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the normal spectral Doppler waveform typically observed in a healthy common femoral artery (CFA) at rest?",
+    "image": "",
+    "opciones": [
+      "Monophasic with absent diastolic flow.",
+      "Biphasic with reversed diastolic flow.",
+      "Triphasic with a sharp systolic upstroke and a brief diastolic flow reversal.",
+      "Continuous, low resistance flow."
+    ],
+    "respuesta_correcta": [
+      "Triphasic with a sharp systolic upstroke and a brief diastolic flow reversal."
+    ],
+    "concept_to_study": "Common femoral artery waveform at rest",
+    "explicacion_openai": "Similar to the upper extremities, the common femoral artery (CFA) in the lower extremity at rest normally exhibits a triphasic, high-resistance waveform. This means it has three distinct phases: a rapid antegrade systolic component, a brief retrograde (reversed) component in early diastole, and a small antegrade component in late diastole. This reflects the high peripheral resistance in the resting lower extremity muscles. Monophasic or continuous flow suggests distal pathology or hyperemia. (Refer to SVU Intersocietal Standards for the Performance of Lower Extremity Arterial Duplex Ultrasound).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In a fasting patient, which of the following describes the normal spectral Doppler flow pattern typically seen in the Superior Mesenteric Artery (SMA)?",
+    "image": "",
+    "opciones": [
+      "High resistance, triphasic.",
+      "Low resistance, monophasic.",
+      "High resistance, monophasic with minimal diastolic flow.",
+      "Pulsatile with a sharp systolic peak and continuous diastolic flow reversal."
+    ],
+    "respuesta_correcta": [
+      "High resistance, monophasic with minimal diastolic flow."
+    ],
+    "concept_to_study": "SMA waveform in fasting state",
+    "explicacion_openai": "In a fasting state, the Superior Mesenteric Artery (SMA) supplies organs (small intestine, right colon) that have high peripheral resistance when not actively digesting. Therefore, its normal fasting waveform is typically high resistance, monophasic, with a sharp systolic peak and very little to no forward diastolic flow (sometimes even a brief diastolic flow reversal). After a meal, the SMA waveform transforms into a low-resistance, monophasic pattern with increased diastolic flow due to vasodilation. (Refer to \"Clinical Vascular Ultrasound\" and SVU practice guidelines for Mesenteric Duplex).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the normal spectral Doppler flow pattern expected in the main renal artery?",
+    "image": "",
+    "opciones": [
+      "High resistance, triphasic.",
+      "Low resistance, monophasic with continuous forward diastolic flow.",
+      "High resistance with absent diastolic flow.",
+      "Biphasic with flow reversal."
+    ],
+    "respuesta_correcta": [
+      "Low resistance, monophasic with continuous forward diastolic flow."
+    ],
+    "concept_to_study": "Renal artery flow pattern",
+    "explicacion_openai": "The kidneys are organs that require a constant, high volume of blood flow for proper function. Therefore, the normal main renal artery exhibits a low-resistance, monophasic flow pattern. This is characterized by a rapid systolic upstroke and continuous forward diastolic flow, reflecting the low resistance of the renal vascular bed. High resistance or absent diastolic flow would suggest pathology. (Refer to \"Clinical Vascular Ultrasound\" and SVU practice guidelines for Renal Duplex).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following describes the normal direction of flow in the main portal vein?",
+    "image": "",
+    "opciones": [
+      "Hepatofugal (away from the liver).",
+      "Hepatopetal (towards the liver).",
+      "Bidirectional (to and fro flow).",
+      "Pulsatile with high velocities."
+    ],
+    "respuesta_correcta": [
+      "Hepatopetal (towards the liver)."
+    ],
+    "concept_to_study": "Portal vein flow direction",
+    "explicacion_openai": "The main portal vein normally carries nutrient-rich, deoxygenated blood from the gastrointestinal tract, pancreas, and spleen towards the liver. This direction of flow is described as hepatopetal. Hepatofugal flow is abnormal and suggests severe portal hypertension or other pathology. The portal vein's flow is typically continuous and slightly undulating (phasic with respiration), not strongly pulsatile like an artery. (Refer to \"Clinical Vascular Ultrasound\" and hepatobiliary ultrasound texts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the characteristic normal spectral Doppler flow pattern in the Inferior Vena Cava (IVC) and common iliac veins, particularly near the heart?",
+    "image": "",
+    "opciones": [
+      "Continuous, non-phasic flow.",
+      "Triphasic flow with flow reversal.",
+      "Pulsatile, with respiratory phasicity and cardiac pulsatility.",
+      "Monophasic, low velocity flow."
+    ],
+    "respuesta_correcta": [
+      "Pulsatile, with respiratory phasicity and cardiac pulsatility."
+    ],
+    "concept_to_study": "IVC and proximal iliac vein flow pattern",
+    "explicacion_openai": "The Inferior Vena Cava (IVC) and proximal iliac veins are large-diameter veins located close to the heart. Therefore, their normal flow patterns are significantly influenced by both respiration and cardiac activity. They typically display respiratory phasicity (flow changes with breathing) and cardiac pulsatility (fluctuations due to pressure changes during the cardiac cycle, particularly in the IVC and more proximal segments). Continuous non-phasic flow would suggest an obstruction. Triphasic flow is arterial. (Refer to \"Clinical Vascular Ultrasound\" and SVU Intersocietal Standards for Lower Extremity Venous Duplex).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following describes the normal spectral Doppler flow pattern expected in the internal carotid artery (ICA)?",
+    "image": "",
+    "opciones": [
+      "High resistance, triphasic.",
+      "High resistance with minimal diastolic flow.",
+      "Low resistance, monophasic with continuous forward diastolic flow.",
+      "Biphasic with prominent retrograde flow."
+    ],
+    "respuesta_correcta": [
+      "Low resistance, monophasic with continuous forward diastolic flow."
+    ],
+    "concept_to_study": "Internal carotid artery flow pattern",
+    "explicacion_openai": "The internal carotid artery (ICA) supplies blood to the brain, which is a continuously active, low-resistance vascular bed. Therefore, the normal ICA waveform is characterized by low resistance, a rapid systolic upstroke, and continuous forward diastolic flow (monophasic). This is distinctly different from the high-resistance waveforms typically seen in the external carotid artery (ECA) or peripheral arteries at rest. (Refer to SVU Intersocietal Standards for the Performance of Carotid Duplex Ultrasound and \"Clinical Vascular Ultrasound\").",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When performing a Transcranial Doppler (TCD) exam through the transtemporal window, the Middle Cerebral Artery (MCA) is typically identified by its normal flow direction, which is:",
+    "image": "",
+    "opciones": [
+      "Away from the transducer (hepatofugal).",
+      "Towards the transducer (hepatopetal).",
+      "Bidirectional (to and fro).",
+      "Absent in a normal individual."
+    ],
+    "respuesta_correcta": [
+      "Towards the transducer (hepatopetal)."
+    ],
+    "concept_to_study": "MCA flow direction in TCD",
+    "explicacion_openai": "In a standard TCD examination using the transtemporal window, the Middle Cerebral Artery (MCA) runs horizontally and anteriorly. Given the transducer position, normal flow in the MCA is typically directed towards the transducer. This is a key identifying characteristic for the MCA when performing TCD. Flow away from the transducer in this window typically identifies the posterior cerebral artery (PCA) or anterior cerebral artery (ACA). (Refer to SVU Intersocietal Standards for the Performance of Transcranial Duplex Ultrasound and \"Clinical Vascular Ultrasound\").",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When performing a vein mapping study for potential bypass graft material, what is the most crucial characteristic of a saphenous vein that makes it suitable for use as a conduit?",
+    "image": "",
+    "opciones": [
+      "Presence of multiple venous valves.",
+      "A diameter of at least 1.0 mm throughout its length.",
+      "Absence of significant thrombus, phlebitis, or extreme varicosities, and adequate luminal diameter.",
+      "A triphasic Doppler flow pattern."
+    ],
+    "respuesta_correcta": [
+      "Absence of significant thrombus, phlebitis, or extreme varicosities, and adequate luminal diameter."
+    ],
+    "concept_to_study": "Vein mapping suitability criteria",
+    "explicacion_openai": "The primary goal of vein mapping for bypass grafting (e.g., for coronary artery bypass or lower extremity arterial bypass) is to identify a healthy, patent, and sufficiently large vein segment. Therefore, the most crucial characteristics are the absence of pathology that would compromise its integrity (thrombus, phlebitis), severe dilatation (varicosities) that indicates weakened walls, and ensuring an adequate luminal diameter (typically >2.0-2.5 mm, though exact thresholds vary by surgeon and use case) to ensure sufficient flow and long-term patency of the graft. While valves are naturally present, their presence alone doesn't guarantee suitability. A diameter of 1.0 mm is usually too small for arterial bypass. Triphasic flow is an arterial characteristic, not venous. (Refer to SVU practice guidelines for Vein Mapping and vascular surgery texts).",
+    "image_explanation": ""
+  }
 ]
+
+
+
+
+
