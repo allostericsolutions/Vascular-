@@ -14140,13 +14140,13 @@
         "enunciado": "A test with high **specificity** is most useful when the goal is to:",
         "image": "",
         "opciones": [
-            "screen for a rare but serious disease in a large population.",
-            "rule out a disease, especially when the disease is serious and treatable.",
-            "confirm a diagnosis after a positive screening test.",
-            "minimize the number of false negative results."
+            "Screen for a rare but serious disease in a large population.",
+            "Rule out a disease, especially when the disease is serious and treatable.",
+            "Confirm a diagnosis after a positive screening test.",
+            "Minimize the number of false negative results."
         ],
         "respuesta_correcta": [
-            "confirm a diagnosis after a positive screening test."
+            "Confirm a diagnosis after a positive screening test."
         ],
         "concept_to_study": "Application of Specificity",
         "explicacion_openai": "A highly specific test is good at identifying true negatives. If a specific test is positive, it's very likely the person has the disease (SPIN - Specificity Positive, IN the disease). This is useful for confirming diagnoses to avoid unnecessary treatments or anxiety.",
