@@ -12556,7 +12556,84 @@
     "concept_to_study": "Consequences of poor Doppler angle",
     "explicacion_openai": "A misaligned color box produces a suboptimal angle and uneven sampling, leading to poor carotid visualization, misleading bidirectional color, and potential aliasing that complicates interpretation.",
     "image_explanation": "The image depicts the consequences of suboptimal color box placement, which can lead to poor arterial mapping, misleading color patterns, and potential aliasing artifacts due to the incorrect Doppler angle."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary technical problem shown by the spectral Doppler in this image?",
+    "image": "spectral_gate_error.png",
+    "opciones": [
+      "PRF set too high eliminating low frequencies",
+      "Incorrect adjustment of sample volume (too large), resulting in false turbulent spectral wave",
+      "Wall filter set too low producing low‑frequency noise",
+      "Excessive spectral gain causing spectral broadening"
+    ],
+    "respuesta_correcta": [
+      "Incorrect adjustment of sample volume (too large), resulting in false turbulent spectral wave"
+    ],
+    "concept_to_study": "Spectral Doppler sample volume size",
+    "explicacion_openai": "A sample volume that is too large mixes signals from different flow layers and vessel walls, producing an artificially widened, turbulent‑appearing spectrum.",
+    "image_explanation": "The image displays a spectral Doppler waveform that appears artificially broadened or turbulent, indicating a technical issue with the sample volume size."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which equipment adjustment will most effectively reduce the observed artifact?",
+    "image": "spectral_gate_error.png",
+    "opciones": [
+      "Increase spectral Doppler gain",
+      "Decrease the sample‑volume size and center it on the lumen axis",
+      "Raise PRF to avoid aliasing",
+      "Change the color map to one with higher contrast"
+    ],
+    "respuesta_correcta": [
+      "Decrease the sample‑volume size and center it on the lumen axis"
+    ],
+    "concept_to_study": "Correcting sample volume artifact",
+    "explicacion_openai": "Reducing and properly centering the sample volume improves spatial resolution and prevents mixing of signals that cause apparent spectral turbulence.",
+    "image_explanation": "The image shows an artifact caused by an oversized sample volume. The question asks for the adjustment to fix this, which is to reduce the sample volume size and center it."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the most likely clinical consequence if the oversized sample volume is not corrected?",
+    "image": "spectral_gate_error.png",
+    "opciones": [
+      "Consistent underestimation of peak systolic velocity",
+      "False diagnosis of stenosis due to spurious high velocities and turbulent spectrum",
+      "Improved detection of low‑velocity flow",
+      "Complete loss of color Doppler signal in the vessel"
+    ],
+    "respuesta_correcta": [
+      "False diagnosis of stenosis due to spurious high velocities and turbulent spectrum"
+    ],
+    "concept_to_study": "Clinical impact of sample volume error",
+    "explicacion_openai": "Mixed signals within a large gate can create spurious high‑velocity components and broadening that mimic stenosis or turbulent flow, leading to false positives.",
+    "image_explanation": "The image shows a spectral Doppler artifact from an oversized sample volume. This question explores the clinical implications of not correcting this, which can lead to misdiagnosis."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Besides reducing sample‑volume size, which technical practice helps minimize this artifact?",
+    "image": "spectral_gate_error.png",
+    "opciones": [
+      "Align the transducer axis with hemoglobin molecules",
+      "Position the sample volume adjacent to the arterial wall",
+      "Optimize insonation angle to be as parallel to flow as possible and use a smaller gate",
+      "Increase color persistence in the color mode"
+    ],
+    "respuesta_correcta": [
+      "Optimize insonation angle to be as parallel to flow as possible and use a smaller gate"
+    ],
+    "concept_to_study": "Minimizing spectral Doppler artifacts",
+    "explicacion_openai": "Optimizing the insonation angle and using a smaller gate improve velocity estimation and reduce inclusion of off‑axis or wall signals; placing the gate near the wall worsens the artifact.",
+    "image_explanation": "The image shows a spectral Doppler artifact related to sample volume size. This question asks for another technique to minimize it, focusing on insonation angle and gate size."
   }
 ]
+
 
 
