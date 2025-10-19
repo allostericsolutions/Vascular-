@@ -14138,5 +14138,386 @@
         "concept_to_study": "Knowledge of appropriate indications and contraindications for vascular exams",
         "explicacion_openai": "Amaurosis fugax (transient monocular blindness) is a classic symptom of an embolic event originating from the ipsilateral carotid artery (especially the internal carotid artery). Therefore, a carotid duplex is the most appropriate exam to evaluate for carotid stenosis or plaque as a source.",
         "image_explanation": ""
-    }
+    },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 65-year-old male presents with acute onset right leg pain and coolness. The initial clinical assessment suggests acute limb ischemia. Which of the following is the most appropriate immediate imaging study to confirm the diagnosis and plan intervention, based on typical Appropriate Use Criteria for vascular emergencies?",
+    "image": "",
+    "opciones": [
+      "Ankle-Brachial Index (ABI) assessment",
+      "Duplex ultrasound of the affected leg",
+      "Computed Tomography Angiography (CTA) of the affected leg",
+      "Magnetic Resonance Angiography (MRA) of the affected leg"
+    ],
+    "respuesta_correcta": [
+      "Computed Tomography Angiography (CTA) of the affected leg"
+    ],
+    "concept_to_study": "Acute limb ischemia imaging",
+    "explicacion_openai": "For acute limb ischemia, rapid and comprehensive anatomical information of the entire arterial tree, including inflow and runoff, is critical for immediate surgical or interventional planning. While duplex ultrasound is a primary vascular imaging tool, CTA often provides a faster and more complete assessment in an emergency setting, offering detailed anatomical localization and extent of disease. ABI is a diagnostic tool but doesn't provide anatomical localization for intervention. MRA, while excellent, might take longer to acquire, has specific contraindications (e.g., metallic implants), and may not be as readily available in an acute emergency. (Refer to ACC/AHA Appropriate Use Criteria for Peripheral Arterial Disease and standard vascular surgery texts like \"Rutherford's Vascular Surgery and Endovascular Therapy\").",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient with a history of hypertension and hyperlipidemia is scheduled for a carotid duplex ultrasound as part of a routine screening program, despite being asymptomatic and having no bruits. According to widely accepted Appropriate Use Criteria (AUC) for carotid artery imaging, what is the appropriateness rating for this specific scenario?",
+    "image": "",
+    "opciones": [
+      "Appropriate",
+      "May Be Appropriate",
+      "Rarely Appropriate",
+      "Indeterminate"
+    ],
+    "respuesta_correcta": [
+      "Rarely Appropriate"
+    ],
+    "concept_to_study": "AUC for carotid artery imaging",
+    "explicacion_openai": "Routine screening for carotid artery stenosis in asymptomatic individuals without specific, strong risk factors (e.g., known severe peripheral artery disease, abdominal aortic aneurysm, or bruits on examination) is generally considered \"Rarely Appropriate\" by most Appropriate Use Criteria. The potential harms (false positives, patient anxiety, unnecessary further diagnostic tests or interventions) often outweigh the benefits in this low-risk group. AUC guidelines emphasize targeting imaging to patients with higher pre-test probability of significant disease. (Refer to ACC/AHA Appropriate Use Criteria for Carotid Artery Imaging and AIUM practice guidelines).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a lower extremity arterial duplex exam, the sonographer notices the patient is shivering excessively, which is causing significant artifact in the spectral Doppler waveforms. What is the most appropriate initial action for the sonographer to take to ensure optimal patient care and image quality?",
+    "image": "",
+    "opciones": [
+      "Increase the Doppler gain and filter settings.",
+      "Instruct the patient to try and stop shivering forcefully.",
+      "Cover the patient with a warm blanket and offer a brief pause.",
+      "Complete the exam quickly to minimize patient discomfort."
+    ],
+    "respuesta_correcta": [
+      "Cover the patient with a warm blanket and offer a brief pause."
+    ],
+    "concept_to_study": "Managing shivering artifact",
+    "explicacion_openai": "Patient comfort directly impacts cooperation and image quality. Shivering can introduce significant motion artifact into Doppler waveforms and B-mode images, making them non-diagnostic. Addressing the root cause (coldness) by providing warmth and offering a brief break demonstrates empathy, improves the patient's experience, and is the most effective way to achieve diagnostic image quality. Increasing gain/filter might mask artifact but won't solve the underlying issue. Forcefully instructing a shivering patient is generally ineffective and can worsen discomfort. Rushing the exam may compromise quality. (Refer to AIUM practice guidelines and general principles of patient-centered care in sonography).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A sonographer is preparing to perform a carotid duplex ultrasound on an elderly patient who appears confused and is unable to follow complex instructions. What is the best approach to ensure the patient's safety and cooperation during the exam?",
+    "image": "",
+    "opciones": [
+      "Proceed with the exam as quickly as possible, minimizing interaction.",
+      "Attempt to explain each step in medical terminology to improve understanding.",
+      "Speak clearly, use simple language, and demonstrate positions, seeking assistance if needed.",
+      "Administer a sedative to the patient to ensure stillness."
+    ],
+    "respuesta_correcta": [
+      "Speak clearly, use simple language, and demonstrate positions, seeking assistance if needed."
+    ],
+    "concept_to_study": "Patient communication for confused patients",
+    "explicacion_openai": "For confused, elderly, or uncooperative patients, clear, simple, and concise communication is paramount. Using plain language and demonstrating desired positions (e.g., \"turn your head like this\") can be far more effective than complex verbal instructions. Seeking assistance from a nurse, family member, or another healthcare professional can ensure both patient safety (e.g., preventing falls, maintaining position) and the successful completion of the exam. Sedation is not a routine first-line approach in a diagnostic imaging setting and would require a physician's order and monitoring. (Refer to AIUM practice guidelines and patient communication strategies for vulnerable populations).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A referring physician orders a renal artery duplex ultrasound for a patient with newly diagnosed, uncomplicated hypertension, without any other risk factors for renovascular disease or signs of resistant hypertension. Based on current Appropriate Use Criteria for renal artery stenosis, how would this order generally be classified?",
+    "image": "",
+    "opciones": [
+      "Appropriate, as it's a primary screening tool for all hypertension.",
+      "May Be Appropriate, depending on local protocols.",
+      "Rarely Appropriate, as this scenario typically does not warrant initial renal artery imaging.",
+      "Indeterminate, requiring further diagnostic tests first."
+    ],
+    "respuesta_correcta": [
+      "Rarely Appropriate, as this scenario typically does not warrant initial renal artery imaging."
+    ],
+    "concept_to_study": "AUC for renal artery stenosis",
+    "explicacion_openai": "Current Appropriate Use Criteria for renal artery duplex ultrasound generally recommend screening for renovascular hypertension in patients with specific high-risk indicators such as resistant hypertension (uncontrolled on three or more anti-hypertensive drugs), sudden onset of hypertension at a young or old age, worsening renal function on ACE inhibitors or ARBs, unexplained asymmetric kidney size, or recurrent flash pulmonary edema/unexplained congestive heart failure. Uncomplicated, newly diagnosed hypertension without these features is considered low probability for renal artery stenosis and typically does not warrant initial renal artery imaging due to the low diagnostic yield and potential for false positives. (Refer to ACC/AHA Appropriate Use Criteria for Renal Artery Imaging).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 55-year-old male presents with claudication symptoms after walking 200 meters. A prior ABI study showed abnormal values. The physician now orders a lower extremity arterial duplex ultrasound. Applying Appropriate Use Criteria, this order would be considered:",
+    "image": "",
+    "opciones": [
+      "Rarely Appropriate, as ABI is sufficient for diagnosis.",
+      "May Be Appropriate, but CTA or MRA are preferred.",
+      "Appropriate, as it provides anatomical and hemodynamic information.",
+      "Indeterminate, requiring a treadmill test first."
+    ],
+    "respuesta_correcta": [
+      "Appropriate, as it provides anatomical and hemodynamic information."
+    ],
+    "concept_to_study": "AUC for lower extremity arterial duplex",
+    "explicacion_openai": "When claudication symptoms are present and an abnormal Ankle-Brachial Index (ABI) confirms the presence of Peripheral Arterial Disease (PAD), a lower extremity arterial duplex ultrasound is an appropriate next step. The duplex provides crucial anatomical localization of stenoses or occlusions and a hemodynamic assessment of their severity, which is essential for guiding treatment planning (e.g., angioplasty, stenting, bypass surgery). While CTA and MRA also provide anatomical detail, duplex ultrasound is often preferred as a non-invasive, cost-effective, and functional imaging modality. A treadmill test might be used to quantify functional limitation, but the duplex is key for anatomical diagnosis. (Refer to ACC/AHA Appropriate Use Criteria for Peripheral Arterial Disease Imaging and SVU practice guidelines).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient undergoes a carotid duplex ultrasound that reveals a highly stenotic internal carotid artery lesion (70-80% stenosis) with significant post-stenotic turbulence. A follow-up MRA of the neck shows a similar degree of stenosis but suggests a longer, more irregular plaque. What is the most likely reason for potential discrepancies between duplex and MRA findings in this scenario?",
+    "image": "",
+    "opciones": [
+      "Duplex ultrasound overestimates stenosis in tortuous vessels.",
+      "MRA is inherently less accurate for assessing plaque morphology.",
+      "Differences in measurement techniques and the ability of each modality to visualize specific plaque characteristics (e.g., calcification, soft plaque components).",
+      "The patient's blood pressure significantly changed between the two studies."
+    ],
+    "respuesta_correcta": [
+      "Differences in measurement techniques and the ability of each modality to visualize specific plaque characteristics (e.g., calcification, soft plaque components)."
+    ],
+    "concept_to_study": "Correlation of duplex and MRA findings",
+    "explicacion_openai": "Both duplex ultrasound and MRA are valuable for assessing carotid stenosis, but they have different strengths and limitations. Duplex ultrasound relies on Doppler flow characteristics and B-mode visualization of lumen reduction, which can be affected by severe calcification (shadowing) or vessel tortuosity. MRA provides a 3D view of the lumen and can be less susceptible to shadowing from calcification, offering a more comprehensive view of plaque length and irregularity. However, MRA can sometimes overestimate stenosis in areas of slow or turbulent flow. Discrepancies often arise from these inherent differences in how each modality measures the lumen, visualizes plaque morphology (e.g., distinguishing soft plaque from thrombus, or seeing intraplaque hemorrhage), and handles artifacts. Significant blood pressure changes could alter hemodynamics but are less likely to cause fundamental differences in plaque characterization between two studies performed relatively close in time. (Refer to \"Clinical Vascular Ultrasound\" by Khan and Daigle, and \"Vascular Technology: An Illustrated Review\" by King and Rader).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A deep venous thrombosis (DVT) is suspected in a patient with acute leg swelling. A lower extremity venous duplex ultrasound is performed, which is negative for DVT. However, the patient's D-dimer is significantly elevated, and clinical suspicion remains high. Which of the following subsequent actions is most appropriate in correlating findings with other modalities or further workup?",
+    "image": "",
+    "opciones": [
+      "Immediately repeat the duplex ultrasound by a different sonographer.",
+      "Discharge the patient, as a negative duplex definitively rules out DVT.",
+      "Consider a CT venography or serial duplex ultrasounds if clinical suspicion persists.",
+      "Prescribe anticoagulants empirically based on the D-dimer alone."
+    ],
+    "respuesta_correcta": [
+      "Consider a CT venography or serial duplex ultrasounds if clinical suspicion persists."
+    ],
+    "concept_to_study": "Correlation of DVT findings with other modalities",
+    "explicacion_openai": "A negative venous duplex ultrasound, especially when combined with a highly elevated D-dimer and strong clinical suspicion (high pre-test probability), warrants further investigation. While duplex is highly sensitive for proximal DVT, small calf DVTs or non-occlusive thrombi can sometimes be missed, or the DVT could be in an area not fully visualized. In such cases, a CT venography (which can visualize the entire deep venous system and alternative pathologies) or serial duplex ultrasounds (e.g., 3-7 days later) to check for thrombus propagation are appropriate. Repeating the duplex immediately by a different sonographer may or may not yield different results. Discharging the patient or empirically prescribing anticoagulants without definitive imaging in this scenario would be inappropriate and potentially dangerous. (Refer to ACR Appropriateness Criteria for Suspected DVT and SVU practice guidelines for Venous Duplex).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "For a standard carotid duplex ultrasound protocol, which of the following is typically NOT a required measurement or assessment?",
+    "image": "",
+    "opciones": [
+      "Peak Systolic Velocity (PSV) of the Common Carotid Artery (CCA).",
+      "Internal Carotid Artery (ICA) / CCA ratio.",
+      "Assessment of the vertebral artery flow direction.",
+      "Measurement of carotid intima-media thickness (CIMT) for routine stenosis evaluation."
+    ],
+    "respuesta_correcta": [
+      "Measurement of carotid intima-media thickness (CIMT) for routine stenosis evaluation."
+    ],
+    "concept_to_study": "Standard carotid duplex protocol",
+    "explicacion_openai": "While Carotid Intima-Media Thickness (CIMT) is a measurement used in cardiovascular risk assessment and research, it is generally NOT a standard or required component of a routine carotid duplex protocol specifically designed for evaluating carotid artery stenosis. The primary focus for stenosis evaluation includes measuring PSV and End-Diastolic Velocity (EDV) in the ICA and CCA, calculating the ICA/CCA ratio, and characterizing plaque morphology in B-mode. Assessment of vertebral artery flow direction is standard as it can indicate subclavian steal. (Refer to SVU Intersocietal Standards for the Performance of Carotid Duplex Ultrasound and AIUM practice guidelines).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When performing a complete lower extremity arterial duplex ultrasound protocol, the sonographer should routinely assess and document:",
+    "image": "",
+    "opciones": [
+      "Only the femoropopliteal segment if claudication is the primary symptom.",
+      "PSVs and spectral waveforms at multiple levels, including inflow, thigh, calf, and ankle.",
+      "Venous reflux times in all deep and superficial veins.",
+      "Ankle-Brachial Index (ABI) values, exclusively from the dorsalis pedis artery."
+    ],
+    "respuesta_correcta": [
+      "PSVs and spectral waveforms at multiple levels, including inflow, thigh, calf, and ankle."
+    ],
+    "concept_to_study": "Complete lower extremity arterial duplex protocol",
+    "explicacion_openai": "A complete lower extremity arterial duplex protocol requires a comprehensive assessment of the entire arterial tree. This involves obtaining and documenting Peak Systolic Velocities (PSVs) and characteristic spectral waveforms at multiple predefined levels from the inflow vessels (e.g., common femoral artery) down through the thigh (superficial femoral artery, profunda femoris), calf (popliteal, anterior tibial, posterior tibial, peroneal arteries), and ankle arteries. This extensive mapping helps to localize and characterize the extent and severity of arterial disease. Assessing only a segment is incomplete. Venous reflux times are for venous insufficiency. ABI is typically a separate physiological test, although often performed in conjunction, and involves multiple ankle arteries (dorsalis pedis and posterior tibial). (Refer to SVU Intersocietal Standards for the Performance of Lower Extremity Arterial Duplex Ultrasound).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In a typical abdominal aorta duplex ultrasound protocol performed for aneurysm screening, which of the following measurements is most crucial to obtain and document?",
+    "image": "",
+    "opciones": [
+      "Peak Systolic Velocity (PSV) at the aortic bifurcation.",
+      "Aortic diameter (AP and transverse) at multiple levels, including infrarenal.",
+      "Renal artery PSV and End-Diastolic Velocity (EDV).",
+      "Superior mesenteric artery (SMA) flow direction."
+    ],
+    "respuesta_correcta": [
+      "Aortic diameter (AP and transverse) at multiple levels, including infrarenal."
+    ],
+    "concept_to_study": "Abdominal aorta aneurysm screening protocol",
+    "explicacion_openai": "The primary goal of an abdominal aorta duplex ultrasound performed for aneurysm screening is to identify, measure, and monitor the maximum diameter of the aorta, particularly the infrarenal segment, which is the most common location for aneurysms. Accurate AP (anterior-posterior) and transverse diameters are essential for diagnosing and classifying aneurysmal disease. While velocities might be obtained for other indications, diameter measurement is the most crucial for aneurysm screening. Renal artery and SMA parameters are for evaluation of those specific vessels, not primary aortic aneurysm screening. (Refer to AIUM Practice Parameter for the Performance of an Abdominal Aorta Ultrasound Examination).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A sonographer is asked to perform a lower extremity venous duplex ultrasound to rule out DVT. According to standard protocols, what is the primary technique used to assess for acute DVT?",
+    "image": "",
+    "opciones": [
+      "Augmentation of venous flow with distal compression.",
+      "Evaluation of biphasic flow in the common femoral vein.",
+      "Complete compressibility of the deep veins in transverse view.",
+      "Measurement of venous valve closure times."
+    ],
+    "respuesta_correcta": [
+      "Complete compressibility of the deep veins in transverse view."
+    ],
+    "concept_to_study": "Primary technique for DVT assessment",
+    "explicacion_openai": "The hallmark sonographic finding of an acute Deep Vein Thrombosis (DVT) is the absence of complete compressibility of the affected vein. By applying direct pressure with the transducer in a transverse orientation, the walls of a normal, patent deep vein should completely coapt. If a thrombus is present, the vein will not compress fully. Augmentation and phasicity are related to venous flow dynamics but are not the primary diagnostic criteria for DVT. Measurement of venous valve closure times is the technique used to assess for venous reflux and insufficiency, not acute DVT. (Refer to SVU Intersocietal Standards for the Performance of Lower Extremity Venous Duplex Ultrasound).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient scheduled for a carotid endarterectomy has a significantly elevated International Normalized Ratio (INR) of 3.5. What is the most significant implication of this lab value for the planned surgical procedure?",
+    "image": "",
+    "opciones": [
+      "It indicates an increased risk of stroke during the procedure.",
+      "It suggests a higher likelihood of restenosis post-surgery.",
+      "It significantly increases the risk of bleeding complications during and after surgery.",
+      "It implies severe renal dysfunction, contraindicating general anesthesia."
+    ],
+    "respuesta_correcta": [
+      "It significantly increases the risk of bleeding complications during and after surgery."
+    ],
+    "concept_to_study": "Implication of elevated INR for surgery",
+    "explicacion_openai": "The International Normalized Ratio (INR) is a standardized measure of prothrombin time, which assesses the extrinsic pathway of coagulation. An elevated INR (normal is typically around 1.0 for healthy individuals, or 2.0-3.0 for therapeutic anticoagulation in specific conditions) indicates that the blood is taking longer than usual to clot. An INR of 3.5 is above the typical therapeutic range for most surgical procedures and suggests a significantly increased risk of bleeding complications during and after invasive surgery like a carotid endarterectomy. Managing anticoagulation is critical pre-operatively. (Refer to Perioperative medicine guidelines and vascular surgery texts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents with sudden onset flank pain and hematuria. A renal duplex ultrasound is ordered. The patient's creatinine level is markedly elevated. What is the most important implication of this elevated creatinine for the ultrasound findings or interpretation?",
+    "image": "",
+    "opciones": [
+      "It strongly suggests renal artery stenosis as the cause of hypertension.",
+      "It could indicate impaired renal function, which may be related to the underlying pathology or impact further imaging decisions (e.g., contrast administration).",
+      "It is a direct indicator of a renal vein thrombosis.",
+      "It implies a high risk of developing an abdominal aortic aneurysm."
+    ],
+    "respuesta_correcta": [
+      "It could indicate impaired renal function, which may be related to the underlying pathology or impact further imaging decisions (e.g., contrast administration)."
+    ],
+    "concept_to_study": "Implication of elevated creatinine in renal ultrasound",
+    "explicacion_openai": "Creatinine is a waste product filtered by the kidneys, and an elevated serum creatinine level is a key indicator of impaired renal function. In the context of flank pain and hematuria, this could be a consequence of the underlying renal pathology (e.g., acute kidney injury, severe obstruction, intrinsic kidney disease) or an pre-existing chronic condition. This information is crucial for the sonographer and interpreting physician as it provides important context for evaluating kidney size, echogenicity, and the presence of hydronephrosis. Furthermore, elevated creatinine has significant implications for subsequent imaging, especially if contrast-enhanced studies like CT or MRA are being considered, as many contrast agents are nephrotoxic and could further worsen renal function. (Refer to Nephrology guidelines and radiology texts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following imaging modalities is generally considered the gold standard for detailed anatomical mapping of complex arterial disease prior to surgical intervention, despite its invasive nature?",
+    "image": "",
+    "opciones": [
+      "Duplex Ultrasound",
+      "Computed Tomography Angiography (CTA)",
+      "Magnetic Resonance Angiography (MRA)",
+      "Conventional Angiography (DSA)"
+    ],
+    "respuesta_correcta": [
+      "Conventional Angiography (DSA)"
+    ],
+    "concept_to_study": "Gold standard for arterial mapping",
+    "explicacion_openai": "While non-invasive modalities like duplex ultrasound, CTA, and MRA are excellent for screening and initial diagnosis, Conventional Angiography (Digital Subtraction Angiography - DSA) remains the \"gold standard\" for highly detailed anatomical mapping of complex arterial disease, particularly when precise information is required for surgical or endovascular planning. Its high spatial resolution, ability to visualize the entire arterial tree, and real-time guidance are unmatched, despite its invasive nature and associated risks. (Refer to Vascular surgery texts like \"Rutherford's Vascular Surgery and Endovascular Therapy\" and interventional radiology guidelines).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents with a suspected pseudoaneurysm following a femoral artery puncture. While duplex ultrasound is typically the first-line diagnostic tool, which other imaging modality might be used to further characterize the pseudoaneurysm, especially if it's large or complex, or if interventional planning is required?",
+    "image": "",
+    "opciones": [
+      "Plain X-ray of the groin",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography Angiography (CTA)",
+      "Mammography"
+    ],
+    "respuesta_correcta": [
+      "Computed Tomography Angiography (CTA)"
+    ],
+    "concept_to_study": "Supplemental imaging for pseudoaneurysm characterization",
+    "explicacion_openai": "Duplex ultrasound is indeed the first-line diagnostic tool for pseudoaneurysms due to its real-time capabilities and ability to visualize flow within the sac and neck. However, if a pseudoaneurysm is large, complex, extending into surrounding tissues, or if there's concern for infection, rupture, or if detailed anatomical relationships are needed for surgical or endovascular planning, Computed Tomography Angiography (CTA) is often the preferred supplemental imaging modality. CTA provides a comprehensive, high-resolution anatomical view, delineating the pseudoaneurysm's exact location, size, relationship to adjacent vessels, and extent of hematoma. MRI can also be used but is often less readily available in acute settings and may be longer to acquire. Plain X-ray is of limited value. (Refer to Radiology and Vascular Surgery texts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "To optimize visualization of the distal superficial femoral artery (SFA) and popliteal artery in a patient with significant body habitus, which patient positioning technique is most helpful?",
+    "image": "",
+    "opciones": [
+      "Supine with the leg externally rotated.",
+      "Prone with the knee slightly flexed.",
+      "Decubitus position with the affected leg elevated.",
+      "Sitting upright with the leg dangling."
+    ],
+    "respuesta_correcta": [
+      "Prone with the knee slightly flexed."
+    ],
+    "concept_to_study": "Patient positioning for distal SFA/popliteal artery visualization",
+    "explicacion_openai": "The prone position with the knee slightly flexed (often achieved by placing a pillow under the ankle) is highly effective for optimizing visualization of the popliteal artery and the distal superficial femoral artery (SFA). This position helps to stretch the muscles and bring the vessels closer to the skin surface, especially beneficial in patients with significant body habitus where a supine approach might be challenging due to tissue thickness and bone interference. Other positions are less optimal for this specific segment. (Refer to \"Clinical Vascular Ultrasound\" and specialized sonography technique guides for lower extremity arterial mapping).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When performing a carotid duplex ultrasound, the sonographer should typically position the patient:",
+    "image": "",
+    "opciones": [
+      "Supine, with the head turned sharply away from the side being examined.",
+      "Supine, with the head slightly extended and turned slightly to the side opposite the transducer.",
+      "Prone, with the head in a neutral position.",
+      "Sitting upright, with the neck flexed forward."
+    ],
+    "respuesta_correcta": [
+      "Supine, with the head slightly extended and turned slightly to the side opposite the transducer."
+    ],
+    "concept_to_study": "Patient positioning for carotid duplex",
+    "explicacion_openai": "This position (supine, with the head slightly extended and gently turned about 45 degrees away from the side being scanned) provides the best exposure and access to the carotid bifurcation and adjacent vessels without causing excessive strain or compromising venous return. It allows the sonographer comfortable transducer manipulation and optimizes image acquisition. Turning the head too sharply can create tension in the neck muscles, making imaging difficult and potentially altering flow dynamics. Prone or sitting positions are not standard for carotid duplex. (Refer to SVU Intersocietal Standards for the Performance of Carotid Duplex Ultrasound and sonography technique manuals).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is considered a relative contraindication for performing a lower extremity arterial duplex ultrasound?",
+    "image": "",
+    "opciones": [
+      "Suspected deep vein thrombosis.",
+      "Patient's inability to cooperate due to severe pain or altered mental status.",
+      "Presence of peripheral arterial disease symptoms.",
+      "History of previous bypass graft surgery in the leg."
+    ],
+    "respuesta_correcta": [
+      "Patient's inability to cooperate due to severe pain or altered mental status."
+    ],
+    "concept_to_study": "Relative contraindications for lower extremity arterial duplex",
+    "explicacion_openai": "While not an absolute contraindication that would cause direct harm, a patient's inability to cooperate due to severe pain, altered mental status, or extreme anxiety significantly compromises the quality, completeness, and diagnostic accuracy of a vascular ultrasound. Motion artifact, inability to follow breathing instructions, or difficulty maintaining specific positions can render the exam non-diagnostic. In such cases, the benefits of the exam must be weighed against the limitations, and alternative imaging or patient management strategies may need to be considered. The other options (suspected DVT, PAD symptoms, previous bypass) are either indications for the exam or common findings that are part of the assessment. (Refer to AIUM practice guidelines and general principles of patient safety and quality assurance in sonography).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "For a transcranial Doppler (TCD) ultrasound exam, which of the following is a major contraindication?",
+    "image": "",
+    "opciones": [
+      "History of migraines.",
+      "Age over 70 years.",
+      "Recent craniotomy with a bone flap that prevents transducer contact with the skull windows.",
+      "Uncontrolled hypertension."
+    ],
+    "respuesta_correcta": [
+      "Recent craniotomy with a bone flap that prevents transducer contact with the skull windows."
+    ],
+    "concept_to_study": "Major contraindications for TCD ultrasound",
+    "explicacion_openai": "Transcranial Doppler (TCD) ultrasound relies on the ability of the ultrasound beam to penetrate specific \"bone windows\" in the skull (temporal, orbital, foramen magnum). A recent craniotomy with a bone flap that obstructs these windows, or extensive surgical dressings/hardware, will completely block the ultrasound beam, making the exam technically impossible. The other options are generally not contraindications. Migraines are a common indication for TCD in some protocols. Age is not a barrier. While uncontrolled hypertension can affect intracranial flow, it is usually an indication for monitoring, not a contraindication to the exam itself. (Refer to SVU Intersocietal Standards for the Performance of Transcranial Duplex Ultrasound and neurology/stroke guidelines).",
+    "image_explanation": ""
+  }
 ]
+
