@@ -9994,16 +9994,16 @@
         "clasificacion": "Quality Assurance, Safety, and Physical Principles",
         "grupo": 25,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which statements correctly define the Nyquist limit?",
+        "enunciado": "Which statement correctly define the Nyquist limit?",
         "image": "",
         "opciones": [
             "One-half of the pulse repetition frequency",
-            "The highest Doppler frequency measurable without aliasing",
+            "The proper speed of sound in soft tissue",
             "A situation when sampling rate is too low relative to blood velocities",
-            "Both a and b"
+            "1/3 of PRF"
         ],
         "respuesta_correcta": [
-            "Both a and b"
+            "One-half of the pulse repetition frequency"
         ],
         "concept_to_study": "Definition of the Nyquist limit",
         "explicacion_openai": "The Nyquist limit is half the PRF and represents the maximum Doppler shift measurable without aliasing. Option c describes aliasing itself, not the limit.",
