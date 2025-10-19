@@ -512,138 +512,215 @@
         "explicacion_openai": "Nutcracker syndrome arises when the left renal vein is compressed between the SMA and aorta due to a decreased aortomesenteric angle (< 40°), causing hematuria, flank pain, and potential renal congestion.",
         "image_explanation": ""
     },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 28,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The ability of a test to detect disease:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Sensitivity",
-        "explicacion_openai": "Sensitivity is the test’s ability to correctly identify individuals who have the disease (true positives).",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 29,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The ability of a test to identify normalcy:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Specificity",
-        "explicacion_openai": "Specificity is the test’s ability to correctly identify individuals who do not have the disease (true negatives).",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 30,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "How often a positive study result is correct:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Positive Predictive Value (PPV)",
-        "explicacion_openai": "Positive predictive value indicates the probability that a positive test result is a true positive.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 31,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "How often a negative study result is correct:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Negative Predictive Value (NPV)",
-        "explicacion_openai": "Negative predictive value indicates the probability that a negative test result is a true negative.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 32,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "How good a test is:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Accuracy",
-        "explicacion_openai": "Accuracy measures the proportion of all test results (positive and negative) that are correct, reflecting overall test performance.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 33,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Eighty patients had both duplex ultrasound and CTA of the lower extremity arterial system. Thirty-three patients had an SFA stenosis by both US and CTA. Seventeen had stenosis by US only. Nineteen had no stenosis by either modality. Eleven had stenosis by CTA only. The number of true positives is:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Diagnostic test statistics",
-        "explicacion_openai": "True positives are cases where both the test and the reference standard detect the condition; here, 33 patients had SFA stenosis by both modalities.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Using the same patient data, the number of false negatives is:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Diagnostic test statistics",
-        "explicacion_openai": "False negatives are cases where the test fails to detect a condition that the reference standard identifies; here, 11 patients had stenosis by CTA but not by US.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 35,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "High-level disinfection for ultrasound probes is achieved with:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Probe disinfection",
-        "explicacion_openai": "Glutaraldehyde is a high-level disinfectant effective against bacteria, viruses, and fungi, and is used for heat-sensitive medical instruments like ultrasound probes.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 36,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If bodily fluids spill during an exam:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Body fluid spill protocol",
-        "explicacion_openai": "A spill kit contains absorbents and disinfectants designed to safely contain and clean up bodily fluid spills, protecting staff and patients.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 37,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "All of the following about communication with the patient are true EXCEPT:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Patient communication",
-        "explicacion_openai": "Patients must consent and may revoke it; sonographers should not interpret studies for patients, and patients are not permitted to photograph or record the screen.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 38,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "All of the following are ergonomic risk factors EXCEPT:",
-        "image": "",
-        "opciones": [],
-        "respuesta_correcta": [],
-        "concept_to_study": "Ergonomic risk factors",
-        "explicacion_openai": "Ergonomic risk factors include awkward postures like excessive shoulder abduction, sustained twisting or bending of the torso, and repetitive neck movements. Shoulder adduction within a neutral range is not typically a risk factor.",
-        "image_explanation": ""
-    },
+   {
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 28,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "The ability of a test to detect disease:",
+"image": "",
+"opciones": [
+"Sensitivity",
+"Specificity",
+"Accuracy",
+"Positive Predictive Value"
+],
+"respuesta_correcta": [
+"Sensitivity"
+],
+"concept_to_study": "Sensitivity",
+"explicacion_openai": "Sensitivity is the test’s ability to correctly identify individuals who have the disease (true positives).",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 29,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "The ability of a test to identify normalcy:",
+"image": "",
+"opciones": [
+"Specificity",
+"Sensitivity",
+"Accuracy",
+"Negative Predictive Value"
+],
+"respuesta_correcta": [
+"Specificity"
+],
+"concept_to_study": "Specificity",
+"explicacion_openai": "Specificity is the test’s ability to correctly identify individuals who do not have the disease (true negatives).",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 30,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "How often a positive study result is correct:",
+"image": "",
+"opciones": [
+"Positive Predictive Value (PPV)",
+"Negative Predictive Value (NPV)",
+"Sensitivity",
+"Specificity"
+],
+"respuesta_correcta": [
+"Positive Predictive Value (PPV)"
+],
+"concept_to_study": "Positive Predictive Value (PPV)",
+"explicacion_openai": "Positive predictive value indicates the probability that a positive test result is a true positive.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 31,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "How often a negative study result is correct:",
+"image": "",
+"opciones": [
+"Negative Predictive Value (NPV)",
+"Positive Predictive Value (PPV)",
+"Sensitivity",
+"Specificity"
+],
+"respuesta_correcta": [
+"Negative Predictive Value (NPV)"
+],
+"concept_to_study": "Negative Predictive Value (NPV)",
+"explicacion_openai": "Negative predictive value indicates the probability that a negative test result is a true negative.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 32,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "How good a test is:",
+"image": "",
+"opciones": [
+"Accuracy",
+"Sensitivity",
+"Specificity",
+"Precision"
+],
+"respuesta_correcta": [
+"Accuracy"
+],
+"concept_to_study": "Accuracy",
+"explicacion_openai": "Accuracy measures the proportion of all test results (positive and negative) that are correct, reflecting overall test performance.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 33,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Eighty patients had both duplex ultrasound and CTA of the lower extremity arterial system. Thirty-three patients had an SFA stenosis by both US and CTA. Seventeen had stenosis by US only. Nineteen had no stenosis by either modality. Eleven had stenosis by CTA only. The number of true positives is:",
+"image": "",
+"opciones": [
+"33",
+"17",
+"19",
+"11"
+],
+"respuesta_correcta": [
+"33"
+],
+"concept_to_study": "Diagnostic test statistics",
+"explicacion_openai": "True positives are cases where both the test and the reference standard detect the condition; here, 33 patients had SFA stenosis by both modalities.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 34,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Using the same patient data, the number of false negatives is:",
+"image": "",
+"opciones": [
+"11",
+"17",
+"19",
+"33"
+],
+"respuesta_correcta": [
+"11"
+],
+"concept_to_study": "Diagnostic test statistics",
+"explicacion_openai": "False negatives are cases where the test fails to detect a condition that the reference standard identifies; here, 11 patients had stenosis by CTA but not by US.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 35,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "High-level disinfection for ultrasound probes is achieved with:",
+"image": "",
+"opciones": [
+"Glutaraldehyde",
+"Alcohol wipes",
+"Soap and water",
+"Bleach solution"
+],
+"respuesta_correcta": [
+"Glutaraldehyde"
+],
+"concept_to_study": "Probe disinfection",
+"explicacion_openai": "Glutaraldehyde is a high-level disinfectant effective against bacteria, viruses, and fungi, and is used for heat-sensitive medical instruments like ultrasound probes.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 36,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "If bodily fluids spill during an exam:",
+"image": "",
+"opciones": [
+"Clean it up with a spill kit",
+"Call for a custodian",
+"Ignore it until the exam is over",
+"Cover it with a towel"
+],
+"respuesta_correcta": [
+"Clean it up with a spill kit"
+],
+"concept_to_study": "Body fluid spill protocol",
+"explicacion_openai": "A spill kit contains absorbents and disinfectants designed to safely contain and clean up bodily fluid spills, protecting staff and patients.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 37,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "All of the following about communication with the patient are true EXCEPT:",
+"image": "",
+"opciones": [
+"Patients can take photos of the screen",
+"Patients have the right to revoke consent",
+"Sonographers should not interpret studies for patients",
+"Patients can ask questions during the exam"
+],
+"respuesta_correcta": [
+"Patients can take photos of the screen"
+],
+"concept_to_study": "Patient communication",
+"explicacion_openai": "Patients must consent and may revoke it; sonographers should not interpret studies for patients, and patients are not permitted to photograph or record the screen.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Normal Anatomy, Perfusion, and Function",
+"grupo": 38,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "All of the following are ergonomic risk factors EXCEPT:",
+"image": "",
+"opciones": [
+"Shoulder adduction within a neutral range",
+"Excessive shoulder abduction",
+"Sustained twisting of the torso",
+"Repetitive neck movements"
+],
+"respuesta_correcta": [
+"Shoulder adduction within a neutral range"
+],
+"concept_to_study": "Ergonomic risk factors",
+"explicacion_openai": "Ergonomic risk factors include awkward postures like excessive shoulder abduction, sustained twisting or bending of the torso, and repetitive neck movements. Shoulder adduction within a neutral range is not typically a risk factor.",
+"image_explanation": ""
+},
     {
         "clasificacion": "Normal Anatomy, Perfusion, and Function",
         "grupo": 39,
