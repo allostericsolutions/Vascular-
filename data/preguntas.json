@@ -12422,6 +12422,64 @@
     "concept_to_study": "Reducing Doppler aliasing",
     "explicacion_openai": "Lowering the baseline increases the velocity range displayed in one direction, reducing aliasing caused by misplacement. This is the simplest and most effective adjustment when aliasing is due to baseline error rather than true high velocity.",
     "image_explanation": "The image shows a spectral Doppler waveform with aliasing. Lowering the baseline is the most appropriate adjustment to correct this artifact when it is caused by an incorrectly placed baseline, as it expands the displayable velocity range."
+  },
+   {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary technical issue depicted in this color Doppler image of the carotid artery?",
+    "image": "carotid_colorbox_misuse.png",
+    "opciones": [
+      "Excessive wall filter causing loss of low‑velocity flow",
+      "Incorrect use of the color box leading to a wrong Doppler angle and poor vessel mapping",
+      "Overgain causing color blooming beyond vessel walls",
+      "PRF set too high causing absence of color signal"
+    ],
+    "respuesta_correcta": [
+      "Incorrect use of the color box leading to a wrong Doppler angle and poor vessel mapping"
+    ],
+    "concept_to_study": "Color Doppler box misuse",
+    "explicacion_openai": "The color box is poorly positioned and oriented, producing a suboptimal Doppler angle that degrades flow alignment and results in incomplete or misleading carotid mapping.",
+    "image_explanation": "The image shows a color Doppler display of a carotid artery where the color box is not optimally aligned with the vessel's axis, leading to an incorrect Doppler angle and thus poor vessel mapping."
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which adjustment would most improve the accuracy of flow visualization in this case?",
+    "image": "carotid_colorbox_misuse.png",
+    "opciones": [
+      "Increase color persistence",
+      "Enlarge and realign the color box along the vessel axis to optimize the insonation angle",
+      "Lower the wall filter",
+      "Decrease overall color gain"
+    ],
+    "respuesta_correcta": [
+      "Enlarge and realign the color box along the vessel axis to optimize the insonation angle"
+    ],
+    "concept_to_study": "Optimizing Doppler angle",
+    "explicacion_openai": "Resizing and rotating/realigning the color box to match the vessel course optimizes the Doppler angle, improving laminar flow depiction and reducing apparent aliasing or dropout.",
+    "image_explanation": "The image illustrates a scenario where adjusting the color box (resizing and realigning it along the vessel axis) is necessary to optimize the Doppler angle for more accurate flow visualization."
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What downstream effect can result from the current color box placement and angle?",
+    "image": "carotid_colorbox_misuse.png",
+    "opciones": [
+      "Enhanced detection of low‑velocity flow",
+      "Accurate quantification of peak systolic velocity",
+      "Poor arterial mapping with misleading color patterns and potential aliasing artifacts",
+      "Increased signal‑to‑noise ratio"
+    ],
+    "respuesta_correcta": [
+      "Poor arterial mapping with misleading color patterns and potential aliasing artifacts"
+    ],
+    "concept_to_study": "Consequences of poor Doppler angle",
+    "explicacion_openai": "A misaligned color box produces a suboptimal angle and uneven sampling, leading to poor carotid visualization, misleading bidirectional color, and potential aliasing that complicates interpretation.",
+    "image_explanation": "The image depicts the consequences of suboptimal color box placement, which can lead to poor arterial mapping, misleading color patterns, and potential aliasing artifacts due to the incorrect Doppler angle."
   }
 ]
+
 
