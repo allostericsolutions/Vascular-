@@ -12384,5 +12384,44 @@
         "concept_to_study": "Prevalence Definition",
         "explicacion_openai": "Prevalence is the proportion of a particular population found to be affected by a medical condition at a specific time.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which factor most likely caused the aliasing artifact in this spectral Doppler waveform?",
+    "image": "baseline_aliasing_carotid.png",
+    "opciones": [
+      "Proper angle correction",
+      "Incorrect baseline placement",
+      "High transducer frequency",
+      "Low wall filter"
+    ],
+    "respuesta_correcta": [
+      "Incorrect baseline placement"
+    ],
+    "concept_to_study": "Spectral Doppler aliasing",
+    "explicacion_openai": "Even if velocities are within normal limits, aliasing can appear when the baseline is incorrectly positioned too close to zero. This reduces the available display range, causing the waveform to wrap around.",
+    "image_explanation": "The image displays a spectral Doppler waveform exhibiting aliasing, characterized by the waveform wrapping around the baseline. This artifact suggests that the displayed velocity exceeds the Nyquist limit due to an improperly set baseline."
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the most appropriate adjustment to reduce aliasing in this case?",
+    "image": "baseline_aliasing_carotid.png",
+    "opciones": [
+      "Increase the gain",
+      "Lower the baseline",
+      "Activate wall filter",
+      "Use a higher frequency transducer"
+    ],
+    "respuesta_correcta": [
+      "Lower the baseline"
+    ],
+    "concept_to_study": "Reducing Doppler aliasing",
+    "explicacion_openai": "Lowering the baseline increases the velocity range displayed in one direction, reducing aliasing caused by misplacement. This is the simplest and most effective adjustment when aliasing is due to baseline error rather than true high velocity.",
+    "image_explanation": "The image shows a spectral Doppler waveform with aliasing. Lowering the baseline is the most appropriate adjustment to correct this artifact when it is caused by an incorrectly placed baseline, as it expands the displayable velocity range."
+  }
 ]
+
