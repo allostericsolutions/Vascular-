@@ -102,11 +102,12 @@ def generate_pdf(user_data, score, status, photo_path=None):
     pdf.add_page()
 
     # --- Logo SOLO en la primera página ---
-    logo_path = os.path.join("assets", "images", "medgoal.png")  # <-- CAMBIO AQUÍ
+    # CAMBIO: Ruta del nuevo logo
+    logo_path = os.path.join("assets", "images", "AllostericSolutions.png")
     print(f"Intentando cargar logo desde: {logo_path}")
     if os.path.exists(logo_path):
         print(f"¡El logo existe en {logo_path}!")
-        pdf.image(logo_path, x=10, y=10, w=50)  # Ajusta x, y, w
+        pdf.image(logo_path, x=10, y=10, w=50)  # Ajusta x, y, w según el nuevo logo
     else:
         print(f"¡¡¡El logo NO se encontró en {logo_path}!!!")
     # --------------------------------------
@@ -159,8 +160,9 @@ def generate_pdf(user_data, score, status, photo_path=None):
         pdf.cell(65, 8, to_latin1("TOTAL"), border=1, ln=0, align='C')
         pdf.cell(22, 8, str(total_questions_asked), border=1, ln=1, align='C')
 
-
-        pdf.ln(10)  # Espacio entre las tablas
+        # CAMBIO: Salto de página después de la primera tabla
+        pdf.add_page()
+        pdf.ln(10) # Un poco de espacio al inicio de la nueva página, si es necesario
 
         # --- Tabla 2: Respuestas Correctas, Porcentaje y Comentarios ---
         pdf.set_font("Arial", 'B', 12)
