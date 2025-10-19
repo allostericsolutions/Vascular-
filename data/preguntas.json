@@ -512,215 +512,215 @@
         "explicacion_openai": "Nutcracker syndrome arises when the left renal vein is compressed between the SMA and aorta due to a decreased aortomesenteric angle (< 40°), causing hematuria, flank pain, and potential renal congestion.",
         "image_explanation": ""
     },
-   {
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 28,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "The ability of a test to detect disease:",
-"image": "",
-"opciones": [
-"Sensitivity",
-"Specificity",
-"Accuracy",
-"Positive Predictive Value"
-],
-"respuesta_correcta": [
-"Sensitivity"
-],
-"concept_to_study": "Sensitivity",
-"explicacion_openai": "Sensitivity is the test’s ability to correctly identify individuals who have the disease (true positives).",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 29,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "The ability of a test to identify normalcy:",
-"image": "",
-"opciones": [
-"Specificity",
-"Sensitivity",
-"Accuracy",
-"Negative Predictive Value"
-],
-"respuesta_correcta": [
-"Specificity"
-],
-"concept_to_study": "Specificity",
-"explicacion_openai": "Specificity is the test’s ability to correctly identify individuals who do not have the disease (true negatives).",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 30,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "How often a positive study result is correct:",
-"image": "",
-"opciones": [
-"Positive Predictive Value (PPV)",
-"Negative Predictive Value (NPV)",
-"Sensitivity",
-"Specificity"
-],
-"respuesta_correcta": [
-"Positive Predictive Value (PPV)"
-],
-"concept_to_study": "Positive Predictive Value (PPV)",
-"explicacion_openai": "Positive predictive value indicates the probability that a positive test result is a true positive.",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 31,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "How often a negative study result is correct:",
-"image": "",
-"opciones": [
-"Negative Predictive Value (NPV)",
-"Positive Predictive Value (PPV)",
-"Sensitivity",
-"Specificity"
-],
-"respuesta_correcta": [
-"Negative Predictive Value (NPV)"
-],
-"concept_to_study": "Negative Predictive Value (NPV)",
-"explicacion_openai": "Negative predictive value indicates the probability that a negative test result is a true negative.",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 32,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "How good a test is:",
-"image": "",
-"opciones": [
-"Accuracy",
-"Sensitivity",
-"Specificity",
-"Precision"
-],
-"respuesta_correcta": [
-"Accuracy"
-],
-"concept_to_study": "Accuracy",
-"explicacion_openai": "Accuracy measures the proportion of all test results (positive and negative) that are correct, reflecting overall test performance.",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 33,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "Eighty patients had both duplex ultrasound and CTA of the lower extremity arterial system. Thirty-three patients had an SFA stenosis by both US and CTA. Seventeen had stenosis by US only. Nineteen had no stenosis by either modality. Eleven had stenosis by CTA only. The number of true positives is:",
-"image": "",
-"opciones": [
-"33",
-"17",
-"19",
-"11"
-],
-"respuesta_correcta": [
-"33"
-],
-"concept_to_study": "Diagnostic test statistics",
-"explicacion_openai": "True positives are cases where both the test and the reference standard detect the condition; here, 33 patients had SFA stenosis by both modalities.",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 34,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "Using the same patient data, the number of false negatives is:",
-"image": "",
-"opciones": [
-"11",
-"17",
-"19",
-"33"
-],
-"respuesta_correcta": [
-"11"
-],
-"concept_to_study": "Diagnostic test statistics",
-"explicacion_openai": "False negatives are cases where the test fails to detect a condition that the reference standard identifies; here, 11 patients had stenosis by CTA but not by US.",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 35,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "High-level disinfection for ultrasound probes is achieved with:",
-"image": "",
-"opciones": [
-"Glutaraldehyde",
-"Alcohol wipes",
-"Soap and water",
-"Bleach solution"
-],
-"respuesta_correcta": [
-"Glutaraldehyde"
-],
-"concept_to_study": "Probe disinfection",
-"explicacion_openai": "Glutaraldehyde is a high-level disinfectant effective against bacteria, viruses, and fungi, and is used for heat-sensitive medical instruments like ultrasound probes.",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 36,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "If bodily fluids spill during an exam:",
-"image": "",
-"opciones": [
-"Clean it up with a spill kit",
-"Call for a custodian",
-"Ignore it until the exam is over",
-"Cover it with a towel"
-],
-"respuesta_correcta": [
-"Clean it up with a spill kit"
-],
-"concept_to_study": "Body fluid spill protocol",
-"explicacion_openai": "A spill kit contains absorbents and disinfectants designed to safely contain and clean up bodily fluid spills, protecting staff and patients.",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 37,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "All of the following about communication with the patient are true EXCEPT:",
-"image": "",
-"opciones": [
-"Patients can take photos of the screen",
-"Patients have the right to revoke consent",
-"Sonographers should not interpret studies for patients",
-"Patients can ask questions during the exam"
-],
-"respuesta_correcta": [
-"Patients can take photos of the screen"
-],
-"concept_to_study": "Patient communication",
-"explicacion_openai": "Patients must consent and may revoke it; sonographers should not interpret studies for patients, and patients are not permitted to photograph or record the screen.",
-"image_explanation": ""
-},
-{
-"clasificacion": "Normal Anatomy, Perfusion, and Function",
-"grupo": 38,
-"tipo_pregunta": "opcion_multiple",
-"enunciado": "All of the following are ergonomic risk factors EXCEPT:",
-"image": "",
-"opciones": [
-"Shoulder adduction within a neutral range",
-"Excessive shoulder abduction",
-"Sustained twisting of the torso",
-"Repetitive neck movements"
-],
-"respuesta_correcta": [
-"Shoulder adduction within a neutral range"
-],
-"concept_to_study": "Ergonomic risk factors",
-"explicacion_openai": "Ergonomic risk factors include awkward postures like excessive shoulder abduction, sustained twisting or bending of the torso, and repetitive neck movements. Shoulder adduction within a neutral range is not typically a risk factor.",
-"image_explanation": ""
-},
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 28,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The ability of a test to detect disease:",
+        "image": "",
+        "opciones": [
+            "Sensitivity",
+            "Specificity",
+            "Accuracy",
+            "Positive Predictive Value"
+        ],
+        "respuesta_correcta": [
+            "Sensitivity"
+        ],
+        "concept_to_study": "Sensitivity",
+        "explicacion_openai": "Sensitivity is the test’s ability to correctly identify individuals who have the disease (true positives).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 29,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The ability of a test to identify normalcy:",
+        "image": "",
+        "opciones": [
+            "Specificity",
+            "Sensitivity",
+            "Accuracy",
+            "Negative Predictive Value"
+        ],
+        "respuesta_correcta": [
+            "Specificity"
+        ],
+        "concept_to_study": "Specificity",
+        "explicacion_openai": "Specificity is the test’s ability to correctly identify individuals who do not have the disease (true negatives).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 30,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How often a positive study result is correct:",
+        "image": "",
+        "opciones": [
+            "Positive Predictive Value (PPV)",
+            "Negative Predictive Value (NPV)",
+            "Sensitivity",
+            "Specificity"
+        ],
+        "respuesta_correcta": [
+            "Positive Predictive Value (PPV)"
+        ],
+        "concept_to_study": "Positive Predictive Value (PPV)",
+        "explicacion_openai": "Positive predictive value indicates the probability that a positive test result is a true positive.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 31,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How often a negative study result is correct:",
+        "image": "",
+        "opciones": [
+            "Negative Predictive Value (NPV)",
+            "Positive Predictive Value (PPV)",
+            "Sensitivity",
+            "Specificity"
+        ],
+        "respuesta_correcta": [
+            "Negative Predictive Value (NPV)"
+        ],
+        "concept_to_study": "Negative Predictive Value (NPV)",
+        "explicacion_openai": "Negative predictive value indicates the probability that a negative test result is a true negative.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 32,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How good a test is:",
+        "image": "",
+        "opciones": [
+            "Accuracy",
+            "Sensitivity",
+            "Specificity",
+            "Precision"
+        ],
+        "respuesta_correcta": [
+            "Accuracy"
+        ],
+        "concept_to_study": "Accuracy",
+        "explicacion_openai": "Accuracy measures the proportion of all test results (positive and negative) that are correct, reflecting overall test performance.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 33,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Eighty patients had both duplex ultrasound and CTA of the lower extremity arterial system. Thirty-three patients had an SFA stenosis by both US and CTA. Seventeen had stenosis by US only. Nineteen had no stenosis by either modality. Eleven had stenosis by CTA only. The number of true positives is:",
+        "image": "",
+        "opciones": [
+            "33",
+            "17",
+            "19",
+            "11"
+        ],
+        "respuesta_correcta": [
+            "33"
+        ],
+        "concept_to_study": "Diagnostic test statistics",
+        "explicacion_openai": "True positives are cases where both the test and the reference standard detect the condition; here, 33 patients had SFA stenosis by both modalities.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the same patient data, the number of false negatives is:",
+        "image": "",
+        "opciones": [
+            "11",
+            "17",
+            "19",
+            "33"
+        ],
+        "respuesta_correcta": [
+            "11"
+        ],
+        "concept_to_study": "Diagnostic test statistics",
+        "explicacion_openai": "False negatives are cases where the test fails to detect a condition that the reference standard identifies; here, 11 patients had stenosis by CTA but not by US.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 35,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "High-level disinfection for ultrasound probes is achieved with:",
+        "image": "",
+        "opciones": [
+            "Glutaraldehyde",
+            "Alcohol wipes",
+            "Soap and water",
+            "Bleach solution"
+        ],
+        "respuesta_correcta": [
+            "Glutaraldehyde"
+        ],
+        "concept_to_study": "Probe disinfection",
+        "explicacion_openai": "Glutaraldehyde is a high-level disinfectant effective against bacteria, viruses, and fungi, and is used for heat-sensitive medical instruments like ultrasound probes.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 36,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If bodily fluids spill during an exam:",
+        "image": "",
+        "opciones": [
+            "Clean it up with a spill kit",
+            "Call for a custodian",
+            "Ignore it until the exam is over",
+            "Cover it with a towel"
+        ],
+        "respuesta_correcta": [
+            "Clean it up with a spill kit"
+        ],
+        "concept_to_study": "Body fluid spill protocol",
+        "explicacion_openai": "A spill kit contains absorbents and disinfectants designed to safely contain and clean up bodily fluid spills, protecting staff and patients.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 37,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "All of the following about communication with the patient are true EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Patients can take photos of the screen",
+            "Patients have the right to revoke consent",
+            "Sonographers should not interpret studies for patients",
+            "Patients can ask questions during the exam"
+        ],
+        "respuesta_correcta": [
+            "Patients can take photos of the screen"
+        ],
+        "concept_to_study": "Patient communication",
+        "explicacion_openai": "Patients must consent and may revoke it; sonographers should not interpret studies for patients, and patients are not permitted to photograph or record the screen.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 38,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "All of the following are ergonomic risk factors EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Shoulder adduction within a neutral range",
+            "Excessive shoulder abduction",
+            "Sustained twisting of the torso",
+            "Repetitive neck movements"
+        ],
+        "respuesta_correcta": [
+            "Shoulder adduction within a neutral range"
+        ],
+        "concept_to_study": "Ergonomic risk factors",
+        "explicacion_openai": "Ergonomic risk factors include awkward postures like excessive shoulder abduction, sustained twisting or bending of the torso, and repetitive neck movements. Shoulder adduction within a neutral range is not typically a risk factor.",
+        "image_explanation": ""
+    },
     {
         "clasificacion": "Normal Anatomy, Perfusion, and Function",
         "grupo": 39,
@@ -6489,6 +6489,101 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 341,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which factor most likely caused the aliasing artifact in this spectral Doppler waveform?",
+        "image": "baseline_aliasing_carotid.png",
+        "opciones": [
+            "Proper angle correction",
+            "Incorrect baseline placement",
+            "High transducer frequency",
+            "Low wall filter"
+        ],
+        "respuesta_correcta": [
+            "Incorrect baseline placement"
+        ],
+        "concept_to_study": "Spectral Doppler aliasing",
+        "explicacion_openai": "Even if velocities are within normal limits, aliasing can appear when the baseline is incorrectly positioned too close to zero. This reduces the available display range, causing the waveform to wrap around.",
+        "image_explanation": "The image displays a spectral Doppler waveform exhibiting aliasing, characterized by the waveform wrapping around the baseline. This artifact suggests that the displayed velocity exceeds the Nyquist limit due to an improperly set baseline."
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 342,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the most appropriate adjustment to reduce aliasing in this case?",
+        "image": "baseline_aliasing_carotid.png",
+        "opciones": [
+            "Increase the gain",
+            "Lower the baseline",
+            "Activate wall filter",
+            "Use a higher frequency transducer"
+        ],
+        "respuesta_correcta": [
+            "Lower the baseline"
+        ],
+        "concept_to_study": "Reducing Doppler aliasing",
+        "explicacion_openai": "Lowering the baseline increases the velocity range displayed in one direction, reducing aliasing caused by misplacement. This is the simplest and most effective adjustment when aliasing is due to baseline error rather than true high velocity.",
+        "image_explanation": "The image shows a spectral Doppler waveform with aliasing. Lowering the baseline is the most appropriate adjustment to correct this artifact when it is caused by an incorrectly placed baseline, as it expands the displayable velocity range."
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 343,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary technical issue depicted in this color Doppler image of the carotid artery?",
+        "image": "carotid_colorbox_misuse.png",
+        "opciones": [
+            "Excessive wall filter causing loss of low‑velocity flow",
+            "Incorrect use of the color box leading to a wrong Doppler angle and poor vessel mapping",
+            "Overgain causing color blooming beyond vessel walls",
+            "PRF set too high causing absence of color signal"
+        ],
+        "respuesta_correcta": [
+            "Incorrect use of the color box leading to a wrong Doppler angle and poor vessel mapping"
+        ],
+        "concept_to_study": "Color Doppler box misuse",
+        "explicacion_openai": "The color box is poorly positioned and oriented, producing a suboptimal Doppler angle that degrades flow alignment and results in incomplete or misleading carotid mapping.",
+        "image_explanation": "The image shows a color Doppler display of a carotid artery where the color box is not optimally aligned with the vessel's axis, leading to an incorrect Doppler angle and thus poor vessel mapping."
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 344,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment would most improve the accuracy of flow visualization in this case?",
+        "image": "carotid_colorbox_misuse.png",
+        "opciones": [
+            "Increase color persistence",
+            "Enlarge and realign the color box along the vessel axis to optimize the insonation angle",
+            "Lower the wall filter",
+            "Decrease overall color gain"
+        ],
+        "respuesta_correcta": [
+            "Enlarge and realign the color box along the vessel axis to optimize the insonation angle"
+        ],
+        "concept_to_study": "Optimizing Doppler angle",
+        "explicacion_openai": "Resizing and rotating/realigning the color box to match the vessel course optimizes the Doppler angle, improving laminar flow depiction and reducing apparent aliasing or dropout.",
+        "image_explanation": "The image illustrates a scenario where adjusting the color box (resizing and realigning it along the vessel axis) is necessary to optimize the Doppler angle for more accurate flow visualization."
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 345,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What downstream effect can result from the current color box placement and angle?",
+        "image": "carotid_colorbox_misuse.png",
+        "opciones": [
+            "Enhanced detection of low‑velocity flow",
+            "Accurate quantification of peak systolic velocity",
+            "Poor arterial mapping with misleading color patterns and potential aliasing artifacts",
+            "Increased signal‑to‑noise ratio"
+        ],
+        "respuesta_correcta": [
+            "Poor arterial mapping with misleading color patterns and potential aliasing artifacts"
+        ],
+        "concept_to_study": "Consequences of poor Doppler angle",
+        "explicacion_openai": "A misaligned color box produces a suboptimal angle and uneven sampling, leading to poor carotid visualization, misleading bidirectional color, and potential aliasing that complicates interpretation.",
+        "image_explanation": "The image depicts the consequences of suboptimal color box placement, which can lead to poor arterial mapping, misleading color patterns, and potential aliasing artifacts due to the incorrect Doppler angle."
+    },
+    {
         "clasificacion": "Pathology, Perfusion, and Function",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -9533,6 +9628,956 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient has an ankle systolic pressure of 90 mmHg and a brachial systolic pressure of 120 mmHg. What is the Ankle-Brachial Index (ABI)?",
+        "image": "",
+        "opciones": [
+            "0.65",
+            "0.75",
+            "0.85",
+            "0.95"
+        ],
+        "respuesta_correcta": [
+            "0.75"
+        ],
+        "concept_to_study": "Manually calculate pressure indices (ABI)",
+        "explicacion_openai": "The ABI is calculated by dividing the highest ankle systolic pressure by the highest brachial systolic pressure. In this case, 90 mmHg / 120 mmHg = 0.75.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When performing segmental pressures, what is the impact of using a blood pressure cuff that is too narrow for the limb segment?",
+        "image": "",
+        "opciones": [
+            "It will result in falsely low pressure readings.",
+            "It will result in falsely elevated pressure readings.",
+            "It will have no significant effect on the pressure readings.",
+            "It will cause the cuff to inflate improperly."
+        ],
+        "respuesta_correcta": [
+            "It will result in falsely elevated pressure readings."
+        ],
+        "concept_to_study": "Ability to evaluate effects of limb size and cuff diameter",
+        "explicacion_openai": "A cuff that is too narrow for the limb circumference will require greater pressure to occlude the artery, leading to falsely elevated pressure readings. Conversely, a cuff that is too wide will result in falsely low readings.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following describes a normal Doppler waveform obtained from a peripheral artery at rest?",
+        "image": "",
+        "opciones": [
+            "Monophasic with rapid systolic upstroke.",
+            "Biphasic with continuous forward flow.",
+            "Triphasic with rapid systolic upstroke, diastolic flow reversal, and forward flow in late diastole.",
+            "Dampened with delayed systolic upstroke."
+        ],
+        "respuesta_correcta": [
+            "Triphasic with rapid systolic upstroke, diastolic flow reversal, and forward flow in late diastole."
+        ],
+        "concept_to_study": "Obtain appropriate diagnostic waveforms/pressures",
+        "explicacion_openai": "A normal arterial Doppler waveform in the peripheral arteries at rest is typically triphasic, characterized by a rapid systolic upstroke, a brief phase of diastolic flow reversal, and a small antegrade flow component in late diastole. This indicates high resistance flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "After a treadmill exercise, a patient's ABI drops from 1.0 to 0.6. This finding is indicative of:",
+        "image": "",
+        "opciones": [
+            "Improved arterial circulation.",
+            "A normal response to exercise.",
+            "Significant arterial occlusive disease.",
+            "Venous insufficiency."
+        ],
+        "respuesta_correcta": [
+            "Significant arterial occlusive disease."
+        ],
+        "concept_to_study": "Knowledge of provocative/exercise maneuvers and their effect on circulation",
+        "explicacion_openai": "A significant drop in ABI (typically >20% or >0.15-0.20) after exercise is a strong indicator of hemodynamically significant arterial occlusive disease that becomes symptomatic or more severe with increased metabolic demand.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which instrument is specifically designed to assess microcirculatory blood flow and is often used in venous reflux studies?",
+        "image": "",
+        "opciones": [
+            "Segmental pressure cuffs",
+            "Doppler ultrasound transducer",
+            "Photoplethysmography (PPG) sensor",
+            "Automatic blood pressure cuff"
+        ],
+        "respuesta_correcta": [
+            "Photoplethysmography (PPG) sensor"
+        ],
+        "concept_to_study": "Select the appropriate instrumentation (PPG sensors)",
+        "explicacion_openai": "PPG sensors detect changes in blood volume in the microcirculation (skin capillary beds) by emitting infrared light and measuring the reflected light. They are commonly used in physiologic venous exams to assess venous refilling time and reflux.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient undergoing an arterial duplex has incompressible ankle arteries. Which alternative pressure index should be considered?",
+        "image": "",
+        "opciones": [
+            "Brachial-Brachial Index (BBI)",
+            "Toe-Brachial Index (TBI)",
+            "Calf-Brachial Index (CBI)",
+            "Popliteal-Brachial Index (PBI)"
+        ],
+        "respuesta_correcta": [
+            "Toe-Brachial Index (TBI)"
+        ],
+        "concept_to_study": "Manually calculate pressure indices (TBI)",
+        "explicacion_openai": "When ankle arteries are incompressible due to calcification (common in diabetes or end-stage renal disease), ABIs will be falsely elevated and unreliable. The Toe-Brachial Index (TBI) is a valuable alternative, as toe arteries are less prone to calcification.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "For segmental pressure measurements, the cuff width should ideally be approximately what percentage of the limb circumference?",
+        "image": "",
+        "opciones": [
+            "20%",
+            "40%",
+            "60%",
+            "80%"
+        ],
+        "respuesta_correcta": [
+            "40%"
+        ],
+        "concept_to_study": "Ability to evaluate effects of limb size and cuff diameter",
+        "explicacion_openai": "For accurate blood pressure measurements, the cuff bladder width should be approximately 40% of the limb circumference, and the length should be at least 80% of the circumference. This ensures proper arterial occlusion without over or underestimation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the expected change in a normal peripheral arterial Doppler waveform immediately following reactive hyperemia (post-occlusion)?",
+        "image": "",
+        "opciones": [
+            "It becomes triphasic again.",
+            "It becomes monophasic with increased antegrade flow and loss of flow reversal.",
+            "It shows complete absence of flow.",
+            "It becomes biphasic with no change in flow direction."
+        ],
+        "respuesta_correcta": [
+            "It becomes monophasic with increased antegrade flow and loss of flow reversal."
+        ],
+        "concept_to_study": "Obtain appropriate diagnostic waveforms/pressures with and without provocative/exercise maneuvers",
+        "explicacion_openai": "After reactive hyperemia (induced by cuff occlusion and release), the normal peripheral arterial waveform becomes monophasic with a significant increase in antegrade (forward) flow and loss of the diastolic flow reversal component. This is due to maximal vasodilation in response to ischemia.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a stress test for peripheral arterial disease, a normal patient typically experiences:",
+        "image": "",
+        "opciones": [
+            "A significant drop in ABI.",
+            "No change or a slight increase in ABI.",
+            "Increased claudication symptoms.",
+            "A rise in ankle pressure but a drop in brachial pressure."
+        ],
+        "respuesta_correcta": [
+            "No change or a slight increase in ABI."
+        ],
+        "concept_to_study": "Knowledge of provocative/exercise maneuvers and their effect on circulation",
+        "explicacion_openai": "In a normal patient, after exercise, the ABI should remain unchanged or slightly increase due to normal compensatory mechanisms that increase blood flow to the exercising muscles without a significant pressure drop across the arteries.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "To obtain accurate venous PPG diagnostic waveforms, the sensor should be placed on the:",
+        "image": "",
+        "opciones": [
+            "Lateral aspect of the ankle.",
+            "Dorsum of the foot.",
+            "Medial aspect of the calf.",
+            "Plantar aspect of the foot."
+        ],
+        "respuesta_correcta": [
+            "Plantar aspect of the foot."
+        ],
+        "concept_to_study": "Knowledge of placement of venous PPG sensors",
+        "explicacion_openai": "For venous PPG studies, the sensor is typically placed on the plantar aspect of the foot or just above the medial malleolus to monitor the venous capacitance and refilling time of the superficial venous system.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When performing venous PPG for reflux, a rapid venous refilling time (e.g., < 20 seconds) in the absence of tourniquet application suggests:",
+        "image": "",
+        "opciones": [
+            "Normal venous function.",
+            "Deep venous insufficiency.",
+            "Arterial insufficiency.",
+            "Venous outflow obstruction."
+        ],
+        "respuesta_correcta": [
+            "Deep venous insufficiency."
+        ],
+        "concept_to_study": "Obtain appropriate venous photoplethysmography (PPG) diagnostic waveforms",
+        "explicacion_openai": "A rapid venous refilling time (< 20-25 seconds) indicates that blood is quickly returning to the calf, often due to venous reflux (venous insufficiency), which is an abnormal finding. Without a tourniquet, it could be superficial or deep reflux.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In venous PPG, what is the purpose of applying a tourniquet below the knee?",
+        "image": "",
+        "opciones": [
+            "To occlude the deep venous system.",
+            "To prevent arterial inflow.",
+            "To eliminate superficial venous reflux and isolate deep system function.",
+            "To increase venous outflow."
+        ],
+        "respuesta_correcta": [
+            "To eliminate superficial venous reflux and isolate deep system function."
+        ],
+        "concept_to_study": "Ability to evaluate effects of tourniquet on hemodynamics",
+        "explicacion_openai": "Applying a tourniquet below the knee in venous PPG helps to occlude the superficial veins. This allows the sonographer to assess the deep venous system in isolation and differentiate between superficial and deep venous insufficiency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When interpreting PVR (Pulse Volume Recording) waveforms, what finding is consistent with mild arterial disease?",
+        "image": "",
+        "opciones": [
+            "Absent waveforms.",
+            "Dicrotic notch present, slightly widened.",
+            "Dampened, monophasic, rounded peak.",
+            "Normal amplitude, sharp systolic peak, dicrotic notch present."
+        ],
+        "respuesta_correcta": [
+            "Dicrotic notch present, slightly widened."
+        ],
+        "concept_to_study": "Obtain appropriate diagnostic waveforms/pressures",
+        "explicacion_openai": "In mild arterial disease, PVR waveforms may show a slightly widened or 'rounded' systolic peak and the dicrotic notch may still be present but blunted. More severe disease leads to dampened, monophasic waveforms and loss of the dicrotic notch.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "To optimize venous PPG recordings, the patient should ideally be:",
+        "image": "",
+        "opciones": [
+            "Supine with legs elevated.",
+            "Standing or in a reverse Trendelenburg position.",
+            "Sitting with legs crossed.",
+            "Prone with feet dangling."
+        ],
+        "respuesta_correcta": [
+            "Standing or in a reverse Trendelenburg position."
+        ],
+        "concept_to_study": "Ability to optimize recordings (venous PPG)",
+        "explicacion_openai": "Venous PPG recordings for reflux assessment are optimized when the patient is in a gravity-dependent position (standing or reverse Trendelenburg). This allows for maximal venous distention and facilitates the demonstration of reflux.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary hemodynamic effect of a pneumatic cuff inflated to suprasystolic pressure on an artery proximal to the measurement site?",
+        "image": "",
+        "opciones": [
+            "Increased blood flow.",
+            "Complete arterial occlusion.",
+            "Decreased arterial resistance.",
+            "Increased venous return."
+        ],
+        "respuesta_correcta": [
+            "Complete arterial occlusion."
+        ],
+        "concept_to_study": "Knowledge of effects of cuff on hemodynamics (arterial)",
+        "explicacion_openai": "Inflating a pneumatic cuff to suprasystolic pressure completely occludes the artery beneath it, temporarily stopping blood flow. This is fundamental for obtaining accurate pressure measurements and inducing reactive hyperemia.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When using a treadmill for an exercise ABI, which specific preset or protocol is important for standardization?",
+        "image": "",
+        "opciones": [
+            "Patient's favorite song.",
+            "Standardized speed and incline (e.g., 2 mph, 12% incline).",
+            "Room temperature.",
+            "Duration of the cool-down period."
+        ],
+        "respuesta_correcta": [
+            "Standardized speed and incline (e.g., 2 mph, 12% incline)."
+        ],
+        "concept_to_study": "Select the appropriate instrumentation (presets, protocols)",
+        "explicacion_openai": "Using a standardized treadmill protocol with consistent speed and incline is crucial for reliable and reproducible exercise ABI results, allowing for accurate comparison with normal values and follow-up studies. This ensures the provocative stimulus is consistent.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A normal ankle pressure should be at least what percentage of the highest brachial pressure?",
+        "image": "",
+        "opciones": [
+            "50%",
+            "70%",
+            "90%",
+            "100%"
+        ],
+        "respuesta_correcta": [
+            "100%"
+        ],
+        "concept_to_study": "Manually calculate pressure indices (ABI)",
+        "explicacion_openai": "A normal ABI is 1.0 or greater (up to ~1.4). This means the ankle pressure should be equal to or slightly higher than the highest brachial pressure. An ABI below 0.90 typically indicates arterial disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a patient with suspected arterial occlusive disease, how does the application of a cold environment affect the circulation and subsequent waveform acquisition?",
+        "image": "",
+        "opciones": [
+            "It causes vasodilation, improving flow.",
+            "It induces vasoconstriction, which can worsen or make apparent arterial insufficiency.",
+            "It has no effect on peripheral circulation.",
+            "It decreases arterial resistance."
+        ],
+        "respuesta_correcta": [
+            "It induces vasoconstriction, which can worsen or make apparent arterial insufficiency."
+        ],
+        "concept_to_study": "Knowledge of provocative/exercise maneuvers and their effect on circulation (cold stress)",
+        "explicacion_openai": "A cold environment causes vasoconstriction. In patients with arterial disease, this can further compromise already reduced blood flow, potentially exacerbating symptoms or revealing disease that might be occult under normal conditions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary advantage of using a continuous-wave (CW) Doppler probe over a pulsed-wave (PW) Doppler probe for obtaining ankle pressures?",
+        "image": "",
+        "opciones": [
+            "Ability to precisely define sample volume depth.",
+            "Higher sensitivity to detect low-velocity flow.",
+            "Provides color flow imaging.",
+            "Allows for measurement of peak systolic velocity without aliasing."
+        ],
+        "respuesta_correcta": [
+            "Higher sensitivity to detect low-velocity flow."
+        ],
+        "concept_to_study": "Select the appropriate instrumentation (CW Doppler)",
+        "explicacion_openai": "CW Doppler probes are highly sensitive to detect low-velocity flow, which is crucial for finding the faint arterial signals in the ankles of patients with severe peripheral arterial disease, especially when obtaining ankle pressures. PW Doppler, while providing depth resolution, is more prone to aliasing with higher velocities.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which finding from a venous PPG study, after applying a thigh tourniquet, would suggest isolated deep venous insufficiency?",
+        "image": "",
+        "opciones": [
+            "Venous refilling time normalizes.",
+            "Venous refilling time remains rapid (< 20 seconds).",
+            "The PPG waveform disappears.",
+            "The PPG waveform shows increased amplitude."
+        ],
+        "respuesta_correcta": [
+            "Venous refilling time remains rapid (< 20 seconds)."
+        ],
+        "concept_to_study": "Obtain appropriate venous photoplethysmography (PPG) diagnostic waveforms (with tourniquets)",
+        "explicacion_openai": "If the rapid venous refilling time persists even after applying a thigh tourniquet (which occludes superficial reflux), it indicates that the underlying problem is deep venous insufficiency, as superficial reflux has been excluded.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 21,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a venous PPG, how can the sonographer optimize the recording quality?",
+        "image": "",
+        "opciones": [
+            "Place the sensor over bony prominences.",
+            "Ensure proper skin contact and minimize patient movement.",
+            "Increase the gain setting to maximum.",
+            "Use a larger sensor for better signal."
+        ],
+        "respuesta_correcta": [
+            "Ensure proper skin contact and minimize patient movement."
+        ],
+        "concept_to_study": "Ability to optimize recordings (venous PPG)",
+        "explicacion_openai": "Optimizing venous PPG recordings involves ensuring good skin contact of the sensor and minimizing patient movement (e.g., foot movement, muscle contraction) to reduce artifact and obtain a stable baseline and consistent waveform changes.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 22,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is an effect of applying a pneumatic cuff and inflating it to arterial occlusive pressures during reactive hyperemia testing?",
+        "image": "",
+        "opciones": [
+            "Immediate vasoconstriction distal to the cuff.",
+            "Decreased metabolic demand in the limb.",
+            "Induced distal ischemia.",
+            "Increased arterial collateral flow."
+        ],
+        "respuesta_correcta": [
+            "Induced distal ischemia."
+        ],
+        "concept_to_study": "Knowledge of provocative/exercise maneuvers and their effect on circulation",
+        "explicacion_openai": "Inflating a cuff to occlusive pressures for several minutes in reactive hyperemia testing creates temporary ischemia distal to the cuff. When the cuff is released, the reactive hyperemia response (increased flow and vasodilation) is assessed.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 23,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "For a patient with suspected subclavian steal syndrome, which maneuver is crucial during a physiologic arterial examination of the upper extremities?",
+        "image": "",
+        "opciones": [
+            "Passive leg elevation.",
+            "Deep inspiration.",
+            "Arm elevation/exercise (e.g., 'pumping' hand for 1 minute).",
+            "Valsalva maneuver."
+        ],
+        "respuesta_correcta": [
+            "Arm elevation/exercise (e.g., 'pumping' hand for 1 minute)."
+        ],
+        "concept_to_study": "Knowledge of provocative/exercise maneuvers and their effect on circulation",
+        "explicacion_openai": "For subclavian steal syndrome, arm exercise or elevation can increase the demand for blood flow in the affected arm, potentially worsening the steal phenomenon and causing a significant pressure drop (or change in vertebral artery flow direction) that would be detected during the exam.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 24,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When performing a venous PPG, the patient is instructed to perform plantar flexion and dorsiflexion of the foot. What is the primary goal of these maneuvers?",
+        "image": "",
+        "opciones": [
+            "To assess arterial inflow.",
+            "To stimulate the calf muscle pump and empty venous blood from the calf.",
+            "To measure joint mobility.",
+            "To induce arterial spasm."
+        ],
+        "respuesta_correcta": [
+            "To stimulate the calf muscle pump and empty venous blood from the calf."
+        ],
+        "concept_to_study": "Obtain appropriate venous photoplethysmography (PPG) diagnostic waveforms (plantar flexion and dorsiflexion)",
+        "explicacion_openai": "Plantar flexion and dorsiflexion activate the calf muscle pump, which is crucial for expelling venous blood from the lower leg. This action is essential for assessing venous refilling time and detecting venous insufficiency with PPG.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 25,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which preset on an ultrasound system is specifically designed to optimize for arterial waveform analysis by adjusting parameters like PRF and wall filter?",
+        "image": "",
+        "opciones": [
+            "Cardiac preset.",
+            "Abdominal preset.",
+            "Vascular preset (e.g., 'Arterial Lower Ext').",
+            "Small parts preset."
+        ],
+        "respuesta_correcta": [
+            "Vascular preset (e.g., 'Arterial Lower Ext')."
+        ],
+        "concept_to_study": "Select the appropriate instrumentation (presets)",
+        "explicacion_openai": "Ultrasound systems have application-specific presets that optimize various imaging and Doppler parameters (like PRF, wall filter, gain, dynamic range) for the type of exam being performed. A vascular arterial preset is specifically configured for obtaining high-quality arterial waveforms and images.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the sonographer’s primary role during manual compression of a pseudoaneurysm?",
+        "image": "",
+        "opciones": [
+            "Administer medications",
+            "Monitor real‑time closure of the neck and disappearance of flow in the sac",
+            "Perform surgical repair if compression fails",
+            "Measure systemic blood pressure"
+        ],
+        "respuesta_correcta": [
+            "Monitor real‑time closure of the neck and disappearance of flow in the sac"
+        ],
+        "concept_to_study": "Pseudoaneurysm compression monitoring",
+        "explicacion_openai": "The sonographer must continuously visualize the pseudoaneurysm sac and neck with B‑mode and color/spectral Doppler throughout compression. The goal is to confirm occlusion of the neck and loss of intra‑sac flow, document progressive thrombosis, and detect failure or complications (for example expanding hematoma). Dynamic imaging guides duration and technique of compression and determines whether additional therapy is required.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which pre‑procedure images are essential before thrombin injection of a pseudoaneurysm?",
+        "image": "",
+        "opciones": [
+            "Only a single color Doppler snapshot",
+            "B‑mode to define sac and neck plus color and spectral Doppler to characterize flow",
+            "Plain radiograph",
+            "Contrast CT only"
+        ],
+        "respuesta_correcta": [
+            "B‑mode to define sac and neck plus color and spectral Doppler to characterize flow"
+        ],
+        "concept_to_study": "Pre-procedure imaging for pseudoaneurysm injection",
+        "explicacion_openai": "Safe thrombin injection requires an anatomical and hemodynamic map: B‑mode identifies sac size, morphology, neck location and nearby structures; color Doppler locates the feeding artery and flow direction through the neck; spectral Doppler can quantify flow velocities if needed. This combined information defines a safe needle trajectory and helps predict risk of thrombin migration or failure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which is a relative contraindication to thrombin injection for pseudoaneurysm?",
+        "image": "",
+        "opciones": [
+            "Very small pseudoaneurysm under 5 mm",
+            "Uncorrected coagulopathy or known allergy to thrombin",
+            "Well controlled hypertension",
+            "Contralateral femoral access history"
+        ],
+        "respuesta_correcta": [
+            "Uncorrected coagulopathy or known allergy to thrombin"
+        ],
+        "concept_to_study": "Contraindications for thrombin injection",
+        "explicacion_openai": "Uncorrected coagulopathy impairs clot formation and increases bleeding risk; allergy to thrombin risks severe reaction. These conditions often require correction or alternative treatment. Absolute contraindications include inaccessible sacs or arterial‑venous fistulae that risk systemic thrombin migration.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During ultrasound‑guided venous ablation, what must the sonographer continuously monitor?",
+        "image": "",
+        "opciones": [
+            "Only external skin appearance",
+            "Catheter/fiber position relative to the vein wall during energy delivery",
+            "Room temperature",
+            "Operator’s hand position exclusively"
+        ],
+        "respuesta_correcta": [
+            "Catheter/fiber position relative to the vein wall during energy delivery"
+        ],
+        "concept_to_study": "Venous ablation monitoring",
+        "explicacion_openai": "Continuous visualization of the device and vein wall is essential to ensure correct apposition, prevent perforation, and detect excessive heating or echogenic changes indicating tissue injury. Monitoring adjacent structures (nerves, artery) prevents collateral damage. Prompt feedback to the operator allows immediate correction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What immediate post‑procedural finding indicates technical success after thrombin injection?",
+        "image": "",
+        "opciones": [
+            "Persistent color flow in the sac",
+            "Absence of sac flow with echogenic thrombus within the sac",
+            "Increase in sac size on B‑mode",
+            "New bidirectional flow in the feeding artery"
+        ],
+        "respuesta_correcta": [
+            "Absence of sac flow with echogenic thrombus within the sac"
+        ],
+        "concept_to_study": "Post-procedure thrombin injection success",
+        "explicacion_openai": "Immediate success is confirmed by disappearance of intra‑sac flow on color Doppler and the presence of echogenic material consistent with thrombus in the sac on B‑mode. Persistent flow or enlargement suggests incomplete treatment or complication, requiring further evaluation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What technique best minimizes injury to adjacent structures when guiding a biopsy or drainage?",
+        "image": "",
+        "opciones": [
+            "Blind puncture using surface landmarks",
+            "Plan the trajectory in B‑mode and use real‑time imaging with dynamic tissue displacement",
+            "Increase gain to visualize more tissue",
+            "Use color Doppler only without B‑mode"
+        ],
+        "respuesta_correcta": [
+            "Plan the trajectory in B‑mode and use real‑time imaging with dynamic tissue displacement"
+        ],
+        "concept_to_study": "Minimizing injury in guided procedures",
+        "explicacion_openai": "Real‑time B‑mode planning and needle visualization allow controlled approach and identification of interposed structures. Gentle tissue displacement can move organs or vessels out of the needle path. Color Doppler is complementary to identify vessels, but cannot replace trajectory planning and continuous B‑mode imaging.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the expected communication pattern between sonographer and surgeon in intraoperative guidance?",
+        "image": "",
+        "opciones": [
+            "Minimal communication to avoid distraction",
+            "Continuous, clear updates on probe position and findings",
+            "Communication only at the end of the case",
+            "No communication unless there is a problem"
+        ],
+        "respuesta_correcta": [
+            "Continuous, clear updates on probe position and findings"
+        ],
+        "concept_to_study": "Intraoperative communication",
+        "explicacion_openai": "Effective intraoperative ultrasound requires ongoing, precise communication about probe orientation, depth, landmarks and changing findings. Real‑time dialogue coordinates maneuvers, prevents instrument conflicts, and enables immediate operational decisions based on imaging.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer is preferred for vascular access of superficial vessels?",
+        "image": "",
+        "opciones": [
+            "Curvilinear abdominal probe",
+            "High‑frequency linear probe",
+            "Endocavitary probe",
+            "Low‑frequency phased array probe"
+        ],
+        "respuesta_correcta": [
+            "High‑frequency linear probe"
+        ],
+        "concept_to_study": "Transducer selection for superficial vessels",
+        "explicacion_openai": "High‑frequency linear probes (e.g., 7–15 MHz) provide superior axial and lateral resolution for superficial structures and optimal needle visualization. Curvilinear or low‑frequency probes penetrate deeper but reduce image and needle detail, increasing procedural difficulty.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What should pre‑procedure documentation include?",
+        "image": "",
+        "opciones": [
+            "A single representative image only",
+            "B‑mode and Doppler images showing target anatomy, measurements, and relationship to adjacent structures",
+            "Only a written note without images",
+            "Only the consent form"
+        ],
+        "respuesta_correcta": [
+            "B‑mode and Doppler images showing target anatomy, measurements, and relationship to adjacent structures"
+        ],
+        "concept_to_study": "Pre-procedure documentation",
+        "explicacion_openai": "Comprehensive documentation should include B‑mode images, color and spectral Doppler showing baseline flow, measurements (depth, diameter, sac size), and clips of dynamic relationships. This supports planning, informed consent, legal record‑keeping and comparison for post‑procedural assessment.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which ultrasound finding suggests an immediate post‑procedural complication?",
+        "image": "",
+        "opciones": [
+            "Decreased localized pain",
+            "New expanding hematoma with active color flow or rapid size increase on B‑mode",
+            "Minor subcutaneous echogenic change without flow",
+            "Increased flow in a distant artery without extravasation"
+        ],
+        "respuesta_correcta": [
+            "New expanding hematoma with active color flow or rapid size increase on B‑mode"
+        ],
+        "concept_to_study": "Post-procedure complication detection",
+        "explicacion_openai": "An expanding hematoma with active color flow or rapid enlargement indicates ongoing bleeding and potential hemodynamic compromise, requiring urgent intervention. Minor echogenic changes without flow can be monitored but are less urgent.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What aseptic practice reduces infection risk during ultrasound‑guided procedures?",
+        "image": "",
+        "opciones": [
+            "Omitting sterile drapes to save time",
+            "Sterile probe cover, sterile gel, and full aseptic technique",
+            "Changing gloves intermittently without sterile prep",
+            "Using non‑sterile towels for the field"
+        ],
+        "respuesta_correcta": [
+            "Sterile probe cover, sterile gel, and full aseptic technique"
+        ],
+        "concept_to_study": "Aseptic technique in ultrasound procedures",
+        "explicacion_openai": "Full aseptic technique includes sterile probe covers, sterile gel or single‑use sterile gel packets, sterile drapes, and sterile gloves. Proper handling of the probe cover and avoiding contamination are essential to prevent iatrogenic infections, especially for invasive or deep procedures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why measure venous diameter before endovenous ablation?",
+        "image": "",
+        "opciones": [
+            "It’s unnecessary for planning",
+            "To select appropriate catheter size and energy settings and plan number of applications",
+            "Only for research purposes",
+            "To determine anesthesia type exclusively"
+        ],
+        "respuesta_correcta": [
+            "To select appropriate catheter size and energy settings and plan number of applications"
+        ],
+        "concept_to_study": "Venous diameter measurement for ablation",
+        "explicacion_openai": "Vein diameter guides device selection, energy delivery, pullback technique and number of treatment segments. Accurate measurement prevents undertreatment or excessive thermal injury and allows objective follow‑up comparison.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How best confirm needle tip intraluminal position before thrombin injection?",
+        "image": "",
+        "opciones": [
+            "Inject without confirmation and observe clinical effect",
+            "Visualize the tip in B‑mode (long or short axis) and confirm with blood aspiration or a small saline bolus under imaging",
+            "Rely solely on tactile feedback",
+            "Use radiography for confirmation"
+        ],
+        "respuesta_correcta": [
+            "Visualize the tip in B‑mode (long or short axis) and confirm with blood aspiration or a small saline bolus under imaging"
+        ],
+        "concept_to_study": "Needle tip confirmation for injection",
+        "explicacion_openai": "Direct ultrasound visualization of the needle tip, with aspiration of blood and/or a small saline test bolus under imaging, confirms intraluminal placement and reduces risk of extravasation of thrombin, which can cause tissue necrosis or embolic events.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which factor increases likelihood of manual compression failure for a pseudoaneurysm?",
+        "image": "",
+        "opciones": [
+            "Narrow‑neck pseudoaneurysm",
+            "Large sac size or systemic anticoagulation",
+            "Low blood pressure controlled",
+            "Superficial easily compressible location"
+        ],
+        "respuesta_correcta": [
+            "Large sac size or systemic anticoagulation"
+        ],
+        "concept_to_study": "Factors affecting pseudoaneurysm compression success",
+        "explicacion_openai": "Large sacs and anticoagulation impede clot formation under compression, reducing the likelihood of successful manual thrombosis. Narrow necks and small sacs are more amenable to compression. Patient factors like obesity or movement also influence success.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What minimum elements should a post‑procedural report contain?",
+        "image": "",
+        "opciones": [
+            "Only the operator’s signature",
+            "Indication, technique, pre/during/post images, measurements, materials used, time and complications",
+            "Only a billing code",
+            "Only patient satisfaction note"
+        ],
+        "respuesta_correcta": [
+            "Indication, technique, pre/during/post images, measurements, materials used, time and complications"
+        ],
+        "concept_to_study": "Post-procedural report content",
+        "explicacion_openai": "A complete report documents clinical indication, technique, devices and medications used, representative images and clips, measurements, personnel, procedural time, immediate outcome and any complications. This supports continuity of care, quality assurance and medicolegal requirements.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment reduces the chance of confusing true turbulent flow with artifact in color Doppler?",
+        "image": "",
+        "opciones": [
+            "Set PRF to maximum without regard to velocities",
+            "Adjust PRF for expected velocities, optimize insonation angle, and reduce ROI/gate size",
+            "Disable spectral Doppler entirely",
+            "Use maximum persistence only"
+        ],
+        "respuesta_correcta": [
+            "Adjust PRF for expected velocities, optimize insonation angle, and reduce ROI/gate size"
+        ],
+        "concept_to_study": "Distinguishing turbulence from artifact",
+        "explicacion_openai": "Appropriate PRF prevents aliasing; optimizing the insonation angle improves velocity sensitivity and reduces off‑axis signals; reducing the ROI or gate localizes sampling to the lumen and minimizes inclusion of wall motion or adjacent flows that can mimic turbulence.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the risk of placing the spectral sample volume partially in the arterial wall?",
+        "image": "",
+        "opciones": [
+            "Improves velocity accuracy",
+            "Introduces wall signals and spectral broadening that misrepresent flow",
+            "Reduces noise and sharpens the waveform",
+            "Affects only color Doppler, not spectral"
+        ],
+        "respuesta_correcta": [
+            "Introduces wall signals and spectral broadening that misrepresent flow"
+        ],
+        "concept_to_study": "Spectral Doppler sample volume and wall artifact",
+        "explicacion_openai": "Inclusion of wall motion in the sample introduces low‑frequency signals and noise that broaden the spectral envelope and can produce spurious high‑velocity components. Accurate peak velocity measurement requires placing the sample volume centrally within the lumen, aligned with the flow axis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "For perivascular injections, which practice protects nearby nerves?",
+        "image": "",
+        "opciones": [
+            "Rapid high‑pressure injection without imaging",
+            "Real‑time visualization of the needle tip and small incremental boluses while observing tissue displacement",
+            "Palpation instead of imaging",
+            "Inject large volumes to ensure spread"
+        ],
+        "respuesta_correcta": [
+            "Real‑time visualization of the needle tip and small incremental boluses while observing tissue displacement"
+        ],
+        "concept_to_study": "Protecting nerves during perivascular injection",
+        "explicacion_openai": "Visualizing the needle tip during slow, incremental injections allows the operator to see tissue planes separate and to detect inadvertent intraneural injection or high‑pressure jets. This approach reduces nerve injury risk compared with blind or high‑pressure bolus injection.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which ultrasound sign suggests unintended embolization or distal migration of injected material?",
+        "image": "",
+        "opciones": [
+            "No distal change in flow",
+            "New echogenic material or altered flow pattern in downstream vessels",
+            "Local swelling without vascular change",
+            "Reduction of flow only at the injection site"
+        ],
+        "respuesta_correcta": [
+            "New echogenic material or altered flow pattern in downstream vessels"
+        ],
+        "concept_to_study": "Signs of unintended embolization",
+        "explicacion_openai": "Appearance of new echogenic material inside downstream vessels or unexpected changes in distal flow indicates possible migration of particulate material, thrombus, or embolic agent. Early recognition enables prompt clinical escalation to limit consequences.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What logistical check must be completed before an ultrasound‑guided vascular procedure?",
+        "image": "",
+        "opciones": [
+            "Confirm availability of coffee in the room",
+            "Availability of sterile supplies, necessary medications (including reversals), trained personnel, and informed consent",
+            "Only ensure the room is available",
+            "Wait for the device manufacturer representative"
+        ],
+        "respuesta_correcta": [
+            "Availability of sterile supplies, necessary medications (including reversals), trained personnel, and informed consent"
+        ],
+        "concept_to_study": "Pre-procedure logistical checks",
+        "explicacion_openai": "Confirming sterile supplies, medications, reversal agents, trained staff, monitoring and written informed consent is essential for safety. Also verify ultrasound machine function, availability of rescue equipment and clear roles for team members.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 21,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which ultrasound finding confirms effective venous occlusion after ablation?",
+        "image": "",
+        "opciones": [
+            "Persistent antegrade flow through treated segment",
+            "Echogenic thrombus in the lumen, absence of color flow and altered compressibility",
+            "Increase in vessel diameter without thrombus",
+            "Only symptomatic improvement"
+        ],
+        "respuesta_correcta": [
+            "Echogenic thrombus in the lumen, absence of color flow and altered compressibility"
+        ],
+        "concept_to_study": "Confirmation of venous occlusion after ablation",
+        "explicacion_openai": "Objective sonographic criteria for successful occlusion include an echogenic thrombus filling the lumen, absent color flow in the treated segment and loss or change of compressibility compared with baseline. Symptom improvement is supportive but not a substitute for imaging confirmation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 22,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What should the sonographer do immediately if a major complication is detected intra‑procedure?",
+        "image": "",
+        "opciones": [
+            "Continue and document later",
+            "Stop, alert the team, document findings, and follow the institution’s complication management protocol",
+            "Hide the event from the record",
+            "Transfer the patient without informing the team"
+        ],
+        "respuesta_correcta": [
+            "Stop, alert the team, document findings, and follow the institution’s complication management protocol"
+        ],
+        "concept_to_study": "Management of intra-procedure complications",
+        "explicacion_openai": "Immediate cessation of the provoking action, clear communication with the team, and documentation (images and clips) are required. Follow institutional algorithms for hemostasis, escalation, or conversion to other interventions. Prompt action protects the patient and supports appropriate quality reporting.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 23,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why record video clips in addition to still images during procedures?",
+        "image": "",
+        "opciones": [
+            "Video clips are unnecessary and waste space",
+            "Dynamic clips show needle movement, tissue response and transient flow changes for audit and education",
+            "Video clips replace the written report",
+            "Clips are for marketing only"
+        ],
+        "respuesta_correcta": [
+            "Dynamic clips show needle movement, tissue response and transient flow changes for audit and education"
+        ],
+        "concept_to_study": "Importance of video clips in procedural documentation",
+        "explicacion_openai": "Clips capture temporal events (needle advancement, real‑time flow changes, immediate complications) that single images cannot. They are crucial for quality review, teaching, and medicolegal documentation and should be labeled and archived per policy.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 24,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What electrical safety measure is important during intraoperative ultrasound with energy delivery?",
+        "image": "",
+        "opciones": [
+            "There are no electrical safety concerns",
+            "Verify insulation, grounding and coordinate with anesthesia to avoid burns or interference",
+            "Only check the equipment battery",
+            "Use any cable available without verification"
+        ],
+        "respuesta_correcta": [
+            "Verify insulation, grounding and coordinate with anesthesia to avoid burns or interference"
+        ],
+        "concept_to_study": "Electrical safety in intraoperative ultrasound",
+        "explicacion_openai": "When radiofrequency or laser energy is applied, proper grounding, intact insulation of cables and correct placement of grounding pads are essential. Coordination with anesthesia and OR staff prevents monitoring interference and patient burns. Adherence to device and institutional protocols mitigates electrical hazards.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 25,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the minimum competency expectation for a sonographer participating in ultrasound‑guided procedures?",
+        "image": "",
+        "opciones": [
+            "Know only basic machine on/off functions",
+            "Solid knowledge of anatomy, ultrasound physics, sterile technique, needle guidance, complication recognition and team communication",
+            "Only acquire images for others to interpret",
+            "Perform procedures unsupervised without further training"
+        ],
+        "respuesta_correcta": [
+            "Solid knowledge of anatomy, ultrasound physics, sterile technique, needle guidance, complication recognition and team communication"
+        ],
+        "concept_to_study": "Sonographer competency in guided procedures",
+        "explicacion_openai": "Competency encompasses technical imaging skills, understanding of ultrasound physics and artifacts, aseptic technique, needle visualization and guidance strategies, recognition and initial management of complications, and effective intraoperative communication. Ongoing supervised practice and formal competency assessment maintain proficiency.",
+        "image_explanation": ""
+    },
+    {
         "clasificacion": "Quality Assurance, Safety, and Physical Principles",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -12463,177 +13508,635 @@
         "image_explanation": ""
     },
     {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 2,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which factor most likely caused the aliasing artifact in this spectral Doppler waveform?",
-    "image": "baseline_aliasing_carotid.png",
-    "opciones": [
-      "Proper angle correction",
-      "Incorrect baseline placement",
-      "High transducer frequency",
-      "Low wall filter"
-    ],
-    "respuesta_correcta": [
-      "Incorrect baseline placement"
-    ],
-    "concept_to_study": "Spectral Doppler aliasing",
-    "explicacion_openai": "Even if velocities are within normal limits, aliasing can appear when the baseline is incorrectly positioned too close to zero. This reduces the available display range, causing the waveform to wrap around.",
-    "image_explanation": "The image displays a spectral Doppler waveform exhibiting aliasing, characterized by the waveform wrapping around the baseline. This artifact suggests that the displayed velocity exceeds the Nyquist limit due to an improperly set baseline."
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 3,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the most appropriate adjustment to reduce aliasing in this case?",
-    "image": "baseline_aliasing_carotid.png",
-    "opciones": [
-      "Increase the gain",
-      "Lower the baseline",
-      "Activate wall filter",
-      "Use a higher frequency transducer"
-    ],
-    "respuesta_correcta": [
-      "Lower the baseline"
-    ],
-    "concept_to_study": "Reducing Doppler aliasing",
-    "explicacion_openai": "Lowering the baseline increases the velocity range displayed in one direction, reducing aliasing caused by misplacement. This is the simplest and most effective adjustment when aliasing is due to baseline error rather than true high velocity.",
-    "image_explanation": "The image shows a spectral Doppler waveform with aliasing. Lowering the baseline is the most appropriate adjustment to correct this artifact when it is caused by an incorrectly placed baseline, as it expands the displayable velocity range."
-  },
-   {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 4,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the primary technical issue depicted in this color Doppler image of the carotid artery?",
-    "image": "carotid_colorbox_misuse.png",
-    "opciones": [
-      "Excessive wall filter causing loss of low‑velocity flow",
-      "Incorrect use of the color box leading to a wrong Doppler angle and poor vessel mapping",
-      "Overgain causing color blooming beyond vessel walls",
-      "PRF set too high causing absence of color signal"
-    ],
-    "respuesta_correcta": [
-      "Incorrect use of the color box leading to a wrong Doppler angle and poor vessel mapping"
-    ],
-    "concept_to_study": "Color Doppler box misuse",
-    "explicacion_openai": "The color box is poorly positioned and oriented, producing a suboptimal Doppler angle that degrades flow alignment and results in incomplete or misleading carotid mapping.",
-    "image_explanation": "The image shows a color Doppler display of a carotid artery where the color box is not optimally aligned with the vessel's axis, leading to an incorrect Doppler angle and thus poor vessel mapping."
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 5,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which adjustment would most improve the accuracy of flow visualization in this case?",
-    "image": "carotid_colorbox_misuse.png",
-    "opciones": [
-      "Increase color persistence",
-      "Enlarge and realign the color box along the vessel axis to optimize the insonation angle",
-      "Lower the wall filter",
-      "Decrease overall color gain"
-    ],
-    "respuesta_correcta": [
-      "Enlarge and realign the color box along the vessel axis to optimize the insonation angle"
-    ],
-    "concept_to_study": "Optimizing Doppler angle",
-    "explicacion_openai": "Resizing and rotating/realigning the color box to match the vessel course optimizes the Doppler angle, improving laminar flow depiction and reducing apparent aliasing or dropout.",
-    "image_explanation": "The image illustrates a scenario where adjusting the color box (resizing and realigning it along the vessel axis) is necessary to optimize the Doppler angle for more accurate flow visualization."
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 6,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What downstream effect can result from the current color box placement and angle?",
-    "image": "carotid_colorbox_misuse.png",
-    "opciones": [
-      "Enhanced detection of low‑velocity flow",
-      "Accurate quantification of peak systolic velocity",
-      "Poor arterial mapping with misleading color patterns and potential aliasing artifacts",
-      "Increased signal‑to‑noise ratio"
-    ],
-    "respuesta_correcta": [
-      "Poor arterial mapping with misleading color patterns and potential aliasing artifacts"
-    ],
-    "concept_to_study": "Consequences of poor Doppler angle",
-    "explicacion_openai": "A misaligned color box produces a suboptimal angle and uneven sampling, leading to poor carotid visualization, misleading bidirectional color, and potential aliasing that complicates interpretation.",
-    "image_explanation": "The image depicts the consequences of suboptimal color box placement, which can lead to poor arterial mapping, misleading color patterns, and potential aliasing artifacts due to the incorrect Doppler angle."
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the primary technical problem shown by the spectral Doppler in this image?",
-    "image": "spectral_gate_error.png",
-    "opciones": [
-      "PRF set too high eliminating low frequencies",
-      "Incorrect adjustment of sample volume (too large), resulting in false turbulent spectral wave",
-      "Wall filter set too low producing low‑frequency noise",
-      "Excessive spectral gain causing spectral broadening"
-    ],
-    "respuesta_correcta": [
-      "Incorrect adjustment of sample volume (too large), resulting in false turbulent spectral wave"
-    ],
-    "concept_to_study": "Spectral Doppler sample volume size",
-    "explicacion_openai": "A sample volume that is too large mixes signals from different flow layers and vessel walls, producing an artificially widened, turbulent‑appearing spectrum.",
-    "image_explanation": "The image displays a spectral Doppler waveform that appears artificially broadened or turbulent, indicating a technical issue with the sample volume size."
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 2,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which equipment adjustment will most effectively reduce the observed artifact?",
-    "image": "spectral_gate_error.png",
-    "opciones": [
-      "Increase spectral Doppler gain",
-      "Decrease the sample‑volume size and center it on the lumen axis",
-      "Raise PRF to avoid aliasing",
-      "Change the color map to one with higher contrast"
-    ],
-    "respuesta_correcta": [
-      "Decrease the sample‑volume size and center it on the lumen axis"
-    ],
-    "concept_to_study": "Correcting sample volume artifact",
-    "explicacion_openai": "Reducing and properly centering the sample volume improves spatial resolution and prevents mixing of signals that cause apparent spectral turbulence.",
-    "image_explanation": "The image shows an artifact caused by an oversized sample volume. The question asks for the adjustment to fix this, which is to reduce the sample volume size and center it."
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 3,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the most likely clinical consequence if the oversized sample volume is not corrected?",
-    "image": "spectral_gate_error.png",
-    "opciones": [
-      "Consistent underestimation of peak systolic velocity",
-      "False diagnosis of stenosis due to spurious high velocities and turbulent spectrum",
-      "Improved detection of low‑velocity flow",
-      "Complete loss of color Doppler signal in the vessel"
-    ],
-    "respuesta_correcta": [
-      "False diagnosis of stenosis due to spurious high velocities and turbulent spectrum"
-    ],
-    "concept_to_study": "Clinical impact of sample volume error",
-    "explicacion_openai": "Mixed signals within a large gate can create spurious high‑velocity components and broadening that mimic stenosis or turbulent flow, leading to false positives.",
-    "image_explanation": "The image shows a spectral Doppler artifact from an oversized sample volume. This question explores the clinical implications of not correcting this, which can lead to misdiagnosis."
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 4,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Besides reducing sample‑volume size, which technical practice helps minimize this artifact?",
-    "image": "spectral_gate_error.png",
-    "opciones": [
-      "Align the transducer axis with hemoglobin molecules",
-      "Position the sample volume adjacent to the arterial wall",
-      "Optimize insonation angle to be as parallel to flow as possible and use a smaller gate",
-      "Increase color persistence in the color mode"
-    ],
-    "respuesta_correcta": [
-      "Optimize insonation angle to be as parallel to flow as possible and use a smaller gate"
-    ],
-    "concept_to_study": "Minimizing spectral Doppler artifacts",
-    "explicacion_openai": "Optimizing the insonation angle and using a smaller gate improve velocity estimation and reduce inclusion of off‑axis or wall signals; placing the gate near the wall worsens the artifact.",
-    "image_explanation": "The image shows a spectral Doppler artifact related to sample volume size. This question asks for another technique to minimize it, focusing on insonation angle and gate size."
-  }
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 155,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary technical problem shown by the spectral Doppler in this image?",
+        "image": "spectral_gate_error.png",
+        "opciones": [
+            "PRF set too high eliminating low frequencies",
+            "Incorrect adjustment of sample volume (too large), resulting in false turbulent spectral wave",
+            "Wall filter set too low producing low‑frequency noise",
+            "Excessive spectral gain causing spectral broadening"
+        ],
+        "respuesta_correcta": [
+            "Incorrect adjustment of sample volume (too large), resulting in false turbulent spectral wave"
+        ],
+        "concept_to_study": "Spectral Doppler sample volume size",
+        "explicacion_openai": "A sample volume that is too large mixes signals from different flow layers and vessel walls, producing an artificially widened, turbulent‑appearing spectrum.",
+        "image_explanation": "The image displays a spectral Doppler waveform that appears artificially broadened or turbulent, indicating a technical issue with the sample volume size."
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 156,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which equipment adjustment will most effectively reduce the observed artifact?",
+        "image": "spectral_gate_error.png",
+        "opciones": [
+            "Increase spectral Doppler gain",
+            "Decrease the sample‑volume size and center it on the lumen axis",
+            "Raise PRF to avoid aliasing",
+            "Change the color map to one with higher contrast"
+        ],
+        "respuesta_correcta": [
+            "Decrease the sample‑volume size and center it on the lumen axis"
+        ],
+        "concept_to_study": "Correcting sample volume artifact",
+        "explicacion_openai": "Reducing and properly centering the sample volume improves spatial resolution and prevents mixing of signals that cause apparent spectral turbulence.",
+        "image_explanation": "The image shows an artifact caused by an oversized sample volume. The question asks for the adjustment to fix this, which is to reduce the sample volume size and center it."
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 157,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the most likely clinical consequence if the oversized sample volume is not corrected?",
+        "image": "spectral_gate_error.png",
+        "opciones": [
+            "Consistent underestimation of peak systolic velocity",
+            "False diagnosis of stenosis due to spurious high velocities and turbulent spectrum",
+            "Improved detection of low‑velocity flow",
+            "Complete loss of color Doppler signal in the vessel"
+        ],
+        "respuesta_correcta": [
+            "False diagnosis of stenosis due to spurious high velocities and turbulent spectrum"
+        ],
+        "concept_to_study": "Clinical impact of sample volume error",
+        "explicacion_openai": "Mixed signals within a large gate can create spurious high‑velocity components and broadening that mimic stenosis or turbulent flow, leading to false positives.",
+        "image_explanation": "The image shows a spectral Doppler artifact from an oversized sample volume. This question explores the clinical implications of not correcting this, which can lead to misdiagnosis."
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 158,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Besides reducing sample‑volume size, which technical practice helps minimize this artifact?",
+        "image": "spectral_gate_error.png",
+        "opciones": [
+            "Align the transducer axis with hemoglobin molecules",
+            "Position the sample volume adjacent to the arterial wall",
+            "Optimize insonation angle to be as parallel to flow as possible and use a smaller gate",
+            "Increase color persistence in the color mode"
+        ],
+        "respuesta_correcta": [
+            "Optimize insonation angle to be as parallel to flow as possible and use a smaller gate"
+        ],
+        "concept_to_study": "Minimizing spectral Doppler artifacts",
+        "explicacion_openai": "Optimizing the insonation angle and using a smaller gate improve velocity estimation and reduce inclusion of off‑axis or wall signals; placing the gate near the wall worsens the artifact.",
+        "image_explanation": "The image shows a spectral Doppler artifact related to sample volume size. This question asks for another technique to minimize it, focusing on insonation angle and gate size."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer is preparing for a lower extremity arterial duplex scan on a patient with suspected peripheral artery disease. Which of the following is the MOST crucial piece of patient history to obtain prior to starting the exam?",
+        "image": "",
+        "opciones": [
+            "Family history of cardiac disease",
+            "Current medications, especially anticoagulants",
+            "Recent travel history",
+            "Patient's dietary habits"
+        ],
+        "respuesta_correcta": [
+            "Current medications, especially anticoagulants"
+        ],
+        "concept_to_study": "Patient history and medications",
+        "explicacion_openai": "Obtaining current medications, particularly anticoagulants, is crucial as they can affect the patient's coagulation status, influence procedural decisions (if an intervention is considered), and are vital for comprehensive patient assessment in vascular studies. While other options provide general health information, medications directly impact the vascular system and potential exam modifications.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When adapting an ultrasound examination to a patient with severe dyspnea, which of the following modifications is most appropriate?",
+        "image": "",
+        "opciones": [
+            "Insist on the standard supine position for optimal views.",
+            "Complete the exam as quickly as possible, even if it means sacrificing some views.",
+            "Perform the exam in a semi-Fowler's position or with the head of the bed elevated.",
+            "Administer supplemental oxygen without physician order."
+        ],
+        "respuesta_correcta": [
+            "Perform the exam in a semi-Fowler's position or with the head of the bed elevated."
+        ],
+        "concept_to_study": "Adapting exam to patient condition",
+        "explicacion_openai": "Patients with severe dyspnea (shortness of breath) will find it difficult to tolerate a flat supine position. Adapting the patient's position to a semi-Fowler's or elevated head of bed can significantly improve their comfort and ability to cooperate, allowing for a more complete and accurate exam. Administering oxygen requires a physician's order.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which information should a sonographer correlate from a previous MRI study when performing a carotid duplex on a patient with known carotid stenosis?",
+        "image": "",
+        "opciones": [
+            "The patient's preferred music genre.",
+            "The extent and location of plaque identified in the MRI.",
+            "The cost of the previous MRI.",
+            "The date of the patient's last dental cleaning."
+        ],
+        "respuesta_correcta": [
+            "The extent and location of plaque identified in the MRI."
+        ],
+        "concept_to_study": "Correlating information from imaging studies",
+        "explicacion_openai": "Correlating findings from previous imaging studies, such as the extent and location of plaque from an MRI, provides crucial context for the current ultrasound exam. It helps the sonographer target specific areas, assess progression or regression, and ensures a comprehensive evaluation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "To establish rapport and interview a patient effectively for a vascular exam, the sonographer should primarily:",
+        "image": "",
+        "opciones": [
+            "Use complex medical jargon to demonstrate expertise.",
+            "Maintain eye contact and use open-ended questions.",
+            "Discuss personal anecdotes to lighten the mood.",
+            "Focus solely on taking measurements without speaking."
+        ],
+        "respuesta_correcta": [
+            "Maintain eye contact and use open-ended questions."
+        ],
+        "concept_to_study": "Establishing rapport and patient interview",
+        "explicacion_openai": "Maintaining eye contact conveys attentiveness and respect, while open-ended questions encourage the patient to provide detailed information about their symptoms and concerns. This approach fosters trust and ensures a comprehensive understanding of the patient's condition.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer receives a requisition for a bilateral lower extremity venous duplex for deep vein thrombosis (DVT). The patient's identification band states 'John D. Smith, DOB 01/15/1970'. The requisition states 'Jonathon D. Smith, DOB 01/15/1970'. What is the appropriate next step?",
+        "image": "",
+        "opciones": [
+            "Proceed with the exam, assuming it's a nickname.",
+            "Verify patient identity with two unique identifiers, such as full name and date of birth, and clarify the discrepancy.",
+            "Ask the patient if they prefer to be called John or Jonathon.",
+            "Cancel the exam immediately."
+        ],
+        "respuesta_correcta": [
+            "Verify patient identity with two unique identifiers, such as full name and date of birth, and clarify the discrepancy."
+        ],
+        "concept_to_study": "Patient identification protocols",
+        "explicacion_openai": "Patient identification protocols require at least two unique identifiers. While the DOB matches, the discrepancy in the first name needs to be clarified with the patient and potentially nursing staff to ensure the correct patient is receiving the correct exam, preventing medical errors.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a carotid duplex, the sonographer notes that the patient's electronic medical record (EMR) indicates a history of transient ischemic attacks (TIAs) and atrial fibrillation. How should this information be synthesized?",
+        "image": "",
+        "opciones": [
+            "It is irrelevant to the current carotid study.",
+            "It suggests a higher risk for carotid artery disease and potential emboli, requiring meticulous scanning.",
+            "It indicates the patient may be uncooperative.",
+            "It means the patient will likely require a different type of vascular exam."
+        ],
+        "respuesta_correcta": [
+            "It suggests a higher risk for carotid artery disease and potential emboli, requiring meticulous scanning."
+        ],
+        "concept_to_study": "Synthesizing information from medical history",
+        "explicacion_openai": "A history of TIAs and atrial fibrillation are significant risk factors for cerebrovascular events and emboli. This information guides the sonographer to perform a more meticulous and thorough carotid exam, carefully looking for plaque, stenosis, and potential sources of emboli.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "For a transcranial Doppler (TCD) exam, which transducer frequency is typically most appropriate?",
+        "image": "",
+        "opciones": [
+            "2-3 MHz linear array",
+            "5-7 MHz linear array",
+            "8-12 MHz linear array",
+            "2-3 MHz phased array"
+        ],
+        "respuesta_correcta": [
+            "2-3 MHz phased array"
+        ],
+        "concept_to_study": "Selecting correct instrumentation (transducer)",
+        "explicacion_openai": "TCD exams require lower frequency transducers (2-3 MHz) to penetrate the skull and reach the intracranial arteries. A phased array transducer is typically used due to its smaller footprint and ability to generate a sector-shaped image, which is advantageous for visualizing through narrow bone windows.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient arrives for an abdominal aortic aneurysm (AAA) surveillance scan, but due to severe abdominal pain and distention, they cannot tolerate lying completely flat. What is the most appropriate modification?",
+        "image": "",
+        "opciones": [
+            "Reschedule the exam until the pain subsides.",
+            "Perform the exam with the patient in a lateral decubitus position or with the head of the bed elevated.",
+            "Attempt to complete only a limited study.",
+            "Administer pain medication (if available) before proceeding."
+        ],
+        "respuesta_correcta": [
+            "Perform the exam with the patient in a lateral decubitus position or with the head of the bed elevated."
+        ],
+        "concept_to_study": "Modifying exam based on patient condition and body habitus",
+        "explicacion_openai": "Modifying the patient's position to increase comfort (e.g., lateral decubitus or elevated head) is often necessary for patients with abdominal pain or distention. This adaptation allows for better cooperation and a more complete exam without unnecessary discomfort. Administering medication is outside the sonographer's scope.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "For a renal artery duplex study, which patient preparation is typically required?",
+        "image": "",
+        "opciones": [
+            "NPO (nothing by mouth) for 6-8 hours prior to the exam.",
+            "Consumption of a high-fat meal immediately before the exam.",
+            "Drinking several liters of water just before the exam.",
+            "No specific preparation is needed."
+        ],
+        "respuesta_correcta": [
+            "NPO (nothing by mouth) for 6-8 hours prior to the exam."
+        ],
+        "concept_to_study": "Appropriate preparations for the test",
+        "explicacion_openai": "For renal artery duplex studies, patients are typically instructed to be NPO for 6-8 hours to minimize bowel gas, which can obscure visualization of the renal arteries. This preparation significantly improves image quality and diagnostic accuracy.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient undergoing an arterial duplex of the lower extremities is standing during a segment of the exam. How does this patient position specifically affect the vascular hemodynamics being assessed?",
+        "image": "",
+        "opciones": [
+            "It significantly increases venous return.",
+            "It decreases hydrostatic pressure in the lower extremities.",
+            "It increases hydrostatic pressure, which can affect arterial flow characteristics.",
+            "It has no significant effect on arterial flow."
+        ],
+        "respuesta_correcta": [
+            "It increases hydrostatic pressure, which can affect arterial flow characteristics."
+        ],
+        "concept_to_study": "Implications of patient position on vascular exams (hydrostatic pressure)",
+        "explicacion_openai": "When standing, hydrostatic pressure increases in the lower extremities due to gravity. This increased pressure can affect arterial lumen size and flow dynamics, especially in cases of peripheral artery disease, and must be considered during interpretation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following signs/symptoms is MOST indicative of a deep vein thrombosis (DVT) in the lower extremity and warrants an urgent venous duplex exam?",
+        "image": "",
+        "opciones": [
+            "Sudden onset of unilateral leg swelling and pain.",
+            "Chronic bilateral leg edema.",
+            "Varicose veins without associated symptoms.",
+            "Intermittent claudication in the calf."
+        ],
+        "respuesta_correcta": [
+            "Sudden onset of unilateral leg swelling and pain."
+        ],
+        "concept_to_study": "Signs and symptoms pertaining to the vascular exam",
+        "explicacion_openai": "Sudden onset of unilateral leg swelling and pain are classic and highly suspicious signs/symptoms of acute DVT, warranting an urgent venous duplex ultrasound for diagnosis and timely intervention.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient scheduled for an arterial duplex study is currently taking a vasodilator medication. What potential effect might this medication have on the exam findings?",
+        "image": "",
+        "opciones": [
+            "It will likely cause an increase in peripheral resistance.",
+            "It could mask or minimize the severity of peripheral arterial disease.",
+            "It will have no impact on arterial flow dynamics.",
+            "It will cause immediate vasoconstriction."
+        ],
+        "respuesta_correcta": [
+            "It could mask or minimize the severity of peripheral arterial disease."
+        ],
+        "concept_to_study": "Potential effects of patient medications on exam",
+        "explicacion_openai": "Vasodilator medications cause the blood vessels to widen, which can increase blood flow and potentially improve ankle-brachial index (ABI) values or alter Doppler waveforms, thereby masking or minimizing the true severity of peripheral arterial disease. The sonographer must be aware of such medications.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is an absolute contraindication for a lower extremity arterial duplex ultrasound?",
+        "image": "",
+        "opciones": [
+            "Claustrophobia.",
+            "Patient's inability to cooperate due to severe pain or altered mental status.",
+            "Presence of a pacemaker.",
+            "Recent consumption of a light meal."
+        ],
+        "respuesta_correcta": [
+            "Patient's inability to cooperate due to severe pain or altered mental status."
+        ],
+        "concept_to_study": "Appropriate indications and contraindications for vascular exams",
+        "explicacion_openai": "The patient's inability to cooperate due to severe pain or altered mental status is an absolute contraindication for an effective arterial duplex ultrasound, as proper positioning, stillness, and sometimes breathing maneuvers are essential for accurate imaging and Doppler acquisition. Ultrasound is generally safe for pacemakers.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When assessing a patient's medical history for an abdominal ultrasound, a sonographer notes a history of multiple prior abdominal surgeries. This information is primarily relevant for:",
+        "image": "",
+        "opciones": [
+            "Determining the patient's favorite television shows.",
+            "Anticipating potential anatomical distortion or scarring that may complicate the exam.",
+            "Deciding if the patient needs sedation for the exam.",
+            "Calculating the patient's body mass index (BMI)."
+        ],
+        "respuesta_correcta": [
+            "Anticipating potential anatomical distortion or scarring that may complicate the exam."
+        ],
+        "concept_to_study": "Ability to obtain and evaluate patient history",
+        "explicacion_openai": "A history of multiple abdominal surgeries can lead to significant scarring, adhesions, and altered anatomy, which can make sonographic visualization challenging. Knowing this beforehand allows the sonographer to anticipate difficulties and adapt scanning techniques.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient has a history of a recent peripheral angiogram. When performing a follow-up arterial duplex, what information from the angiogram is most valuable to the sonographer?",
+        "image": "",
+        "opciones": [
+            "The specific contrast agent used.",
+            "The exact location and severity of any identified stenoses or occlusions.",
+            "The name of the interventional radiologist.",
+            "The recovery time post-procedure."
+        ],
+        "respuesta_correcta": [
+            "The exact location and severity of any identified stenoses or occlusions."
+        ],
+        "concept_to_study": "Ability to correlate information from various types of imaging studies",
+        "explicacion_openai": "The angiogram provides a 'gold standard' baseline for the location and severity of vascular disease. This information is critical for the sonographer to target specific areas, compare current findings, and assess the effectiveness of any interventions performed during the angiogram.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a patient interview for a cerebrovascular exam, the patient mentions experiencing recent episodes of 'fainting spells.' Which of the following is the most appropriate next question?",
+        "image": "",
+        "opciones": [
+            "How often do you brush your teeth?",
+            "Can you describe what happens before, during, and after these spells?",
+            "Do you believe in ghosts?",
+            "What is your favorite color?"
+        ],
+        "respuesta_correcta": [
+            "Can you describe what happens before, during, and after these spells?"
+        ],
+        "concept_to_study": "Ability to establish rapport and interview patient",
+        "explicacion_openai": "Asking for a detailed description of the fainting spells (syncope) allows the sonographer to gather crucial symptomatic information relevant to a cerebrovascular exam. This includes pre-syncopal symptoms, duration, and post-event state, which can help guide the sonographer's focus during the study.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to patient identification protocols, what is the minimum number of unique identifiers that must be used to confirm patient identity before an exam?",
+        "image": "",
+        "opciones": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "respuesta_correcta": [
+            "Two"
+        ],
+        "concept_to_study": "Ability to interpret and follow patient identification protocols",
+        "explicacion_openai": "Standard patient identification protocols universally require the use of at least two unique patient identifiers (e.g., full name and date of birth, or full name and medical record number) to ensure the correct patient receives the correct procedure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer reviews a patient's chart and notes a history of a carotid endarterectomy on the left side several years ago. How should this information be integrated into the current carotid duplex exam plan?",
+        "image": "",
+        "opciones": [
+            "It means the left carotid artery does not need to be scanned.",
+            "It alerts the sonographer to meticulously evaluate the surgical site for restenosis or neo-intimal hyperplasia.",
+            "It indicates the patient is not a candidate for a carotid duplex.",
+            "It suggests a higher likelihood of a right-sided stroke."
+        ],
+        "respuesta_correcta": [
+            "It alerts the sonographer to meticulously evaluate the surgical site for restenosis or neo-intimal hyperplasia."
+        ],
+        "concept_to_study": "Ability to synthesize information from various sources in the patient's medical history",
+        "explicacion_openai": "A history of carotid endarterectomy means the surgical site is a common area for restenosis or neo-intimal hyperplasia. The sonographer must synthesize this information to focus their examination on this specific area, comparing it to previous studies if available, to detect any recurrent disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer would be most suitable for evaluating a deep abdominal vessel in an obese patient?",
+        "image": "",
+        "opciones": [
+            "12 MHz linear array",
+            "7 MHz linear array",
+            "3.5 MHz curvilinear array",
+            "5 MHz phased array"
+        ],
+        "respuesta_correcta": [
+            "3.5 MHz curvilinear array"
+        ],
+        "concept_to_study": "Ability to select correct instrumentation based on protocol and patient body habitus",
+        "explicacion_openai": "For deep abdominal vessels and obese patients, a lower frequency (e.g., 3.5 MHz) transducer is needed for adequate penetration. A curvilinear array provides a wider field of view, which is beneficial for large abdominal structures and patients with larger body habitus.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient with limited mobility is scheduled for a lower extremity venous reflux study. What modification might be necessary for this exam?",
+        "image": "",
+        "opciones": [
+            "Perform the entire study with the patient supine.",
+            "Perform compressions more aggressively.",
+            "Utilize reverse Trendelenburg positioning to simulate standing for reflux assessment.",
+            "Only evaluate the proximal segments of the veins."
+        ],
+        "respuesta_correcta": [
+            "Utilize reverse Trendelenburg positioning to simulate standing for reflux assessment."
+        ],
+        "concept_to_study": "Ability to modify exam based on patient condition and body habitus",
+        "explicacion_openai": "For venous reflux studies, gravity-dependent positioning (like standing) is crucial. For patients with limited mobility who cannot stand, placing them in reverse Trendelenburg position can help achieve venous distention and allow for proper reflux assessment, simulating the effects of gravity.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 21,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A physician orders a portal vein duplex. What is an essential preparation instruction for the patient?",
+        "image": "",
+        "opciones": [
+            "Take a laxative the night before.",
+            "Fast for at least 6-8 hours.",
+            "Drink a full bladder of water.",
+            "Eat a large meal to stimulate digestion."
+        ],
+        "respuesta_correcta": [
+            "Fast for at least 6-8 hours."
+        ],
+        "concept_to_study": "Knowledge of appropriate preparations for the test",
+        "explicacion_openai": "Fasting for 6-8 hours is essential for abdominal vascular studies like portal vein duplex to minimize bowel gas, which can interfere with visualization of the portal venous system, and to reduce gallbladder contraction if it's also being assessed.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 22,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a venous duplex exam for DVT, the sonographer notices that the patient is in a warm, poorly ventilated room. How might the physical environment impact the exam?",
+        "image": "",
+        "opciones": [
+            "It will make the patient more cooperative.",
+            "It can cause vasodilation, making superficial veins easier to visualize and potentially impacting vein compressibility.",
+            "It will cause immediate vasoconstriction of all veins.",
+            "It has no impact on vascular assessment."
+        ],
+        "respuesta_correcta": [],
+        "concept_to_study": "Knowledge of implications of patient position, physical environment, and patient condition on vascular exams (hydrostatic pressure, etc.)",
+        "explicacion_openai": "A warm environment can cause peripheral vasodilation, leading to increased venous distention. While this might make some superficial veins easier to see, it can also affect the assessment of vein compressibility, especially in borderline cases. The sonographer must be aware of environmental factors.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 23,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents with a palpable pulsatile mass in the groin. Which sign/symptom is most relevant to the sonographer for a potential vascular exam?",
+        "image": "",
+        "opciones": [
+            "Recent dental work.",
+            "Fever and chills.",
+            "Presence of a pulsatile mass and associated pain or discomfort.",
+            "History of migraine headaches."
+        ],
+        "respuesta_correcta": [],
+        "concept_to_study": "Knowledge of signs and symptoms pertaining to the vascular exam",
+        "explicacion_openai": "A palpable pulsatile mass in the groin, especially with pain, is a critical sign/symptom highly suggestive of a femoral artery aneurysm or pseudoaneurysm, requiring an urgent vascular ultrasound for diagnosis and management.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 24,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient is taking Beta-blockers for hypertension. How might this medication affect an arterial waveform analysis in the lower extremities?",
+        "image": "",
+        "opciones": [
+            "It will cause an increase in heart rate, making waveforms turbulent.",
+            "It may reduce heart rate and contractility, potentially affecting peak systolic velocities and waveform morphology.",
+            "It will induce significant peripheral vasodilation, improving flow.",
+            "It has no known effect on arterial waveforms."
+        ],
+        "respuesta_correcta": [],
+        "concept_to_study": "Knowledge of potential effects of patient medications on exam",
+        "explicacion_openai": "Beta-blockers reduce heart rate and myocardial contractility. This can lead to decreased cardiac output and, subsequently, lower peak systolic velocities in peripheral arteries. Changes in heart rate also affect the temporal aspects of the waveform, which the sonographer must consider during interpretation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 25,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is a clear indication for a carotid duplex ultrasound?",
+        "image": "",
+        "opciones": [
+            "Routine annual physical exam for a healthy young adult.",
+            "Asymptomatic cervical bruits.",
+            "Acute appendicitis.",
+            "Evaluation of a suspected deep vein thrombosis."
+        ],
+        "respuesta_correcta": [
+            "Asymptomatic cervical bruits."
+        ],
+        "concept_to_study": "Knowledge of appropriate indications and contraindications for vascular exams",
+        "explicacion_openai": "Asymptomatic cervical bruits are a recognized indication for carotid duplex ultrasound as they can be a sign of underlying carotid artery stenosis, even without overt neurological symptoms.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 26,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Before a bilateral upper extremity venous duplex for thoracic outlet syndrome, the patient should be instructed to:",
+        "image": "",
+        "opciones": [
+            "Avoid caffeine for 24 hours.",
+            "Perform specific arm maneuvers during the exam as instructed by the sonographer.",
+            "Fast for 12 hours.",
+            "Wear tight-fitting clothing to compress the veins."
+        ],
+        "respuesta_correcta": [
+            "Perform specific arm maneuvers during the exam as instructed by the sonographer."
+        ],
+        "concept_to_study": "Knowledge of appropriate preparations for the test",
+        "explicacion_openai": "Thoracic outlet syndrome studies require dynamic maneuvers (e.g., abduction, external rotation, costoclavicular maneuver) to provoke compression of the subclavian vein. The patient must be able to perform these, and will be instructed by the sonographer during the exam.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 27,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary concern regarding a patient's inability to maintain a specific position for an extended period during a vascular exam?",
+        "image": "",
+        "opciones": [
+            "It increases the sonographer's scanning time.",
+            "It can lead to inaccurate Doppler measurements and incomplete visualization.",
+            "It increases the risk of the patient falling.",
+            "It requires more gel to be used."
+        ],
+        "respuesta_correcta": [],
+        "concept_to_study": "Knowledge of implications of patient position, physical environment, and patient condition on vascular exams",
+        "explicacion_openai": "Maintaining specific positions (e.g., proper angle for Doppler, distention for venous studies) is critical for obtaining accurate data and complete visualization of vessels. Inability to do so can severely compromise the diagnostic quality of the exam.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 28,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient reports experiencing numbness and tingling in their right arm and hand, exacerbated by overhead activities. Which vascular exam is MOST indicated?",
+        "image": "",
+        "opciones": [
+            "Carotid duplex.",
+            "Abdominal aortic aneurysm scan.",
+            "Upper extremity arterial and venous duplex for Thoracic Outlet Syndrome.",
+            "Lower extremity venous duplex."
+        ],
+        "respuesta_correcta": [],
+        "concept_to_study": "Knowledge of signs and symptoms pertaining to the vascular exam",
+        "explicacion_openai": "Numbness and tingling in the arm/hand exacerbated by overhead activities are classic symptoms of neurogenic or vascular compression in the thoracic outlet, making an upper extremity duplex for Thoracic Outlet Syndrome the most indicated exam.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 29,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient is on long-term steroid therapy. What potential effect might this medication have on a vascular exam assessing for aneurysm formation?",
+        "image": "",
+        "opciones": [
+            "Steroids directly cause vessel constriction.",
+            "Long-term steroid use can weaken arterial walls, potentially increasing aneurysm risk or progression.",
+            "Steroids significantly improve arterial flow.",
+            "They have no impact on vessel wall integrity."
+        ],
+        "respuesta_correcta": [],
+        "concept_to_study": "Knowledge of potential effects of patient medications on exam",
+        "explicacion_openai": "Long-term steroid therapy is known to have catabolic effects on connective tissues, which can weaken arterial walls. This weakening can predispose individuals to aneurysm formation or expansion, making it a relevant factor to consider during vascular exams for aneurysms.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and communication",
+        "grupo": 30,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents with sudden vision loss in one eye (amaurosis fugax). Which of the following vascular exams is MOST appropriate to rule out a common cause?",
+        "image": "",
+        "opciones": [
+            "Renal artery duplex.",
+            "Abdominal aorta duplex.",
+            "Carotid duplex.",
+            "Lower extremity arterial duplex."
+        ],
+        "respuesta_correcta": [],
+        "concept_to_study": "Knowledge of appropriate indications and contraindications for vascular exams",
+        "explicacion_openai": "Amaurosis fugax (transient monocular blindness) is a classic symptom of an embolic event originating from the ipsilateral carotid artery (especially the internal carotid artery). Therefore, a carotid duplex is the most appropriate exam to evaluate for carotid stenosis or plaque as a source.",
+        "image_explanation": ""
+    }
 ]
-
-
-
