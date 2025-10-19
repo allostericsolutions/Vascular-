@@ -14518,6 +14518,368 @@
     "concept_to_study": "Major contraindications for TCD ultrasound",
     "explicacion_openai": "Transcranial Doppler (TCD) ultrasound relies on the ability of the ultrasound beam to penetrate specific \"bone windows\" in the skull (temporal, orbital, foramen magnum). A recent craniotomy with a bone flap that obstructs these windows, or extensive surgical dressings/hardware, will completely block the ultrasound beam, making the exam technically impossible. The other options are generally not contraindications. Migraines are a common indication for TCD in some protocols. Age is not a barrier. While uncontrolled hypertension can affect intracranial flow, it is usually an indication for monitoring, not a contraindication to the exam itself. (Refer to SVU Intersocietal Standards for the Performance of Transcranial Duplex Ultrasound and neurology/stroke guidelines).",
     "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 70-year-old male presents for an abdominal aorta ultrasound due to a palpable pulsatile mass. The sonographer identifies an infrarenal aortic segment measuring 4.5 cm in anterior-posterior (AP) diameter with thrombus lining the wall. What is the most appropriate classification for this finding?",
+    "image": "",
+    "opciones": [
+      "Normal aortic diameter",
+      "Aortic dissection",
+      "Abdominal Aortic Aneurysm (AAA)",
+      "Aortic occlusion"
+    ],
+    "respuesta_correcta": [
+      "Abdominal Aortic Aneurysm (AAA)"
+    ],
+    "concept_to_study": "Abdominal Aortic Aneurysm (AAA)",
+    "explicacion_openai": "An abdominal aortic aneurysm (AAA) is defined as a focal dilatation of the abdominal aorta with a diameter of 3.0 cm or greater, or an increase in diameter of 50% or more compared to the adjacent proximal normal aorta. A diameter of 4.5 cm clearly exceeds the 3.0 cm threshold, classifying it as an aneurysm. Thrombus within the aneurysm sac is a common finding. Aortic dissection involves a tear in the intimal layer, creating a false lumen, which is a different pathology. A normal aorta would be less than 3.0 cm. (Refer to AIUM Practice Parameter for the Performance of an Abdominal Aorta Ultrasound Examination and \"Clinical Vascular Ultrasound\").",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a renal artery duplex ultrasound, the sonographer observes a segment of the main renal artery with significantly increased Peak Systolic Velocity (PSV > 200 cm/s) and post-stenotic turbulence, along with an altered waveform. The contralateral kidney appears smaller than normal. What should the sonographer be primarily looking for in the smaller kidney?",
+    "image": "",
+    "opciones": [
+      "Increased renal parenchymal flow with low resistance.",
+      "Evidence of a renal cyst or tumor.",
+      "Compensatory hypertrophy with increased size.",
+      "Reduced cortical thickness and increased parenchymal echogenicity."
+    ],
+    "respuesta_correcta": [
+      "Reduced cortical thickness and increased parenchymal echogenicity."
+    ],
+    "concept_to_study": "Renal artery stenosis sequelae",
+    "explicacion_openai": "The findings of high PSV in one renal artery and a smaller contralateral kidney strongly suggest renal artery stenosis, leading to chronic ischemia in the affected kidney. Over time, chronic ischemia can cause the kidney to shrink (atrophy), resulting in reduced cortical thickness and an increase in parenchymal echogenicity (appearing brighter on ultrasound) as the kidney becomes fibrotic. Increased renal parenchymal flow with low resistance would typically be seen in a normal or hyperemic kidney, not a chronically ischemic one. Compensatory hypertrophy would occur in the unaffected kidney. Renal cysts or tumors are separate pathologies. (Refer to \"Clinical Vascular Ultrasound\" and \"Vascular Technology: An Illustrated Review\").",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents with acute onset, severe left leg pain and swelling. Venous duplex ultrasound reveals a thrombus completely filling and obstructing the common femoral vein, extending into the superficial femoral vein. The vessel is non-compressible and lacks Doppler flow. This finding is consistent with:",
+    "image": "",
+    "opciones": [
+      "Chronic venous insufficiency.",
+      "Superficial thrombophlebitis.",
+      "Acute deep venous thrombosis (DVT).",
+      "Popliteal artery aneurysm."
+    ],
+    "respuesta_correcta": [
+      "Acute deep venous thrombosis (DVT)."
+    ],
+    "concept_to_study": "Acute Deep Venous Thrombosis (DVT)",
+    "explicacion_openai": "The classic sonographic criteria for acute deep venous thrombosis (DVT) include the presence of intraluminal thrombus, complete non-compressibility of the vein with transducer pressure, and absence of Doppler flow within the vessel. Acute pain and swelling are common clinical symptoms. Chronic venous insufficiency involves damaged valves leading to reflux, not acute obstruction. Superficial thrombophlebitis involves thrombus in a superficial vein, not the deep system. A popliteal artery aneurysm is an arterial pathology. (Refer to SVU Intersocietal Standards for the Performance of Lower Extremity Venous Duplex Ultrasound).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a routine upper extremity arterial duplex, the sonographer notes that the radial artery is significantly larger than expected, while the ulnar artery appears unusually small. The digital perfusion appears normal. This finding is most likely indicative of:",
+    "image": "",
+    "opciones": [
+      "Radial artery occlusion.",
+      "Ulnar artery aneurysm.",
+      "Anatomical variant (radial artery dominance).",
+      "Thoracic Outlet Syndrome."
+    ],
+    "respuesta_correcta": [
+      "Anatomical variant (radial artery dominance)."
+    ],
+    "concept_to_study": "Upper extremity arterial anatomical variant",
+    "explicacion_openai": "Anatomical variations are common in the upper extremity vasculature. In some individuals, one forearm artery (most commonly the radial artery) can be significantly larger and more dominant in supplying the hand, while the other (ulnar artery) is correspondingly smaller or hypoplastic. As long as digital perfusion is normal (confirmed by appropriate waveforms), this is typically a benign variant, not a pathology. Occlusion would result in absent flow. Aneurysms are dilatations, not just size differences. Thoracic outlet syndrome involves compression of vessels/nerves, often with positional changes, and wouldn't typically manifest solely as a size discrepancy in the forearm arteries. (Refer to \"Vascular Technology: An Illustrated Review\" and anatomical atlases).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a carotid duplex ultrasound, the sonographer identifies a Peak Systolic Velocity (PSV) of 450 cm/s in the internal carotid artery (ICA) with an ICA/CCA ratio of 6.0, indicating a severe, hemodynamically significant stenosis. What is the most appropriate immediate action for the sonographer after obtaining these measurements?",
+    "image": "",
+    "opciones": [
+      "Complete the rest of the standard carotid protocol without interruption.",
+      "Inform the patient directly about the severe finding and its implications.",
+      "Immediately notify the interpreting physician of the critical finding.",
+      "Schedule a follow-up exam for the patient in 6 months."
+    ],
+    "respuesta_correcta": [
+      "Immediately notify the interpreting physician of the critical finding."
+    ],
+    "concept_to_study": "Critical finding communication",
+    "explicacion_openai": "A PSV of 450 cm/s in the ICA and an ICA/CCA ratio of 6.0 are well above the thresholds for severe (often >70%) ICA stenosis, which is a critical finding associated with a high risk of stroke. The sonographer's primary responsibility in such a situation is to ensure the critical finding is promptly communicated to the interpreting physician or the referring physician, as per institutional protocol. The physician is responsible for patient diagnosis and management decisions. Informing the patient directly is outside the sonographer's scope of practice in this context and could cause undue anxiety. Completing the protocol is important, but immediate communication of the critical finding takes precedence. Scheduling a follow-up is a physician's decision. (Refer to AIUM practice guidelines on sonographer's role and critical value communication policies).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "While performing a lower extremity arterial duplex, the sonographer observes a spectral Doppler waveform in the distal Superficial Femoral Artery (SFA) that is monophasic, with a delayed systolic upstroke and blunted appearance, distal to a previously identified stenosis. This waveform characteristic is consistent with:",
+    "image": "",
+    "opciones": [
+      "Normal triphasic flow.",
+      "Hyperemic flow due to exercise.",
+      "Post-stenotic turbulent flow.",
+      "Flow distal to a significant stenosis (dampened flow)."
+    ],
+    "respuesta_correcta": [
+      "Flow distal to a significant stenosis (dampened flow)."
+    ],
+    "concept_to_study": "Dampened arterial waveform",
+    "explicacion_openai": "A normal arterial waveform in the lower extremities is typically triphasic (sharp systolic upstroke, brief reversal, and forward diastolic flow). Flow distal to a hemodynamically significant stenosis often loses its triphasic characteristic and becomes monophasic (single phase), with a slower, blunted systolic upstroke, and lower peak velocities. This \"dampened\" waveform appearance is a key indicator of proximal obstruction. Hyperemic flow might show increased diastolic flow but would still have a sharp systolic upstroke. Post-stenotic turbulence occurs at or immediately after the stenosis, characterized by spectral broadening and high velocities, not dampened flow. (Refer to \"Clinical Vascular Ultrasound\" and \"Vascular Technology: An Illustrated Review\" on arterial hemodynamics).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When evaluating for a suspected common femoral artery (CFA) pseudoaneurysm following a catheterization procedure, the most appropriate Doppler technique to confirm the diagnosis and visualize the \"neck\" connecting to the artery is:",
+    "image": "",
+    "opciones": [
+      "Continuous wave (CW) Doppler.",
+      "Color Doppler and pulsed wave (PW) Doppler with careful compression.",
+      "Power Doppler exclusively for overall flow detection.",
+      "Triphasic spectral Doppler analysis of the CFA."
+    ],
+    "respuesta_correcta": [
+      "Color Doppler and pulsed wave (PW) Doppler with careful compression."
+    ],
+    "concept_to_study": "Pseudoaneurysm neck visualization",
+    "explicacion_openai": "Color Doppler is crucial for quickly identifying the swirling \"yin-yang\" flow pattern within the pseudoaneurysm sac. Once identified, pulsed wave (PW) Doppler should be used to confirm the characteristic \"to-and-fro\" flow pattern within the neck that connects the pseudoaneurysm to the parent artery. Careful compression can sometimes be used to identify the neck more clearly or to attempt therapeutic compression. CW Doppler lacks spatial resolution. Power Doppler is good for low flow detection but doesn't provide directional or spectral information needed to confirm the neck flow. Triphasic flow is a normal arterial waveform, not diagnostic for a pseudoaneurysm. (Refer to AIUM Practice Guideline for the Performance of an Ultrasound Examination for the Detection of Vascular Catheter-Related Complications and \"Clinical Vascular Ultrasound\").",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a routine carotid duplex ultrasound, the sonographer visualizes a well-defined, anechoic (fluid-filled) structure posterior to the common carotid artery that exhibits no flow on color Doppler and does not change with Valsalva maneuver. This finding is likely an incidental:",
+    "image": "",
+    "opciones": [
+      "Carotid artery aneurysm.",
+      "Deep venous thrombosis.",
+      "Simple cervical lymph node.",
+      "Simple cyst (e.g., thyroglossal duct cyst remnant, branchial cleft cyst)."
+    ],
+    "respuesta_correcta": [
+      "Simple cyst (e.g., thyroglossal duct cyst remnant, branchial cleft cyst)."
+    ],
+    "concept_to_study": "Incidental neck cyst",
+    "explicacion_openai": "An anechoic (black on ultrasound), well-defined structure with no internal flow and no connection to the vascular system, in this location, is most consistent with a simple cyst. Common incidental cysts in the neck include remnants of embryological structures like thyroglossal duct cysts or branchial cleft cysts. A carotid aneurysm would show pulsatile flow and be connected to the artery. A DVT would be within a vein and typically show absence of compressibility. Lymph nodes usually have a more oval shape and can have a fatty hilum, and while they can be anechoic, a simple cyst is a more straightforward interpretation of \"anechoic, no flow, no change with Valsalva.\" (Refer to \"Diagnostic Medical Sonography: A Guide to Clinical Practice\" and general ultrasound anatomy texts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following describes the fundamental pathophysiological process that leads to most cases of peripheral arterial disease (PAD) and carotid artery stenosis?",
+    "image": "",
+    "opciones": [
+      "Inflammation of the arterial wall leading to arteritis.",
+      "Abnormal collagen deposition in the vessel lumen causing narrowing.",
+      "Progressive accumulation of fatty plaques within the arterial intima (atherosclerosis).",
+      "Spontaneous dissection of the arterial wall layers."
+    ],
+    "respuesta_correcta": [
+      "Progressive accumulation of fatty plaques within the arterial intima (atherosclerosis)."
+    ],
+    "concept_to_study": "Pathophysiology of PAD and carotid stenosis",
+    "explicacion_openai": "Atherosclerosis is the leading cause of peripheral arterial disease (PAD) and carotid artery stenosis. It is a chronic inflammatory disease characterized by the progressive build-up of fatty, calcified plaques (atheromas) within the arterial intima. These plaques gradually narrow the arterial lumen, restrict blood flow, and can ultimately lead to ischemia, thrombosis, or embolization. The other options describe different, less common, or distinct pathologies. (Refer to \"Vascular Technology: An Illustrated Review\" and any comprehensive text on vascular pathophysiology).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A renal artery duplex ultrasound reveals significant stenosis in the main renal artery. Which of the following hemodynamic changes would you expect to see in the distal renal artery and kidney parenchyma distal to this stenosis?",
+    "image": "",
+    "opciones": [
+      "Increased Peak Systolic Velocity (PSV) and decreased Resistive Index (RI).",
+      "Decreased PSV, delayed systolic upstroke (tardus-parvus waveform), and increased RI.",
+      "Increased PSV, absent End-Diastolic Velocity (EDV), and increased RI.",
+      "Decreased PSV, delayed systolic upstroke (tardus-parvus waveform), and decreased RI."
+    ],
+    "respuesta_correcta": [
+      "Decreased PSV, delayed systolic upstroke (tardus-parvus waveform), and decreased RI."
+    ],
+    "concept_to_study": "Hemodynamics distal to renal artery stenosis",
+    "explicacion_openai": "Distal to a hemodynamically significant stenosis (in this case, in the kidney parenchyma), the flow experiences changes due to the upstream obstruction. The Peak Systolic Velocity (PSV) will be decreased due to reduced flow volume. The systolic upstroke will be delayed and blunted, creating a characteristic \"tardus-parvus\" waveform. Importantly, the Resistive Index (RI) in the kidney parenchyma often decreases (becomes lower) because the kidney autoregulates by dilating its distal arterioles to try and maintain flow, thus reducing peripheral resistance. This low resistance is an attempt to compensate for the proximal stenosis. An increased RI would be seen in conditions causing increased resistance, such as medical renal disease or acute obstruction. (Refer to \"Clinical Vascular Ultrasound\" and renal artery duplex hemodynamics).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The sonographic appearance of an acute deep venous thrombus (DVT) on B-mode imaging, differentiating it from a chronic thrombus, typically includes:",
+    "image": "",
+    "opciones": [
+      "Brightly echogenic, heterogeneous, and well-organized thrombus.",
+      "Hypoechoic or anechoic, homogeneous, and poorly attached thrombus.",
+      "Calcified, retracting thrombus with significant vein wall thickening.",
+      "Multiple venous collaterals and valve immobility."
+    ],
+    "respuesta_correcta": [
+      "Hypoechoic or anechoic, homogeneous, and poorly attached thrombus."
+    ],
+    "concept_to_study": "Sonographic appearance of acute DVT",
+    "explicacion_openai": "Acute DVT typically appears hypoechoic (darker) or even anechoic (black) on B-mode imaging, indicating a fresh, unorganized thrombus composed mostly of blood components. It tends to be homogeneous in texture and may appear poorly attached to the vein wall or mobile. Over time, as a thrombus ages and organizes, it becomes more echogenic (brighter), heterogeneous, retracts, and becomes firmly attached to the vein wall, often leading to vein wall thickening and the development of collaterals (features of chronic DVT). Calcification is rare in venous thrombus. (Refer to SVU Intersocietal Standards for the Performance of Lower Extremity Venous Duplex Ultrasound and \"Clinical Vascular Ultrasound\").",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient complains of chronic leg swelling, aching, and skin discoloration around the ankles. A venous duplex ultrasound is performed. What is the primary sonographic finding that indicates significant venous insufficiency?",
+    "image": "",
+    "opciones": [
+      "Complete compressibility of the superficial femoral vein.",
+      "Absence of flow in the common femoral vein.",
+      "Venous reflux (backward flow) lasting greater than a specified duration (e.g., > 0.5 seconds) after distal augmentation or Valsalva.",
+      "High Peak Systolic Velocity (PSV) in the popliteal vein."
+    ],
+    "respuesta_correcta": [
+      "Venous reflux (backward flow) lasting greater than a specified duration (e.g., > 0.5 seconds) after distal augmentation or Valsalva."
+    ],
+    "concept_to_study": "Venous insufficiency diagnosis",
+    "explicacion_openai": "Venous insufficiency is characterized by incompetent venous valves, which allow blood to flow backward (reflux) due to gravity and increased pressure. The primary sonographic indicator is the detection of this reflux, quantified by its duration. When using techniques like distal augmentation (squeezing the calf) or the Valsalva maneuver, normal valves should prevent significant backward flow. Reflux lasting longer than a specific threshold (e.g., typically >0.5 seconds for superficial veins and >1.0 second for deep veins, though thresholds vary slightly) signifies valvular incompetence. Complete compressibility indicates patency, not insufficiency. Absence of flow suggests thrombosis. High PSV is not a direct indicator of insufficiency. (Refer to SVU Intersocietal Standards for the Performance of Lower Extremity Venous Duplex Ultrasound for Venous Insufficiency).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents with acute onset swelling and pain in the right arm after intense exercise. Venous duplex ultrasound of the upper extremity reveals a thrombus occluding the subclavian vein. This clinical presentation and finding are highly suggestive of:",
+    "image": "",
+    "opciones": [
+      "Axillary artery aneurysm.",
+      "Superior Vena Cava (SVC) Syndrome.",
+      "Paget-Schroetter Syndrome (effort thrombosis of the subclavian vein).",
+      "Superficial thrombophlebitis of the cephalic vein."
+    ],
+    "respuesta_correcta": [
+      "Paget-Schroetter Syndrome (effort thrombosis of the subclavian vein)."
+    ],
+    "concept_to_study": "Paget-Schroetter Syndrome",
+    "explicacion_openai": "Paget-Schroetter Syndrome is a form of upper extremity deep venous thrombosis (UEDVT) that occurs spontaneously, typically in young, otherwise healthy individuals, often associated with repetitive, strenuous overhead arm activity (e.g., athletes, manual laborers). This \"effort thrombosis\" is due to compression of the subclavian vein in the thoracic outlet. Acute onset swelling and pain in the arm, coupled with subclavian vein thrombus, fits this diagnosis. Axillary artery aneurysm is an arterial issue. SVC Syndrome involves compression of the SVC, leading to bilateral upper extremity swelling. Superficial thrombophlebitis would be in superficial veins. (Refer to \"Clinical Vascular Ultrasound\" and vascular surgery/medicine texts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents with left leg swelling and pain. Venous duplex of the left leg is negative for DVT. However, Color Doppler and spectral analysis of the left common iliac vein reveal turbulent flow and evidence of extrinsic compression by the overlying right common iliac artery. This finding is consistent with:",
+    "image": "",
+    "opciones": [
+      "May-Thurner Syndrome.",
+      "Popliteal venous aneurysm.",
+      "Post-thrombotic syndrome.",
+      "Acute superficial thrombophlebitis."
+    ],
+    "respuesta_correcta": [
+      "May-Thurner Syndrome."
+    ],
+    "concept_to_study": "May-Thurner Syndrome",
+    "explicacion_openai": "May-Thurner Syndrome (also known as Iliac Vein Compression Syndrome) occurs when the left common iliac vein is compressed by the overlying right common iliac artery against the lumbar spine. This chronic compression can lead to intimal damage, fibrosis, and a predisposition to DVT in the left leg, even without acute thrombus at the time of exam. The sonographic findings of extrinsic compression and turbulent flow in the left common iliac vein, in a patient with unexplained left leg swelling, are classic for this syndrome. Popliteal venous aneurysm is a focal dilatation. Post-thrombotic syndrome is a consequence of prior DVT, not the initial cause. Superficial thrombophlebitis is in superficial veins. (Refer to \"Clinical Vascular Ultrasound\" and vascular medicine texts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient complains of arm pain, numbness, and pallor with overhead arm movements. Duplex ultrasound of the subclavian artery reveals a normal waveform at rest, but with arm abduction and external rotation, the Peak Systolic Velocity (PSV) significantly increases, and the waveform becomes severely dampened or absent. This is characteristic of:",
+    "image": "",
+    "opciones": [
+      "Subclavian artery aneurysm.",
+      "Acute subclavian artery occlusion.",
+      "Thoracic Outlet Syndrome (TOS) with arterial compression.",
+      "Vasospasm (Raynaud's phenomenon)."
+    ],
+    "respuesta_correcta": [
+      "Thoracic Outlet Syndrome (TOS) with arterial compression."
+    ],
+    "concept_to_study": "Arterial Thoracic Outlet Syndrome (TOS)",
+    "explicacion_openai": "Thoracic Outlet Syndrome (TOS) is a condition caused by compression of the neurovascular bundle (brachial plexus, subclavian artery, and/or subclavian vein) in the thoracic outlet space. Arterial TOS is characterized by positional compression of the subclavian artery, leading to changes in flow. A normal waveform at rest, with significant changes (increased velocity, dampened, or absent flow) in provocative positions (like arm abduction and external rotation), is the key sonographic finding. Aneurysm is a dilatation. Occlusion would show absent flow at rest. Vasospasm would typically affect distal arteries of the hand and digits. (Refer to \"Clinical Vascular Ultrasound\" and SVU practice guidelines for Upper Extremity Arterial Duplex).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 60-year-old patient with a history of smoking and diabetes presents with pain in the calf after walking short distances, relieved by rest. A lower extremity arterial duplex ultrasound is performed. What is the most common and expected finding in a patient with classic claudication symptoms?",
+    "image": "",
+    "opciones": [
+      "Ankle-Brachial Index (ABI) > 1.3.",
+      "Significant atherosclerotic stenosis or occlusion in the femoropopliteal segment.",
+      "Dilatation (aneurysm) of the superficial femoral artery.",
+      "Normal triphasic waveforms throughout the entire leg."
+    ],
+    "respuesta_correcta": [
+      "Significant atherosclerotic stenosis or occlusion in the femoropopliteal segment."
+    ],
+    "concept_to_study": "Lower extremity arterial disease (PAD)",
+    "explicacion_openai": "Claudication (pain in the muscles during exercise, relieved by rest) is the classic symptom of peripheral arterial disease (PAD). The most common underlying cause is atherosclerosis, leading to hemodynamically significant stenoses or occlusions. The femoropopliteal segment (Superficial Femoral Artery and Popliteal Artery) is a very frequent site for atherosclerotic disease in claudicants. An ABI > 1.3 might indicate calcified vessels. Aneurysms are dilatations, not the primary cause of claudication. Normal triphasic waveforms would rule out significant PAD. (Refer to SVU Intersocietal Standards for the Performance of Lower Extremity Arterial Duplex Ultrasound and vascular medicine texts).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient complains of severe abdominal pain that typically occurs 30-60 minutes after eating, often described as \"fear of food,\" leading to weight loss. A mesenteric duplex ultrasound is ordered. What specific finding in the celiac axis and/or superior mesenteric artery (SMA) would support a diagnosis of chronic mesenteric ischemia?",
+    "image": "",
+    "opciones": [
+      "Markedly decreased Peak Systolic Velocity (PSV) in the celiac axis.",
+      "High Peak Systolic Velocity (PSV > 275 cm/s in SMA, > 200 cm/s in celiac) with post-stenotic turbulence.",
+      "Retrograde flow in the inferior mesenteric artery (IMA).",
+      "Absent flow in the splenic artery."
+    ],
+    "respuesta_correcta": [
+      "High Peak Systolic Velocity (PSV > 275 cm/s in SMA, > 200 cm/s in celiac) with post-stenotic turbulence."
+    ],
+    "concept_to_study": "Chronic mesenteric ischemia diagnosis",
+    "explicacion_openai": "Chronic mesenteric ischemia, often presenting with postprandial abdominal pain (\"abdominal angina\") and weight loss, is typically caused by significant stenoses or occlusions in at least two of the three main mesenteric arteries (celiac axis, SMA, IMA). High Peak Systolic Velocities (PSV), above established thresholds (e.g., >275 cm/s for SMA, >200 cm/s for celiac axis), along with post-stenotic turbulence and altered waveforms, are key sonographic indicators of hemodynamically significant stenosis. Decreased PSV might indicate occlusion but not stenosis severity directly. Retrograde IMA flow can be a compensatory mechanism, but high PSV indicates the direct stenosis. Absent flow in the splenic artery might indicate celiac occlusion but is less specific for chronic mesenteric ischemia than high PSV in the main trunks. (Refer to \"Clinical Vascular Ultrasound\" and SVU practice guidelines for Mesenteric Duplex).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 35-year-old female with new-onset hypertension is referred for a renal duplex ultrasound. The sonographer identifies a \"string of beads\" appearance in the mid-to-distal main renal artery with associated focal areas of increased velocity. This is the characteristic sonographic finding for:",
+    "image": "",
+    "opciones": [
+      "Renal artery aneurysm.",
+      "Renal artery dissection.",
+      "Renal artery stenosis due to atherosclerosis.",
+      "Fibromuscular Dysplasia (FMD)."
+    ],
+    "respuesta_correcta": [
+      "Fibromuscular Dysplasia (FMD)."
+    ],
+    "concept_to_study": "Fibromuscular Dysplasia (FMD)",
+    "explicacion_openai": "Fibromuscular Dysplasia (FMD) is a non-atherosclerotic, non-inflammatory arterial disease that primarily affects medium-sized arteries, most commonly the renal arteries (causing renovascular hypertension) and carotid arteries. Its classic angiographic and sonographic appearance is a \"string of beads\" or \"string of pearls\" pattern, representing alternating areas of stenosis and small aneurysmal dilatations. This finding, especially in a young female with new-onset hypertension, is highly characteristic of FMD. Renal artery aneurysm is a focal dilatation. Dissection involves a tear in the wall. Atherosclerosis would appear as plaque. (Refer to \"Clinical Vascular Ultrasound\" and renal artery duplex guidelines).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient with a history of chronic liver disease presents with ascites and splenomegaly. A hepatoportal duplex ultrasound is performed. Which of the following findings would be most consistent with portal hypertension?",
+    "image": "",
+    "opciones": [
+      "Hepatofugal (away from liver) flow in the main portal vein.",
+      "High Peak Systolic Velocity (PSV) in the hepatic arteries.",
+      "Normal triphasic flow in the hepatic veins.",
+      "Absence of flow in the splenic vein."
+    ],
+    "respuesta_correcta": [
+      "Hepatofugal (away from liver) flow in the main portal vein."
+    ],
+    "concept_to_study": "Portal hypertension diagnosis",
+    "explicacion_openai": "Portal hypertension is a serious complication of chronic liver disease (e.g., cirrhosis), characterized by abnormally high pressure in the portal venous system. A classic and highly significant sonographic sign of severe portal hypertension is hepatofugal flow (flow directed away from the liver) in the main portal vein, indicating reversal of the normal hepatopetal (towards the liver) flow direction. This reversal occurs as the body tries to decompress the high pressure system, often developing collateral veins. High PSV in hepatic arteries might indicate compensatory arterial flow but is not a direct sign of portal hypertension. Normal triphasic flow in hepatic veins would be unusual in significant liver disease; hepatic veins often show monophasic or dampened flow in cirrhosis. Absence of flow in the splenic vein suggests splenic vein thrombosis, which can contribute to portal hypertension but is not the most consistent finding for generalized portal hypertension. (Refer to \"Clinical Vascular Ultrasound\" and hepatobiliary ultrasound texts).",
+    "image_explanation": ""
   }
 ]
+
 
