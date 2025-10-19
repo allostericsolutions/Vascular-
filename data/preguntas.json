@@ -15221,8 +15221,66 @@
     "concept_to_study": "Resistive Index (RI) calculation",
     "explicacion_openai": "The Resistive Index (RI) is a calculated Doppler parameter used to assess the resistance to blood flow in a vascular bed. The formula for RI is: RI = (PSV - EDV) / PSV Using the given values: RI = (200 cm/s - 50 cm/s) / 200 cm/s RI = 150 cm/s / 200 cm/s RI = 0.75 A normal RI in the renal artery is typically less than 0.70-0.80, so 0.75 would be within or at the upper end of the normal range, depending on specific institutional cutoffs. (Refer to \"Sonography: Principles and Instruments\" by Kremkau, and renal duplex guidelines).",
     "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The provided ultrasound image shows a focal area of intense color Doppler signal immediately posterior to a hyperechoic structure in the left kidney. This random mixture of red and blue color signals, rapidly changing over time, is characteristic of which common artifact?",
+    "image": "renal_twinkling_artifact_color_doppler.png",
+    "opciones": [
+      "Aliasing artifact within a renal artery stenosis.",
+      "Mirror image artifact from a nearby vessel.",
+      "Twinkling artifact below a renal dystrophic calcification.",
+      "Reverberation artifact from gas in the bowel."
+    ],
+    "respuesta_correcta": [
+      "Twinkling artifact below a renal dystrophic calcification."
+    ],
+    "concept_to_study": "Renal twinkling artifact",
+    "explicacion_openai": "The \"twinkling artifact\" is a specific type of color Doppler artifact seen as a rapidly alternating mixture of red and blue color signals behind a strongly reflective structure, typically a calcification or a rough surface (like gallstones, kidney stones, or other dystrophic calcifications). It mimics turbulent flow but is not true flow; it's an artifact of the Doppler processing interacting with rough, highly reflective surfaces. Aliasing would show uniform color wrapping around. Mirror image would show a duplicated structure. Reverberation from gas is usually more linear and bright. (Refer to \"Sonography: Principles and Instruments\" by Kremkau, and \"Clinical Vascular Ultrasound\" for artifact identification).",
+    "image_explanation": "The image shows a renal ultrasound with color Doppler artifact posterior to a hyperechoic structure, characterized by a rapid, random mixture of red and blue signals, consistent with twinkling artifact."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the given image, the color Doppler findings behind the hyperechoic renal structure are noted. What is the most important clinical implication of correctly identifying this phenomenon, especially when evaluating for renal vascular pathology?",
+    "image": "renal_twinkling_artifact_color_doppler.png",
+    "opciones": [
+      "It reliably indicates true blood flow turbulence at the site of the hyperechoic structure.",
+      "It suggests a renal artery pseudoaneurysm requiring immediate attention.",
+      "It is a twinkling artifact associated with calcification, which may obscure or mimic true vascular flow, but does not represent pathology in itself.",
+      "It confirms the presence of an acute renal vein thrombosis."
+    ],
+    "respuesta_correcta": [
+      "It is a twinkling artifact associated with calcification, which may obscure or mimic true vascular flow, but does not represent pathology in itself."
+    ],
+    "concept_to_study": "Clinical significance of twinkling artifact",
+    "explicacion_openai": "The twinkling artifact is a powerful indicator that the underlying hyperechoic structure is calcified. It's crucial for the sonographer to recognize this as an artifact, not as true blood flow or a true pathology like a pseudoaneurysm or turbulence. While the calcification itself might be a pathology (e.g., kidney stone, calcified plaque), the twinkling phenomenon is an imaging artifact that can sometimes obscure visualization of true vessels or mimic flow, necessitating careful differentiation from actual vascular pathology. It does not represent turbulence, a pseudoaneurysm, or thrombosis directly. (Refer to \"Sonography: Principles and Instruments\" and AIUM practice guidelines for artifact recognition and differentiation).",
+    "image_explanation": "The image displays a renal ultrasound with twinkling artifact behind a hyperechoic structure. The question focuses on the clinical implication: recognizing it as an artifact of calcification that can mimic or obscure true vascular findings."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When encountering the color Doppler artifact shown in the image (twinkling artifact), what adjustment might the sonographer make to confirm its artifactual nature and optimize visualization of underlying structures, if any?",
+    "image": "renal_twinkling_artifact_color_doppler.png",
+    "opciones": [
+      "Increase the color Doppler gain to enhance the artifact.",
+      "Decrease the Pulse Repetition Frequency (PRF) to reduce aliasing.",
+      "Adjust the focus to the level of the artifact to sharpen its appearance.",
+      "Switch to B-mode imaging to assess the calcification without color Doppler, or adjust color Doppler parameters (e.g., lower frequency, different filter) to mitigate the artifact."
+    ],
+    "respuesta_correcta": [
+      "Switch to B-mode imaging to assess the calcification without color Doppler, or adjust color Doppler parameters (e.g., lower frequency, different filter) to mitigate the artifact."
+    ],
+    "concept_to_study": "Managing twinkling artifact",
+    "explicacion_openai": "To confirm the artifactual nature of twinkling and optimize the study, the sonographer should first switch to B-mode to visualize the calcification without the color overlay. If the artifact is still obscuring, adjusting color Doppler parameters can help. Reducing the color gain might make the artifact less prominent, increasing the color filter might help, or trying a different color Doppler frequency can sometimes alter its appearance. Increasing color gain or adjusting PRF primarily affects true flow detection or aliasing, not specifically the twinkling artifact, and adjusting focus to the artifact's level would only sharpen the artifact, not resolve the underlying question. The goal is to either eliminate or minimize the artifact to better evaluate the region of interest. (Refer to \"Sonography: Principles and Instruments\" and practical ultrasound scanning guides for artifact management).",
+    "image_explanation": "The image shows a renal ultrasound with twinkling artifact. The question asks how to manage this artifact, suggesting adjustments like switching to B-mode or modifying color Doppler parameters to confirm its nature and improve visualization."
   }
 ]
+
 
 
 
