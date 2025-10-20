@@ -7559,7 +7559,7 @@
         "clasificacion": "Pathology, Perfusion, and Function",
         "grupo": 52,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Refer to the image. After exercise, which transformation is expected?",
+        "enunciado": "Refer to the Doppler spectral waveform presented in the image. If this artery were to be re-evaluated immediately following a period of vigorous patient exercise, what transformation of the waveform morphology would an operator most likely observe due to normal physiological responses?",
         "image": "onda_trifasica.png",
         "opciones": [
             "Monophasic flow with elevated diastolic forward flow",
@@ -7571,7 +7571,7 @@
             "Monophasic flow with elevated diastolic forward flow"
         ],
         "concept_to_study": "Triphasic waveform",
-        "explicacion_openai": "Exercise-induced vasodilation lowers resistance, abolishing the reverse component and sustaining diastolic flow.",
+        "explicacion_openai": "The waveform shown in the image is typically triphasic, indicative of a high-resistance vascular bed at rest. After vigorous exercise, the active muscles trigger local vasodilation, which significantly reduces peripheral resistance. This physiological adaptation leads to a change in the waveform morphology: the distinct early diastolic reverse flow diminishes or disappears, and there is a sustained increase in forward flow throughout diastole. The resulting pattern typically becomes biphasic or monophasic, reflecting the continuous need for increased blood supply to the exercising tissues.",
         "image_explanation": ""
     },
     {
