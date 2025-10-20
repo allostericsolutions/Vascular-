@@ -13741,13 +13741,13 @@
         "enunciado": "A **False Negative** result in a diagnostic test means that the:",
         "image": "",
         "opciones": [
-            "test indicates normal, but the test is incorrect.",
-            "test indicates disease, and the test is correct.",
-            "test indicates disease, but the test is incorrect.",
-            "test indicates normal, and the test is correct."
+            "Test indicates normal, but the test is incorrect.",
+            "Test indicates disease, and the test is correct.",
+            "Test indicates disease, but the test is incorrect.",
+            "Test indicates normal, and the test is correct."
         ],
         "respuesta_correcta": [
-            "test indicates normal, but the test is incorrect."
+            "Test indicates normal, but the test is incorrect."
         ],
         "concept_to_study": "False Negative Definition",
         "explicacion_openai": "A False Negative occurs when a diagnostic test incorrectly suggests the absence of a condition (indicates normal) when the condition is actually present.",
@@ -13760,13 +13760,13 @@
         "enunciado": "A **False Positive** result in a diagnostic test means that the:",
         "image": "",
         "opciones": [
-            "test indicates normal, but the test is incorrect.",
-            "test indicates disease, and the test is correct.",
-            "test indicates disease, but the test is incorrect.",
-            "test indicates normal, and the test is correct."
+            "Test indicates normal, but the test is incorrect.",
+            "Test indicates disease, and the test is correct.",
+            "Test indicates disease, but the test is incorrect.",
+            "Test indicates normal, and the test is correct."
         ],
         "respuesta_correcta": [
-            "test indicates disease, but the test is incorrect."
+            "Test indicates disease, but the test is incorrect."
         ],
         "concept_to_study": "False Positive Definition",
         "explicacion_openai": "A False Positive occurs when a diagnostic test incorrectly suggests the presence of a condition (indicates disease) when the condition is actually absent.",
@@ -13779,13 +13779,13 @@
         "enunciado": "A **True Negative** result in a diagnostic test means that the:",
         "image": "",
         "opciones": [
-            "test indicates normal, but the test is incorrect.",
-            "test indicates disease, and the test is correct.",
-            "test indicates disease, but the test is incorrect.",
-            "test indicates normal, and the test is correct."
+            "Test indicates normal, but the test is incorrect.",
+            "Test indicates disease, and the test is correct.",
+            "Test indicates disease, but the test is incorrect.",
+            "Test indicates normal, and the test is correct."
         ],
         "respuesta_correcta": [
-            "test indicates normal, and the test is correct."
+            "Test indicates normal, and the test is correct."
         ],
         "concept_to_study": "True Negative Definition",
         "explicacion_openai": "A True Negative occurs when a diagnostic test correctly suggests the absence of a condition (indicates normal) when the condition is actually absent.",
