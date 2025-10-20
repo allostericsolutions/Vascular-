@@ -15353,9 +15353,67 @@
     "concept_to_study": "Technical adjustments for motion artifact",
     "explicacion_openai": "Motion phenomena often consist of low-frequency signals. The wall filter is designed to remove these spurious low-frequency signals from tissue/probe movement while preserving higher-frequency blood flow shifts. (Refer to Kremkau, \"Sonography: Principles and Instruments\").",
     "image_explanation": "The image shows persistent motion artifact, and the question asks for a technical adjustment to mitigate it, focusing on the wall filter."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "An operator is viewing a Doppler spectral display (similar to image **B**), where individual cardiac cycles are horizontally stretched, making it challenging to compare several consecutive heartbeats or observe slower physiological events over time. To adjust the display to show a longer segment of the waveform, more akin to image **A**, what control on the Doppler instrument should be manipulated?",
+    "image": "sweep_adjust.png",
+    "opciones": [
+      "Increase the spectral gain to brighten the display.",
+      "Decrease the time display rate to compress the time axis.",
+      "Increase the pulse repetition frequency (PRF).",
+      "Adjust the baseline to shift the waveform vertically."
+    ],
+    "respuesta_correcta": [
+      "Decrease the time display rate to compress the time axis."
+    ],
+    "concept_to_study": "Adjusting time display rate for waveform duration",
+    "explicacion_openai": "To visualize a longer duration of the spectral waveform, allowing for the comparison of multiple heartbeats or observation of slower events, the time display rate must be slowed down. This action compresses the horizontal axis, fitting more physiological cycles onto the screen. This provides a broader context, essential for identifying patterns or prolonged events, thereby enhancing diagnostic capability.",
+    "image_explanation": "The question describes transitioning from a stretched waveform display (like image B) to a compressed one (like image A) to see more cycles. The control for this is the time display rate."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "An operator is examining a Doppler spectral display (similar to image **A**), showing many compressed waveforms. To perform a detailed analysis and obtain precise measurements of specific points like peak systolic and end-diastolic velocities within a single heartbeat, transitioning to a more expanded view resembling image **B**, what control should be adjusted, and what is the practical advantage for diagnosis?",
+    "image": "sweep_adjust.png",
+    "opciones": [
+      "Decrease the gain to enhance contrast for velocity differentiation.",
+      "Increase the wall filter to remove low-frequency noise.",
+      "Increase the time display rate to expand the waveform, allowing for precise measurements.",
+      "Adjust the sample volume size to encompass more flow."
+    ],
+    "respuesta_correcta": [
+      "Increase the time display rate to expand the waveform, allowing for precise measurements."
+    ],
+    "concept_to_study": "Adjusting time display rate for waveform detail and precise measurements",
+    "explicacion_openai": "When a waveform is compressed (many cycles on screen), detailed analysis and accurate measurement of specific points, such as peak systolic and end-diastolic velocities, become challenging. Increasing the time display rate 'stretches' the waveform horizontally, dedicating more screen space to each individual cardiac cycle. This expanded view provides crucial magnification, making it significantly easier for the operator to place calipers accurately, thus improving the precision of quantitative measurements vital for diagnostic assessment of blood flow dynamics.",
+    "image_explanation": "The question asks how to go from compressed waveforms (A) to expanded waveforms (B) for detailed measurements, linking this to the time display rate control."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "An ultrasound operator is viewing a Doppler spectral display similar to image **A**, where multiple cardiac cycles are shown in a compressed format. To adjust the display to show fewer waveforms, but with each individual cycle horizontally expanded for a more detailed analysis of events within that cycle, transitioning towards a view similar to image **B**, what specific control adjustment is required?",
+    "image": "sweep_adjust.png",
+    "opciones": [
+      "Adjust the baseline position to center the waveform.",
+      "Increase the spectral gain to improve signal visibility.",
+      "Increase the time display rate.",
+      "Decrease the scale (PRF) setting."
+    ],
+    "respuesta_correcta": [
+      "Increase the time display rate."
+    ],
+    "concept_to_study": "Adjusting time display rate for waveform expansion",
+    "explicacion_openai": "To transition from a display showing many compressed waveforms to one with fewer, horizontally expanded waveforms, the operator must increase the time display rate. This control governs how quickly the spectral line is drawn across the screen. A faster rate effectively stretches the time axis, dedicating more screen real estate to each individual cardiac cycle. This expansion is essential for a magnified view of specific events within a single heartbeat, enabling more precise qualitative and quantitative analysis critical for accurate diagnosis.",
+    "image_explanation": "The question describes moving from compressed (A) to expanded (B) waveforms, explicitly asking for the control that achieves this, which is the time display rate."
   }
-
 ]
+
+
 
 
 
