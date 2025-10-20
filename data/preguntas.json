@@ -6473,12 +6473,12 @@
         "clasificacion": "Normal Anatomy, Perfusion, and Function",
         "grupo": 340,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Regarding venous valves, which is FALSE?",
+        "enunciado": "Which of the following statements about venous valves is INCORRECT?",
         "image": "",
         "opciones": [
-            "Essential to muscle pump",
+            "They are crucial for the muscle pump",
             "Bicuspid",
-            "Endothelial tissue",
+            "They are composed of endothelial tissue",
             "Allow flow only away from the heart"
         ],
         "respuesta_correcta": [
