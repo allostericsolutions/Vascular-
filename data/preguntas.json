@@ -15277,7 +15277,84 @@
     "concept_to_study": "Managing twinkling artifact",
     "explicacion_openai": "To confirm the artifactual nature of twinkling and optimize the study, the sonographer should first switch to B-mode to visualize the calcification without the color overlay. If the artifact is still obscuring, adjusting color Doppler parameters can help. Reducing the color gain might make the artifact less prominent, increasing the color filter might help, or trying a different color Doppler frequency can sometimes alter its appearance. Increasing color gain or adjusting PRF primarily affects true flow detection or aliasing, not specifically the twinkling artifact, and adjusting focus to the artifact's level would only sharpen the artifact, not resolve the underlying question. The goal is to either eliminate or minimize the artifact to better evaluate the region of interest. (Refer to \"Sonography: Principles and Instruments\" and practical ultrasound scanning guides for artifact management).",
     "image_explanation": "The image shows a renal ultrasound with twinkling artifact. The question asks how to manage this artifact, suggesting adjustments like switching to B-mode or modifying color Doppler parameters to confirm its nature and improve visualization."
+  },
+   {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The provided color Doppler image shows scattered, irregular color signals, primarily blue, in the soft tissues adjacent to the main vessels, particularly on the right side of the image. The patient was noted to have subtle movements during image acquisition. This appearance is most consistent with which type of phenomenon?",
+    "image": "flashing_artifact.png",
+    "opciones": [
+      "A high-velocity color phenomenon.",
+      "A duplicated image phenomenon.",
+      "A motion phenomenon due to patient displacement.",
+      "A severe turbulent flow phenomenon."
+    ],
+    "respuesta_correcta": [
+      "A motion phenomenon due to patient displacement."
+    ],
+    "concept_to_study": "Color Doppler motion artifact",
+    "explicacion_openai": "Motion phenomena in color Doppler, often called \"flashing,\" arise from patient or transducer movement. Subtle patient movements can be misinterpreted as blood flow, creating spurious, scattered, low-frequency color signals in surrounding soft tissues where no actual flow exists. (Refer to Kremkau, \"Sonography: Principles and Instruments\").",
+    "image_explanation": "The image displays scattered, irregular color signals in soft tissues, indicative of motion artifact (flashing)."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Given that the scattered color signals in the image are identified as a motion phenomenon, what is the most significant implication for the diagnostic interpretation of the vascular study?",
+    "image": "flashing_artifact.png",
+    "opciones": [
+      "It reliably indicates areas of inflammation or hyperemia in the surrounding tissues.",
+      "It suggests the presence of small, collateral vessels that are difficult to visualize otherwise.",
+      "It can obscure or mimic true vascular flow, potentially leading to misinterpretation of vessel patency or adjacent pathology.",
+      "It confirms the presence of slow flow in the adjacent veins."
+    ],
+    "respuesta_correcta": [
+      "It can obscure or mimic true vascular flow, potentially leading to misinterpretation of vessel patency or adjacent pathology."
+    ],
+    "concept_to_study": "Diagnostic implications of motion artifact",
+    "explicacion_openai": "Motion phenomena are problematic as these false color signals can obscure real vascular structures, hindering accurate assessment of flow patterns, vessel patency, or actual pathologies, potentially leading to diagnostic errors. (Refer to Kremkau, \"Sonography: Principles and Instruments\" and AIUM guidelines).",
+    "image_explanation": "The image shows motion artifact which can interfere with accurate diagnosis of vascular structures."
+  },
+  {
+    "clasificacion": "Preparation, Documentation, and Communication",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "To minimize the motion phenomenon observed in the image and improve the diagnostic quality of the study, what is the first and most appropriate action the sonographer should take?",
+    "image": "flashing_artifact.png",
+    "opciones": [
+      "Immediately increase the color Doppler gain to overpower the phenomenon.",
+      "Instruct the patient to remain as still as possible and/or adjust patient positioning for comfort and stability.",
+      "Increase the Pulse Repetition Frequency (PRF) to reduce color saturation.",
+      "Decrease the color Doppler sample box size to exclude the phenomenon."
+    ],
+    "respuesta_correcta": [
+      "Instruct the patient to remain as still as possible and/or adjust patient positioning for comfort and stability."
+    ],
+    "concept_to_study": "Minimizing motion artifact",
+    "explicacion_openai": "Since the phenomenon is attributed to patient movement, the most direct first step is to address the source by clearly communicating with the patient, ensuring comfort, and adjusting positioning to minimize involuntary movements. (Refer to AIUM practice guidelines).",
+    "image_explanation": "The image shows motion artifact, and the question asks for the initial step to correct it, which involves addressing patient movement."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the sonographer has already addressed patient movement, but still observes persistent, scattered, low-frequency color signals in the surrounding tissues (motion phenomenon), what technical adjustment would be most effective in mitigating this phenomenon without significantly compromising true low-velocity flow detection?",
+    "image": "flashing_artifact.png",
+    "opciones": [
+      "Increase the wall filter (color filter) setting.",
+      "Decrease the color Doppler scale (PRF).",
+      "Increase the overall transmit power.",
+      "Decrease the color Doppler frequency."
+    ],
+    "respuesta_correcta": [
+      "Increase the wall filter (color filter) setting."
+    ],
+    "concept_to_study": "Technical adjustments for motion artifact",
+    "explicacion_openai": "Motion phenomena often consist of low-frequency signals. The wall filter is designed to remove these spurious low-frequency signals from tissue/probe movement while preserving higher-frequency blood flow shifts. (Refer to Kremkau, \"Sonography: Principles and Instruments\").",
+    "image_explanation": "The image shows persistent motion artifact, and the question asks for a technical adjustment to mitigate it, focusing on the wall filter."
   }
+
 ]
 
 
