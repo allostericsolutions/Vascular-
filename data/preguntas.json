@@ -15428,6 +15428,30 @@
     "concept_to_study": "Chronic venous insufficiency (CVI)",
     "explicacion_openai": "The image displays hyperpigmentation, often described as \"brawny\" or \"gaiter area\" pigmentation, which is a classic sign of chronic venous insufficiency (CVI). In CVI, incompetent venous valves lead to venous hypertension. This increased pressure causes extravasation of red blood cells into the surrounding tissue. The breakdown of hemoglobin from these red blood cells results in hemosiderin deposition, which gives the skin its characteristic brownish discoloration. Lymphedema typically causes swelling, skin thickening, and sometimes hyperkeratosis, but pigmentation is usually not as pronounced or diffuse as seen in CVI. Deep vein thrombosis (DVT) is an acute condition and while it can lead to CVI, it's not the direct cause of chronic pigmentation itself. Arterial insufficiency primarily causes pallor, cool skin, hair loss, and sometimes ulceration, but not this specific type of hyperpigmentation.",
     "image_explanation": "The image shows hyperpigmentation characteristic of hemosiderin deposition, a common finding in chronic venous insufficiency."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Referring to the presented image of ankle and foot pigmentation in a patient with venous insufficiency, what is the primary pathophysiological mechanism leading to this specific skin discoloration?",
+    "image": "IVC_rvt.png",
+    "opciones": [
+      "Decreased lymphatic drainage",
+      "Increased capillary pressure",
+      "Arterial vasoconstriction",
+      "Autoimmune destruction of melanocytes"
+    ],
+    "respuesta_correcta": [
+      "Increased capillary pressure"
+    ],
+    "concept_to_study": "Chronic venous insufficiency skin changes",
+    "explicacion_openai": "Elevated venous pressure transmits backward to the capillaries, leading to increased capillary hydrostatic pressure. This forces red blood cells and fluid to extravasate from the capillaries into the interstitial tissue. The red blood cells then break down, releasing hemoglobin, which is subsequently metabolized into hemosiderin. Hemosiderin, a brownish iron-storage complex, is deposited in the dermis, causing the visible hyperpigmentation.",
+    "image_explanation": "The image shows brownish skin discoloration on the ankle and foot, characteristic of chronic venous insufficiency."
   }
 ]
+
+
+
+
+
 
