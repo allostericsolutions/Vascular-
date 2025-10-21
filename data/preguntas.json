@@ -15485,8 +15485,47 @@
     "concept_to_study": "Pathology of Takayasu arteritis",
     "explicacion_openai": "Given the context of a young female patient with systemic inflammatory symptoms and arterial narrowing suggestive of Takayasu arteritis, the primary pathological process is Granulomatous inflammation and fibrous thickening of the arterial wall. Takayasu arteritis is a chronic inflammatory vasculitis that affects large arteries, including the carotid arteries. The inflammation leads to thickening of the vessel wall (primarily the media and adventitia) due to granuloma formation, fibrosis, and smooth muscle cell proliferation, which results in luminal narrowing (stenosis) and can also lead to occlusion or aneurysm formation. Accumulation of atherosclerotic plaque is typical for atherosclerotic disease, which is rare in a young female without significant risk factors. Disruption of the tunica intima with thrombus formation describes a dissection or acute thrombosis, which would have a different clinical and imaging presentation. Medial degeneration with aneurysm formation describes conditions like Marfan syndrome or Ehlers-Danlos syndrome, which can cause aneurysms, but the primary finding here is stenosis, and the systemic inflammatory context doesn't fit. Therefore, Granulomatous inflammation and fibrous thickening of the arterial wall best describes the underlying cause of the stenosis in this likely scenario.",
     "image_explanation": "The image shows a Color Doppler of a carotid artery with turbulent flow and narrowing, consistent with stenosis."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following findings would you expect to see in temporal arteritis?",
+    "image": "",
+    "opciones": [
+      "Aneurysm",
+      "Reversal of flow",
+      "Ulceration",
+      "Intimal thickening"
+    ],
+    "respuesta_correcta": [
+      "Intimal thickening"
+    ],
+    "concept_to_study": "Temporal arteritis pathology",
+    "explicacion_openai": "Temporal arteritis, also known as Giant Cell Arteritis (GCA), is a form of large-vessel vasculitis. The inflammation affects the arteries, leading to thickening of the vessel wall, particularly the intima and media. This inflammatory process causes proliferation of smooth muscle cells, infiltration by inflammatory cells, and fibrosis, resulting in luminal narrowing (stenosis) and potentially occlusion. Intimal thickening is a hallmark pathological finding. Aneurysms are less common than stenosis/occlusion in temporal arteries. Reversal of flow is not a typical finding. Ulceration is usually a consequence of severe ischemia, more common in peripheral arterial disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Budd-Chiari syndrome leads to portal hypertension primarily through:",
+    "image": "",
+    "opciones": [
+      "Obstruction of hepatic venous outflow",
+      "Increased resistance in the portal vein itself",
+      "Reduced flow in the hepatic artery",
+      "Dilatation of the inferior vena cava"
+    ],
+    "respuesta_correcta": [
+      "Obstruction of hepatic venous outflow"
+    ],
+    "concept_to_study": "Budd-Chiari syndrome, Portal Hypertension",
+    "explicacion_openai": "Budd-Chiari syndrome involves the obstruction of hepatic veins, leading to blood backup within the liver. This backup increases intrahepatic pressure, impeding portal venous inflow and causing portal hypertension.",
+    "image_explanation": ""
   }
 ]
+
 
 
 
