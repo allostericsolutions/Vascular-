@@ -15447,8 +15447,51 @@
     "concept_to_study": "Chronic venous insufficiency skin changes",
     "explicacion_openai": "Elevated venous pressure transmits backward to the capillaries, leading to increased capillary hydrostatic pressure. This forces red blood cells and fluid to extravasate from the capillaries into the interstitial tissue. The red blood cells then break down, releasing hemoglobin, which is subsequently metabolized into hemosiderin. Hemosiderin, a brownish iron-storage complex, is deposited in the dermis, causing the visible hyperpigmentation.",
     "image_explanation": "The image shows brownish skin discoloration on the ankle and foot, characteristic of chronic venous insufficiency."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 28-year-old female presents with a several-month history of fatigue, malaise, and arm claudication. She also reports tenderness along her carotid arteries. A carotid duplex ultrasound was performed, and the image above (Color Doppler of the carotid artery) was obtained, showing turbulent flow and narrowing. Given the patient's age, symptoms, and the sonographic findings, which of the following is the most likely diagnosis?",
+    "image": "Takayasu_arteritis.png",
+    "opciones": [
+      "Atherosclerotic carotid disease",
+      "Fibromuscular dysplasia",
+      "Carotid dissection",
+      "Takayasu arteritis"
+    ],
+    "respuesta_correcta": [
+      "Takayasu arteritis"
+    ],
+    "concept_to_study": "Takayasu arteritis",
+    "explicacion_openai": "The patient's presentation is highly suggestive of Takayasu arteritis. This is a chronic, granulomatous large-vessel vasculitis that primarily affects the aorta and its major branches, including the carotid and subclavian arteries. Key features supporting this diagnosis include: Age and Gender: Takayasu arteritis typically affects young women (under 40 years old), consistent with the 28-year-old female patient. Systemic Symptoms: Fatigue and malaise are common constitutional symptoms associated with the inflammatory nature of the disease. Arm Claudication: This symptom arises from stenoses or occlusions in the subclavian or brachiocephalic arteries, leading to reduced blood flow to the arm. Carotid Tenderness: This can be a sign of active inflammation in the carotid arteries. Sonographic Findings: The Color Doppler image showing turbulent flow and narrowing (stenosis) in the carotid artery is consistent with the arterial involvement seen in Takayasu arteritis. While other conditions can cause carotid stenosis, the combination of age, gender, systemic symptoms, and specific vessel involvement points strongly to Takayasu. Atherosclerotic carotid disease is less likely in a 28-year-old without significant risk factors for accelerated atherosclerosis. Fibromuscular dysplasia typically affects the mid-distal segments of the internal carotid artery and often has a \"string of beads\" appearance, which is not suggested by the image or the systemic symptoms. Carotid dissection usually presents with acute neck pain, headache, and focal neurological deficits, and the imaging typically shows an intimal flap or mural hematoma, which is not described. Therefore, Takayasu arteritis is the most probable diagnosis.",
+    "image_explanation": "The image shows a Color Doppler of a carotid artery with turbulent flow and narrowing, consistent with stenosis."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The Color Doppler image of the carotid artery above demonstrates a significant stenosis. In a young female patient with systemic inflammatory symptoms and this type of arterial involvement, what is the primary pathological process responsible for this vascular narrowing?",
+    "image": "Takayasu_arteritis.png",
+    "opciones": [
+      "Accumulation of atherosclerotic plaque",
+      "Disruption of the tunica intima with thrombus formation",
+      "Granulomatous inflammation and fibrous thickening of the arterial wall",
+      "Medial degeneration with aneurysm formation"
+    ],
+    "respuesta_correcta": [
+      "Granulomatous inflammation and fibrous thickening of the arterial wall"
+    ],
+    "concept_to_study": "Pathology of Takayasu arteritis",
+    "explicacion_openai": "Given the context of a young female patient with systemic inflammatory symptoms and arterial narrowing suggestive of Takayasu arteritis, the primary pathological process is Granulomatous inflammation and fibrous thickening of the arterial wall. Takayasu arteritis is a chronic inflammatory vasculitis that affects large arteries, including the carotid arteries. The inflammation leads to thickening of the vessel wall (primarily the media and adventitia) due to granuloma formation, fibrosis, and smooth muscle cell proliferation, which results in luminal narrowing (stenosis) and can also lead to occlusion or aneurysm formation. Accumulation of atherosclerotic plaque is typical for atherosclerotic disease, which is rare in a young female without significant risk factors. Disruption of the tunica intima with thrombus formation describes a dissection or acute thrombosis, which would have a different clinical and imaging presentation. Medial degeneration with aneurysm formation describes conditions like Marfan syndrome or Ehlers-Danlos syndrome, which can cause aneurysms, but the primary finding here is stenosis, and the systemic inflammatory context doesn't fit. Therefore, Granulomatous inflammation and fibrous thickening of the arterial wall best describes the underlying cause of the stenosis in this likely scenario.",
+    "image_explanation": "The image shows a Color Doppler of a carotid artery with turbulent flow and narrowing, consistent with stenosis."
   }
 ]
+
+
+
+
+
 
 
 
