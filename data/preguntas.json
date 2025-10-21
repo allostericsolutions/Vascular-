@@ -15409,5 +15409,25 @@
         "concept_to_study": "Minimizing motion artifact",
         "explicacion_openai": "Since the phenomenon is attributed to patient movement, the most direct first step is to address the source by clearly communicating with the patient, ensuring comfort, and adjusting positioning to minimize involuntary movements. (Refer to AIUM practice guidelines).",
         "image_explanation": "The image shows motion artifact, and the question asks for the initial step to correct it, which involves addressing patient movement."
-    }
+    },
+    {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents with the ankle and foot pigmentation shown in the image. Which of the following is the most likely cause of this pigmentation?",
+    "image": "IVC_rvt.png",
+    "opciones": [
+      "Lymphedema",
+      "Deep vein thrombosis (DVT)",
+      "Chronic venous insufficiency (CVI)",
+      "Arterial insufficiency"
+    ],
+    "respuesta_correcta": [
+      "Chronic venous insufficiency (CVI)"
+    ],
+    "concept_to_study": "Chronic venous insufficiency (CVI)",
+    "explicacion_openai": "The image displays hyperpigmentation, often described as \"brawny\" or \"gaiter area\" pigmentation, which is a classic sign of chronic venous insufficiency (CVI). In CVI, incompetent venous valves lead to venous hypertension. This increased pressure causes extravasation of red blood cells into the surrounding tissue. The breakdown of hemoglobin from these red blood cells results in hemosiderin deposition, which gives the skin its characteristic brownish discoloration. Lymphedema typically causes swelling, skin thickening, and sometimes hyperkeratosis, but pigmentation is usually not as pronounced or diffuse as seen in CVI. Deep vein thrombosis (DVT) is an acute condition and while it can lead to CVI, it's not the direct cause of chronic pigmentation itself. Arterial insufficiency primarily causes pallor, cool skin, hair loss, and sometimes ulceration, but not this specific type of hyperpigmentation.",
+    "image_explanation": "The image shows hyperpigmentation characteristic of hemosiderin deposition, a common finding in chronic venous insufficiency."
+  }
 ]
+
