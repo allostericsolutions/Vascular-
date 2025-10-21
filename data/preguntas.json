@@ -6973,10 +6973,10 @@
             "A blunted (rounded) systolic upstroke",
             "Reduced peak systolic amplitude",
             "A low-resistance monophasic pattern",
-            "Options a, b, and c"
+            "All statements are correct."
         ],
         "respuesta_correcta": [
-            "Options a, b, and c"
+            "All statements are correct."
         ],
         "concept_to_study": "Pulsus parvus et tardus distal to stenosis",
         "explicacion_openai": "Distal waveforms show a delayed systolic upstroke (pulsus tardus), decreased amplitude (pulsus parvus) and loss of diastolic reversal, producing a monophasic, low-resistance pattern.",
