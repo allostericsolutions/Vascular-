@@ -15542,9 +15542,220 @@
     "concept_to_study": "Cerebral arteries anatomy",
     "explicacion_openai": "The image is a cerebral angiogram showing the posterior circulation. The arrow points to the Posterior Cerebral Artery (PCA), which is one of the terminal branches of the basilar artery. The PCAs supply the occipital lobe, the inferior temporal lobe, and parts of the thalamus and midbrain. The basilar artery is formed by the union of the two vertebral arteries and is located at the base of the brainstem.",
     "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "An ultrasound operator is performing a Doppler study and observes a display issue in image A, where high velocities appear to be misrepresented. To correct this and obtain image B, which adjustment is most likely made?",
+    "image": "aliasing_prf_correction",
+    "opciones": [
+      "Decrease the transducer frequency",
+      "Increase the sample volume size",
+      "Increase the Pulse Repetition Frequency (PRF)",
+      "Decrease the gain"
+    ],
+    "respuesta_correcta": [
+      "Increase the Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "Doppler aliasing and PRF adjustment",
+    "explicacion_openai": "Image A shows a phenomenon where the color Doppler signal \"wraps around,\" indicating that the detected velocity has exceeded the system's ability to accurately measure it. This is known as aliasing. To correct this and accurately display higher velocities (as seen in image B), the Pulse Repetition Frequency (PRF) must be increased. Increasing the PRF raises the Nyquist limit, allowing the system to sample at a rate sufficient for the higher velocities encountered.",
+    "image_explanation": "Image A displays aliasing (wrap-around artifact), while image B shows the corrected flow, indicating a change was made to resolve high velocity misrepresentation."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the provided ultrasound images, image A shows an artifactual display of blood flow, particularly in regions of higher velocity. If the operator adjusts the system to achieve the accurate flow representation in image B, what primary control was manipulated?",
+    "image": "aliasing_prf_correction",
+    "opciones": [
+      "Reducing the color box size",
+      "Elevating the wall filter",
+      "Increasing the Pulse Repetition Frequency (PRF)",
+      "Lowering the overall power output"
+    ],
+    "respuesta_correcta": [
+      "Increasing the Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "Resolving Doppler aliasing with PRF",
+    "explicacion_openai": "The artifact visible in image A, characterized by the reversal of color flow (wrap-around), is aliasing. This occurs when the Doppler shift frequency exceeds the Nyquist limit (half the PRF). To resolve this artifact and obtain a correct display of flow (image B), the most effective control to adjust is the Pulse Repetition Frequency (PRF). Increasing the PRF raises the Nyquist limit, allowing for proper detection and display of higher velocities.",
+    "image_explanation": "Image A shows aliasing, while image B displays corrected flow, indicating that a primary control like PRF was adjusted to resolve the artifact."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The transition from ultrasound image A (displaying an artifact related to velocity measurement) to image B (showing corrected blood flow) typically involves which of the following operator actions?",
+    "image": "aliasing_prf_correction",
+    "opciones": [
+      "Decreasing color gain",
+      "Activating harmonic imaging",
+      "Increase the Pulse Repetition Frequency (PRF)",
+      "Adjusting the baseline shift only"
+    ],
+    "respuesta_correcta": [
+      "Increase the Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "Correcting aliasing artifact with PRF",
+    "explicacion_openai": "The artifact in image A, where the color Doppler spectrum appears to \"wrap around\" due to velocities exceeding the measurement capacity, is known as aliasing. To properly measure and display these higher velocities, as seen in the corrected image B, the operator must increase the Pulse Repetition Frequency (PRF). This action raises the Nyquist limit, which is the maximum velocity that can be accurately measured without aliasing. While a baseline shift (d) can move the artifact, it does not correct the underlying issue of aliasing; increasing the PRF is necessary for a true resolution.",
+    "image_explanation": "Image A shows an aliasing artifact, and image B shows the corrected flow, indicating that an operator action such as increasing PRF was taken to resolve it."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Observe the provided color Doppler image. Which of the following artifacts is most clearly demonstrated in the region of the vessel where the colors appear to change abruptly from red to blue and vice-versa?",
+    "image": "aliasing_prf_low",
+    "opciones": [
+      "Shadowing",
+      "Reverberation",
+      "Aliasing",
+      "Grating lobes"
+    ],
+    "respuesta_correcta": [
+      "Aliasing"
+    ],
+    "concept_to_study": "Color Doppler aliasing artifact",
+    "explicacion_openai": "The abrupt change in color from red to blue (and vice versa) within the same flow direction, often seen in regions of high velocity, is the classic visual sign of aliasing. Aliasing occurs when the Doppler shift frequency exceeds the Nyquist limit, causing the system to misinterpret the direction and magnitude of the velocity. Shadowing refers to a hypoechoic region distal to a highly attenuating structure. Reverberation involves multiple reflections creating parallel lines, and grating lobes are side-lobe artifacts.",
+    "image_explanation": "The image shows a color Doppler display with abrupt color changes (red to blue) indicative of aliasing."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Considering the artifact present in the image, which of the following statements about adjusting the angle of insonation would be TRUE in potentially helping to mitigate this artifact?",
+    "image": "aliasing_prf_low",
+    "opciones": [
+      "Increasing the Doppler angle closer to 90 degrees will always resolve this artifact.",
+      "Decreasing the Doppler angle to be more acute (closer to 0 degrees) might decrease the measured velocity, potentially moving it below the Nyquist limit.",
+      "Changing the angle has no effect on this specific artifact.",
+      "An angle of 60 degrees is ideal for artifact correction, regardless of vessel orientation."
+    ],
+    "respuesta_correcta": [
+      "Decreasing the Doppler angle to be more acute (closer to 0 degrees) might decrease the measured velocity, potentially moving it below the Nyquist limit."
+    ],
+    "concept_to_study": "Doppler angle and aliasing mitigation",
+    "explicacion_openai": "The artifact shown is aliasing, which occurs when the measured Doppler shift exceeds the Nyquist limit. The Doppler equation includes the cosine of the angle of insonation. If the Doppler angle is made more acute (closer to 0 degrees), the cosine value increases, which can result in a lower calculated measured velocity for the same actual velocity. A lower measured velocity might then fall below the Nyquist limit, thereby correcting or reducing aliasing. However, it's crucial to note that while this can help, a very acute angle might also make the Doppler signal less accurate overall. Increasing the angle closer to 90 degrees (a) would worsen the problem as the cosine approaches zero, leading to an indeterminate velocity measurement.",
+    "image_explanation": "The image shows aliasing, and the question asks how adjusting the Doppler angle might affect it."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Given the artifact in the color Doppler image, which of the following adjustments to the Pulse Repetition Frequency (PRF) is the most direct and effective method to resolve it?",
+    "image": "aliasing_prf_low",
+    "opciones": [
+      "Decreasing the PRF to enhance visualization of slow flows.",
+      "Increasing the PRF to raise the Nyquist limit.",
+      "Setting the PRF to its lowest possible value.",
+      "Making no changes to the PRF, as it is unrelated to this artifact."
+    ],
+    "respuesta_correcta": [
+      "Increasing the PRF to raise the Nyquist limit."
+    ],
+    "concept_to_study": "PRF adjustment for aliasing correction",
+    "explicacion_openai": "The artifact in the image is aliasing, which happens when the Doppler shift frequency exceeds the Nyquist limit (PRF/2). To correct aliasing, the most direct and effective solution is to increase the Pulse Repetition Frequency (PRF). This action directly raises the Nyquist limit, allowing the ultrasound system to accurately sample and display higher velocities without the \"wrap-around\" effect characteristic of aliasing. Decreasing the PRF (a, c) would worsen aliasing.",
+    "image_explanation": "The image shows aliasing, and the question specifically asks about the effect of PRF adjustment on this artifact."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "To resolve the artifact observed in the color Doppler image, which of the following sets of actions is generally considered TRUE and effective?",
+    "image": "aliasing_prf_low",
+    "opciones": [
+      "Decreasing the gain, reducing the color box size, increasing the wall filter, and decreasing the PRF.",
+      "Increasing the Doppler angle, decreasing the sample volume, lowering the baseline, and decreasing the transducer frequency.",
+      "Increasing the PRF, adjusting the baseline, decreasing the Doppler angle (to reduce measured velocity), and using a lower frequency transducer.",
+      "Decreasing the PRF, increasing the depth, widening the color box, and increasing the overall power."
+    ],
+    "respuesta_correcta": [
+      "Increasing the PRF, adjusting the baseline, decreasing the Doppler angle (to reduce measured velocity), and using a lower frequency transducer."
+    ],
+    "concept_to_study": "Comprehensive aliasing resolution strategies",
+    "explicacion_openai": "The artifact is aliasing. Here's why option (c) is correct and others are not: Increasing the PRF: Directly raises the Nyquist limit, the most common and effective way to resolve aliasing. Adjusting the baseline: Can \"move\" the aliasing to make it less visually disruptive or to ensure the highest velocities are within the non-aliased range, although it doesn't eliminate aliasing. Decreasing the Doppler angle (to reduce measured velocity): By making the angle more acute (closer to 0 degrees), the calculated velocity for the same actual flow can be lower, potentially falling below the Nyquist limit and thus reducing aliasing. Using a lower frequency transducer: Lower frequency transducers produce a smaller Doppler shift for the same velocity, making aliasing less likely. Options (a), (b), and (d) contain actions that would either worsen aliasing (e.g., decreasing PRF, increasing Doppler angle closer to 90), are unrelated, or primarily address other image quality issues.",
+    "image_explanation": "The image shows aliasing, and the question asks for a set of effective actions to resolve it."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the name of the artifact in Image A?",
+    "image": "aliasing_artifact_name",
+    "opciones": [
+      "Color Aliasing",
+      "Confetti",
+      "Color bleeding",
+      "Flash artifact"
+    ],
+    "respuesta_correcta": [
+      "Color Aliasing"
+    ],
+    "concept_to_study": "Doppler aliasing",
+    "explicacion_openai": "Image A displays a color Doppler artifact where the colors representing flow direction abruptly change (e.g., from red to blue) within the vessel, particularly in areas of high velocity. This phenomenon, known as aliasing, occurs when the Doppler shift frequency exceeds the Nyquist limit, causing the system to misinterpret the velocity. Confetti artifact appears as scattered color throughout the image, not confined to the vessel. Color bleeding is when color extends beyond the vessel walls. Flash artifact is a transient, bright artifact often caused by patient movement.",
+    "image_explanation": "Image A clearly shows the characteristic 'wrap-around' effect of aliasing in the color Doppler display of the vessel."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Observe the provided color Doppler image. The color flow within the vessel lumen appears to \"bloom\" or extend beyond the actual vessel walls, spreading into the surrounding tissue. This phenomenon is characteristic of which specific color Doppler artifact?",
+    "image": "blooming_artifact.png",
+    "opciones": [
+      "Aliasing",
+      "Mirror Image Artifact",
+      "Color Blooming / Color Bleed",
+      "Shadowing"
+    ],
+    "respuesta_correcta": [
+      "Color Blooming / Color Bleed"
+    ],
+    "concept_to_study": "Color Doppler blooming artifact",
+    "explicacion_openai": "Color blooming, also known as color bleed or \"flash,\" is an artifact where the color Doppler signal appears to spread beyond the true boundaries of the vessel lumen into the surrounding tissue. This typically occurs when the color gain is set too high, over-processing low-amplitude signals and noise. Aliasing is a misrepresentation of high velocities, mirror image artifact creates a false second image, and shadowing is an absence of signal distal to a highly attenuating structure.",
+    "image_explanation": "The image shows color Doppler signal extending beyond the vessel walls into the surrounding tissue."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Considering the artifact visible in this color Doppler image, where the color signal extends inappropriately beyond the vessel boundaries, what would be the most effective console adjustment a sonographer could make to primarily resolve this specific issue?",
+    "image": "blooming_artifact.png",
+    "opciones": [
+      "Decrease the Pulse Repetition Frequency (PRF).",
+      "Increase the Color Scale / Velocity Range.",
+      "Decrease the Color Gain.",
+      "Increase the Wall Filter setting."
+    ],
+    "respuesta_correcta": [
+      "Decrease the Color Gain."
+    ],
+    "concept_to_study": "Resolving color blooming",
+    "explicacion_openai": "The primary cause of color blooming or bleed, where color signal appears outside the vessel walls, is excessively high color gain. Decreasing the color gain reduces the overall sensitivity of the color Doppler system, thereby minimizing the detection of low-amplitude signals and noise from stationary tissues, and confining the color flow more accurately to the vessel lumen. While increasing the wall filter can help with low-frequency motion artifacts, excessive color spread is most directly corrected by reducing gain. Decreasing PRF addresses aliasing, and increasing color scale addresses absent flow.",
+    "image_explanation": "The image shows color blooming, and the question asks for the adjustment to resolve it."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Beyond adjusting the parameter needed to resolve the color blooming artifact seen in this image, sonographers often encounter challenges with unwanted low-frequency, high-amplitude signals caused by vessel wall motion or respiration, which can also appear as color \"flash.\" Which specific Doppler console setting is primarily designed to mitigate these particular motion artifacts?",
+    "image": "blooming_artifact.png",
+    "opciones": [
+      "Baseline Shift",
+      "Sample Volume Gate",
+      "Wall Filter",
+      "Dynamic Range"
+    ],
+    "respuesta_correcta": [
+      "Wall Filter"
+    ],
+    "concept_to_study": "Mitigating motion artifacts with wall filter",
+    "explicacion_openai": "The wall filter (also known as a high-pass filter) is a crucial Doppler control that eliminates low-frequency Doppler shifts. These low-frequency shifts are typically generated by slow-moving structures like vessel walls or breathing motion, which can otherwise create distracting color \"flash\" or noise within and around the vessel. While color gain addresses overall signal strength and blooming, the wall filter specifically targets these low-frequency motion artifacts.",
+    "image_explanation": "The image shows color blooming, but the question asks about a related artifact (motion/flash) and the tool to mitigate it, which is the wall filter."
   }
 
 ]
+
+
 
 
 
