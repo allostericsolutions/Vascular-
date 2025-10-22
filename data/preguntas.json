@@ -15523,7 +15523,27 @@
     "concept_to_study": "Budd-Chiari syndrome, Portal Hypertension",
     "explicacion_openai": "Budd-Chiari syndrome involves the obstruction of hepatic veins, leading to blood backup within the liver. This backup increases intrahepatic pressure, impeding portal venous inflow and causing portal hypertension.",
     "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What artery is indicated by the arrow in this cerebral angiogram?",
+    "image": "cerebral_posterior_angiograma.png",
+    "opciones": [
+      "Anterior Cerebral Artery",
+      "Middle Cerebral Artery",
+      "Posterior Cerebral Artery",
+      "Basilar Artery"
+    ],
+    "respuesta_correcta": [
+      "Posterior Cerebral Artery"
+    ],
+    "concept_to_study": "Cerebral arteries anatomy",
+    "explicacion_openai": "The image is a cerebral angiogram showing the posterior circulation. The arrow points to the Posterior Cerebral Artery (PCA), which is one of the terminal branches of the basilar artery. The PCAs supply the occipital lobe, the inferior temporal lobe, and parts of the thalamus and midbrain. The basilar artery is formed by the union of the two vertebral arteries and is located at the base of the brainstem.",
+    "image_explanation": ""
   }
+
 ]
 
 
