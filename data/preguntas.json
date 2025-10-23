@@ -14374,6 +14374,386 @@
     "concept_to_study": "Systemic causes of bilateral edema",
     "explicacion_openai": "Bilateral edema with dyspnea and jugular venous distention indicates systemic volume overload, most consistent with congestive heart failure. Chronic venous insufficiency is typically more localized and lacks cardiopulmonary signs; endocrine or hepatic causes are possible but less aligned with the overall presentation.",
     "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "According to vascular access guidelines, which arteriovenous access is preferred as a first-line option for hemodialysis due to superior patency and lower complication rates?",
+    "image": "",
+    "opciones": [
+      "Radiocephalic arteriovenous fistula at the wrist",
+      "Brachiobasilic arteriovenous fistula with transposition",
+      "Brachial-axillary prosthetic graft",
+      "Tunneled cuffed central venous catheter"
+    ],
+    "respuesta_correcta": [
+      "Radiocephalic arteriovenous fistula at the wrist"
+    ],
+    "concept_to_study": "Dialysis access selection hierarchy",
+    "explicacion_openai": "A native radiocephalic arteriovenous fistula (RC-AVF) at the wrist is generally the preferred initial access owing to better long-term patency and fewer infections compared with upper-arm fistulas, prosthetic grafts, or tunneled catheters.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "For a newly created native arteriovenous fistula, which of the following is a recognized maturation criterion consistent with the \"Rule of 6s\"?",
+    "image": "",
+    "opciones": [
+      "Access flow greater than 600 mL/min",
+      "Vein diameter of 3 mm or less",
+      "Access depth greater than 10 mm from the skin",
+      "Peak systolic velocity less than 50 cm/s throughout"
+    ],
+    "respuesta_correcta": [
+      "Access flow greater than 600 mL/min"
+    ],
+    "concept_to_study": "Dialysis access maturation criteria",
+    "explicacion_openai": "The “Rule of 6s” suggests a mature AVF should have flow >600 mL/min, vein diameter ≥6 mm, and depth ≤6 mm to facilitate reliable cannulation and adequate dialysis.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "On duplex interrogation of a dialysis fistula, which finding is most consistent with a hemodynamically significant focal stenosis?",
+    "image": "",
+    "opciones": [
+      "Low-resistance waveform in the feeding artery",
+      "Uniform velocities along the outflow vein",
+      "Focal peak systolic velocity ratio ≥2 compared with the adjacent inflow",
+      "Monophasic inflow artery waveform at rest"
+    ],
+    "respuesta_correcta": [
+      "Focal peak systolic velocity ratio ≥2 compared with the adjacent inflow"
+    ],
+    "concept_to_study": "Dialysis access duplex stenosis criteria",
+    "explicacion_openai": "A focal PSV acceleration with a velocity ratio ≥2 relative to the proximal segment suggests a ≥50% diameter-reducing stenosis in fistulas or grafts, especially when accompanied by post-stenotic turbulence and flow reduction distal to the lesion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Where is the most common location for stenosis causing early failure in a radiocephalic or brachiocephalic arteriovenous fistula?",
+    "image": "",
+    "opciones": [
+      "Proximal feeding artery",
+      "Juxta-anastomotic venous segment",
+      "Mid radial artery",
+      "Distal cephalic arch only"
+    ],
+    "respuesta_correcta": [
+      "Juxta-anastomotic venous segment"
+    ],
+    "concept_to_study": "Common sites of AVF stenosis",
+    "explicacion_openai": "Intimal hyperplasia frequently develops in the venous outflow near the anastomosis (juxta-anastomotic segment), making it the most common site of clinically significant stenosis in new fistulas. Cephalic arch stenosis is also common but typically in upper-arm cephalic outflow.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A hemodialysis patient develops hand ischemic symptoms after creation of a brachial-based AVF. Which duplex finding is most characteristic of dialysis access steal?",
+    "image": "",
+    "opciones": [
+      "Marked aneurysmal outflow vein dilation",
+      "Retrograde flow in the distal radial artery distal to the anastomosis",
+      "High-resistance waveforms throughout the inflow artery",
+      "Continuous venous pulsatility in the outflow vein"
+    ],
+    "respuesta_correcta": [
+      "Retrograde flow in the distal radial artery distal to the anastomosis"
+    ],
+    "concept_to_study": "Dialysis access steal syndrome",
+    "explicacion_openai": "In steal, arterial flow is diverted into the low-resistance access, producing retrograde flow in the distal artery feeding the hand. Compression of the access may normalize antegrade distal flow and relieve ischemic symptoms during testing.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During EVAR surveillance, which duplex finding most strongly suggests the presence of an endoleak requiring further evaluation?",
+    "image": "",
+    "opciones": [
+      "Stable aneurysm sac diameter over serial exams",
+      "Progressive aneurysm sac enlargement with color Doppler flow within the sac",
+      "Uniform triphasic flow within the endograft limbs",
+      "Decreasing sac size compared with prior imaging"
+    ],
+    "respuesta_correcta": [
+      "Progressive aneurysm sac enlargement with color Doppler flow within the sac"
+    ],
+    "concept_to_study": "EVAR surveillance and endoleak detection",
+    "explicacion_openai": "Endoleak is suggested by sac expansion and Doppler-detectable flow within the excluded aneurysm sac. Stable or shrinking sac size argues against a clinically significant endoleak.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which description best corresponds to a Type II endoleak after EVAR?",
+    "image": "",
+    "opciones": [
+      "Proximal or distal seal failure at the graft attachment site",
+      "Retrograde filling of the aneurysm sac via branch vessels such as lumbar arteries or the IMA",
+      "Flow through a fabric defect or modular disconnection within the graft",
+      "Persistent pressurization of the sac without a detectable source"
+    ],
+    "respuesta_correcta": [
+      "Retrograde filling of the aneurysm sac via branch vessels such as lumbar arteries or the IMA"
+    ],
+    "concept_to_study": "Endoleak classification",
+    "explicacion_openai": "Type II endoleaks arise from retrograde collateral inflow (e.g., lumbar arteries, IMA). Type I involves inadequate proximal/distal seal; Type III involves component separation or fabric defect; persistent pressurization without visible leak is termed endotension.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In TIPS surveillance, which intrashunt Doppler velocity pattern is most suspicious for shunt dysfunction?",
+    "image": "",
+    "opciones": [
+      "Peak velocity approximately 110 cm/s throughout the shunt",
+      "Peak velocity persistently less than 90 cm/s within the shunt",
+      "Peak velocity approximately 150 cm/s with laminar color flow",
+      "Triphasic hepatic venous waveforms with respiratory phasicity"
+    ],
+    "respuesta_correcta": [
+      "Peak velocity persistently less than 90 cm/s within the shunt"
+    ],
+    "concept_to_study": "TIPS surveillance criteria",
+    "explicacion_openai": "Shunt velocities that are abnormally low (<90 cm/s) or abnormally high (>190 cm/s), or a substantial interval change, suggest stenosis or dysfunction. Stable velocities in the mid-normal range with laminar flow are typical of a functioning TIPS.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "After endovenous thermal ablation of the great saphenous vein, which duplex finding is expected in a successfully treated segment?",
+    "image": "",
+    "opciones": [
+      "Compressible vein with phasic venous flow",
+      "Noncompressible echogenic vein with absence of color Doppler flow within the treated segment",
+      "Persistent reflux greater than 0.5 seconds at the saphenofemoral junction",
+      "Arterialized high-velocity flow within the treated segment"
+    ],
+    "respuesta_correcta": [
+      "Noncompressible echogenic vein with absence of color Doppler flow within the treated segment"
+    ],
+    "concept_to_study": "Post-ablation sonographic appearance",
+    "explicacion_openai": "Successful thermal ablation results in an occluded, noncompressible, echogenic vein without intraluminal color flow. Persistent compressibility or reflux indicates incomplete closure.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Following placement of an inferior vena cava (IVC) filter, what is the primary duplex sonographic priority during follow-up?",
+    "image": "",
+    "opciones": [
+      "Identification of hepatic vein triphasicity",
+      "Assessment for thrombus within or above the filter and IVC patency",
+      "Measurement of portal vein diameter",
+      "Evaluation of renal arterial resistive indices"
+    ],
+    "respuesta_correcta": [
+      "Assessment for thrombus within or above the filter and IVC patency"
+    ],
+    "concept_to_study": "IVC filter surveillance",
+    "explicacion_openai": "Key follow-up goals are to confirm IVC patency, check for thrombus captured at or above the filter that could impair venous return, and document filter position. Portal and arterial parameters are unrelated to IVC filter function.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "For an in-situ saphenous vein bypass graft, which technical issue is a common cause of early graft dysfunction detectable by duplex?",
+    "image": "",
+    "opciones": [
+      "Retained valve cusp causing focal intraluminal obstruction",
+      "Neointimal hyperplasia at 12 months post-op",
+      "Anastomotic aneurysm formation",
+      "Diffuse atherosclerotic calcification of the conduit within days"
+    ],
+    "respuesta_correcta": [
+      "Retained valve cusp causing focal intraluminal obstruction"
+    ],
+    "concept_to_study": "Bypass graft technical complications",
+    "explicacion_openai": "In in-situ vein grafts, incomplete valve lysis can leave obstructing cusps, producing focal high velocities and turbulence. Neointimal hyperplasia is a later cause; aneurysmal degeneration is uncommon early.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which duplex criterion best supports a hemodynamically significant stenosis within an infrainguinal bypass graft?",
+    "image": "",
+    "opciones": [
+      "Uniform peak systolic velocity less than 45 cm/s throughout the graft",
+      "Focal peak systolic velocity ratio ≥3 with post-stenotic turbulence",
+      "Absent diastolic flow within the entire graft",
+      "Resistive index greater than 0.9 throughout"
+    ],
+    "respuesta_correcta": [
+      "Focal peak systolic velocity ratio ≥3 with post-stenotic turbulence"
+    ],
+    "concept_to_study": "Bypass graft duplex surveillance criteria",
+    "explicacion_openai": "A focal velocity increase with a PSV ratio ≥3 compared to adjacent segments, along with turbulence and potential distal waveform changes, indicates a hemodynamically important graft stenosis.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the most common biological mechanism leading to in-stent restenosis in peripheral arterial stents?",
+    "image": "",
+    "opciones": [
+      "Atherosclerotic plaque regression",
+      "Arterial vasospasm",
+      "Neointimal hyperplasia within the stented segment",
+      "Immediate thrombolysis post-stenting"
+    ],
+    "respuesta_correcta": [
+      "Neointimal hyperplasia within the stented segment"
+    ],
+    "concept_to_study": "Stent restenosis pathophysiology",
+    "explicacion_openai": "Proliferation of smooth muscle cells and extracellular matrix (neointimal hyperplasia) within the stent scaffold is the principal mechanism of in-stent restenosis detected by duplex as focal velocity elevation and turbulence.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In a renal transplant, which duplex pattern most strongly suggests transplant renal artery stenosis (TRAS)?",
+    "image": "",
+    "opciones": [
+      "Low-velocity, high-resistance waveforms in the main renal artery with brisk intrarenal upstroke",
+      "Focal velocity acceleration at the anastomosis with parvus–tardus intrarenal waveforms",
+      "Reversal of diastolic flow in the intrarenal arteries with normal anastomotic velocities",
+      "Triphasic external iliac artery waveform with normal renal waveforms"
+    ],
+    "respuesta_correcta": [
+      "Focal velocity acceleration at the anastomosis with parvus–tardus intrarenal waveforms"
+    ],
+    "concept_to_study": "Renal transplant duplex findings",
+    "explicacion_openai": "TRAS commonly occurs at the anastomosis and produces focal high velocities along with delayed systolic upstroke and decreased intrarenal acceleration (parvus–tardus), reflecting downstream perfusion delay.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In a liver transplant recipient, which duplex finding is most concerning for hepatic artery thrombosis?",
+    "image": "",
+    "opciones": [
+      "Absent color and spectral Doppler flow in the hepatic artery with collateral development",
+      "Increased TIPS shunt velocity to 160 cm/s",
+      "Phasic hepatopetal flow in the portal vein at 25 cm/s",
+      "Triphasic hepatic venous waveforms with respiratory modulation"
+    ],
+    "respuesta_correcta": [
+      "Absent color and spectral Doppler flow in the hepatic artery with collateral development"
+    ],
+    "concept_to_study": "Post–liver transplant arterial complications",
+    "explicacion_openai": "Loss of detectable hepatic artery flow with evidence of collateralization raises concern for hepatic artery thrombosis, a serious complication that can lead to biliary ischemia.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A hemodialysis graft puncture site develops a focal, pulsatile sac adjacent to the graft with swirling, bidirectional flow on color Doppler. Which diagnosis is most likely?",
+    "image": "",
+    "opciones": [
+      "True aneurysm of the graft",
+      "Pseudoaneurysm at the puncture site",
+      "Arteriovenous fistula to an adjacent vein",
+      "Hematoma without vascular communication"
+    ],
+    "respuesta_correcta": [
+      "Pseudoaneurysm at the puncture site"
+    ],
+    "concept_to_study": "Post-intervention pseudoaneurysm recognition",
+    "explicacion_openai": "A pseudoaneurysm demonstrates a neck connecting to the graft and a yin–yang color pattern indicating bidirectional swirling. True aneurysms involve wall dilation; hematomas lack internal vascular flow; AVF shows a direct arteriovenous communication.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "An operative report states a brachiobasilic fistula with basilic vein transposition was created. Which scanning approach best aligns with this surgically altered anatomy?",
+    "image": "",
+    "opciones": [
+      "Interrogate the superficialized basilic vein along the medial upper arm into the axillary vein",
+      "Track the cephalic arch drainage into the subclavian vein",
+      "Focus solely on the radial artery and cephalic vein at the wrist",
+      "Limit assessment to the brachial artery without venous evaluation"
+    ],
+    "respuesta_correcta": [
+      "Interrogate the superficialized basilic vein along the medial upper arm into the axillary vein"
+    ],
+    "concept_to_study": "Applying operative details to scanning technique",
+    "explicacion_openai": "A transposed brachiobasilic AVF uses the basilic vein, which is superficialized in the medial upper arm and drains into the axillary system. Knowledge of this route guides venous mapping and stenosis surveillance.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During EVAR follow-up, which duplex finding is most consistent with limb occlusion of the endograft?",
+    "image": "",
+    "opciones": [
+      "Absent color flow within a graft limb with collateralized distal perfusion",
+      "Uniform triphasic waveforms in the iliac arteries",
+      "Persistent decrease in aneurysm sac diameter",
+      "Normal ankle–brachial indices with brisk femoral pulses"
+    ],
+    "respuesta_correcta": [
+      "Absent color flow within a graft limb with collateralized distal perfusion"
+    ],
+    "concept_to_study": "EVAR limb occlusion sonographic features",
+    "explicacion_openai": "Loss of intralimb flow on color Doppler with evidence of collateral distal signals indicates limb thrombosis/occlusion, prompting urgent attention. Normal triphasic signals and shrinking sac oppose occlusion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "To optimize accuracy of volume flow measurements in a dialysis access by duplex, which technique is recommended?",
+    "image": "",
+    "opciones": [
+      "Use a 90-degree Doppler angle to maximize the Doppler shift",
+      "Measure at a tortuous segment just distal to the anastomosis",
+      "Align the Doppler beam with the flow centerline, measure time-averaged mean velocity, and calculate area from an accurate diameter",
+      "Use peak systolic velocity alone to calculate volume flow"
+    ],
+    "respuesta_correcta": [
+      "Align the Doppler beam with the flow centerline, measure time-averaged mean velocity, and calculate area from an accurate diameter"
+    ],
+    "concept_to_study": "Dialysis access flow quantification technique",
+    "explicacion_openai": "Volume flow (Q) is derived from cross-sectional area and time-averaged mean velocity (TAMEAN). Accurate angle alignment, diameter measurement in a straight segment, and appropriate sample length improve reproducibility.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Evaluate surgically altered anatomy and pathology",
+    "grupo": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Within the first week after endovenous ablation of the great saphenous vein, which complication is most critical to exclude on duplex ultrasound?",
+    "image": "",
+    "opciones": [
+      "Endothermal heat-induced thrombus extending into the common femoral vein",
+      "Subcutaneous ecchymosis along the treated tract",
+      "Localized superficial phlebitis without extension",
+      "Skin hyperpigmentation at the access site"
+    ],
+    "respuesta_correcta": [
+      "Endothermal heat-induced thrombus extending into the common femoral vein"
+    ],
+    "concept_to_study": "Early post-ablation duplex priorities",
+    "explicacion_openai": "The key early concern is thrombus propagation from the treated GSV into the deep venous system at the saphenofemoral junction (EHIT), which carries a risk of DVT/PE and may require prompt management.",
+    "image_explanation": ""
   }
 ]
 
