@@ -12192,5 +12192,85 @@
         "concept_to_study": "Minimizing motion artifact",
         "explicacion_openai": "Since the phenomenon is attributed to patient movement, the most direct first step is to address the source by clearly communicating with the patient, ensuring comfort, and adjusting positioning to minimize involuntary movements. (Refer to AIUM practice guidelines).",
         "image_explanation": "The image shows motion artifact, and the question asks for the initial step to correct it, which involves addressing patient movement."
-    }
+    },
+    {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Observe the provided image. What is the name of the artifact shown, where color extends beyond the vessel walls?",
+    "image": "Bleeding.png",
+    "opciones": [
+      "Confetti",
+      "Flash",
+      "Bleeding",
+      "Mirror"
+    ],
+    "respuesta_correcta": [
+      "Bleeding"
+    ],
+    "concept_to_study": "Color Doppler bleeding/blooming artifact",
+    "explicacion_openai": "In Doppler ultrasound, \"Bleeding\" (also commonly called \"Blooming\" or \"Color Bleed\") refers to the artifact where color Doppler signals extend beyond the actual boundaries of the vessel lumen into the surrounding tissue. This usually occurs when the color gain is set too high, causing the system to process even weak signals and noise as flow.",
+    "image_explanation": "The image displays color Doppler signals spilling out of the vessel lumen into the adjacent tissues."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Considering the artifact shown in the image, which displays color extending beyond the vessel boundaries into the surrounding tissue, which console adjustment would be the most direct and effective action for the sonographer to take to resolve this specific artifact?",
+    "image": "Bleeding.png",
+    "opciones": [
+      "Increase the Pulse Repetition Frequency (PRF)",
+      "Decrease the Wall Filter",
+      "Decrease the Color Gain",
+      "Increase the Color Box Size"
+    ],
+    "respuesta_correcta": [
+      "Decrease the Color Gain"
+    ],
+    "concept_to_study": "Resolving color blooming/bleeding",
+    "explicacion_openai": "The artifact where color \"bleeds\" or \"blooms\" outside the vessel walls is primarily caused by excessive color gain. When the color gain is set too high, the system becomes overly sensitive and picks up low-amplitude signals and noise from stationary tissues, displaying them as flow. Decreasing the color gain reduces this sensitivity, thereby confining the color signal more accurately to the actual blood flow within the vessel lumen. Increasing PRF or decreasing the wall filter would address different types of artifacts (aliasing and flash from wall motion, respectively), and adjusting the color box size does not directly correct blooming.",
+    "image_explanation": "The image shows color Doppler signal extending beyond the vessel walls into the surrounding tissue, characteristic of color blooming or bleeding."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the name of this artifact?",
+    "image": "Confetti.png",
+    "opciones": [
+      "Confetti",
+      "Flash",
+      "Bleeding",
+      "Mirror"
+    ],
+    "respuesta_correcta": [
+      "Confetti"
+    ],
+    "concept_to_study": "Confetti artifact",
+    "explicacion_openai": "The \"Confetti\" artifact (also known as \"Twinkling\" artifact or \"color speckling\") is characterized by a rapid alternation of multiple colors, appearing as numerous, scattered, discrete dots within an anechoic or cystic structure (e.g., within renal calculi or gas). It is often seen with rough surfaces and is related to the chaotic phase shifts of the returning echoes. Flash, Bleeding, and Mirror are distinct color Doppler artifacts with different appearances and causes.",
+    "image_explanation": "The image shows numerous, scattered, discrete dots of color within an anechoic structure, characteristic of the confetti artifact."
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the name of this artifact?",
+    "image": "Confetti2.png",
+    "opciones": [
+      "Confetti",
+      "Flash",
+      "Bleeding",
+      "Mirror"
+    ],
+    "respuesta_correcta": [
+      "Confetti"
+    ],
+    "concept_to_study": "Confetti artifact",
+    "explicacion_openai": "The \"Confetti\" artifact (also known as \"Twinkling\" artifact or \"color speckling\") is characterized by a rapid alternation of multiple colors, appearing as numerous, scattered, discrete dots, often within an anechoic or cystic structure (e.g., associated with a rough surface like a calcification or gas). It results from chaotic phase shifts of the returning echoes. Flash, Bleeding, and Mirror are distinct color Doppler artifacts with different appearances and causes.",
+    "image_explanation": "The image shows numerous, scattered, discrete dots of color, characteristic of the confetti artifact."
+  }
 ]
+
+
+
+
