@@ -13272,1489 +13272,2075 @@
         "explicacion_openai": "Comparing brachial blood pressures bilaterally is crucial to detect significant discrepancies between the arms. A difference of 15-20 mmHg or more can indicate subclavian artery stenosis on the side with the lower pressure, which is relevant in the context of cerebrovascular evaluation due to its potential association with subclavian steal syndrome.",
         "image_explanation": ""
     },
-     {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The vascular disease that presents as back, abdominal, or flank pain is:",
-    "image": "",
-    "opciones": [
-      "Intracranial arterial disease",
-      "Abdominal aortic aneurysm",
-      "Iliofemoral occlusive disease",
-      "Superior mesenteric stenosis"
-    ],
-    "respuesta_correcta": [
-      "Abdominal aortic aneurysm"
-    ],
-    "concept_to_study": "Abdominal aortic aneurysm symptoms",
-    "explicacion_openai": "Abdominal aortic aneurysm (particularly when expanding or rupturing) can present with back, abdominal, or flank pain.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 2,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Takayasu's arteritis is most often found in:",
-    "image": "",
-    "opciones": [
-      "Young men",
-      "Middle-aged men",
-      "Young women",
-      "Elderly men"
-    ],
-    "respuesta_correcta": [
-      "Young women"
-    ],
-    "concept_to_study": "Takayasu arteritis demographics",
-    "explicacion_openai": "Takayasu's arteritis typically occurs in young women, most frequently in the second or third decade of life and more commonly in Asian populations.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 3,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "All of the following are common signs of advanced lower extremity arterial insufficiency, EXCEPT:",
-    "image": "",
-    "opciones": [
-      "Loss of hair growth over the dorsum of the toes and feet",
-      "Thickening of the toenails",
-      "Dermatitis with skin pigmentation",
-      "Dependent rubor"
-    ],
-    "respuesta_correcta": [
-      "Dermatitis with skin pigmentation"
-    ],
-    "concept_to_study": "Signs of advanced arterial insufficiency",
-    "explicacion_openai": "Hair loss, onychodystrophy, and dependent rubor are typical of chronic arterial insufficiency. Dermatitis with skin pigmentation is more characteristic of chronic venous disease.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 4,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The term cyanosis describes:",
-    "image": "",
-    "opciones": [
-      "Blue color of tissue due to ischemia",
-      "Red color of tissue due to hyperemia",
-      "Pale skin due to ischemia",
-      "Loss of hair growth due to chronic ischemia"
-    ],
-    "respuesta_correcta": [
-      "Blue color of tissue due to ischemia"
-    ],
-    "concept_to_study": "Cyanosis definition",
-    "explicacion_openai": "Cyanosis refers to bluish discoloration of skin and mucous membranes resulting from inadequate oxygenation (increased deoxyhemoglobin), which can accompany severe ischemia.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 5,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A common evaluation for advanced lower extremity ischemia involves raising the supine patient's leg and then having the patient sit and dangle the leg. A positive result is described as:",
-    "image": "",
-    "opciones": [
-      "Elevation pallor, dependent rubor",
-      "Elevation rubor, dependent pallor",
-      "Elevation rubor, dependent cyanosis",
-      "Elevation pallor, dependent cyanosis"
-    ],
-    "respuesta_correcta": [
-      "Elevation pallor, dependent rubor"
-    ],
-    "concept_to_study": "Vascular exam for lower extremity ischemia",
-    "explicacion_openai": "Elevation reduces perfusion pressure producing pallor; dependency restores perfusion with reactive hyperemia and rubor in advanced arterial disease.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 6,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Patients presenting with symptoms of claudication complain of:",
-    "image": "",
-    "opciones": [
-      "Nocturnal muscle cramps",
-      "Cramping pain in the calf, thigh, or buttocks with exercise and relieved by rest",
-      "Numbing weakness in the legs while standing",
-      "Pain in hips or knees not relieved by rest"
-    ],
-    "respuesta_correcta": [
-      "Cramping pain in the calf, thigh, or buttocks with exercise and relieved by rest"
-    ],
-    "concept_to_study": "Claudication symptoms",
-    "explicacion_openai": "Intermittent claudication is exertional muscle pain due to arterial insufficiency that reliably resolves with rest.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 7,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Patients presenting with a diagnosis of ischemic rest pain may complain of:",
-    "image": "",
-    "opciones": [
-      "Foot pain at night which occurs on an irregular basis",
-      "Tingling in the foot which is relieved by elevation",
-      "Foot pain while in a horizontal position, relieved by standing or dangling the foot in a dependent position",
-      "Pain in feet with walking which is relieved by rest"
-    ],
-    "respuesta_correcta": [
-      "Foot pain while in a horizontal position, relieved by standing or dangling the foot in a dependent position"
-    ],
-    "concept_to_study": "Ischemic rest pain symptoms",
-    "explicacion_openai": "Rest pain is classically nocturnal forefoot pain that improves with leg dependency or walking as perfusion improves.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 8,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Patients found to have ulcerating lesions or gangrene may have which of the following diseases?",
-    "image": "",
-    "opciones": [
-      "Arterial insufficiency",
-      "Neuropathy",
-      "Venous disease",
-      "All options are correct"
-    ],
-    "respuesta_correcta": [
-      "All options are correct"
-    ],
-    "concept_to_study": "Causes of ulcerating lesions/gangrene",
-    "explicacion_openai": "Without specifying location or features, arterial insufficiency, neuropathic disease, and venous disease can all be etiologies of ulceration or gangrene.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 9,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The most common presenting symptoms in acute arterial occlusion include all EXCEPT:",
-    "image": "",
-    "opciones": [
-      "Pulselessness",
-      "Pallor",
-      "Paresthesias",
-      "Pedal ulcer"
-    ],
-    "respuesta_correcta": [
-      "Pedal ulcer"
-    ],
-    "concept_to_study": "Symptoms of acute arterial occlusion",
-    "explicacion_openai": "Acute occlusion presents with the classic ischemic findings (e.g., pulselessness, pallor, paresthesias). A pedal ulcer is more typical of chronic disease and requires time to develop.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 10,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following skin changes is LEAST associated with advanced peripheral arterial occlusive disease?",
-    "image": "",
-    "opciones": [
-      "Shiny, scaly skin",
-      "Dependent rubor",
-      "Pallor on elevation",
-      "Stasis pigmentation"
-    ],
-    "respuesta_correcta": [
-      "Stasis pigmentation"
-    ],
-    "concept_to_study": "Skin changes in peripheral arterial disease",
-    "explicacion_openai": "Shiny, scaly skin, dependent rubor, and elevation pallor are typical arterial findings; stasis pigmentation is characteristic of chronic venous insufficiency.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 11,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A 54-year-old man reports calf and thigh pain, right worse than left, that begins within the first few steps of walking and resolves with sitting; it does not reliably limit walking distance beyond three blocks and can be mild on some days. The etiology of these symptoms can be:",
-    "image": "",
-    "opciones": [
-      "Abdominal aortic disease",
-      "Bilateral iliac artery disease",
-      "Bilateral superficial femoral and profunda disease",
-      "These symptoms are not typical of vascular disease"
-    ],
-    "respuesta_correcta": [
-      "These symptoms are not typical of vascular disease"
-    ],
-    "concept_to_study": "Atypical claudication symptoms",
-    "explicacion_openai": "True vascular claudication is predictable, occurs after a consistent walking distance, and reliably limits further ambulation; these features are not present here, suggesting a nonvascular cause.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 12,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A diabetic patient with redness of the skin in the foot and toe probably has:",
-    "image": "",
-    "opciones": [
-      "An infection",
-      "Emboli",
-      "Increased sympathetic tone",
-      "Popliteal aneurysm"
-    ],
-    "respuesta_correcta": [
-      "An infection"
-    ],
-    "concept_to_study": "Diabetic foot redness",
-    "explicacion_openai": "Localized erythema in a diabetic foot commonly reflects infection (e.g., cellulitis), which may occur with or without peripheral arterial disease.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Surgically Altered Anatomy and Pathology",
-    "grupo": 13,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A pulsatile mass in the groin after catheterization of a cardiac patient most likely will be:",
-    "image": "",
-    "opciones": [
-      "A femoral artery aneurysm",
-      "A hematoma",
-      "A pseudoaneurysm of the femoral artery",
-      "An arteriovenous fistula"
-    ],
-    "respuesta_correcta": [
-      "A pseudoaneurysm of the femoral artery"
-    ],
-    "concept_to_study": "Post-catheterization groin mass",
-    "explicacion_openai": "Femoral artery pseudoaneurysm is a common post-catheterization complication and is usually pulsatile; hematomas are common but typically nonpulsatile. An arteriovenous fistula is another possible iatrogenic lesion.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 14,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Early atherosclerosis of the lower extremities will be associated with:",
-    "image": "",
-    "opciones": [
-      "Rest pain",
-      "Blue toe",
-      "Claudication",
-      "Swelling"
-    ],
-    "respuesta_correcta": [
-      "Claudication"
-    ],
-    "concept_to_study": "Early atherosclerosis symptoms",
-    "explicacion_openai": "Intermittent claudication is the typical early symptom of lower-extremity atherosclerotic disease; the other findings are more consistent with advanced or alternative pathology.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 15,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following is least likely to be associated with arterial embolization?",
-    "image": "",
-    "opciones": [
-      "Blue toe",
-      "TIA",
-      "Popliteal aneurysm",
-      "Progressive claudication"
-    ],
-    "respuesta_correcta": [
-      "Progressive claudication"
-    ],
-    "concept_to_study": "Arterial embolization symptoms",
-    "explicacion_openai": "Blue toe and amaurosis fugax/TIA are classic embolic phenomena. Popliteal aneurysms are a well-known source of distal emboli. Progressive claudication reflects gradually worsening atherosclerotic obstruction, not embolization.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 16,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Rest pain is characterized by:",
-    "image": "",
-    "opciones": [
-      "Upper calf pain",
-      "Pain at night in the forefoot or foot that may go away with leg dependency",
-      "Pain while walking that goes away with rest",
-      "Any calf pain that goes away with leg dependency"
-    ],
-    "respuesta_correcta": [
-      "Pain at night in the forefoot or foot that may go away with leg dependency"
-    ],
-    "concept_to_study": "Rest pain characteristics",
-    "explicacion_openai": "Ischemic rest pain classically involves nocturnal forefoot pain relieved by dependency (or exercise), reflecting critically reduced perfusion.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 17,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The symptom or sign most likely NOT associated with acute arterial occlusion is:",
-    "image": "",
-    "opciones": [
-      "Blue toe",
-      "Pale or white extremity",
-      "Claudication",
-      "Paresthesia"
-    ],
-    "respuesta_correcta": [
-      "Claudication"
-    ],
-    "concept_to_study": "Acute arterial occlusion symptoms",
-    "explicacion_openai": "Claudication is a chronic exertional symptom. Acute ischemia presents with sudden onset of classic findings such as pallor, coolness, sensory deficits, and potentially blue toe from emboli.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 18,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Ischemic ulcers (lesions) are:",
-    "image": "",
-    "opciones": [
-      "Completely painless but bleed with manipulation and are located over pressure points or calluses.",
-      "Very painful and commonly located distally over the dorsum of the foot.",
-      "Only mildly painful and relieved by elevation.",
-      "Very painful and are usually located around the malleolus."
-    ],
-    "respuesta_correcta": [
-      "Very painful and commonly located distally over the dorsum of the foot."
-    ],
-    "concept_to_study": "Ischemic ulcer characteristics",
-    "explicacion_openai": "Arterial (ischemic) ulcers are typically very painful, distal (toes or dorsum of foot), and occur over pressure points or areas of trauma due to insufficient perfusion. Venous ulcers typically occur near the malleolus.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 19,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Common sites for auscultation of bruits in the lower extremity circulation include all EXCEPT:",
-    "image": "",
-    "opciones": [
-      "Abdomen",
-      "Groin",
-      "Popliteal space",
-      "Dorsum of foot"
-    ],
-    "respuesta_correcta": [
-      "Dorsum of foot"
-    ],
-    "concept_to_study": "Bruit auscultation sites in lower extremities",
-    "explicacion_openai": "Abdomen (aorta), groin (common femoral), and popliteal space are typical sites for auscultation; the dorsum of the foot is not routinely auscultated for bruits.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 20,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A vibration noted while palpating pulses is called:",
-    "image": "",
-    "opciones": [
-      "A buzz",
-      "A bruit",
-      "A pulse",
-      "A thrill"
-    ],
-    "respuesta_correcta": [
-      "A thrill"
-    ],
-    "concept_to_study": "Palpable pulse vibration",
-    "explicacion_openai": "A thrill is the palpable counterpart of a bruit, both caused by tissue/vessel wall vibrations due to turbulent flow.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 21,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Rubor is defined as:",
-    "image": "",
-    "opciones": [
-      "Abnormal stiffness of digits",
-      "Small, purple areas of discoloration on the dorsum of the foot",
-      "Thickened, wrinkled skin",
-      "Red skin color"
-    ],
-    "respuesta_correcta": [
-      "Red skin color"
-    ],
-    "concept_to_study": "Rubor definition",
-    "explicacion_openai": "Rubor refers to red discoloration, as seen with reactive hyperemia after ischemia or with reperfusion in Raynaud’s phenomenon.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 22,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Ulcers due to arterial insufficiency are found most often:",
-    "image": "",
-    "opciones": [
-      "Behind the knee",
-      "In the gaiter area, near the medial malleolus",
-      "On toes and distal foot",
-      "Over the lesion, usually along Hunter's canal"
-    ],
-    "respuesta_correcta": [
-      "On toes and distal foot"
-    ],
-    "concept_to_study": "Location of arterial insufficiency ulcers",
-    "explicacion_openai": "Arterial ulcers favor distal sites (toes, dorsum of foot, heels), particularly over pressure points, due to poor distal perfusion.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 23,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Delayed return of the capillary blush after pressure on the pulp of the digit is a sign of:",
-    "image": "",
-    "opciones": [
-      "Thoracic outlet syndrome",
-      "Venous occlusive disease",
-      "Advanced ischemia",
-      "Hyperlipidemia"
-    ],
-    "respuesta_correcta": [
-      "Advanced ischemia"
-    ],
-    "concept_to_study": "Capillary refill time and ischemia",
-    "explicacion_openai": "Normal capillary refill occurs within about 1–2 seconds; prolonged refill suggests significant arterial insufficiency.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 24,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Signs of advanced ischemia in the lower extremity include all of the following EXCEPT:",
-    "image": "",
-    "opciones": [
-      "Slow venous filling after dropping the elevated extremity into a dependent position",
-      "Pallor on elevation",
-      "Rubor on dependency",
-      "Pitting edema"
-    ],
-    "respuesta_correcta": [
-      "Pitting edema"
-    ],
-    "concept_to_study": "Signs of advanced lower extremity ischemia",
-    "explicacion_openai": "Pitting edema is more consistent with systemic causes (e.g., heart failure), venous disease, or lymphatic dysfunction than with isolated arterial ischemia.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 25,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Pulse sites commonly palpated in the lower extremities include all EXCEPT:",
-    "image": "",
-    "opciones": [
-      "Common femoral",
-      "Popliteal",
-      "Posterior tibial",
-      "Peroneal"
-    ],
-    "respuesta_correcta": [
-      "Peroneal"
-    ],
-    "concept_to_study": "Lower extremity pulse palpation sites",
-    "explicacion_openai": "Common femoral, popliteal, and posterior tibial (and dorsalis pedis/anterior tibial) are routinely palpated. The peroneal artery is not commonly assessed by palpation.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 26,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The absence of a bruit at the common femoral level:",
-    "image": "",
-    "opciones": [
-      "Rules out significant stenosis at that level",
-      "Cannot rule out significant stenosis at that level",
-      "Suggests stenosis distal to that level",
-      "Suggests total occlusion at that level"
-    ],
-    "respuesta_correcta": [
-      "Cannot rule out significant stenosis at that level"
-    ],
-    "concept_to_study": "Significance of absent bruit",
-    "explicacion_openai": "Clinical auscultation is useful, but the absence of a bruit does not exclude significant stenosis; conversely, a bruit supports the presence of turbulent flow due to disease.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 27,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Auscultation of the abdomen, aortoiliac, and common femoral areas is important because:",
-    "image": "",
-    "opciones": [
-      "Absence of a bruit suggests absence of arterial disease.",
-      "Presence of a bruit may be the first indication of arterial disease.",
-      "Abdominal bruits are significant because they are usually radiating from the aortic arch.",
-      "Only significant stenosis can cause bruits."
-    ],
-    "respuesta_correcta": [
-      "Presence of a bruit may be the first indication of arterial disease."
-    ],
-    "concept_to_study": "Importance of auscultation for bruits",
-    "explicacion_openai": "Detecting a bruit can be an early clinical clue to arterial disease; lack of a bruit does not exclude pathology, and bruits may occur with less-than-critical lesions.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 28,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The symptoms of anterior tibial compartment syndrome are:",
-    "image": "",
-    "opciones": [
-      "Swelling and/or palpable tenderness over a muscle compartment",
-      "Pain on passive stretch of the muscles in the compartment",
-      "Weakness of the muscles in the compartment",
-      "All options are correct"
-    ],
-    "respuesta_correcta": [
-      "All options are correct"
-    ],
-    "concept_to_study": "Anterior tibial compartment syndrome symptoms",
-    "explicacion_openai": "Compartment syndrome typically presents with compartment tenderness/swelling, pain on passive stretch, and progressive weakness due to increased intracompartmental pressure compromising perfusion and nerve function.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 29,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Unilateral claudication in the calf and foot of a young individual suggests:",
-    "image": "",
-    "opciones": [
-      "Popliteal artery entrapment",
-      "Anterior tibial compartment syndrome",
-      "\"Restless\" leg syndrome",
-      "Lumbar spinal stenosis (neurogenic claudication)"
-    ],
-    "respuesta_correcta": [
-      "Popliteal artery entrapment"
-    ],
-    "concept_to_study": "Causes of unilateral claudication in young individuals",
-    "explicacion_openai": "Popliteal artery entrapment is a recognized cause of exertional calf/foot ischemia in young patients. The other choices represent non-arterial or non-occlusive etiologies of leg symptoms.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 30,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient complains of digital pallor or cyanosis induced by cold exposure or emotional stimuli. These symptoms are characteristic of:",
-    "image": "",
-    "opciones": [
-      "Arterial embolism to the digits",
-      "Raynaud's phenomenon",
-      "Thoracic outlet syndrome",
-      "Carpal tunnel syndrome"
-    ],
-    "respuesta_correcta": [
-      "Raynaud's phenomenon"
-    ],
-    "concept_to_study": "Raynaud's phenomenon symptoms",
-    "explicacion_openai": "Raynaud's phenomenon causes cold- or stress-induced digital vasospasm leading to pallor or cyanosis, often followed by rubor on reperfusion.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 31,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The pulsatility index is defined as:",
-    "image": "",
-    "opciones": [
-      "Peak systolic velocity divided by end diastolic velocity.",
-      "Peak systolic velocity minus end diastolic velocity divided by systolic velocity.",
-      "Peak systolic velocity minus end-diastolic velocity divided by mean velocity.",
-      "Peak systolic velocity at the internal carotid artery divided by peak systolic velocity at the common carotid artery."
-    ],
-    "respuesta_correcta": [
-      "Peak systolic velocity minus end-diastolic velocity divided by mean velocity."
-    ],
-    "concept_to_study": "Pulsatility index definition",
-    "explicacion_openai": "Gosling’s pulsatility index (PI) = (PSV − EDV) / mean velocity. It increases with higher distal resistance and is independent of the Doppler angle.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 32,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which one of the following is always TRUE of patients who suffer from intermittent claudication?",
-    "image": "",
-    "opciones": [
-      "Peripheral blood flow is reduced at rest.",
-      "There is pressure drop distal to the obstructed segment after exercise.",
-      "No increase in blood flow occurs through the affected segment during exercise.",
-      "Marked peripheral vasoconstriction occurs in response to exercise."
-    ],
-    "respuesta_correcta": [
-      "There is pressure drop distal to the obstructed segment after exercise."
-    ],
-    "concept_to_study": "Intermittent claudication physiology",
-    "explicacion_openai": "Exercise unmasks hemodynamic compromise with a reproducible post-exercise pressure drop distal to a significant obstruction, correlating with exertional symptoms.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 33,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which one of the following conditions will cause an increase in the pulse amplitude of the arterial pressure wave?",
-    "image": "",
-    "opciones": [
-      "An increase in peripheral resistance",
-      "A decrease in left ventricular function",
-      "Vasodilation secondary to heating",
-      "Young age"
-    ],
-    "respuesta_correcta": [
-      "Vasodilation secondary to heating"
-    ],
-    "concept_to_study": "Factors affecting arterial pulse amplitude",
-    "explicacion_openai": "Vasodilation (e.g., with heating) reduces peripheral resistance and enhances peripheral arterial pulse amplitude in physiologic testing (e.g., PVR/PPG waveforms). Increased resistance or reduced ventricular function diminishes pulse amplitude.",
-    "image_explanation": ""
-  },
-    
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A 68-year-old male presents with a focal palpable thrill in the right groin. Auscultation reveals a high-pitched sound over the area. Which of the following conditions is the most likely cause of this finding?",
-    "image": "",
-    "opciones": [
-      "Complete occlusion of the right common femoral artery",
-      "Deep venous thrombosis in the right common femoral vein",
-      "Significant stenosis of the right external iliac artery",
-      "Acute right popliteal artery embolism"
-    ],
-    "respuesta_correcta": [
-      "Significant stenosis of the right external iliac artery"
-    ],
-    "concept_to_study": "Bruit and arterial stenosis",
-    "explicacion_openai": "A bruit is a sound heard with a stethoscope due to turbulent blood flow, typically caused by arterial stenosis. A palpable thrill at the groin with a high-pitched bruit suggests hemodynamically significant inflow stenosis (e.g., external iliac). Complete occlusion would eliminate flow (no bruit). DVT is a venous process and does not produce an arterial bruit. An acute distal embolism would not typically cause a localized groin bruit and thrill.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 2,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "During a carotid duplex ultrasound exam, a technologist detects a localized, high-frequency sound while scanning the left internal carotid artery. What is the most probable underlying hemodynamic phenomenon responsible for this audible finding?",
-    "image": "",
-    "opciones": [
-      "Laminar flow distal to a normal carotid bulb",
-      "Turbulent flow due to an atherosclerotic plaque causing stenosis",
-      "Stagnant blood flow within a carotid pseudoaneurysm",
-      "Reversal of flow in the external carotid artery"
-    ],
-    "respuesta_correcta": [
-      "Turbulent flow due to an atherosclerotic plaque causing stenosis"
-    ],
-    "concept_to_study": "Bruit and turbulent flow",
-    "explicacion_openai": "An audible bruit corresponds to turbulent flow, most commonly from atherosclerotic stenosis. Laminar flow is silent. Stagnant flow does not produce a bruit. Flow reversal in the ECA is not the typical cause of a focal bruit in the ICA territory.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 3,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient undergoes a peripheral arterial exam due to claudication. A localized bruit is heard over the left common femoral artery. What does the presence of a bruit strongly suggest regarding the vascular status at that location?",
-    "image": "",
-    "opciones": [
-      "Total occlusion of the artery",
-      "Presence of an arteriovenous fistula",
-      "Significant arterial stenosis",
-      "Deep venous insufficiency"
-    ],
-    "respuesta_correcta": [
-      "Significant arterial stenosis"
-    ],
-    "concept_to_study": "Bruit and arterial stenosis",
-    "explicacion_openai": "A bruit indicates turbulent flow and in the context of claudication strongly suggests significant arterial stenosis. Total occlusion would typically eliminate flow and bruit. An AV fistula can cause a bruit, but in this setting stenosis is more likely. Venous insufficiency does not produce arterial bruits.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 4,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A physician is evaluating a patient for renovascular hypertension. Auscultation of the abdomen reveals a systolic-diastolic bruit in the periumbilical region. What is the most likely vascular pathology being investigated?",
-    "image": "",
-    "opciones": [
-      "Aortic aneurysm with mural thrombus",
-      "Inferior vena cava stenosis",
-      "Renal artery stenosis",
-      "Superior mesenteric artery occlusion"
-    ],
-    "respuesta_correcta": [
-      "Renal artery stenosis"
-    ],
-    "concept_to_study": "Bruit and renal artery stenosis",
-    "explicacion_openai": "A periumbilical or flank bruit in the setting of suspected renovascular hypertension is most consistent with renal artery stenosis. Other listed conditions are not the typical cause of this clinical constellation.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Surgically Altered Anatomy and Pathology",
-    "grupo": 5,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "During a post-operative follow-up for carotid endarterectomy, a patient reports a new \"whooshing\" sound in their neck. Upon auscultation, a mild bruit is detected at the surgical site. What is the most common vascular complication that could cause this new finding?",
-    "image": "",
-    "opciones": [
-      "Carotid artery dissection",
-      "Residual stenosis at the endarterectomy site",
-      "Carotid artery occlusion",
-      "Jugular vein thrombosis"
-    ],
-    "respuesta_correcta": [
-      "Residual stenosis at the endarterectomy site"
-    ],
-    "concept_to_study": "Post-carotid endarterectomy complications",
-    "explicacion_openai": "A new bruit after endarterectomy commonly reflects residual or recurrent stenosis at the operative site, producing turbulent flow. Occlusion would typically eliminate a bruit. Dissection is possible but less likely when the sole new finding is a localized bruit. Jugular vein thrombosis does not cause an arterial bruit.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 6,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient presents to the emergency department with acute onset of severe pain, pallor, and paresthesia in the right upper extremity. On physical examination, the radial and ulnar pulses are absent. Which acute vascular condition is the most critical to rule out?",
-    "image": "",
-    "opciones": [
-      "Right subclavian artery occlusion",
-      "Deep venous thrombosis of the right axillary vein",
-      "Thoracic outlet syndrome",
-      "Brachial plexus injury"
-    ],
-    "respuesta_correcta": [
-      "Right subclavian artery occlusion"
-    ],
-    "concept_to_study": "Acute arterial occlusion signs",
-    "explicacion_openai": "The sudden onset of the 5 Ps (pain, pallor, pulselessness, paresthesia, paralysis) indicates acute arterial occlusion. Absent distal pulses point to a proximal arterial blockage such as subclavian occlusion. The other choices would not produce this acute arterial pulse absence.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 7,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "During a routine arterial pressure measurement on a lower extremity, the Doppler signal is completely absent distal to the ankle. Palpation also confirms an absent dorsalis pedis and posterior tibial pulse. What does this finding most immediately indicate?",
-    "image": "",
-    "opciones": [
-      "Venous insufficiency",
-      "Severe arterial occlusion",
-      "Peripheral neuropathy",
-      "Mild claudication"
-    ],
-    "respuesta_correcta": [
-      "Severe arterial occlusion"
-    ],
-    "concept_to_study": "Absent arterial pulse and Doppler signal",
-    "explicacion_openai": "An absent Doppler arterial signal and absent pedal pulses indicate severe arterial occlusion distal to the measurement site. The other conditions do not abolish arterial signals in this manner.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 8,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A 72-year-old male with a history of atrial fibrillation presents with sudden onset of coldness, numbness, and inability to move his left foot. On examination, no pulses are palpable in the left foot and ankle. What is the most likely cause of this presentation?",
-    "image": "",
-    "opciones": [
-      "Left profunda femoris artery aneurysm",
-      "Left iliac artery stenosis",
-      "Acute arterial embolism to the left lower extremity",
-      "Left femoral vein thrombosis"
-    ],
-    "respuesta_correcta": [
-      "Acute arterial embolism to the left lower extremity"
-    ],
-    "concept_to_study": "Acute arterial embolism",
-    "explicacion_openai": "Atrial fibrillation predisposes to cardiac thromboembolism. Sudden ischemic symptoms with absent distal pulses are classic for an acute arterial embolus to the limb. Chronic stenosis or venous disease would not present this abruptly with absent arterial pulses.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 9,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient involved in a motor vehicle accident sustains significant trauma to the right leg. Physical exam reveals an open fracture and an absent popliteal pulse. What is the most urgent concern for the vascular technologist to assess?",
-    "image": "",
-    "opciones": [
-      "Deep venous reflux",
-      "Popliteal artery transection or occlusion",
-      "Muscle compartment pressures",
-      "Sural nerve damage"
-    ],
-    "respuesta_correcta": [
-      "Popliteal artery transection or occlusion"
-    ],
-    "concept_to_study": "Trauma and arterial injury",
-    "explicacion_openai": "An absent popliteal pulse in the setting of limb trauma and open fracture is highly suspicious for arterial transection or acute occlusion, which is limb-threatening and requires immediate evaluation. Other issues may be present but are less urgent than restoring arterial inflow.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 10,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In a patient with known peripheral arterial disease, a previously palpable pedal pulse becomes acutely absent. Which of the following conditions represents the most immediate and severe threat to limb viability?",
-    "image": "",
-    "opciones": [
-      "Worsening intermittent claudication",
-      "Acute-on-chronic arterial occlusion",
-      "Development of a venous ulcer",
-      "Progression of lymphedema"
-    ],
-    "respuesta_correcta": [
-      "Acute-on-chronic arterial occlusion"
-    ],
-    "concept_to_study": "Acute limb ischemia in PAD",
-    "explicacion_openai": "Acute loss of a previously palpable pulse indicates acute-on-chronic arterial occlusion and critical limb ischemia risk. The other conditions do not produce abrupt disappearance of arterial pulses.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 11,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient with long-standing diabetes and peripheral arterial disease exhibits dependent rubor of the foot (redness when the foot is lowered, blanching on elevation). This finding is indicative of what severity of arterial insufficiency?",
-    "image": "",
-    "opciones": [
-      "Mild claudication",
-      "Moderate ischemia",
-      "Severe multi-segment arterial occlusion",
-      "Venous stasis dermatitis"
-    ],
-    "respuesta_correcta": [
-      "Severe multi-segment arterial occlusion"
-    ],
-    "concept_to_study": "Dependent rubor and severe arterial insufficiency",
-    "explicacion_openai": "Dependent rubor with elevation pallor reflects critical reduction in arterial inflow, typically from multilevel occlusive disease. It is not a feature of mild disease or venous stasis dermatitis.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 12,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A vascular technologist is performing an ankle-brachial index (ABI) on a patient whose foot appears dusky red, particularly when hanging down. This color change, known as rubor, suggests what underlying hemodynamic state?",
-    "image": "",
-    "opciones": [
-      "Adequate collateral circulation",
-      "Impaired venous return",
-      "Vasodilation in response to severe tissue hypoxia",
-      "Increased arterial vasospasm"
-    ],
-    "respuesta_correcta": [
-      "Vasodilation in response to severe tissue hypoxia"
-    ],
-    "concept_to_study": "Dependent rubor pathophysiology",
-    "explicacion_openai": "Dependent rubor results from maximal arteriolar dilation due to chronic tissue hypoxia in severe ischemia. When the limb is dependent, increased hydrostatic pressure allows more blood into the dilated microcirculation, producing the reddish discoloration.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 13,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient with critical limb ischemia due to aortoiliac and superficial femoral artery (SFA) occlusion is likely to present with which of the following signs in the affected foot?",
-    "image": "",
-    "opciones": [
-      "Unilateral pitting edema",
-      "Distended superficial veins",
-      "Dependent rubor",
-      "Normal capillary refill time"
-    ],
-    "respuesta_correcta": [
-      "Dependent rubor"
-    ],
-    "concept_to_study": "Signs of critical limb ischemia",
-    "explicacion_openai": "Severe arterial insufficiency is associated with dependent rubor from maximal vasodilation and poor perfusion. Edema and distended veins suggest venous pathology, and capillary refill time is typically prolonged in severe ischemia.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 14,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following statements best describes the pathophysiology leading to dependent rubor in a patient with severe peripheral arterial disease?",
-    "image": "",
-    "opciones": [
-      "Venous hypertension causing extravasation of red blood cells",
-      "Arterial vasospasm leading to capillary engorgement",
-      "Maximal arteriolar dilation in response to chronic ischemia and tissue hypoxia",
-      "Lymphatic fluid accumulation causing skin discoloration"
-    ],
-    "respuesta_correcta": [
-      "Maximal arteriolar dilation in response to chronic ischemia and tissue hypoxia"
-    ],
-    "concept_to_study": "Pathophysiology of dependent rubor",
-    "explicacion_openai": "Chronic ischemia triggers maximal arteriolar dilation; when the limb is dependent, gravity augments inflow into the dilated microcirculation, producing rubor. The other mechanisms are not responsible for this arterial finding.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 15,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient presents with a non-healing ulcer on their lateral malleolus and observes their foot turning deep red when they sit up. This combination of symptoms points towards a diagnosis of:",
-    "image": "",
-    "opciones": [
-      "Chronic venous insufficiency with stasis ulcer",
-      "Cellulitis secondary to a bacterial infection",
-      "Critical limb ischemia due to severe peripheral arterial disease",
-      "Diabetic neuropathy with Charcot foot"
-    ],
-    "respuesta_correcta": [
-      "Critical limb ischemia due to severe peripheral arterial disease"
-    ],
-    "concept_to_study": "Critical limb ischemia signs",
-    "explicacion_openai": "Dependent rubor with a non-healing ulcer is characteristic of severe arterial insufficiency. Venous stasis ulcers usually occur near the medial malleolus with stasis changes. Cellulitis presents with warmth and tenderness. Charcot neuroarthropathy leads to deformity and plantar ulcers rather than dependent rubor.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 16,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A 55-year-old male suddenly develops difficulty speaking (aphasia) and weakness of his right arm and leg. These neurological deficits most strongly suggest a lesion in which vascular territory?",
-    "image": "",
-    "opciones": [
-      "Left carotid artery",
-      "Basilar artery",
-      "Right middle cerebral artery",
-      "Posterior cerebral artery"
-    ],
-    "respuesta_correcta": [
-      "Left carotid artery"
-    ],
-    "concept_to_study": "Cerebral vascular territories and stroke symptoms",
-    "explicacion_openai": "Aphasia and right hemiparesis localize to the left cerebral hemisphere, typically in the left carotid/MCA territory. Basilar and posterior cerebral artery events produce posterior circulation syndromes. Right MCA involvement would produce left-sided deficits.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 17,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient is brought to the ER with acute onset of right-sided hemiparesis. Ultrasound assessment of the carotid arteries is ordered. Given the symptoms, what is the technologist primarily looking for in the carotid system?",
-    "image": "",
-    "opciones": [
-      "Stenosis or occlusion of the left internal carotid artery",
-      "Dissection of the right common carotid artery",
-      "Plaque in the right external carotid artery",
-      "Kinking of the left vertebral artery"
-    ],
-    "respuesta_correcta": [
-      "Stenosis or occlusion of the left internal carotid artery"
-    ],
-    "concept_to_study": "Carotid ultrasound for stroke evaluation",
-    "explicacion_openai": "Contralateral hemiparesis points to left hemisphere ischemia; thus, significant disease of the left internal carotid artery is the prime target for evaluation. ECA disease and vertebral kinking do not explain this hemispheric presentation.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 18,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In the context of a transient ischemic attack (TIA) causing transient right-sided weakness, what is the most common embolic source that would be investigated by a vascular technologist?",
-    "image": "",
-    "opciones": [
-      "Right carotid artery plaque",
-      "Left carotid artery plaque",
-      "Vertebral artery dissection",
-      "Deep venous thrombosis"
-    ],
-    "respuesta_correcta": [
-      "Left carotid artery plaque"
-    ],
-    "concept_to_study": "Embolic sources for TIA/stroke",
-    "explicacion_openai": "Right-sided deficits implicate the left hemisphere; the most common extracranial embolic source is atherosclerotic plaque in the left carotid (typically ICA bifurcation/origin). Vertebral dissection affects posterior circulation. DVT causes pulmonary embolism rather than arterial cerebral embolism.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 19,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient recovering from a stroke involving the left middle cerebral artery territory presents with persistent right-sided weakness. What specific area of the brain, supplied by this artery, is primarily responsible for motor control of the right side of the body?",
-    "image": "",
-    "opciones": [
-      "Left motor cortex",
-      "Cerebellum",
-      "Brainstem",
-      "Right motor cortex"
-    ],
-    "respuesta_correcta": [
-      "Left motor cortex"
-    ],
-    "concept_to_study": "Cerebral anatomy and motor control",
-    "explicacion_openai": "The primary motor cortex in the left frontal lobe controls contralateral (right-sided) voluntary movement due to corticospinal tract decussation. Cerebellum and brainstem have different roles; the right motor cortex governs the left side.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 20,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following arterial occlusions is most likely to result in a sudden onset of right-sided weakness and expressive aphasia?",
-    "image": "",
-    "opciones": [
-      "Right subclavian artery occlusion",
-      "Basilar artery occlusion",
-      "Left internal carotid artery occlusion",
-      "Right posterior cerebral artery occlusion"
-    ],
-    "respuesta_correcta": [
-      "Left internal carotid artery occlusion"
-    ],
-    "concept_to_study": "Cerebral arterial territories and stroke symptoms",
-    "explicacion_openai": "Expressive aphasia and right hemiparesis localize to the left anterior circulation, particularly the left ICA/MCA territory. Posterior circulation (basilar, PCA) typically causes visual or brainstem findings; subclavian occlusion does not cause hemispheric deficits.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 21,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A 45-year-old female presents with acute onset of unilateral leg swelling, pain, and tenderness in her right calf. On physical examination, the affected leg is noticeably larger than the left. Which vascular condition is the most probable cause of this presentation?",
-    "image": "",
-    "opciones": [
-      "Right superficial femoral artery occlusion",
-      "Right deep venous thrombosis (DVT)",
-      "Right popliteal artery aneurysm",
-      "Chronic venous insufficiency"
-    ],
-    "respuesta_correcta": [
-      "Right deep venous thrombosis (DVT)"
-    ],
-    "concept_to_study": "Deep venous thrombosis (DVT) symptoms",
-    "explicacion_openai": "Acute unilateral swelling, pain, and calf tenderness are classic for DVT due to impaired venous outflow. Arterial lesions cause ischemic signs. Chronic venous insufficiency is typically more gradual and associated with skin changes.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 22,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "During a lower extremity venous duplex scan for unilateral leg swelling, the technologist observes non-compressible veins with echogenic material partially or completely filling the lumen. This finding confirms the presence of:",
-    "image": "",
-    "opciones": [
-      "Superficial thrombophlebitis",
-      "Deep venous thrombosis",
-      "Venous reflux",
-      "Lymphedema"
-    ],
-    "respuesta_correcta": [
-      "Deep venous thrombosis"
-    ],
-    "concept_to_study": "Ultrasound diagnosis of DVT",
-    "explicacion_openai": "Non-compressibility of the vein with intraluminal echogenic material is diagnostic of DVT on ultrasound. Superficial thrombophlebitis affects superficial veins; reflux is abnormal flow without thrombus; lymphedema involves soft tissues rather than venous occlusion.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 23,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient with long-standing venous insufficiency develops chronic edema, skin discoloration (brawny edema), and a non-healing ulcer near the medial malleolus. These signs are characteristic of:",
-    "image": "",
-    "opciones": [
-      "Acute deep venous thrombosis",
-      "Critical limb ischemia",
-      "Post-thrombotic syndrome",
-      "Cellulitis"
-    ],
-    "respuesta_correcta": [
-      "Post-thrombotic syndrome"
-    ],
-    "concept_to_study": "Post-thrombotic syndrome",
-    "explicacion_openai": "Post-thrombotic syndrome is a chronic consequence of prior DVT with venous hypertension, leading to edema, hyperpigmentation, and medial malleolar ulceration. The other options do not match this chronic pattern.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 24,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following is the primary physiological mechanism by which a deep venous thrombosis (DVT) leads to the development of edema in the affected extremity?",
-    "image": "",
-    "opciones": [
-      "Increased arterial inflow",
-      "Obstruction of lymphatic drainage",
-      "Impaired venous outflow and increased hydrostatic pressure",
-      "Arterial vasospasm"
-    ],
-    "respuesta_correcta": [
-      "Impaired venous outflow and increased hydrostatic pressure"
-    ],
-    "concept_to_study": "Pathophysiology of DVT-induced edema",
-    "explicacion_openai": "Venous outflow obstruction elevates capillary hydrostatic pressure, promoting fluid transudation into interstitial tissues and causing edema. The other mechanisms are not the primary cause in DVT-related swelling.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 25,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A patient presents with bilateral lower extremity edema, shortness of breath, and jugular venous distention. What systemic condition is the most likely cause of this bilateral edema?",
-    "image": "",
-    "opciones": [
-      "Chronic venous insufficiency",
-      "Congestive heart failure",
-      "Hypothyroidism",
-      "Cirrhosis"
-    ],
-    "respuesta_correcta": [
-      "Congestive heart failure"
-    ],
-    "concept_to_study": "Systemic causes of bilateral edema",
-    "explicacion_openai": "Bilateral edema with dyspnea and jugular venous distention indicates systemic volume overload, most consistent with congestive heart failure. Chronic venous insufficiency is typically more localized and lacks cardiopulmonary signs; endocrine or hepatic causes are possible but less aligned with the overall presentation.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "According to vascular access guidelines, which arteriovenous access is preferred as a first-line option for hemodialysis due to superior patency and lower complication rates?",
-    "image": "",
-    "opciones": [
-      "Radiocephalic arteriovenous fistula at the wrist",
-      "Brachiobasilic arteriovenous fistula with transposition",
-      "Brachial-axillary prosthetic graft",
-      "Tunneled cuffed central venous catheter"
-    ],
-    "respuesta_correcta": [
-      "Radiocephalic arteriovenous fistula at the wrist"
-    ],
-    "concept_to_study": "Dialysis access selection hierarchy",
-    "explicacion_openai": "A native radiocephalic arteriovenous fistula (RC-AVF) at the wrist is generally the preferred initial access owing to better long-term patency and fewer infections compared with upper-arm fistulas, prosthetic grafts, or tunneled catheters.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 2,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "For a newly created native arteriovenous fistula, which of the following is a recognized maturation criterion consistent with the \"Rule of 6s\"?",
-    "image": "",
-    "opciones": [
-      "Access flow greater than 600 mL/min",
-      "Vein diameter of 3 mm or less",
-      "Access depth greater than 10 mm from the skin",
-      "Peak systolic velocity less than 50 cm/s throughout"
-    ],
-    "respuesta_correcta": [
-      "Access flow greater than 600 mL/min"
-    ],
-    "concept_to_study": "Dialysis access maturation criteria",
-    "explicacion_openai": "The “Rule of 6s” suggests a mature AVF should have flow >600 mL/min, vein diameter ≥6 mm, and depth ≤6 mm to facilitate reliable cannulation and adequate dialysis.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 3,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "On duplex interrogation of a dialysis fistula, which finding is most consistent with a hemodynamically significant focal stenosis?",
-    "image": "",
-    "opciones": [
-      "Low-resistance waveform in the feeding artery",
-      "Uniform velocities along the outflow vein",
-      "Focal peak systolic velocity ratio ≥2 compared with the adjacent inflow",
-      "Monophasic inflow artery waveform at rest"
-    ],
-    "respuesta_correcta": [
-      "Focal peak systolic velocity ratio ≥2 compared with the adjacent inflow"
-    ],
-    "concept_to_study": "Dialysis access duplex stenosis criteria",
-    "explicacion_openai": "A focal PSV acceleration with a velocity ratio ≥2 relative to the proximal segment suggests a ≥50% diameter-reducing stenosis in fistulas or grafts, especially when accompanied by post-stenotic turbulence and flow reduction distal to the lesion.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 4,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Where is the most common location for stenosis causing early failure in a radiocephalic or brachiocephalic arteriovenous fistula?",
-    "image": "",
-    "opciones": [
-      "Proximal feeding artery",
-      "Juxta-anastomotic venous segment",
-      "Mid radial artery",
-      "Distal cephalic arch only"
-    ],
-    "respuesta_correcta": [
-      "Juxta-anastomotic venous segment"
-    ],
-    "concept_to_study": "Common sites of AVF stenosis",
-    "explicacion_openai": "Intimal hyperplasia frequently develops in the venous outflow near the anastomosis (juxta-anastomotic segment), making it the most common site of clinically significant stenosis in new fistulas. Cephalic arch stenosis is also common but typically in upper-arm cephalic outflow.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 5,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A hemodialysis patient develops hand ischemic symptoms after creation of a brachial-based AVF. Which duplex finding is most characteristic of dialysis access steal?",
-    "image": "",
-    "opciones": [
-      "Marked aneurysmal outflow vein dilation",
-      "Retrograde flow in the distal radial artery distal to the anastomosis",
-      "High-resistance waveforms throughout the inflow artery",
-      "Continuous venous pulsatility in the outflow vein"
-    ],
-    "respuesta_correcta": [
-      "Retrograde flow in the distal radial artery distal to the anastomosis"
-    ],
-    "concept_to_study": "Dialysis access steal syndrome",
-    "explicacion_openai": "In steal, arterial flow is diverted into the low-resistance access, producing retrograde flow in the distal artery feeding the hand. Compression of the access may normalize antegrade distal flow and relieve ischemic symptoms during testing.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 6,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "During EVAR surveillance, which duplex finding most strongly suggests the presence of an endoleak requiring further evaluation?",
-    "image": "",
-    "opciones": [
-      "Stable aneurysm sac diameter over serial exams",
-      "Progressive aneurysm sac enlargement with color Doppler flow within the sac",
-      "Uniform triphasic flow within the endograft limbs",
-      "Decreasing sac size compared with prior imaging"
-    ],
-    "respuesta_correcta": [
-      "Progressive aneurysm sac enlargement with color Doppler flow within the sac"
-    ],
-    "concept_to_study": "EVAR surveillance and endoleak detection",
-    "explicacion_openai": "Endoleak is suggested by sac expansion and Doppler-detectable flow within the excluded aneurysm sac. Stable or shrinking sac size argues against a clinically significant endoleak.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 7,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which description best corresponds to a Type II endoleak after EVAR?",
-    "image": "",
-    "opciones": [
-      "Proximal or distal seal failure at the graft attachment site",
-      "Retrograde filling of the aneurysm sac via branch vessels such as lumbar arteries or the IMA",
-      "Flow through a fabric defect or modular disconnection within the graft",
-      "Persistent pressurization of the sac without a detectable source"
-    ],
-    "respuesta_correcta": [
-      "Retrograde filling of the aneurysm sac via branch vessels such as lumbar arteries or the IMA"
-    ],
-    "concept_to_study": "Endoleak classification",
-    "explicacion_openai": "Type II endoleaks arise from retrograde collateral inflow (e.g., lumbar arteries, IMA). Type I involves inadequate proximal/distal seal; Type III involves component separation or fabric defect; persistent pressurization without visible leak is termed endotension.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 8,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In TIPS surveillance, which intrashunt Doppler velocity pattern is most suspicious for shunt dysfunction?",
-    "image": "",
-    "opciones": [
-      "Peak velocity approximately 110 cm/s throughout the shunt",
-      "Peak velocity persistently less than 90 cm/s within the shunt",
-      "Peak velocity approximately 150 cm/s with laminar color flow",
-      "Triphasic hepatic venous waveforms with respiratory phasicity"
-    ],
-    "respuesta_correcta": [
-      "Peak velocity persistently less than 90 cm/s within the shunt"
-    ],
-    "concept_to_study": "TIPS surveillance criteria",
-    "explicacion_openai": "Shunt velocities that are abnormally low (<90 cm/s) or abnormally high (>190 cm/s), or a substantial interval change, suggest stenosis or dysfunction. Stable velocities in the mid-normal range with laminar flow are typical of a functioning TIPS.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 9,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "After endovenous thermal ablation of the great saphenous vein, which duplex finding is expected in a successfully treated segment?",
-    "image": "",
-    "opciones": [
-      "Compressible vein with phasic venous flow",
-      "Noncompressible echogenic vein with absence of color Doppler flow within the treated segment",
-      "Persistent reflux greater than 0.5 seconds at the saphenofemoral junction",
-      "Arterialized high-velocity flow within the treated segment"
-    ],
-    "respuesta_correcta": [
-      "Noncompressible echogenic vein with absence of color Doppler flow within the treated segment"
-    ],
-    "concept_to_study": "Post-ablation sonographic appearance",
-    "explicacion_openai": "Successful thermal ablation results in an occluded, noncompressible, echogenic vein without intraluminal color flow. Persistent compressibility or reflux indicates incomplete closure.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 10,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Following placement of an inferior vena cava (IVC) filter, what is the primary duplex sonographic priority during follow-up?",
-    "image": "",
-    "opciones": [
-      "Identification of hepatic vein triphasicity",
-      "Assessment for thrombus within or above the filter and IVC patency",
-      "Measurement of portal vein diameter",
-      "Evaluation of renal arterial resistive indices"
-    ],
-    "respuesta_correcta": [
-      "Assessment for thrombus within or above the filter and IVC patency"
-    ],
-    "concept_to_study": "IVC filter surveillance",
-    "explicacion_openai": "Key follow-up goals are to confirm IVC patency, check for thrombus captured at or above the filter that could impair venous return, and document filter position. Portal and arterial parameters are unrelated to IVC filter function.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 11,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "For an in-situ saphenous vein bypass graft, which technical issue is a common cause of early graft dysfunction detectable by duplex?",
-    "image": "",
-    "opciones": [
-      "Retained valve cusp causing focal intraluminal obstruction",
-      "Neointimal hyperplasia at 12 months post-op",
-      "Anastomotic aneurysm formation",
-      "Diffuse atherosclerotic calcification of the conduit within days"
-    ],
-    "respuesta_correcta": [
-      "Retained valve cusp causing focal intraluminal obstruction"
-    ],
-    "concept_to_study": "Bypass graft technical complications",
-    "explicacion_openai": "In in-situ vein grafts, incomplete valve lysis can leave obstructing cusps, producing focal high velocities and turbulence. Neointimal hyperplasia is a later cause; aneurysmal degeneration is uncommon early.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 12,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which duplex criterion best supports a hemodynamically significant stenosis within an infrainguinal bypass graft?",
-    "image": "",
-    "opciones": [
-      "Uniform peak systolic velocity less than 45 cm/s throughout the graft",
-      "Focal peak systolic velocity ratio ≥3 with post-stenotic turbulence",
-      "Absent diastolic flow within the entire graft",
-      "Resistive index greater than 0.9 throughout"
-    ],
-    "respuesta_correcta": [
-      "Focal peak systolic velocity ratio ≥3 with post-stenotic turbulence"
-    ],
-    "concept_to_study": "Bypass graft duplex surveillance criteria",
-    "explicacion_openai": "A focal velocity increase with a PSV ratio ≥3 compared to adjacent segments, along with turbulence and potential distal waveform changes, indicates a hemodynamically important graft stenosis.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 13,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the most common biological mechanism leading to in-stent restenosis in peripheral arterial stents?",
-    "image": "",
-    "opciones": [
-      "Atherosclerotic plaque regression",
-      "Arterial vasospasm",
-      "Neointimal hyperplasia within the stented segment",
-      "Immediate thrombolysis post-stenting"
-    ],
-    "respuesta_correcta": [
-      "Neointimal hyperplasia within the stented segment"
-    ],
-    "concept_to_study": "Stent restenosis pathophysiology",
-    "explicacion_openai": "Proliferation of smooth muscle cells and extracellular matrix (neointimal hyperplasia) within the stent scaffold is the principal mechanism of in-stent restenosis detected by duplex as focal velocity elevation and turbulence.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 14,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In a renal transplant, which duplex pattern most strongly suggests transplant renal artery stenosis (TRAS)?",
-    "image": "",
-    "opciones": [
-      "Low-velocity, high-resistance waveforms in the main renal artery with brisk intrarenal upstroke",
-      "Focal velocity acceleration at the anastomosis with parvus–tardus intrarenal waveforms",
-      "Reversal of diastolic flow in the intrarenal arteries with normal anastomotic velocities",
-      "Triphasic external iliac artery waveform with normal renal waveforms"
-    ],
-    "respuesta_correcta": [
-      "Focal velocity acceleration at the anastomosis with parvus–tardus intrarenal waveforms"
-    ],
-    "concept_to_study": "Renal transplant duplex findings",
-    "explicacion_openai": "TRAS commonly occurs at the anastomosis and produces focal high velocities along with delayed systolic upstroke and decreased intrarenal acceleration (parvus–tardus), reflecting downstream perfusion delay.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 15,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In a liver transplant recipient, which duplex finding is most concerning for hepatic artery thrombosis?",
-    "image": "",
-    "opciones": [
-      "Absent color and spectral Doppler flow in the hepatic artery with collateral development",
-      "Increased TIPS shunt velocity to 160 cm/s",
-      "Phasic hepatopetal flow in the portal vein at 25 cm/s",
-      "Triphasic hepatic venous waveforms with respiratory modulation"
-    ],
-    "respuesta_correcta": [
-      "Absent color and spectral Doppler flow in the hepatic artery with collateral development"
-    ],
-    "concept_to_study": "Post–liver transplant arterial complications",
-    "explicacion_openai": "Loss of detectable hepatic artery flow with evidence of collateralization raises concern for hepatic artery thrombosis, a serious complication that can lead to biliary ischemia.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 16,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A hemodialysis graft puncture site develops a focal, pulsatile sac adjacent to the graft with swirling, bidirectional flow on color Doppler. Which diagnosis is most likely?",
-    "image": "",
-    "opciones": [
-      "True aneurysm of the graft",
-      "Pseudoaneurysm at the puncture site",
-      "Arteriovenous fistula to an adjacent vein",
-      "Hematoma without vascular communication"
-    ],
-    "respuesta_correcta": [
-      "Pseudoaneurysm at the puncture site"
-    ],
-    "concept_to_study": "Post-intervention pseudoaneurysm recognition",
-    "explicacion_openai": "A pseudoaneurysm demonstrates a neck connecting to the graft and a yin–yang color pattern indicating bidirectional swirling. True aneurysms involve wall dilation; hematomas lack internal vascular flow; AVF shows a direct arteriovenous communication.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 17,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "An operative report states a brachiobasilic fistula with basilic vein transposition was created. Which scanning approach best aligns with this surgically altered anatomy?",
-    "image": "",
-    "opciones": [
-      "Interrogate the superficialized basilic vein along the medial upper arm into the axillary vein",
-      "Track the cephalic arch drainage into the subclavian vein",
-      "Focus solely on the radial artery and cephalic vein at the wrist",
-      "Limit assessment to the brachial artery without venous evaluation"
-    ],
-    "respuesta_correcta": [
-      "Interrogate the superficialized basilic vein along the medial upper arm into the axillary vein"
-    ],
-    "concept_to_study": "Applying operative details to scanning technique",
-    "explicacion_openai": "A transposed brachiobasilic AVF uses the basilic vein, which is superficialized in the medial upper arm and drains into the axillary system. Knowledge of this route guides venous mapping and stenosis surveillance.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 18,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "During EVAR follow-up, which duplex finding is most consistent with limb occlusion of the endograft?",
-    "image": "",
-    "opciones": [
-      "Absent color flow within a graft limb with collateralized distal perfusion",
-      "Uniform triphasic waveforms in the iliac arteries",
-      "Persistent decrease in aneurysm sac diameter",
-      "Normal ankle–brachial indices with brisk femoral pulses"
-    ],
-    "respuesta_correcta": [
-      "Absent color flow within a graft limb with collateralized distal perfusion"
-    ],
-    "concept_to_study": "EVAR limb occlusion sonographic features",
-    "explicacion_openai": "Loss of intralimb flow on color Doppler with evidence of collateral distal signals indicates limb thrombosis/occlusion, prompting urgent attention. Normal triphasic signals and shrinking sac oppose occlusion.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 19,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "To optimize accuracy of volume flow measurements in a dialysis access by duplex, which technique is recommended?",
-    "image": "",
-    "opciones": [
-      "Use a 90-degree Doppler angle to maximize the Doppler shift",
-      "Measure at a tortuous segment just distal to the anastomosis",
-      "Align the Doppler beam with the flow centerline, measure time-averaged mean velocity, and calculate area from an accurate diameter",
-      "Use peak systolic velocity alone to calculate volume flow"
-    ],
-    "respuesta_correcta": [
-      "Align the Doppler beam with the flow centerline, measure time-averaged mean velocity, and calculate area from an accurate diameter"
-    ],
-    "concept_to_study": "Dialysis access flow quantification technique",
-    "explicacion_openai": "Volume flow (Q) is derived from cross-sectional area and time-averaged mean velocity (TAMEAN). Accurate angle alignment, diameter measurement in a straight segment, and appropriate sample length improve reproducibility.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Evaluate surgically altered anatomy and pathology",
-    "grupo": 20,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Within the first week after endovenous ablation of the great saphenous vein, which complication is most critical to exclude on duplex ultrasound?",
-    "image": "",
-    "opciones": [
-      "Endothermal heat-induced thrombus extending into the common femoral vein",
-      "Subcutaneous ecchymosis along the treated tract",
-      "Localized superficial phlebitis without extension",
-      "Skin hyperpigmentation at the access site"
-    ],
-    "respuesta_correcta": [
-      "Endothermal heat-induced thrombus extending into the common femoral vein"
-    ],
-    "concept_to_study": "Early post-ablation duplex priorities",
-    "explicacion_openai": "The key early concern is thrombus propagation from the treated GSV into the deep venous system at the saphenofemoral junction (EHIT), which carries a risk of DVT/PE and may require prompt management.",
-    "image_explanation": ""
-  }
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The vascular disease that presents as back, abdominal, or flank pain is:",
+        "image": "",
+        "opciones": [
+            "Intracranial arterial disease",
+            "Abdominal aortic aneurysm",
+            "Iliofemoral occlusive disease",
+            "Superior mesenteric stenosis"
+        ],
+        "respuesta_correcta": [
+            "Abdominal aortic aneurysm"
+        ],
+        "concept_to_study": "Abdominal aortic aneurysm symptoms",
+        "explicacion_openai": "Abdominal aortic aneurysm (particularly when expanding or rupturing) can present with back, abdominal, or flank pain.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Takayasu's arteritis is most often found in:",
+        "image": "",
+        "opciones": [
+            "Young men",
+            "Middle-aged men",
+            "Young women",
+            "Elderly men"
+        ],
+        "respuesta_correcta": [
+            "Young women"
+        ],
+        "concept_to_study": "Takayasu arteritis demographics",
+        "explicacion_openai": "Takayasu's arteritis typically occurs in young women, most frequently in the second or third decade of life and more commonly in Asian populations.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "All of the following are common signs of advanced lower extremity arterial insufficiency, EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Loss of hair growth over the dorsum of the toes and feet",
+            "Thickening of the toenails",
+            "Dermatitis with skin pigmentation",
+            "Dependent rubor"
+        ],
+        "respuesta_correcta": [
+            "Dermatitis with skin pigmentation"
+        ],
+        "concept_to_study": "Signs of advanced arterial insufficiency",
+        "explicacion_openai": "Hair loss, onychodystrophy, and dependent rubor are typical of chronic arterial insufficiency. Dermatitis with skin pigmentation is more characteristic of chronic venous disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The term cyanosis describes:",
+        "image": "",
+        "opciones": [
+            "Blue color of tissue due to ischemia",
+            "Red color of tissue due to hyperemia",
+            "Pale skin due to ischemia",
+            "Loss of hair growth due to chronic ischemia"
+        ],
+        "respuesta_correcta": [
+            "Blue color of tissue due to ischemia"
+        ],
+        "concept_to_study": "Cyanosis definition",
+        "explicacion_openai": "Cyanosis refers to bluish discoloration of skin and mucous membranes resulting from inadequate oxygenation (increased deoxyhemoglobin), which can accompany severe ischemia.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A common evaluation for advanced lower extremity ischemia involves raising the supine patient's leg and then having the patient sit and dangle the leg. A positive result is described as:",
+        "image": "",
+        "opciones": [
+            "Elevation pallor, dependent rubor",
+            "Elevation rubor, dependent pallor",
+            "Elevation rubor, dependent cyanosis",
+            "Elevation pallor, dependent cyanosis"
+        ],
+        "respuesta_correcta": [
+            "Elevation pallor, dependent rubor"
+        ],
+        "concept_to_study": "Vascular exam for lower extremity ischemia",
+        "explicacion_openai": "Elevation reduces perfusion pressure producing pallor; dependency restores perfusion with reactive hyperemia and rubor in advanced arterial disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Patients presenting with symptoms of claudication complain of:",
+        "image": "",
+        "opciones": [
+            "Nocturnal muscle cramps",
+            "Cramping pain in the calf, thigh, or buttocks with exercise and relieved by rest",
+            "Numbing weakness in the legs while standing",
+            "Pain in hips or knees not relieved by rest"
+        ],
+        "respuesta_correcta": [
+            "Cramping pain in the calf, thigh, or buttocks with exercise and relieved by rest"
+        ],
+        "concept_to_study": "Claudication symptoms",
+        "explicacion_openai": "Intermittent claudication is exertional muscle pain due to arterial insufficiency that reliably resolves with rest.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Patients presenting with a diagnosis of ischemic rest pain may complain of:",
+        "image": "",
+        "opciones": [
+            "Foot pain at night which occurs on an irregular basis",
+            "Tingling in the foot which is relieved by elevation",
+            "Foot pain while in a horizontal position, relieved by standing or dangling the foot in a dependent position",
+            "Pain in feet with walking which is relieved by rest"
+        ],
+        "respuesta_correcta": [
+            "Foot pain while in a horizontal position, relieved by standing or dangling the foot in a dependent position"
+        ],
+        "concept_to_study": "Ischemic rest pain symptoms",
+        "explicacion_openai": "Rest pain is classically nocturnal forefoot pain that improves with leg dependency or walking as perfusion improves.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Patients found to have ulcerating lesions or gangrene may have which of the following diseases?",
+        "image": "",
+        "opciones": [
+            "Arterial insufficiency",
+            "Neuropathy",
+            "Venous disease",
+            "All options are correct"
+        ],
+        "respuesta_correcta": [
+            "All options are correct"
+        ],
+        "concept_to_study": "Causes of ulcerating lesions/gangrene",
+        "explicacion_openai": "Without specifying location or features, arterial insufficiency, neuropathic disease, and venous disease can all be etiologies of ulceration or gangrene.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The most common presenting symptoms in acute arterial occlusion include all EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Pulselessness",
+            "Pallor",
+            "Paresthesias",
+            "Pedal ulcer"
+        ],
+        "respuesta_correcta": [
+            "Pedal ulcer"
+        ],
+        "concept_to_study": "Symptoms of acute arterial occlusion",
+        "explicacion_openai": "Acute occlusion presents with the classic ischemic findings (e.g., pulselessness, pallor, paresthesias). A pedal ulcer is more typical of chronic disease and requires time to develop.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following skin changes is LEAST associated with advanced peripheral arterial occlusive disease?",
+        "image": "",
+        "opciones": [
+            "Shiny, scaly skin",
+            "Dependent rubor",
+            "Pallor on elevation",
+            "Stasis pigmentation"
+        ],
+        "respuesta_correcta": [
+            "Stasis pigmentation"
+        ],
+        "concept_to_study": "Skin changes in peripheral arterial disease",
+        "explicacion_openai": "Shiny, scaly skin, dependent rubor, and elevation pallor are typical arterial findings; stasis pigmentation is characteristic of chronic venous insufficiency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 54-year-old man reports calf and thigh pain, right worse than left, that begins within the first few steps of walking and resolves with sitting; it does not reliably limit walking distance beyond three blocks and can be mild on some days. The etiology of these symptoms can be:",
+        "image": "",
+        "opciones": [
+            "Abdominal aortic disease",
+            "Bilateral iliac artery disease",
+            "Bilateral superficial femoral and profunda disease",
+            "These symptoms are not typical of vascular disease"
+        ],
+        "respuesta_correcta": [
+            "These symptoms are not typical of vascular disease"
+        ],
+        "concept_to_study": "Atypical claudication symptoms",
+        "explicacion_openai": "True vascular claudication is predictable, occurs after a consistent walking distance, and reliably limits further ambulation; these features are not present here, suggesting a nonvascular cause.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A diabetic patient with redness of the skin in the foot and toe probably has:",
+        "image": "",
+        "opciones": [
+            "An infection",
+            "Emboli",
+            "Increased sympathetic tone",
+            "Popliteal aneurysm"
+        ],
+        "respuesta_correcta": [
+            "An infection"
+        ],
+        "concept_to_study": "Diabetic foot redness",
+        "explicacion_openai": "Localized erythema in a diabetic foot commonly reflects infection (e.g., cellulitis), which may occur with or without peripheral arterial disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Surgically Altered Anatomy and Pathology",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A pulsatile mass in the groin after catheterization of a cardiac patient most likely will be:",
+        "image": "",
+        "opciones": [
+            "A femoral artery aneurysm",
+            "A hematoma",
+            "A pseudoaneurysm of the femoral artery",
+            "An arteriovenous fistula"
+        ],
+        "respuesta_correcta": [
+            "A pseudoaneurysm of the femoral artery"
+        ],
+        "concept_to_study": "Post-catheterization groin mass",
+        "explicacion_openai": "Femoral artery pseudoaneurysm is a common post-catheterization complication and is usually pulsatile; hematomas are common but typically nonpulsatile. An arteriovenous fistula is another possible iatrogenic lesion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Early atherosclerosis of the lower extremities will be associated with:",
+        "image": "",
+        "opciones": [
+            "Rest pain",
+            "Blue toe",
+            "Claudication",
+            "Swelling"
+        ],
+        "respuesta_correcta": [
+            "Claudication"
+        ],
+        "concept_to_study": "Early atherosclerosis symptoms",
+        "explicacion_openai": "Intermittent claudication is the typical early symptom of lower-extremity atherosclerotic disease; the other findings are more consistent with advanced or alternative pathology.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is least likely to be associated with arterial embolization?",
+        "image": "",
+        "opciones": [
+            "Blue toe",
+            "TIA",
+            "Popliteal aneurysm",
+            "Progressive claudication"
+        ],
+        "respuesta_correcta": [
+            "Progressive claudication"
+        ],
+        "concept_to_study": "Arterial embolization symptoms",
+        "explicacion_openai": "Blue toe and amaurosis fugax/TIA are classic embolic phenomena. Popliteal aneurysms are a well-known source of distal emboli. Progressive claudication reflects gradually worsening atherosclerotic obstruction, not embolization.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Rest pain is characterized by:",
+        "image": "",
+        "opciones": [
+            "Upper calf pain",
+            "Pain at night in the forefoot or foot that may go away with leg dependency",
+            "Pain while walking that goes away with rest",
+            "Any calf pain that goes away with leg dependency"
+        ],
+        "respuesta_correcta": [
+            "Pain at night in the forefoot or foot that may go away with leg dependency"
+        ],
+        "concept_to_study": "Rest pain characteristics",
+        "explicacion_openai": "Ischemic rest pain classically involves nocturnal forefoot pain relieved by dependency (or exercise), reflecting critically reduced perfusion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The symptom or sign most likely NOT associated with acute arterial occlusion is:",
+        "image": "",
+        "opciones": [
+            "Blue toe",
+            "Pale or white extremity",
+            "Claudication",
+            "Paresthesia"
+        ],
+        "respuesta_correcta": [
+            "Claudication"
+        ],
+        "concept_to_study": "Acute arterial occlusion symptoms",
+        "explicacion_openai": "Claudication is a chronic exertional symptom. Acute ischemia presents with sudden onset of classic findings such as pallor, coolness, sensory deficits, and potentially blue toe from emboli.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Ischemic ulcers (lesions) are:",
+        "image": "",
+        "opciones": [
+            "Completely painless but bleed with manipulation and are located over pressure points or calluses.",
+            "Very painful and commonly located distally over the dorsum of the foot.",
+            "Only mildly painful and relieved by elevation.",
+            "Very painful and are usually located around the malleolus."
+        ],
+        "respuesta_correcta": [
+            "Very painful and commonly located distally over the dorsum of the foot."
+        ],
+        "concept_to_study": "Ischemic ulcer characteristics",
+        "explicacion_openai": "Arterial (ischemic) ulcers are typically very painful, distal (toes or dorsum of foot), and occur over pressure points or areas of trauma due to insufficient perfusion. Venous ulcers typically occur near the malleolus.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Common sites for auscultation of bruits in the lower extremity circulation include all EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Abdomen",
+            "Groin",
+            "Popliteal space",
+            "Dorsum of foot"
+        ],
+        "respuesta_correcta": [
+            "Dorsum of foot"
+        ],
+        "concept_to_study": "Bruit auscultation sites in lower extremities",
+        "explicacion_openai": "Abdomen (aorta), groin (common femoral), and popliteal space are typical sites for auscultation; the dorsum of the foot is not routinely auscultated for bruits.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A vibration noted while palpating pulses is called:",
+        "image": "",
+        "opciones": [
+            "A buzz",
+            "A bruit",
+            "A pulse",
+            "A thrill"
+        ],
+        "respuesta_correcta": [
+            "A thrill"
+        ],
+        "concept_to_study": "Palpable pulse vibration",
+        "explicacion_openai": "A thrill is the palpable counterpart of a bruit, both caused by tissue/vessel wall vibrations due to turbulent flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 21,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Rubor is defined as:",
+        "image": "",
+        "opciones": [
+            "Abnormal stiffness of digits",
+            "Small, purple areas of discoloration on the dorsum of the foot",
+            "Thickened, wrinkled skin",
+            "Red skin color"
+        ],
+        "respuesta_correcta": [
+            "Red skin color"
+        ],
+        "concept_to_study": "Rubor definition",
+        "explicacion_openai": "Rubor refers to red discoloration, as seen with reactive hyperemia after ischemia or with reperfusion in Raynaud’s phenomenon.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 22,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Ulcers due to arterial insufficiency are found most often:",
+        "image": "",
+        "opciones": [
+            "Behind the knee",
+            "In the gaiter area, near the medial malleolus",
+            "On toes and distal foot",
+            "Over the lesion, usually along Hunter's canal"
+        ],
+        "respuesta_correcta": [
+            "On toes and distal foot"
+        ],
+        "concept_to_study": "Location of arterial insufficiency ulcers",
+        "explicacion_openai": "Arterial ulcers favor distal sites (toes, dorsum of foot, heels), particularly over pressure points, due to poor distal perfusion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 23,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Delayed return of the capillary blush after pressure on the pulp of the digit is a sign of:",
+        "image": "",
+        "opciones": [
+            "Thoracic outlet syndrome",
+            "Venous occlusive disease",
+            "Advanced ischemia",
+            "Hyperlipidemia"
+        ],
+        "respuesta_correcta": [
+            "Advanced ischemia"
+        ],
+        "concept_to_study": "Capillary refill time and ischemia",
+        "explicacion_openai": "Normal capillary refill occurs within about 1–2 seconds; prolonged refill suggests significant arterial insufficiency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 24,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Signs of advanced ischemia in the lower extremity include all of the following EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Slow venous filling after dropping the elevated extremity into a dependent position",
+            "Pallor on elevation",
+            "Rubor on dependency",
+            "Pitting edema"
+        ],
+        "respuesta_correcta": [
+            "Pitting edema"
+        ],
+        "concept_to_study": "Signs of advanced lower extremity ischemia",
+        "explicacion_openai": "Pitting edema is more consistent with systemic causes (e.g., heart failure), venous disease, or lymphatic dysfunction than with isolated arterial ischemia.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 25,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Pulse sites commonly palpated in the lower extremities include all EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Common femoral",
+            "Popliteal",
+            "Posterior tibial",
+            "Peroneal"
+        ],
+        "respuesta_correcta": [
+            "Peroneal"
+        ],
+        "concept_to_study": "Lower extremity pulse palpation sites",
+        "explicacion_openai": "Common femoral, popliteal, and posterior tibial (and dorsalis pedis/anterior tibial) are routinely palpated. The peroneal artery is not commonly assessed by palpation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 26,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The absence of a bruit at the common femoral level:",
+        "image": "",
+        "opciones": [
+            "Rules out significant stenosis at that level",
+            "Cannot rule out significant stenosis at that level",
+            "Suggests stenosis distal to that level",
+            "Suggests total occlusion at that level"
+        ],
+        "respuesta_correcta": [
+            "Cannot rule out significant stenosis at that level"
+        ],
+        "concept_to_study": "Significance of absent bruit",
+        "explicacion_openai": "Clinical auscultation is useful, but the absence of a bruit does not exclude significant stenosis; conversely, a bruit supports the presence of turbulent flow due to disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 27,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Auscultation of the abdomen, aortoiliac, and common femoral areas is important because:",
+        "image": "",
+        "opciones": [
+            "Absence of a bruit suggests absence of arterial disease.",
+            "Presence of a bruit may be the first indication of arterial disease.",
+            "Abdominal bruits are significant because they are usually radiating from the aortic arch.",
+            "Only significant stenosis can cause bruits."
+        ],
+        "respuesta_correcta": [
+            "Presence of a bruit may be the first indication of arterial disease."
+        ],
+        "concept_to_study": "Importance of auscultation for bruits",
+        "explicacion_openai": "Detecting a bruit can be an early clinical clue to arterial disease; lack of a bruit does not exclude pathology, and bruits may occur with less-than-critical lesions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 28,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The symptoms of anterior tibial compartment syndrome are:",
+        "image": "",
+        "opciones": [
+            "Swelling and/or palpable tenderness over a muscle compartment",
+            "Pain on passive stretch of the muscles in the compartment",
+            "Weakness of the muscles in the compartment",
+            "All options are correct"
+        ],
+        "respuesta_correcta": [
+            "All options are correct"
+        ],
+        "concept_to_study": "Anterior tibial compartment syndrome symptoms",
+        "explicacion_openai": "Compartment syndrome typically presents with compartment tenderness/swelling, pain on passive stretch, and progressive weakness due to increased intracompartmental pressure compromising perfusion and nerve function.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 29,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Unilateral claudication in the calf and foot of a young individual suggests:",
+        "image": "",
+        "opciones": [
+            "Popliteal artery entrapment",
+            "Anterior tibial compartment syndrome",
+            "\"Restless\" leg syndrome",
+            "Lumbar spinal stenosis (neurogenic claudication)"
+        ],
+        "respuesta_correcta": [
+            "Popliteal artery entrapment"
+        ],
+        "concept_to_study": "Causes of unilateral claudication in young individuals",
+        "explicacion_openai": "Popliteal artery entrapment is a recognized cause of exertional calf/foot ischemia in young patients. The other choices represent non-arterial or non-occlusive etiologies of leg symptoms.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 30,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient complains of digital pallor or cyanosis induced by cold exposure or emotional stimuli. These symptoms are characteristic of:",
+        "image": "",
+        "opciones": [
+            "Arterial embolism to the digits",
+            "Raynaud's phenomenon",
+            "Thoracic outlet syndrome",
+            "Carpal tunnel syndrome"
+        ],
+        "respuesta_correcta": [
+            "Raynaud's phenomenon"
+        ],
+        "concept_to_study": "Raynaud's phenomenon symptoms",
+        "explicacion_openai": "Raynaud's phenomenon causes cold- or stress-induced digital vasospasm leading to pallor or cyanosis, often followed by rubor on reperfusion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 31,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The pulsatility index is defined as:",
+        "image": "",
+        "opciones": [
+            "Peak systolic velocity divided by end diastolic velocity.",
+            "Peak systolic velocity minus end diastolic velocity divided by systolic velocity.",
+            "Peak systolic velocity minus end-diastolic velocity divided by mean velocity.",
+            "Peak systolic velocity at the internal carotid artery divided by peak systolic velocity at the common carotid artery."
+        ],
+        "respuesta_correcta": [
+            "Peak systolic velocity minus end-diastolic velocity divided by mean velocity."
+        ],
+        "concept_to_study": "Pulsatility index definition",
+        "explicacion_openai": "Gosling’s pulsatility index (PI) = (PSV − EDV) / mean velocity. It increases with higher distal resistance and is independent of the Doppler angle.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 32,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which one of the following is always TRUE of patients who suffer from intermittent claudication?",
+        "image": "",
+        "opciones": [
+            "Peripheral blood flow is reduced at rest.",
+            "There is pressure drop distal to the obstructed segment after exercise.",
+            "No increase in blood flow occurs through the affected segment during exercise.",
+            "Marked peripheral vasoconstriction occurs in response to exercise."
+        ],
+        "respuesta_correcta": [
+            "There is pressure drop distal to the obstructed segment after exercise."
+        ],
+        "concept_to_study": "Intermittent claudication physiology",
+        "explicacion_openai": "Exercise unmasks hemodynamic compromise with a reproducible post-exercise pressure drop distal to a significant obstruction, correlating with exertional symptoms.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 33,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which one of the following conditions will cause an increase in the pulse amplitude of the arterial pressure wave?",
+        "image": "",
+        "opciones": [
+            "An increase in peripheral resistance",
+            "A decrease in left ventricular function",
+            "Vasodilation secondary to heating",
+            "Young age"
+        ],
+        "respuesta_correcta": [
+            "Vasodilation secondary to heating"
+        ],
+        "concept_to_study": "Factors affecting arterial pulse amplitude",
+        "explicacion_openai": "Vasodilation (e.g., with heating) reduces peripheral resistance and enhances peripheral arterial pulse amplitude in physiologic testing (e.g., PVR/PPG waveforms). Increased resistance or reduced ventricular function diminishes pulse amplitude.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 68-year-old male presents with a focal palpable thrill in the right groin. Auscultation reveals a high-pitched sound over the area. Which of the following conditions is the most likely cause of this finding?",
+        "image": "",
+        "opciones": [
+            "Complete occlusion of the right common femoral artery",
+            "Deep venous thrombosis in the right common femoral vein",
+            "Significant stenosis of the right external iliac artery",
+            "Acute right popliteal artery embolism"
+        ],
+        "respuesta_correcta": [
+            "Significant stenosis of the right external iliac artery"
+        ],
+        "concept_to_study": "Bruit and arterial stenosis",
+        "explicacion_openai": "A bruit is a sound heard with a stethoscope due to turbulent blood flow, typically caused by arterial stenosis. A palpable thrill at the groin with a high-pitched bruit suggests hemodynamically significant inflow stenosis (e.g., external iliac). Complete occlusion would eliminate flow (no bruit). DVT is a venous process and does not produce an arterial bruit. An acute distal embolism would not typically cause a localized groin bruit and thrill.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a carotid duplex ultrasound exam, a technologist detects a localized, high-frequency sound while scanning the left internal carotid artery. What is the most probable underlying hemodynamic phenomenon responsible for this audible finding?",
+        "image": "",
+        "opciones": [
+            "Laminar flow distal to a normal carotid bulb",
+            "Turbulent flow due to an atherosclerotic plaque causing stenosis",
+            "Stagnant blood flow within a carotid pseudoaneurysm",
+            "Reversal of flow in the external carotid artery"
+        ],
+        "respuesta_correcta": [
+            "Turbulent flow due to an atherosclerotic plaque causing stenosis"
+        ],
+        "concept_to_study": "Bruit and turbulent flow",
+        "explicacion_openai": "An audible bruit corresponds to turbulent flow, most commonly from atherosclerotic stenosis. Laminar flow is silent. Stagnant flow does not produce a bruit. Flow reversal in the ECA is not the typical cause of a focal bruit in the ICA territory.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient undergoes a peripheral arterial exam due to claudication. A localized bruit is heard over the left common femoral artery. What does the presence of a bruit strongly suggest regarding the vascular status at that location?",
+        "image": "",
+        "opciones": [
+            "Total occlusion of the artery",
+            "Presence of an arteriovenous fistula",
+            "Significant arterial stenosis",
+            "Deep venous insufficiency"
+        ],
+        "respuesta_correcta": [
+            "Significant arterial stenosis"
+        ],
+        "concept_to_study": "Bruit and arterial stenosis",
+        "explicacion_openai": "A bruit indicates turbulent flow and in the context of claudication strongly suggests significant arterial stenosis. Total occlusion would typically eliminate flow and bruit. An AV fistula can cause a bruit, but in this setting stenosis is more likely. Venous insufficiency does not produce arterial bruits.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A physician is evaluating a patient for renovascular hypertension. Auscultation of the abdomen reveals a systolic-diastolic bruit in the periumbilical region. What is the most likely vascular pathology being investigated?",
+        "image": "",
+        "opciones": [
+            "Aortic aneurysm with mural thrombus",
+            "Inferior vena cava stenosis",
+            "Renal artery stenosis",
+            "Superior mesenteric artery occlusion"
+        ],
+        "respuesta_correcta": [
+            "Renal artery stenosis"
+        ],
+        "concept_to_study": "Bruit and renal artery stenosis",
+        "explicacion_openai": "A periumbilical or flank bruit in the setting of suspected renovascular hypertension is most consistent with renal artery stenosis. Other listed conditions are not the typical cause of this clinical constellation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Surgically Altered Anatomy and Pathology",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a post-operative follow-up for carotid endarterectomy, a patient reports a new \"whooshing\" sound in their neck. Upon auscultation, a mild bruit is detected at the surgical site. What is the most common vascular complication that could cause this new finding?",
+        "image": "",
+        "opciones": [
+            "Carotid artery dissection",
+            "Residual stenosis at the endarterectomy site",
+            "Carotid artery occlusion",
+            "Jugular vein thrombosis"
+        ],
+        "respuesta_correcta": [
+            "Residual stenosis at the endarterectomy site"
+        ],
+        "concept_to_study": "Post-carotid endarterectomy complications",
+        "explicacion_openai": "A new bruit after endarterectomy commonly reflects residual or recurrent stenosis at the operative site, producing turbulent flow. Occlusion would typically eliminate a bruit. Dissection is possible but less likely when the sole new finding is a localized bruit. Jugular vein thrombosis does not cause an arterial bruit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents to the emergency department with acute onset of severe pain, pallor, and paresthesia in the right upper extremity. On physical examination, the radial and ulnar pulses are absent. Which acute vascular condition is the most critical to rule out?",
+        "image": "",
+        "opciones": [
+            "Right subclavian artery occlusion",
+            "Deep venous thrombosis of the right axillary vein",
+            "Thoracic outlet syndrome",
+            "Brachial plexus injury"
+        ],
+        "respuesta_correcta": [
+            "Right subclavian artery occlusion"
+        ],
+        "concept_to_study": "Acute arterial occlusion signs",
+        "explicacion_openai": "The sudden onset of the 5 Ps (pain, pallor, pulselessness, paresthesia, paralysis) indicates acute arterial occlusion. Absent distal pulses point to a proximal arterial blockage such as subclavian occlusion. The other choices would not produce this acute arterial pulse absence.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a routine arterial pressure measurement on a lower extremity, the Doppler signal is completely absent distal to the ankle. Palpation also confirms an absent dorsalis pedis and posterior tibial pulse. What does this finding most immediately indicate?",
+        "image": "",
+        "opciones": [
+            "Venous insufficiency",
+            "Severe arterial occlusion",
+            "Peripheral neuropathy",
+            "Mild claudication"
+        ],
+        "respuesta_correcta": [
+            "Severe arterial occlusion"
+        ],
+        "concept_to_study": "Absent arterial pulse and Doppler signal",
+        "explicacion_openai": "An absent Doppler arterial signal and absent pedal pulses indicate severe arterial occlusion distal to the measurement site. The other conditions do not abolish arterial signals in this manner.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 72-year-old male with a history of atrial fibrillation presents with sudden onset of coldness, numbness, and inability to move his left foot. On examination, no pulses are palpable in the left foot and ankle. What is the most likely cause of this presentation?",
+        "image": "",
+        "opciones": [
+            "Left profunda femoris artery aneurysm",
+            "Left iliac artery stenosis",
+            "Acute arterial embolism to the left lower extremity",
+            "Left femoral vein thrombosis"
+        ],
+        "respuesta_correcta": [
+            "Acute arterial embolism to the left lower extremity"
+        ],
+        "concept_to_study": "Acute arterial embolism",
+        "explicacion_openai": "Atrial fibrillation predisposes to cardiac thromboembolism. Sudden ischemic symptoms with absent distal pulses are classic for an acute arterial embolus to the limb. Chronic stenosis or venous disease would not present this abruptly with absent arterial pulses.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient involved in a motor vehicle accident sustains significant trauma to the right leg. Physical exam reveals an open fracture and an absent popliteal pulse. What is the most urgent concern for the vascular technologist to assess?",
+        "image": "",
+        "opciones": [
+            "Deep venous reflux",
+            "Popliteal artery transection or occlusion",
+            "Muscle compartment pressures",
+            "Sural nerve damage"
+        ],
+        "respuesta_correcta": [
+            "Popliteal artery transection or occlusion"
+        ],
+        "concept_to_study": "Trauma and arterial injury",
+        "explicacion_openai": "An absent popliteal pulse in the setting of limb trauma and open fracture is highly suspicious for arterial transection or acute occlusion, which is limb-threatening and requires immediate evaluation. Other issues may be present but are less urgent than restoring arterial inflow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a patient with known peripheral arterial disease, a previously palpable pedal pulse becomes acutely absent. Which of the following conditions represents the most immediate and severe threat to limb viability?",
+        "image": "",
+        "opciones": [
+            "Worsening intermittent claudication",
+            "Acute-on-chronic arterial occlusion",
+            "Development of a venous ulcer",
+            "Progression of lymphedema"
+        ],
+        "respuesta_correcta": [
+            "Acute-on-chronic arterial occlusion"
+        ],
+        "concept_to_study": "Acute limb ischemia in PAD",
+        "explicacion_openai": "Acute loss of a previously palpable pulse indicates acute-on-chronic arterial occlusion and critical limb ischemia risk. The other conditions do not produce abrupt disappearance of arterial pulses.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient with long-standing diabetes and peripheral arterial disease exhibits dependent rubor of the foot (redness when the foot is lowered, blanching on elevation). This finding is indicative of what severity of arterial insufficiency?",
+        "image": "",
+        "opciones": [
+            "Mild claudication",
+            "Moderate ischemia",
+            "Severe multi-segment arterial occlusion",
+            "Venous stasis dermatitis"
+        ],
+        "respuesta_correcta": [
+            "Severe multi-segment arterial occlusion"
+        ],
+        "concept_to_study": "Dependent rubor and severe arterial insufficiency",
+        "explicacion_openai": "Dependent rubor with elevation pallor reflects critical reduction in arterial inflow, typically from multilevel occlusive disease. It is not a feature of mild disease or venous stasis dermatitis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A vascular technologist is performing an ankle-brachial index (ABI) on a patient whose foot appears dusky red, particularly when hanging down. This color change, known as rubor, suggests what underlying hemodynamic state?",
+        "image": "",
+        "opciones": [
+            "Adequate collateral circulation",
+            "Impaired venous return",
+            "Vasodilation in response to severe tissue hypoxia",
+            "Increased arterial vasospasm"
+        ],
+        "respuesta_correcta": [
+            "Vasodilation in response to severe tissue hypoxia"
+        ],
+        "concept_to_study": "Dependent rubor pathophysiology",
+        "explicacion_openai": "Dependent rubor results from maximal arteriolar dilation due to chronic tissue hypoxia in severe ischemia. When the limb is dependent, increased hydrostatic pressure allows more blood into the dilated microcirculation, producing the reddish discoloration.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient with critical limb ischemia due to aortoiliac and superficial femoral artery (SFA) occlusion is likely to present with which of the following signs in the affected foot?",
+        "image": "",
+        "opciones": [
+            "Unilateral pitting edema",
+            "Distended superficial veins",
+            "Dependent rubor",
+            "Normal capillary refill time"
+        ],
+        "respuesta_correcta": [
+            "Dependent rubor"
+        ],
+        "concept_to_study": "Signs of critical limb ischemia",
+        "explicacion_openai": "Severe arterial insufficiency is associated with dependent rubor from maximal vasodilation and poor perfusion. Edema and distended veins suggest venous pathology, and capillary refill time is typically prolonged in severe ischemia.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following statements best describes the pathophysiology leading to dependent rubor in a patient with severe peripheral arterial disease?",
+        "image": "",
+        "opciones": [
+            "Venous hypertension causing extravasation of red blood cells",
+            "Arterial vasospasm leading to capillary engorgement",
+            "Maximal arteriolar dilation in response to chronic ischemia and tissue hypoxia",
+            "Lymphatic fluid accumulation causing skin discoloration"
+        ],
+        "respuesta_correcta": [
+            "Maximal arteriolar dilation in response to chronic ischemia and tissue hypoxia"
+        ],
+        "concept_to_study": "Pathophysiology of dependent rubor",
+        "explicacion_openai": "Chronic ischemia triggers maximal arteriolar dilation; when the limb is dependent, gravity augments inflow into the dilated microcirculation, producing rubor. The other mechanisms are not responsible for this arterial finding.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents with a non-healing ulcer on their lateral malleolus and observes their foot turning deep red when they sit up. This combination of symptoms points towards a diagnosis of:",
+        "image": "",
+        "opciones": [
+            "Chronic venous insufficiency with stasis ulcer",
+            "Cellulitis secondary to a bacterial infection",
+            "Critical limb ischemia due to severe peripheral arterial disease",
+            "Diabetic neuropathy with Charcot foot"
+        ],
+        "respuesta_correcta": [
+            "Critical limb ischemia due to severe peripheral arterial disease"
+        ],
+        "concept_to_study": "Critical limb ischemia signs",
+        "explicacion_openai": "Dependent rubor with a non-healing ulcer is characteristic of severe arterial insufficiency. Venous stasis ulcers usually occur near the medial malleolus with stasis changes. Cellulitis presents with warmth and tenderness. Charcot neuroarthropathy leads to deformity and plantar ulcers rather than dependent rubor.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 55-year-old male suddenly develops difficulty speaking (aphasia) and weakness of his right arm and leg. These neurological deficits most strongly suggest a lesion in which vascular territory?",
+        "image": "",
+        "opciones": [
+            "Left carotid artery",
+            "Basilar artery",
+            "Right middle cerebral artery",
+            "Posterior cerebral artery"
+        ],
+        "respuesta_correcta": [
+            "Left carotid artery"
+        ],
+        "concept_to_study": "Cerebral vascular territories and stroke symptoms",
+        "explicacion_openai": "Aphasia and right hemiparesis localize to the left cerebral hemisphere, typically in the left carotid/MCA territory. Basilar and posterior cerebral artery events produce posterior circulation syndromes. Right MCA involvement would produce left-sided deficits.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient is brought to the ER with acute onset of right-sided hemiparesis. Ultrasound assessment of the carotid arteries is ordered. Given the symptoms, what is the technologist primarily looking for in the carotid system?",
+        "image": "",
+        "opciones": [
+            "Stenosis or occlusion of the left internal carotid artery",
+            "Dissection of the right common carotid artery",
+            "Plaque in the right external carotid artery",
+            "Kinking of the left vertebral artery"
+        ],
+        "respuesta_correcta": [
+            "Stenosis or occlusion of the left internal carotid artery"
+        ],
+        "concept_to_study": "Carotid ultrasound for stroke evaluation",
+        "explicacion_openai": "Contralateral hemiparesis points to left hemisphere ischemia; thus, significant disease of the left internal carotid artery is the prime target for evaluation. ECA disease and vertebral kinking do not explain this hemispheric presentation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the context of a transient ischemic attack (TIA) causing transient right-sided weakness, what is the most common embolic source that would be investigated by a vascular technologist?",
+        "image": "",
+        "opciones": [
+            "Right carotid artery plaque",
+            "Left carotid artery plaque",
+            "Vertebral artery dissection",
+            "Deep venous thrombosis"
+        ],
+        "respuesta_correcta": [
+            "Left carotid artery plaque"
+        ],
+        "concept_to_study": "Embolic sources for TIA/stroke",
+        "explicacion_openai": "Right-sided deficits implicate the left hemisphere; the most common extracranial embolic source is atherosclerotic plaque in the left carotid (typically ICA bifurcation/origin). Vertebral dissection affects posterior circulation. DVT causes pulmonary embolism rather than arterial cerebral embolism.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient recovering from a stroke involving the left middle cerebral artery territory presents with persistent right-sided weakness. What specific area of the brain, supplied by this artery, is primarily responsible for motor control of the right side of the body?",
+        "image": "",
+        "opciones": [
+            "Left motor cortex",
+            "Cerebellum",
+            "Brainstem",
+            "Right motor cortex"
+        ],
+        "respuesta_correcta": [
+            "Left motor cortex"
+        ],
+        "concept_to_study": "Cerebral anatomy and motor control",
+        "explicacion_openai": "The primary motor cortex in the left frontal lobe controls contralateral (right-sided) voluntary movement due to corticospinal tract decussation. Cerebellum and brainstem have different roles; the right motor cortex governs the left side.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following arterial occlusions is most likely to result in a sudden onset of right-sided weakness and expressive aphasia?",
+        "image": "",
+        "opciones": [
+            "Right subclavian artery occlusion",
+            "Basilar artery occlusion",
+            "Left internal carotid artery occlusion",
+            "Right posterior cerebral artery occlusion"
+        ],
+        "respuesta_correcta": [
+            "Left internal carotid artery occlusion"
+        ],
+        "concept_to_study": "Cerebral arterial territories and stroke symptoms",
+        "explicacion_openai": "Expressive aphasia and right hemiparesis localize to the left anterior circulation, particularly the left ICA/MCA territory. Posterior circulation (basilar, PCA) typically causes visual or brainstem findings; subclavian occlusion does not cause hemispheric deficits.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 21,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 45-year-old female presents with acute onset of unilateral leg swelling, pain, and tenderness in her right calf. On physical examination, the affected leg is noticeably larger than the left. Which vascular condition is the most probable cause of this presentation?",
+        "image": "",
+        "opciones": [
+            "Right superficial femoral artery occlusion",
+            "Right deep venous thrombosis (DVT)",
+            "Right popliteal artery aneurysm",
+            "Chronic venous insufficiency"
+        ],
+        "respuesta_correcta": [
+            "Right deep venous thrombosis (DVT)"
+        ],
+        "concept_to_study": "Deep venous thrombosis (DVT) symptoms",
+        "explicacion_openai": "Acute unilateral swelling, pain, and calf tenderness are classic for DVT due to impaired venous outflow. Arterial lesions cause ischemic signs. Chronic venous insufficiency is typically more gradual and associated with skin changes.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 22,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a lower extremity venous duplex scan for unilateral leg swelling, the technologist observes non-compressible veins with echogenic material partially or completely filling the lumen. This finding confirms the presence of:",
+        "image": "",
+        "opciones": [
+            "Superficial thrombophlebitis",
+            "Deep venous thrombosis",
+            "Venous reflux",
+            "Lymphedema"
+        ],
+        "respuesta_correcta": [
+            "Deep venous thrombosis"
+        ],
+        "concept_to_study": "Ultrasound diagnosis of DVT",
+        "explicacion_openai": "Non-compressibility of the vein with intraluminal echogenic material is diagnostic of DVT on ultrasound. Superficial thrombophlebitis affects superficial veins; reflux is abnormal flow without thrombus; lymphedema involves soft tissues rather than venous occlusion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 23,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient with long-standing venous insufficiency develops chronic edema, skin discoloration (brawny edema), and a non-healing ulcer near the medial malleolus. These signs are characteristic of:",
+        "image": "",
+        "opciones": [
+            "Acute deep venous thrombosis",
+            "Critical limb ischemia",
+            "Post-thrombotic syndrome",
+            "Cellulitis"
+        ],
+        "respuesta_correcta": [
+            "Post-thrombotic syndrome"
+        ],
+        "concept_to_study": "Post-thrombotic syndrome",
+        "explicacion_openai": "Post-thrombotic syndrome is a chronic consequence of prior DVT with venous hypertension, leading to edema, hyperpigmentation, and medial malleolar ulceration. The other options do not match this chronic pattern.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 24,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is the primary physiological mechanism by which a deep venous thrombosis (DVT) leads to the development of edema in the affected extremity?",
+        "image": "",
+        "opciones": [
+            "Increased arterial inflow",
+            "Obstruction of lymphatic drainage",
+            "Impaired venous outflow and increased hydrostatic pressure",
+            "Arterial vasospasm"
+        ],
+        "respuesta_correcta": [
+            "Impaired venous outflow and increased hydrostatic pressure"
+        ],
+        "concept_to_study": "Pathophysiology of DVT-induced edema",
+        "explicacion_openai": "Venous outflow obstruction elevates capillary hydrostatic pressure, promoting fluid transudation into interstitial tissues and causing edema. The other mechanisms are not the primary cause in DVT-related swelling.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 25,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents with bilateral lower extremity edema, shortness of breath, and jugular venous distention. What systemic condition is the most likely cause of this bilateral edema?",
+        "image": "",
+        "opciones": [
+            "Chronic venous insufficiency",
+            "Congestive heart failure",
+            "Hypothyroidism",
+            "Cirrhosis"
+        ],
+        "respuesta_correcta": [
+            "Congestive heart failure"
+        ],
+        "concept_to_study": "Systemic causes of bilateral edema",
+        "explicacion_openai": "Bilateral edema with dyspnea and jugular venous distention indicates systemic volume overload, most consistent with congestive heart failure. Chronic venous insufficiency is typically more localized and lacks cardiopulmonary signs; endocrine or hepatic causes are possible but less aligned with the overall presentation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to vascular access guidelines, which arteriovenous access is preferred as a first-line option for hemodialysis due to superior patency and lower complication rates?",
+        "image": "",
+        "opciones": [
+            "Radiocephalic arteriovenous fistula at the wrist",
+            "Brachiobasilic arteriovenous fistula with transposition",
+            "Brachial-axillary prosthetic graft",
+            "Tunneled cuffed central venous catheter"
+        ],
+        "respuesta_correcta": [
+            "Radiocephalic arteriovenous fistula at the wrist"
+        ],
+        "concept_to_study": "Dialysis access selection hierarchy",
+        "explicacion_openai": "A native radiocephalic arteriovenous fistula (RC-AVF) at the wrist is generally the preferred initial access owing to better long-term patency and fewer infections compared with upper-arm fistulas, prosthetic grafts, or tunneled catheters.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "For a newly created native arteriovenous fistula, which of the following is a recognized maturation criterion consistent with the \"Rule of 6s\"?",
+        "image": "",
+        "opciones": [
+            "Access flow greater than 600 mL/min",
+            "Vein diameter of 3 mm or less",
+            "Access depth greater than 10 mm from the skin",
+            "Peak systolic velocity less than 50 cm/s throughout"
+        ],
+        "respuesta_correcta": [
+            "Access flow greater than 600 mL/min"
+        ],
+        "concept_to_study": "Dialysis access maturation criteria",
+        "explicacion_openai": "The “Rule of 6s” suggests a mature AVF should have flow >600 mL/min, vein diameter ≥6 mm, and depth ≤6 mm to facilitate reliable cannulation and adequate dialysis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "On duplex interrogation of a dialysis fistula, which finding is most consistent with a hemodynamically significant focal stenosis?",
+        "image": "",
+        "opciones": [
+            "Low-resistance waveform in the feeding artery",
+            "Uniform velocities along the outflow vein",
+            "Focal peak systolic velocity ratio ≥2 compared with the adjacent inflow",
+            "Monophasic inflow artery waveform at rest"
+        ],
+        "respuesta_correcta": [
+            "Focal peak systolic velocity ratio ≥2 compared with the adjacent inflow"
+        ],
+        "concept_to_study": "Dialysis access duplex stenosis criteria",
+        "explicacion_openai": "A focal PSV acceleration with a velocity ratio ≥2 relative to the proximal segment suggests a ≥50% diameter-reducing stenosis in fistulas or grafts, especially when accompanied by post-stenotic turbulence and flow reduction distal to the lesion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Where is the most common location for stenosis causing early failure in a radiocephalic or brachiocephalic arteriovenous fistula?",
+        "image": "",
+        "opciones": [
+            "Proximal feeding artery",
+            "Juxta-anastomotic venous segment",
+            "Mid radial artery",
+            "Distal cephalic arch only"
+        ],
+        "respuesta_correcta": [
+            "Juxta-anastomotic venous segment"
+        ],
+        "concept_to_study": "Common sites of AVF stenosis",
+        "explicacion_openai": "Intimal hyperplasia frequently develops in the venous outflow near the anastomosis (juxta-anastomotic segment), making it the most common site of clinically significant stenosis in new fistulas. Cephalic arch stenosis is also common but typically in upper-arm cephalic outflow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A hemodialysis patient develops hand ischemic symptoms after creation of a brachial-based AVF. Which duplex finding is most characteristic of dialysis access steal?",
+        "image": "",
+        "opciones": [
+            "Marked aneurysmal outflow vein dilation",
+            "Retrograde flow in the distal radial artery distal to the anastomosis",
+            "High-resistance waveforms throughout the inflow artery",
+            "Continuous venous pulsatility in the outflow vein"
+        ],
+        "respuesta_correcta": [
+            "Retrograde flow in the distal radial artery distal to the anastomosis"
+        ],
+        "concept_to_study": "Dialysis access steal syndrome",
+        "explicacion_openai": "In steal, arterial flow is diverted into the low-resistance access, producing retrograde flow in the distal artery feeding the hand. Compression of the access may normalize antegrade distal flow and relieve ischemic symptoms during testing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During EVAR surveillance, which duplex finding most strongly suggests the presence of an endoleak requiring further evaluation?",
+        "image": "",
+        "opciones": [
+            "Stable aneurysm sac diameter over serial exams",
+            "Progressive aneurysm sac enlargement with color Doppler flow within the sac",
+            "Uniform triphasic flow within the endograft limbs",
+            "Decreasing sac size compared with prior imaging"
+        ],
+        "respuesta_correcta": [
+            "Progressive aneurysm sac enlargement with color Doppler flow within the sac"
+        ],
+        "concept_to_study": "EVAR surveillance and endoleak detection",
+        "explicacion_openai": "Endoleak is suggested by sac expansion and Doppler-detectable flow within the excluded aneurysm sac. Stable or shrinking sac size argues against a clinically significant endoleak.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which description best corresponds to a Type II endoleak after EVAR?",
+        "image": "",
+        "opciones": [
+            "Proximal or distal seal failure at the graft attachment site",
+            "Retrograde filling of the aneurysm sac via branch vessels such as lumbar arteries or the IMA",
+            "Flow through a fabric defect or modular disconnection within the graft",
+            "Persistent pressurization of the sac without a detectable source"
+        ],
+        "respuesta_correcta": [
+            "Retrograde filling of the aneurysm sac via branch vessels such as lumbar arteries or the IMA"
+        ],
+        "concept_to_study": "Endoleak classification",
+        "explicacion_openai": "Type II endoleaks arise from retrograde collateral inflow (e.g., lumbar arteries, IMA). Type I involves inadequate proximal/distal seal; Type III involves component separation or fabric defect; persistent pressurization without visible leak is termed endotension.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In TIPS surveillance, which intrashunt Doppler velocity pattern is most suspicious for shunt dysfunction?",
+        "image": "",
+        "opciones": [
+            "Peak velocity approximately 110 cm/s throughout the shunt",
+            "Peak velocity persistently less than 90 cm/s within the shunt",
+            "Peak velocity approximately 150 cm/s with laminar color flow",
+            "Triphasic hepatic venous waveforms with respiratory phasicity"
+        ],
+        "respuesta_correcta": [
+            "Peak velocity persistently less than 90 cm/s within the shunt"
+        ],
+        "concept_to_study": "TIPS surveillance criteria",
+        "explicacion_openai": "Shunt velocities that are abnormally low (<90 cm/s) or abnormally high (>190 cm/s), or a substantial interval change, suggest stenosis or dysfunction. Stable velocities in the mid-normal range with laminar flow are typical of a functioning TIPS.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "After endovenous thermal ablation of the great saphenous vein, which duplex finding is expected in a successfully treated segment?",
+        "image": "",
+        "opciones": [
+            "Compressible vein with phasic venous flow",
+            "Noncompressible echogenic vein with absence of color Doppler flow within the treated segment",
+            "Persistent reflux greater than 0.5 seconds at the saphenofemoral junction",
+            "Arterialized high-velocity flow within the treated segment"
+        ],
+        "respuesta_correcta": [
+            "Noncompressible echogenic vein with absence of color Doppler flow within the treated segment"
+        ],
+        "concept_to_study": "Post-ablation sonographic appearance",
+        "explicacion_openai": "Successful thermal ablation results in an occluded, noncompressible, echogenic vein without intraluminal color flow. Persistent compressibility or reflux indicates incomplete closure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Following placement of an inferior vena cava (IVC) filter, what is the primary duplex sonographic priority during follow-up?",
+        "image": "",
+        "opciones": [
+            "Identification of hepatic vein triphasicity",
+            "Assessment for thrombus within or above the filter and IVC patency",
+            "Measurement of portal vein diameter",
+            "Evaluation of renal arterial resistive indices"
+        ],
+        "respuesta_correcta": [
+            "Assessment for thrombus within or above the filter and IVC patency"
+        ],
+        "concept_to_study": "IVC filter surveillance",
+        "explicacion_openai": "Key follow-up goals are to confirm IVC patency, check for thrombus captured at or above the filter that could impair venous return, and document filter position. Portal and arterial parameters are unrelated to IVC filter function.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "For an in-situ saphenous vein bypass graft, which technical issue is a common cause of early graft dysfunction detectable by duplex?",
+        "image": "",
+        "opciones": [
+            "Retained valve cusp causing focal intraluminal obstruction",
+            "Neointimal hyperplasia at 12 months post-op",
+            "Anastomotic aneurysm formation",
+            "Diffuse atherosclerotic calcification of the conduit within days"
+        ],
+        "respuesta_correcta": [
+            "Retained valve cusp causing focal intraluminal obstruction"
+        ],
+        "concept_to_study": "Bypass graft technical complications",
+        "explicacion_openai": "In in-situ vein grafts, incomplete valve lysis can leave obstructing cusps, producing focal high velocities and turbulence. Neointimal hyperplasia is a later cause; aneurysmal degeneration is uncommon early.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which duplex criterion best supports a hemodynamically significant stenosis within an infrainguinal bypass graft?",
+        "image": "",
+        "opciones": [
+            "Uniform peak systolic velocity less than 45 cm/s throughout the graft",
+            "Focal peak systolic velocity ratio ≥3 with post-stenotic turbulence",
+            "Absent diastolic flow within the entire graft",
+            "Resistive index greater than 0.9 throughout"
+        ],
+        "respuesta_correcta": [
+            "Focal peak systolic velocity ratio ≥3 with post-stenotic turbulence"
+        ],
+        "concept_to_study": "Bypass graft duplex surveillance criteria",
+        "explicacion_openai": "A focal velocity increase with a PSV ratio ≥3 compared to adjacent segments, along with turbulence and potential distal waveform changes, indicates a hemodynamically important graft stenosis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the most common biological mechanism leading to in-stent restenosis in peripheral arterial stents?",
+        "image": "",
+        "opciones": [
+            "Atherosclerotic plaque regression",
+            "Arterial vasospasm",
+            "Neointimal hyperplasia within the stented segment",
+            "Immediate thrombolysis post-stenting"
+        ],
+        "respuesta_correcta": [
+            "Neointimal hyperplasia within the stented segment"
+        ],
+        "concept_to_study": "Stent restenosis pathophysiology",
+        "explicacion_openai": "Proliferation of smooth muscle cells and extracellular matrix (neointimal hyperplasia) within the stent scaffold is the principal mechanism of in-stent restenosis detected by duplex as focal velocity elevation and turbulence.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a renal transplant, which duplex pattern most strongly suggests transplant renal artery stenosis (TRAS)?",
+        "image": "",
+        "opciones": [
+            "Low-velocity, high-resistance waveforms in the main renal artery with brisk intrarenal upstroke",
+            "Focal velocity acceleration at the anastomosis with parvus–tardus intrarenal waveforms",
+            "Reversal of diastolic flow in the intrarenal arteries with normal anastomotic velocities",
+            "Triphasic external iliac artery waveform with normal renal waveforms"
+        ],
+        "respuesta_correcta": [
+            "Focal velocity acceleration at the anastomosis with parvus–tardus intrarenal waveforms"
+        ],
+        "concept_to_study": "Renal transplant duplex findings",
+        "explicacion_openai": "TRAS commonly occurs at the anastomosis and produces focal high velocities along with delayed systolic upstroke and decreased intrarenal acceleration (parvus–tardus), reflecting downstream perfusion delay.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a liver transplant recipient, which duplex finding is most concerning for hepatic artery thrombosis?",
+        "image": "",
+        "opciones": [
+            "Absent color and spectral Doppler flow in the hepatic artery with collateral development",
+            "Increased TIPS shunt velocity to 160 cm/s",
+            "Phasic hepatopetal flow in the portal vein at 25 cm/s",
+            "Triphasic hepatic venous waveforms with respiratory modulation"
+        ],
+        "respuesta_correcta": [
+            "Absent color and spectral Doppler flow in the hepatic artery with collateral development"
+        ],
+        "concept_to_study": "Post–liver transplant arterial complications",
+        "explicacion_openai": "Loss of detectable hepatic artery flow with evidence of collateralization raises concern for hepatic artery thrombosis, a serious complication that can lead to biliary ischemia.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A hemodialysis graft puncture site develops a focal, pulsatile sac adjacent to the graft with swirling, bidirectional flow on color Doppler. Which diagnosis is most likely?",
+        "image": "",
+        "opciones": [
+            "True aneurysm of the graft",
+            "Pseudoaneurysm at the puncture site",
+            "Arteriovenous fistula to an adjacent vein",
+            "Hematoma without vascular communication"
+        ],
+        "respuesta_correcta": [
+            "Pseudoaneurysm at the puncture site"
+        ],
+        "concept_to_study": "Post-intervention pseudoaneurysm recognition",
+        "explicacion_openai": "A pseudoaneurysm demonstrates a neck connecting to the graft and a yin–yang color pattern indicating bidirectional swirling. True aneurysms involve wall dilation; hematomas lack internal vascular flow; AVF shows a direct arteriovenous communication.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "An operative report states a brachiobasilic fistula with basilic vein transposition was created. Which scanning approach best aligns with this surgically altered anatomy?",
+        "image": "",
+        "opciones": [
+            "Interrogate the superficialized basilic vein along the medial upper arm into the axillary vein",
+            "Track the cephalic arch drainage into the subclavian vein",
+            "Focus solely on the radial artery and cephalic vein at the wrist",
+            "Limit assessment to the brachial artery without venous evaluation"
+        ],
+        "respuesta_correcta": [
+            "Interrogate the superficialized basilic vein along the medial upper arm into the axillary vein"
+        ],
+        "concept_to_study": "Applying operative details to scanning technique",
+        "explicacion_openai": "A transposed brachiobasilic AVF uses the basilic vein, which is superficialized in the medial upper arm and drains into the axillary system. Knowledge of this route guides venous mapping and stenosis surveillance.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During EVAR follow-up, which duplex finding is most consistent with limb occlusion of the endograft?",
+        "image": "",
+        "opciones": [
+            "Absent color flow within a graft limb with collateralized distal perfusion",
+            "Uniform triphasic waveforms in the iliac arteries",
+            "Persistent decrease in aneurysm sac diameter",
+            "Normal ankle–brachial indices with brisk femoral pulses"
+        ],
+        "respuesta_correcta": [
+            "Absent color flow within a graft limb with collateralized distal perfusion"
+        ],
+        "concept_to_study": "EVAR limb occlusion sonographic features",
+        "explicacion_openai": "Loss of intralimb flow on color Doppler with evidence of collateral distal signals indicates limb thrombosis/occlusion, prompting urgent attention. Normal triphasic signals and shrinking sac oppose occlusion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "To optimize accuracy of volume flow measurements in a dialysis access by duplex, which technique is recommended?",
+        "image": "",
+        "opciones": [
+            "Use a 90-degree Doppler angle to maximize the Doppler shift",
+            "Measure at a tortuous segment just distal to the anastomosis",
+            "Align the Doppler beam with the flow centerline, measure time-averaged mean velocity, and calculate area from an accurate diameter",
+            "Use peak systolic velocity alone to calculate volume flow"
+        ],
+        "respuesta_correcta": [
+            "Align the Doppler beam with the flow centerline, measure time-averaged mean velocity, and calculate area from an accurate diameter"
+        ],
+        "concept_to_study": "Dialysis access flow quantification technique",
+        "explicacion_openai": "Volume flow (Q) is derived from cross-sectional area and time-averaged mean velocity (TAMEAN). Accurate angle alignment, diameter measurement in a straight segment, and appropriate sample length improve reproducibility.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Evaluate surgically altered anatomy and pathology",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Within the first week after endovenous ablation of the great saphenous vein, which complication is most critical to exclude on duplex ultrasound?",
+        "image": "",
+        "opciones": [
+            "Endothermal heat-induced thrombus extending into the common femoral vein",
+            "Subcutaneous ecchymosis along the treated tract",
+            "Localized superficial phlebitis without extension",
+            "Skin hyperpigmentation at the access site"
+        ],
+        "respuesta_correcta": [
+            "Endothermal heat-induced thrombus extending into the common femoral vein"
+        ],
+        "concept_to_study": "Early post-ablation duplex priorities",
+        "explicacion_openai": "The key early concern is thrombus propagation from the treated GSV into the deep venous system at the saphenofemoral junction (EHIT), which carries a risk of DVT/PE and may require prompt management.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 44,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Peripheral resistance increases with which combination of variables according to Poiseuille’s law?",
+        "image": "",
+        "opciones": [
+            "Greater length, smaller diameter, and lower blood viscosity",
+            "Greater length, larger diameter, and higher blood viscosity",
+            "Shorter length, larger diameter, and lower blood viscosity",
+            "Greater length, smaller diameter, and higher blood viscosity"
+        ],
+        "respuesta_correcta": [
+            "Greater length, smaller diameter, and higher blood viscosity"
+        ],
+        "concept_to_study": "Determinants of vascular resistance (Poiseuille’s law)",
+        "explicacion_openai": "Poiseuille’s equation shows resistance is directly proportional to length (L) and viscosity (η), and inversely proportional to the fourth power of radius (r): R = 8ηL / (πr^4). Thus, longer length, higher viscosity, and smaller radius (diameter) increase resistance.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 45,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which set of arteries typically demonstrates a low-resistance Doppler flow pattern?",
+        "image": "",
+        "opciones": [
+            "Internal carotid, preprandial superior mesenteric, and renal arteries",
+            "External carotid, preprandial superior mesenteric, and renal arteries",
+            "Internal carotid, postprandial superior mesenteric, and renal arteries",
+            "External carotid, postprandial superior mesenteric, and renal arteries"
+        ],
+        "respuesta_correcta": [
+            "Internal carotid, postprandial superior mesenteric, and renal arteries"
+        ],
+        "concept_to_study": "Low- vs high-resistance arterial beds",
+        "explicacion_openai": "The internal carotid and renal arteries supply low-resistance vascular beds. The superior mesenteric artery becomes low-resistance postprandially due to increased splanchnic demand.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement about the dorsalis pedis artery is NOT correct?",
+        "image": "",
+        "opciones": [
+            "It runs anterior to the medial malleolus.",
+            "It is typically the continuation of the anterior tibial artery.",
+            "It joins the pedal arch about halfway along the dorsum of the foot.",
+            "It is a branch of the peroneal artery."
+        ],
+        "respuesta_correcta": [
+            "It is a branch of the peroneal artery."
+        ],
+        "concept_to_study": "Dorsalis pedis arterial anatomy",
+        "explicacion_openai": "The dorsalis pedis is the distal continuation of the anterior tibial artery and courses over the dorsum of the foot to contribute to the pedal arch; it is not a branch of the peroneal artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 47,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Vessels and structures of the penis include all of the following EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Deep artery of the penis",
+            "Dorsal artery of the penis",
+            "Corpus spongiosum",
+            "Inferior vesical artery"
+        ],
+        "respuesta_correcta": [
+            "Inferior vesical artery"
+        ],
+        "concept_to_study": "Penile vascular anatomy",
+        "explicacion_openai": "Penile vascularity includes the deep and dorsal arteries of the penis and venous structures; the inferior vesical artery supplies the bladder/prostate region and is not a penile artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 48,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following vessels is NOT found on or near the foot?",
+        "image": "",
+        "opciones": [
+            "The dorsalis pedis",
+            "The posterior tibial",
+            "The peroneal",
+            "The circumflex"
+        ],
+        "respuesta_correcta": [
+            "The circumflex"
+        ],
+        "concept_to_study": "Arterial anatomy of the foot and ankle",
+        "explicacion_openai": "Dorsalis pedis and posterior tibial are primary pedal arteries; the peroneal courses in the lateral calf with distal branches near the ankle. “Circumflex” arteries are proximal (e.g., femoral circumflex) and not part of pedal circulation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 49,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "On B-mode imaging at the common femoral artery bifurcation, the profunda femoris artery typically courses:",
+        "image": "",
+        "opciones": [
+            "Posterolateral to the superficial femoral artery",
+            "Anterolateral to the superficial femoral artery",
+            "Posteromedial to the superficial femoral artery",
+            "Anteromedial to the superficial femoral artery"
+        ],
+        "respuesta_correcta": [
+            "Posterolateral to the superficial femoral artery"
+        ],
+        "concept_to_study": "Common femoral bifurcation anatomy",
+        "explicacion_openai": "The profunda femoris (deep femoral) usually arises posterolaterally from the common femoral artery, diving deep toward the femur, while the superficial femoral artery continues more anteriorly/medially into the thigh.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 50,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The so-called popliteal “trifurcation” actually consists of two sequential bifurcations. Which pairing correctly describes these?",
+        "image": "",
+        "opciones": [
+            "Posterior tibial and tibioperoneal trunk; then anterior tibial and peroneal",
+            "Peroneal and tibioperoneal trunk; then posterior and anterior tibials",
+            "Anterior tibial from the popliteal; then posterior tibial and peroneal from the tibioperoneal trunk",
+            "Posterior tibial from the popliteal; then anterior tibial and peroneal from the tibioperoneal trunk"
+        ],
+        "respuesta_correcta": [
+            "Anterior tibial from the popliteal; then posterior tibial and peroneal from the tibioperoneal trunk"
+        ],
+        "concept_to_study": "Popliteal artery distal branching",
+        "explicacion_openai": "The popliteal first gives off the anterior tibial artery; the remaining segment is the tibioperoneal trunk, which then bifurcates into the posterior tibial and peroneal arteries—hence a “double bifurcation,” not a true trifurcation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 51,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The axillary artery connects the:",
+        "image": "",
+        "opciones": [
+            "Brachial artery to the subclavian artery",
+            "Ulnar artery to the brachial artery",
+            "Radial artery to the subclavian artery",
+            "Brachial artery to the radial artery"
+        ],
+        "respuesta_correcta": [
+            "Brachial artery to the subclavian artery"
+        ],
+        "concept_to_study": "Proximal upper-extremity arterial anatomy",
+        "explicacion_openai": "Arterial continuity in the upper limb is subclavian → axillary → brachial → radial/ulnar. Thus, the axillary artery bridges the subclavian and brachial arteries through the axilla.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 52,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The great vessels directly arising from the aortic arch include all of the following EXCEPT the:",
+        "image": "",
+        "opciones": [
+            "Innominate (brachiocephalic) artery",
+            "Right subclavian artery",
+            "Left common carotid artery",
+            "Left subclavian artery"
+        ],
+        "respuesta_correcta": [
+            "Right subclavian artery"
+        ],
+        "concept_to_study": "Branches of the aortic arch",
+        "explicacion_openai": "The aortic arch normally gives rise to the brachiocephalic (innominate), left common carotid, and left subclavian arteries. The right subclavian originates from the brachiocephalic trunk.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 53,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "At the inguinal ligament, the external iliac artery becomes the:",
+        "image": "",
+        "opciones": [
+            "Internal iliac artery",
+            "Profunda femoris artery",
+            "Common femoral artery",
+            "Superficial femoral artery"
+        ],
+        "respuesta_correcta": [
+            "Common femoral artery"
+        ],
+        "concept_to_study": "Transition points of lower-extremity arteries",
+        "explicacion_openai": "The external iliac transitions to the common femoral artery as it passes under the inguinal ligament into the femoral triangle.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 54,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which vessel courses along the medial aspect of the psoas major muscle?",
+        "image": "",
+        "opciones": [
+            "Femoral artery",
+            "Internal iliac artery",
+            "External iliac artery",
+            "Inferior mesenteric artery"
+        ],
+        "respuesta_correcta": [
+            "External iliac artery"
+        ],
+        "concept_to_study": "Pelvic and retroperitoneal arterial anatomy",
+        "explicacion_openai": "The external iliac artery runs along the medial border of the psoas major muscle before passing under the inguinal ligament to become the common femoral artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 55,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The renal arteries typically arise from the abdominal aorta:",
+        "image": "",
+        "opciones": [
+            "Laterally",
+            "Inferior to the inferior mesenteric artery",
+            "Posteriorly",
+            "Superior to the superior mesenteric artery"
+        ],
+        "respuesta_correcta": [
+            "Laterally"
+        ],
+        "concept_to_study": "Renal artery origins",
+        "explicacion_openai": "The renal arteries arise from the lateral aspects of the abdominal aorta, usually just inferior to the origin of the superior mesenteric artery; the right tends to course posterior to the IVC.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 56,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Because of the relative positions of the aorta (left of midline) and the inferior vena cava (right of midline), the left renal vein:",
+        "image": "",
+        "opciones": [
+            "Crosses anterior to the aorta inferior to the left renal artery",
+            "Crosses posterior to the aorta proximal to the left renal artery",
+            "Crosses posterior to the aorta distal to the left renal artery",
+            "Does not cross the aorta"
+        ],
+        "respuesta_correcta": [
+            "Crosses anterior to the aorta inferior to the left renal artery"
+        ],
+        "concept_to_study": "Left renal vein anatomic course",
+        "explicacion_openai": "The left renal vein passes anterior to the aorta (just inferior to the renal artery origin) en route to the IVC on the right, often beneath the SMA (the aortomesenteric portion).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 57,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "On transverse imaging, which vein is typically seen superficial (anterior) to the aorta and the renal artery origins, and deep (posterior) to the superior mesenteric artery?",
+        "image": "",
+        "opciones": [
+            "Superior mesenteric vein",
+            "Right renal vein",
+            "Left renal vein",
+            "Inferior mesenteric vein"
+        ],
+        "respuesta_correcta": [
+            "Left renal vein"
+        ],
+        "concept_to_study": "Key venous landmarks at the SMA–aorta level",
+        "explicacion_openai": "The left renal vein runs anterior to the aorta and posterior to the superior mesenteric artery (SMA) before joining the IVC, making it a useful anatomic landmark.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 58,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The superior mesenteric artery (SMA) typically originates from the:",
+        "image": "",
+        "opciones": [
+            "Aorta between the celiac trunk and the renal arteries",
+            "Common mesenteric trunk",
+            "Aorta inferior to the renal arteries",
+            "Aorta superior to the celiac trunk"
+        ],
+        "respuesta_correcta": [
+            "Aorta between the celiac trunk and the renal arteries"
+        ],
+        "concept_to_study": "SMA origin and relations",
+        "explicacion_openai": "The SMA arises anteriorly from the aorta just inferior to the celiac trunk and superior to the renal arteries. Variant origins exist but are uncommon.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 59,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The superior vena cava (SVC) is formed by the junction of the:",
+        "image": "",
+        "opciones": [
+            "Inferior vena cava and right innominate vein",
+            "Right and left subclavian veins",
+            "Innominate and left subclavian veins",
+            "Right and left brachiocephalic veins"
+        ],
+        "respuesta_correcta": [
+            "Right and left brachiocephalic veins"
+        ],
+        "concept_to_study": "Formation of the SVC",
+        "explicacion_openai": "The SVC is formed by confluence of the right and left brachiocephalic (innominate) veins, which themselves are formed by the subclavian and internal jugular veins on each side.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 60,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The portal vein is formed by the junction of the:",
+        "image": "",
+        "opciones": [
+            "Superior mesenteric and colic veins",
+            "Inferior mesenteric and splenic veins",
+            "Superior mesenteric and splenic veins",
+            "Right and left hepatic veins"
+        ],
+        "respuesta_correcta": [
+            "Superior mesenteric and splenic veins"
+        ],
+        "concept_to_study": "Portal venous system formation",
+        "explicacion_openai": "The portal vein forms posterior to the neck of the pancreas by union of the superior mesenteric vein and splenic vein; the inferior mesenteric vein usually drains into the splenic vein first.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 61,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A reliable sonographic landmark for locating the renal artery origins is the:",
+        "image": "",
+        "opciones": [
+            "Superior mesenteric artery",
+            "Right renal vein",
+            "Celiac axis",
+            "Inferior mesenteric artery"
+        ],
+        "respuesta_correcta": [
+            "Superior mesenteric artery"
+        ],
+        "concept_to_study": "Landmarks for renal artery origin",
+        "explicacion_openai": "The renal arteries typically arise just distal (inferior) to the SMA origin; identifying the SMA helps target the level to evaluate renal artery origins on longitudinal aortic views.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 62,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The splenic, common hepatic, and left gastric arteries are branches of the:",
+        "image": "",
+        "opciones": [
+            "Inferior mesenteric artery",
+            "Proper hepatic artery",
+            "Superior mesenteric artery",
+            "Celiac trunk"
+        ],
+        "respuesta_correcta": [
+            "Celiac trunk"
+        ],
+        "concept_to_study": "Celiac trunk branching",
+        "explicacion_openai": "The celiac trunk trifurcates into the splenic, common hepatic, and left gastric arteries and is the first major anterior branch of the abdominal aorta.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 63,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The most common anatomic variation of the renal arterial supply is:",
+        "image": "",
+        "opciones": [
+            "Congenital absence of one main renal artery",
+            "Multiple renal arteries",
+            "Anterocaval course of the right renal artery",
+            "Retroaortic renal artery"
+        ],
+        "respuesta_correcta": [
+            "Multiple renal arteries"
+        ],
+        "concept_to_study": "Renal artery variants",
+        "explicacion_openai": "Accessory (multiple) renal arteries are the most frequent variant and may be unilateral or bilateral, typically originating from the aorta or nearby branches to supply different renal poles.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 64,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artery supplies the small intestine, right colon, and much of the transverse colon?",
+        "image": "",
+        "opciones": [
+            "Inferior mesenteric artery",
+            "Superior mesenteric artery",
+            "Left gastric artery",
+            "Right gastric artery"
+        ],
+        "respuesta_correcta": [
+            "Superior mesenteric artery"
+        ],
+        "concept_to_study": "Mesenteric arterial territories",
+        "explicacion_openai": "The SMA supplies the midgut: distal duodenum, jejunum, ileum, cecum, ascending colon, and proximal two-thirds of the transverse colon; the IMA supplies the hindgut (distal transverse colon to rectum).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 65,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Another name for the hypogastric artery is the:",
+        "image": "",
+        "opciones": [
+            "External iliac artery",
+            "Gastroduodenal artery",
+            "Hepatic artery",
+            "Internal iliac artery"
+        ],
+        "respuesta_correcta": [
+            "Internal iliac artery"
+        ],
+        "concept_to_study": "Pelvic arterial nomenclature",
+        "explicacion_openai": "The internal iliac artery is historically referred to as the hypogastric artery; it supplies pelvic organs and walls via its anterior and posterior divisions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 66,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artery is typically the leftward branch of the celiac trunk?",
+        "image": "",
+        "opciones": [
+            "Splenic artery",
+            "Hepatic artery",
+            "Left gastric artery",
+            "Gastroduodenal artery"
+        ],
+        "respuesta_correcta": [
+            "Splenic artery"
+        ],
+        "concept_to_study": "Celiac trunk branch orientation",
+        "explicacion_openai": "The splenic artery courses tortuously to the left along the superior border of the pancreas toward the spleen; the common hepatic courses to the right, and the left gastric runs superiorly.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 67,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the name of the intrarenal arteries that arise at right angles from the interlobar arteries and course along the base of the renal pyramids?",
+        "image": "",
+        "opciones": [
+            "Arcuate arteries",
+            "Segmental arteries",
+            "Interlobular arteries",
+            "Capsular arteries"
+        ],
+        "respuesta_correcta": [
+            "Arcuate arteries"
+        ],
+        "concept_to_study": "Intrarenal arterial branching",
+        "explicacion_openai": "Renal arterial sequence: main → segmental → interlobar (between pyramids) → arcuate (arch over pyramid bases) → interlobular (cortical radial) arteries supplying the cortex.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 68,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The smallest blood vessels in the body are the:",
+        "image": "",
+        "opciones": [
+            "Arterioles",
+            "Venules",
+            "Capillaries",
+            "Sinusoids"
+        ],
+        "respuesta_correcta": [
+            "Capillaries"
+        ],
+        "concept_to_study": "Microcirculation",
+        "explicacion_openai": "Capillaries consist of a single layer of endothelial cells and facilitate exchange of gases, nutrients, and waste between blood and tissues.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 69,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The tunica adventitia denotes the:",
+        "image": "",
+        "opciones": [
+            "Inner lining of the arterial wall",
+            "Outer layer of the arterial wall",
+            "Layer of transverse smooth muscle fibers",
+            "Middle layer of the arterial wall"
+        ],
+        "respuesta_correcta": [
+            "Outer layer of the arterial wall"
+        ],
+        "concept_to_study": "Arterial wall layers",
+        "explicacion_openai": "The arterial wall has three layers: tunica intima (inner, endothelium), tunica media (middle, smooth muscle/elastic tissue), and tunica adventitia (outer, connective tissue with vasa vasorum).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 70,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The tunica intima denotes the:",
+        "image": "",
+        "opciones": [
+            "Inner lining of the arterial wall",
+            "Outer lining of the arterial wall",
+            "Layer composed primarily of smooth muscle",
+            "Middle layer of the arterial wall"
+        ],
+        "respuesta_correcta": [
+            "Inner lining of the arterial wall"
+        ],
+        "concept_to_study": "Arterial wall layers",
+        "explicacion_openai": "The tunica intima is the innermost layer composed of endothelial cells and a thin subendothelial layer; it interfaces directly with blood flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 71,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The blood supply to the walls of larger arteries and veins is provided by the:",
+        "image": "",
+        "opciones": [
+            "Media perforators",
+            "Vasa vasorum",
+            "Osmosis across the intima only",
+            "Septal capillary networks"
+        ],
+        "respuesta_correcta": [
+            "Vasa vasorum"
+        ],
+        "concept_to_study": "Vascular wall perfusion",
+        "explicacion_openai": "The vasa vasorum are small vessels within the adventitia and outer media that nourish the walls of larger arteries and veins beyond the diffusion limit from the lumen.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 72,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which vessel wall layer is composed entirely of endothelial cells?",
+        "image": "",
+        "opciones": [
+            "Tunica adventitia",
+            "Tunica media",
+            "Tunica intima",
+            "No arterial layer is composed solely of endothelium"
+        ],
+        "respuesta_correcta": [
+            "Tunica intima"
+        ],
+        "concept_to_study": "Histology of vascular layers",
+        "explicacion_openai": "The tunica intima consists of a continuous endothelial cell layer supported by a thin subendothelial connective tissue; capillary walls are essentially only endothelium and basement membrane.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 73,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement regarding capillaries is CORRECT?",
+        "image": "",
+        "opciones": [
+            "Capillary walls are composed solely of endothelial cells and a basement membrane.",
+            "Capillary walls contain a thick tunica media with smooth muscle.",
+            "Capillaries are formed by all three vascular layers in miniature.",
+            "Capillaries have a prominent tunica adventitia for support."
+        ],
+        "respuesta_correcta": [
+            "Capillary walls are composed solely of endothelial cells and a basement membrane."
+        ],
+        "concept_to_study": "Capillary structure and function",
+        "explicacion_openai": "Capillaries lack media and adventitia; their thin endothelial wall (with basement membrane) facilitates efficient exchange of gases, fluids, and solutes with tissues.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 74,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A small venule typically contains which vessel wall layers?",
+        "image": "",
+        "opciones": [
+            "Tunica adventitia, tunica media, and tunica intima",
+            "Tunica adventitia and tunica media",
+            "Tunica adventitia and tunica intima",
+            "Tunica media and tunica intima"
+        ],
+        "respuesta_correcta": [
+            "Tunica adventitia and tunica intima"
+        ],
+        "concept_to_study": "Venous wall composition",
+        "explicacion_openai": "Postcapillary venules have endothelium (intima) and a thin adventitia; larger venules may develop a thin media, but the smallest venules typically lack a significant muscular layer.",
+        "image_explanation": ""
+    }
 ]
-
-
