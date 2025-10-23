@@ -13271,5 +13271,633 @@
         "concept_to_study": "Purpose of bilateral brachial blood pressure measurement",
         "explicacion_openai": "Comparing brachial blood pressures bilaterally is crucial to detect significant discrepancies between the arms. A difference of 15-20 mmHg or more can indicate subclavian artery stenosis on the side with the lower pressure, which is relevant in the context of cerebrovascular evaluation due to its potential association with subclavian steal syndrome.",
         "image_explanation": ""
-    }
+    },
+     {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The vascular disease that presents as back, abdominal, or flank pain is:",
+    "image": "",
+    "opciones": [
+      "Intracranial arterial disease",
+      "Abdominal aortic aneurysm",
+      "Iliofemoral occlusive disease",
+      "Superior mesenteric stenosis"
+    ],
+    "respuesta_correcta": [
+      "Abdominal aortic aneurysm"
+    ],
+    "concept_to_study": "Abdominal aortic aneurysm symptoms",
+    "explicacion_openai": "Abdominal aortic aneurysm (particularly when expanding or rupturing) can present with back, abdominal, or flank pain.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Takayasu's arteritis is most often found in:",
+    "image": "",
+    "opciones": [
+      "Young men",
+      "Middle-aged men",
+      "Young women",
+      "Elderly men"
+    ],
+    "respuesta_correcta": [
+      "Young women"
+    ],
+    "concept_to_study": "Takayasu arteritis demographics",
+    "explicacion_openai": "Takayasu's arteritis typically occurs in young women, most frequently in the second or third decade of life and more commonly in Asian populations.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "All of the following are common signs of advanced lower extremity arterial insufficiency, EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Loss of hair growth over the dorsum of the toes and feet",
+      "Thickening of the toenails",
+      "Dermatitis with skin pigmentation",
+      "Dependent rubor"
+    ],
+    "respuesta_correcta": [
+      "Dermatitis with skin pigmentation"
+    ],
+    "concept_to_study": "Signs of advanced arterial insufficiency",
+    "explicacion_openai": "Hair loss, onychodystrophy, and dependent rubor are typical of chronic arterial insufficiency. Dermatitis with skin pigmentation is more characteristic of chronic venous disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The term cyanosis describes:",
+    "image": "",
+    "opciones": [
+      "Blue color of tissue due to ischemia",
+      "Red color of tissue due to hyperemia",
+      "Pale skin due to ischemia",
+      "Loss of hair growth due to chronic ischemia"
+    ],
+    "respuesta_correcta": [
+      "Blue color of tissue due to ischemia"
+    ],
+    "concept_to_study": "Cyanosis definition",
+    "explicacion_openai": "Cyanosis refers to bluish discoloration of skin and mucous membranes resulting from inadequate oxygenation (increased deoxyhemoglobin), which can accompany severe ischemia.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A common evaluation for advanced lower extremity ischemia involves raising the supine patient's leg and then having the patient sit and dangle the leg. A positive result is described as:",
+    "image": "",
+    "opciones": [
+      "Elevation pallor, dependent rubor",
+      "Elevation rubor, dependent pallor",
+      "Elevation rubor, dependent cyanosis",
+      "Elevation pallor, dependent cyanosis"
+    ],
+    "respuesta_correcta": [
+      "Elevation pallor, dependent rubor"
+    ],
+    "concept_to_study": "Vascular exam for lower extremity ischemia",
+    "explicacion_openai": "Elevation reduces perfusion pressure producing pallor; dependency restores perfusion with reactive hyperemia and rubor in advanced arterial disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Patients presenting with symptoms of claudication complain of:",
+    "image": "",
+    "opciones": [
+      "Nocturnal muscle cramps",
+      "Cramping pain in the calf, thigh, or buttocks with exercise and relieved by rest",
+      "Numbing weakness in the legs while standing",
+      "Pain in hips or knees not relieved by rest"
+    ],
+    "respuesta_correcta": [
+      "Cramping pain in the calf, thigh, or buttocks with exercise and relieved by rest"
+    ],
+    "concept_to_study": "Claudication symptoms",
+    "explicacion_openai": "Intermittent claudication is exertional muscle pain due to arterial insufficiency that reliably resolves with rest.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Patients presenting with a diagnosis of ischemic rest pain may complain of:",
+    "image": "",
+    "opciones": [
+      "Foot pain at night which occurs on an irregular basis",
+      "Tingling in the foot which is relieved by elevation",
+      "Foot pain while in a horizontal position, relieved by standing or dangling the foot in a dependent position",
+      "Pain in feet with walking which is relieved by rest"
+    ],
+    "respuesta_correcta": [
+      "Foot pain while in a horizontal position, relieved by standing or dangling the foot in a dependent position"
+    ],
+    "concept_to_study": "Ischemic rest pain symptoms",
+    "explicacion_openai": "Rest pain is classically nocturnal forefoot pain that improves with leg dependency or walking as perfusion improves.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Patients found to have ulcerating lesions or gangrene may have which of the following diseases?",
+    "image": "",
+    "opciones": [
+      "Arterial insufficiency",
+      "Neuropathy",
+      "Venous disease",
+      "All options are correct"
+    ],
+    "respuesta_correcta": [
+      "All options are correct"
+    ],
+    "concept_to_study": "Causes of ulcerating lesions/gangrene",
+    "explicacion_openai": "Without specifying location or features, arterial insufficiency, neuropathic disease, and venous disease can all be etiologies of ulceration or gangrene.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The most common presenting symptoms in acute arterial occlusion include all EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Pulselessness",
+      "Pallor",
+      "Paresthesias",
+      "Pedal ulcer"
+    ],
+    "respuesta_correcta": [
+      "Pedal ulcer"
+    ],
+    "concept_to_study": "Symptoms of acute arterial occlusion",
+    "explicacion_openai": "Acute occlusion presents with the classic ischemic findings (e.g., pulselessness, pallor, paresthesias). A pedal ulcer is more typical of chronic disease and requires time to develop.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following skin changes is LEAST associated with advanced peripheral arterial occlusive disease?",
+    "image": "",
+    "opciones": [
+      "Shiny, scaly skin",
+      "Dependent rubor",
+      "Pallor on elevation",
+      "Stasis pigmentation"
+    ],
+    "respuesta_correcta": [
+      "Stasis pigmentation"
+    ],
+    "concept_to_study": "Skin changes in peripheral arterial disease",
+    "explicacion_openai": "Shiny, scaly skin, dependent rubor, and elevation pallor are typical arterial findings; stasis pigmentation is characteristic of chronic venous insufficiency.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 54-year-old man reports calf and thigh pain, right worse than left, that begins within the first few steps of walking and resolves with sitting; it does not reliably limit walking distance beyond three blocks and can be mild on some days. The etiology of these symptoms can be:",
+    "image": "",
+    "opciones": [
+      "Abdominal aortic disease",
+      "Bilateral iliac artery disease",
+      "Bilateral superficial femoral and profunda disease",
+      "These symptoms are not typical of vascular disease"
+    ],
+    "respuesta_correcta": [
+      "These symptoms are not typical of vascular disease"
+    ],
+    "concept_to_study": "Atypical claudication symptoms",
+    "explicacion_openai": "True vascular claudication is predictable, occurs after a consistent walking distance, and reliably limits further ambulation; these features are not present here, suggesting a nonvascular cause.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A diabetic patient with redness of the skin in the foot and toe probably has:",
+    "image": "",
+    "opciones": [
+      "An infection",
+      "Emboli",
+      "Increased sympathetic tone",
+      "Popliteal aneurysm"
+    ],
+    "respuesta_correcta": [
+      "An infection"
+    ],
+    "concept_to_study": "Diabetic foot redness",
+    "explicacion_openai": "Localized erythema in a diabetic foot commonly reflects infection (e.g., cellulitis), which may occur with or without peripheral arterial disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Surgically Altered Anatomy and Pathology",
+    "grupo": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A pulsatile mass in the groin after catheterization of a cardiac patient most likely will be:",
+    "image": "",
+    "opciones": [
+      "A femoral artery aneurysm",
+      "A hematoma",
+      "A pseudoaneurysm of the femoral artery",
+      "An arteriovenous fistula"
+    ],
+    "respuesta_correcta": [
+      "A pseudoaneurysm of the femoral artery"
+    ],
+    "concept_to_study": "Post-catheterization groin mass",
+    "explicacion_openai": "Femoral artery pseudoaneurysm is a common post-catheterization complication and is usually pulsatile; hematomas are common but typically nonpulsatile. An arteriovenous fistula is another possible iatrogenic lesion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Early atherosclerosis of the lower extremities will be associated with:",
+    "image": "",
+    "opciones": [
+      "Rest pain",
+      "Blue toe",
+      "Claudication",
+      "Swelling"
+    ],
+    "respuesta_correcta": [
+      "Claudication"
+    ],
+    "concept_to_study": "Early atherosclerosis symptoms",
+    "explicacion_openai": "Intermittent claudication is the typical early symptom of lower-extremity atherosclerotic disease; the other findings are more consistent with advanced or alternative pathology.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is least likely to be associated with arterial embolization?",
+    "image": "",
+    "opciones": [
+      "Blue toe",
+      "TIA",
+      "Popliteal aneurysm",
+      "Progressive claudication"
+    ],
+    "respuesta_correcta": [
+      "Progressive claudication"
+    ],
+    "concept_to_study": "Arterial embolization symptoms",
+    "explicacion_openai": "Blue toe and amaurosis fugax/TIA are classic embolic phenomena. Popliteal aneurysms are a well-known source of distal emboli. Progressive claudication reflects gradually worsening atherosclerotic obstruction, not embolization.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Rest pain is characterized by:",
+    "image": "",
+    "opciones": [
+      "Upper calf pain",
+      "Pain at night in the forefoot or foot that may go away with leg dependency",
+      "Pain while walking that goes away with rest",
+      "Any calf pain that goes away with leg dependency"
+    ],
+    "respuesta_correcta": [
+      "Pain at night in the forefoot or foot that may go away with leg dependency"
+    ],
+    "concept_to_study": "Rest pain characteristics",
+    "explicacion_openai": "Ischemic rest pain classically involves nocturnal forefoot pain relieved by dependency (or exercise), reflecting critically reduced perfusion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The symptom or sign most likely NOT associated with acute arterial occlusion is:",
+    "image": "",
+    "opciones": [
+      "Blue toe",
+      "Pale or white extremity",
+      "Claudication",
+      "Paresthesia"
+    ],
+    "respuesta_correcta": [
+      "Claudication"
+    ],
+    "concept_to_study": "Acute arterial occlusion symptoms",
+    "explicacion_openai": "Claudication is a chronic exertional symptom. Acute ischemia presents with sudden onset of classic findings such as pallor, coolness, sensory deficits, and potentially blue toe from emboli.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Ischemic ulcers (lesions) are:",
+    "image": "",
+    "opciones": [
+      "Completely painless but bleed with manipulation and are located over pressure points or calluses.",
+      "Very painful and commonly located distally over the dorsum of the foot.",
+      "Only mildly painful and relieved by elevation.",
+      "Very painful and are usually located around the malleolus."
+    ],
+    "respuesta_correcta": [
+      "Very painful and commonly located distally over the dorsum of the foot."
+    ],
+    "concept_to_study": "Ischemic ulcer characteristics",
+    "explicacion_openai": "Arterial (ischemic) ulcers are typically very painful, distal (toes or dorsum of foot), and occur over pressure points or areas of trauma due to insufficient perfusion. Venous ulcers typically occur near the malleolus.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Common sites for auscultation of bruits in the lower extremity circulation include all EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Abdomen",
+      "Groin",
+      "Popliteal space",
+      "Dorsum of foot"
+    ],
+    "respuesta_correcta": [
+      "Dorsum of foot"
+    ],
+    "concept_to_study": "Bruit auscultation sites in lower extremities",
+    "explicacion_openai": "Abdomen (aorta), groin (common femoral), and popliteal space are typical sites for auscultation; the dorsum of the foot is not routinely auscultated for bruits.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A vibration noted while palpating pulses is called:",
+    "image": "",
+    "opciones": [
+      "A buzz",
+      "A bruit",
+      "A pulse",
+      "A thrill"
+    ],
+    "respuesta_correcta": [
+      "A thrill"
+    ],
+    "concept_to_study": "Palpable pulse vibration",
+    "explicacion_openai": "A thrill is the palpable counterpart of a bruit, both caused by tissue/vessel wall vibrations due to turbulent flow.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Rubor is defined as:",
+    "image": "",
+    "opciones": [
+      "Abnormal stiffness of digits",
+      "Small, purple areas of discoloration on the dorsum of the foot",
+      "Thickened, wrinkled skin",
+      "Red skin color"
+    ],
+    "respuesta_correcta": [
+      "Red skin color"
+    ],
+    "concept_to_study": "Rubor definition",
+    "explicacion_openai": "Rubor refers to red discoloration, as seen with reactive hyperemia after ischemia or with reperfusion in Raynaud’s phenomenon.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Ulcers due to arterial insufficiency are found most often:",
+    "image": "",
+    "opciones": [
+      "Behind the knee",
+      "In the gaiter area, near the medial malleolus",
+      "On toes and distal foot",
+      "Over the lesion, usually along Hunter's canal"
+    ],
+    "respuesta_correcta": [
+      "On toes and distal foot"
+    ],
+    "concept_to_study": "Location of arterial insufficiency ulcers",
+    "explicacion_openai": "Arterial ulcers favor distal sites (toes, dorsum of foot, heels), particularly over pressure points, due to poor distal perfusion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Delayed return of the capillary blush after pressure on the pulp of the digit is a sign of:",
+    "image": "",
+    "opciones": [
+      "Thoracic outlet syndrome",
+      "Venous occlusive disease",
+      "Advanced ischemia",
+      "Hyperlipidemia"
+    ],
+    "respuesta_correcta": [
+      "Advanced ischemia"
+    ],
+    "concept_to_study": "Capillary refill time and ischemia",
+    "explicacion_openai": "Normal capillary refill occurs within about 1–2 seconds; prolonged refill suggests significant arterial insufficiency.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Signs of advanced ischemia in the lower extremity include all of the following EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Slow venous filling after dropping the elevated extremity into a dependent position",
+      "Pallor on elevation",
+      "Rubor on dependency",
+      "Pitting edema"
+    ],
+    "respuesta_correcta": [
+      "Pitting edema"
+    ],
+    "concept_to_study": "Signs of advanced lower extremity ischemia",
+    "explicacion_openai": "Pitting edema is more consistent with systemic causes (e.g., heart failure), venous disease, or lymphatic dysfunction than with isolated arterial ischemia.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Pulse sites commonly palpated in the lower extremities include all EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Common femoral",
+      "Popliteal",
+      "Posterior tibial",
+      "Peroneal"
+    ],
+    "respuesta_correcta": [
+      "Peroneal"
+    ],
+    "concept_to_study": "Lower extremity pulse palpation sites",
+    "explicacion_openai": "Common femoral, popliteal, and posterior tibial (and dorsalis pedis/anterior tibial) are routinely palpated. The peroneal artery is not commonly assessed by palpation.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 26,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The absence of a bruit at the common femoral level:",
+    "image": "",
+    "opciones": [
+      "Rules out significant stenosis at that level",
+      "Cannot rule out significant stenosis at that level",
+      "Suggests stenosis distal to that level",
+      "Suggests total occlusion at that level"
+    ],
+    "respuesta_correcta": [
+      "Cannot rule out significant stenosis at that level"
+    ],
+    "concept_to_study": "Significance of absent bruit",
+    "explicacion_openai": "Clinical auscultation is useful, but the absence of a bruit does not exclude significant stenosis; conversely, a bruit supports the presence of turbulent flow due to disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 27,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Auscultation of the abdomen, aortoiliac, and common femoral areas is important because:",
+    "image": "",
+    "opciones": [
+      "Absence of a bruit suggests absence of arterial disease.",
+      "Presence of a bruit may be the first indication of arterial disease.",
+      "Abdominal bruits are significant because they are usually radiating from the aortic arch.",
+      "Only significant stenosis can cause bruits."
+    ],
+    "respuesta_correcta": [
+      "Presence of a bruit may be the first indication of arterial disease."
+    ],
+    "concept_to_study": "Importance of auscultation for bruits",
+    "explicacion_openai": "Detecting a bruit can be an early clinical clue to arterial disease; lack of a bruit does not exclude pathology, and bruits may occur with less-than-critical lesions.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 28,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The symptoms of anterior tibial compartment syndrome are:",
+    "image": "",
+    "opciones": [
+      "Swelling and/or palpable tenderness over a muscle compartment",
+      "Pain on passive stretch of the muscles in the compartment",
+      "Weakness of the muscles in the compartment",
+      "All options are correct"
+    ],
+    "respuesta_correcta": [
+      "All options are correct"
+    ],
+    "concept_to_study": "Anterior tibial compartment syndrome symptoms",
+    "explicacion_openai": "Compartment syndrome typically presents with compartment tenderness/swelling, pain on passive stretch, and progressive weakness due to increased intracompartmental pressure compromising perfusion and nerve function.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 29,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Unilateral claudication in the calf and foot of a young individual suggests:",
+    "image": "",
+    "opciones": [
+      "Popliteal artery entrapment",
+      "Anterior tibial compartment syndrome",
+      "\"Restless\" leg syndrome",
+      "Lumbar spinal stenosis (neurogenic claudication)"
+    ],
+    "respuesta_correcta": [
+      "Popliteal artery entrapment"
+    ],
+    "concept_to_study": "Causes of unilateral claudication in young individuals",
+    "explicacion_openai": "Popliteal artery entrapment is a recognized cause of exertional calf/foot ischemia in young patients. The other choices represent non-arterial or non-occlusive etiologies of leg symptoms.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient complains of digital pallor or cyanosis induced by cold exposure or emotional stimuli. These symptoms are characteristic of:",
+    "image": "",
+    "opciones": [
+      "Arterial embolism to the digits",
+      "Raynaud's phenomenon",
+      "Thoracic outlet syndrome",
+      "Carpal tunnel syndrome"
+    ],
+    "respuesta_correcta": [
+      "Raynaud's phenomenon"
+    ],
+    "concept_to_study": "Raynaud's phenomenon symptoms",
+    "explicacion_openai": "Raynaud's phenomenon causes cold- or stress-induced digital vasospasm leading to pallor or cyanosis, often followed by rubor on reperfusion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 31,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The pulsatility index is defined as:",
+    "image": "",
+    "opciones": [
+      "Peak systolic velocity divided by end diastolic velocity.",
+      "Peak systolic velocity minus end diastolic velocity divided by systolic velocity.",
+      "Peak systolic velocity minus end-diastolic velocity divided by mean velocity.",
+      "Peak systolic velocity at the internal carotid artery divided by peak systolic velocity at the common carotid artery."
+    ],
+    "respuesta_correcta": [
+      "Peak systolic velocity minus end-diastolic velocity divided by mean velocity."
+    ],
+    "concept_to_study": "Pulsatility index definition",
+    "explicacion_openai": "Gosling’s pulsatility index (PI) = (PSV − EDV) / mean velocity. It increases with higher distal resistance and is independent of the Doppler angle.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 32,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which one of the following is always TRUE of patients who suffer from intermittent claudication?",
+    "image": "",
+    "opciones": [
+      "Peripheral blood flow is reduced at rest.",
+      "There is pressure drop distal to the obstructed segment after exercise.",
+      "No increase in blood flow occurs through the affected segment during exercise.",
+      "Marked peripheral vasoconstriction occurs in response to exercise."
+    ],
+    "respuesta_correcta": [
+      "There is pressure drop distal to the obstructed segment after exercise."
+    ],
+    "concept_to_study": "Intermittent claudication physiology",
+    "explicacion_openai": "Exercise unmasks hemodynamic compromise with a reproducible post-exercise pressure drop distal to a significant obstruction, correlating with exertional symptoms.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 33,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which one of the following conditions will cause an increase in the pulse amplitude of the arterial pressure wave?",
+    "image": "",
+    "opciones": [
+      "An increase in peripheral resistance",
+      "A decrease in left ventricular function",
+      "Vasodilation secondary to heating",
+      "Young age"
+    ],
+    "respuesta_correcta": [
+      "Vasodilation secondary to heating"
+    ],
+    "concept_to_study": "Factors affecting arterial pulse amplitude",
+    "explicacion_openai": "Vasodilation (e.g., with heating) reduces peripheral resistance and enhances peripheral arterial pulse amplitude in physiologic testing (e.g., PVR/PPG waveforms). Increased resistance or reduced ventricular function diminishes pulse amplitude.",
+    "image_explanation": ""
+  }
+
 ]
