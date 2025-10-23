@@ -15342,5 +15342,386 @@
         "concept_to_study": "Venous wall composition",
         "explicacion_openai": "Postcapillary venules have endothelium (intima) and a thin adventitia; larger venules may develop a thin media, but the smallest venules typically lack a significant muscular layer.",
         "image_explanation": ""
-    }
+    },
+    {
+"clasificacion": "Physiologic Exams",
+"grupo": 1,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Which hemodialysis access is generally preferred as the first choice due to better long-term patency and lower infection risk?",
+"image": "",
+"opciones": [
+"Radiocephalic arteriovenous fistula (wrist AVF)",
+"Upper-arm prosthetic graft",
+"Tunneled central venous catheter",
+"Axillary–axillary loop graft"
+],
+"respuesta_correcta": [
+"Radiocephalic arteriovenous fistula (wrist AVF)"
+],
+"concept_to_study": "Dialysis access selection",
+"explicacion_openai": "Native wrist AVFs (radiocephalic) are preferred initially because they tend to have superior patency and fewer complications than prosthetic grafts or catheters.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 2,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Which finding supports that a new arteriovenous fistula is maturing appropriately for dialysis cannulation?",
+"image": "",
+"opciones": [
+"Access vein depth approximately 2 cm below the skin surface",
+"Vein diameter approximately 6 mm with strong palpable thrill",
+"Access flow consistently below 300 mL/min",
+"Absent bruit on auscultation"
+],
+"respuesta_correcta": [
+"Vein diameter approximately 6 mm with strong palpable thrill"
+],
+"concept_to_study": "AVF maturation (Rule of 6s)",
+"explicacion_openai": "A mature AVF typically has a vein diameter around or above 6 mm, depth less than about 6 mm, flow >600 mL/min, and a palpable thrill/auscultatory bruit.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 3,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "In a functioning hemodialysis fistula, what Doppler waveform is expected in the feeding artery?",
+"image": "",
+"opciones": [
+"High-resistance, triphasic waveform",
+"Low-resistance, high diastolic flow waveform",
+"No detectable diastolic flow",
+"Reversed diastolic flow at rest"
+],
+"respuesta_correcta": [
+"Low-resistance, high diastolic flow waveform"
+],
+"concept_to_study": "Hemodynamics of AVF",
+"explicacion_openai": "An AVF lowers distal resistance, so the inflow artery shows a low-resistance waveform with increased diastolic flow due to the arteriovenous shunt.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 4,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "A hemodialysis patient develops cold, painful fingers after creation of a brachial-based AVF. Which finding supports dialysis access steal syndrome?",
+"image": "",
+"opciones": [
+"Retrograde flow in the distal radial/ulnar artery",
+"Hyperemic flow in the digital arteries",
+"Triphasic high-resistance inflow artery",
+"Elevated venous pressure during dialysis without symptoms"
+],
+"respuesta_correcta": [
+"Retrograde flow in the distal radial/ulnar artery"
+],
+"concept_to_study": "Dialysis access steal",
+"explicacion_openai": "Steal occurs when flow is diverted into the access, producing retrograde flow in distal arteries and ischemic hand symptoms (pain, coolness, pallor).",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 5,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "After a fistula puncture, a focal, pulsatile mass with a yin–yang color pattern is seen adjacent to the access. What is the most likely diagnosis?",
+"image": "",
+"opciones": [
+"Hematoma",
+"Pseudoaneurysm",
+"True aneurysm",
+"Seroma"
+],
+"respuesta_correcta": [
+"Pseudoaneurysm"
+],
+"concept_to_study": "Pseudoaneurysm recognition",
+"explicacion_openai": "Pseudoaneurysms show a swirling (yin–yang) color fill and a neck with to-and-fro spectral Doppler, distinguishing them from nonvascular fluid collections or true aneurysms (wall dilation).",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 6,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Where is the most common site of stenosis in a new radiocephalic AV fistula?",
+"image": "",
+"opciones": [
+"Distal radial artery",
+"Juxta-anastomotic venous segment",
+"Mid-cephalic vein at the upper arm",
+"Subclavian vein"
+],
+"respuesta_correcta": [
+"Juxta-anastomotic venous segment"
+],
+"concept_to_study": "Common AVF stenosis sites",
+"explicacion_openai": "Neointimal hyperplasia commonly develops in the venous outflow near the anastomosis, making the juxta-anastomotic segment the most frequent stenosis site in new AVFs.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 7,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "On dialysis access duplex, which finding suggests a hemodynamically significant stenosis?",
+"image": "",
+"opciones": [
+"Diffuse low velocities throughout the access",
+"Focal peak systolic velocity markedly higher than adjacent segments with post-stenotic turbulence",
+"Uniform low-resistance waveforms everywhere",
+"Mild aliasing at the venous outflow without velocity increase"
+],
+"respuesta_correcta": [
+"Focal peak systolic velocity markedly higher than adjacent segments with post-stenotic turbulence"
+],
+"concept_to_study": "Stenosis criteria in access duplex",
+"explicacion_openai": "A focal velocity acceleration with turbulence and a notable velocity ratio versus adjacent segments indicates a diameter-reducing stenosis.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 8,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "What is the primary purpose of post-EVAR ultrasound surveillance?",
+"image": "",
+"opciones": [
+"Detect stenosis in the common femoral artery",
+"Evaluate for endoleak and monitor aneurysm sac size",
+"Assess hepatic artery patency",
+"Screen for renal calculi"
+],
+"respuesta_correcta": [
+"Evaluate for endoleak and monitor aneurysm sac size"
+],
+"concept_to_study": "EVAR follow-up goals",
+"explicacion_openai": "Post-EVAR surveillance focuses on identifying endoleaks and tracking aneurysm sac diameter; sac enlargement suggests persistent sac pressurization requiring further evaluation.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 9,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "A Type II endoleak following EVAR is best described as:",
+"image": "",
+"opciones": [
+"Leak at the proximal or distal graft seal",
+"Flow through a fabric defect in the graft",
+"Retrograde filling of the sac from branch vessels (e.g., lumbar arteries)",
+"Persistent sac pressure with no detectable flow source"
+],
+"respuesta_correcta": [
+"Retrograde filling of the sac from branch vessels (e.g., lumbar arteries)"
+],
+"concept_to_study": "Endoleak types (basic)",
+"explicacion_openai": "Type II endoleaks occur from collateral flow via branch vessels refilling the sac retrograde; Type I relates to seal failure, Type III to component/fabric failure, and endotension indicates pressurization without visible leak.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 10,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "After IVC filter placement, which duplex finding is most important to assess?",
+"image": "",
+"opciones": [
+"Presence of portal vein hepatopetal flow",
+"Thrombus trapped at or above the filter and IVC patency",
+"Renal artery peak velocities",
+"Aortic wall calcifications"
+],
+"respuesta_correcta": [
+"Thrombus trapped at or above the filter and IVC patency"
+],
+"concept_to_study": "IVC filter follow-up",
+"explicacion_openai": "IVC surveillance focuses on patency and thrombus within/above the filter that could impair venous return or propagate, guiding management and potential retrieval timing.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 11,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Which sonographic appearance indicates successful endovenous ablation of the great saphenous vein?",
+"image": "",
+"opciones": [
+"Compressible vein with phasic flow",
+"Noncompressible echogenic vein segment without color flow",
+"Persistent reflux at the saphenofemoral junction",
+"Arterialized flow within the treated segment"
+],
+"respuesta_correcta": [
+"Noncompressible echogenic vein segment without color flow"
+],
+"concept_to_study": "Post-ablation expected findings",
+"explicacion_openai": "Ablation aims to occlude the treated vein; success is shown by a noncompressible, echogenic segment with no intraluminal flow. Persistent flow or reflux suggests incomplete closure.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 12,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Which statement best describes an in-situ saphenous vein bypass graft?",
+"image": "",
+"opciones": [
+"The vein is removed and reversed before anastomosis",
+"The vein is left in place with valves disrupted to allow arterial flow",
+"A prosthetic conduit is used from groin to below-knee",
+"Only the profunda femoris artery is used as inflow"
+],
+"respuesta_correcta": [
+"The vein is left in place with valves disrupted to allow arterial flow"
+],
+"concept_to_study": "Bypass graft basics",
+"explicacion_openai": "In an in-situ bypass, the great saphenous vein remains in its native bed; valves are lysed so blood can flow distally. Reversed vein grafts are removed and reversed prior to use.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 13,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "In peripheral arterial stents, the most common cause of in-stent restenosis is:",
+"image": "",
+"opciones": [
+"Atherosclerotic plaque rupture",
+"Neointimal hyperplasia within the stent",
+"Acute thrombosis from dehydration",
+"External compression from hematoma"
+],
+"respuesta_correcta": [
+"Neointimal hyperplasia within the stent"
+],
+"concept_to_study": "Mechanism of in-stent restenosis",
+"explicacion_openai": "Smooth muscle proliferation and extracellular matrix deposition within the stent (neointimal hyperplasia) narrows the lumen over time and is the primary cause of restenosis detected by duplex as focal velocity increases.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 14,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "In a renal transplant, a duplex finding that suggests transplant renal artery stenosis (TRAS) is:",
+"image": "",
+"opciones": [
+"Parvus–tardus intrarenal waveforms with focal velocity acceleration at the anastomosis",
+"Triphasic waveforms in the external iliac artery",
+"Reversed diastolic flow in all intrarenal arteries with normal anastomotic velocities",
+"Complete absence of portal venous flow"
+],
+"respuesta_correcta": [
+"Parvus–tardus intrarenal waveforms with focal velocity acceleration at the anastomosis"
+],
+"concept_to_study": "TRAS sonographic indicators",
+"explicacion_openai": "TRAS commonly produces a focal anastomotic velocity rise and delayed systolic upstroke (parvus–tardus) in intrarenal arteries from downstream perfusion delay.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 15,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Which Doppler velocity pattern in a TIPS is most concerning for shunt dysfunction in a routine follow-up?",
+"image": "",
+"opciones": [
+"Mid-shunt velocities around 110–150 cm/s with laminar color flow",
+"Persistently low velocities below about 90 cm/s within the shunt",
+"Phasic hepatopetal portal vein flow at 20–40 cm/s",
+"Triphasic hepatic venous waveforms"
+],
+"respuesta_correcta": [
+"Persistently low velocities below about 90 cm/s within the shunt"
+],
+"concept_to_study": "TIPS surveillance basics",
+"explicacion_openai": "Abnormally low (<~90 cm/s) or high (>~190 cm/s) shunt velocities or large interval change suggest shunt stenosis/dysfunction and warrant further evaluation.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 16,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Which statement is TRUE regarding expected AVF physical exam findings when functioning well?",
+"image": "",
+"opciones": [
+"There is no palpable thrill",
+"A continuous palpable thrill and audible bruit are present",
+"Only a systolic bruit is present without a thrill",
+"The access is silent unless compressed"
+],
+"respuesta_correcta": [
+"A continuous palpable thrill and audible bruit are present"
+],
+"concept_to_study": "AVF bedside assessment",
+"explicacion_openai": "A functioning AVF typically has a continuous thrill and bruit due to high, continuous flow. Loss of thrill may indicate thrombosis or severe inflow/outflow compromise.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 17,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "In a lower-extremity bypass graft surveillance exam, which simple duplex sign suggests a focal hemodynamically significant stenosis?",
+"image": "",
+"opciones": [
+"Uniform low velocities throughout",
+"Focal, sharp increase in PSV with spectral broadening at the lesion",
+"Complete absence of flow throughout the graft",
+"Reversed flow in the native profunda femoris artery"
+],
+"respuesta_correcta": [
+"Focal, sharp increase in PSV with spectral broadening at the lesion"
+],
+"concept_to_study": "Bypass graft stenosis (duplex)",
+"explicacion_openai": "A focal PSV acceleration with post-stenotic turbulence (spectral broadening) indicates a discrete narrowing; interval comparison helps determine progression and need for intervention.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 18,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "Within 1 week after great saphenous vein ablation, which complication must be excluded at the saphenofemoral junction?",
+"image": "",
+"opciones": [
+"Endothermal heat-induced thrombus extending into the common femoral vein",
+"Subcutaneous bruising along the treated course",
+"Skin hyperpigmentation near the access site",
+"Localized tenderness without extension"
+],
+"respuesta_correcta": [
+"Endothermal heat-induced thrombus extending into the common femoral vein"
+],
+"concept_to_study": "Early post-ablation risk (EHIT)",
+"explicacion_openai": "EHIT describes thrombus propagation from the treated GSV into the deep system (CFV) and requires prompt recognition and management due to DVT/PE risk.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 19,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "A post-catheterization groin mass that is nonpulsatile and shows no internal color flow on ultrasound is most consistent with:",
+"image": "",
+"opciones": [
+"Pseudoaneurysm",
+"Hematoma",
+"Arteriovenous fistula",
+"True aneurysm of the common femoral artery"
+],
+"respuesta_correcta": [
+"Hematoma"
+],
+"concept_to_study": "Groin complications after access",
+"explicacion_openai": "A hematoma is an avascular collection without internal color flow. Pseudoaneurysms are pulsatile with flow and a neck; AVFs show arterialized venous flow at a communication point.",
+"image_explanation": ""
+},
+{
+"clasificacion": "Physiologic Exams",
+"grupo": 20,
+"tipo_pregunta": "opcion_multiple",
+"enunciado": "In a kidney transplant Doppler study, an elevated intrarenal resistive index (RI) may be seen with which common complication?",
+"image": "",
+"opciones": [
+"Transplant renal artery stenosis at the anastomosis",
+"Acute rejection or parenchymal edema",
+"Portal vein thrombosis",
+"Mesenteric ischemia"
+],
+"respuesta_correcta": [
+"Acute rejection or parenchymal edema"
+],
+"concept_to_study": "Transplant kidney complications on duplex",
+"explicacion_openai": "Elevated intrarenal RI is nonspecific but can be associated with acute rejection, edema, or ATN. TRAS more characteristically shows focal velocity acceleration at the anastomosis and distal parvus–tardus waveforms.",
+"image_explanation": ""
+}
 ]
+
