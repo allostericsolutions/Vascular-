@@ -12015,7 +12015,9 @@
             "It will cause immediate vasoconstriction of all veins.",
             "It has no impact on vascular assessment."
         ],
-        "respuesta_correcta": [],
+        "respuesta_correcta": [
+            "It can cause vasodilation, making superficial veins easier to visualize and potentially impacting vein compressibility."
+        ],
         "concept_to_study": "Knowledge of implications of patient position, physical environment, and patient condition on vascular exams (hydrostatic pressure, etc.)",
         "explicacion_openai": "A warm environment can cause peripheral vasodilation, leading to increased venous distention. While this might make some superficial veins easier to see, it can also affect the assessment of vein compressibility, especially in borderline cases. The sonographer must be aware of environmental factors.",
         "image_explanation": ""
@@ -12032,7 +12034,9 @@
             "Presence of a pulsatile mass and associated pain or discomfort.",
             "History of migraine headaches."
         ],
-        "respuesta_correcta": [],
+        "respuesta_correcta": [
+            "Presence of a pulsatile mass and associated pain or discomfort."
+        ],
         "concept_to_study": "Knowledge of signs and symptoms pertaining to the vascular exam",
         "explicacion_openai": "A palpable pulsatile mass in the groin, especially with pain, is a critical sign/symptom highly suggestive of a femoral artery aneurysm or pseudoaneurysm, requiring an urgent vascular ultrasound for diagnosis and management.",
         "image_explanation": ""
@@ -12049,7 +12053,9 @@
             "It will induce significant peripheral vasodilation, improving flow.",
             "It has no known effect on arterial waveforms."
         ],
-        "respuesta_correcta": [],
+        "respuesta_correcta": [
+            "It may reduce heart rate and contractility, potentially affecting peak systolic velocities and waveform morphology."
+        ],
         "concept_to_study": "Knowledge of potential effects of patient medications on exam",
         "explicacion_openai": "Beta-blockers reduce heart rate and myocardial contractility. This can lead to decreased cardiac output and, subsequently, lower peak systolic velocities in peripheral arteries. Changes in heart rate also affect the temporal aspects of the waveform, which the sonographer must consider during interpretation.",
         "image_explanation": ""
@@ -12104,8 +12110,10 @@
             "It increases the risk of the patient falling.",
             "It requires more gel to be used."
         ],
-        "respuesta_correcta": [],
-        "concept_to_study": "Knowledge of implications of patient position, physical environment, and patient condition on vascular exams",
+        "respuesta_correcta": [
+            "It can lead to inaccurate Doppler measurements and incomplete visualization."
+        ],
+        "concept_to_study": "Knowledge of implications of patient position, physical environment, and patient condition on vascular exams (hydrostatic pressure, etc.)",
         "explicacion_openai": "Maintaining specific positions (e.g., proper angle for Doppler, distention for venous studies) is critical for obtaining accurate data and complete visualization of vessels. Inability to do so can severely compromise the diagnostic quality of the exam.",
         "image_explanation": ""
     },
@@ -12121,7 +12129,9 @@
             "Upper extremity arterial and venous duplex for Thoracic Outlet Syndrome.",
             "Lower extremity venous duplex."
         ],
-        "respuesta_correcta": [],
+        "respuesta_correcta": [
+            "Upper extremity arterial and venous duplex for Thoracic Outlet Syndrome."
+        ],
         "concept_to_study": "Knowledge of signs and symptoms pertaining to the vascular exam",
         "explicacion_openai": "Numbness and tingling in the arm/hand exacerbated by overhead activities are classic symptoms of neurogenic or vascular compression in the thoracic outlet, making an upper extremity duplex for Thoracic Outlet Syndrome the most indicated exam.",
         "image_explanation": ""
@@ -12138,7 +12148,9 @@
             "Steroids significantly improve arterial flow.",
             "They have no impact on vessel wall integrity."
         ],
-        "respuesta_correcta": [],
+        "respuesta_correcta": [
+            "Long-term steroid use can weaken arterial walls, potentially increasing aneurysm risk or progression."
+        ],
         "concept_to_study": "Knowledge of potential effects of patient medications on exam",
         "explicacion_openai": "Long-term steroid therapy is known to have catabolic effects on connective tissues, which can weaken arterial walls. This weakening can predispose individuals to aneurysm formation or expansion, making it a relevant factor to consider during vascular exams for aneurysms.",
         "image_explanation": ""
@@ -12155,7 +12167,9 @@
             "Carotid duplex.",
             "Lower extremity arterial duplex."
         ],
-        "respuesta_correcta": [],
+        "respuesta_correcta": [
+            "Carotid duplex."
+        ],
         "concept_to_study": "Knowledge of appropriate indications and contraindications for vascular exams",
         "explicacion_openai": "Amaurosis fugax (transient monocular blindness) is a classic symptom of an embolic event originating from the ipsilateral carotid artery (especially the internal carotid artery). Therefore, a carotid duplex is the most appropriate exam to evaluate for carotid stenosis or plaque as a source.",
         "image_explanation": ""
