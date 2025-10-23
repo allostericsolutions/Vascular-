@@ -13898,6 +13898,483 @@
     "concept_to_study": "Factors affecting arterial pulse amplitude",
     "explicacion_openai": "Vasodilation (e.g., with heating) reduces peripheral resistance and enhances peripheral arterial pulse amplitude in physiologic testing (e.g., PVR/PPG waveforms). Increased resistance or reduced ventricular function diminishes pulse amplitude.",
     "image_explanation": ""
+  },
+    
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 68-year-old male presents with a focal palpable thrill in the right groin. Auscultation reveals a high-pitched sound over the area. Which of the following conditions is the most likely cause of this finding?",
+    "image": "",
+    "opciones": [
+      "Complete occlusion of the right common femoral artery",
+      "Deep venous thrombosis in the right common femoral vein",
+      "Significant stenosis of the right external iliac artery",
+      "Acute right popliteal artery embolism"
+    ],
+    "respuesta_correcta": [
+      "Significant stenosis of the right external iliac artery"
+    ],
+    "concept_to_study": "Bruit and arterial stenosis",
+    "explicacion_openai": "A bruit is a sound heard with a stethoscope due to turbulent blood flow, typically caused by arterial stenosis. A palpable thrill at the groin with a high-pitched bruit suggests hemodynamically significant inflow stenosis (e.g., external iliac). Complete occlusion would eliminate flow (no bruit). DVT is a venous process and does not produce an arterial bruit. An acute distal embolism would not typically cause a localized groin bruit and thrill.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a carotid duplex ultrasound exam, a technologist detects a localized, high-frequency sound while scanning the left internal carotid artery. What is the most probable underlying hemodynamic phenomenon responsible for this audible finding?",
+    "image": "",
+    "opciones": [
+      "Laminar flow distal to a normal carotid bulb",
+      "Turbulent flow due to an atherosclerotic plaque causing stenosis",
+      "Stagnant blood flow within a carotid pseudoaneurysm",
+      "Reversal of flow in the external carotid artery"
+    ],
+    "respuesta_correcta": [
+      "Turbulent flow due to an atherosclerotic plaque causing stenosis"
+    ],
+    "concept_to_study": "Bruit and turbulent flow",
+    "explicacion_openai": "An audible bruit corresponds to turbulent flow, most commonly from atherosclerotic stenosis. Laminar flow is silent. Stagnant flow does not produce a bruit. Flow reversal in the ECA is not the typical cause of a focal bruit in the ICA territory.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient undergoes a peripheral arterial exam due to claudication. A localized bruit is heard over the left common femoral artery. What does the presence of a bruit strongly suggest regarding the vascular status at that location?",
+    "image": "",
+    "opciones": [
+      "Total occlusion of the artery",
+      "Presence of an arteriovenous fistula",
+      "Significant arterial stenosis",
+      "Deep venous insufficiency"
+    ],
+    "respuesta_correcta": [
+      "Significant arterial stenosis"
+    ],
+    "concept_to_study": "Bruit and arterial stenosis",
+    "explicacion_openai": "A bruit indicates turbulent flow and in the context of claudication strongly suggests significant arterial stenosis. Total occlusion would typically eliminate flow and bruit. An AV fistula can cause a bruit, but in this setting stenosis is more likely. Venous insufficiency does not produce arterial bruits.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A physician is evaluating a patient for renovascular hypertension. Auscultation of the abdomen reveals a systolic-diastolic bruit in the periumbilical region. What is the most likely vascular pathology being investigated?",
+    "image": "",
+    "opciones": [
+      "Aortic aneurysm with mural thrombus",
+      "Inferior vena cava stenosis",
+      "Renal artery stenosis",
+      "Superior mesenteric artery occlusion"
+    ],
+    "respuesta_correcta": [
+      "Renal artery stenosis"
+    ],
+    "concept_to_study": "Bruit and renal artery stenosis",
+    "explicacion_openai": "A periumbilical or flank bruit in the setting of suspected renovascular hypertension is most consistent with renal artery stenosis. Other listed conditions are not the typical cause of this clinical constellation.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Surgically Altered Anatomy and Pathology",
+    "grupo": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a post-operative follow-up for carotid endarterectomy, a patient reports a new \"whooshing\" sound in their neck. Upon auscultation, a mild bruit is detected at the surgical site. What is the most common vascular complication that could cause this new finding?",
+    "image": "",
+    "opciones": [
+      "Carotid artery dissection",
+      "Residual stenosis at the endarterectomy site",
+      "Carotid artery occlusion",
+      "Jugular vein thrombosis"
+    ],
+    "respuesta_correcta": [
+      "Residual stenosis at the endarterectomy site"
+    ],
+    "concept_to_study": "Post-carotid endarterectomy complications",
+    "explicacion_openai": "A new bruit after endarterectomy commonly reflects residual or recurrent stenosis at the operative site, producing turbulent flow. Occlusion would typically eliminate a bruit. Dissection is possible but less likely when the sole new finding is a localized bruit. Jugular vein thrombosis does not cause an arterial bruit.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents to the emergency department with acute onset of severe pain, pallor, and paresthesia in the right upper extremity. On physical examination, the radial and ulnar pulses are absent. Which acute vascular condition is the most critical to rule out?",
+    "image": "",
+    "opciones": [
+      "Right subclavian artery occlusion",
+      "Deep venous thrombosis of the right axillary vein",
+      "Thoracic outlet syndrome",
+      "Brachial plexus injury"
+    ],
+    "respuesta_correcta": [
+      "Right subclavian artery occlusion"
+    ],
+    "concept_to_study": "Acute arterial occlusion signs",
+    "explicacion_openai": "The sudden onset of the 5 Ps (pain, pallor, pulselessness, paresthesia, paralysis) indicates acute arterial occlusion. Absent distal pulses point to a proximal arterial blockage such as subclavian occlusion. The other choices would not produce this acute arterial pulse absence.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a routine arterial pressure measurement on a lower extremity, the Doppler signal is completely absent distal to the ankle. Palpation also confirms an absent dorsalis pedis and posterior tibial pulse. What does this finding most immediately indicate?",
+    "image": "",
+    "opciones": [
+      "Venous insufficiency",
+      "Severe arterial occlusion",
+      "Peripheral neuropathy",
+      "Mild claudication"
+    ],
+    "respuesta_correcta": [
+      "Severe arterial occlusion"
+    ],
+    "concept_to_study": "Absent arterial pulse and Doppler signal",
+    "explicacion_openai": "An absent Doppler arterial signal and absent pedal pulses indicate severe arterial occlusion distal to the measurement site. The other conditions do not abolish arterial signals in this manner.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 72-year-old male with a history of atrial fibrillation presents with sudden onset of coldness, numbness, and inability to move his left foot. On examination, no pulses are palpable in the left foot and ankle. What is the most likely cause of this presentation?",
+    "image": "",
+    "opciones": [
+      "Left profunda femoris artery aneurysm",
+      "Left iliac artery stenosis",
+      "Acute arterial embolism to the left lower extremity",
+      "Left femoral vein thrombosis"
+    ],
+    "respuesta_correcta": [
+      "Acute arterial embolism to the left lower extremity"
+    ],
+    "concept_to_study": "Acute arterial embolism",
+    "explicacion_openai": "Atrial fibrillation predisposes to cardiac thromboembolism. Sudden ischemic symptoms with absent distal pulses are classic for an acute arterial embolus to the limb. Chronic stenosis or venous disease would not present this abruptly with absent arterial pulses.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient involved in a motor vehicle accident sustains significant trauma to the right leg. Physical exam reveals an open fracture and an absent popliteal pulse. What is the most urgent concern for the vascular technologist to assess?",
+    "image": "",
+    "opciones": [
+      "Deep venous reflux",
+      "Popliteal artery transection or occlusion",
+      "Muscle compartment pressures",
+      "Sural nerve damage"
+    ],
+    "respuesta_correcta": [
+      "Popliteal artery transection or occlusion"
+    ],
+    "concept_to_study": "Trauma and arterial injury",
+    "explicacion_openai": "An absent popliteal pulse in the setting of limb trauma and open fracture is highly suspicious for arterial transection or acute occlusion, which is limb-threatening and requires immediate evaluation. Other issues may be present but are less urgent than restoring arterial inflow.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In a patient with known peripheral arterial disease, a previously palpable pedal pulse becomes acutely absent. Which of the following conditions represents the most immediate and severe threat to limb viability?",
+    "image": "",
+    "opciones": [
+      "Worsening intermittent claudication",
+      "Acute-on-chronic arterial occlusion",
+      "Development of a venous ulcer",
+      "Progression of lymphedema"
+    ],
+    "respuesta_correcta": [
+      "Acute-on-chronic arterial occlusion"
+    ],
+    "concept_to_study": "Acute limb ischemia in PAD",
+    "explicacion_openai": "Acute loss of a previously palpable pulse indicates acute-on-chronic arterial occlusion and critical limb ischemia risk. The other conditions do not produce abrupt disappearance of arterial pulses.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient with long-standing diabetes and peripheral arterial disease exhibits dependent rubor of the foot (redness when the foot is lowered, blanching on elevation). This finding is indicative of what severity of arterial insufficiency?",
+    "image": "",
+    "opciones": [
+      "Mild claudication",
+      "Moderate ischemia",
+      "Severe multi-segment arterial occlusion",
+      "Venous stasis dermatitis"
+    ],
+    "respuesta_correcta": [
+      "Severe multi-segment arterial occlusion"
+    ],
+    "concept_to_study": "Dependent rubor and severe arterial insufficiency",
+    "explicacion_openai": "Dependent rubor with elevation pallor reflects critical reduction in arterial inflow, typically from multilevel occlusive disease. It is not a feature of mild disease or venous stasis dermatitis.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A vascular technologist is performing an ankle-brachial index (ABI) on a patient whose foot appears dusky red, particularly when hanging down. This color change, known as rubor, suggests what underlying hemodynamic state?",
+    "image": "",
+    "opciones": [
+      "Adequate collateral circulation",
+      "Impaired venous return",
+      "Vasodilation in response to severe tissue hypoxia",
+      "Increased arterial vasospasm"
+    ],
+    "respuesta_correcta": [
+      "Vasodilation in response to severe tissue hypoxia"
+    ],
+    "concept_to_study": "Dependent rubor pathophysiology",
+    "explicacion_openai": "Dependent rubor results from maximal arteriolar dilation due to chronic tissue hypoxia in severe ischemia. When the limb is dependent, increased hydrostatic pressure allows more blood into the dilated microcirculation, producing the reddish discoloration.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient with critical limb ischemia due to aortoiliac and superficial femoral artery (SFA) occlusion is likely to present with which of the following signs in the affected foot?",
+    "image": "",
+    "opciones": [
+      "Unilateral pitting edema",
+      "Distended superficial veins",
+      "Dependent rubor",
+      "Normal capillary refill time"
+    ],
+    "respuesta_correcta": [
+      "Dependent rubor"
+    ],
+    "concept_to_study": "Signs of critical limb ischemia",
+    "explicacion_openai": "Severe arterial insufficiency is associated with dependent rubor from maximal vasodilation and poor perfusion. Edema and distended veins suggest venous pathology, and capillary refill time is typically prolonged in severe ischemia.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following statements best describes the pathophysiology leading to dependent rubor in a patient with severe peripheral arterial disease?",
+    "image": "",
+    "opciones": [
+      "Venous hypertension causing extravasation of red blood cells",
+      "Arterial vasospasm leading to capillary engorgement",
+      "Maximal arteriolar dilation in response to chronic ischemia and tissue hypoxia",
+      "Lymphatic fluid accumulation causing skin discoloration"
+    ],
+    "respuesta_correcta": [
+      "Maximal arteriolar dilation in response to chronic ischemia and tissue hypoxia"
+    ],
+    "concept_to_study": "Pathophysiology of dependent rubor",
+    "explicacion_openai": "Chronic ischemia triggers maximal arteriolar dilation; when the limb is dependent, gravity augments inflow into the dilated microcirculation, producing rubor. The other mechanisms are not responsible for this arterial finding.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents with a non-healing ulcer on their lateral malleolus and observes their foot turning deep red when they sit up. This combination of symptoms points towards a diagnosis of:",
+    "image": "",
+    "opciones": [
+      "Chronic venous insufficiency with stasis ulcer",
+      "Cellulitis secondary to a bacterial infection",
+      "Critical limb ischemia due to severe peripheral arterial disease",
+      "Diabetic neuropathy with Charcot foot"
+    ],
+    "respuesta_correcta": [
+      "Critical limb ischemia due to severe peripheral arterial disease"
+    ],
+    "concept_to_study": "Critical limb ischemia signs",
+    "explicacion_openai": "Dependent rubor with a non-healing ulcer is characteristic of severe arterial insufficiency. Venous stasis ulcers usually occur near the medial malleolus with stasis changes. Cellulitis presents with warmth and tenderness. Charcot neuroarthropathy leads to deformity and plantar ulcers rather than dependent rubor.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 55-year-old male suddenly develops difficulty speaking (aphasia) and weakness of his right arm and leg. These neurological deficits most strongly suggest a lesion in which vascular territory?",
+    "image": "",
+    "opciones": [
+      "Left carotid artery",
+      "Basilar artery",
+      "Right middle cerebral artery",
+      "Posterior cerebral artery"
+    ],
+    "respuesta_correcta": [
+      "Left carotid artery"
+    ],
+    "concept_to_study": "Cerebral vascular territories and stroke symptoms",
+    "explicacion_openai": "Aphasia and right hemiparesis localize to the left cerebral hemisphere, typically in the left carotid/MCA territory. Basilar and posterior cerebral artery events produce posterior circulation syndromes. Right MCA involvement would produce left-sided deficits.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient is brought to the ER with acute onset of right-sided hemiparesis. Ultrasound assessment of the carotid arteries is ordered. Given the symptoms, what is the technologist primarily looking for in the carotid system?",
+    "image": "",
+    "opciones": [
+      "Stenosis or occlusion of the left internal carotid artery",
+      "Dissection of the right common carotid artery",
+      "Plaque in the right external carotid artery",
+      "Kinking of the left vertebral artery"
+    ],
+    "respuesta_correcta": [
+      "Stenosis or occlusion of the left internal carotid artery"
+    ],
+    "concept_to_study": "Carotid ultrasound for stroke evaluation",
+    "explicacion_openai": "Contralateral hemiparesis points to left hemisphere ischemia; thus, significant disease of the left internal carotid artery is the prime target for evaluation. ECA disease and vertebral kinking do not explain this hemispheric presentation.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the context of a transient ischemic attack (TIA) causing transient right-sided weakness, what is the most common embolic source that would be investigated by a vascular technologist?",
+    "image": "",
+    "opciones": [
+      "Right carotid artery plaque",
+      "Left carotid artery plaque",
+      "Vertebral artery dissection",
+      "Deep venous thrombosis"
+    ],
+    "respuesta_correcta": [
+      "Left carotid artery plaque"
+    ],
+    "concept_to_study": "Embolic sources for TIA/stroke",
+    "explicacion_openai": "Right-sided deficits implicate the left hemisphere; the most common extracranial embolic source is atherosclerotic plaque in the left carotid (typically ICA bifurcation/origin). Vertebral dissection affects posterior circulation. DVT causes pulmonary embolism rather than arterial cerebral embolism.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient recovering from a stroke involving the left middle cerebral artery territory presents with persistent right-sided weakness. What specific area of the brain, supplied by this artery, is primarily responsible for motor control of the right side of the body?",
+    "image": "",
+    "opciones": [
+      "Left motor cortex",
+      "Cerebellum",
+      "Brainstem",
+      "Right motor cortex"
+    ],
+    "respuesta_correcta": [
+      "Left motor cortex"
+    ],
+    "concept_to_study": "Cerebral anatomy and motor control",
+    "explicacion_openai": "The primary motor cortex in the left frontal lobe controls contralateral (right-sided) voluntary movement due to corticospinal tract decussation. Cerebellum and brainstem have different roles; the right motor cortex governs the left side.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following arterial occlusions is most likely to result in a sudden onset of right-sided weakness and expressive aphasia?",
+    "image": "",
+    "opciones": [
+      "Right subclavian artery occlusion",
+      "Basilar artery occlusion",
+      "Left internal carotid artery occlusion",
+      "Right posterior cerebral artery occlusion"
+    ],
+    "respuesta_correcta": [
+      "Left internal carotid artery occlusion"
+    ],
+    "concept_to_study": "Cerebral arterial territories and stroke symptoms",
+    "explicacion_openai": "Expressive aphasia and right hemiparesis localize to the left anterior circulation, particularly the left ICA/MCA territory. Posterior circulation (basilar, PCA) typically causes visual or brainstem findings; subclavian occlusion does not cause hemispheric deficits.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 45-year-old female presents with acute onset of unilateral leg swelling, pain, and tenderness in her right calf. On physical examination, the affected leg is noticeably larger than the left. Which vascular condition is the most probable cause of this presentation?",
+    "image": "",
+    "opciones": [
+      "Right superficial femoral artery occlusion",
+      "Right deep venous thrombosis (DVT)",
+      "Right popliteal artery aneurysm",
+      "Chronic venous insufficiency"
+    ],
+    "respuesta_correcta": [
+      "Right deep venous thrombosis (DVT)"
+    ],
+    "concept_to_study": "Deep venous thrombosis (DVT) symptoms",
+    "explicacion_openai": "Acute unilateral swelling, pain, and calf tenderness are classic for DVT due to impaired venous outflow. Arterial lesions cause ischemic signs. Chronic venous insufficiency is typically more gradual and associated with skin changes.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a lower extremity venous duplex scan for unilateral leg swelling, the technologist observes non-compressible veins with echogenic material partially or completely filling the lumen. This finding confirms the presence of:",
+    "image": "",
+    "opciones": [
+      "Superficial thrombophlebitis",
+      "Deep venous thrombosis",
+      "Venous reflux",
+      "Lymphedema"
+    ],
+    "respuesta_correcta": [
+      "Deep venous thrombosis"
+    ],
+    "concept_to_study": "Ultrasound diagnosis of DVT",
+    "explicacion_openai": "Non-compressibility of the vein with intraluminal echogenic material is diagnostic of DVT on ultrasound. Superficial thrombophlebitis affects superficial veins; reflux is abnormal flow without thrombus; lymphedema involves soft tissues rather than venous occlusion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient with long-standing venous insufficiency develops chronic edema, skin discoloration (brawny edema), and a non-healing ulcer near the medial malleolus. These signs are characteristic of:",
+    "image": "",
+    "opciones": [
+      "Acute deep venous thrombosis",
+      "Critical limb ischemia",
+      "Post-thrombotic syndrome",
+      "Cellulitis"
+    ],
+    "respuesta_correcta": [
+      "Post-thrombotic syndrome"
+    ],
+    "concept_to_study": "Post-thrombotic syndrome",
+    "explicacion_openai": "Post-thrombotic syndrome is a chronic consequence of prior DVT with venous hypertension, leading to edema, hyperpigmentation, and medial malleolar ulceration. The other options do not match this chronic pattern.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is the primary physiological mechanism by which a deep venous thrombosis (DVT) leads to the development of edema in the affected extremity?",
+    "image": "",
+    "opciones": [
+      "Increased arterial inflow",
+      "Obstruction of lymphatic drainage",
+      "Impaired venous outflow and increased hydrostatic pressure",
+      "Arterial vasospasm"
+    ],
+    "respuesta_correcta": [
+      "Impaired venous outflow and increased hydrostatic pressure"
+    ],
+    "concept_to_study": "Pathophysiology of DVT-induced edema",
+    "explicacion_openai": "Venous outflow obstruction elevates capillary hydrostatic pressure, promoting fluid transudation into interstitial tissues and causing edema. The other mechanisms are not the primary cause in DVT-related swelling.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents with bilateral lower extremity edema, shortness of breath, and jugular venous distention. What systemic condition is the most likely cause of this bilateral edema?",
+    "image": "",
+    "opciones": [
+      "Chronic venous insufficiency",
+      "Congestive heart failure",
+      "Hypothyroidism",
+      "Cirrhosis"
+    ],
+    "respuesta_correcta": [
+      "Congestive heart failure"
+    ],
+    "concept_to_study": "Systemic causes of bilateral edema",
+    "explicacion_openai": "Bilateral edema with dyspnea and jugular venous distention indicates systemic volume overload, most consistent with congestive heart failure. Chronic venous insufficiency is typically more localized and lacks cardiopulmonary signs; endocrine or hepatic causes are possible but less aligned with the overall presentation.",
+    "image_explanation": ""
   }
-
 ]
+
+
