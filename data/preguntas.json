@@ -12194,83 +12194,1082 @@
         "image_explanation": "The image shows motion artifact, and the question asks for the initial step to correct it, which involves addressing patient movement."
     },
     {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Observe the provided image. What is the name of the artifact shown, where color extends beyond the vessel walls?",
-    "image": "Bleeding.png",
-    "opciones": [
-      "Confetti",
-      "Flash",
-      "Bleeding",
-      "Mirror"
-    ],
-    "respuesta_correcta": [
-      "Bleeding"
-    ],
-    "concept_to_study": "Color Doppler bleeding/blooming artifact",
-    "explicacion_openai": "In Doppler ultrasound, \"Bleeding\" (also commonly called \"Blooming\" or \"Color Bleed\") refers to the artifact where color Doppler signals extend beyond the actual boundaries of the vessel lumen into the surrounding tissue. This usually occurs when the color gain is set too high, causing the system to process even weak signals and noise as flow.",
-    "image_explanation": "The image displays color Doppler signals spilling out of the vessel lumen into the adjacent tissues."
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Considering the artifact shown in the image, which displays color extending beyond the vessel boundaries into the surrounding tissue, which console adjustment would be the most direct and effective action for the sonographer to take to resolve this specific artifact?",
-    "image": "Bleeding.png",
-    "opciones": [
-      "Increase the Pulse Repetition Frequency (PRF)",
-      "Decrease the Wall Filter",
-      "Decrease the Color Gain",
-      "Increase the Color Box Size"
-    ],
-    "respuesta_correcta": [
-      "Decrease the Color Gain"
-    ],
-    "concept_to_study": "Resolving color blooming/bleeding",
-    "explicacion_openai": "The artifact where color \"bleeds\" or \"blooms\" outside the vessel walls is primarily caused by excessive color gain. When the color gain is set too high, the system becomes overly sensitive and picks up low-amplitude signals and noise from stationary tissues, displaying them as flow. Decreasing the color gain reduces this sensitivity, thereby confining the color signal more accurately to the actual blood flow within the vessel lumen. Increasing PRF or decreasing the wall filter would address different types of artifacts (aliasing and flash from wall motion, respectively), and adjusting the color box size does not directly correct blooming.",
-    "image_explanation": "The image shows color Doppler signal extending beyond the vessel walls into the surrounding tissue, characteristic of color blooming or bleeding."
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the name of this artifact?",
-    "image": "Confetti.png",
-    "opciones": [
-      "Confetti",
-      "Flash",
-      "Bleeding",
-      "Mirror"
-    ],
-    "respuesta_correcta": [
-      "Confetti"
-    ],
-    "concept_to_study": "Confetti artifact",
-    "explicacion_openai": "The \"Confetti\" artifact (also known as \"Twinkling\" artifact or \"color speckling\") is characterized by a rapid alternation of multiple colors, appearing as numerous, scattered, discrete dots within an anechoic or cystic structure (e.g., within renal calculi or gas). It is often seen with rough surfaces and is related to the chaotic phase shifts of the returning echoes. Flash, Bleeding, and Mirror are distinct color Doppler artifacts with different appearances and causes.",
-    "image_explanation": "The image shows numerous, scattered, discrete dots of color within an anechoic structure, characteristic of the confetti artifact."
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the name of this artifact?",
-    "image": "Confetti2.png",
-    "opciones": [
-      "Confetti",
-      "Flash",
-      "Bleeding",
-      "Mirror"
-    ],
-    "respuesta_correcta": [
-      "Confetti"
-    ],
-    "concept_to_study": "Confetti artifact",
-    "explicacion_openai": "The \"Confetti\" artifact (also known as \"Twinkling\" artifact or \"color speckling\") is characterized by a rapid alternation of multiple colors, appearing as numerous, scattered, discrete dots, often within an anechoic or cystic structure (e.g., associated with a rough surface like a calcification or gas). It results from chaotic phase shifts of the returning echoes. Flash, Bleeding, and Mirror are distinct color Doppler artifacts with different appearances and causes.",
-    "image_explanation": "The image shows numerous, scattered, discrete dots of color, characteristic of the confetti artifact."
-  }
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Observe the provided image. What is the name of the artifact shown, where color extends beyond the vessel walls?",
+        "image": "Bleeding.png",
+        "opciones": [
+            "Confetti",
+            "Flash",
+            "Bleeding",
+            "Mirror"
+        ],
+        "respuesta_correcta": [
+            "Bleeding"
+        ],
+        "concept_to_study": "Color Doppler bleeding/blooming artifact",
+        "explicacion_openai": "In Doppler ultrasound, \"Bleeding\" (also commonly called \"Blooming\" or \"Color Bleed\") refers to the artifact where color Doppler signals extend beyond the actual boundaries of the vessel lumen into the surrounding tissue. This usually occurs when the color gain is set too high, causing the system to process even weak signals and noise as flow.",
+        "image_explanation": "The image displays color Doppler signals spilling out of the vessel lumen into the adjacent tissues."
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Considering the artifact shown in the image, which displays color extending beyond the vessel boundaries into the surrounding tissue, which console adjustment would be the most direct and effective action for the sonographer to take to resolve this specific artifact?",
+        "image": "Bleeding.png",
+        "opciones": [
+            "Increase the Pulse Repetition Frequency (PRF)",
+            "Decrease the Wall Filter",
+            "Decrease the Color Gain",
+            "Increase the Color Box Size"
+        ],
+        "respuesta_correcta": [
+            "Decrease the Color Gain"
+        ],
+        "concept_to_study": "Resolving color blooming/bleeding",
+        "explicacion_openai": "The artifact where color \"bleeds\" or \"blooms\" outside the vessel walls is primarily caused by excessive color gain. When the color gain is set too high, the system becomes overly sensitive and picks up low-amplitude signals and noise from stationary tissues, displaying them as flow. Decreasing the color gain reduces this sensitivity, thereby confining the color signal more accurately to the actual blood flow within the vessel lumen. Increasing PRF or decreasing the wall filter would address different types of artifacts (aliasing and flash from wall motion, respectively), and adjusting the color box size does not directly correct blooming.",
+        "image_explanation": "The image shows color Doppler signal extending beyond the vessel walls into the surrounding tissue, characteristic of color blooming or bleeding."
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the name of this artifact?",
+        "image": "Confetti.png",
+        "opciones": [
+            "Confetti",
+            "Flash",
+            "Bleeding",
+            "Mirror"
+        ],
+        "respuesta_correcta": [
+            "Confetti"
+        ],
+        "concept_to_study": "Confetti artifact",
+        "explicacion_openai": "The \"Confetti\" artifact (also known as \"Twinkling\" artifact or \"color speckling\") is characterized by a rapid alternation of multiple colors, appearing as numerous, scattered, discrete dots within an anechoic or cystic structure (e.g., within renal calculi or gas). It is often seen with rough surfaces and is related to the chaotic phase shifts of the returning echoes. Flash, Bleeding, and Mirror are distinct color Doppler artifacts with different appearances and causes.",
+        "image_explanation": "The image shows numerous, scattered, discrete dots of color within an anechoic structure, characteristic of the confetti artifact."
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the name of this artifact?",
+        "image": "Confetti2.png",
+        "opciones": [
+            "Confetti",
+            "Flash",
+            "Bleeding",
+            "Mirror"
+        ],
+        "respuesta_correcta": [
+            "Confetti"
+        ],
+        "concept_to_study": "Confetti artifact",
+        "explicacion_openai": "The \"Confetti\" artifact (also known as \"Twinkling\" artifact or \"color speckling\") is characterized by a rapid alternation of multiple colors, appearing as numerous, scattered, discrete dots, often within an anechoic or cystic structure (e.g., associated with a rough surface like a calcification or gas). It results from chaotic phase shifts of the returning echoes. Flash, Bleeding, and Mirror are distinct color Doppler artifacts with different appearances and causes.",
+        "image_explanation": "The image shows numerous, scattered, discrete dots of color, characteristic of the confetti artifact."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In which specific layer of the arterial wall does the initial stage of atherosclerosis pathology manifest?",
+        "image": "",
+        "opciones": [
+            "The tunica adventitia.",
+            "The tunica intima.",
+            "The medial transverse fibers.",
+            "The outer media."
+        ],
+        "respuesta_correcta": [
+            "The tunica intima."
+        ],
+        "concept_to_study": "Atherosclerosis initial stage",
+        "explicacion_openai": "The earliest identifiable change in the development of atherosclerosis involves the disruption of the endothelial cell lining within the tunica intima, the innermost layer of the arterial wall. This initial injury sets the stage for subsequent plaque formation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following factors is generally NOT categorized as a significant risk factor contributing to the development of atherosclerosis?",
+        "image": "",
+        "opciones": [
+            "Elevated blood pressure.",
+            "Female biological sex.",
+            "Insulin resistance.",
+            "Dyslipidemia."
+        ],
+        "respuesta_correcta": [
+            "Female biological sex."
+        ],
+        "concept_to_study": "Risk factors for atherosclerosis",
+        "explicacion_openai": "While postmenopausal females face an increased risk of atherosclerosis compared to premenopausal females, being female is not inherently considered a risk factor. In fact, male gender is often cited as a minor risk factor.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 3,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What clinical outcomes can arise as a direct consequence of atherosclerotic plaque ulceration?",
+        "image": "",
+        "opciones": [
+            "Formation of blood clots.",
+            "Bleeding within the plaque.",
+            "Release of plaque fragments.",
+            "All options are correct."
+        ],
+        "respuesta_correcta": [
+            "All options are correct."
+        ],
+        "concept_to_study": "Complications of atherosclerotic plaque ulceration",
+        "explicacion_openai": "Ulceration of an atherosclerotic plaque, which involves erosion of the intimal layer over the plaque surface, can lead to several complications. These include thrombus formation due to platelet aggregation at the erosion site, intraplaque hemorrhage resulting from blood leakage into the plaque, and embolization of plaque fragments or thrombus material, which can cause distal ischemic events.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 4,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Cerebrovascular fibromuscular dysplasia is observed more frequently in which demographic group?",
+        "image": "",
+        "opciones": [
+            "Males.",
+            "Females.",
+            "Individuals of Australian descent.",
+            "Infants."
+        ],
+        "respuesta_correcta": [
+            "Females."
+        ],
+        "concept_to_study": "Demographics of fibromuscular dysplasia",
+        "explicacion_openai": "Fibromuscular dysplasia, a non-atherosclerotic, non-inflammatory vascular disease characterized by abnormal cell growth in the arterial walls, predominantly affects females, often manifesting in the renal and carotid arteries.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 5,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Regarding the characteristics of atherosclerosis, which statement is factually inaccurate?",
+        "image": "",
+        "opciones": [
+            "The disease process initiates with damage to the intima.",
+            "Atherosclerosis frequently develops at arterial branching points.",
+            "It is fundamentally a red blood cell disorder.",
+            "It is considered a systemic vascular disease."
+        ],
+        "respuesta_correcta": [
+            "It is fundamentally a red blood cell disorder."
+        ],
+        "concept_to_study": "Characteristics of atherosclerosis",
+        "explicacion_openai": "Atherosclerosis is a systemic disease primarily involving the arterial walls, not the red blood cells. It often begins with intimal damage, especially at bifurcations due to shear forces, and can start as early as adolescence. It's a widespread condition affecting various vessels, even if clinically silent in some areas.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 6,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A significant blood pressure difference, specifically a 40 mmHg lower reading in the left arm compared to the right, could be caused by any of the following conditions, EXCEPT for:",
+        "image": "",
+        "opciones": [
+            "Innominate artery occlusion.",
+            "Subclavian artery stenosis causing retrograde flow.",
+            "Takayasu arteritis involving the left subclavian artery.",
+            "An embolus obstructing the axillary artery."
+        ],
+        "respuesta_correcta": [
+            "Innominate artery occlusion."
+        ],
+        "concept_to_study": "Causes of arm blood pressure discrepancies",
+        "explicacion_openai": "Occlusion of the innominate artery, which branches into the right subclavian and right common carotid arteries, would primarily reduce pressure in the right arm, not the left. In contrast, left subclavian disease (atherosclerotic stenosis or large-vessel vasculitis such as Takayasu arteritis) or distal obstruction of the left upper-extremity arteries can lower the left arm pressure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 7,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If a patient presents with a stenosis of the right subclavian artery, which of the following clinical findings will definitively be present?",
+        "image": "",
+        "opciones": [
+            "Reversal of blood flow direction in the right vertebral artery.",
+            "Pain and cramping in the right arm during exertion.",
+            "None of the above will necessarily be present.",
+            "A monophasic Doppler signal in the right axillary artery."
+        ],
+        "respuesta_correcta": [
+            "None of the above will necessarily be present."
+        ],
+        "concept_to_study": "Clinical findings of subclavian artery stenosis",
+        "explicacion_openai": "While all listed options (reversed vertebral flow, arm claudication, reduced arm pressure, monophasic Doppler signal) are potential consequences of right subclavian artery stenosis, their actual manifestation and severity depend on the degree of stenosis and individual compensatory mechanisms. Therefore, none are guaranteed to be present in every case.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 8,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of these specific arterial lesions located proximal to the origin of the left vertebral artery can lead to a vertebral steal phenomenon on the left side?",
+        "image": "",
+        "opciones": [
+            "Blockage of the innominate artery.",
+            "Narrowing at the origin of the left subclavian artery.",
+            "Blockage of the right common carotid artery.",
+            "Blockage of the right axillary artery."
+        ],
+        "respuesta_correcta": [
+            "Narrowing at the origin of the left subclavian artery."
+        ],
+        "concept_to_study": "Vertebral steal phenomenon causes",
+        "explicacion_openai": "Left-sided subclavian steal occurs when a significant stenosis exists in the left subclavian artery proximal to the origin of the left vertebral artery. This creates a pressure gradient that drives retrograde flow in the left vertebral artery to supply the arm. Innominate artery occlusion typically produces right-sided steal, and occlusions of the right common carotid or right axillary arteries do not cause left vertebral steal.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 9,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 65-year-old hypertensive and diabetic male is undergoing cerebrovascular testing due to an asymptomatic bruit on the right side. All of the following are plausible sources for this audible bruit, EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Narrowing of the external carotid artery.",
+            "Stenosis of the subclavian artery.",
+            "Complete obstruction of the common carotid artery.",
+            "A tear within the common carotid artery wall."
+        ],
+        "respuesta_correcta": [
+            "Complete obstruction of the common carotid artery."
+        ],
+        "concept_to_study": "Causes of cervical bruit",
+        "explicacion_openai": "A bruit is an auditory phenomenon caused by turbulent blood flow through a narrowed or irregular vessel. A completely occluded vessel, by definition, has no blood flow, and therefore cannot generate a bruit. Stenosis or dissection can cause turbulent flow and thus a bruit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 10,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which vascular disease primarily affects the innermost layer of an artery and can extend into the middle muscular layer?",
+        "image": "",
+        "opciones": [
+            "Thromboangiitis obliterans.",
+            "Aneurysm formation.",
+            "Atherosclerosis.",
+            "Takayasu's arteritis."
+        ],
+        "respuesta_correcta": [
+            "Atherosclerosis."
+        ],
+        "concept_to_study": "Arterial wall layers affected by atherosclerosis",
+        "explicacion_openai": "Atherosclerosis is a chronic inflammatory disease characterized by the formation of plaques within the arterial intima. As the disease progresses, these plaques can expand and remodel the arterial wall, often extending into the media layer, leading to arterial hardening and narrowing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 11,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Beyond disease affecting the carotid bifurcation, what is the next most frequent source of symptoms indicative of a stroke?",
+        "image": "",
+        "opciones": [
+            "Emboli originating from the heart.",
+            "Paradoxical embolization from deep vein thrombosis.",
+            "Narrowing of the spinal canal.",
+            "Obstruction of the subclavian artery."
+        ],
+        "respuesta_correcta": [
+            "Emboli originating from the heart."
+        ],
+        "concept_to_study": "Sources of stroke beyond carotid bifurcation",
+        "explicacion_openai": "After carotid bifurcation disease, cardiac-source embolization is the second most common cause of stroke. Conditions like atrial fibrillation, which can lead to thrombus formation in the heart, are significant sources of these emboli that can travel to the cerebral circulation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 12,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Among the following options, which is recognized as the most potent risk factor for experiencing a stroke?",
+        "image": "",
+        "opciones": [
+            "A nutritionally deficient eating pattern.",
+            "Excessive body weight.",
+            "Systemic arterial hypertension.",
+            "Abnormally low cholesterol levels."
+        ],
+        "respuesta_correcta": [
+            "Systemic arterial hypertension."
+        ],
+        "concept_to_study": "Most potent stroke risk factor",
+        "explicacion_openai": "Hypertension (high blood pressure) is consistently identified as the single most significant modifiable risk factor for both ischemic and hemorrhagic strokes, greatly increasing the likelihood of vascular damage in the brain.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 13,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Within the cerebrovascular system, where does atherosclerosis most frequently occur?",
+        "image": "",
+        "opciones": [
+            "At the beginning of the internal carotid artery.",
+            "In the intracranial portion of the internal carotid artery.",
+            "In the left subclavian artery.",
+            "In the innominate artery."
+        ],
+        "respuesta_correcta": [
+            "At the beginning of the internal carotid artery."
+        ],
+        "concept_to_study": "Common sites of cerebrovascular atherosclerosis",
+        "explicacion_openai": "The carotid bifurcation, particularly the origin of the internal carotid artery, is a highly turbulent area prone to atherosclerotic plaque formation due to specific hemodynamic forces. This location is the most common site for significant atherosclerotic disease in the cerebrovascular system.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 14,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the predominant type of stroke observed clinically?",
+        "image": "",
+        "opciones": [
+            "Caused by a ruptured blood vessel bulge.",
+            "Ischemic.",
+            "Resulting from an infected clot.",
+            "Caused by a clot in a vein."
+        ],
+        "respuesta_correcta": [
+            "Ischemic."
+        ],
+        "concept_to_study": "Predominant type of stroke",
+        "explicacion_openai": "Approximately 85% of all strokes are ischemic, meaning they are caused by a blockage of blood flow to the brain, usually due to a clot. Hemorrhagic strokes, though less common (around 15%), are more often associated with higher mortality rates.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 15,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Where are carotid body tumors typically situated anatomically?",
+        "image": "",
+        "opciones": [
+            "Medial to the origin point of the external carotid artery.",
+            "Within the lumen of the internal jugular vein.",
+            "Positioned between the internal and external carotid arteries.",
+            "Within the submandibular gland."
+        ],
+        "respuesta_correcta": [
+            "Positioned between the internal and external carotid arteries."
+        ],
+        "concept_to_study": "Anatomy of carotid body tumors",
+        "explicacion_openai": "Carotid body tumors, also known as paragangliomas, are rare neuroendocrine tumors that arise from the chemoreceptor cells of the carotid body. This structure is typically located in the adventitia at the bifurcation of the common carotid artery, nestled between the internal and external carotid arteries.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 16,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement regarding subclavian steal syndrome is INCORRECT?",
+        "image": "",
+        "opciones": [
+            "It is most frequently observed on the left side of the body.",
+            "The majority of affected individuals experience no symptoms.",
+            "It is caused by severe narrowing or complete blockage of the proximal vertebral artery.",
+            "The blood pressure in the affected arm is lower."
+        ],
+        "respuesta_correcta": [
+            "It is caused by severe narrowing or complete blockage of the proximal vertebral artery."
+        ],
+        "concept_to_study": "Subclavian steal syndrome characteristics",
+        "explicacion_openai": "Subclavian steal syndrome is caused by a severe stenosis or occlusion of the proximal subclavian artery, not the proximal vertebral artery. This obstruction occurs before the vertebral artery branches off, leading to retrograde flow in the vertebral artery to supply the arm. The other statements (most common on left, often asymptomatic, lower pressure in affected arm) are generally true.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 17,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 24-year-old patient, recently involved in a car accident, presents to the ICU with acute right-sided weakness and aphasia. What is the most probable underlying cause of these symptoms?",
+        "image": "",
+        "opciones": [
+            "Dissection of the carotid artery.",
+            "Rupture of a cerebral aneurysm.",
+            "Significant narrowing of the internal carotid artery.",
+            "Embolic activity originating from a cardiac mural thrombus."
+        ],
+        "respuesta_correcta": [
+            "Dissection of the carotid artery."
+        ],
+        "concept_to_study": "Causes of stroke in young trauma patients",
+        "explicacion_openai": "In a young patient with a history of recent trauma, such as a car accident, carotid dissection is the most likely etiology for sudden neurological deficits like right-sided weakness (hemiparesis) and aphasia. The inertial forces from the accident can cause a tear in the arterial wall. Atherosclerotic disease is highly unlikely at this age, and while cerebral aneurysm is possible, the trauma history points more strongly to dissection.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Surgically Altered Anatomy and Pathology",
+        "grupo": 18,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Six months following a carotid endarterectomy, a patient undergoes angiography due to symptoms related to the contralateral side. The angiogram reveals significant narrowing of the previously operated carotid artery. What is the most plausible explanation for this finding?",
+        "image": "",
+        "opciones": [
+            "Neointimal hyperplasia.",
+            "A new carotid dissection.",
+            "Embolic activity from a different source.",
+            "Compression from external structures."
+        ],
+        "respuesta_correcta": [
+            "Neointimal hyperplasia."
+        ],
+        "concept_to_study": "Restenosis after carotid endarterectomy",
+        "explicacion_openai": "Neointimal hyperplasia is a common proliferative response of smooth muscle cells to arterial injury, such as that caused by carotid endarterectomy or angioplasty. This biological reaction leads to a thickening of the innermost layer of the artery, resulting in lumen narrowing (restenosis) after the procedure.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 19,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The medical term \"hemiparesis\" precisely denotes which of the following conditions?",
+        "image": "",
+        "opciones": [
+            "Complete paralysis of one side of the body.",
+            "Partial weakness affecting one side of the body.",
+            "Abnormal sensations or tingling on one side of the body.",
+            "Involuntary muscle contractions on one side of the body."
+        ],
+        "respuesta_correcta": [
+            "Partial weakness affecting one side of the body."
+        ],
+        "concept_to_study": "Definition of hemiparesis",
+        "explicacion_openai": "Hemiparesis refers to unilateral weakness or partial paralysis affecting one side of the body. It is often distinguished from hemiplegia, which implies complete paralysis of one side.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 20,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The NASCET (North American Symptomatic Carotid Endarterectomy Trial) utilized which specific arteriographic criterion to categorize internal carotid artery disease?",
+        "image": "",
+        "opciones": [
+            "Stenosis calculated by dividing minimal area/diameter by common carotid area/diameter.",
+            "Percentage stenosis calculated by dividing minimal area by original area at stenosis site.",
+            "Percentage stenosis calculated by dividing minimal diameter by original diameter at stenosis site.",
+            "Diameter stenosis (%) calculated as 100 × [1 − (minimal lumen diameter at the stenosis / diameter of the normal distal internal carotid artery)]."
+        ],
+        "respuesta_correcta": [
+            "Diameter stenosis (%) calculated as 100 × [1 − (minimal lumen diameter at the stenosis / diameter of the normal distal internal carotid artery)]."
+        ],
+        "concept_to_study": "NASCET criteria for carotid stenosis",
+        "explicacion_openai": "The NASCET trial established a standardized method for quantifying carotid stenosis using the normal distal internal carotid artery diameter (beyond the stenosis) as the reference. The formula is: % diameter stenosis = 100 × [1 − (minimal lumen diameter at the stenosis / distal normal ICA diameter)].",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 21,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "All of the following are potential symptoms originating from the brainstem or posterior circulation, EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Amaurosis fugax.",
+            "A feeling of dizziness.",
+            "Double vision.",
+            "Transient loss of consciousness."
+        ],
+        "respuesta_correcta": [
+            "Amaurosis fugax."
+        ],
+        "concept_to_study": "Symptoms of posterior circulation vs. anterior circulation",
+        "explicacion_openai": "Amaurosis fugax (transient monocular visual loss) is typically associated with anterior circulation (ipsilateral carotid) disease. Dizziness/vertigo, diplopia, and syncope are commonly linked to posterior circulation (vertebrobasilar) insufficiency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 22,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents with a 10-minute episode of vision loss where, upon closing each eye, a reduction in the right half of their visual field was present bilaterally. The patient is describing amaurosis fugax.",
+        "image": "",
+        "opciones": [
+            "True.",
+            "False."
+        ],
+        "respuesta_correcta": [
+            "False."
+        ],
+        "concept_to_study": "Distinguishing amaurosis fugax from homonymous hemianopia",
+        "explicacion_openai": "The described symptom, a reduction in the right half of the visual field bilaterally (when closing each eye), is characteristic of homonymous hemianopia, a visual field defect affecting the same side of the visual field in both eyes. Amaurosis fugax, by contrast, refers to transient monocular blindness or shading in one eye.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 23,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is a classic symptom indicative of vertebrobasilar insufficiency?",
+        "image": "",
+        "opciones": [
+            "Unilateral weakness or partial paralysis.",
+            "Difficulty with speech production.",
+            "Temporary loss of vision in one eye.",
+            "Double vision."
+        ],
+        "respuesta_correcta": [
+            "Double vision."
+        ],
+        "concept_to_study": "Symptoms of vertebrobasilar insufficiency",
+        "explicacion_openai": "Diplopia, or double vision, is a hallmark symptom of vertebrobasilar insufficiency, which results from reduced blood flow in the vertebral and basilar arteries supplying the brainstem and cerebellum. Other common vertebrobasilar symptoms include vertigo, ataxia, and dizziness.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 24,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During an ophthalmologic examination, a bright yellow spot is observed within a branch artery. This finding is identified as a Hollenhorst plaque.",
+        "image": "",
+        "opciones": [
+            "True.",
+            "False."
+        ],
+        "respuesta_correcta": [
+            "True."
+        ],
+        "concept_to_study": "Hollenhorst plaque",
+        "explicacion_openai": "A Hollenhorst plaque is a cholesterol embolus visible in the retinal arteries upon ophthalmologic examination, appearing as a bright yellow or orange crystalline structure. Its presence is highly suggestive of ipsilateral carotid atherosclerotic disease and warrants prompt carotid evaluation due to the associated risk of embolic events.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 25,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient experiences a temporary sensation of a \"curtain\" or \"shade\" descending over their vision in one eye. This symptom is medically termed:",
+        "image": "",
+        "opciones": [
+            "Subclavian steal syndrome.",
+            "Difficulty with language comprehension or expression.",
+            "A neurological deficit that fully recovers within 24 hours.",
+            "Transient monocular blindness."
+        ],
+        "respuesta_correcta": [
+            "Transient monocular blindness."
+        ],
+        "concept_to_study": "Definition of amaurosis fugax",
+        "explicacion_openai": "The description of a temporary shading or loss of vision in one eye, often likened to a curtain drawing down, is the classic presentation of amaurosis fugax. By definition, it is a unilateral and transient visual disturbance.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 26,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the United States, approximately how many strokes (new and recurrent) occur each year?",
+        "image": "",
+        "opciones": [
+            "150,000.",
+            "250,000.",
+            "795,000.",
+            "1,000,000."
+        ],
+        "respuesta_correcta": [
+            "795,000."
+        ],
+        "concept_to_study": "Stroke incidence statistics",
+        "explicacion_openai": "Recent epidemiologic data from AHA/ASA estimate approximately 795,000 strokes annually in the United States (including both first-ever and recurrent events), underscoring the substantial public health burden.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 27,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The abbreviation TIA represents:",
+        "image": "",
+        "opciones": [
+            "Terminal internal artery.",
+            "Temporary ischemic attack.",
+            "Transient ischemic attack.",
+            "Transient internal artery."
+        ],
+        "respuesta_correcta": [
+            "Transient ischemic attack."
+        ],
+        "concept_to_study": "Definition of TIA",
+        "explicacion_openai": "TIA stands for Transient Ischemic Attack. This term describes a temporary episode of neurological dysfunction caused by focal brain, spinal cord, or retinal ischemia, without acute infarction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 28,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A Transient Ischemic Attack (TIA) affecting the right anterior hemisphere of the brain will typically manifest symptoms on which side of the body?",
+        "image": "",
+        "opciones": [
+            "The entire body.",
+            "The left side of the body.",
+            "The right side of the body.",
+            "The right side of the face."
+        ],
+        "respuesta_correcta": [
+            "The left side of the body."
+        ],
+        "concept_to_study": "Contralateral effects of cerebral hemisphere TIA",
+        "explicacion_openai": "Neurological pathways in the brain are largely contralateral. Therefore, a TIA (or stroke) in the right anterior hemisphere of the brain, which controls the left side of the body, will result in symptoms affecting the left side of the body.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 29,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Amaurosis fugax, when associated with a lesion in the internal carotid artery, typically causes:",
+        "image": "",
+        "opciones": [
+            "Permanent blindness in the contralateral eye.",
+            "Temporary blindness or visual shading in the ipsilateral eye.",
+            "Permanent blindness in the ipsilateral eye.",
+            "Temporary blindness or visual shading in the contralateral eye."
+        ],
+        "respuesta_correcta": [
+            "Temporary blindness or visual shading in the ipsilateral eye."
+        ],
+        "concept_to_study": "Amaurosis fugax and internal carotid artery lesions",
+        "explicacion_openai": "Amaurosis fugax resulting from an internal carotid lesion affects the ipsilateral eye (the same side as the carotid lesion). This occurs because thromboembolic material from the ulcerated carotid atheroma travels up the internal carotid artery to the ophthalmic artery, which supplies the eye on the same side.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 30,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the defining characteristic of a transient ischemic attack (TIA) in terms of its duration?",
+        "image": "",
+        "opciones": [
+            "Symptoms resolve entirely within a 24-hour period.",
+            "Symptoms do not resolve within 24 hours.",
+            "Symptoms resolve completely within 72 hours.",
+            "Symptoms persist beyond 24 hours."
+        ],
+        "respuesta_correcta": [
+            "Symptoms resolve entirely within a 24-hour period."
+        ],
+        "concept_to_study": "Definition of TIA duration",
+        "explicacion_openai": "By definition, a transient ischemic attack (TIA) involves neurological symptoms that are caused by temporary brain ischemia and resolve completely within 24 hours without evidence of acute infarction. While most TIAs last only a few minutes, the 24-hour window is the historical and clinical benchmark.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 31,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When a patient with suspected cerebrovascular disease experiences simultaneous bilateral ocular symptoms, these disturbances usually originate from which arterial system?",
+        "image": "",
+        "opciones": [
+            "The vertebrobasilar arteries.",
+            "The ophthalmic arteries.",
+            "Both common carotid arteries.",
+            "Both internal carotid arteries."
+        ],
+        "respuesta_correcta": [
+            "The vertebrobasilar arteries."
+        ],
+        "concept_to_study": "Origin of bilateral ocular symptoms in cerebrovascular disease",
+        "explicacion_openai": "Bilateral ocular symptoms, such as binocular visual field defects, typically arise from pathology within the posterior circulation (vertebrobasilar system) because these arteries supply the brainstem and the occipital lobes, where the visual cortex is located.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 32,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is a classic symptom associated with vertebrobasilar insufficiency?",
+        "image": "",
+        "opciones": [
+            "Impaired speech due to language difficulties.",
+            "A sensation of spinning or disequilibrium.",
+            "Temporary loss of vision in one eye.",
+            "Weakness affecting one side of the body."
+        ],
+        "respuesta_correcta": [
+            "A sensation of spinning or disequilibrium."
+        ],
+        "concept_to_study": "Symptoms of vertebrobasilar insufficiency",
+        "explicacion_openai": "Vertigo, a sensation of spinning or disequilibrium, is a prominent symptom of vertebrobasilar insufficiency, reflecting reduced blood flow to the brainstem and cerebellum. Other vertebrobasilar symptoms include diplopia (double vision) and ataxia.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 33,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "From the options provided, which one represents a symptom typically associated with anterior cerebral circulation pathology?",
+        "image": "",
+        "opciones": [
+            "Facial asymmetry.",
+            "Sudden loss of muscle tone causing a fall.",
+            "Brief loss of consciousness.",
+            "Visual disturbances affecting both eyes."
+        ],
+        "respuesta_correcta": [
+            "Facial asymmetry."
+        ],
+        "concept_to_study": "Symptoms of anterior cerebral circulation pathology",
+        "explicacion_openai": "Facial asymmetry, particularly a lateralizing weakness of the face, is a symptom indicative of anterior circulation pathology, often involving the carotid territory. In contrast, ataxia, drop attacks, syncope, and binocular visual disturbances are more commonly associated with vertebrobasilar (posterior) circulation problems.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The term RIND (Reversible Ischemic Neurologic Deficit), also referred to as a \"stroke with recovery,\" is accurately defined as:",
+        "image": "",
+        "opciones": [
+            "A neurological deficit that fully resolves within 24 hours.",
+            "A neurological deficit that does not resolve.",
+            "A neurological deficit with fluctuating severity.",
+            "A neurologic ischemic deficit that resolves completely after 24 hours."
+        ],
+        "respuesta_correcta": [
+            "A neurologic ischemic deficit that resolves completely after 24 hours."
+        ],
+        "concept_to_study": "Definition of RIND",
+        "explicacion_openai": "RIND (Reversible Ischemic Neurologic Deficit) describes an ischemic event that causes neurological symptoms lasting longer than 24 hours but eventually resolves completely. If the deficit does not resolve, it is classified as a stroke (cerebrovascular accident, CVA).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 35,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 56-year-old patient reports a 10-minute loss of vision in her left eye two days ago, which resolved completely. Yesterday morning, she developed right hand weakness and numbness, making it difficult to hold a coffee cup. This afternoon, her hand strength is approximately 90% normal with normal sensation. Clinically, this patient has experienced a:",
+        "image": "",
+        "opciones": [
+            "Transient monocular blindness.",
+            "Brief neurological event without infarction.",
+            "Type of severe headache.",
+            "Cerebrovascular accident."
+        ],
+        "respuesta_correcta": [
+            "Cerebrovascular accident."
+        ],
+        "concept_to_study": "Distinguishing TIA from stroke",
+        "explicacion_openai": "The patient's symptoms (right hand weakness and numbness) persisted for longer than 24 hours and had not completely resolved by the time of the afternoon assessment (90% normal strength). This duration and incomplete resolution meet the clinical criteria for a stroke (cerebrovascular accident), even if some improvement has occurred.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 36,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Amaurosis fugax can be most appropriately interpreted as a:",
+        "image": "",
+        "opciones": [
+            "Permanent damage to the visual cortex.",
+            "Transient ischemic attack affecting the eye.",
+            "Permanent damage to the eye.",
+            "Transient ischemic attack affecting the frontal cortex."
+        ],
+        "respuesta_correcta": [
+            "Transient ischemic attack affecting the eye."
+        ],
+        "concept_to_study": "Definition of amaurosis fugax",
+        "explicacion_openai": "Amaurosis fugax is by definition a transient event, involving temporary vision loss in one eye due to ischemia. Therefore, it is best described as a transient ischemic attack specifically impacting the eye, rather than a permanent \"stroke of the eye\" which would imply tissue necrosis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 37,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Dysphagia is correctly described as:",
+        "image": "",
+        "opciones": [
+            "Symptom associated with vertebrobasilar insufficiency.",
+            "A psychological rather than physiological issue.",
+            "A symptom related to the left cerebral hemisphere (in right-handed individuals).",
+            "A symptom related to the right cerebral hemisphere (in right-handed individuals)."
+        ],
+        "respuesta_correcta": [
+            "Symptom associated with vertebrobasilar insufficiency."
+        ],
+        "concept_to_study": "Dysphagia and vertebrobasilar insufficiency",
+        "explicacion_openai": "Dysphagia (difficulty swallowing) is a neurological symptom frequently associated with dysfunction of the brainstem, which is supplied by the vertebrobasilar arterial system. It is not primarily a psychological issue or directly a hemisphere-specific symptom in the context of typical stroke localization.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 38,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A visual disturbance that affects half of the visual field in both eyes simultaneously is known as:",
+        "image": "",
+        "opciones": [
+            "Complete paralysis of one side of the body.",
+            "Bilateral temporary vision loss.",
+            "Difficulty with swallowing.",
+            "Visual field loss affecting the same side in both eyes."
+        ],
+        "respuesta_correcta": [
+            "Visual field loss affecting the same side in both eyes."
+        ],
+        "concept_to_study": "Definition of homonymous hemianopia",
+        "explicacion_openai": "Homonymous hemianopia refers to a condition where a patient loses vision in the same half of the visual field in both eyes (e.g., loss of the right visual field in both eyes). This typically results from a lesion in the visual pathway posterior to the optic chiasm, such as in the optic tract, lateral geniculate nucleus, or visual cortex.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 39,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Paresthesia is the medical term for:",
+        "image": "",
+        "opciones": [
+            "A sensation of spinning or unsteadiness.",
+            "An impairment in language ability.",
+            "Tingling sensation.",
+            "A feeling of weakness."
+        ],
+        "respuesta_correcta": [
+            "Tingling sensation."
+        ],
+        "concept_to_study": "Definition of paresthesia",
+        "explicacion_openai": "Paresthesia refers to an abnormal sensation, typically \"pins and needles,\" tingling, pricking, chilling, burning, numbness, or creeping on the skin, with no apparent physical cause. It is a sensory symptom.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 40,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient describes a 30-minute episode during which their speech was garbled or unclear. This condition is termed:",
+        "image": "",
+        "opciones": [
+            "Dysphasia.",
+            "Aphasia.",
+            "Paresthesia.",
+            "Dysphagia."
+        ],
+        "respuesta_correcta": [
+            "Dysphasia."
+        ],
+        "concept_to_study": "Definition of dysphasia",
+        "explicacion_openai": "Dysphasia refers to an impairment in the production or comprehension of speech and language. While \"aphasia\" (absence of speech) is often used broadly, \"dysphasia\" is technically more accurate for describing difficulty or garbled speech rather than a complete absence.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 41,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Considering the right-handed patient from the previous question (experiencing garbled speech), which area of the cerebral circulation is most likely implicated?",
+        "image": "",
+        "opciones": [
+            "The right hemisphere.",
+            "The left hemisphere.",
+            "The occipital cortex.",
+            "The vertebrobasilar territory."
+        ],
+        "respuesta_correcta": [
+            "The left hemisphere."
+        ],
+        "concept_to_study": "Cerebral circulation and language dominance",
+        "explicacion_openai": "For most right-handed individuals, the dominant hemisphere for language function (including speech production) is the left cerebral hemisphere. Therefore, symptoms like dysphasia would most likely originate from a problem in the left hemisphere's circulation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 42,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following statements accurately describes subclavian steal syndrome?",
+        "image": "",
+        "opciones": [
+            "Resulting strokes are typically severely disabling.",
+            "It is invariably harmless and never symptomatic.",
+            "It is caused by arterial obstruction proximal to the origin of the vertebral artery.",
+            "It is caused by arterial obstruction distal to the origin of the vertebral artery."
+        ],
+        "respuesta_correcta": [
+            "It is caused by arterial obstruction proximal to the origin of the vertebral artery."
+        ],
+        "concept_to_study": "Characteristics of subclavian steal syndrome",
+        "explicacion_openai": "Subclavian steal is produced by significant stenosis or occlusion of the subclavian artery proximal to the vertebral origin, resulting in retrograde vertebral flow to supply the arm. It is often benign but can be symptomatic; it is not invariably harmless, and distal lesions do not cause the steal mechanism.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 43,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Subclavian steal syndrome occurs:",
+        "image": "",
+        "opciones": [
+            "With greater frequency on the right side.",
+            "With greater frequency on the left side.",
+            "With equal frequency on both sides.",
+            "Primarily in young, male smokers."
+        ],
+        "respuesta_correcta": [
+            "With greater frequency on the left side."
+        ],
+        "concept_to_study": "Frequency of subclavian steal syndrome by side",
+        "explicacion_openai": "Subclavian steal syndrome is observed more commonly on the left side due to the longer course of the left subclavian artery from the aortic arch, making it more susceptible to atherosclerotic disease compared to the innominate artery on the right.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 44,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A hemispheric stroke typically impacts which arterial distribution and side of the body?",
+        "image": "",
+        "opciones": [
+            "The anterior cerebral artery distribution and the ipsilateral side of the body.",
+            "The middle cerebral artery distribution and the contralateral side of the body.",
+            "The external carotid distribution, and may affect one or both sides of the body.",
+            "The anterior cerebellar artery distribution and the contralateral side of the body."
+        ],
+        "respuesta_correcta": [
+            "The middle cerebral artery distribution and the contralateral side of the body."
+        ],
+        "concept_to_study": "Arterial distribution and side of body affected in hemispheric stroke",
+        "explicacion_openai": "Hemispheric strokes most commonly involve the middle cerebral artery (MCA) distribution, which supplies large portions of the cerebral hemispheres. Due to the decussation of motor and sensory pathways, these strokes typically result in neurological deficits (e.g., weakness, sensory loss) on the contralateral side of the body (opposite to the affected hemisphere).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 45,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Stenosis (narrowing) of which of the following vessels carries the highest risk for causing a Transient Ischemic Attack (TIA)?",
+        "image": "",
+        "opciones": [
+            "The left main coronary artery.",
+            "The common carotid artery.",
+            "The internal carotid artery.",
+            "The external carotid artery."
+        ],
+        "respuesta_correcta": [
+            "The internal carotid artery."
+        ],
+        "concept_to_study": "Vessels with highest TIA risk due to stenosis",
+        "explicacion_openai": "Significant stenosis of the internal carotid artery, particularly at its origin, is the most common cause of TIAs. Atherosclerotic plaques in this location can shed emboli that travel to the cerebral circulation, leading to transient neurological symptoms.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A diminished pulse detected at the mid-neck, especially when the contralateral pulse is normal, is suggestive of:",
+        "image": "",
+        "opciones": [
+            "Aneurysmal dilatation of the carotid artery.",
+            "Common carotid stenosis on the side of the reduced pulse.",
+            "Common carotid stenosis on the contralateral side.",
+            "Internal carotid stenosis on the side of the reduced pulse."
+        ],
+        "respuesta_correcta": [
+            "Common carotid stenosis on the side of the reduced pulse."
+        ],
+        "concept_to_study": "Palpable pulse abnormalities in carotid assessment",
+        "explicacion_openai": "A unilaterally decreased pulse at the mid-neck, with a normal pulse on the opposite side, strongly suggests stenosis or occlusion of the common carotid artery on the side of the diminished pulse. While large overlying muscles can sometimes mask a pulse, a clear unilateral reduction indicates pathology.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 47,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following statements regarding a carotid bruit is NOT true?",
+        "image": "",
+        "opciones": [
+            "Severe narrowing can lead to a bruit.",
+            "The absence of a bruit definitively rules out significant stenosis.",
+            "The presence of a bruit is clinically meaningful.",
+            "A cervical bruit could originate from external carotid artery stenosis."
+        ],
+        "respuesta_correcta": [
+            "The absence of a bruit definitively rules out significant stenosis."
+        ],
+        "concept_to_study": "Characteristics and limitations of carotid bruits",
+        "explicacion_openai": "The absence of a bruit does not reliably exclude significant carotid stenosis. While bruits are caused by turbulent flow and are clinically significant, very severe (critical preocclusive) stenoses or complete occlusions may not generate a bruit because the blood flow is too minimal or absent to create turbulence. The other statements are true.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 48,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Bruits audible bilaterally and loudest in the lower neck region are most often indicative of which underlying condition?",
+        "image": "",
+        "opciones": [
+            "Narrowing of the aortic valve.",
+            "Stenosis of the innominate artery.",
+            "Bilateral narrowing of the subclavian arteries.",
+            "Obstruction of the aortic arch."
+        ],
+        "respuesta_correcta": [
+            "Narrowing of the aortic valve."
+        ],
+        "concept_to_study": "Causes of bilateral lower neck bruits",
+        "explicacion_openai": "Bruits heard bilaterally and most prominently low in the neck are frequently caused by radiation of aortic murmurs, particularly those resulting from aortic valve stenosis. The turbulent flow across a narrowed aortic valve can propagate distally into the carotid arteries.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 49,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If a stronger pulse is palpated in the right neck compared to the left, this finding could be a consequence of all of the following EXCEPT:",
+        "image": "",
+        "opciones": [
+            "An unusually winding common carotid artery.",
+            "An aneurysm of the carotid artery on the right side.",
+            "Innominate occlusion.",
+            "Obstruction of the left carotid artery."
+        ],
+        "respuesta_correcta": [
+            "Innominate occlusion."
+        ],
+        "concept_to_study": "Causes of unilateral stronger carotid pulse",
+        "explicacion_openai": "An innominate artery occlusion would lead to reduced blood flow to the right common carotid artery, thereby making the right carotid pulse weaker, not stronger, relative to the left. The other options (tortuous CCA, right carotid aneurysm, left carotid obstruction, or tech error) could potentially result in a stronger palpable pulse on the right.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 50,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following statements are TRUE regarding the clinical detection of a bruit?",
+        "image": "",
+        "opciones": [
+            "A bruit always indicates the presence of disease.",
+            "It signifies the existence of turbulent blood flow.",
+            "A cervical bruit specifically indicates heart valve dysfunction.",
+            "It is a normal finding and has no clinical significance."
+        ],
+        "respuesta_correcta": [
+            "It signifies the existence of turbulent blood flow."
+        ],
+        "concept_to_study": "Clinical significance of bruits",
+        "explicacion_openai": "A bruit indicates turbulent blood flow. It does not invariably imply disease, does not specifically diagnose valvular heart pathology when heard in the neck, and is not simply a normal, insignificant finding.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 51,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During routine auscultation of a carotid bifurcation, the detection of a bruit that extends into diastole (the relaxation phase of the heart) is considered:",
+        "image": "",
+        "opciones": [
+            "Of no significance.",
+            "Marginally significant.",
+            "Moderately significant.",
+            "Highly significant."
+        ],
+        "respuesta_correcta": [
+            "Highly significant."
+        ],
+        "concept_to_study": "Significance of diastolic bruit",
+        "explicacion_openai": "A bruit that extends into diastole indicates severe turbulent flow throughout the cardiac cycle. This finding is highly significant and strongly suggestive of severe stenosis (narrowing) in the carotid artery or other arterial locations, warranting further investigation.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 52,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of these conditions is LEAST likely to generate an audible bruit in the neck?",
+        "image": "",
+        "opciones": [
+            "Severe narrowing of the internal carotid artery.",
+            "Critical preocclusive stenosis of the internal carotid artery.",
+            "Increased and rapid carotid blood flow.",
+            "Disease affecting the heart valves."
+        ],
+        "respuesta_correcta": [
+            "Critical preocclusive stenosis of the internal carotid artery."
+        ],
+        "concept_to_study": "Conditions less likely to cause bruits",
+        "explicacion_openai": "Bruits are caused by turbulent flow. When a stenosis becomes critically severe (preocclusive), the lumen is so narrow that the blood flow through it becomes very minimal, often leading to a reduction or complete disappearance of the turbulent sound, making a bruit less likely or absent. In contrast, severe but not critical stenosis, hyperdynamic flow, or valvular disease can all produce bruits.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 53,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why are brachial blood pressures measured bilaterally when assessing a patient for cerebrovascular disease?",
+        "image": "",
+        "opciones": [
+            "The systolic pressures from each arm are averaged to determine the likelihood of cerebrovascular disease.",
+            "Knowing both brachial pressures is necessary to rule out hypoperfusion syndrome.",
+            "The brachial blood pressures are compared to evaluate for equality.",
+            "Both brachial pressures are needed to identify the presence of hypertension."
+        ],
+        "respuesta_correcta": [
+            "The brachial blood pressures are compared to evaluate for equality."
+        ],
+        "concept_to_study": "Purpose of bilateral brachial blood pressure measurement",
+        "explicacion_openai": "Comparing brachial blood pressures bilaterally is crucial to detect significant discrepancies between the arms. A difference of 15-20 mmHg or more can indicate subclavian artery stenosis on the side with the lower pressure, which is relevant in the context of cerebrovascular evaluation due to its potential association with subclavian steal syndrome.",
+        "image_explanation": ""
+    }
 ]
-
-
-
-
