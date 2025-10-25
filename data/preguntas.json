@@ -15760,7 +15760,46 @@
     "concept_to_study": "Carotid artery anatomy",
     "explicacion_openai": "In this carotid duplex ultrasound image, the yellow arrow is pointing to the External Carotid Artery (ECA). The Common Carotid Artery (CCA) is the main vessel that ascends the neck, seen proximal to the bifurcation. The Carotid Bulb is the slight dilation of the distal CCA, just before it splits. The carotid artery then bifurcates into two main branches: The Internal Carotid Artery (ICA): Typically larger, posterolateral, and does not have branches in the neck. The External Carotid Artery (ECA): Typically smaller, anteromedial, and is characterized by its branches within the neck (e.g., superior thyroid artery). The arrow is pointing to one of these branches originating from the main vessel, which is a classic sonographic identifier for the ECA. The Vertebral Artery is located more posteriorly within the transverse processes of the cervical vertebrae and has a distinct sonographic appearance, separate from the carotid bifurcation. Therefore, the presence of a branch originating from the vessel identified by the arrow is the key differentiator, marking it as the ECA.",
     "image_explanation": "The image shows a carotid ultrasound with a yellow arrow pointing to the External Carotid Artery (ECA), identifiable by its branches originating from the main vessel."
+  },
+  {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Considering the transition from Image A to Image B, what procedure or event is most likely occurring in Image B?",
+    "image": "EVLT_GSV_ablation.png",
+    "opciones": [
+      "Normal venous reflux in the GSV",
+      "Thrombus formation within the GSV lumen",
+      "Endovenous thermal ablation of the GSV",
+      "Duplex mapping of perforating veins"
+    ],
+    "respuesta_correcta": [
+      "Endovenous thermal ablation of the GSV"
+    ],
+    "concept_to_study": "Endovenous thermal ablation",
+    "explicacion_openai": "Image B displays a segment of a vein (likely the Great Saphenous Vein, GSV) with significant perivenous turbulent color flow, appearing as a \"fountain\" or \"bubble\" effect extending into the surrounding tissue. Arrows \"1\" and \"2\" point to the vessel itself, indicating the area of interest. This turbulent color artifact outside the vessel is highly characteristic of the active phase of an endovenous thermal ablation procedure (such as EVLT or RFA). During ablation, tumescent anesthesia (a solution of saline, lidocaine, and epinephrine) is injected around the vein. As the ablation catheter heats the vein, it also heats the tumescent fluid, causing this visualized turbulent or \"boiling\" effect on color Doppler. This finding confirms the catheter's position and active energy delivery.",
+    "image_explanation": "Image B shows characteristic sonographic findings of endovenous thermal ablation, including turbulent color flow around the treated vein."
+  },
+{
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary purpose of the fluid surrounding the treated vein in Image B, which contributes to the characteristic turbulent color Doppler appearance?",
+    "image": "EVLT_GSV_ablation.png",
+    "opciones": [
+      "To provide additional nutrients to the vein wall during heating",
+      "To act as a heat sink, protect surrounding tissues, and provide anesthesia",
+      "To enhance the visibility of post-ablation thrombus formation",
+      "To lubricate the ablation catheter for easier insertion"
+    ],
+    "respuesta_correcta": [
+      "To act as a heat sink, protect surrounding tissues, and provide anesthesia"
+    ],
+    "concept_to_study": "Tumescent anesthesia in EVLT",
+    "explicacion_openai": "The fluid is tumescent anesthesia, typically containing lidocaine and epinephrine. Its primary roles during endovenous thermal ablation are to act as a heat sink, dissipating heat to protect adjacent structures (nerves, skin), provide local anesthesia, and compress the vein for better catheter contact. The turbulent color Doppler appearance is due to the interaction of the heat with the fluid.",
+    "image_explanation": "The image shows tumescent fluid surrounding a vein during endovenous ablation, demonstrating its presence and interaction with the heating catheter, which affects color Doppler appearance."
   }
+
 
 ]
 
