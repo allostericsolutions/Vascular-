@@ -15722,6 +15722,45 @@
 "concept_to_study": "Transplant kidney complications on duplex",
 "explicacion_openai": "Elevated intrarenal RI is nonspecific but can be associated with acute rejection, edema, or ATN. TRAS more characteristically shows focal velocity acceleration at the anastomosis and distal parvus–tardus waveforms.",
 "image_explanation": ""
-}
+},
+{
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Referring to this carotid ultrasound image, which anatomical structure is typically located at the distal segment of the Common Carotid Artery (CCA) and often appears as a slight widening before the carotid bifurcation?",
+    "image": "bulb.png",
+    "opciones": [
+      "Common Carotid Artery (CCA)",
+      "Carotid Bulb",
+      "External Carotid Artery (ECA)",
+      "Vertebral Artery"
+    ],
+    "respuesta_correcta": [
+      "Carotid Bulb"
+    ],
+    "concept_to_study": "Carotid Bulb anatomy",
+    "explicacion_openai": "The Carotid Bulb is a normal anatomical widening or dilation of the distal CCA, occurring just proximal to the bifurcation where the CCA splits into the Internal Carotid Artery (ICA) and the External Carotid Artery (ECA). This area is highly significant for sonographers because it is a common site for atherosclerotic plaque formation and turbulent flow.",
+    "image_explanation": "The image shows a carotid ultrasound with the carotid bulb, a normal widening of the distal CCA before the bifurcation."
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which anatomical structure is indicated by the yellow arrow in this carotid ultrasound image?",
+    "image": "ECA.png",
+    "opciones": [
+      "Common Carotid Artery (CCA)",
+      "Carotid Bulb",
+      "External Carotid Artery (ECA)",
+      "Vertebral Artery"
+    ],
+    "respuesta_correcta": [
+      "External Carotid Artery (ECA)"
+    ],
+    "concept_to_study": "Carotid artery anatomy",
+    "explicacion_openai": "In this carotid duplex ultrasound image, the yellow arrow is pointing to the External Carotid Artery (ECA). The Common Carotid Artery (CCA) is the main vessel that ascends the neck, seen proximal to the bifurcation. The Carotid Bulb is the slight dilation of the distal CCA, just before it splits. The carotid artery then bifurcates into two main branches: The Internal Carotid Artery (ICA): Typically larger, posterolateral, and does not have branches in the neck. The External Carotid Artery (ECA): Typically smaller, anteromedial, and is characterized by its branches within the neck (e.g., superior thyroid artery). The arrow is pointing to one of these branches originating from the main vessel, which is a classic sonographic identifier for the ECA. The Vertebral Artery is located more posteriorly within the transverse processes of the cervical vertebrae and has a distinct sonographic appearance, separate from the carotid bifurcation. Therefore, the presence of a branch originating from the vessel identified by the arrow is the key differentiator, marking it as the ECA.",
+    "image_explanation": "The image shows a carotid ultrasound with a yellow arrow pointing to the External Carotid Artery (ECA), identifiable by its branches originating from the main vessel."
+  }
+
 ]
 
