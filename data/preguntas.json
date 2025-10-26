@@ -11457,7 +11457,7 @@
         "grupo": 149,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Observe the provided color Doppler image. Which of the following artifacts is most clearly demonstrated in the region of the vessel where the colors appear to change abruptly from red to blue and vice-versa?",
-        "image": "aliasing_prf_low",
+        "image": "aliasing_prf_low.png",
         "opciones": [
             "Shadowing",
             "Reverberation",
@@ -11476,7 +11476,7 @@
         "grupo": 150,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Considering the artifact present in the image, which of the following statements about adjusting the angle of insonation would be TRUE in potentially helping to mitigate this artifact?",
-        "image": "aliasing_prf_low",
+        "image": "aliasing_prf_low.png",
         "opciones": [
             "Increasing the Doppler angle closer to 90 degrees will always resolve this artifact.",
             "Decreasing the Doppler angle to be more acute (closer to 0 degrees) might decrease the measured velocity, potentially moving it below the Nyquist limit.",
@@ -11495,7 +11495,7 @@
         "grupo": 151,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Given the artifact in the color Doppler image, which of the following adjustments to the Pulse Repetition Frequency (PRF) is the most direct and effective method to resolve it?",
-        "image": "aliasing_prf_low",
+        "image": "aliasing_prf_low.png",
         "opciones": [
             "Decreasing the PRF to enhance visualization of slow flows.",
             "Increasing the PRF to raise the Nyquist limit.",
@@ -11514,7 +11514,7 @@
         "grupo": 152,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "To resolve the artifact observed in the color Doppler image, which of the following sets of actions is generally considered TRUE and effective?",
-        "image": "aliasing_prf_low",
+        "image": "aliasing_prf_low.png",
         "opciones": [
             "Decreasing the gain, reducing the color box size, increasing the wall filter, and decreasing the PRF.",
             "Increasing the Doppler angle, decreasing the sample volume, lowering the baseline, and decreasing the transducer frequency.",
