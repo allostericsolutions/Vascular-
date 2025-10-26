@@ -15913,9 +15913,116 @@
     "concept_to_study": "Extrinsic compression of the left renal vein",
     "explicacion_openai": "The question describes a scenario where the Left Renal Vein (LRV) is compressed between the SMA and Aorta. This extrinsic compression leads to a narrowing (stenosis) of the vein, causing accelerated and turbulent flow, evidenced by the high peak velocity (>200 cm/s) and spectral broadening seen in the Doppler waveform. This is the characteristic presentation of Nutcracker Syndrome. Chronic thrombosis (A) would typically cause reduced or absent flow, not high velocities. Low PRF (B) causes aliasing, which is a misrepresentation of velocity, not the actual high velocity itself. Valsalva maneuver (C) can affect venous return but would not cause such localized, extreme velocity increases at this specific anatomical junction.",
     "image_explanation": "The image shows the anatomical relationship causing extrinsic compression of the LRV between the SMA and Aorta, and the spectral Doppler confirms high velocities and turbulence, indicative of stenosis due to compression."
+  },
+   {
+    "clasificacion": "Physiologic Examinations",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Based on the results shown in the image, what is the most appropriate interpretation of the VRT in tracings A and B?",
+    "image": "Normal_A_and_Abnormal_B.png",
+    "opciones": [
+      "Normal in A and normal in B",
+      "Normal in A and abnormal in B",
+      "Abnormal in A and normal in B",
+      "Abnormal in A and abnormal in B"
+    ],
+    "respuesta_correcta": [
+      "Normal in A and abnormal in B"
+    ],
+    "concept_to_study": "Venous Refill Time (VRT) interpretation",
+    "explicacion_openai": "Venous photoplethysmography (PPG) assesses venous valve function. The Venous Refill Time (VRT) is the time for venous volume to return to baseline after emptying. A normal VRT is typically > 20 seconds, indicating adequate valve function. An abnormal VRT (< 20 seconds) signifies venous reflux. Tracing A shows a VRT of 35.8 seconds, which is normal. Tracing B shows a VRT of 3.8 seconds, which is significantly abnormal, indicating severe venous insufficiency.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In this venous PPG study, the VRT (Venous Refill Time) is:",
+    "image": "Normal_VRT.png",
+    "opciones": [
+      "Normal",
+      "Abnormal",
+      "Undetermined",
+      "Correct if new graft"
+    ],
+    "respuesta_correcta": [
+      "Normal"
+    ],
+    "concept_to_study": "Venous Refill Time (VRT) interpretation",
+    "explicacion_openai": "A Venous Refill Time (VRT) of 20 seconds or more is considered normal, indicating competent venous valves that prevent significant reflux. The tracing clearly shows a VRT of 35.8 seconds, which exceeds this threshold, thus signifying a normal venous refill time.",
+    "image_explanation": ""
+  },
+    {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In this venous PPG study, the VRT (Venous Refill Time) is:",
+    "image": "Abnormal_VRT.png",
+    "opciones": [
+      "Normal",
+      "Abnormal",
+      "Undetermined",
+      "Grade II"
+    ],
+    "respuesta_correcta": [
+      "Abnormal"
+    ],
+    "concept_to_study": "Venous Refill Time (VRT) interpretation",
+    "explicacion_openai": "A Venous Refill Time (VRT) of less than 20 seconds is considered abnormal, indicating venous insufficiency. The tracing shows a VRT of 6.9 seconds, which is significantly below the normal threshold, strongly suggesting abnormal venous valve function.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In this venous PPG study, the VRT (Venous Refill Time) in A is:",
+    "image": "Normal_VRT1.png",
+    "opciones": [
+      "Normal",
+      "Abnormal",
+      "Undetermined",
+      "Type IV"
+    ],
+    "respuesta_correcta": [
+      "Normal"
+    ],
+    "concept_to_study": "Venous Refill Time (VRT) interpretation",
+    "explicacion_openai": "A Venous Refill Time (VRT) of 20 seconds or greater is considered normal, indicating competent venous valves that prevent significant reflux. The tracing clearly shows a VRT of 62.3 seconds, which is well above this threshold, signifying normal venous refill.",
+    "image_explanation": "The image displays a venous PPG tracing with a labeled Venous Refill Time (VRT) of 62.3 seconds."
+  },
+    {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In this venous PPG study, the VRT (Venous Refill Time) is:",
+    "image": "Abnormal_ppg.png",
+    "opciones": [
+      "Normal",
+      "Abnormal",
+      "Undetermined",
+      "Heart Failure"
+    ],
+    "respuesta_correcta": [
+      "Abnormal"
+    ],
+    "concept_to_study": "Venous Refill Time (VRT) interpretation",
+    "explicacion_openai": "A Venous Refill Time (VRT) of less than 20 seconds is indicative of venous insufficiency or venous reflux. The tracing shows a VRT of 11.4 seconds, which is significantly below the normal threshold, strongly suggesting abnormal venous valve function.",
+    "image_explanation": ""
   }
+]
 
-]  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
