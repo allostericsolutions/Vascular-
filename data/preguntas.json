@@ -4617,13 +4617,13 @@
         "enunciado": "Stenosis causes resistance proximal to the stenosis to _____.",
         "image": "",
         "opciones": [
-            "decrease",
-            "stay the same",
-            "increase",
-            "none of the above"
+            "Decrease",
+            "Stay the same",
+            "Increase",
+            "Ondulate"
         ],
         "respuesta_correcta": [
-            "increase"
+            "Increase"
         ],
         "concept_to_study": "Factors affecting vascular resistance",
         "explicacion_openai": "By narrowing the vessel lumen, stenosis increases frictional losses and raises vascular resistance proximal to the stenotic segment.",
