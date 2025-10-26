@@ -15798,8 +15798,133 @@
     "concept_to_study": "Tumescent anesthesia in EVLT",
     "explicacion_openai": "The fluid is tumescent anesthesia, typically containing lidocaine and epinephrine. Its primary roles during endovenous thermal ablation are to act as a heat sink, dissipating heat to protect adjacent structures (nerves, skin), provide local anesthesia, and compress the vein for better catheter contact. The turbulent color Doppler appearance is due to the interaction of the heat with the fluid.",
     "image_explanation": "The image shows tumescent fluid surrounding a vein during endovenous ablation, demonstrating its presence and interaction with the heating catheter, which affects color Doppler appearance."
+  },
+
+{
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In this ultrasound image of the Great Saphenous Vein (GSV) during an intervention, what anatomical or procedural element is specifically identified by the red arrow?",
+    "image": "Laser_fiber.png",
+    "opciones": [
+      "Needle tip",
+      "Laser fiber",
+      "Bypass graft",
+      "Thrombosis"
+    ],
+    "respuesta_correcta": [
+      "Laser fiber"
+    ],
+    "concept_to_study": "Identifying ablation devices",
+    "explicacion_openai": "The red arrow points to a highly echogenic (bright), linear structure with a distinct tip located within the Great Saphenous Vein (GSV). This appearance is characteristic of the active tip of an ablation device, such as a laser fiber used in Endovenous Laser Ablation (EVLA) or the active tip of a radiofrequency catheter. It is not a needle tip (which would be shorter and simpler), a bypass graft (which is a replacement vessel), or thrombosis (which has a different texture and is not a device).",
+    "image_explanation": "The image shows a Great Saphenous Vein during an intervention. The red arrow highlights a bright, linear structure with a distinct tip within the vein lumen, consistent with an ablation device like a laser fiber."
+  },
+    {
+    "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In this ultrasound image, specifically during an intervention within the Great Saphenous Vein (GSV), what structure is indicated by the yellow arrow?",
+    "image": "Needle_tip.png",
+    "opciones": [
+      "Needle tip",
+      "Stent",
+      "Bypass",
+      "Thrombosis"
+    ],
+    "respuesta_correcta": [
+      "Needle tip"
+    ],
+    "concept_to_study": "Needle tip identification in ultrasound-guided procedures",
+    "explicacion_openai": "The yellow arrow points to a highly echogenic, linear structure traversing the vessel wall and extending into the lumen of the GSV. Its relatively small diameter and sharp, distinct tip are key features of a needle tip used for venous access during procedures like endovenous ablation. A stent or bypass would be larger and have a different appearance. Thrombosis would be within the lumen and have a different texture.",
+    "image_explanation": ""
+  },
+{
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In this ultrasound image, taken during an endovenous ablation procedure of the Great Saphenous Vein (GSV), what is the anechoic (dark) area surrounding the GSV (indicated by the blue arrow) and the ablation device, representing a critical component of the procedure?",
+    "image": "Tumescent_fluid.png",
+    "opciones": [
+      "Hematoma",
+      "Lymphatic fluid",
+      "Tumescent fluid",
+      "Seroma"
+    ],
+    "respuesta_correcta": [
+      "Tumescent fluid"
+    ],
+    "concept_to_study": "Tumescent fluid",
+    "explicacion_openai": "Tumescent fluid, typically a dilute solution of lidocaine and epinephrine in saline, is injected into the perivenous space before endovenous thermal ablation. Its critical roles include acting as a heat sink to protect surrounding tissues from thermal injury, providing local anesthesia, and compressing the vein for improved catheter contact and ablation efficiency. The anechoic area surrounding the GSV in the image represents this tumescent fluid.",
+    "image_explanation": "The image shows an anechoic (dark) fluid collection surrounding the Great Saphenous Vein (GSV) and an ablation device within it, which is characteristic of tumescent fluid used during endovenous ablation procedures."
+  },
+    {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The provided color Doppler ultrasound image displays an area of marked turbulent flow, characterized by a mosaic of red and blue velocities. If this turbulent flow were identified specifically within the left renal vein, particularly between the Superior Mesenteric Artery (SMA) and the Aorta, which specific vascular compression syndrome would be the most likely diagnosis?",
+    "image": "Nutcracker.png",
+    "opciones": [
+      "Thoracic Outlet Syndrome (TOS)",
+      "May-Thurner Syndrome",
+      "Nutcracker Syndrome",
+      "Superior Mesenteric Artery (SMA) Syndrome"
+    ],
+    "respuesta_correcta": [
+      "Nutcracker Syndrome"
+    ],
+    "concept_to_study": "Nutcracker Syndrome",
+    "explicacion_openai": "Nutcracker Syndrome is a vascular compression disorder where the left renal vein (LRV) becomes compressed, most commonly between the superior mesenteric artery (SMA) anteriorly and the aorta posteriorly. This compression leads to increased pressure within the LRV and turbulent flow at the compression site, often resulting in symptoms like hematuria, flank pain, or pelvic congestion. The image shows turbulent flow, consistent with this condition. Thoracic Outlet Syndrome affects the shoulder/neck region. May-Thurner Syndrome affects the left common iliac vein. SMA Syndrome affects the duodenum.",
+    "image_explanation": "The image shows turbulent flow (mosaic of red and blue colors) within a vessel, indicative of a significant flow disturbance, consistent with the findings in Nutcracker Syndrome affecting the left renal vein."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The provided color Doppler ultrasound image shows the left renal vein (LRV) crossing between the Superior Mesenteric Artery (SMA) and the Aorta (Ao). The corresponding spectral Doppler waveform, obtained from the LRV at this junction, demonstrates a significant increase in velocity (over 200 cm/s) and spectral broadening. Based on these findings, what is the most likely reason for the observed velocity increase in the left renal vein?",
+    "image": "Nutcracker_syndrome.png",
+    "opciones": [
+      "Secondary to a thrombosis",
+      "Decreased PRF",
+      "Arteriovenous fistula",
+      "Nutcracker syndrome"
+    ],
+    "respuesta_correcta": [
+      "Nutcracker syndrome"
+    ],
+    "concept_to_study": "Nutcracker Syndrome",
+    "explicacion_openai": "The image shows severe compression of the left renal vein between the SMA and Aorta, leading to markedly increased velocities (over 200 cm/s) and spectral broadening. This is the hallmark of Nutcracker Syndrome. Thrombosis would cause reduced or absent flow. Decreased PRF is a Doppler setting that causes aliasing, not high velocities within the vessel. An arteriovenous fistula involves abnormal communication between an artery and a vein, which is not indicated here.",
+    "image_explanation": "The image displays the left renal vein compressed between the SMA and Aorta, with color Doppler showing turbulent flow and spectral Doppler indicating very high velocities and spectral broadening, characteristic of Nutcracker Syndrome."
+  },
+    {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The provided color Doppler ultrasound image displays a vessel (indicated as \"LRV\") located between two arterial structures (\"SMA\" and \"Ao\"). The associated spectral Doppler waveform, obtained from the LRV at this junction, demonstrates a peak velocity exceeding 200 cm/s with significant spectral broadening and a marked increase compared to the more distal segments. Given these specific sonographic findings, which of the following best explains the observed flow alteration?",
+    "image": "Nutcracker_syndrome.png",
+    "opciones": [
+      "The vessel is experiencing chronic thrombosis with partial recanalization, leading to turbulent flow.",
+      "The high velocity is an artifact of setting the Pulse Repetition Frequency (PRF) too low for venous flow.",
+      "There is a physiological increase in venous return due to Valsalva maneuver, causing elevated velocities.",
+      "The vessel is undergoing extrinsic compression, resulting in a hemodynamically significant stenosis."
+    ],
+    "respuesta_correcta": [
+      "The vessel is undergoing extrinsic compression, resulting in a hemodynamically significant stenosis."
+    ],
+    "concept_to_study": "Extrinsic compression of the left renal vein",
+    "explicacion_openai": "The question describes a scenario where the Left Renal Vein (LRV) is compressed between the SMA and Aorta. This extrinsic compression leads to a narrowing (stenosis) of the vein, causing accelerated and turbulent flow, evidenced by the high peak velocity (>200 cm/s) and spectral broadening seen in the Doppler waveform. This is the characteristic presentation of Nutcracker Syndrome. Chronic thrombosis (A) would typically cause reduced or absent flow, not high velocities. Low PRF (B) causes aliasing, which is a misrepresentation of velocity, not the actual high velocity itself. Valsalva maneuver (C) can affect venous return but would not cause such localized, extreme velocity increases at this specific anatomical junction.",
+    "image_explanation": "The image shows the anatomical relationship causing extrinsic compression of the LRV between the SMA and Aorta, and the spectral Doppler confirms high velocities and turbulence, indicative of stenosis due to compression."
   }
 
+]  
 
-]
+
+
+
+
+
+
+
+
+
+
 
