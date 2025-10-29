@@ -11400,7 +11400,7 @@
         "grupo": 146,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "An ultrasound operator is performing a Doppler study and observes a display issue in image A, where high velocities appear to be misrepresented. To correct this and obtain image B, which adjustment is most likely made?",
-        "image": "aliasing_prf_correction",
+        "image": "aliasing_prf_correction.png",
         "opciones": [
             "Decrease the transducer frequency",
             "Increase the sample volume size",
@@ -11419,7 +11419,7 @@
         "grupo": 147,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the provided ultrasound images, image A shows an artifactual display of blood flow, particularly in regions of higher velocity. If the operator adjusts the system to achieve the accurate flow representation in image B, what primary control was manipulated?",
-        "image": "aliasing_prf_correction",
+        "image": "aliasing_prf_correction.png",
         "opciones": [
             "Reducing the color box size",
             "Elevating the wall filter",
@@ -11438,7 +11438,7 @@
         "grupo": 148,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The transition from ultrasound image A (displaying an artifact related to velocity measurement) to image B (showing corrected blood flow) typically involves which of the following operator actions?",
-        "image": "aliasing_prf_correction",
+        "image": "aliasing_prf_correction.png",
         "opciones": [
             "Decreasing color gain",
             "Activating harmonic imaging",
