@@ -85,10 +85,10 @@
             "Glomus tumor",
             "Chemodectoma",
             "Paraganglioma",
-            "All of the above"
+            "All options are correct"
         ],
         "respuesta_correcta": [
-            "All of the above"
+            "All options are correct"
         ],
         "concept_to_study": "Carotid body tumor (CBT)",
         "explicacion_openai": "Carotid body tumors—also called glomus tumors, chemodectomas, or paragangliomas—appear on ultrasound as well-defined, hypoechoic masses at the carotid bifurcation, with splaying of the internal and external carotid arteries and intense internal vascularity on color Doppler.",
