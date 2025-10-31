@@ -16011,5 +16011,1477 @@
     "concept_to_study": "Venous Refill Time (VRT) interpretation",
     "explicacion_openai": "A Venous Refill Time (VRT) of less than 20 seconds is indicative of venous insufficiency or venous reflux. The tracing shows a VRT of 11.4 seconds, which is significantly below the normal threshold, strongly suggesting abnormal venous valve function.",
     "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the context of obstructive arterial disease, what is typically observed regarding peripheral blood flow during induced ischemia (reactive hyperemia) or exercise?",
+    "image": "",
+    "opciones": [
+      "Blood flow experiences a more pronounced increase in healthy limbs compared to obstructed limbs.",
+      "Peripheral vascular resistance increases, leading to a reduction in cardiac output.",
+      "The duration of elevated blood flow (hyperemia) is extended in limbs with obstruction.",
+      "Blood flow preferentially shunts to superficial veins, bypassing deeper arteries."
+    ],
+    "respuesta_correcta": [
+      "The duration of elevated blood flow (hyperemia) is extended in limbs with obstruction."
+    ],
+    "concept_to_study": "The duration of elevated blood flow (hyperemia) is extended in limbs with obstruction.",
+    "explicacion_openai": "For students, remember that obstructed limbs struggle to restore normal blood flow after a period of reduced supply. This difficulty manifests as a significantly prolonged recovery time, hence the extended period of reactive hyperemia, which is a key indicator of arterial disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the characteristic range for ankle-brachial indices (ABI) in patients presenting with claudication?",
+    "image": "",
+    "opciones": [
+      "ABI values are highly variable and not clinically useful for claudication.",
+      "The ABI typically falls within the normal range of 1.0-1.5.",
+      "The ABI is commonly found between 0.5 and 0.9.",
+      "The ABI usually indicates severe ischemia, ranging from 0.1 to 0.4."
+    ],
+    "respuesta_correcta": [
+      "The ABI is commonly found between 0.5 and 0.9."
+    ],
+    "concept_to_study": "The ABI is commonly found between 0.5 and 0.9.",
+    "explicacion_openai": "For the exam, recognize that claudication, a symptom of peripheral arterial disease, corresponds to an ABI range of 0.5-0.9. Lower ABIs (below 0.5) usually signify more severe disease, potentially leading to rest pain or tissue loss.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which formula accurately describes the calculation of the ankle-brachial index (ABI)?",
+    "image": "",
+    "opciones": [
+      "Higher brachial pressure divided by the ankle pressure.",
+      "Ankle pressure divided by the lower brachial pressure.",
+      "Ankle pressure divided by the highest brachial pressure.",
+      "Lower brachial pressure divided by the ankle pressure."
+    ],
+    "respuesta_correcta": [
+      "Ankle pressure divided by the highest brachial pressure."
+    ],
+    "concept_to_study": "Ankle pressure divided by the highest brachial pressure.",
+    "explicacion_openai": "To calculate ABI correctly, always use the highest systolic pressure obtained from either ankle (dorsalis pedis or posterior tibial artery) and divide it by the highest systolic pressure from either brachial artery. This standardizes the ratio and provides the most accurate reflection of systemic vs. lower extremity perfusion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the peak systolic velocity (PSV) in the mid-superficial femoral artery (SFA) is 225 cm/sec, and the PSV just proximal to this site is 90 cm/sec, what is the most likely conclusion regarding the SFA?",
+    "image": "",
+    "opciones": [
+      "Evidence of a severe SFA aneurysm.",
+      "Indication of a minor SFA narrowing.",
+      "Suggestion of complete SFA occlusion.",
+      "Suggestion of greater than 50% SFA stenosis."
+    ],
+    "respuesta_correcta": [
+      "Suggestion of greater than 50% SFA stenosis."
+    ],
+    "concept_to_study": "Suggestion of greater than 50% SFA stenosis.",
+    "explicacion_openai": "A critical rule for identifying significant stenosis (generally >50%) is when the velocity within the narrowed segment is at least double the pre-stenotic velocity. Here, 225 cm/sec is 2.5 times 90 cm/sec, clearly indicating a hemodynamically significant stenosis.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient's right high-thigh pressure is 108 mmHg, left high-thigh pressure is 142 mmHg, and brachial pressure is 122 mmHg. What do these findings primarily suggest?",
+    "image": "",
+    "opciones": [
+      "Obstruction within the right common femoral or iliac artery.",
+      "Obstruction within the left common femoral or iliac artery.",
+      "A generalized issue affecting the entire aortoiliac segment bilaterally.",
+      "Obstruction in the right superficial femoral artery."
+    ],
+    "respuesta_correcta": [
+      "Obstruction within the right common femoral or iliac artery."
+    ],
+    "concept_to_study": "Obstruction within the right common femoral or iliac artery.",
+    "explicacion_openai": "A significant pressure drop (e.g., >20-30 mmHg) between the brachial pressure and a segmentally measured pressure suggests an obstruction proximal to the cuff. Here, the right high-thigh pressure (108 mmHg) is substantially lower than both the brachial (122 mmHg) and the contralateral (left high-thigh 142 mmHg) pressures. Since the left side is normal and higher than brachial, the issue is isolated to the right iliac/femoral segment.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the fundamental technological component used in arterial pneumoplethysmography?",
+    "image": "",
+    "opciones": [
+      "Electrode sensors that measure electrical conductivity changes in a limb.",
+      "Light-emitting diodes and photoreceptors that detect skin color variations.",
+      "A pressure transducer that monitors changes in air pressure within a cuff around a limb.",
+      "A strain gauge containing a mercury-filled tube that detects limb circumference changes."
+    ],
+    "respuesta_correcta": [
+      "A pressure transducer that monitors changes in air pressure within a cuff around a limb."
+    ],
+    "concept_to_study": "A pressure transducer that monitors changes in air pressure within a cuff around a limb.",
+    "explicacion_openai": "Pneumoplethysmography, specifically, uses an air-filled cuff connected to a pressure transducer. This system detects minute changes in air pressure inside the cuff, which correspond to changes in limb volume with each heartbeat, thereby reflecting arterial pulsatility. Don't confuse it with other plethysmographic methods.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "To most effectively assess the patency of the palmar arch when evaluating a digital artery with Doppler, which maneuver is crucial?",
+    "image": "",
+    "opciones": [
+      "Applying compression to the patient's brachial artery while observing the digital signal.",
+      "Compressing only the radial artery at the wrist while monitoring the digital artery signal.",
+      "Compressing only the ulnar artery at the wrist while monitoring the digital artery signal.",
+      "Sequentially compressing both the radial and ulnar arteries while observing changes in the digital artery signal."
+    ],
+    "respuesta_correcta": [
+      "Sequentially compressing both the radial and ulnar arteries while observing changes in the digital artery signal."
+    ],
+    "concept_to_study": "Sequentially compressing both the radial and ulnar arteries while observing changes in the digital artery signal.",
+    "explicacion_openai": "The most comprehensive assessment of palmar arch patency involves evaluating collateral flow from both radial and ulnar arteries. By compressing one, then the other (or both, then releasing one), you can determine if the arch can adequately supply the digit if one of the main forearm arteries is compromised. This is similar to a modified Allen test.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In which clinical situations is the evaluation of palmar arch patency particularly valuable?",
+    "image": "",
+    "opciones": [
+      "Exclusively before the creation of an arteriovenous (AV) arm shunt for dialysis access.",
+      "Only for diagnosing acute compartment syndrome in the forearm.",
+      "To determine the adequacy of blood flow to the digital arteries in cases of ischemia.",
+      "Both before placement of an AV arm shunt and for assessing digital artery blood flow."
+    ],
+    "respuesta_correcta": [
+      "Both before placement of an AV arm shunt and for assessing digital artery blood flow."
+    ],
+    "concept_to_study": "Both before placement of an AV arm shunt and for assessing digital artery blood flow.",
+    "explicacion_openai": "Palmar arch assessment is vital for two main reasons: 1) Pre-operative planning for AV shunts to prevent hand ischemia post-procedure, and 2) Evaluating patients with digital ischemic symptoms to determine if the digital arteries are receiving adequate collateral circulation.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following best describes a normal analog Doppler waveform from the subclavian or axillary artery in a healthy individual?",
+    "image": "",
+    "opciones": [
+      "A low-resistance waveform similar to a common carotid artery.",
+      "A monophasic, high-resistance waveform indicative of severe disease.",
+      "A high-resistance, triphasic waveform resembling a common femoral artery.",
+      "A waveform showing continuous forward flow, typical of a renal artery."
+    ],
+    "respuesta_correcta": [
+      "A high-resistance, triphasic waveform resembling a common femoral artery."
+    ],
+    "concept_to_study": "A high-resistance, triphasic waveform resembling a common femoral artery.",
+    "explicacion_openai": "The upper extremity arterial system (subclavian, axillary) is a high-resistance vascular bed, much like the lower extremity arteries (e.g., common femoral, superficial femoral). Therefore, normal Doppler waveforms from these vessels will exhibit high-resistance characteristics, often appearing triphasic with a sharp systolic upstroke and a clear diastolic flow reversal.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Surgically Altered Anatomy and Pathology",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A popliteal-to-dorsal pedis lesser saphenous reverse bypass graft shows a peak systolic velocity (PSV) of 28 cm/sec at its distal anastomosis. Which statement is TRUE?",
+    "image": "",
+    "opciones": [
+      "This velocity definitively indicates graft failure, as it is below the common threshold of 45 cm/sec.",
+      "This finding always suggests a new, significant increase in flow compared to previous studies.",
+      "This velocity, in isolation, may be considered within normal limits for this specific type of graft.",
+      "The presence of a pulsatile flow pattern is the only necessary factor for normal interpretation."
+    ],
+    "respuesta_correcta": [
+      "This velocity, in isolation, may be considered within normal limits for this specific type of graft."
+    ],
+    "concept_to_study": "This velocity, in isolation, may be considered within normal limits for this specific type of graft.",
+    "explicacion_openai": "While 45 cm/sec is a common threshold for graft surveillance, it's not absolute. Distal anastomoses of reversed vein grafts, which naturally have larger diameters here, can have lower velocities than other parts of the graft. Without a baseline study or other concerning findings (like loss of triphasic flow, new symptoms), a PSV of 28 cm/sec at this specific location might be acceptable. Context is key!",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Focal acceleration of velocities is one of two primary hemodynamic characteristics defining arterial stenosis. What is the other essential characteristic?",
+    "image": "",
+    "opciones": [
+      "A significant reduction in diastolic flow upstream from the stenosis.",
+      "Diminished pulsatility in the arterial segment immediately before the narrowing.",
+      "The presence of turbulent flow patterns distal to the stenosis.",
+      "An abnormal increase in flow resistance in the segment directly affected by the stenosis."
+    ],
+    "respuesta_correcta": [
+      "The presence of turbulent flow patterns distal to the stenosis."
+    ],
+    "concept_to_study": "The presence of turbulent flow patterns distal to the stenosis.",
+    "explicacion_openai": "When arterial stenosis is present, blood flow first accelerates as it is forced through the narrowed lumen. Crucially, as the blood exits this constricted area, the laminar flow is disrupted, leading to turbulent flow immediately distal to the stenosis. Both focal acceleration and distal turbulence are hallmark ultrasound findings for arterial stenosis.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In which specific vascular bed is diastolic reversal of flow most consistently observed in a healthy individual?",
+    "image": "",
+    "opciones": [
+      "Renal arteries.",
+      "Internal carotid artery.",
+      "Extremity arteries at rest.",
+      "Extremity arteries immediately following strenuous exercise."
+    ],
+    "respuesta_correcta": [
+      "Extremity arteries at rest."
+    ],
+    "concept_to_study": "High-resistance vascular beds (e.g., extremity arteries at rest) show diastolic flow reversal.",
+    "explicacion_openai": "For the exam, remember that diastolic flow reversal is a hallmark of high-resistance vascular beds. At rest, the peripheral arteries of the extremities have high resistance, leading to the classic triphasic waveform with a prominent diastolic reversal component. Low-resistance beds (like renal or ICA) show continuous forward diastolic flow, and exercise reduces extremity resistance, often eliminating the reversal.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Why might Doppler velocity waveforms in upper extremity arteries typically exhibit slight differences when compared to those found in lower extremity arteries?",
+    "image": "",
+    "opciones": [
+      "The systolic upstroke of the waveform is characteristically slower in upper extremities.",
+      "Peripheral vascular resistance is generally lower in the upper extremity circulation.",
+      "Peripheral vascular resistance is consistently higher in the upper extremity circulation.",
+      "Diastolic flow reversal is never observed in the upper extremity at any point."
+    ],
+    "respuesta_correcta": [
+      "Peripheral vascular resistance is generally lower in the upper extremity circulation."
+    ],
+    "concept_to_study": "Upper extremity circulation generally has lower peripheral resistance than lower extremity circulation.",
+    "explicacion_openai": "The key takeaway for students is that the upper extremities generally have lower peripheral resistance compared to the lower extremities at rest. This difference means you might see less pronounced, or even absent, diastolic flow reversal in normal upper extremity waveforms (e.g., brachial artery) compared to the triphasic patterns often seen in resting leg arteries.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A 28-year-old male presents with exercise-induced right calf cramping after walking six blocks, which resolves with 5 minutes of rest. He has strong pedal pulses and normal resting ankle pressures. After exercise, his symptoms are reproduced, the left ankle pressure remains normal, but the right ankle pressure drops to 40 mmHg. These findings are most consistent with:",
+    "image": "",
+    "opciones": [
+      "Atherosclerotic occlusion of the superficial femoral artery.",
+      "Acute anterior compartment syndrome.",
+      "Popliteal artery entrapment syndrome.",
+      "Coarctation of the aorta."
+    ],
+    "respuesta_correcta": [
+      "Popliteal artery entrapment syndrome."
+    ],
+    "concept_to_study": "Popliteal artery entrapment syndrome presents with exercise-induced claudication and post-exercise pressure drop in young individuals.",
+    "explicacion_openai": "This scenario—claudication in a young, athletic male, with normal resting exams but a dramatic, unilateral drop in ankle pressure post-exercise—is highly suggestive of popliteal artery entrapment. Atherosclerosis is rare at this age, and other conditions typically present differently or with bilateral symptoms.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Segmental pressure readings show a 36 mmHg pressure drop from the low-thigh to the below-knee anterior tibial artery, but only a 10 mmHg drop from the low-thigh to the below-knee posterior tibial artery. Where is the most probable location of the obstruction?",
+    "image": "",
+    "opciones": [
+      "Distal superficial femoral artery.",
+      "Popliteal artery.",
+      "Proximal posterior tibial artery.",
+      "Proximal anterior tibial artery."
+    ],
+    "respuesta_correcta": [
+      "Proximal anterior tibial artery."
+    ],
+    "concept_to_study": "Differential pressure drops localize arterial obstructions.",
+    "explicacion_openai": "For precise localization, note the differential pressure drops. A large drop to the anterior tibial artery but a normal drop to the posterior tibial artery clearly points to an isolated obstruction affecting the anterior tibial artery itself, proximal to the below-knee cuff. This is a key diagnostic pattern.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Segmental pressure readings are: high-thigh 126 mmHg, low-thigh 144 mmHg, and below-knee 120 mmHg. All of the following could potentially explain these findings EXCEPT:",
+    "image": "",
+    "opciones": [
+      "A hemodynamically significant superficial femoral artery (SFA) obstruction.",
+      "An artifact caused by an improperly sized or applied cuff.",
+      "Severely calcified arterial walls in a diabetic patient.",
+      "A \"reverse gradient\" due to technical measurement error."
+    ],
+    "respuesta_correcta": [
+      "A hemodynamically significant superficial femoral artery (SFA) obstruction."
+    ],
+    "concept_to_study": "Reverse gradients (low-thigh > high-thigh) are artifacts, not physiological findings of SFA obstruction.",
+    "explicacion_openai": "The critical finding here is the reverse gradient (low-thigh pressure higher than high-thigh pressure). This is always an artifact or technical issue (e.g., cuff problems, calcified arteries), never a physiological result of an SFA obstruction, which would cause a pressure drop below the obstruction.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following standard devices is generally NOT used for the direct measurement of ankle pressures?",
+    "image": "",
+    "opciones": [
+      "Continuous wave (CW) Doppler ultrasound.",
+      "B-mode (gray-scale) ultrasound imaging.",
+      "Strain-gauge plethysmography.",
+      "Photocell plethysmography (PVR/PPG)."
+    ],
+    "respuesta_correcta": [
+      "B-mode (gray-scale) ultrasound imaging."
+    ],
+    "concept_to_study": "B-mode ultrasound is for imaging, not direct pressure measurement.",
+    "explicacion_openai": "Remember that B-mode ultrasound is for anatomical imaging of vessels, not direct pressure measurement. Doppler ultrasound is used to identify the pulse for pressure acquisition, and various plethysmography techniques measure volume changes or pulse presence which can indirectly relate to pressure or pulsatility but B-mode itself does not give a pressure value.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Cardiac treadmill testing and claudication treadmill testing protocols primarily differ in what major aspect?",
+    "image": "",
+    "opciones": [
+      "The specific type of patient monitoring performed during the test.",
+      "The use of a single, non-variable speed for cardiac testing.",
+      "How treadmill speed and elevation are controlled throughout the test.",
+      "The assessment of myocardial ischemia during claudication testing."
+    ],
+    "respuesta_correcta": [
+      "How treadmill speed and elevation are controlled throughout the test."
+    ],
+    "concept_to_study": "Cardiac treadmill tests increase workload; claudication tests use constant speed/elevation.",
+    "explicacion_openai": "The core difference lies in the protocol progression. Cardiac tests progressively increase workload (speed and elevation) to stress the heart. Claudication tests, conversely, typically use a constant speed and elevation to standardize the provocation of leg symptoms and quantify walking distance.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A four-level pressure cuff technique yields a high-thigh pressure of 140 mmHg and an arm pressure of 160 mmHg. Which of the following arterial lesions is LEAST likely to explain these findings?",
+    "image": "",
+    "opciones": [
+      "Significant suprarenal aortic stenosis.",
+      "Common or external iliac artery disease.",
+      "Combined superficial femoral and profunda artery occlusion.",
+      "Isolated profunda femoral artery disease."
+    ],
+    "respuesta_correcta": [
+      "Isolated profunda femoral artery disease."
+    ],
+    "concept_to_study": "Isolated profunda femoral artery disease is unlikely to cause a significant drop in high-thigh pressure.",
+    "explicacion_openai": "The high-thigh pressure (140 mmHg) is significantly lower than the arm pressure (160 mmHg), indicating a proximal obstruction. Lesions like aortic stenosis or iliac artery disease would cause this. While SFA + profunda occlusion could affect thigh pressure, isolated profunda disease is often well-collateralized and typically does not cause a significant drop in high-thigh pressure that would be detected by a thigh cuff.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a treadmill test, a patient reports pain in the left arm and jaw, but no other discomfort. What should the examiner consider as the most probable cause of these symptoms?",
+    "image": "",
+    "opciones": [
+      "Acute onset of arm claudication.",
+      "Myocardial ischemia (angina).",
+      "Benign musculoskeletal discomfort.",
+      "Development of subclavian steal syndrome."
+    ],
+    "respuesta_correcta": [
+      "Myocardial ischemia (angina)."
+    ],
+    "concept_to_study": "Left arm and jaw pain during exercise can be referred pain from myocardial ischemia (angina).",
+    "explicacion_openai": "Classic exam tip: Left arm and jaw pain during exercise, even without overt chest pain, are highly characteristic referred pain symptoms of angina (cardiac ischemia). Always assume angina in this situation and respond appropriately to a potential cardiac event.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During an ankle pressure assessment, the posterior tibial artery pressure is 40 mmHg, the peroneal artery pressure is 40 mmHg, and the dorsalis pedis pressure is 50 mmHg. Which pressure should be used to calculate the ankle-brachial index (ABI)?",
+    "image": "",
+    "opciones": [
+      "The posterior tibial artery pressure (40 mmHg).",
+      "The dorsalis pedis artery pressure (50 mmHg).",
+      "The peroneal artery pressure (40 mmHg).",
+      "The calculated average of all three ankle pressures."
+    ],
+    "respuesta_correcta": [
+      "The dorsalis pedis artery pressure (50 mmHg)."
+    ],
+    "concept_to_study": "Use the highest ankle pressure for ABI calculation.",
+    "explicacion_openai": "For ABI calculation, always use the highest systolic pressure obtained from any ankle artery (DP, PT, or peroneal if measured) in that limb. This ensures the best representation of distal perfusion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Segmental pressure readings are: Right brachial 144 mmHg, Left brachial 140 mmHg, Right high thigh 110 mmHg, Left high thigh 164 mmHg. All of the following arterial lesions could potentially lead to these findings EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Significant bilateral aortoiliac obstruction.",
+      "Isolated right common iliac obstruction.",
+      "Isolated right external iliac obstruction.",
+      "Isolated right proximal superficial femoral artery obstruction."
+    ],
+    "respuesta_correcta": [
+      "Significant bilateral aortoiliac obstruction."
+    ],
+    "concept_to_study": "A high left thigh pressure with a low right thigh pressure suggests a right-sided proximal obstruction and a potential artifact on the left, not bilateral aortoiliac disease.",
+    "explicacion_openai": "The dramatic drop in the right high-thigh pressure (110 mmHg) indicates a right-sided obstruction proximal to that cuff. The left high-thigh pressure (164 mmHg) is abnormally high, suggesting a technical artifact (e.g., small cuff, calcified arteries) rather than a true physiological reading. Bilateral aortoiliac obstruction would typically cause decreased pressures in both high thighs, not one low and one abnormally high, making it inconsistent with these specific combined findings.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is considered the typical normal diameter range for the abdominal aorta in adults?",
+    "image": "",
+    "opciones": [
+      "Less than 1.5 cm.",
+      "Between 2.0 and 3.0 cm.",
+      "Between 3.5 and 4.5 cm.",
+      "Greater than 5.0 cm."
+    ],
+    "respuesta_correcta": [
+      "Between 2.0 and 3.0 cm."
+    ],
+    "concept_to_study": "Normal adult abdominal aorta diameter is 2.0-3.0 cm.",
+    "explicacion_openai": "A key anatomical measurement: The normal adult abdominal aorta typically measures 2.0-3.0 cm. Diameters exceeding 3.0 cm warrant closer attention for ectasia or aneurysm formation, making this a critical threshold to remember.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient reports rest pain, and physical examination reveals elevation pallor, dependent rubor, and absent palpable pulses in the leg. An ankle pressure of 120 mmHg is measured. What does this ankle pressure finding suggest in light of the severe clinical presentation?",
+    "image": "",
+    "opciones": [
+      "It is perfectly consistent with the patient's reported rest pain.",
+      "It indicates an unexpectedly low reading for the described symptoms.",
+      "It is an unexpectedly high reading, suggesting potential arterial calcification.",
+      "It implies the physical examination findings must be inaccurate."
+    ],
+    "respuesta_correcta": [
+      "It is an unexpectedly high reading, suggesting potential arterial calcification."
+    ],
+    "concept_to_study": "High ankle pressures with severe CLI symptoms suggest arterial calcification.",
+    "explicacion_openai": "When severe clinical signs of critical limb ischemia (rest pain, pallor, rubor, absent pulses) are present, normal or high ankle pressures (like 120 mmHg) are a major red flag for falsely elevated readings. This almost always means the arteries are heavily calcified (often in diabetics) and incompressible, preventing accurate pressure measurement.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient with a history of rest pain, 100-foot calf and thigh claudication, and a great toe ulcer on the left foot, has a left ankle pressure of >300 mmHg. What does this result primarily indicate?",
+    "image": "",
+    "opciones": [
+      "This finding is a definitive diagnosis of a diabetic foot.",
+      "The result is erroneous, most likely due to arterial calcification.",
+      "This pressure level is consistent with severe small vessel disease.",
+      "This pressure is demonstrative of uncontrolled systemic hypertension."
+    ],
+    "respuesta_correcta": [
+      "The result is erroneous, most likely due to arterial calcification."
+    ],
+    "concept_to_study": "Ankle pressure >300 mmHg indicates arterial calcification and an erroneous measurement.",
+    "explicacion_openai": "For students: An ankle pressure reading over 300 mmHg, especially in a patient with severe symptoms like rest pain and ulceration, is a red flag for an invalid measurement. It strongly suggests that the arteries are heavily calcified and incompressible (common in diabetics), leading to a falsely elevated pressure and making ABI calculation unreliable.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presenting with mild claudication-like symptoms has a resting ankle-brachial index (ABI) of 1.02 for the affected leg. What does this finding most accurately imply?",
+    "image": "",
+    "opciones": [
+      "The arterial disease, if present, is strictly confined to the tibial arteries.",
+      "The possibility of any significant arterial disease is definitively excluded.",
+      "This represents an incomplete or insufficient evaluation of the patient's vascular status.",
+      "This finding is a strong indicator of non-compressible, calcific arteries."
+    ],
+    "respuesta_correcta": [
+      "This represents an incomplete or insufficient evaluation of the patient's vascular status."
+    ],
+    "concept_to_study": "A normal resting ABI with claudication symptoms requires further evaluation (e.g., exercise test).",
+    "explicacion_openai": "Key point for students: A normal resting ABI (like 1.02) does not rule out arterial disease if symptoms are present. Mild or compensated disease may only manifest under stress. Therefore, an exercise or reactive hyperemia study is crucial to fully evaluate claudication symptoms when resting ABIs are normal.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "After walking on a treadmill for 5 minutes, a patient's ankle pressure decreases by 40% on the right and 15% on the left. What do these post-exercise findings suggest?",
+    "image": "",
+    "opciones": [
+      "The presence of bilateral high-grade femoral artery occlusions.",
+      "Only an isolated right femoral artery occlusion.",
+      "These results are considered within the normal physiological response to exercise.",
+      "These decreases are characteristic findings for patients with claudication."
+    ],
+    "respuesta_correcta": [
+      "These decreases are characteristic findings for patients with claudication."
+    ],
+    "concept_to_study": "Significant post-exercise ankle pressure drop indicates arterial insufficiency/claudication.",
+    "explicacion_openai": "For the exam, remember that a significant post-exercise drop in ankle pressure (typically >20% or >20-30 mmHg) is a hallmark of arterial insufficiency and claudication. This patient demonstrates a more pronounced disease on the right, but both legs show evidence of functional arterial compromise with exercise.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Given the following pressures: Right arm 180 mmHg, Left arm 120 mmHg, Right Posterior Tibial Artery (PTA) 100 mmHg, Left PTA 90 mmHg. Calculate the left ankle-brachial index (ABI).",
+    "image": "",
+    "opciones": [
+      "0.50 (Left PTA 90 / Right arm 180).",
+      "0.75 (Left PTA 90 / Left arm 120).",
+      "0.90 (Left PTA 90 / Right PTA 100).",
+      "1.50 (Left PTA 90 / Left arm 60 diastolic)."
+    ],
+    "respuesta_correcta": [
+      "0.50 (Left PTA 90 / Right arm 180)."
+    ],
+    "concept_to_study": "ABI calculation uses the highest brachial pressure as the denominator.",
+    "explicacion_openai": "Crucial for ABI calculation: Always use the highest brachial systolic pressure (regardless of side) as the denominator. In this case, 180 mmHg (right arm) is higher than 120 mmHg (left arm). The left ankle pressure is 90 mmHg. So, 90 / 180 = 0.50.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Considering the following pressure findings (Right arm 180 mmHg, Left arm 120 mmHg, Right PTA 100 mmHg, Left PTA 90 mmHg), which statement is INCORRECT?",
+    "image": "",
+    "opciones": [
+      "The patient has right lower extremity arterial disease.",
+      "The patient has left lower extremity arterial disease.",
+      "The patient has left subclavian artery disease.",
+      "The patient has renovascular hypertension."
+    ],
+    "respuesta_correcta": [
+      "The patient has renovascular hypertension."
+    ],
+    "concept_to_study": "Bilateral low ABIs and brachial pressure difference indicate lower extremity and subclavian disease, not necessarily renovascular hypertension.",
+    "explicacion_openai": "For students, analyze what can be directly inferred from the data. The ABIs (Right: 100/180 = 0.56; Left: 90/180 = 0.50) confirm bilateral lower extremity disease. The 60 mmHg difference between brachial pressures (180 vs 120) strongly indicates left subclavian artery disease. While the patient is hypertensive (180 mmHg), the given data cannot confirm renovascular hypertension; this diagnosis requires renal artery evaluation, which is not provided.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A male patient undergoes a treadmill test for leg symptoms. After 10 seconds of walking, he reports bilateral calf and thigh pain, with the right leg worse than the left. He continues for 5 minutes until stopped, but symptoms do not resolve or significantly worsen. Pre-exercise pressures: Arm 130, Right ankle 130, Left ankle 120. Post-exercise pressures: Arm 160, Right ankle 100, Left ankle 110. Which statement is TRUE?",
+    "image": "",
+    "opciones": [
+      "There is arterial disease present in both legs.",
+      "The patient's symptoms are likely not due solely to vascular disease.",
+      "The right leg is symptomatically worse than the left.",
+      "All of the above statements are true."
+    ],
+    "respuesta_correcta": [
+      "All of the above statements are true."
+    ],
+    "concept_to_study": "Combine ABI changes, symptom description, and patient report for comprehensive interpretation.",
+    "explicacion_openai": "This is a multi-faceted question for the exam. Arterial disease in both legs: Post-exercise ankle pressure drops (Right: 130 to 100; Left: 120 to 110) confirm arterial disease. Symptoms not solely vascular: Very rapid onset (10 seconds), no worsening during exercise, and no resolution post-exercise are atypical for classic claudication, suggesting a non-vascular component to the pain. Right leg worse: Patient's report directly states the right leg is symptomatically worse. Therefore, all statements are true.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient stops a treadmill test at 3 minutes due to left calf and thigh pain, with the right leg remaining asymptomatic. Pre-exercise: Right arm 150, Right PTA 120, Left PTA 120. Post-exercise: Right arm 150, Right PTA 75, Left PTA 50. Which statement is TRUE?",
+    "image": "",
+    "opciones": [
+      "There is arterial disease in both legs.",
+      "The left leg demonstrates more severe disease than the right.",
+      "The patient has clear aortoiliac arterial disease.",
+      "Retesting in 30 minutes would predictably result in a shorter walking time."
+    ],
+    "respuesta_correcta": [
+      "The left leg demonstrates more severe disease than the right."
+    ],
+    "concept_to_study": "Compare post-exercise ABIs to determine severity of disease in each leg.",
+    "explicacion_openai": "For students, compare the post-exercise pressure drops: Pre-exercise ABIs: Right (120/150 = 0.8), Left (120/150 = 0.8). Post-exercise ABIs: Right (75/150 = 0.5), Left (50/150 = 0.33). Both legs show disease (post-exercise pressure drop), but the left leg's ABI drops significantly lower (to 0.33) than the right (0.5), indicating more severe functional impairment on the left, consistent with the patient's symptoms. This data doesn't confirm aortoiliac disease specifically, and retesting assumes recovery, not necessarily a shorter walk.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the appropriate electrical coupling setting used for arterial volume recording (plethysmography)?",
+    "image": "",
+    "opciones": [
+      "AC-coupled output.",
+      "DC-coupled output.",
+      "A low-pass filter setting of 3.5 Hz.",
+      "A \"mean\" averaging filter setting."
+    ],
+    "respuesta_correcta": [
+      "AC-coupled output."
+    ],
+    "concept_to_study": "AC coupling is used for arterial plethysmography to capture pulsatile volume changes.",
+    "explicacion_openai": "For plethysmography, remember that you're interested in the pulsatile changes in volume with each heartbeat. AC (Alternating Current) coupling is designed to transmit these rapid, oscillating signals while filtering out slower, baseline shifts, making it ideal for arterial waveform analysis. DC (Direct Current) coupling is typically for slower, sustained changes, often seen in venous studies.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Distal to a hemodynamically significant stenosis in the lower extremity arterial circulation, Doppler waveform abnormalities typically include all of the following EXCEPT:",
+    "image": "",
+    "opciones": [
+      "An absent or significantly reduced flow reversal component.",
+      "Blunting of the peak systolic velocity.",
+      "A prolonged systolic acceleration (upslope) and deceleration (downslope).",
+      "The presence of a triphasic waveform."
+    ],
+    "respuesta_correcta": [
+      "The presence of a triphasic waveform."
+    ],
+    "concept_to_study": "Distal to stenosis, waveforms lose triphasic characteristics and become monophasic/biphasic.",
+    "explicacion_openai": "Critical for understanding stenosis: Distal to a significant narrowing, the waveform loses its normal triphasic characteristics. It becomes monophasic or biphasic, with a blunted peak, delayed upstroke, prolonged downslope, and absence of diastolic flow reversal. The stenosis acts as a \"low-pass filter,\" dampening the higher frequency components.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "All of the following parameters are typically assessed during exercise testing for peripheral arterial disease EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Changes in the ankle-brachial index (ABI).",
+      "The total time required for ankle pressures to recover to pre-stress levels.",
+      "The patient's reported onset and severity of leg pain during exertion.",
+      "The calculation of a thigh-to-ankle pressure index."
+    ],
+    "respuesta_correcta": [
+      "The calculation of a thigh-to-ankle pressure index."
+    ],
+    "concept_to_study": "Exercise testing focuses on ABI changes, recovery time, and symptom reporting, not thigh-to-ankle index.",
+    "explicacion_openai": "For exercise testing, focus on the functional impact: how long the patient can walk, when symptoms start, how much ankle pressures drop, and how long they take to recover. While ABIs are calculated pre and post-exercise, a specific \"thigh-to-ankle index\" is not a standard parameter monitored during or as a primary outcome of exercise testing.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "All of the following are valid reasons to perform reactive hyperemia testing as an alternative to treadmill exercise testing, EXCEPT:",
+    "image": "",
+    "opciones": [
+      "The patient's severe inability to tolerate the application of pressure cuffs.",
+      "The patient's physical inability to stand or walk on a treadmill.",
+      "The patient's compromised cardiac status, making exercise unsafe.",
+      "The patient's significant pulmonary limitations."
+    ],
+    "respuesta_correcta": [
+      "The patient's severe inability to tolerate the application of pressure cuffs."
+    ],
+    "concept_to_study": "Reactive hyperemia requires pressure cuffs, so intolerance to cuffs makes it unsuitable.",
+    "explicacion_openai": "Reactive hyperemia is a good alternative for patients with mobility, cardiac, or pulmonary issues because it doesn't require walking. However, it still requires pressure cuffs and involves inflating them to suprasystolic levels. So, if a patient cannot tolerate cuffs, reactive hyperemia is not a suitable alternative.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A normal arterial volume recording waveform (plethysmography) typically exhibits all of the following characteristics EXCEPT:",
+    "image": "",
+    "opciones": [
+      "A swift, sharp systolic upstroke.",
+      "A distinct, sharp systolic peak.",
+      "A rapid downslope that bows towards the baseline.",
+      "A prominent reverse-flow component in early diastole."
+    ],
+    "respuesta_correcta": [
+      "A prominent reverse-flow component in early diastole."
+    ],
+    "concept_to_study": "Volume waveforms (plethysmography) do not show diastolic flow reversal; Doppler waveforms do.",
+    "explicacion_openai": "Critical distinction: Volume waveforms (plethysmography) measure limb volume changes, not velocity. They show a rapid upstroke, sharp peak, and bowed downslope. Velocity waveforms (Doppler) from high-resistance beds show diastolic flow reversal. Volume waveforms do not directly depict flow reversal as they don't have a zero velocity baseline.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is considered the most common interpretive technique for analog Doppler waveforms in clinical practice?",
+    "image": "",
+    "opciones": [
+      "A precise quantitative approach involving detailed waveform measurements.",
+      "A qualitative approach that relies heavily on visual pattern recognition.",
+      "A completely subjective assessment without any defined criteria.",
+      "Advanced spectral analysis of the frequency shifts within the waveform."
+    ],
+    "respuesta_correcta": [
+      "A qualitative approach that relies heavily on visual pattern recognition."
+    ],
+    "concept_to_study": "Qualitative visual pattern recognition is the most common interpretation of analog Doppler waveforms.",
+    "explicacion_openai": "For the exam, know that while quantitative spectral analysis provides detailed data, the initial and most common interpretation of analog Doppler waveforms is qualitative—a visual \"pattern recognition\" of the waveform's shape, pulsatility, and presence/absence of flow reversal.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following accurately describes normal Doppler waveform morphology for a peripheral artery (e.g., lower extremity at rest)?",
+    "image": "",
+    "opciones": [
+      "Clear phasicity with respiratory cycles.",
+      "Significant augmentation in response to distal limb compression maneuvers.",
+      "A sharp systolic upstroke, a sharp peak, and a prominent early diastolic reverse flow component.",
+      "A delayed systolic peak with a downslope that bows significantly away from the baseline."
+    ],
+    "respuesta_correcta": [
+      "A sharp systolic upstroke, a sharp peak, and a prominent early diastolic reverse flow component."
+    ],
+    "concept_to_study": "Normal resting peripheral artery Doppler waveform is triphasic with sharp upstroke, peak, and early diastolic reverse flow.",
+    "explicacion_openai": "This describes the classic triphasic waveform of a normal, resting peripheral artery: rapid upstroke, sharp peak, and a distinct component of flow reversal in early diastole. Respiratory phasicity and augmentation are venous characteristics, and a delayed peak or bowed downslope suggests disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is considered a normal response of ankle pressure during treadmill exercise testing in a healthy individual?",
+    "image": "",
+    "opciones": [
+      "No significant change or a slight increase in ankle pressure.",
+      "A substantial increase of at least 25% in ankle pressure.",
+      "A noticeable decrease of 20% or more in ankle pressure.",
+      "A progressive decrease over 5 to 10 minutes that eventually stabilizes."
+    ],
+    "respuesta_correcta": [
+      "No significant change or a slight increase in ankle pressure."
+    ],
+    "concept_to_study": "Normal ankle pressure response to exercise is stable or slightly increased.",
+    "explicacion_openai": "A healthy arterial system can meet increased metabolic demands during exercise. Therefore, in a normal individual, ankle pressures should remain stable or even slightly increase post-exercise. Any significant drop is indicative of arterial occlusive disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The amplitude of arterial volume recording waveforms (plethysmography) is generally considered to be:",
+    "image": "",
+    "opciones": [
+      "Uniformly identical at all four levels of measurement along a limb.",
+      "Reliably highest at the most distal measurement site due to hydrostatic forces.",
+      "Of only marginal diagnostic significance in isolation.",
+      "Normally approximately one-third the width of the waveform at its base."
+    ],
+    "respuesta_correcta": [
+      "Of only marginal diagnostic significance in isolation."
+    ],
+    "concept_to_study": "Plethysmography waveform amplitude is less diagnostically significant than morphology.",
+    "explicacion_openai": "For plethysmography, emphasize that while the shape (morphology) of the waveform is very important, the amplitude alone is less diagnostically reliable. Amplitude can be easily affected by technical factors like cuff size, limb circumference, and probe placement, rather than solely reflecting disease severity.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient with a history of rest pain, 100-foot calf and thigh claudication, and a great toe ulcer on the left foot, has a left ankle pressure measured at >300 mmHg. What does this highly anomalous result predominantly indicate?",
+    "image": "",
+    "opciones": [
+      "This finding is definitive proof of advanced diabetic microvascular disease.",
+      "The measured pressure is erroneous, most likely due to severely calcified arteries.",
+      "This exceptionally high pressure is a specific indicator of small vessel occlusion in the foot.",
+      "This pressure level confirms an acute hypertensive crisis."
+    ],
+    "respuesta_correcta": [
+      "The measured pressure is erroneous, most likely due to severely calcified arteries."
+    ],
+    "concept_to_study": "Ankle pressure >300 mmHg indicates arterial calcification and an erroneous measurement.",
+    "explicacion_openai": "For the exam, recognize that an ankle pressure >300 mmHg, especially with severe ischemic symptoms, is a measurement artifact. It's almost always due to arterial calcification (common in diabetics) making the vessel incompressible, yielding a falsely high reading that doesn't reflect actual perfusion.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient experiencing mild claudication-like symptoms has a resting ankle-brachial index (ABI) of 1.02 for the affected leg. What is the most appropriate implication of this finding?",
+    "image": "",
+    "opciones": [
+      "Any significant arterial disease is definitively confined to the distal tibial arteries.",
+      "The absence of any peripheral arterial disease is conclusively established.",
+      "This evaluation is incomplete and requires further physiological assessment.",
+      "This finding reliably indicates the presence of severe arterial calcification."
+    ],
+    "respuesta_correcta": [
+      "This evaluation is incomplete and requires further physiological assessment."
+    ],
+    "concept_to_study": "A normal resting ABI with claudication symptoms requires further evaluation (e.g., exercise test).",
+    "explicacion_openai": "A normal resting ABI (1.0-1.3) does not rule out arterial disease, particularly with symptomatic claudication. Disease might only manifest under stress. Therefore, a stress test (exercise or reactive hyperemia) is essential to unmask hemodynamically significant lesions.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "After walking on a treadmill for 5 minutes, a patient's ankle pressure decreases by 40% on the right and 15% on the left. What do these findings most accurately suggest?",
+    "image": "",
+    "opciones": [
+      "Bilateral complete femoral artery occlusions.",
+      "An isolated complete occlusion of the right femoral artery.",
+      "These post-exercise pressure changes are within normal physiological limits.",
+      "These decreases are characteristic findings for patients with claudication, indicating functional disease."
+    ],
+    "respuesta_correcta": [
+      "These decreases are characteristic findings for patients with claudication, indicating functional disease."
+    ],
+    "concept_to_study": "Significant post-exercise ankle pressure drop indicates arterial insufficiency/claudication.",
+    "explicacion_openai": "Significant post-exercise ankle pressure drops are the hallmark of claudication, demonstrating the inability of diseased arteries to meet increased demand. The asymmetry (40% vs. 15%) indicates more severe functional disease on the right. This confirms disease presence but doesn't pinpoint exact anatomical lesions (occlusion vs. stenosis).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Given the following pressures: Right arm 180 mmHg, Left arm 120 mmHg, Right Posterior Tibial Artery (PTA) 100 mmHg, Left PTA 90 mmHg. Calculate the left ankle-brachial index (ABI).",
+    "image": "",
+    "opciones": [
+      "0.50 (Left PTA 90 / Right arm 180).",
+      "0.75 (Left PTA 90 / Left arm 120).",
+      "0.90 (Left PTA 90 / Right PTA 100).",
+      "1.50 (Left PTA 90 / Left arm 60 diastolic)."
+    ],
+    "respuesta_correcta": [
+      "0.50 (Left PTA 90 / Right arm 180)."
+    ],
+    "concept_to_study": "ABI calculation uses the highest brachial pressure as the denominator.",
+    "explicacion_openai": "Critical rule for ABI: Always use the highest brachial pressure (from either arm) as the denominator, and the highest ankle pressure from the same leg as the numerator. Here, 180 mmHg is the highest brachial, and 90 mmHg is the left ankle pressure. So, 90/180 = 0.50.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Considering the following pressure findings (Right arm 180/100 mmHg, Left arm 120/60 mmHg, Right PTA 100 mmHg, Left PTA 90 mmHg), which statement is INCORRECT based solely on these data?",
+    "image": "",
+    "opciones": [
+      "The patient has right lower extremity arterial disease.",
+      "The patient has left lower extremity arterial disease.",
+      "The patient has left subclavian artery disease.",
+      "The patient has renovascular hypertension."
+    ],
+    "respuesta_correcta": [
+      "The patient has renovascular hypertension."
+    ],
+    "concept_to_study": "Bilateral low ABIs and brachial pressure difference indicate lower extremity and subclavian disease, not necessarily renovascular hypertension.",
+    "explicacion_openai": "Let's break it down: Right ABI: 100/180 = 0.56 (Abnormal, so 'a' is correct). Left ABI: 90/180 = 0.50 (Abnormal, so 'b' is correct). Left brachial (120) is significantly lower than Right brachial (180), indicating left subclavian disease. (So 'c' is correct). The patient has hypertension (180/100 mmHg), but this test alone cannot confirm or deny renovascular hypertension. It's a possible cause of hypertension, but not directly diagnosable from these pressures. Therefore, 'd' is the INCORRECT statement based purely on this data.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A male patient undergoes a treadmill test for leg symptoms. After 10 seconds of walking, he reports bilateral calf and thigh pain, with the right leg worse than the left. He continues for 5 minutes until stopped, but symptoms do not resolve or worsen significantly. Pre-exercise pressures: Arm 130, Right ankle 130, Left ankle 120. Post-exercise pressures: Arm 160, Right ankle 100, Left ankle 110. Which statement is TRUE?",
+    "image": "",
+    "opciones": [
+      "There is arterial disease present in both legs.",
+      "The patient's primary symptoms are likely not solely due to typical vascular claudication.",
+      "The right leg is symptomatically worse than the left.",
+      "All of the above statements are true."
+    ],
+    "respuesta_correcta": [
+      "All of the above statements are true."
+    ],
+    "concept_to_study": "Combine ABI changes, symptom description, and patient report for comprehensive interpretation.",
+    "explicacion_openai": "Let's analyze: 'a' is true: Post-exercise drops (Right ABI: 130/130=1.0 to 100/160=0.62; Left ABI: 120/130=0.92 to 110/160=0.69) indicate disease in both legs. 'b' is true: Symptoms appearing very quickly (10 seconds) and not worsening or resolving with rest (or continued exercise) are atypical for classic claudication, suggesting a non-vascular component to the pain. 'c' is true: The patient explicitly reports the right leg as worse. Since a, b, and c are all true, 'd' is the correct answer.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient stops a treadmill test at 3 minutes due to left calf and thigh pain, with the right leg remaining asymptomatic. Pre-exercise: Right arm 150, Right PTA 120, Left PTA 120. Post-exercise: Right arm 150, Right PTA 75, Left PTA 50. Which statement is TRUE?",
+    "image": "",
+    "opciones": [
+      "There is significant arterial disease in both legs.",
+      "The left leg demonstrates a more severe degree of arterial insufficiency than the right.",
+      "The patient's symptoms are definitively caused by aortoiliac arterial disease.",
+      "Retesting this patient in 30 minutes would predictably result in a shorter walking time."
+    ],
+    "respuesta_correcta": [
+      "The left leg demonstrates a more severe degree of arterial insufficiency than the right."
+    ],
+    "concept_to_study": "Compare post-exercise ABIs to determine severity of disease in each leg.",
+    "explicacion_openai": "Pre-exercise ABIs: Right 120/150 = 0.8; Left 120/150 = 0.8. Post-exercise ABIs: Right 75/150 = 0.5; Left 50/150 = 0.33. Both legs show arterial disease ('a' is true), but the greater drop in the left leg (from 0.8 to 0.33) clearly indicates more severe disease on the left compared to the right (0.8 to 0.5). We cannot definitively diagnose aortoiliac disease from these pressures alone. Assuming recovery, retesting might yield similar or longer walking times, not necessarily shorter.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the appropriate electrical coupling setting typically utilized for arterial volume recording (plethysmography)?",
+    "image": "",
+    "opciones": [
+      "AC-coupled output.",
+      "DC-coupled output.",
+      "A low-frequency (e.g., 3.5 Hz) high-pass filter.",
+      "A \"mean\" filter setting for signal averaging."
+    ],
+    "respuesta_correcta": [
+      "AC-coupled output."
+    ],
+    "concept_to_study": "AC coupling is used for arterial plethysmography to capture pulsatile volume changes.",
+    "explicacion_openai": "For arterial plethysmography, you're looking for rapid, pulsatile changes in volume. AC coupling (Alternating Current) is designed to emphasize these fast, cyclic changes while filtering out slower baseline shifts. DC coupling (Direct Current) would show both slow and fast changes, often used for venous studies where slower volume changes are relevant.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Distal to a hemodynamically significant stenosis in the lower extremity arterial circulation, how do Doppler waveform abnormalities typically manifest?",
+    "image": "",
+    "opciones": [
+      "An abnormal increase in peak-to-peak amplitude.",
+      "The consistent presence of a prominent dicrotic notch on the downslope.",
+      "An absent flow reversal component, blunting of the peak velocity, and prolonged upslope and downslope.",
+      "A preserved triphasic waveform."
+    ],
+    "respuesta_correcta": [
+      "An absent flow reversal component, blunting of the peak velocity, and prolonged upslope and downslope."
+    ],
+    "concept_to_study": "Distal to stenosis, waveforms lose triphasic characteristics and become monophasic/biphasic.",
+    "explicacion_openai": "The key for students: a significant stenosis acts like a \"low-pass filter.\" It dampens the high-frequency components, leading to a waveform that's blunted (lower peak velocity), rounded (prolonged upslope/downslope), and monophasic (loss of diastolic flow reversal). This indicates significant energy loss.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "All of the following parameters are typically assessed during exercise testing for peripheral arterial disease EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Changes in the thigh-to-ankle pressure index.",
+      "The time required for ankle pressures to recover to pre-stress levels.",
+      "The patient's reported onset and severity of leg pain during exercise.",
+      "The total duration or distance the patient can exercise."
+    ],
+    "respuesta_correcta": [
+      "Changes in the thigh-to-ankle pressure index."
+    ],
+    "concept_to_study": "Exercise testing focuses on ABI changes, recovery time, and symptom reporting, not thigh-to-ankle index.",
+    "explicacion_openai": "Exercise testing primarily focuses on functional impact. This involves measuring exercise tolerance (duration/distance), symptom reproduction, post-exercise ankle pressure drops, and recovery time. While individual segmental indices are calculated, a specific \"thigh-to-ankle index\" isn't a standard, directly monitored parameter during the exercise component itself.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "All of the following are valid reasons to perform reactive hyperemia testing as an alternative to treadmill exercise testing, EXCEPT:",
+    "image": "",
+    "opciones": [
+      "The patient's inability to tolerate the application of pressure cuffs.",
+      "The patient's inability to stand or walk due to physical limitations.",
+      "The patient's unstable cardiac status or known severe heart disease.",
+      "The patient has severe pulmonary problems making ambulation unsafe."
+    ],
+    "respuesta_correcta": [
+      "The patient's inability to tolerate the application of pressure cuffs."
+    ],
+    "concept_to_study": "Reactive hyperemia requires pressure cuffs, so intolerance to cuffs makes it unsuitable.",
+    "explicacion_openai": "Reactive hyperemia is an alternative for patients who cannot walk (e.g., cardiac, pulmonary, mobility issues). However, it still requires pressure cuffs, often inflated to suprasystolic levels, which can be uncomfortable. So, if cuff intolerance is the problem, reactive hyperemia isn't the solution.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A normal arterial volume recording waveform (plethysmography) typically exhibits all of the following characteristics EXCEPT:",
+    "image": "",
+    "opciones": [
+      "A swift systolic upstroke.",
+      "A sharp, peaked systolic component.",
+      "A rapid downslope that bows towards the baseline.",
+      "A prominent reverse-flow component in early diastole."
+    ],
+    "respuesta_correcta": [
+      "A prominent reverse-flow component in early diastole."
+    ],
+    "concept_to_study": "Volume waveforms (plethysmography) do not show diastolic flow reversal; Doppler waveforms do.",
+    "explicacion_openai": "Arterial volume waveforms (plethysmography) reflect changes in limb volume. They show a rapid upstroke, sharp peak, and bowed downslope. However, they do not display a reverse-flow component; that's a characteristic of Doppler velocity waveforms in high-resistance beds. Volume waveforms are not measuring flow direction relative to a zero baseline.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the most common interpretive technique employed for analog Doppler waveforms in vascular assessment?",
+    "image": "",
+    "opciones": [
+      "A highly quantitative approach, involving precise calculations of waveform indices.",
+      "A qualitative approach, relying primarily on visual pattern recognition.",
+      "A purely subjective assessment based on the operator's prior experience without specific criteria.",
+      "Advanced spectral analysis of the complete frequency spectrum."
+    ],
+    "respuesta_correcta": [
+      "A qualitative approach, relying primarily on visual pattern recognition."
+    ],
+    "concept_to_study": "Qualitative visual pattern recognition is the most common interpretation of analog Doppler waveforms.",
+    "explicacion_openai": "While spectral analysis (quantitative) is superior, for analog Doppler, the most common and practical method for quick assessment is qualitative pattern recognition. This means visually identifying the shape (triphasic, biphasic, monophasic), upstroke, and presence/absence of diastolic flow reversal.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Normal Doppler waveform morphology for a peripheral artery at rest typically includes:",
+    "image": "",
+    "opciones": [
+      "Changes in signal strength corresponding with respiratory phases.",
+      "Augmentation of the signal following distal limb compression.",
+      "A sharp systolic upslope and downslope, and a prominent diastolic flow reversal component.",
+      "A delayed systolic peak with a downslope that bows away from the baseline."
+    ],
+    "respuesta_correcta": [
+      "A sharp systolic upslope and downslope, and a prominent diastolic flow reversal component."
+    ],
+    "concept_to_study": "Normal resting peripheral artery Doppler waveform is triphasic with sharp upstroke, peak, and early diastolic reverse flow.",
+    "explicacion_openai": "Normal resting peripheral arterial waveforms are classically triphasic. This means a rapid systolic upstroke, a sharp peak, a rapid downslope that crosses the baseline into early diastolic flow reversal, and then a small forward flow component in late diastole. Respiratory phasicity and augmentation are venous characteristics.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is considered a normal response of ankle pressure during a treadmill exercise test in a healthy individual?",
+    "image": "",
+    "opciones": [
+      "No significant change in ankle pressure, or a slight increase.",
+      "A rapid and substantial increase of 50% or more in ankle pressure.",
+      "A significant decrease of at least 50% in ankle pressure.",
+      "A gradual but consistent decrease of 50% over the exercise period."
+    ],
+    "respuesta_correcta": [
+      "No significant change in ankle pressure, or a slight increase."
+    ],
+    "concept_to_study": "Normal ankle pressure response to exercise is stable or slightly increased.",
+    "explicacion_openai": "A healthy arterial system can meet increased demand during exercise. Therefore, in a normal response, ankle pressures should remain stable or even slightly increase post-exercise. Any significant drop is indicative of arterial disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The amplitude (height) of arterial volume recording waveforms (plethysmography) is generally considered:",
+    "image": "",
+    "opciones": [
+      "A highly precise quantitative measure for diagnosing stenosis severity.",
+      "Consistently highest in the most distal segments due to hydrostatic forces.",
+      "Only marginally meaningful diagnostically due to susceptibility to artifact.",
+      "Normally approximately one-third of the overall waveform width."
+    ],
+    "respuesta_correcta": [
+      "Only marginally meaningful diagnostically due to susceptibility to artifact."
+    ],
+    "concept_to_study": "Plethysmography waveform amplitude is less diagnostically significant than morphology.",
+    "explicacion_openai": "For plethysmography, the morphology (shape) of the waveform is far more important than its amplitude. Amplitude is easily influenced by technical factors like cuff size, limb circumference, and patient positioning, making it an unreliable indicator of disease severity on its own.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is a possible technical error that can occur when recording a femoral arterial waveform using continuous-wave (CW) Doppler?",
+    "image": "",
+    "opciones": [
+      "Inadvertently insonating an artery other than the intended femoral artery.",
+      "Simultaneously acquiring signals from two different adjacent vessels.",
+      "Using an inappropriate probe frequency for the depth of the target vessel.",
+      "All of the above are possible errors when using CW Doppler."
+    ],
+    "respuesta_correcta": [
+      "All of the above are possible errors when using CW Doppler."
+    ],
+    "concept_to_study": "CW Doppler is prone to errors like incorrect vessel identification, multi-vessel signals, and improper probe frequency.",
+    "explicacion_openai": "CW Doppler lacks imaging, making it prone to these errors. You might be on the wrong artery, get signals from two overlapping vessels (due to wide beam or angle), or use a frequency that doesn't penetrate well or is too sensitive for the depth. Duplex ultrasound with imaging helps avoid these.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The Doppler ultrasound beam may experience significant attenuation if:",
+    "image": "",
+    "opciones": [
+      "The output settings from the Doppler device to the recording paper are not amplified.",
+      "The sound beam must traverse dense scar tissue, a hematoma, or excessive adipose tissue.",
+      "The vessel contains highly calcific plaque located on its posterior wall.",
+      "Both the sound beam traversing attenuating tissues/fat and calcific plaque on the anterior wall of the vessel."
+    ],
+    "respuesta_correcta": [
+      "Both the sound beam traversing attenuating tissues/fat and calcific plaque on the anterior wall of the vessel."
+    ],
+    "concept_to_study": "Attenuation occurs when ultrasound energy is lost passing through dense tissues or calcifications.",
+    "explicacion_openai": "Attenuation is the loss of ultrasound energy. It happens when the beam passes through anything that absorbs, reflects, or scatters sound. Dense tissues (scar, fat, hematoma) do this, as does calcific plaque, particularly on the anterior wall, which can block the beam from reaching deeper structures and cause shadowing.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In cases of severe lower extremity arterial occlusive disease, how will the Doppler waveforms typically appear in distal segments?",
+    "image": "",
+    "opciones": [
+      "They will eventually revert to a relatively normal triphasic pattern due to collateral development.",
+      "They will consistently display a prominent flow reversal in the diastolic component.",
+      "They will appear markedly dampened, making precise interpretation of distal flow extremely challenging.",
+      "They will almost always be completely absent at the ankle level."
+    ],
+    "respuesta_correcta": [
+      "They will appear markedly dampened, making precise interpretation of distal flow extremely challenging."
+    ],
+    "concept_to_study": "Severe occlusive disease leads to dampened distal Doppler waveforms.",
+    "explicacion_openai": "Severe upstream disease means significant energy loss. Distal waveforms will be dampened: very low amplitude, rounded, monophasic (no diastolic reversal). This indicates poor perfusion and makes it hard to distinguish further distal disease due to the already degraded signal.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Transcutaneous partial pressure of oxygen (TcPO2) studies are useful for all of the following applications EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Determining the precise arterial level of a proximal obstruction.",
+      "Determining the optimal amputation level for a limb.",
+      "Assessing the viability and healing potential of skin grafts.",
+      "Assessing overall foot or localized tissue perfusion."
+    ],
+    "respuesta_correcta": [
+      "Determining the precise arterial level of a proximal obstruction."
+    ],
+    "concept_to_study": "TcPO2 measures tissue oxygenation, not the location of arterial blockages.",
+    "explicacion_openai": "TcPO2 measures local tissue oxygenation, not the location of a specific arterial blockage. It's excellent for wound healing potential, amputation levels, and overall foot perfusion, but it doesn't tell you where a proximal stenosis or occlusion is located.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the typical cuff pressure utilized for arterial volume recording (plethysmography)?",
+    "image": "",
+    "opciones": [
+      "65 mmHg.",
+      "10 mmHg.",
+      "Suprasystolic pressure.",
+      "100 mmHg."
+    ],
+    "respuesta_correcta": [
+      "65 mmHg."
+    ],
+    "concept_to_study": "Arterial plethysmography uses sub-systolic cuff pressure (~65 mmHg).",
+    "explicacion_openai": "For arterial plethysmography, the cuff is inflated to a sub-systolic pressure, commonly around 65 mmHg. This pressure allows arterial inflow but gently occludes venous outflow, enhancing the detection of arterial pulsations (volume changes). Suprasystolic would occlude arterial flow.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A digital photoplethysmographic (PPG) waveform exhibits a specific \"peaked\" or \"pointed\" appearance with diminished amplitude. What condition might this waveform pattern suggest?",
+    "image": "",
+    "opciones": [
+      "Primary Raynaud's disease (vasospastic only).",
+      "Secondary Raynaud's disease (with fixed obstruction).",
+      "Acute deep venous thrombosis.",
+      "Carpal tunnel syndrome."
+    ],
+    "respuesta_correcta": [
+      "Secondary Raynaud's disease (with fixed obstruction)."
+    ],
+    "concept_to_study": "Peaked/pointed PPG waveform with low amplitude suggests fixed obstruction (Secondary Raynaud's).",
+    "explicacion_openai": "A \"peaked\" or \"pointed\" PPG waveform with reduced amplitude and loss of the dicrotic notch strongly suggests an underlying obstructive component, even if vasospasm is also present. This pattern is characteristic of secondary Raynaud's, indicating structural changes or microvascular disease, unlike primary Raynaud's which is purely vasospastic and often shows normal waveforms with warming.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Distal to a complete aortoiliac occlusion, what is the typical characteristic of the common femoral artery Doppler signal?",
+    "image": "",
+    "opciones": [
+      "Multiphasic, with a sharp upstroke and prominent diastolic flow reversal.",
+      "Biphasic, with a reduced reverse flow component.",
+      "Low-pitched and monophasic, indicating severely dampened flow reliant on collaterals.",
+      "High-pitched, suggesting increased velocity through a compensatory pathway."
+    ],
+    "respuesta_correcta": [
+      "Low-pitched and monophasic, indicating severely dampened flow reliant on collaterals."
+    ],
+    "concept_to_study": "Distal to aortoiliac occlusion, CFA Doppler signal is low-pitched, monophasic, and dampened.",
+    "explicacion_openai": "With an aortoiliac occlusion, the CFA receives blood solely via tortuous collateral pathways. This results in significant energy loss, producing a Doppler signal that is low-pitched, severely dampened, and monophasic, reflecting the reduced flow velocity and pulsatility.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Regarding diastolic flow reversal in arterial waveforms, which statement is true?",
+    "image": "",
+    "opciones": [
+      "It is consistently present in all abnormal limbs.",
+      "It is always present in all vasodilated limbs.",
+      "It may be absent in normal, vasodilated limbs.",
+      "It is always absent in vasoconstricted limbs."
+    ],
+    "respuesta_correcta": [
+      "It may be absent in normal, vasodilated limbs."
+    ],
+    "concept_to_study": "Diastolic flow reversal is absent in normal, vasodilated limbs.",
+    "explicacion_openai": "Diastolic flow reversal is a feature of high-resistance beds at rest. When a limb is vasodilated (e.g., after exercise, or in a warm environment), peripheral resistance drops significantly. This allows continuous forward flow throughout diastole, often eliminating or greatly reducing the reverse flow component, even in a normal limb.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The most critical reason why Doppler evaluations should be performed with the patient in a basal state and a warm ambient temperature is:",
+    "image": "",
+    "opciones": [
+      "To minimize patient discomfort during the examination procedure.",
+      "Because the results are highly susceptible to changes in the patient's peripheral resistance.",
+      "To ensure that the recorded waveforms are consistently amplified for interpretation.",
+      "To increase the patient's metabolic activity, thereby making the results more definitive."
+    ],
+    "respuesta_correcta": [
+      "Because the results are highly susceptible to changes in the patient's peripheral resistance."
+    ],
+    "concept_to_study": "Basal, warm state standardizes peripheral resistance for accurate Doppler evaluation.",
+    "explicacion_openai": "Peripheral resistance profoundly affects Doppler waveforms and pressures. Cold or stress causes vasoconstriction, artificially elevating resistance and altering results. A basal, warm state standardizes peripheral resistance, allowing for accurate assessment of intrinsic arterial disease and ensuring reproducible measurements.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Audible Doppler venous signals are typically low-frequency and vary with respiration. In contrast, what are the characteristic features of normal arterial signals in the legs and arms?",
+    "image": "",
+    "opciones": [
+      "Low-frequency yet distinctly pulsatile.",
+      "Multiphasic and exhibit clear variations with respiration.",
+      "Relatively high-frequency with prominent pulsatile components.",
+      "Relatively high-frequency but nonpulsatile in nature."
+    ],
+    "respuesta_correcta": [
+      "Relatively high-frequency with prominent pulsatile components."
+    ],
+    "concept_to_study": "Normal arterial Doppler signals are high-frequency and pulsatile, unlike venous signals.",
+    "explicacion_openai": "Normal arterial signals are driven by the heart's strong pulsatile output. This results in relatively high-frequency Doppler shifts and clearly pulsatile sounds, often with distinct triphasic characteristics in resting peripheral arteries, unlike the lower-frequency, respiratory-phasic venous signals.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When listening directly over a stenotic lesion with a continuous-wave Doppler, what sound characteristic will the signal primarily exhibit?",
+    "image": "",
+    "opciones": [
+      "Low-frequency flow disturbances.",
+      "A distinct, dampened \"thumping\" sound.",
+      "A signal that is relatively unchanged in frequency compared to the rest of the vessel.",
+      "A high-pitched, high-frequency sound."
+    ],
+    "respuesta_correcta": [
+      "A high-pitched, high-frequency sound."
+    ],
+    "concept_to_study": "Stenotic lesions produce high-pitched, high-frequency Doppler sounds due to increased velocity.",
+    "explicacion_openai": "Directly within a stenosis, blood velocity significantly increases. According to the Doppler principle, increased velocity creates a greater frequency shift, which is perceived as a high-pitched, high-frequency sound. Distal to the stenosis, you would hear turbulence (broader range of frequencies, chaotic sound).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Little or no increase in blood flow velocity in response to postocclusive reactive hyperemia (PORH), induced by an inflated thigh cuff, most likely indicates:",
+    "image": "",
+    "opciones": [
+      "An adequate and well-developed collateral circulation.",
+      "The presence of significant obstructive arterial disease.",
+      "Isolated small vessel disease affecting the foot.",
+      "A normal, healthy arterial segment."
+    ],
+    "respuesta_correcta": [
+      "The presence of significant obstructive arterial disease."
+    ],
+    "concept_to_study": "Lack of PORH velocity increase indicates significant obstructive arterial disease.",
+    "explicacion_openai": "PORH tests the arterial system's ability to increase flow after ischemia. A normal response is a robust increase in velocity. Little or no increase means the arteries cannot adequately dilate and augment flow, a clear sign of significant obstructive disease preventing compensatory vasodilation.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A normal postocclusive reactive hyperemia (PORH) velocity response is quantitatively characterized by:",
+    "image": "",
+    "opciones": [
+      "A greater than 100% increase in mean velocity above baseline.",
+      "Approximately a 50% increase in mean velocity above baseline.",
+      "Any measurable increase in mean velocity above baseline.",
+      "Absolutely no increase in mean velocity compared to baseline."
+    ],
+    "respuesta_correcta": [
+      "A greater than 100% increase in mean velocity above baseline."
+    ],
+    "concept_to_study": "Normal PORH response is >100% increase in mean velocity.",
+    "explicacion_openai": "For exam purposes, remember the quantitative benchmark: a normal PORH response requires a significant increase in mean velocity, typically defined as greater than 100% above the resting baseline. This demonstrates healthy vasodilation capacity.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In an asymptomatic patient with normal ankle-brachial indices, the presence of monophasic posterior tibial artery waveforms suggests that:",
+    "image": "",
+    "opciones": [
+      "The low-pass filter setting on the Doppler device may be too low.",
+      "The high-pass filter setting on the Doppler device may be too high.",
+      "The Doppler gain may be set excessively high.",
+      "The angle of insonation used may be too low (close to 0 degrees)."
+    ],
+    "respuesta_correcta": [
+      "The high-pass filter setting on the Doppler device may be too high."
+    ],
+    "concept_to_study": "High-pass filter set too high can falsely make normal waveforms appear monophasic.",
+    "explicacion_openai": "If an asymptomatic patient with normal ABIs shows monophasic waveforms, suspect a technical artifact. A high-pass filter set too high can inadvertently filter out the lower-frequency diastolic flow reversal components, making a normal triphasic or biphasic waveform appear monophasic.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient experiences nocturnal foot pain that is relieved by hanging the foot over the side of the bed. What would be the most likely ankle-brachial index (ABI) range for this patient?",
+    "image": "",
+    "opciones": [
+      "Less than 0.50.",
+      "Between 0.50 and 0.80.",
+      "Between 0.80 and 1.00.",
+      "Greater than 1.00."
+    ],
+    "respuesta_correcta": [
+      "Less than 0.50."
+    ],
+    "concept_to_study": "Nocturnal foot pain relieved by dependency indicates critical ischemia (ABI < 0.50).",
+    "explicacion_openai": "Nocturnal foot pain relieved by dependency is a classic symptom of ischemic rest pain, indicating severe peripheral arterial disease. This level of critical ischemia is typically associated with very low ABIs, generally less than 0.50, and often below 0.30.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When tibial arterial calcification is present in a diabetic patient, what is the impact on the ankle-brachial index (ABI) measurement?",
+    "image": "",
+    "opciones": [
+      "The ABI is still reliably accurate unless it becomes completely immeasurable.",
+      "The ABI cannot be accurately interpreted and is often falsely elevated.",
+      "The ABI will consistently be nondiagnostic regardless of its numerical value.",
+      "The ABI may be in the abnormal range, but it is falsely reduced."
+    ],
+    "respuesta_correcta": [
+      "The ABI cannot be accurately interpreted and is often falsely elevated."
+    ],
+    "concept_to_study": "Calcified tibial arteries lead to falsely elevated ABIs.",
+    "explicacion_openai": "Medial arterial calcification makes tibial arteries rigid and incompressible. This prevents the cuff from occluding the vessel at true systolic pressure, resulting in an artificially high (falsely elevated) ankle pressure and thus a falsely elevated ABI, which can mask significant disease.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are performing CW Doppler on a patient's lower extremity arteries. You obtain a signal at the proximal dorsalis pedis level, and as you move proximally, the signal becomes higher in pitch. This finding could be a result of all the following EXCEPT:",
+    "image": "",
+    "opciones": [
+      "Moving the probe directly over a stenotic area, increasing flow velocity.",
+      "Increasing the angle of incidence (moving closer to 90 degrees) by \"standing the probe up.\"",
+      "Leaning the probe back, thereby decreasing the angle of incidence (moving closer to 0 degrees).",
+      "Moving over a segment of the artery that courses deeper into the limb."
+    ],
+    "respuesta_correcta": [
+      "Increasing the angle of incidence (moving closer to 90 degrees) by \"standing the probe up.\""
+    ],
+    "concept_to_study": "Increasing the Doppler angle (closer to 90 degrees) decreases pitch; decreasing the angle (closer to 0 degrees) increases pitch.",
+    "explicacion_openai": "Doppler frequency shift (pitch) is proportional to cos(angle). 'a' (Stenosis): Increased velocity leads to higher pitch. 'c' (Decreasing angle of incidence/closer to 0): cos(angle) increases, so pitch increases. 'd' (Deeper vessel): If the probe isn't adjusted, the angle to flow might inadvertently decrease (closer to 0), increasing pitch. 'b' (Increasing angle of incidence/closer to 90): cos(angle) decreases towards zero, so the pitch would decrease, not increase.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Surgically Altered Anatomy and Pathology",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "While monitoring a femorodistal bypass graft using duplex ultrasonography, what specific finding would most strongly suggest the graft is at risk of failure?",
+    "image": "",
+    "opciones": [
+      "The graft velocity is consistently measured above 45 cm/sec.",
+      "The graft velocity is stable at 130 cm/sec.",
+      "The graft velocity has been stable at 30 cm/sec for three years since implantation.",
+      "The graft velocity has decreased significantly from 70 cm/sec to 30 cm/sec over a 6-month period."
+    ],
+    "respuesta_correcta": [
+      "The graft velocity has decreased significantly from 70 cm/sec to 30 cm/sec over a 6-month period."
+    ],
+    "concept_to_study": "Significant decrease in graft velocity over time indicates graft stenosis and risk of failure.",
+    "explicacion_openai": "The most critical indicator of graft surveillance is a significant change from baseline. A substantial decrease in graft velocity (e.g., from 70 to 30 cm/sec) strongly suggests the development of a stenosis or other flow-limiting lesion, placing the graft at high risk for failure, regardless of specific single velocity thresholds.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Compared to tibial ankle pressures, toe pressures are generally considered:",
+    "image": "",
+    "opciones": [
+      "Falsely elevated as frequently due to similar calcification issues.",
+      "Falsely elevated less frequently, especially in diabetic patients.",
+      "Falsely elevated more frequently, due to smaller vessel size.",
+      "Unmeasurable in the presence of any tibial artery incompressibility."
+    ],
+    "respuesta_correcta": [
+      "Falsely elevated less frequently, especially in diabetic patients."
+    ],
+    "concept_to_study": "Toe pressures are more reliable than tibial pressures in diabetics due to less calcification.",
+    "explicacion_openai": "Toe pressures are valuable because digital arteries are less prone to medial calcification than tibial arteries. This means toe pressures are often more reliable and less frequently falsely elevated in diabetic patients with incompressible ankle arteries.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient complains of buttock claudication. Systolic thigh pressures are 180 mmHg in both lower extremities, while systolic arm pressures are 170 mmHg on the right and 160 mmHg on the left. What is the most cautious and accurate assessment of this limited information?",
+    "image": "",
+    "opciones": [
+      "The patient definitively does not have significant aortoiliac occlusive disease because thigh pressures are normal.",
+      "The patient definitively does not have unilateral iliac occlusive disease because thigh pressures are normal and equal.",
+      "The patient has bilateral superficial femoral artery occlusion.",
+      "The patient may still have underlying aortoiliac occlusive disease."
+    ],
+    "respuesta_correcta": [
+      "The patient may still have underlying aortoiliac occlusive disease."
+    ],
+    "concept_to_study": "Buttock claudication suggests aortoiliac disease, even with seemingly normal thigh pressures.",
+    "explicacion_openai": "Buttock claudication is a strong indicator of aortoiliac disease. While the thigh pressures (180 mmHg) seem \"normal\" relative to the arm pressures (170/160 mmHg), always remember the possibility of falsely elevated thigh pressures due to calcification, especially masking proximal disease. Without further direct evaluation of the aortoiliac segment (e.g., waveforms), you cannot definitively rule it out.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Under which specific conditions could systolic thigh pressures be accurately measured using standard (12 cm wide) arm cuffs?",
+    "image": "",
+    "opciones": [
+      "In all adult patients, regardless of their thigh size.",
+      "Only in patients with exceptionally large thigh circumference.",
+      "In patients whose thigh and arm diameters are proportionally similar.",
+      "In patients without any evidence of arterial wall calcification."
+    ],
+    "respuesta_correcta": [
+      "In patients whose thigh and arm diameters are proportionally similar."
+    ],
+    "concept_to_study": "Accurate cuff measurement requires appropriate cuff-to-limb ratio; standard arm cuffs may work for thighs if diameters are similar.",
+    "explicacion_openai": "Accurate cuff pressure measurement requires an appropriate cuff-to-limb ratio (cuff width approximately 1.2 times limb diameter). Standard arm cuffs are typically too narrow for an adult thigh, causing artifactually high readings. However, if a patient's thigh diameter happens to be similar to their arm, a standard arm cuff could theoretically provide an accurate thigh pressure, fulfilling the ratio.",
+    "image_explanation": ""
   }
+
 ]
+
+
+
+
+
+
+
+
