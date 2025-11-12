@@ -5561,6 +5561,44 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 293,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The major arterial structures prominently visualized in the posterior circulation in this angiogram are primarily derived from which vessels?",
+        "image": "vertebral_angiograma.png",
+        "opciones": [
+            "Internal Carotid Arteries",
+            "Vertebral Arteries",
+            "External Carotid Arteries",
+            "Subclavian Arteries"
+        ],
+        "respuesta_correcta": [
+            "Vertebral Arteries"
+        ],
+        "concept_to_study": "Posterior Cerebral Circulation Anatomy",
+        "explicacion_openai": "This angiogram predominantly visualizes the posterior cerebral circulation, which is supplied by the vertebral arteries. The vertebral arteries ascend through the neck, join to form the basilar artery, and then branch into the posterior cerebral arteries, supplying the posterior brain structures. The internal carotid arteries supply the anterior circulation, while external carotid arteries supply extracranial structures. Subclavian arteries are the origin of the vertebral arteries but are not directly visualized within the brain.",
+        "image_explanation": "Angiogram showing the posterior cerebral circulation, originating from the vertebral arteries."
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 294,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The structure indicated by the arrow in the angiogram represents a segment of which vessel?",
+        "image": "vertebral_angiograma.png",
+        "opciones": [
+            "Internal Carotid Artery",
+            "Basilar Artery",
+            "Vertebral Artery",
+            "Posterior Communicating Artery"
+        ],
+        "respuesta_correcta": [
+            "Vertebral Artery"
+        ],
+        "concept_to_study": "Vertebral Artery Segments and Anatomy",
+        "explicacion_openai": "The arrow points to one of the main arteries that ascend from the neck and converge to form the basilar artery. This vessel is the vertebral artery. Specifically, it appears to be a distal segment of the vertebral artery just before its intracranial portion or its junction with the contralateral vertebral artery. The Basilar Artery is the single, larger vessel formed by the union of the two vertebral arteries. The Internal Carotid Artery and Posterior Communicating Artery are part of the anterior cerebral circulation or connections within the Circle of Willis, located more anteriorly.",
+        "image_explanation": "Angiogram showing the vertebral artery indicated by the arrow, contributing to the posterior cerebral circulation."
+    },
+    {
         "clasificacion": "Pathology, Perfusion, and Function",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -10082,6 +10120,310 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 239,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "This waveform is characteristic of:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "Aneurysm",
+            "Normal biphasic waveform",
+            "Arterial dissection",
+            "Pseudoaneurysm"
+        ],
+        "respuesta_correcta": [
+            "Pseudoaneurysm"
+        ],
+        "concept_to_study": "Spectral Doppler findings of Pseudoaneurysm",
+        "explicacion_openai": "The waveform shown, with its distinct antegrade (forward) flow above the baseline during systole and retrograde (reverse) flow below the baseline, is the classic \"to-and-fro\" flow pattern. This pattern is pathognomonic for a pseudoaneurysm. It represents blood entering the pseudoaneurysm sac during the high-pressure systolic phase and then flowing back into the parent artery during the lower-pressure diastolic phase through the connecting neck. Aneurysms typically show turbulent flow within the sac but not this distinct bidirectional pattern. Normal biphasic waveforms have different characteristics. Arterial dissections have variable flow patterns in true/false lumens but not specifically 'to-and-fro' in the neck.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 240,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "This waveform, when observed in a pseudoaneurysm, is typically seen in the:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "Periphery of the pseudoaneurysm",
+            "Center of the pseudoaneurysm sac",
+            "Neck of the pseudoaneurysm",
+            "Adjacent normal artery"
+        ],
+        "respuesta_correcta": [
+            "Neck of the pseudoaneurysm"
+        ],
+        "concept_to_study": "Location of 'to-and-fro' flow in Pseudoaneurysm",
+        "explicacion_openai": "The 'to-and-fro' flow pattern is specifically generated within the neck (the communicating channel) of the pseudoaneurysm. This is where the blood is actively moving in and out of the arterial system and the contained hematoma. Within the main sac, turbulent, swirling flow ('Yin-Yang' sign) is typically observed. In the adjacent normal artery, flow should appear as normal arterial flow.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 241,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The pattern observed in this waveform is commonly referred to as:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "Monophasic flow",
+            "To-and-fro flow",
+            "Tardus parvus",
+            "High resistance flow"
+        ],
+        "respuesta_correcta": [
+            "To-and-fro flow"
+        ],
+        "concept_to_study": "Terminology for Pseudoaneurysm Doppler pattern",
+        "explicacion_openai": "'To-and-fro flow' is the most accurate and widely used term to describe this specific bidirectional spectral Doppler waveform, where flow alternates direction within the cardiac cycle. Monophasic flow indicates continuous forward flow due to severe stenosis. Tardus parvus describes a waveform with a delayed upstroke and low amplitude, seen distal to stenosis. High resistance flow is a general term, not specific to this pattern.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 242,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following describes the flow characteristic shown in the image?",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "Always indicates severe stenosis.",
+            "Represents a low resistance flow pattern.",
+            "Is diagnostic of a communication between two vessels.",
+            "Signifies bidirectional flow due to pressure gradients within a contained space."
+        ],
+        "respuesta_correcta": [
+            "Signifies bidirectional flow due to pressure gradients within a contained space."
+        ],
+        "concept_to_study": "Hemodynamics of Pseudoaneurysm 'to-and-fro' flow",
+        "explicacion_openai": "The waveform fundamentally represents bidirectional flow where blood is moving in opposing directions relative to the transducer within the same cardiac cycle. This is driven by dynamic pressure changes: high arterial pressure during systole forces blood into the pseudoaneurysm, and during diastole, the pressure in the artery drops, allowing blood to flow back out of the pseudoaneurysm sac into the artery. This occurs within the 'contained space' of the pseudoaneurysm neck connecting to the arterial lumen. This flow does not indicate severe stenosis or a low resistance pattern. While it is a communication, 'between two vessels' is too broad.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 243,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When encountering this waveform during a vascular ultrasound, the sonographer should immediately consider:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "An acutely occluded vessel.",
+            "A pulsatile mass with an arterial connection.",
+            "Normal venous outflow.",
+            "Diffuse atherosclerotic disease."
+        ],
+        "respuesta_correcta": [
+            "A pulsatile mass with an arterial connection."
+        ],
+        "concept_to_study": "Clinical implications of 'to-and-fro' flow",
+        "explicacion_openai": "The presence of 'to-and-fro' flow on spectral Doppler in the neck of a lesion is a definitive sign of a pseudoaneurysm. Pseudoaneurysms commonly present clinically as a pulsatile mass (a palpable lump that pulses) and, by definition, have an arterial connection (the neck) to the parent artery. An acute occlusion would show absent flow. Normal venous outflow and diffuse atherosclerotic disease have different Doppler characteristics.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 244,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The spectral Doppler characteristics of this waveform are most consistent with:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "A triphasic arterial signal.",
+            "A continuous venous signal.",
+            "Flow through a narrow orifice with turbulence.",
+            "A contained hematoma communicating with an artery."
+        ],
+        "respuesta_correcta": [
+            "A contained hematoma communicating with an artery."
+        ],
+        "concept_to_study": "Pathophysiological basis of 'to-and-fro' flow",
+        "explicacion_openai": "This answer provides the most precise description of the underlying pathology that generates the 'to-and-fro' flow. A pseudoaneurysm is, by definition, a contained hematoma (the sac) that communicates with an artery (via the neck). The pressure dynamics at this communication are what create the characteristic bidirectional flow. It is not a triphasic arterial signal, continuous venous signal, or merely flow through a narrow orifice with turbulence.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 245,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the descriptive term for the spectral Doppler waveform shown, characterized by two distinct systolic peaks (indicated by arrows).",
+        "image": "pulsus_bisferin_aortic_regurgitation.png",
+        "opciones": [
+            "Normal low resistance flow",
+            "Pulsus bisferiens",
+            "Dicrotic notch waveform",
+            "Tardus parvus"
+        ],
+        "respuesta_correcta": [
+            "Pulsus bisferiens"
+        ],
+        "concept_to_study": "Characteristics and terminology of Pulsus Bisferiens",
+        "explicacion_openai": "The image displays a unique arterial waveform characterized by two distinct systolic peaks, often described as 'double-peaked' in systole. This specific finding is known as Pulsus Bisferiens. It signifies a rapid ejection followed by a second, delayed systolic peak and is typically associated with specific cardiac conditions. Normal low resistance waveforms show broad systolic peaks and continuous forward diastolic flow, without two systolic peaks. A dicrotic notch is a single indentation on the downslope of the pulse, usually in early diastole, not a double systolic peak. Tardus parvus involves a delayed upstroke and blunted peak, not two distinct systolic peaks.",
+        "image_explanation": "Spectral Doppler waveform displaying two distinct systolic peaks (Pulsus Bisferiens), highlighted by white arrows."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In which of the following clinical conditions would this particular waveform (Pulsus Bisferiens) most likely be observed?",
+        "image": "pulsus_bisferin_aortic_regurgitation.png",
+        "opciones": [
+            "Peripheral arterial occlusion",
+            "Aortic regurgitation",
+            "Carotid artery dissection",
+            "Deep vein thrombosis"
+        ],
+        "respuesta_correcta": [
+            "Aortic regurgitation"
+        ],
+        "concept_to_study": "Clinical associations of Pulsus Bisferiens",
+        "explicacion_openai": "Pulsus bisferiens, the waveform shown with two systolic peaks, is a classic finding associated primarily with significant aortic regurgitation, sometimes coexisting with aortic stenosis. The altered hemodynamics from the regurgitant flow contribute to this distinct pulse. Peripheral arterial occlusion would result in absent or severely dampened flow distally. Carotid artery dissection typically presents with varying flow patterns in the true/false lumens, not pulsus bisferiens. Deep vein thrombosis is a venous pathology and would not cause an arterial waveform like this.",
+        "image_explanation": "Spectral Doppler waveform displaying two distinct systolic peaks (Pulsus Bisferiens), highlighted by white arrows."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 247,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary hemodynamic mechanism responsible for the appearance of the 'double-peaked' waveform shown?",
+        "image": "pulsus_bisferin_aortic_regurgitation.png",
+        "opciones": [
+            "Increased peripheral vascular resistance.",
+            "Rapid systolic ejection followed by a reflected wave or rebound.",
+            "Premature ventricular contractions.",
+            "Severe proximal arterial stenosis."
+        ],
+        "respuesta_correcta": [
+            "Rapid systolic ejection followed by a reflected wave or rebound."
+        ],
+        "concept_to_study": "Hemodynamic causes of Pulsus Bisferiens",
+        "explicacion_openai": "The primary hemodynamic mechanism for Pulsus Bisferiens (the double-peaked waveform) is typically attributed to a rapid systolic ejection followed by a reflected wave or a rebound effect, particularly in conditions like aortic regurgitation. The first peak represents the initial rapid ejection, and the second peak is a later systolic pressure wave. Increased peripheral vascular resistance would primarily affect diastolic flow and overall waveform morphology but not create two distinct systolic peaks. Premature ventricular contractions would lead to irregular rhythms and variable pulse amplitudes, not necessarily a consistent bisferiens pattern. Severe proximal arterial stenosis would cause a 'tardus parvus' waveform distal to the stenosis, not a double systolic peak.",
+        "image_explanation": "Spectral Doppler waveform displaying two distinct systolic peaks (Pulsus Bisferiens), highlighted by white arrows."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 248,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The spectral Doppler waveform shown is most commonly associated with which of the following conditions?",
+        "image": "subclavia_pre_steel.png",
+        "opciones": [
+            "Carotid Artery Dissection",
+            "Abdominal Aortic Aneurysm",
+            "Subclavian Steal Syndrome",
+            "Renal Artery Stenosis"
+        ],
+        "respuesta_correcta": [
+            "Subclavian Steal Syndrome"
+        ],
+        "concept_to_study": "Vertebral artery flow patterns in Subclavian Steal Syndrome",
+        "explicacion_openai": "The waveform displays reversed flow during systole and antegrade flow during diastole. This classic 'early systolic deceleration' or 'to-and-fro' pattern in the vertebral artery is highly indicative of a subclavian steal syndrome. In this condition, blood is 'stolen' from the vertebral artery (flowing retrograde) to supply the arm distal to a significant stenosis or occlusion in the ipsilateral subclavian artery, due to a pressure gradient. Carotid dissection, aortic aneurysms, and renal artery stenosis have different flow characteristics.",
+        "image_explanation": "Spectral Doppler waveform of the vertebral artery showing early systolic deceleration and reversed systolic flow, typical for subclavian steal syndrome."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 249,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Regarding the presented vertebral artery waveform, which statement is FALSE?",
+        "image": "subclavia_pre_steel.png",
+        "opciones": [
+            "It is often seen with a significant occlusion of the proximal subclavian artery.",
+            "It suggests a partial, non-hemodynamically significant subclavian stenosis.",
+            "It indicates flow reversal in the vertebral artery during systole.",
+            "It can be classified as a biphasic flow pattern."
+        ],
+        "respuesta_correcta": [
+            "It suggests a partial, non-hemodynamically significant subclavian stenosis."
+        ],
+        "concept_to_study": "Subclavian Steal Syndrome stages and vertebral artery flow",
+        "explicacion_openai": "This waveform represents a severe subclavian steal syndrome (complete steal), typically associated with a significant (often complete or near-complete) occlusion in the proximal subclavian artery. The blood flow in the vertebral artery reverses to supply the arm during systole. This 'to-and-fro' pattern (reversed systolic, forward diastolic) is indeed biphasic. Therefore, the statement that it suggests a *partial, non-hemodynamically significant* subclavian stenosis is false; partial stenoses usually cause milder forms of steal (e.g., pre-steal with early systolic deceleration) or transient reversal.",
+        "image_explanation": "Spectral Doppler waveform of the vertebral artery showing early systolic deceleration and reversed systolic flow, typical for subclavian steal syndrome."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 250,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary hemodynamic mechanism responsible for the depicted vertebral artery flow pattern?",
+        "image": "subclavia_pre_steel.png",
+        "opciones": [
+            "Increased cardiac output.",
+            "Distal hyperperfusion of the cerebral circulation.",
+            "A significant pressure drop due to a proximal ipsilateral subclavian artery lesion.",
+            "Severe coarctation of the aorta."
+        ],
+        "respuesta_correcta": [
+            "A significant pressure drop due to a proximal ipsilateral subclavian artery lesion."
+        ],
+        "concept_to_study": "Hemodynamics of Subclavian Steal Syndrome",
+        "explicacion_openai": "The reversed flow in the vertebral artery is a compensatory mechanism driven by a significant pressure gradient. This gradient is caused by a severe stenosis or occlusion in the subclavian artery proximal to the origin of the vertebral artery. This creates lower pressure in the ipsilateral arm, 'stealing' blood from the vertebral artery to supply the arm. Increased cardiac output, distal hyperperfusion, or aortic coarctation would not typically cause this specific vertebral flow pattern.",
+        "image_explanation": "Spectral Doppler waveform of the vertebral artery showing early systolic deceleration and reversed systolic flow, typical for subclavian steal syndrome."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 251,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient exhibiting this vertebral artery waveform would most likely experience which of the following clinical symptoms?",
+        "image": "subclavia_pre_steel.png",
+        "opciones": [
+            "Intermittent claudication in the ipsilateral leg.",
+            "Transient monocular blindness (Amaurosis Fugax).",
+            "Arm fatigue, weakness, or neurological deficits in the ipsilateral arm, especially with exercise.",
+            "Bilateral lower extremity edema."
+        ],
+        "respuesta_correcta": [
+            "Arm fatigue, weakness, or neurological deficits in the ipsilateral arm, especially with exercise."
+        ],
+        "concept_to_study": "Clinical symptoms of Subclavian Steal Syndrome",
+        "explicacion_openai": "The most common symptoms associated with subclavian steal syndrome are related to ischemia in the affected arm (arm claudication, fatigue, weakness, pain, coolness) or vertebrobasilar insufficiency (dizziness, vertigo, syncope, visual disturbances), particularly when the arm is exercised, as this increases demand for blood flow. Intermittent claudication in the leg is related to aortoiliac or femoropopliteal disease. Amaurosis fugax is associated with carotid disease. Bilateral lower extremity edema suggests venous insufficiency or systemic conditions.",
+        "image_explanation": "Spectral Doppler waveform of the vertebral artery showing early systolic deceleration and reversed systolic flow, typical for subclavian steal syndrome."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 252,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In this CTA of the cerebral vasculature, the arrow indicates a finding characteristic of:",
+        "image": "aneurisma.png",
+        "opciones": [
+            "Normal Middle Cerebral Artery (MCA)",
+            "MCA stenosis",
+            "Saccular Aneurysm",
+            "Arteriovenous Malformation (AVM)"
+        ],
+        "respuesta_correcta": [
+            "Saccular Aneurysm"
+        ],
+        "concept_to_study": "Cerebral Aneurysm appearance on CTA",
+        "explicacion_openai": "The arrow points to a distinct, localized sac-like outpouching arising from a cerebral artery, which is the classic appearance of a saccular (or 'berry') aneurysm on CT Angiography (CTA). This is a common finding, often located at arterial bifurcations in the Circle of Willis. A normal MCA would appear as a smooth, uniform vessel. Stenosis would show narrowing. An AVM would typically be a tangle of abnormal vessels directly connecting arteries and veins, appearing much more complex.",
+        "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 253,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Given the finding indicated by the arrow, a primary concern for the patient's immediate prognosis would be:",
+        "image": "aneurisma.png",
+        "opciones": [
+            "Progression to ischemic stroke due to plaque rupture.",
+            "Risk of rupture leading to subarachnoid hemorrhage.",
+            "Development of a deep venous thrombosis (DVT).",
+            "Cardiac arrhythmia causing cerebral hypoperfusion."
+        ],
+        "respuesta_correcta": [
+            "Risk of rupture leading to subarachnoid hemorrhage."
+        ],
+        "concept_to_study": "Complications of Cerebral Aneurysms",
+        "explicacion_openai": "Cerebral aneurysms, particularly saccular aneurysms, are primarily concerning due to their risk of rupture. Aneurysm rupture is the most common cause of non-traumatic subarachnoid hemorrhage (SAH), which is a life-threatening condition. While ischemic stroke can occur with cerebrovascular disease, it's not the primary immediate concern with an unruptured aneurysm of this morphology. DVT and cardiac arrhythmias are unrelated to this specific finding.",
+        "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 254,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following modalities would be considered definitive for the diagnosis and detailed characterization of the lesion shown?",
+        "image": "aneurisma.png",
+        "opciones": [
+            "Transcranial Doppler (TCD) Ultrasound.",
+            "Conventional Cerebral Angiography (DSA).",
+            "Carotid Duplex Ultrasound.",
+            "Routine Brain MRI without contrast."
+        ],
+        "respuesta_correcta": [
+            "Conventional Cerebral Angiography (DSA)."
+        ],
+        "concept_to_study": "Diagnostic imaging for Cerebral Aneurysms",
+        "explicacion_openai": "While CTA (as shown) is excellent for initial detection and screening of cerebral aneurysms, Conventional Cerebral Angiography (Digital Subtraction Angiography - DSA) remains the gold standard for definitive diagnosis and detailed characterization of cerebral aneurysms, especially for surgical planning or endovascular coiling. DSA provides high spatial and temporal resolution, allowing precise visualization of the aneurysm neck, size, and relationship to parent vessels. TCD and Carotid Duplex Ultrasound do not visualize intracranial aneurysms directly. Routine MRI can show the aneurysm but may lack the fine detail of DSA.",
+        "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
+    },
+    {
         "clasificacion": "Surgically Altered Anatomy and Pathology",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -12403,7 +12745,7 @@
         "clasificacion": "Physiologic Exams",
         "grupo": 72,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A patient stops a treadmill test at 3 minutes due to left calf and thigh pain, with the right leg remaining asymptomatic. Pre-exercise: Right arm 150, Right PTA 120, Left PTA 120. Post-exercise: Right arm 150, Right PTA 75, Left PTA 50. Which statement is TRUE?",
+        "enunciado": "A patient stops a treadmill test at 3 minutes due to left calf and thigh pain, with the right leg remaining asymptomatic. Pre-exercise: Right arm 151, Right PTA 122, Left PTA 120. Post-exercise: Right arm 150, Right PTA 75, Left PTA 50. Which statement is TRUE?",
         "image": "",
         "opciones": [
             "There is arterial disease in both legs.",
@@ -17397,353 +17739,5 @@
         "concept_to_study": "Minimizing motion artifact",
         "explicacion_openai": "Since the phenomenon is attributed to patient movement, the most direct first step is to address the source by clearly communicating with the patient, ensuring comfort, and adjusting positioning to minimize involuntary movements. (Refer to AIUM practice guidelines).",
         "image_explanation": "The image shows motion artifact, and the question asks for the initial step to correct it, which involves addressing patient movement."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "This waveform is characteristic of:",
-        "image": "pseudoaneurysm_wave.png",
-        "opciones": [
-            "Aneurysm",
-            "Normal biphasic waveform",
-            "Arterial dissection",
-            "Pseudoaneurysm"
-        ],
-        "respuesta_correcta": [
-            "Pseudoaneurysm"
-        ],
-        "concept_to_study": "Spectral Doppler findings of Pseudoaneurysm",
-        "explicacion_openai": "The waveform shown, with its distinct antegrade (forward) flow above the baseline during systole and retrograde (reverse) flow below the baseline, is the classic \"to-and-fro\" flow pattern. This pattern is pathognomonic for a pseudoaneurysm. It represents blood entering the pseudoaneurysm sac during the high-pressure systolic phase and then flowing back into the parent artery during the lower-pressure diastolic phase through the connecting neck. Aneurysms typically show turbulent flow within the sac but not this distinct bidirectional pattern. Normal biphasic waveforms have different characteristics. Arterial dissections have variable flow patterns in true/false lumens but not specifically 'to-and-fro' in the neck.",
-        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "This waveform, when observed in a pseudoaneurysm, is typically seen in the:",
-        "image": "pseudoaneurysm_wave.png",
-        "opciones": [
-            "Periphery of the pseudoaneurysm",
-            "Center of the pseudoaneurysm sac",
-            "Neck of the pseudoaneurysm",
-            "Adjacent normal artery"
-        ],
-        "respuesta_correcta": [
-            "Neck of the pseudoaneurysm"
-        ],
-        "concept_to_study": "Location of 'to-and-fro' flow in Pseudoaneurysm",
-        "explicacion_openai": "The 'to-and-fro' flow pattern is specifically generated within the neck (the communicating channel) of the pseudoaneurysm. This is where the blood is actively moving in and out of the arterial system and the contained hematoma. Within the main sac, turbulent, swirling flow ('Yin-Yang' sign) is typically observed. In the adjacent normal artery, flow should appear as normal arterial flow.",
-        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The pattern observed in this waveform is commonly referred to as:",
-        "image": "pseudoaneurysm_wave.png",
-        "opciones": [
-            "Monophasic flow",
-            "To-and-fro flow",
-            "Tardus parvus",
-            "High resistance flow"
-        ],
-        "respuesta_correcta": [
-            "To-and-fro flow"
-        ],
-        "concept_to_study": "Terminology for Pseudoaneurysm Doppler pattern",
-        "explicacion_openai": "'To-and-fro flow' is the most accurate and widely used term to describe this specific bidirectional spectral Doppler waveform, where flow alternates direction within the cardiac cycle. Monophasic flow indicates continuous forward flow due to severe stenosis. Tardus parvus describes a waveform with a delayed upstroke and low amplitude, seen distal to stenosis. High resistance flow is a general term, not specific to this pattern.",
-        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following describes the flow characteristic shown in the image?",
-        "image": "pseudoaneurysm_wave.png",
-        "opciones": [
-            "Always indicates severe stenosis.",
-            "Represents a low resistance flow pattern.",
-            "Is diagnostic of a communication between two vessels.",
-            "Signifies bidirectional flow due to pressure gradients within a contained space."
-        ],
-        "respuesta_correcta": [
-            "Signifies bidirectional flow due to pressure gradients within a contained space."
-        ],
-        "concept_to_study": "Hemodynamics of Pseudoaneurysm 'to-and-fro' flow",
-        "explicacion_openai": "The waveform fundamentally represents bidirectional flow where blood is moving in opposing directions relative to the transducer within the same cardiac cycle. This is driven by dynamic pressure changes: high arterial pressure during systole forces blood into the pseudoaneurysm, and during diastole, the pressure in the artery drops, allowing blood to flow back out of the pseudoaneurysm sac into the artery. This occurs within the 'contained space' of the pseudoaneurysm neck connecting to the arterial lumen. This flow does not indicate severe stenosis or a low resistance pattern. While it is a communication, 'between two vessels' is too broad.",
-        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "When encountering this waveform during a vascular ultrasound, the sonographer should immediately consider:",
-        "image": "pseudoaneurysm_wave.png",
-        "opciones": [
-            "An acutely occluded vessel.",
-            "A pulsatile mass with an arterial connection.",
-            "Normal venous outflow.",
-            "Diffuse atherosclerotic disease."
-        ],
-        "respuesta_correcta": [
-            "A pulsatile mass with an arterial connection."
-        ],
-        "concept_to_study": "Clinical implications of 'to-and-fro' flow",
-        "explicacion_openai": "The presence of 'to-and-fro' flow on spectral Doppler in the neck of a lesion is a definitive sign of a pseudoaneurysm. Pseudoaneurysms commonly present clinically as a pulsatile mass (a palpable lump that pulses) and, by definition, have an arterial connection (the neck) to the parent artery. An acute occlusion would show absent flow. Normal venous outflow and diffuse atherosclerotic disease have different Doppler characteristics.",
-        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The spectral Doppler characteristics of this waveform are most consistent with:",
-        "image": "pseudoaneurysm_wave.png",
-        "opciones": [
-            "A triphasic arterial signal.",
-            "A continuous venous signal.",
-            "Flow through a narrow orifice with turbulence.",
-            "A contained hematoma communicating with an artery."
-        ],
-        "respuesta_correcta": [
-            "A contained hematoma communicating with an artery."
-        ],
-        "concept_to_study": "Pathophysiological basis of 'to-and-fro' flow",
-        "explicacion_openai": "This answer provides the most precise description of the underlying pathology that generates the 'to-and-fro' flow. A pseudoaneurysm is, by definition, a contained hematoma (the sac) that communicates with an artery (via the neck). The pressure dynamics at this communication are what create the characteristic bidirectional flow. It is not a triphasic arterial signal, continuous venous signal, or merely flow through a narrow orifice with turbulence.",
-        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 126,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Identify the descriptive term for the spectral Doppler waveform shown, characterized by two distinct systolic peaks (indicated by arrows).",
-        "image": "pulsus_bisferin_aortic_regurgitation.png",
-        "opciones": [
-            "Normal low resistance flow",
-            "Pulsus bisferiens",
-            "Dicrotic notch waveform",
-            "Tardus parvus"
-        ],
-        "respuesta_correcta": [
-            "Pulsus bisferiens"
-        ],
-        "concept_to_study": "Characteristics and terminology of Pulsus Bisferiens",
-        "explicacion_openai": "The image displays a unique arterial waveform characterized by two distinct systolic peaks, often described as 'double-peaked' in systole. This specific finding is known as Pulsus Bisferiens. It signifies a rapid ejection followed by a second, delayed systolic peak and is typically associated with specific cardiac conditions. Normal low resistance waveforms show broad systolic peaks and continuous forward diastolic flow, without two systolic peaks. A dicrotic notch is a single indentation on the downslope of the pulse, usually in early diastole, not a double systolic peak. Tardus parvus involves a delayed upstroke and blunted peak, not two distinct systolic peaks.",
-        "image_explanation": "Spectral Doppler waveform displaying two distinct systolic peaks (Pulsus Bisferiens), highlighted by white arrows."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 126,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In which of the following clinical conditions would this particular waveform (Pulsus Bisferiens) most likely be observed?",
-        "image": "pulsus_bisferin_aortic_regurgitation.png",
-        "opciones": [
-            "Peripheral arterial occlusion",
-            "Aortic regurgitation",
-            "Carotid artery dissection",
-            "Deep vein thrombosis"
-        ],
-        "respuesta_correcta": [
-            "Aortic regurgitation"
-        ],
-        "concept_to_study": "Clinical associations of Pulsus Bisferiens",
-        "explicacion_openai": "Pulsus bisferiens, the waveform shown with two systolic peaks, is a classic finding associated primarily with significant aortic regurgitation, sometimes coexisting with aortic stenosis. The altered hemodynamics from the regurgitant flow contribute to this distinct pulse. Peripheral arterial occlusion would result in absent or severely dampened flow distally. Carotid artery dissection typically presents with varying flow patterns in the true/false lumens, not pulsus bisferiens. Deep vein thrombosis is a venous pathology and would not cause an arterial waveform like this.",
-        "image_explanation": "Spectral Doppler waveform displaying two distinct systolic peaks (Pulsus Bisferiens), highlighted by white arrows."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 126,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the primary hemodynamic mechanism responsible for the appearance of the 'double-peaked' waveform shown?",
-        "image": "pulsus_bisferin_aortic_regurgitation.png",
-        "opciones": [
-            "Increased peripheral vascular resistance.",
-            "Rapid systolic ejection followed by a reflected wave or rebound.",
-            "Premature ventricular contractions.",
-            "Severe proximal arterial stenosis."
-        ],
-        "respuesta_correcta": [
-            "Rapid systolic ejection followed by a reflected wave or rebound."
-        ],
-        "concept_to_study": "Hemodynamic causes of Pulsus Bisferiens",
-        "explicacion_openai": "The primary hemodynamic mechanism for Pulsus Bisferiens (the double-peaked waveform) is typically attributed to a rapid systolic ejection followed by a reflected wave or a rebound effect, particularly in conditions like aortic regurgitation. The first peak represents the initial rapid ejection, and the second peak is a later systolic pressure wave. Increased peripheral vascular resistance would primarily affect diastolic flow and overall waveform morphology but not create two distinct systolic peaks. Premature ventricular contractions would lead to irregular rhythms and variable pulse amplitudes, not necessarily a consistent bisferiens pattern. Severe proximal arterial stenosis would cause a 'tardus parvus' waveform distal to the stenosis, not a double systolic peak.",
-        "image_explanation": "Spectral Doppler waveform displaying two distinct systolic peaks (Pulsus Bisferiens), highlighted by white arrows."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The spectral Doppler waveform shown is most commonly associated with which of the following conditions?",
-        "image": "subclavia_pre_steel.png",
-        "opciones": [
-            "Carotid Artery Dissection",
-            "Abdominal Aortic Aneurysm",
-            "Subclavian Steal Syndrome",
-            "Renal Artery Stenosis"
-        ],
-        "respuesta_correcta": [
-            "Subclavian Steal Syndrome"
-        ],
-        "concept_to_study": "Vertebral artery flow patterns in Subclavian Steal Syndrome",
-        "explicacion_openai": "The waveform displays reversed flow during systole and antegrade flow during diastole. This classic 'early systolic deceleration' or 'to-and-fro' pattern in the vertebral artery is highly indicative of a subclavian steal syndrome. In this condition, blood is 'stolen' from the vertebral artery (flowing retrograde) to supply the arm distal to a significant stenosis or occlusion in the ipsilateral subclavian artery, due to a pressure gradient. Carotid dissection, aortic aneurysms, and renal artery stenosis have different flow characteristics.",
-        "image_explanation": "Spectral Doppler waveform of the vertebral artery showing early systolic deceleration and reversed systolic flow, typical for subclavian steal syndrome."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Regarding the presented vertebral artery waveform, which statement is FALSE?",
-        "image": "subclavia_pre_steel.png",
-        "opciones": [
-            "It is often seen with a significant occlusion of the proximal subclavian artery.",
-            "It suggests a partial, non-hemodynamically significant subclavian stenosis.",
-            "It indicates flow reversal in the vertebral artery during systole.",
-            "It can be classified as a biphasic flow pattern."
-        ],
-        "respuesta_correcta": [
-            "It suggests a partial, non-hemodynamically significant subclavian stenosis."
-        ],
-        "concept_to_study": "Subclavian Steal Syndrome stages and vertebral artery flow",
-        "explicacion_openai": "This waveform represents a severe subclavian steal syndrome (complete steal), typically associated with a significant (often complete or near-complete) occlusion in the proximal subclavian artery. The blood flow in the vertebral artery reverses to supply the arm during systole. This 'to-and-fro' pattern (reversed systolic, forward diastolic) is indeed biphasic. Therefore, the statement that it suggests a *partial, non-hemodynamically significant* subclavian stenosis is false; partial stenoses usually cause milder forms of steal (e.g., pre-steal with early systolic deceleration) or transient reversal.",
-        "image_explanation": "Spectral Doppler waveform of the vertebral artery showing early systolic deceleration and reversed systolic flow, typical for subclavian steal syndrome."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the primary hemodynamic mechanism responsible for the depicted vertebral artery flow pattern?",
-        "image": "subclavia_pre_steel.png",
-        "opciones": [
-            "Increased cardiac output.",
-            "Distal hyperperfusion of the cerebral circulation.",
-            "A significant pressure drop due to a proximal ipsilateral subclavian artery lesion.",
-            "Severe coarctation of the aorta."
-        ],
-        "respuesta_correcta": [
-            "A significant pressure drop due to a proximal ipsilateral subclavian artery lesion."
-        ],
-        "concept_to_study": "Hemodynamics of Subclavian Steal Syndrome",
-        "explicacion_openai": "The reversed flow in the vertebral artery is a compensatory mechanism driven by a significant pressure gradient. This gradient is caused by a severe stenosis or occlusion in the subclavian artery proximal to the origin of the vertebral artery. This creates lower pressure in the ipsilateral arm, 'stealing' blood from the vertebral artery to supply the arm. Increased cardiac output, distal hyperperfusion, or aortic coarctation would not typically cause this specific vertebral flow pattern.",
-        "image_explanation": "Spectral Doppler waveform of the vertebral artery showing early systolic deceleration and reversed systolic flow, typical for subclavian steal syndrome."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A patient exhibiting this vertebral artery waveform would most likely experience which of the following clinical symptoms?",
-        "image": "subclavia_pre_steel.png",
-        "opciones": [
-            "Intermittent claudication in the ipsilateral leg.",
-            "Transient monocular blindness (Amaurosis Fugax).",
-            "Arm fatigue, weakness, or neurological deficits in the ipsilateral arm, especially with exercise.",
-            "Bilateral lower extremity edema."
-        ],
-        "respuesta_correcta": [
-            "Arm fatigue, weakness, or neurological deficits in the ipsilateral arm, especially with exercise."
-        ],
-        "concept_to_study": "Clinical symptoms of Subclavian Steal Syndrome",
-        "explicacion_openai": "The most common symptoms associated with subclavian steal syndrome are related to ischemia in the affected arm (arm claudication, fatigue, weakness, pain, coolness) or vertebrobasilar insufficiency (dizziness, vertigo, syncope, visual disturbances), particularly when the arm is exercised, as this increases demand for blood flow. Intermittent claudication in the leg is related to aortoiliac or femoropopliteal disease. Amaurosis fugax is associated with carotid disease. Bilateral lower extremity edema suggests venous insufficiency or systemic conditions.",
-        "image_explanation": "Spectral Doppler waveform of the vertebral artery showing early systolic deceleration and reversed systolic flow, typical for subclavian steal syndrome."
-    },
-    
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In this CTA of the cerebral vasculature, the arrow indicates a finding characteristic of:",
-        "image": "aneurisma.png",
-        "opciones": [
-            "Normal Middle Cerebral Artery (MCA)",
-            "MCA stenosis",
-            "Saccular Aneurysm",
-            "Arteriovenous Malformation (AVM)"
-        ],
-        "respuesta_correcta": [
-            "Saccular Aneurysm"
-        ],
-        "concept_to_study": "Cerebral Aneurysm appearance on CTA",
-        "explicacion_openai": "The arrow points to a distinct, localized sac-like outpouching arising from a cerebral artery, which is the classic appearance of a saccular (or 'berry') aneurysm on CT Angiography (CTA). This is a common finding, often located at arterial bifurcations in the Circle of Willis. A normal MCA would appear as a smooth, uniform vessel. Stenosis would show narrowing. An AVM would typically be a tangle of abnormal vessels directly connecting arteries and veins, appearing much more complex.",
-        "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Given the finding indicated by the arrow, a primary concern for the patient's immediate prognosis would be:",
-        "image": "aneurisma.png",
-        "opciones": [
-            "Progression to ischemic stroke due to plaque rupture.",
-            "Risk of rupture leading to subarachnoid hemorrhage.",
-            "Development of a deep venous thrombosis (DVT).",
-            "Cardiac arrhythmia causing cerebral hypoperfusion."
-        ],
-        "respuesta_correcta": [
-            "Risk of rupture leading to subarachnoid hemorrhage."
-        ],
-        "concept_to_study": "Complications of Cerebral Aneurysms",
-        "explicacion_openai": "Cerebral aneurysms, particularly saccular aneurysms, are primarily concerning due to their risk of rupture. Aneurysm rupture is the most common cause of non-traumatic subarachnoid hemorrhage (SAH), which is a life-threatening condition. While ischemic stroke can occur with cerebrovascular disease, it's not the primary immediate concern with an unruptured aneurysm of this morphology. DVT and cardiac arrhythmias are unrelated to this specific finding.",
-        "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
-    },
-    {
-        "clasificacion": "Pathology, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following modalities would be considered definitive for the diagnosis and detailed characterization of the lesion shown?",
-        "image": "aneurisma.png",
-        "opciones": [
-            "Transcranial Doppler (TCD) Ultrasound.",
-            "Conventional Cerebral Angiography (DSA).",
-            "Carotid Duplex Ultrasound.",
-            "Routine Brain MRI without contrast."
-        ],
-        "respuesta_correcta": [
-            "Conventional Cerebral Angiography (DSA)."
-        ],
-        "concept_to_study": "Diagnostic imaging for Cerebral Aneurysms",
-        "explicacion_openai": "While CTA (as shown) is excellent for initial detection and screening of cerebral aneurysms, Conventional Cerebral Angiography (Digital Subtraction Angiography - DSA) remains the gold standard for definitive diagnosis and detailed characterization of cerebral aneurysms, especially for surgical planning or endovascular coiling. DSA provides high spatial and temporal resolution, allowing precise visualization of the aneurysm neck, size, and relationship to parent vessels. TCD and Carotid Duplex Ultrasound do not visualize intracranial aneurysms directly. Routine MRI can show the aneurysm but may lack the fine detail of DSA.",
-        "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The major arterial structures prominently visualized in the posterior circulation in this angiogram are primarily derived from which vessels?",
-        "image": "vertebral_angiograma.png",
-        "opciones": [
-            "Internal Carotid Arteries",
-            "Vertebral Arteries",
-            "External Carotid Arteries",
-            "Subclavian Arteries"
-        ],
-        "respuesta_correcta": [
-            "Vertebral Arteries"
-        ],
-        "concept_to_study": "Posterior Cerebral Circulation Anatomy",
-        "explicacion_openai": "This angiogram predominantly visualizes the posterior cerebral circulation, which is supplied by the vertebral arteries. The vertebral arteries ascend through the neck, join to form the basilar artery, and then branch into the posterior cerebral arteries, supplying the posterior brain structures. The internal carotid arteries supply the anterior circulation, while external carotid arteries supply extracranial structures. Subclavian arteries are the origin of the vertebral arteries but are not directly visualized within the brain.",
-        "image_explanation": "Angiogram showing the posterior cerebral circulation, originating from the vertebral arteries."
-    },
-
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The structure indicated by the arrow in the angiogram represents a segment of which vessel?",
-        "image": "vertebral_angiograma.png",
-        "opciones": [
-            "Internal Carotid Artery",
-            "Basilar Artery",
-            "Vertebral Artery",
-            "Posterior Communicating Artery"
-        ],
-        "respuesta_correcta": [
-            "Vertebral Artery"
-        ],
-        "concept_to_study": "Vertebral Artery Segments and Anatomy",
-        "explicacion_openai": "The arrow points to one of the main arteries that ascend from the neck and converge to form the basilar artery. This vessel is the vertebral artery. Specifically, it appears to be a distal segment of the vertebral artery just before its intracranial portion or its junction with the contralateral vertebral artery. The Basilar Artery is the single, larger vessel formed by the union of the two vertebral arteries. The Internal Carotid Artery and Posterior Communicating Artery are part of the anterior cerebral circulation or connections within the Circle of Willis, located more anteriorly.",
-        "image_explanation": "Angiogram showing the vertebral artery indicated by the arrow, contributing to the posterior cerebral circulation."
     }
-
-
 ]
-
-
