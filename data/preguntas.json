@@ -17702,7 +17702,47 @@
         "concept_to_study": "Diagnostic imaging for Cerebral Aneurysms",
         "explicacion_openai": "While CTA (as shown) is excellent for initial detection and screening of cerebral aneurysms, Conventional Cerebral Angiography (Digital Subtraction Angiography - DSA) remains the gold standard for definitive diagnosis and detailed characterization of cerebral aneurysms, especially for surgical planning or endovascular coiling. DSA provides high spatial and temporal resolution, allowing precise visualization of the aneurysm neck, size, and relationship to parent vessels. TCD and Carotid Duplex Ultrasound do not visualize intracranial aneurysms directly. Routine MRI can show the aneurysm but may lack the fine detail of DSA.",
         "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The major arterial structures prominently visualized in the posterior circulation in this angiogram are primarily derived from which vessels?",
+        "image": "vertebral_angiograma.png",
+        "opciones": [
+            "Internal Carotid Arteries",
+            "Vertebral Arteries",
+            "External Carotid Arteries",
+            "Subclavian Arteries"
+        ],
+        "respuesta_correcta": [
+            "Vertebral Arteries"
+        ],
+        "concept_to_study": "Posterior Cerebral Circulation Anatomy",
+        "explicacion_openai": "This angiogram predominantly visualizes the posterior cerebral circulation, which is supplied by the vertebral arteries. The vertebral arteries ascend through the neck, join to form the basilar artery, and then branch into the posterior cerebral arteries, supplying the posterior brain structures. The internal carotid arteries supply the anterior circulation, while external carotid arteries supply extracranial structures. Subclavian arteries are the origin of the vertebral arteries but are not directly visualized within the brain.",
+        "image_explanation": "Angiogram showing the posterior cerebral circulation, originating from the vertebral arteries."
+    },
+
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The structure indicated by the arrow in the angiogram represents a segment of which vessel?",
+        "image": "vertebral_angiograma.png",
+        "opciones": [
+            "Internal Carotid Artery",
+            "Basilar Artery",
+            "Vertebral Artery",
+            "Posterior Communicating Artery"
+        ],
+        "respuesta_correcta": [
+            "Vertebral Artery"
+        ],
+        "concept_to_study": "Vertebral Artery Segments and Anatomy",
+        "explicacion_openai": "The arrow points to one of the main arteries that ascend from the neck and converge to form the basilar artery. This vessel is the vertebral artery. Specifically, it appears to be a distal segment of the vertebral artery just before its intracranial portion or its junction with the contralateral vertebral artery. The Basilar Artery is the single, larger vessel formed by the union of the two vertebral arteries. The Internal Carotid Artery and Posterior Communicating Artery are part of the anterior cerebral circulation or connections within the Circle of Willis, located more anteriorly.",
+        "image_explanation": "Angiogram showing the vertebral artery indicated by the arrow, contributing to the posterior cerebral circulation."
     }
+
 
 ]
 
