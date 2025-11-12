@@ -17644,7 +17644,66 @@
         "concept_to_study": "Clinical symptoms of Subclavian Steal Syndrome",
         "explicacion_openai": "The most common symptoms associated with subclavian steal syndrome are related to ischemia in the affected arm (arm claudication, fatigue, weakness, pain, coolness) or vertebrobasilar insufficiency (dizziness, vertigo, syncope, visual disturbances), particularly when the arm is exercised, as this increases demand for blood flow. Intermittent claudication in the leg is related to aortoiliac or femoropopliteal disease. Amaurosis fugax is associated with carotid disease. Bilateral lower extremity edema suggests venous insufficiency or systemic conditions.",
         "image_explanation": "Spectral Doppler waveform of the vertebral artery showing early systolic deceleration and reversed systolic flow, typical for subclavian steal syndrome."
+    },
+    
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In this CTA of the cerebral vasculature, the arrow indicates a finding characteristic of:",
+        "image": "aneurisma.png",
+        "opciones": [
+            "Normal Middle Cerebral Artery (MCA)",
+            "MCA stenosis",
+            "Saccular Aneurysm",
+            "Arteriovenous Malformation (AVM)"
+        ],
+        "respuesta_correcta": [
+            "Saccular Aneurysm"
+        ],
+        "concept_to_study": "Cerebral Aneurysm appearance on CTA",
+        "explicacion_openai": "The arrow points to a distinct, localized sac-like outpouching arising from a cerebral artery, which is the classic appearance of a saccular (or 'berry') aneurysm on CT Angiography (CTA). This is a common finding, often located at arterial bifurcations in the Circle of Willis. A normal MCA would appear as a smooth, uniform vessel. Stenosis would show narrowing. An AVM would typically be a tangle of abnormal vessels directly connecting arteries and veins, appearing much more complex.",
+        "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Given the finding indicated by the arrow, a primary concern for the patient's immediate prognosis would be:",
+        "image": "aneurisma.png",
+        "opciones": [
+            "Progression to ischemic stroke due to plaque rupture.",
+            "Risk of rupture leading to subarachnoid hemorrhage.",
+            "Development of a deep venous thrombosis (DVT).",
+            "Cardiac arrhythmia causing cerebral hypoperfusion."
+        ],
+        "respuesta_correcta": [
+            "Risk of rupture leading to subarachnoid hemorrhage."
+        ],
+        "concept_to_study": "Complications of Cerebral Aneurysms",
+        "explicacion_openai": "Cerebral aneurysms, particularly saccular aneurysms, are primarily concerning due to their risk of rupture. Aneurysm rupture is the most common cause of non-traumatic subarachnoid hemorrhage (SAH), which is a life-threatening condition. While ischemic stroke can occur with cerebrovascular disease, it's not the primary immediate concern with an unruptured aneurysm of this morphology. DVT and cardiac arrhythmias are unrelated to this specific finding.",
+        "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following modalities would be considered definitive for the diagnosis and detailed characterization of the lesion shown?",
+        "image": "aneurisma.png",
+        "opciones": [
+            "Transcranial Doppler (TCD) Ultrasound.",
+            "Conventional Cerebral Angiography (DSA).",
+            "Carotid Duplex Ultrasound.",
+            "Routine Brain MRI without contrast."
+        ],
+        "respuesta_correcta": [
+            "Conventional Cerebral Angiography (DSA)."
+        ],
+        "concept_to_study": "Diagnostic imaging for Cerebral Aneurysms",
+        "explicacion_openai": "While CTA (as shown) is excellent for initial detection and screening of cerebral aneurysms, Conventional Cerebral Angiography (Digital Subtraction Angiography - DSA) remains the gold standard for definitive diagnosis and detailed characterization of cerebral aneurysms, especially for surgical planning or endovascular coiling. DSA provides high spatial and temporal resolution, allowing precise visualization of the aneurysm neck, size, and relationship to parent vessels. TCD and Carotid Duplex Ultrasound do not visualize intracranial aneurysms directly. Routine MRI can show the aneurysm but may lack the fine detail of DSA.",
+        "image_explanation": "CTA image of the cerebral vasculature showing a distinct, localized sac-like outpouching (aneurysm) indicated by the arrow."
     }
+
 ]
 
 
