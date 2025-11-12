@@ -13907,13 +13907,13 @@
         "enunciado": "A change in vessel diameter has the most dramatic effect on:",
         "image": "",
         "opciones": [
-            "fluid viscosity",
-            "vascular resistance",
-            "vessel length",
-            "energy loss"
+            "Fluid viscosity",
+            "Vascular resistance",
+            "Vessel length",
+            "Energy loss"
         ],
         "respuesta_correcta": [
-            "vascular resistance"
+            "Vascular resistance"
         ],
         "concept_to_study": "Diameter Change and Resistance",
         "explicacion_openai": "Resistance varies inversely with the fourth power of radius; thus, even minor diameter reductions markedly increase vascular resistance.",
@@ -13926,13 +13926,13 @@
         "enunciado": "The law of conservation of mass (continuity equation) describes the inverse relationship between:",
         "image": "",
         "opciones": [
-            "cross-sectional area and fluid viscosity",
-            "velocity and cross-sectional area",
-            "viscosity and flow velocity",
-            "cross-sectional area and vessel length"
+            "Cross-sectional area and fluid viscosity",
+            "Velocity and cross-sectional area",
+            "Viscosity and flow velocity",
+            "Cross-sectional area and vessel length"
         ],
         "respuesta_correcta": [
-            "velocity and cross-sectional area"
+            "Velocity and cross-sectional area"
         ],
         "concept_to_study": "Continuity Equation (Conservation of Mass)",
         "explicacion_openai": "Continuity dictates A₁·V₁ = A₂·V₂; if area decreases, velocity must increase proportionally to maintain constant volumetric flow.",
@@ -13945,7 +13945,7 @@
         "enunciado": "In high-resistance Doppler waveforms, the reverse (diastolic) flow component often disappears when the sample volume is placed:",
         "image": "",
         "opciones": [
-            "flow component often disappears when the sample volume is placed:",
+            "Flow component often disappears when the sample volume is placed:",
             "Distal to a significant stenosis",
             "At the site of stenosis",
             "Proximal to a significant stenosis",
