@@ -10124,7 +10124,7 @@
         "grupo": 239,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "This waveform is characteristic of:",
-        "image": "pseudoaneurysm_wave.png",
+        "image": "pseudoanerurism_wave.png",
         "opciones": [
             "Aneurysm",
             "Normal biphasic waveform",
@@ -10143,7 +10143,7 @@
         "grupo": 240,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "This waveform, when observed in a pseudoaneurysm, is typically seen in the:",
-        "image": "pseudoaneurysm_wave.png",
+        "image": "pseudoanerurism_wave.png",
         "opciones": [
             "Periphery of the pseudoaneurysm",
             "Center of the pseudoaneurysm sac",
@@ -10162,7 +10162,7 @@
         "grupo": 241,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The pattern observed in this waveform is commonly referred to as:",
-        "image": "pseudoaneurysm_wave.png",
+        "image": "pseudoanerurism_wave.png",
         "opciones": [
             "Monophasic flow",
             "To-and-fro flow",
@@ -10181,7 +10181,7 @@
         "grupo": 242,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following describes the flow characteristic shown in the image?",
-        "image": "pseudoaneurysm_wave.png",
+        "image": "pseudoanerurism_wave.png",
         "opciones": [
             "Always indicates severe stenosis.",
             "Represents a low resistance flow pattern.",
@@ -10200,7 +10200,7 @@
         "grupo": 243,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When encountering this waveform during a vascular ultrasound, the sonographer should immediately consider:",
-        "image": "pseudoaneurysm_wave.png",
+        "image": "pseudoanerurism_wave.png",
         "opciones": [
             "An acutely occluded vessel.",
             "A pulsatile mass with an arterial connection.",
@@ -10219,7 +10219,7 @@
         "grupo": 244,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The spectral Doppler characteristics of this waveform are most consistent with:",
-        "image": "pseudoaneurysm_wave.png",
+        "image": "pseudoanerurism_wave.png",
         "opciones": [
             "A triphasic arterial signal.",
             "A continuous venous signal.",
