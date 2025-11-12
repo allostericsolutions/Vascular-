@@ -17511,5 +17511,63 @@
         "concept_to_study": "Pathophysiological basis of 'to-and-fro' flow",
         "explicacion_openai": "This answer provides the most precise description of the underlying pathology that generates the 'to-and-fro' flow. A pseudoaneurysm is, by definition, a contained hematoma (the sac) that communicates with an artery (via the neck). The pressure dynamics at this communication are what create the characteristic bidirectional flow. It is not a triphasic arterial signal, continuous venous signal, or merely flow through a narrow orifice with turbulence.",
         "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 126,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Identify the descriptive term for the spectral Doppler waveform shown, characterized by two distinct systolic peaks (indicated by arrows).",
+        "image": "pulsus_bisferin_aortic_regurgitation.png",
+        "opciones": [
+            "Normal low resistance flow",
+            "Pulsus bisferiens",
+            "Dicrotic notch waveform",
+            "Tardus parvus"
+        ],
+        "respuesta_correcta": [
+            "Pulsus bisferiens"
+        ],
+        "concept_to_study": "Characteristics and terminology of Pulsus Bisferiens",
+        "explicacion_openai": "The image displays a unique arterial waveform characterized by two distinct systolic peaks, often described as 'double-peaked' in systole. This specific finding is known as Pulsus Bisferiens. It signifies a rapid ejection followed by a second, delayed systolic peak and is typically associated with specific cardiac conditions. Normal low resistance waveforms show broad systolic peaks and continuous forward diastolic flow, without two systolic peaks. A dicrotic notch is a single indentation on the downslope of the pulse, usually in early diastole, not a double systolic peak. Tardus parvus involves a delayed upstroke and blunted peak, not two distinct systolic peaks.",
+        "image_explanation": "Spectral Doppler waveform displaying two distinct systolic peaks (Pulsus Bisferiens), highlighted by white arrows."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 126,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In which of the following clinical conditions would this particular waveform (Pulsus Bisferiens) most likely be observed?",
+        "image": "pulsus_bisferin_aortic_regurgitation.png",
+        "opciones": [
+            "Peripheral arterial occlusion",
+            "Aortic regurgitation",
+            "Carotid artery dissection",
+            "Deep vein thrombosis"
+        ],
+        "respuesta_correcta": [
+            "Aortic regurgitation"
+        ],
+        "concept_to_study": "Clinical associations of Pulsus Bisferiens",
+        "explicacion_openai": "Pulsus bisferiens, the waveform shown with two systolic peaks, is a classic finding associated primarily with significant aortic regurgitation, sometimes coexisting with aortic stenosis. The altered hemodynamics from the regurgitant flow contribute to this distinct pulse. Peripheral arterial occlusion would result in absent or severely dampened flow distally. Carotid artery dissection typically presents with varying flow patterns in the true/false lumens, not pulsus bisferiens. Deep vein thrombosis is a venous pathology and would not cause an arterial waveform like this.",
+        "image_explanation": "Spectral Doppler waveform displaying two distinct systolic peaks (Pulsus Bisferiens), highlighted by white arrows."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 126,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary hemodynamic mechanism responsible for the appearance of the 'double-peaked' waveform shown?",
+        "image": "pulsus_bisferin_aortic_regurgitation.png",
+        "opciones": [
+            "Increased peripheral vascular resistance.",
+            "Rapid systolic ejection followed by a reflected wave or rebound.",
+            "Premature ventricular contractions.",
+            "Severe proximal arterial stenosis."
+        ],
+        "respuesta_correcta": [
+            "Rapid systolic ejection followed by a reflected wave or rebound."
+        ],
+        "concept_to_study": "Hemodynamic causes of Pulsus Bisferiens",
+        "explicacion_openai": "The primary hemodynamic mechanism for Pulsus Bisferiens (the double-peaked waveform) is typically attributed to a rapid systolic ejection followed by a reflected wave or a rebound effect, particularly in conditions like aortic regurgitation. The first peak represents the initial rapid ejection, and the second peak is a later systolic pressure wave. Increased peripheral vascular resistance would primarily affect diastolic flow and overall waveform morphology but not create two distinct systolic peaks. Premature ventricular contractions would lead to irregular rhythms and variable pulse amplitudes, not necessarily a consistent bisferiens pattern. Severe proximal arterial stenosis would cause a 'tardus parvus' waveform distal to the stenosis, not a double systolic peak.",
+        "image_explanation": "Spectral Doppler waveform displaying two distinct systolic peaks (Pulsus Bisferiens), highlighted by white arrows."
     }
 ]
+
