@@ -17397,5 +17397,119 @@
         "concept_to_study": "Minimizing motion artifact",
         "explicacion_openai": "Since the phenomenon is attributed to patient movement, the most direct first step is to address the source by clearly communicating with the patient, ensuring comfort, and adjusting positioning to minimize involuntary movements. (Refer to AIUM practice guidelines).",
         "image_explanation": "The image shows motion artifact, and the question asks for the initial step to correct it, which involves addressing patient movement."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "This waveform is characteristic of:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "Aneurysm",
+            "Normal biphasic waveform",
+            "Arterial dissection",
+            "Pseudoaneurysm"
+        ],
+        "respuesta_correcta": [
+            "Pseudoaneurysm"
+        ],
+        "concept_to_study": "Spectral Doppler findings of Pseudoaneurysm",
+        "explicacion_openai": "The waveform shown, with its distinct antegrade (forward) flow above the baseline during systole and retrograde (reverse) flow below the baseline, is the classic \"to-and-fro\" flow pattern. This pattern is pathognomonic for a pseudoaneurysm. It represents blood entering the pseudoaneurysm sac during the high-pressure systolic phase and then flowing back into the parent artery during the lower-pressure diastolic phase through the connecting neck. Aneurysms typically show turbulent flow within the sac but not this distinct bidirectional pattern. Normal biphasic waveforms have different characteristics. Arterial dissections have variable flow patterns in true/false lumens but not specifically 'to-and-fro' in the neck.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "This waveform, when observed in a pseudoaneurysm, is typically seen in the:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "Periphery of the pseudoaneurysm",
+            "Center of the pseudoaneurysm sac",
+            "Neck of the pseudoaneurysm",
+            "Adjacent normal artery"
+        ],
+        "respuesta_correcta": [
+            "Neck of the pseudoaneurysm"
+        ],
+        "concept_to_study": "Location of 'to-and-fro' flow in Pseudoaneurysm",
+        "explicacion_openai": "The 'to-and-fro' flow pattern is specifically generated within the neck (the communicating channel) of the pseudoaneurysm. This is where the blood is actively moving in and out of the arterial system and the contained hematoma. Within the main sac, turbulent, swirling flow ('Yin-Yang' sign) is typically observed. In the adjacent normal artery, flow should appear as normal arterial flow.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The pattern observed in this waveform is commonly referred to as:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "Monophasic flow",
+            "To-and-fro flow",
+            "Tardus parvus",
+            "High resistance flow"
+        ],
+        "respuesta_correcta": [
+            "To-and-fro flow"
+        ],
+        "concept_to_study": "Terminology for Pseudoaneurysm Doppler pattern",
+        "explicacion_openai": "'To-and-fro flow' is the most accurate and widely used term to describe this specific bidirectional spectral Doppler waveform, where flow alternates direction within the cardiac cycle. Monophasic flow indicates continuous forward flow due to severe stenosis. Tardus parvus describes a waveform with a delayed upstroke and low amplitude, seen distal to stenosis. High resistance flow is a general term, not specific to this pattern.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following describes the flow characteristic shown in the image?",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "Always indicates severe stenosis.",
+            "Represents a low resistance flow pattern.",
+            "Is diagnostic of a communication between two vessels.",
+            "Signifies bidirectional flow due to pressure gradients within a contained space."
+        ],
+        "respuesta_correcta": [
+            "Signifies bidirectional flow due to pressure gradients within a contained space."
+        ],
+        "concept_to_study": "Hemodynamics of Pseudoaneurysm 'to-and-fro' flow",
+        "explicacion_openai": "The waveform fundamentally represents bidirectional flow where blood is moving in opposing directions relative to the transducer within the same cardiac cycle. This is driven by dynamic pressure changes: high arterial pressure during systole forces blood into the pseudoaneurysm, and during diastole, the pressure in the artery drops, allowing blood to flow back out of the pseudoaneurysm sac into the artery. This occurs within the 'contained space' of the pseudoaneurysm neck connecting to the arterial lumen. This flow does not indicate severe stenosis or a low resistance pattern. While it is a communication, 'between two vessels' is too broad.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When encountering this waveform during a vascular ultrasound, the sonographer should immediately consider:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "An acutely occluded vessel.",
+            "A pulsatile mass with an arterial connection.",
+            "Normal venous outflow.",
+            "Diffuse atherosclerotic disease."
+        ],
+        "respuesta_correcta": [
+            "A pulsatile mass with an arterial connection."
+        ],
+        "concept_to_study": "Clinical implications of 'to-and-fro' flow",
+        "explicacion_openai": "The presence of 'to-and-fro' flow on spectral Doppler in the neck of a lesion is a definitive sign of a pseudoaneurysm. Pseudoaneurysms commonly present clinically as a pulsatile mass (a palpable lump that pulses) and, by definition, have an arterial connection (the neck) to the parent artery. An acute occlusion would show absent flow. Normal venous outflow and diffuse atherosclerotic disease have different Doppler characteristics.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The spectral Doppler characteristics of this waveform are most consistent with:",
+        "image": "pseudoaneurysm_wave.png",
+        "opciones": [
+            "A triphasic arterial signal.",
+            "A continuous venous signal.",
+            "Flow through a narrow orifice with turbulence.",
+            "A contained hematoma communicating with an artery."
+        ],
+        "respuesta_correcta": [
+            "A contained hematoma communicating with an artery."
+        ],
+        "concept_to_study": "Pathophysiological basis of 'to-and-fro' flow",
+        "explicacion_openai": "This answer provides the most precise description of the underlying pathology that generates the 'to-and-fro' flow. A pseudoaneurysm is, by definition, a contained hematoma (the sac) that communicates with an artery (via the neck). The pressure dynamics at this communication are what create the characteristic bidirectional flow. It is not a triphasic arterial signal, continuous venous signal, or merely flow through a narrow orifice with turbulence.",
+        "image_explanation": "Spectral Doppler waveform showing classic 'to-and-fro' flow, characteristic of a pseudoaneurysm neck."
     }
 ]
