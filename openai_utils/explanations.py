@@ -1,9 +1,16 @@
-
+try:
 import openai
 except Exception:
 openai = None
 
-from .prompts import EXPLANATION_PROMPT  # Importa el prompt
+Import robusto del prompt (evita fallos de import relativo según el entorno)
+try:
+from openai_utils.prompts import EXPLANATION_PROMPT
+except Exception:
+try:
+from .prompts import EXPLANATION_PROMPT
+except Exception:
+EXPLANATION_PROMPT = None  # Desactiva llamadas a OpenAI si no se puede importar el prompt
 
 def format_question_for_openai(question_data, user_answer):
 """
@@ -28,8 +35,9 @@ Gets explanations from OpenAI for incorrect answers,
 adding 'Concept to Study:' if there's a local explanation.
 
 Comportamiento robusto y silencioso:
-- Si no hay librería OpenAI o no hay API key: no llama a la API y continúa sin mostrar errores.
-- Si falla la llamada a la API: se omite esa explicación y se continúa sin interrumpir el flujo.
+- Si no hay librería OpenAI, no hay API key o no se puede importar el prompt:
+  no llama a la API y continúa sin mostrar errores.
+- Si falla la llamada a la API: se omite esa explicación y se continúa.
 - Si existe explicación local en la pregunta, se usa sin llamar a la API.
 """
 explanations = {}
@@ -66,8 +74,8 @@ for answer_data in incorrect_answers:
         explanations[question_index] = final_text
         continue
 
-    # Si no hay explicación local y OpenAI no está habilitado, omitir silenciosamente
-    if not openai_enabled:
+    # Si no hay explicación local, y no está habilitado OpenAI o no hay prompt, omitir silenciosamente
+    if not openai_enabled or EXPLANATION_PROMPT is None:
         continue
 
     # Llamada a OpenAI (si está habilitado)
