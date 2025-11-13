@@ -1,4 +1,4 @@
-try:
+
 import openai
 except Exception:
 openai = None
