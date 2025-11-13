@@ -1,3 +1,4 @@
+
 [
   {
     "clasificacion": "Normal Anatomy, Perfusion, and Function",
@@ -23,7 +24,7 @@
     "grupo": 223,
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What downstream effect can result from the current color box placement and angle?",
-    "image": "carotid_colorbox_misuse.",
+    "image": "carotid_colorbox_misuse.png",
     "opciones": [
       "Enhanced detection of low‑velocity flow",
       "Accurate quantification of peak systolic velocity",
@@ -39,7 +40,7 @@
     "grupo": 219,
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which factor most likely caused the aliasing artifact in this spectral Doppler waveform?",
-    "image": "baseline_aliasing_carotidg",
+    "image": "baseline_aliasing_carotid.png",
     "opciones": [
       "Proper angle correction",
       "Incorrect baseline placement",
@@ -172,7 +173,7 @@
     "grupo": 21,
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Based on the spectral Doppler tracing shown, which of the following most accurately describes its vascular resistance profile?",
-    "image": "onda_trifasica.p",
+    "image": "onda_trifasica.png",
     "opciones": [
       "High resistance",
       "Low resistance",
@@ -590,6 +591,26 @@
     ],
     "concept_to_study": "Great saphenous vein characteristics",
     "explicacion_openai": "The great saphenous vein normally ascends medially; therefore, the statement that it travels laterally is false.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Normal Anatomy, Perfusion and Function",
+    "grupo": 80,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which one of the following statements regarding the great saphenous vein is inaccurate?",
+    "image": "",
+    "opciones": [
+      "It courses along the lateral region of the knee",
+      "It ascends along the inner aspect of the thigh",
+      "It drains into the common femoral vein",
+      "It reaches the dorsum of the foot",
+      "It possesses a greater number of valves in the calf than in the thigh"
+    ],
+    "respuesta_correcta": [
+      "It courses along the lateral region of the knee"
+    ],
+    "concept_to_study": "Great saphenous vein characteristics",
+    "explicacion_openai": "The inaccurate statement is that the vein courses laterally at the knee, although it actually ascends medially along the thigh.",
     "image_explanation": ""
   }
 ]
