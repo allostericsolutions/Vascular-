@@ -1,108 +1,88 @@
 
 import openai
-except Exception:
-openai = None
+import os
+import streamlit as st
+from .prompts import EXPLANATION_PROMPT  # Importa el prompt
 
-Import robusto del prompt (evita fallos de import relativo según el entorno)
-try:
-from openai_utils.prompts import EXPLANATION_PROMPT
-except Exception:
-try:
-from .prompts import EXPLANATION_PROMPT
-except Exception:
-EXPLANATION_PROMPT = None  # Desactiva llamadas a OpenAI si no se puede importar el prompt
+# Configuración de la API Key (desde Streamlit Secrets)
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 def format_question_for_openai(question_data, user_answer):
-"""
-Formats a single question and the user's incorrect answer.
-"""
-enunciado = question_data["enunciado"]
-opciones = question_data["opciones"]
-respuesta_correcta = question_data["respuesta_correcta"]
+    """
+    Formats a single question and the user's incorrect answer.
+    """
+    enunciado = question_data["enunciado"]
+    opciones = question_data["opciones"]
+    respuesta_correcta = question_data["respuesta_correcta"]
 
-opciones_str = "\n".join([f"{chr(97 + i)}) {opcion}" for i, opcion in enumerate(opciones)])
+    opciones_str = "\n".join([f"{chr(97 + i)}) {opcion}" for i, opcion in enumerate(opciones)])
 
-formatted_question = (
-    f"Pregunta: {enunciado}\n"
-    f"Opciones:\n{opciones_str}\n"
-    f"Respuesta incorrecta: {user_answer}\n"
-    f"Respuesta correcta: {', '.join(respuesta_correcta)}"
-)
-return formatted_question
-def get_openai_explanation(incorrect_answers):
-"""
-Gets explanations from OpenAI for incorrect answers,
-adding 'Concept to Study:' if there's a local explanation.
-
-Comportamiento robusto y silencioso:
-- Si no hay librería OpenAI, no hay API key o no se puede importar el prompt:
-  no llama a la API y continúa sin mostrar errores.
-- Si falla la llamada a la API: se omite esa explicación y se continúa.
-- Si existe explicación local en la pregunta, se usa sin llamar a la API.
-"""
-explanations = {}
-
-# Configuración perezosa/silenciosa de la API:
-openai_enabled = False
-if openai is not None:
-    # No lanzar KeyError: usar .get
-    api_key = st.secrets.get("OPENAI_API_KEY", None)
-    if api_key:
-        try:
-            openai.api_key = api_key
-            openai_enabled = True
-        except Exception:
-            # Si no se puede configurar la key, desactivamos sin romper
-            openai_enabled = False
-
-for answer_data in incorrect_answers:
-    question_data = answer_data["pregunta"]
-    user_answer = answer_data["respuesta_usuario"]
-    question_index = answer_data["indice_pregunta"]
-
-    # Explicación local (no requiere OpenAI)
-    local_explanation = question_data.get("explicacion_openai", "").strip()
-    concept_label = question_data.get("concept_to_study", "").strip()
-
-    if local_explanation:
-        # Mantener el estilo "Concept to Study:" si corresponde
-        if concept_label:
-            final_text = f"Concept to Study: {concept_label}\n{local_explanation}"
-        else:
-            final_text = local_explanation
-
-        explanations[question_index] = final_text
-        continue
-
-    # Si no hay explicación local, y no está habilitado OpenAI o no hay prompt, omitir silenciosamente
-    if not openai_enabled or EXPLANATION_PROMPT is None:
-        continue
-
-    # Llamada a OpenAI (si está habilitado)
-    formatted_question = format_question_for_openai(question_data, user_answer)
-    prompt = EXPLANATION_PROMPT.format(
-        pregunta=formatted_question,
-        respuesta_incorrecta=user_answer,
-        respuesta_correcta=', '.join(question_data["respuesta_correcta"])
+    formatted_question = (
+        f"Pregunta: {enunciado}\n"
+        f"Opciones:\n{opciones_str}\n"
+        f"Respuesta incorrecta: {user_answer}\n"
+        f"Respuesta correcta: {', '.join(respuesta_correcta)}"
     )
+    return formatted_question
 
-    try:
-        response = openai.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.1,
-            max_tokens=16000,
-            top_p=0.1,
-            frequency_penalty=0.0,
-            presence_penalty=0.0,
+
+def get_openai_explanation(incorrect_answers):
+    """
+    Gets explanations from OpenAI for incorrect answers,
+    adding 'Concept to Study:' if there's a local explanation.
+    """
+    explanations = {}
+    for answer_data in incorrect_answers:
+        question_data = answer_data["pregunta"]
+        user_answer = answer_data["respuesta_usuario"]
+        question_index = answer_data["indice_pregunta"]
+
+        # Si hay explicación local, no llamamos a OpenAI
+        local_explanation = question_data.get("explicacion_openai", "").strip()
+        concept_label = question_data.get("concept_to_study", "").strip()
+
+        if local_explanation:
+            # Para que se muestre al estilo de ChatGPT, añadimos "Concept to Study:" si corresponde
+            if concept_label:
+                # Combina la etiqueta con la explicación local
+                final_text = f"Concept to Study: {concept_label}\n{local_explanation}"
+            else:
+                # Si no hay concept_to_study, usamos la explicación local tal cual
+                final_text = local_explanation
+
+            explanations[question_index] = final_text
+            continue
+
+        # Si no hay explicación local, se llama a OpenAI
+        formatted_question = format_question_for_openai(question_data, user_answer)
+        prompt = EXPLANATION_PROMPT.format(
+            pregunta=formatted_question,
+            respuesta_incorrecta=user_answer,
+            respuesta_correcta=', '.join(question_data["respuesta_correcta"])
         )
-        explanation = response.choices[0].message.content.strip()
-        explanations[question_index] = explanation
-    except Exception:
-        # Fallo de API o red: omitir en silencio
-        continue
 
-return explanations
+        try:
+            response = openai.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                max_tokens=16000,
+                top_p=0.1,
+                frequency_penalty=0.0,
+                presence_penalty=0.0,
+            )
+            explanation = response.choices[0].message.content.strip()
+            explanations[question_index] = explanation
+        except openai.OpenAIError as e:
+            print(f"Error de OpenAI: {e}")
+            st.error(f"Error al obtener la explicación de OpenAI: {e}")
+            return {}
+        except Exception as e:
+            print(f"Error inesperado: {e}")
+            st.error(f"Ocurrió un error inesperado: {e}")
+            return {}
+
+    return explanations
