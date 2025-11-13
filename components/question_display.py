@@ -16,17 +16,19 @@ def display_question(question, question_num):
     st.write(question['enunciado'])
 
   with st.container():
-    if question['image']:
-      image_path = os.path.join("assets", "images", question['image'])
-      try:
-        # --- CAMBIO AQUÍ: Envuelve st.image y el enlace en un div ---
-        st.markdown(f'<div class="image-container">', unsafe_allow_html=True)
-        st.image(image_path) # Eliminado use_container_width=True
-        st.markdown(f'<a href="{image_path}" target="_blank">Ver imagen en pestaña nueva</a>', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)  # Cierra el div
-        # ------------------------------------------------------------
-      except FileNotFoundError:
-        st.error(f"Image not found: {image_path}")
+    image_name = (question.get('image') or "").strip()
+    if image_name:
+      image_path = os.path.join("assets", "images", image_name)
+      if os.path.exists(image_path):
+        try:
+          st.markdown('<div class="image-container">', unsafe_allow_html=True)
+          st.image(image_path)  # Eliminado use_container_width=True
+          st.markdown(f'<a href="{image_path}" target="_blank">Open image in new tab</a>', unsafe_allow_html=True)
+          st.markdown('</div>', unsafe_allow_html=True)
+        except Exception:
+          st.warning("Image could not be displayed. Please continue the exam and report this issue.")
+      else:
+        st.warning("Image file not found. Please continue the exam and report this issue.")
 
   with st.container():
     existing_answer = st.session_state.answers.get(str(question_num - 1), None)
