@@ -34,7 +34,7 @@
 
   "//generator": "12344321",
 
-  "token_generator_password": "GEN-TOKENS-ADMIN-2025",
+  "token_generator_password": "12344321",
 
   "//legacy": "SE DEJAN ESTAS LISTAS VACÍAS POR COMPATIBILIDAD CON CÓDIGO ANTIGUO, PERO LA NUEVA verify_password NO LAS USARÁ.",
 
