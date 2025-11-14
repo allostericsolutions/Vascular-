@@ -210,6 +210,10 @@ def exam_screen():
     nombre = st.session_state.user_data.get('nombre', '')
     email = st.session_state.user_data.get('email', '')
 
+    # AÑADIDO: por si acaso, garantizar que start_time está inicializado
+    if st.session_state.start_time is None:
+        st.session_state.start_time = time.time()
+
     # Mostramos Name y Email en la barra lateral
     with st.sidebar:
         st.write("User Information")
@@ -351,7 +355,8 @@ def main():
 
     if not st.session_state.authenticated:
         authentication_screen()
-    elif not st.session_state.user_data:
+    # CAMBIO: usamos presencia de 'nombre' como criterio
+    elif not st.session_state.user_data.get("nombre"):
         user_data_input()
     elif not st.session_state.end_exam:
         main_screen()
