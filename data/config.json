@@ -6,7 +6,7 @@
   "warning_time_seconds": 600,
   "passing_score": 555,
 
-  "//passwords": "CLAVES BASE PARA GENERAR CÓDIGOS DIARIOS (NO SON LAS CLAVES FINALES). PUEDES CAMBIARLAS SI QUIERES OTRAS.",
+  "//passwords_base": "CLAVES BASE PARA GENERAR CÓDIGOS DIARIOS (NO SON LAS CLAVES FINALES). PUEDES CAMBIARLAS SI QUIERES OTRAS.",
 
   "passwords_full_base": [
     "RVT#F1A9",
@@ -31,6 +31,10 @@
 
   "master_password_full": "franciscocuri32",
   "master_password_short": "prueba11",
+
+  "//generator": "12344321",
+
+  "token_generator_password": "GEN-TOKENS-ADMIN-2025",
 
   "//legacy": "SE DEJAN ESTAS LISTAS VACÍAS POR COMPATIBILIDAD CON CÓDIGO ANTIGUO, PERO LA NUEVA verify_password NO LAS USARÁ.",
 
