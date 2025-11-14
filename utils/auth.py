@@ -23,7 +23,7 @@ def load_config():
 # FECHA ACTUAL (ZONA HORARIA)
 # ==========================
 
-def _today_str() -> str:
+def _today_str():
     """
     Devuelve la fecha de hoy en formato 'YYYY-MM-DD'
     usando la zona horaria America/New_York.
@@ -37,7 +37,7 @@ def _today_str() -> str:
 # GENERADOR DE CÓDIGOS
 # ==========================
 
-def generate_access_code(email: str, base: str, date_str: str | None = None) -> str:
+def generate_access_code(email, base, date_str=None):
     """
     Genera el código de acceso diario para un email y una base.
 
@@ -71,7 +71,7 @@ def generate_access_code(email: str, base: str, date_str: str | None = None) -> 
 # VERIFICACIÓN DE CONTRASEÑA
 # ==========================
 
-def verify_password(token: str, email: str) -> bool:
+def verify_password(token, email):
     """
     Verifica si el 'token' (código de acceso) es válido para el 'email' dado.
 
@@ -115,7 +115,6 @@ def verify_password(token: str, email: str) -> bool:
         try:
             expected = generate_access_code(email_clean, base)
         except Exception:
-            # Si fallara algo en generate_access_code, mejor seguir con el siguiente intento
             continue
 
         if token == expected:
