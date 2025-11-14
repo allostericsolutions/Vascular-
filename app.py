@@ -146,7 +146,7 @@ def authentication_screen():
     Authentication screen: asks for email + access code.
     La sección de administrador solo aparece si la URL incluye ?admin=1.
     """
-    st.title("Exam Login")
+    st.title("ARDMS RVT Login")
 
     # -------------------------------
     # Login normal para el alumno
