@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import time
 import os
+import random
 
 # Importamos nuestras utilerías y componentes
 from utils.auth import verify_password, generate_access_code
@@ -72,53 +73,84 @@ def initialize_session():
 
 
 # ─────────────────────────────────────────────────────────────
-# NUEVO: Generador de código de acceso
+# Generador de código de acceso (solo administrador)
 # ─────────────────────────────────────────────────────────────
 def access_code_generator():
     """
-    UI para generar un código de acceso basado en email + base code.
+    UI para generar un código de acceso basado en email.
+    Protegido con contraseña de administrador.
+    La base se elige al azar según el tipo de examen (full / short).
     """
-    st.subheader("Generate Access Code")
+    st.subheader("Generate student access code (administrator only)")
 
     with st.form("generator_form"):
-        gen_email = st.text_input("Email for this exam:", key="gen_email")
-        base_code = st.text_input("Base code (provided by administrator):", key="gen_base_code")
+        admin_pass = st.text_input(
+            "Admin password for token generation:",
+            type="password",
+            key="gen_admin_pass"
+        )
+        gen_email = st.text_input("Student email for this exam:", key="gen_email")
+
+        exam_type_choice = st.selectbox(
+            "Exam type:",
+            options=["Full", "Short"],
+            index=0,
+            key="gen_exam_type"
+        )
+
         submitted = st.form_submit_button("Generate access code")
 
     if submitted:
-        if not gen_email.strip() or not base_code.strip():
-            st.error("Please enter both email and base code.")
+        # 1) Validar contraseña de administrador del generador
+        expected_admin_pass = config.get("token_generator_password", "")
+        if not expected_admin_pass:
+            st.error("Configuration error: 'token_generator_password' is not set in config.json.")
             return
 
-        valid_full_bases = config.get("passwords_full_base", [])
-        valid_short_bases = config.get("passwords_short_base", [])
-        all_bases = valid_full_bases + valid_short_bases
-
-        if base_code not in all_bases:
-            st.error("Invalid base code.")
+        if admin_pass != expected_admin_pass:
+            st.error("Invalid admin password.")
             return
 
+        # 2) Validar email
+        if not gen_email.strip():
+            st.error("Please enter the student's email.")
+            return
+
+        # 3) Elegir base al azar según tipo de examen
+        if exam_type_choice == "Full":
+            bases = config.get("passwords_full_base", [])
+        else:
+            bases = config.get("passwords_short_base", [])
+
+        if not bases:
+            st.error("No base codes configured for this exam type.")
+            return
+
+        base_code = random.choice(bases)
+
+        # 4) Generar token
         try:
             token = generate_access_code(gen_email, base_code)
         except Exception as e:
             st.error(f"Error generating access code: {e}")
             return
 
-        st.success("Your access code for today's exam is:")
+        # 5) Mostrar token para que TÚ se lo des al alumno
+        st.success(f"Access code generated for this student ({exam_type_choice}) for today's exam:")
         st.code(token)
-        st.info("Copy this code and use it in the login section below.")
+        st.info("Send this access code to the student. They must use it with the same email.")
 
 
 def authentication_screen():
     """
     Authentication screen: asks for email + access code.
+    La sección de administrador solo aparece si la URL incluye ?admin=1.
     """
     st.title("Exam Login")
 
-    # Sección para generar el código de acceso
-    with st.expander("Need an access code? Generate it here", expanded=False):
-        access_code_generator()
-
+    # -------------------------------
+    # Login normal para el alumno
+    # -------------------------------
     st.subheader("Enter your email and access code")
 
     email = st.text_input("Email used to generate your access code:")
@@ -140,6 +172,19 @@ def authentication_screen():
                 st.rerun()
             else:
                 st.error("Invalid email or access code.")
+
+    # -------------------------------
+    # Sección de administrador (oculta salvo ?admin=1)
+    # -------------------------------
+    params = st.experimental_get_query_params()
+    is_admin_view = params.get("admin", ["0"])[0] == "1"
+
+    if is_admin_view:
+        st.markdown("---")
+        st.caption("Administrator section – students should ignore this area.")
+
+        with st.expander("Administrator: Generate student access code", expanded=False):
+            access_code_generator()
 
 
 def display_marked_questions_sidebar():
@@ -210,7 +255,7 @@ def exam_screen():
     nombre = st.session_state.user_data.get('nombre', '')
     email = st.session_state.user_data.get('email', '')
 
-    # AÑADIDO: por si acaso, garantizar que start_time está inicializado
+    # Por si acaso, garantizar que start_time está inicializado
     if st.session_state.start_time is None:
         st.session_state.start_time = time.time()
 
@@ -355,7 +400,7 @@ def main():
 
     if not st.session_state.authenticated:
         authentication_screen()
-    # CAMBIO: usamos presencia de 'nombre' como criterio
+    # Usamos presencia de 'nombre' como criterio para pasar a examen
     elif not st.session_state.user_data.get("nombre"):
         user_data_input()
     elif not st.session_state.end_exam:
