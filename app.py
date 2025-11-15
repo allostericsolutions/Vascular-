@@ -327,16 +327,24 @@ def exam_screen():
 
         with st.form("finish_form"):
             st.warning("When you are ready to finish the exam, press 'Confirm Completion' and then conclude by pressing 'Finish Exam'.")
-            if st.form_submit_button("Confirm Completion"):
+
+            col1, col2 = st.columns(2)
+
+            with col1:
+                confirm_clicked = st.form_submit_button("Confirm Completion")
+            with col2:
+                finish_clicked = st.form_submit_button("Finish Exam")
+
+            if confirm_clicked:
                 st.session_state.confirm_finish = True
 
-        if st.button("Finish Exam"):
-            if st.session_state.confirm_finish:
-                st.info("⏳ Please wait a few seconds while we prepare your score and performance report. When ready, you will see 'Results generated in PDF' and be able to download your report.")
-                st.session_state.end_exam = True
-                finalize_exam()
-            else:
-                st.warning("Please confirm completion using the button above.")
+            if finish_clicked:
+                if st.session_state.confirm_finish:
+                    st.info("⏳ Please wait a few seconds while we prepare your score and performance report. When ready, you will see 'Results generated in PDF' and be able to download your report.")
+                    st.session_state.end_exam = True
+                    finalize_exam()
+                else:
+                    st.warning("Please confirm completion using the button above.")
 
 
 def finalize_exam():
@@ -393,8 +401,6 @@ def main():
     initialize_session()
     load_css()
 
-    instructions_tab()
-
     # Control de tamaño de fuente
     with st.sidebar:
         st.write("Adjust Font Size")
@@ -416,9 +422,11 @@ def main():
     """, unsafe_allow_html=True)
 
     if not st.session_state.authenticated:
+        instructions_tab()
         authentication_screen()
     # Usamos presencia de 'nombre' como criterio para pasar a examen
     elif not st.session_state.user_data.get("nombre"):
+        instructions_tab()
         user_data_input()
     elif not st.session_state.end_exam:
         main_screen()
