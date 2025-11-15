@@ -1,616 +1,287 @@
-
 [
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 236,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What artery is indicated by the arrow in this cerebral angiogram?",
-    "image": "cerebral_posterior_angiograma.png",
-    "opciones": [
-      "Anterior Cerebral Artery",
-      "Middle Cerebral Artery",
-      "Posterior Cerebral Artery",
-      "Basilar Artery"
-    ],
-    "respuesta_correcta": [
-      "Posterior Cerebral Artery"
-    ],
-    "concept_to_study": "Cerebral arteries anatomy",
-    "explicacion_openai": "The image is a cerebral angiogram showing the posterior circulation. The arrow points to the Posterior Cerebral Artery (PCA), which is one of the terminal branches of the basilar artery. The PCAs supply the occipital lobe, the inferior temporal lobe, and parts of the thalamus and midbrain. The basilar artery is formed by the union of the two vertebral arteries and is located at the base of the brainstem.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 223,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What downstream effect can result from the current color box placement and angle?",
-    "image": "carotid_colorbox_misuse.png",
-    "opciones": [
-      "Enhanced detection of low‑velocity flow",
-      "Accurate quantification of peak systolic velocity",
-      "Poor arterial mapping with misleading color patterns and potential aliasing artifacts",
-      "Increased signal‑to‑noise ratio"
-    ],
-    "respuesta_correcta": [
-      "Poor arterial mapping with misleading color patterns and potential aliasing artifacts"
-    ]
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion, and Function",
-    "grupo": 219,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which factor most likely caused the aliasing artifact in this spectral Doppler waveform?",
-    "image": "baseline_aliasing_carotid.png",
-    "opciones": [
-      "Proper angle correction",
-      "Incorrect baseline placement",
-      "High transducer frequency",
-      "Low wall filter"
-    ],
-    "respuesta_correcta": [
-      "Incorrect baseline placement"
-    ],
-    "concept_to_study": "Spectral Doppler aliasing",
-    "explicacion_openai": "Even if velocities are within normal limits, aliasing can appear when the baseline is incorrectly positioned too close to zero. This reduces the available display range, causing the waveform to wrap around.",
-    "image_explanation": "The image displays a spectral Doppler waveform exhibiting aliasing, characterized by the waveform wrapping around the baseline. This artifact suggests that the displayed velocity exceeds the Nyquist limit due to an improperly set baseline."
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 52,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which superficial vein contributes blood to the three principal perforator veins in the distal calf?",
-    "image": "",
-    "opciones": [
-      "Small saphenous vein",
-      "Posterior accessory vein",
-      "Peroneal vein",
-      "Anterior accessory vein"
-    ],
-    "respuesta_correcta": [
-      "Small saphenous vein"
-    ],
-    "concept_to_study": "Superficial vein drainage of the distal calf",
-    "explicacion_openai": "The small saphenous vein plays a vital role in providing blood flow to the main perforating veins in the distal calf, making it the correct answer.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 53,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Where are the paratibial perforating veins (Boyd's perforator) typically located?",
-    "image": "",
-    "opciones": [
-      "In the lower calf",
-      "In the distal thigh",
-      "In the proximal thigh",
-      "On the dorsum of the foot"
-    ],
-    "respuesta_correcta": [
-      "In the lower calf"
-    ],
-    "concept_to_study": "Location of paratibial perforating veins",
-    "explicacion_openai": "Paratibial perforating veins, previously known as Boyd's perforator, are most commonly found in the lower calf region.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 54,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Identify the anatomical region where the paratibial perforating veins are found:",
-    "image": "",
-    "opciones": [
-      "In the lower calf",
-      "In the distal thigh",
-      "In the proximal thigh",
-      "On the medial aspect of the foot"
-    ],
-    "respuesta_correcta": [
-      "In the lower calf"
-    ],
-    "concept_to_study": "Location of paratibial perforating veins",
-    "explicacion_openai": "The paratibial perforating veins are located in the lower calf, which is critical for understanding venous drainage of the leg.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 55,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which location best describes where the paratibial perforating veins (formerly Boyd’s perforator) are situated?",
-    "image": "",
-    "opciones": [
-      "In the lower calf",
-      "In the distal thigh",
-      "In the proximal thigh",
-      "In the lateral leg"
-    ],
-    "respuesta_correcta": [
-      "In the lower calf"
-    ],
-    "concept_to_study": "Location of paratibial perforating veins",
-    "explicacion_openai": "The correct anatomical position of the paratibial perforators is in the lower calf area, essential for proper venous return.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 56,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The paratibial perforating veins, previously known as Boyd's perforator, are predominantly located in which region?",
-    "image": "",
-    "opciones": [
-      "In the lower calf",
-      "In the distal thigh",
-      "In the proximal thigh",
-      "On the anterior aspect of the leg"
-    ],
-    "respuesta_correcta": [
-      "In the lower calf"
-    ],
-    "concept_to_study": "Location of paratibial perforating veins",
-    "explicacion_openai": "Knowing that the paratibial perforating veins are found in the lower calf helps in understanding their role in lower extremity venous drainage.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 57,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which statement best describes the features of the great saphenous vein?",
-    "image": "",
-    "opciones": [
-      "It originates along the medial dorsum of the foot",
-      "It passes in front of the medial malleolus",
-      "It is accompanied by the saphenous nerve",
-      "Every option is correct"
-    ],
-    "respuesta_correcta": [
-      "Every option is correct"
-    ],
-    "concept_to_study": "Great saphenous vein anatomy",
-    "explicacion_openai": "The great saphenous vein originates on the medial side of the foot, courses anterior to the medial malleolus, and is accompanied by the saphenous nerve. Every option is correct.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Pathology, Perfusion, and Function",
-    "grupo": 21,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Based on the spectral Doppler tracing shown, which of the following most accurately describes its vascular resistance profile?",
-    "image": "onda_trifasica.png",
-    "opciones": [
-      "High resistance",
-      "Low resistance",
-      "Probably seen in abnormal organ supply",
-      "Seen in stenotic areas"
-    ],
-    "respuesta_correcta": [
-      "High resistance"
-    ],
-    "concept_to_study": "Triphasic waveform",
-    "explicacion_openai": "A triphasic waveform demonstrates high-resistance flow, evident as a sharp systolic upstroke, brief diastolic reversal, and late-diastolic forward component.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 59,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Identify the true features of the great saphenous vein:",
-    "image": "",
-    "opciones": [
-      "It originates along the medial foot",
-      "It passes anterior to the medial malleolus",
-      "It is accompanied by the saphenous nerve",
-      "Every option is correct"
-    ],
-    "respuesta_correcta": [
-      "Every option is correct"
-    ],
-    "concept_to_study": "Great saphenous vein anatomy",
-    "explicacion_openai": "Because the vein originates medially, journeys in front of the medial malleolus, and travels with the saphenous nerve, every option is correct.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 60,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following accurately describes the great saphenous vein?",
-    "image": "",
-    "opciones": [
-      "It begins at the medial dorsum of the foot",
-      "It ascends anterior to the medial malleolus",
-      "It is accompanied by the saphenous nerve",
-      "Every option is correct"
-    ],
-    "respuesta_correcta": [
-      "Every option is correct"
-    ],
-    "concept_to_study": "Great saphenous vein anatomy",
-    "explicacion_openai": "All the options detail correct aspects of the great saphenous vein’s origin, course, and surrounding structures, making every option correct.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 61,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which one of the following statements about the great saphenous vein is NOT correct?",
-    "image": "",
-    "opciones": [
-      "It passes superiorly on the lateral side of the knee",
-      "It passes superiorly on the medial side of the thigh",
-      "It enters the common femoral vein",
-      "It extends distally to the dorsum of the foot"
-    ],
-    "respuesta_correcta": [
-      "It passes superiorly on the lateral side of the knee"
-    ],
-    "concept_to_study": "Great saphenous vein characteristics",
-    "explicacion_openai": "The great saphenous vein normally ascends medially. Claiming that it passes laterally over the knee is incorrect.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 62,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Regarding the great saphenous vein, which statement is false?",
-    "image": "",
-    "opciones": [
-      "It passes superiorly on the lateral aspect of the knee",
-      "It runs superiorly on the medial side of the thigh",
-      "It enters the common femoral vein",
-      "It has more valves in the calf than in the thigh"
-    ],
-    "respuesta_correcta": [
-      "It passes superiorly on the lateral aspect of the knee"
-    ],
-    "concept_to_study": "Great saphenous vein characteristics",
-    "explicacion_openai": "The false statement is the one describing a lateral course at the knee, since the vein typically ascends on the medial side.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 63,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Select the statement that is NOT true about the great saphenous vein:",
-    "image": "",
-    "opciones": [
-      "It passes on the lateral side of the knee",
-      "It ascends on the medial thigh",
-      "It enters the common femoral vein",
-      "It extends to the dorsum of the foot"
-    ],
-    "respuesta_correcta": [
-      "It passes on the lateral side of the knee"
-    ],
-    "concept_to_study": "Great saphenous vein characteristics",
-    "explicacion_openai": "The incorrect option is the one stating a lateral course at the knee, because the vein's course is medial.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 64,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following is an inaccurate description of the great saphenous vein?",
-    "image": "",
-    "opciones": [
-      "It passes superiorly on the lateral aspect of the knee",
-      "It courses along the medial side of the thigh",
-      "It drains into the common femoral vein",
-      "It extends distally to the dorsum of the foot"
-    ],
-    "respuesta_correcta": [
-      "It passes superiorly on the lateral aspect of the knee"
-    ],
-    "concept_to_study": "Great saphenous vein characteristics",
-    "explicacion_openai": "Saying that the vein passes laterally over the knee is inaccurate, as it follows a medial path.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 65,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the name of the superficial vein that supplies blood to the three main perforating veins of the distal calf?",
-    "image": "",
-    "opciones": [
-      "Small saphenous vein",
-      "Posterior accessory vein",
-      "Peroneal vein",
-      "Perforator trunk vein"
-    ],
-    "respuesta_correcta": [
-      "Small saphenous vein"
-    ],
-    "concept_to_study": "Superficial vein drainage of the distal calf",
-    "explicacion_openai": "The small saphenous vein is responsible for conveying blood to the key perforator veins in the distal calf.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 66,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Identify the superficial vein that directs flow to the three primary perforating veins of the distal calf:",
-    "image": "",
-    "opciones": [
-      "Small saphenous vein",
-      "Posterior accessory vein",
-      "Peroneal vein",
-      "Medial malleolar vein"
-    ],
-    "respuesta_correcta": [
-      "Small saphenous vein"
-    ],
-    "concept_to_study": "Superficial vein drainage of the distal calf",
-    "explicacion_openai": "The small saphenous vein is the main vessel channeling blood to the perforating veins in the distal calf.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 67,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which superficial vein is known for sending blood flow to the three major perforating veins of the distal calf?",
-    "image": "",
-    "opciones": [
-      "Small saphenous vein",
-      "Peroneal vein",
-      "Perforator trunk vein",
-      "Medial malleolar vein"
-    ],
-    "respuesta_correcta": [
-      "Small saphenous vein"
-    ],
-    "concept_to_study": "Superficial vein drainage of the distal calf",
-    "explicacion_openai": "Among the listed choices, the small saphenous vein is the one that supplies flow to the perforating veins in the distal portion of the calf.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 68,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following is the superficial vein that feeds the three principal perforating veins of the distal calf?",
-    "image": "",
-    "opciones": [
-      "Small saphenous vein",
-      "Posterior accessory vein",
-      "Perforator trunk vein",
-      "Medial malleolar vein"
-    ],
-    "respuesta_correcta": [
-      "Small saphenous vein"
-    ],
-    "concept_to_study": "Superficial vein drainage of the distal calf",
-    "explicacion_openai": "The small saphenous vein is responsible for delivering blood to the main perforators in the distal calf, making it the correct answer.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 69,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Where are the paratibial perforating veins (formerly Boyd’s perforator) primarily located?",
-    "image": "",
-    "opciones": [
-      "In the lower calf",
-      "In the distal thigh",
-      "In the proximal thigh",
-      "On the dorsum of the foot"
-    ],
-    "respuesta_correcta": [
-      "In the lower calf"
-    ],
-    "concept_to_study": "Location of paratibial perforating veins",
-    "explicacion_openai": "The paratibial perforating veins are predominantly found in the lower calf region.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 70,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Identify the region where the paratibial perforating veins (Boyd’s perforator) are located:",
-    "image": "",
-    "opciones": [
-      "In the lower calf",
-      "In the distal thigh",
-      "In the proximal thigh",
-      "Below the knee"
-    ],
-    "respuesta_correcta": [
-      "In the lower calf"
-    ],
-    "concept_to_study": "Location of paratibial perforating veins",
-    "explicacion_openai": "Although 'below the knee' may seem similar, the precise anatomical location of Boyd’s perforator is in the lower calf.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 71,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": " Which anatomical area best describes the position of the paratibial perforating veins?",
-    "image": "",
-    "opciones": [
-      "In the lower calf",
-      "In the distal thigh",
-      "On the dorsum of the foot",
-      "Below the knee"
-    ],
-    "respuesta_correcta": [
-      "In the lower calf"
-    ],
-    "concept_to_study": "Location of paratibial perforating veins",
-    "explicacion_openai": "The paratibial (Boyd’s) perforator is consistently located in the lower calf, making that the correct selection.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 72,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following best indicates the location of the paratibial perforating veins (Boyd’s perforator)?",
-    "image": "",
-    "opciones": [
-      "In the lower calf",
-      "In the proximal thigh",
-      "On the dorsum of the foot",
-      "Below the knee"
-    ],
-    "respuesta_correcta": [
-      "In the lower calf"
-    ],
-    "concept_to_study": "Location of paratibial perforating veins",
-    "explicacion_openai": "Despite similar nearby regions, the most precise location for the paratibial perforators is the lower calf.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 73,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The great saphenous vein:",
-    "image": "",
-    "opciones": [
-      "Originates along the medial dorsum of the foot",
-      "Passes superiorly, anterior to the medial malleolus",
-      "Is accompanied by the saphenous nerve",
-      "Receives tributaries from all surfaces of the lower extremity",
-      "Every option is correct"
-    ],
-    "respuesta_correcta": [
-      "Every option is correct"
-    ],
-    "concept_to_study": "Great saphenous vein anatomy",
-    "explicacion_openai": "Each statement accurately describes a feature of the great saphenous vein, making every option correct.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 74,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The great saphenous vein is characterized by:",
-    "image": "",
-    "opciones": [
-      "Originates from the medial dorsum of the foot",
-      "Courses superiorly, passing anterior to the medial malleolus",
-      "Travels accompanied by the saphenous nerve",
-      "Receives venous tributaries from all regions of the lower extremity",
-      "All statements are correct"
-    ],
-    "respuesta_correcta": [
-      "All statements are correct"
-    ],
-    "concept_to_study": "Great saphenous vein anatomy",
-    "explicacion_openai": "Every option reflects a correct anatomical feature of the great saphenous vein; hence, all statements are correct.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 75,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Regarding the great saphenous vein:",
-    "image": "",
-    "opciones": [
-      "It begins along the medial side of the dorsal foot",
-      "Runs superiorly, anterior to the medial malleolus",
-      "Is accompanied by the saphenous nerve",
-      "Receives tributaries from every part of the lower limb",
-      "Each statement is accurate"
-    ],
-    "respuesta_correcta": [
-      "Each statement is accurate"
-    ],
-    "concept_to_study": "Great saphenous vein anatomy",
-    "explicacion_openai": "All listed features correctly describe the anatomical pathway and relationships of the great saphenous vein.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 76,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Select the correct features of the great saphenous vein:",
-    "image": "",
-    "opciones": [
-      "It originates on the medial dorsal surface of the foot",
-      "It passes anteriorly over the medial malleolus",
-      "It is accompanied by the saphenous nerve",
-      "It receives venous inflow from all parts of the lower extremity",
-      "All provided statements are accurate"
-    ],
-    "respuesta_correcta": [
-      "All provided statements are accurate"
-    ],
-    "concept_to_study": "Great saphenous vein anatomy",
-    "explicacion_openai": "Since every option reflects a true characteristic of the great saphenous vein, the final option confirms that all provided statements are accurate.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 77,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following is NOT correct regarding the great saphenous vein?",
-    "image": "",
-    "opciones": [
-      "It passes superiorly on the lateral side of the knee",
-      "It ascends along the medial aspect of the thigh",
-      "It drains into the common femoral vein",
-      "It extends distally to the dorsum of the foot",
-      "It has more valves in the calf than in the thigh"
-    ],
-    "respuesta_correcta": [
-      "It passes superiorly on the lateral side of the knee"
-    ],
-    "concept_to_study": "Great saphenous vein characteristics",
-    "explicacion_openai": "Because the great saphenous vein ascends medially, the statement claiming a lateral course at the knee is not correct.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 78,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Select the statement that is INCORRECT concerning the great saphenous vein:",
-    "image": "",
-    "opciones": [
-      "It courses on the lateral side of the knee",
-      "It ascends medially along the thigh",
-      "It empties into the common femoral vein",
-      "It reaches the dorsum of the foot",
-      "It exhibits more valves in the calf than in the thigh"
-    ],
-    "respuesta_correcta": [
-      "It courses on the lateral side of the knee"
-    ],
-    "concept_to_study": "Great saphenous vein characteristics",
-    "explicacion_openai": "The incorrect detail is that the vein courses laterally at the knee, while in reality it ascends along the medial side.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 79,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Identify the false statement about the great saphenous vein:",
-    "image": "",
-    "opciones": [
-      "It travels on the lateral side of the knee",
-      "It runs along the medial thigh",
-      "It joins the common femoral vein",
-      "It extends to the dorsal surface of the foot",
-      "It contains a higher concentration of valves in the calf compared to the thigh"
-    ],
-    "respuesta_correcta": [
-      "It travels on the lateral side of the knee"
-    ],
-    "concept_to_study": "Great saphenous vein characteristics",
-    "explicacion_openai": "The great saphenous vein normally ascends medially; therefore, the statement that it travels laterally is false.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Normal Anatomy, Perfusion and Function",
-    "grupo": 80,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which one of the following statements regarding the great saphenous vein is inaccurate?",
-    "image": "",
-    "opciones": [
-      "It courses along the lateral region of the knee",
-      "It ascends along the inner aspect of the thigh",
-      "It drains into the common femoral vein",
-      "It reaches the dorsum of the foot",
-      "It possesses a greater number of valves in the calf than in the thigh"
-    ],
-    "respuesta_correcta": [
-      "It courses along the lateral region of the knee"
-    ],
-    "concept_to_study": "Great saphenous vein characteristics",
-    "explicacion_openai": "The inaccurate statement is that the vein courses laterally at the knee, although it actually ascends medially along the thigh.",
-    "image_explanation": ""
-  }
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 48,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the most important aspect of 'Ability to interpret and follow patient identification protocols'?",
+        "image": "",
+        "opciones": [
+            "Memorizing the patient's room number.",
+            "Verifying the patient's full name and date of birth against the order.",
+            "Asking the patient what exam they think they are having.",
+            "Checking the patient's dietary restrictions."
+        ],
+        "respuesta_correcta": [
+            "Verifying the patient's full name and date of birth against the order."
+        ],
+        "concept_to_study": "Patient identification protocols.",
+        "explicacion_openai": "Adhering to patient identification protocols, typically involving confirming at least two unique identifiers like full name and date of birth, is paramount to prevent medical errors and ensure patient safety. (Refer to ARDMS RVT content outline section 7.A.1).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 49,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient is referred for a renal artery ultrasound due to uncontrolled hypertension. What 'Knowledge of appropriate indications' is key for the technologist?",
+        "image": "",
+        "opciones": [
+            "Renal artery ultrasound is indicated for evaluation of kidney stones.",
+            "Renal artery ultrasound is indicated for detection of renal artery stenosis as a cause of secondary hypertension.",
+            "Renal artery ultrasound is primarily for prostate evaluation.",
+            "Renal artery ultrasound is contraindicated in patients with hypertension."
+        ],
+        "respuesta_correcta": [
+            "Renal artery ultrasound is indicated for detection of renal artery stenosis as a cause of secondary hypertension."
+        ],
+        "concept_to_study": "Indications for renal artery ultrasound.",
+        "explicacion_openai": "Uncontrolled hypertension is a primary indication for renal artery ultrasound to evaluate for renal artery stenosis, which is a treatable cause of secondary hypertension. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 50,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When 'utilizing resources, such as physicians, literature, or peers', what is the most appropriate action for a technologist encountering an unusual vascular anomaly during an exam?",
+        "image": "",
+        "opciones": [
+            "Conclude the exam without further investigation.",
+            "Document the finding and consult with an experienced peer or interpreting physician for guidance.",
+            "Tell the patient that they have a rare condition.",
+            "Attempt to self-diagnose the anomaly based on a quick internet search."
+        ],
+        "respuesta_correcta": [
+            "Document the finding and consult with an experienced peer or interpreting physician for guidance."
+        ],
+        "concept_to_study": "Utilizing resources, problem-solving, professional collaboration.",
+        "explicacion_openai": "Encountering unusual findings requires professional judgment. Consulting with peers or the interpreting physician is a key resource for clarification, additional insight, and ensuring accurate documentation and reporting. (Refer to ARDMS RVT content outline section 7.B.1).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 51,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents with sudden onset, severe, unilateral leg pain, pallor, and pulselessness. What 'Knowledge of signs and symptoms pertaining to the vascular exam' is critical here?",
+        "image": "",
+        "opciones": [
+            "These are symptoms of a common muscle strain.",
+            "These are classic '5 P' signs of acute arterial occlusion and require immediate attention.",
+            "These symptoms suggest a venous insufficiency problem.",
+            "These indicate a need for a carotid ultrasound."
+        ],
+        "respuesta_correcta": [
+            "These are classic '5 P' signs of acute arterial occlusion and require immediate attention."
+        ],
+        "concept_to_study": "Signs and symptoms of acute arterial occlusion (5 Ps).",
+        "explicacion_openai": "The '5 Ps' (Pain, Pallor, Pulselessness, Paresthesia, Paralysis) are classic signs of acute arterial occlusion, which is a vascular emergency requiring immediate diagnosis and intervention. Recognizing these is critical. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "An ultrasound image shows a duplicated structure deep to a strong reflector, with identical shape and echogenicity. What is the most likely explanation for this finding?",
+        "image": "Mirror_artifact2.png",
+        "opciones": [
+            "Side lobe artifact",
+            "Refraction artifact",
+            "Beam width artifact",
+            "Artifact caused by sound wave reflection off a strong interface"
+        ],
+        "respuesta_correcta": [
+            "Artifact caused by sound wave reflection off a strong interface"
+        ],
+        "concept_to_study": "Identification of mirror artifact based on sonographic appearance",
+        "explicacion_openai": "This question tests the ability to recognize a mirror artifact without naming it directly. Mirror artifacts occur when ultrasound waves reflect off a strong specular interface—such as the diaphragm, pleura, or bladder wall—and return to the transducer via an indirect path. The system assumes the echo traveled in a straight line, so it places the duplicated structure deeper than the original. The duplicated image often appears identical in shape and echogenicity, but lacks true anatomical continuity. Recognizing this pattern is essential to avoid misdiagnosing a duplicated organ or lesion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is the most effective method to eliminate the duplicated structure seen deep to a strong reflector?",
+        "image": "Mirror_artifact2.png",
+        "opciones": [
+            "Increase overall gain",
+            "Change the angle of insonation",
+            "Use compound imaging",
+            "Apply tissue harmonic imaging"
+        ],
+        "respuesta_correcta": [
+            "Change the angle of insonation"
+        ],
+        "concept_to_study": "Technical adjustment to eliminate mirror artifact",
+        "explicacion_openai": "Mirror artifacts are angle-dependent. They occur when the ultrasound beam strikes a strong reflector at a certain angle, causing the reflected wave to bounce back indirectly. By changing the angle of insonation—for example, tilting the transducer slightly—you alter the path of the reflected wave, which can prevent the artifact from forming. Increasing gain or using harmonic imaging may enhance or suppress other features, but they won’t reliably eliminate mirror artifacts. Compound imaging may help in some cases, but angle adjustment is the most direct and effective solution.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What physical principle explains the appearance of a duplicated structure deep to a strong reflector in ultrasound imaging?",
+        "image": "Mirror_artifact2.png",
+        "opciones": [
+            "Misregistration due to reverberation between transducer and skin",
+            "Sound wave reflection off a specular interface, returning to the transducer via an indirect path",
+            "Refraction of sound waves at curved tissue boundaries",
+            "Attenuation of sound waves in highly vascular tissue"
+        ],
+        "respuesta_correcta": [
+            "Sound wave reflection off a specular interface, returning to the transducer via an indirect path"
+        ],
+        "concept_to_study": "Understanding the physical principles behind mirror artifact formation",
+        "explicacion_openai": "Mirror artifacts are caused by indirect reflection of sound waves. When a wave hits a strong specular reflector—like the diaphragm—it can bounce off and reflect again before returning to the transducer. The ultrasound system assumes all echoes travel in straight lines, so it misplaces the delayed echo deeper than its true origin. This results in a duplicated image that mirrors the original structure. Unlike reverberation, which creates multiple linear echoes, mirror artifacts preserve the shape and echogenicity of the original structure but appear in an anatomically impossible location.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The plethysmographic waveform in the image shows a sharp systolic peak followed by a prominent dicrotic wave. What is the most likely interpretation?",
+        "image": "normal_PPG.png",
+        "opciones": [
+            "Normal arterial compliance and flow",
+            "Mild arterial disease",
+            "Moderate proximal obstruction",
+            "Severe arterial occlusion"
+        ],
+        "respuesta_correcta": [
+            "Normal arterial compliance and flow"
+        ],
+        "concept_to_study": "Recognition of normal plethysmographic waveform features",
+        "explicacion_openai": "A normal plethysmographic waveform is characterized by a sharp systolic peak and a clear dicrotic wave, reflecting healthy arterial compliance and unobstructed blood flow. This indicates normal hemodynamic status without evidence of proximal obstruction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The waveform labeled “PLETHYSMOGRAPH” demonstrates a sharp systolic peak with a visible dicrotic notch. In which clinical scenario is this pattern most compatible?",
+        "image": "normal_PPG.png",
+        "opciones": [
+            "A healthy adult with normal ankle-brachial index",
+            "A patient with mild peripheral arterial disease",
+            "A patient with moderate arterial obstruction",
+            "A patient with acute arterial occlusion"
+        ],
+        "respuesta_correcta": [
+            "A healthy adult with normal ankle-brachial index"
+        ],
+        "concept_to_study": "Clinical correlation of normal plethysmographic waveform",
+        "explicacion_openai": "This waveform is typical of a normal physiologic state, where arterial elasticity and blood flow are preserved. The presence of a dicrotic notch indicates normal reflection of the pulse wave from peripheral resistance vessels. It is not consistent with mild, moderate, or severe arterial disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The waveform shown in the image labeled “PLETHYSMOGRAPH” displays a sharp systolic peak without a dicrotic notch and a bowed downslope. In which of the following clinical scenarios is this waveform most likely to be observed?",
+        "image": "mild_stenosis_PPG.png",
+        "opciones": [
+            "A healthy young adult with normal ankle-brachial index",
+            "A patient with mild peripheral arterial disease and early atherosclerotic changes",
+            "A patient with acute arterial occlusion and absent distal pulses",
+            "A patient with chronic venous insufficiency and varicosities"
+        ],
+        "respuesta_correcta": [
+            "A patient with mild peripheral arterial disease and early atherosclerotic changes"
+        ],
+        "concept_to_study": "Recognition of mildly abnormal plethysmographic waveform and its clinical correlation",
+        "explicacion_openai": "The waveform in the image represents a mildly abnormal plethysmographic pattern, characterized by a sharp systolic peak and a bowed downslope, but lacking the dicrotic wave. This is typically seen in patients with early peripheral arterial disease, where arterial compliance begins to decline due to mild atherosclerosis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The plethysmographic waveform in the image shows a sharp systolic peak, absent dicrotic wave, and a bowed downslope. What is the most likely interpretation of this pattern?",
+        "image": "mild_stenosis_PPG.png",
+        "opciones": [
+            "Normal waveform with high compliance",
+            "Mild arterial abnormality",
+            "Severe proximal obstruction",
+            "Artifact due to patient movement"
+        ],
+        "respuesta_correcta": [
+            "Mild arterial abnormality"
+        ],
+        "concept_to_study": "Interpretation of mildly abnormal plethysmographic waveform features",
+        "explicacion_openai": "A mildly abnormal plethysmographic waveform retains a sharp systolic peak but lacks the dicrotic wave, and the downslope curves away from the baseline. This pattern suggests early changes in arterial compliance or mild flow disturbance, often without significant hemodynamic compromise.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The plethysmographic waveform in the image shows a flattened systolic peak with nearly equal upslope and downslope times, and no dicrotic wave. What is the most likely interpretation?",
+        "image": "Moderately_abnormal_plethys.png",
+        "opciones": [
+            "Normal arterial compliance",
+            "Mild arterial abnormality",
+            "Moderate proximal arterial disease",
+            "Severe arterial occlusion"
+        ],
+        "respuesta_correcta": [
+            "Moderate proximal arterial disease"
+        ],
+        "concept_to_study": "Recognition of moderately abnormal plethysmographic waveform and its diagnostic significance",
+        "explicacion_openai": "A moderately abnormal plethysmographic waveform is characterized by a flattened systolic peak, equal upslope and downslope times, and absence of the dicrotic wave. This pattern reflects hemodynamically significant disease proximal to the recording site.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The waveform in the image labeled “PLETHYSMOGRAPH” demonstrates decreased amplitude, flattened peak, and absent dicrotic wave. In which clinical scenario is this pattern most compatible?",
+        "image": "Moderately_abnormal_plethys.png",
+        "opciones": [
+            "A patient with early venous reflux",
+            "A patient with moderate peripheral arterial disease",
+            "A healthy young adult with normal ABI",
+            "A patient with acute arterial occlusion and absent pulses"
+        ],
+        "respuesta_correcta": [
+            "A patient with moderate peripheral arterial disease"
+        ],
+        "concept_to_study": "Clinical correlation of moderately abnormal plethysmographic waveform",
+        "explicacion_openai": "This waveform is typical of moderate peripheral arterial disease, where arterial compliance and flow velocity are reduced. Unlike mild disease, the peak is flattened and the dicrotic wave is absent.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The plethysmographic waveform shows very low amplitude, no dicrotic wave, and equal upslope and downslope times. What is the most likely interpretation?",
+        "image": "severely_abnormal_PPG.png",
+        "opciones": [
+            "Mild arterial disease",
+            "Artifact due to patient movement",
+            "Severe proximal arterial obstruction",
+            "Normal waveform variant"
+        ],
+        "respuesta_correcta": [
+            "Severe proximal arterial obstruction"
+        ],
+        "concept_to_study": "Recognition of severely abnormal plethysmographic waveform and its diagnostic significance",
+        "explicacion_openai": "A severely abnormal waveform is characterized by absent or minimal amplitude, equal upslope and downslope times, and no dicrotic wave. This pattern reflects critical reduction in perfusion, typically due to severe proximal arterial obstruction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 173,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The waveform shown in the image labeled “PLETHYSMOGRAPH” demonstrates absent dicrotic wave, very low amplitude, and equal rise and fall times. In which clinical scenario is this pattern most compatible?",
+        "image": "severely_abnormal_PPG.png",
+        "opciones": [
+            "A patient with mild atherosclerosis and normal ABI",
+            "A patient with acute arterial occlusion and absent distal pulses",
+            "A patient with venous insufficiency and edema",
+            "A healthy adult undergoing routine screening"
+        ],
+        "respuesta_correcta": [
+            "A patient with acute arterial occlusion and absent distal pulses"
+        ],
+        "concept_to_study": "Clinical correlation of severely abnormal plethysmographic waveform",
+        "explicacion_openai": "This waveform is typical of severe arterial compromise, such as acute occlusion, where distal perfusion is critically reduced. The absence of a dicrotic wave and minimal amplitude reflect near-complete flow obstruction.",
+        "image_explanation": ""
+    }
 ]
