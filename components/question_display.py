@@ -23,7 +23,6 @@ def display_question(question, question_num):
         try:
           st.markdown('<div class="image-container">', unsafe_allow_html=True)
           st.image(image_path)  # Eliminado use_container_width=True
-          st.markdown(f'<a href="{image_path}" target="_blank">Open image in new tab</a>', unsafe_allow_html=True)
           st.markdown('</div>', unsafe_allow_html=True)
         except Exception:
           st.warning("Image could not be displayed. Please continue the exam and report this issue.")
