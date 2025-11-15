@@ -21,7 +21,7 @@ from instrucctions.tab_view.instructions_tab import instructions_tab
 
 # Configuración de la página de Streamlit
 st.set_page_config(
-    page_title="RVT Practice Exam - ARDMS",
+    page_title="ARDMS RVT Login",
     layout="centered",
     initial_sidebar_state="collapsed",
 )
@@ -80,6 +80,7 @@ def access_code_generator():
     UI para generar un código de acceso basado en email.
     Protegido con contraseña de administrador.
     La base se elige al azar según el tipo de examen (full / short).
+    Permite especificar la fecha del examen (por defecto, hoy).
     """
     st.subheader("Generate student access code (administrator only)")
 
@@ -96,6 +97,12 @@ def access_code_generator():
             options=["Full", "Short"],
             index=0,
             key="gen_exam_type"
+        )
+
+        # Fecha del examen (por defecto, hoy)
+        exam_date = st.date_input(
+            "Exam date (token will only work on this date):",
+            key="gen_exam_date"
         )
 
         submitted = st.form_submit_button("Generate access code")
@@ -128,17 +135,27 @@ def access_code_generator():
 
         base_code = random.choice(bases)
 
-        # 4) Generar token
+        # 4) Convertir exam_date a 'YYYY-MM-DD'
         try:
-            token = generate_access_code(gen_email, base_code)
+            date_str = exam_date.strftime("%Y-%m-%d")
+        except Exception as e:
+            st.error(f"Invalid exam date: {e}")
+            return
+
+        # 5) Generar token usando la fecha elegida
+        try:
+            token = generate_access_code(gen_email, base_code, date_str=date_str)
         except Exception as e:
             st.error(f"Error generating access code: {e}")
             return
 
-        # 5) Mostrar token para que TÚ se lo des al alumno
-        st.success(f"Access code generated for this student ({exam_type_choice}) for today's exam:")
+        # 6) Mostrar token para que TÚ se lo des al alumno
+        st.success(f"Access code generated for this student ({exam_type_choice}) for {date_str}:")
         st.code(token)
-        st.info("Send this access code to the student. They must use it with the same email.")
+        st.info(
+            "Send this access code to the student. "
+            "They must use it with the same email, and it will only work on the specified date."
+        )
 
 
 def authentication_screen():
