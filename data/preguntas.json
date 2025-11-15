@@ -12951,6 +12951,158 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 83,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The plethysmographic waveform in the image shows a sharp systolic peak followed by a prominent dicrotic wave. What is the most likely interpretation?",
+        "image": "normal_PPG.png",
+        "opciones": [
+            "Normal arterial compliance and flow",
+            "Mild arterial disease",
+            "Moderate proximal obstruction",
+            "Severe arterial occlusion"
+        ],
+        "respuesta_correcta": [
+            "Normal arterial compliance and flow"
+        ],
+        "concept_to_study": "Recognition of normal plethysmographic waveform features",
+        "explicacion_openai": "A normal plethysmographic waveform is characterized by a sharp systolic peak and a clear dicrotic wave, reflecting healthy arterial compliance and unobstructed blood flow. This indicates normal hemodynamic status without evidence of proximal obstruction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 84,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The waveform labeled “PLETHYSMOGRAPH” demonstrates a sharp systolic peak with a visible dicrotic notch. In which clinical scenario is this pattern most compatible?",
+        "image": "normal_PPG.png",
+        "opciones": [
+            "A healthy adult with normal ankle-brachial index",
+            "A patient with mild peripheral arterial disease",
+            "A patient with moderate arterial obstruction",
+            "A patient with acute arterial occlusion"
+        ],
+        "respuesta_correcta": [
+            "A healthy adult with normal ankle-brachial index"
+        ],
+        "concept_to_study": "Clinical correlation of normal plethysmographic waveform",
+        "explicacion_openai": "This waveform is typical of a normal physiologic state, where arterial elasticity and blood flow are preserved. The presence of a dicrotic notch indicates normal reflection of the pulse wave from peripheral resistance vessels. It is not consistent with mild, moderate, or severe arterial disease.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 85,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The waveform shown in the image labeled “PLETHYSMOGRAPH” displays a sharp systolic peak without a dicrotic notch and a bowed downslope. In which of the following clinical scenarios is this waveform most likely to be observed?",
+        "image": "mild_stenosis_PPG.png",
+        "opciones": [
+            "A healthy young adult with normal ankle-brachial index",
+            "A patient with mild peripheral arterial disease and early atherosclerotic changes",
+            "A patient with acute arterial occlusion and absent distal pulses",
+            "A patient with chronic venous insufficiency and varicosities"
+        ],
+        "respuesta_correcta": [
+            "A patient with mild peripheral arterial disease and early atherosclerotic changes"
+        ],
+        "concept_to_study": "Recognition of mildly abnormal plethysmographic waveform and its clinical correlation",
+        "explicacion_openai": "The waveform in the image represents a mildly abnormal plethysmographic pattern, characterized by a sharp systolic peak and a bowed downslope, but lacking the dicrotic wave. This is typically seen in patients with early peripheral arterial disease, where arterial compliance begins to decline due to mild atherosclerosis.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 86,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The plethysmographic waveform in the image shows a sharp systolic peak, absent dicrotic wave, and a bowed downslope. What is the most likely interpretation of this pattern?",
+        "image": "mild_stenosis_PPG.png",
+        "opciones": [
+            "Normal waveform with high compliance",
+            "Mild arterial abnormality",
+            "Severe proximal obstruction",
+            "Artifact due to patient movement"
+        ],
+        "respuesta_correcta": [
+            "Mild arterial abnormality"
+        ],
+        "concept_to_study": "Interpretation of mildly abnormal plethysmographic waveform features",
+        "explicacion_openai": "A mildly abnormal plethysmographic waveform retains a sharp systolic peak but lacks the dicrotic wave, and the downslope curves away from the baseline. This pattern suggests early changes in arterial compliance or mild flow disturbance, often without significant hemodynamic compromise.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 87,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The plethysmographic waveform in the image shows a flattened systolic peak with nearly equal upslope and downslope times, and no dicrotic wave. What is the most likely interpretation?",
+        "image": "Moderately_abnormal_plethys.png",
+        "opciones": [
+            "Normal arterial compliance",
+            "Mild arterial abnormality",
+            "Moderate proximal arterial disease",
+            "Severe arterial occlusion"
+        ],
+        "respuesta_correcta": [
+            "Moderate proximal arterial disease"
+        ],
+        "concept_to_study": "Recognition of moderately abnormal plethysmographic waveform and its diagnostic significance",
+        "explicacion_openai": "A moderately abnormal plethysmographic waveform is characterized by a flattened systolic peak, equal upslope and downslope times, and absence of the dicrotic wave. This pattern reflects hemodynamically significant disease proximal to the recording site.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 88,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The waveform in the image labeled “PLETHYSMOGRAPH” demonstrates decreased amplitude, flattened peak, and absent dicrotic wave. In which clinical scenario is this pattern most compatible?",
+        "image": "Moderately_abnormal_plethys.png",
+        "opciones": [
+            "A patient with early venous reflux",
+            "A patient with moderate peripheral arterial disease",
+            "A healthy young adult with normal ABI",
+            "A patient with acute arterial occlusion and absent pulses"
+        ],
+        "respuesta_correcta": [
+            "A patient with moderate peripheral arterial disease"
+        ],
+        "concept_to_study": "Clinical correlation of moderately abnormal plethysmographic waveform",
+        "explicacion_openai": "This waveform is typical of moderate peripheral arterial disease, where arterial compliance and flow velocity are reduced. Unlike mild disease, the peak is flattened and the dicrotic wave is absent.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 89,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The plethysmographic waveform shows very low amplitude, no dicrotic wave, and equal upslope and downslope times. What is the most likely interpretation?",
+        "image": "severely_abnormal_PPG.png",
+        "opciones": [
+            "Mild arterial disease",
+            "Artifact due to patient movement",
+            "Severe proximal arterial obstruction",
+            "Normal waveform variant"
+        ],
+        "respuesta_correcta": [
+            "Severe proximal arterial obstruction"
+        ],
+        "concept_to_study": "Recognition of severely abnormal plethysmographic waveform and its diagnostic significance",
+        "explicacion_openai": "A severely abnormal waveform is characterized by absent or minimal amplitude, equal upslope and downslope times, and no dicrotic wave. This pattern reflects critical reduction in perfusion, typically due to severe proximal arterial obstruction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 90,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The waveform shown in the image labeled “PLETHYSMOGRAPH” demonstrates absent dicrotic wave, very low amplitude, and equal rise and fall times. In which clinical scenario is this pattern most compatible?",
+        "image": "severely_abnormal_PPG.png",
+        "opciones": [
+            "A patient with mild atherosclerosis and normal ABI",
+            "A patient with acute arterial occlusion and absent distal pulses",
+            "A patient with venous insufficiency and edema",
+            "A healthy adult undergoing routine screening"
+        ],
+        "respuesta_correcta": [
+            "A patient with acute arterial occlusion and absent distal pulses"
+        ],
+        "concept_to_study": "Clinical correlation of severely abnormal plethysmographic waveform",
+        "explicacion_openai": "This waveform is typical of severe arterial compromise, such as acute occlusion, where distal perfusion is critically reduced. The absence of a dicrotic wave and minimal amplitude reflect near-complete flow obstruction.",
+        "image_explanation": ""
+    },
+    {
         "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -17152,6 +17304,63 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 174,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "An ultrasound image shows a duplicated structure deep to a strong reflector, with identical shape and echogenicity. What is the most likely explanation for this finding?",
+        "image": "Mirror_artifact2.png",
+        "opciones": [
+            "Side lobe artifact",
+            "Refraction artifact",
+            "Beam width artifact",
+            "Artifact caused by sound wave reflection off a strong interface"
+        ],
+        "respuesta_correcta": [
+            "Artifact caused by sound wave reflection off a strong interface"
+        ],
+        "concept_to_study": "Identification of mirror artifact based on sonographic appearance",
+        "explicacion_openai": "This question tests the ability to recognize a mirror artifact without naming it directly. Mirror artifacts occur when ultrasound waves reflect off a strong specular interface—such as the diaphragm, pleura, or bladder wall—and return to the transducer via an indirect path. The system assumes the echo traveled in a straight line, so it places the duplicated structure deeper than the original. The duplicated image often appears identical in shape and echogenicity, but lacks true anatomical continuity. Recognizing this pattern is essential to avoid misdiagnosing a duplicated organ or lesion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 175,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is the most effective method to eliminate the duplicated structure seen deep to a strong reflector?",
+        "image": "Mirror_artifact2.png",
+        "opciones": [
+            "Increase overall gain",
+            "Change the angle of insonation",
+            "Use compound imaging",
+            "Apply tissue harmonic imaging"
+        ],
+        "respuesta_correcta": [
+            "Change the angle of insonation"
+        ],
+        "concept_to_study": "Technical adjustment to eliminate mirror artifact",
+        "explicacion_openai": "Mirror artifacts are angle-dependent. They occur when the ultrasound beam strikes a strong reflector at a certain angle, causing the reflected wave to bounce back indirectly. By changing the angle of insonation—for example, tilting the transducer slightly—you alter the path of the reflected wave, which can prevent the artifact from forming. Increasing gain or using harmonic imaging may enhance or suppress other features, but they won’t reliably eliminate mirror artifacts. Compound imaging may help in some cases, but angle adjustment is the most direct and effective solution.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 176,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What physical principle explains the appearance of a duplicated structure deep to a strong reflector in ultrasound imaging?",
+        "image": "Mirror_artifact2.png",
+        "opciones": [
+            "Misregistration due to reverberation between transducer and skin",
+            "Sound wave reflection off a specular interface, returning to the transducer via an indirect path",
+            "Refraction of sound waves at curved tissue boundaries",
+            "Attenuation of sound waves in highly vascular tissue"
+        ],
+        "respuesta_correcta": [
+            "Sound wave reflection off a specular interface, returning to the transducer via an indirect path"
+        ],
+        "concept_to_study": "Understanding the physical principles behind mirror artifact formation",
+        "explicacion_openai": "Mirror artifacts are caused by indirect reflection of sound waves. When a wave hits a strong specular reflector—like the diaphragm—it can bounce off and reflect again before returning to the transducer. The ultrasound system assumes all echoes travel in straight lines, so it misplaces the delayed echo deeper than its true origin. This results in a duplicated image that mirrors the original structure. Unlike reverberation, which creates multiple linear echoes, mirror artifacts preserve the shape and echogenicity of the original structure but appear in an anatomically impossible location.",
+        "image_explanation": ""
+    },
+    {
         "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -17741,11 +17950,11 @@
         "image_explanation": "The image shows motion artifact, and the question asks for the initial step to correct it, which involves addressing patient movement."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 32,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A patient arrives for a lower extremity venous ultrasound with an order for 'rule out DVT'. The patient reports a recent history of long-haul air travel. What is the most crucial piece of information to confirm during the patient interview related to the exam's indication?",
-         "image": "",
+        "image": "",
         "opciones": [
             "Their favorite color and food preferences.",
             "Their current medication list, specifically anticoagulants or recent surgeries.",
@@ -17760,11 +17969,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 33,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A patient is scheduled for an abdominal aorta ultrasound for suspected aneurysm. The patient states they had a large meal an hour ago. What is the most appropriate action for the sonographer to take?",
-         "image": "",
+        "image": "",
         "opciones": [
             "Proceed with the exam immediately as food intake does not affect this study.",
             "Advise the patient that the exam may be suboptimal due to bowel gas and offer to reschedule if clinically appropriate.",
@@ -17779,11 +17988,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 34,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "During a carotid ultrasound, the technologist observes a critical finding (e.g., near-occlusion with trickle flow). According to '7.B.1. Document and communicate findings', what is the immediate and most appropriate communication step?",
-          "image": "",
+        "image": "",
         "opciones": [
             "Wait until the final report is generated days later.",
             "Discuss the finding in detail with the patient before consulting a physician.",
@@ -17798,11 +18007,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 35,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A patient with severe peripheral artery disease (PAD) is scheduled for a lower extremity arterial study. They have significant resting pain and are unable to tolerate lying flat for extended periods. How should the technologist 'Adapt the exam to clinical setting and patient condition'?",
-         "image": "",
+        "image": "",
         "opciones": [
             "Cancel the exam due to patient discomfort.",
             "Insist the patient lies flat, as it's the standard position.",
@@ -17817,11 +18026,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 36,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Before a vascular exam, a technologist reviews a patient's electronic health record. Which of the following information is least relevant to 'synthesize information from various sources in the patient's medical history' for a lower extremity arterial study?",
-         "image": "",
+        "image": "",
         "opciones": [
             "History of diabetes mellitus and smoking.",
             "Results of a recent lipid panel.",
@@ -17836,11 +18045,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 37,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A sonographer is preparing to perform a superficial venous reflux study. What knowledge is essential regarding 'implications of patient position' for this specific exam?",
-          "image": "",
+        "image": "",
         "opciones": [
             "Patients should always be supine to minimize hydrostatic pressure.",
             "The exam is best performed with the patient in a warm room.",
@@ -17855,11 +18064,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 38,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary reason for 'reviewing and confirming patient information (patient identity, clinical history, previous imaging studies, lab findings, interventions, etc.)' before a vascular exam?",
-          "image": "",
+        "image": "",
         "opciones": [
             "To gather content for a research paper.",
             "To ensure the correct patient receives the correct exam and to guide the examination approach.",
@@ -17874,11 +18083,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 39,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "During a routine abdominal aorta scan, the technologist identifies an incidental finding of a previously undiagnosed renal artery stenosis. What action best demonstrates the 'Ability to modify exam based on real-time findings'?",
-         "image": "",
+        "image": "",
         "opciones": [
             "Ignore the finding as it was not on the original order.",
             "Complete the abdominal aorta scan and then proceed to specifically evaluate the renal arteries for the stenosis.",
@@ -17893,11 +18102,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 40,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "After completing a vascular ultrasound exam, the technologist is responsible for verifying that images are appropriately archived. Why is this step crucial?",
-          "image": "",
+        "image": "",
         "opciones": [
             "To save space on the ultrasound machine's hard drive.",
             "To ensure the images are available for interpretation, future comparison, and legal documentation.",
@@ -17912,11 +18121,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 41,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When 'selecting correct instrumentation based on protocol and patient body habitus', for an extremely thin patient requiring an abdominal aorta exam, which transducer would typically be most appropriate?",
-          "image": "",
+        "image": "",
         "opciones": [
             "A low-frequency curvilinear transducer (e.g., 2-5 MHz).",
             "A high-frequency linear transducer (e.g., 7-12 MHz).",
@@ -17931,7 +18140,7 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 42,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary reason for 'establishing rapport and interviewing the patient' before a vascular ultrasound?",
@@ -17950,11 +18159,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 43,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A patient with known end-stage renal disease (ESRD) and a recent AV fistula placement reports new onset swelling in the arm with the fistula. When performing the exam, what knowledge is critical regarding 'potential effects of patient medications on exam'?",
-         "image": "",
+        "image": "",
         "opciones": [
             "The patient's diet will affect the exam quality.",
             "Anti-hypertensive medications will significantly alter fistula flow rates.",
@@ -17969,11 +18178,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 44,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which scenario best exemplifies 'Ability to correlate information from various types of imaging studies' for a patient presenting with leg pain?",
-         "image": "",
+        "image": "",
         "opciones": [
             "Only focusing on the current ultrasound findings.",
             "Comparing the current lower extremity arterial ultrasound findings with a previous CT angiogram of the same limb.",
@@ -17988,7 +18197,7 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 45,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A patient presents for a carotid ultrasound but has a significant tremor, making image acquisition difficult. What 'technical limitation' and adaptation should the technologist consider?",
@@ -18007,7 +18216,7 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 46,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following describes 'Ability to communicate professionally with patient and provider' regarding exam results?",
@@ -18026,11 +18235,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 47,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A technologist is about to perform an upper extremity arterial exam on a patient with suspected thoracic outlet syndrome (TOS). What specific 'Knowledge of implications of patient position' is crucial for this exam?",
-         "image": "",
+        "image": "",
         "opciones": [
             "The patient must be in Trendelenburg position.",
             "Various provocative positions (e.g., Adson's maneuver, hyperabduction) are used to assess compression.",
@@ -18045,11 +18254,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 48,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the most important aspect of 'Ability to interpret and follow patient identification protocols'?",
-         "image": "",
+        "image": "",
         "opciones": [
             "Memorizing the patient's room number.",
             "Verifying the patient's full name and date of birth against the order.",
@@ -18064,11 +18273,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 49,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A patient is referred for a renal artery ultrasound due to uncontrolled hypertension. What 'Knowledge of appropriate indications' is key for the technologist?",
-         "image": "",
+        "image": "",
         "opciones": [
             "Renal artery ultrasound is indicated for evaluation of kidney stones.",
             "Renal artery ultrasound is indicated for detection of renal artery stenosis as a cause of secondary hypertension.",
@@ -18083,7 +18292,7 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 50,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When 'utilizing resources, such as physicians, literature, or peers', what is the most appropriate action for a technologist encountering an unusual vascular anomaly during an exam?",
@@ -18102,11 +18311,11 @@
         "image_explanation": "No image provided. Question is text-based."
     },
     {
-        "clasificacion": "Preparation,Documentation, and Communication",
+        "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 51,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A patient presents with sudden onset, severe, unilateral leg pain, pallor, and pulselessness. What 'Knowledge of signs and symptoms pertaining to the vascular exam' is critical here?",
-         "image": "",
+        "image": "",
         "opciones": [
             "These are symptoms of a common muscle strain.",
             "These are classic '5 P' signs of acute arterial occlusion and require immediate attention.",
@@ -18119,216 +18328,5 @@
         "concept_to_study": "Signs and symptoms of acute arterial occlusion (5 Ps).",
         "explicacion_openai": "The '5 Ps' (Pain, Pallor, Pulselessness, Paresthesia, Paralysis) are classic signs of acute arterial occlusion, which is a vascular emergency requiring immediate diagnosis and intervention. Recognizing these is critical. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
         "image_explanation": "No image provided. Question is text-based."
-    },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "An ultrasound image shows a duplicated structure deep to a strong reflector, with identical shape and echogenicity. What is the most likely explanation for this finding?",
-    "image": "Mirror_artifact2.png",
-    "opciones": [
-      "Side lobe artifact",
-      "Refraction artifact",
-      "Beam width artifact",
-      "Artifact caused by sound wave reflection off a strong interface"
-    ],
-    "respuesta_correcta": [
-      "Artifact caused by sound wave reflection off a strong interface"
-    ],
-    "concept_to_study": "Identification of mirror artifact based on sonographic appearance",
-    "explicacion_openai": "This question tests the ability to recognize a mirror artifact without naming it directly. Mirror artifacts occur when ultrasound waves reflect off a strong specular interface—such as the diaphragm, pleura, or bladder wall—and return to the transducer via an indirect path. The system assumes the echo traveled in a straight line, so it places the duplicated structure deeper than the original. The duplicated image often appears identical in shape and echogenicity, but lacks true anatomical continuity. Recognizing this pattern is essential to avoid misdiagnosing a duplicated organ or lesion.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following is the most effective method to eliminate the duplicated structure seen deep to a strong reflector?",
-    "image": "Mirror_artifact2.png",
-    "opciones": [
-      "Increase overall gain",
-      "Change the angle of insonation",
-      "Use compound imaging",
-      "Apply tissue harmonic imaging"
-    ],
-    "respuesta_correcta": [
-      "Change the angle of insonation"
-    ],
-    "concept_to_study": "Technical adjustment to eliminate mirror artifact",
-    "explicacion_openai": "Mirror artifacts are angle-dependent. They occur when the ultrasound beam strikes a strong reflector at a certain angle, causing the reflected wave to bounce back indirectly. By changing the angle of insonation—for example, tilting the transducer slightly—you alter the path of the reflected wave, which can prevent the artifact from forming. Increasing gain or using harmonic imaging may enhance or suppress other features, but they won’t reliably eliminate mirror artifacts. Compound imaging may help in some cases, but angle adjustment is the most direct and effective solution.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What physical principle explains the appearance of a duplicated structure deep to a strong reflector in ultrasound imaging?",
-    "image": "Mirror_artifact2.png",
-    "opciones": [
-      "Misregistration due to reverberation between transducer and skin",
-      "Sound wave reflection off a specular interface, returning to the transducer via an indirect path",
-      "Refraction of sound waves at curved tissue boundaries",
-      "Attenuation of sound waves in highly vascular tissue"
-    ],
-    "respuesta_correcta": [
-      "Sound wave reflection off a specular interface, returning to the transducer via an indirect path"
-    ],
-    "concept_to_study": "Understanding the physical principles behind mirror artifact formation",
-    "explicacion_openai": "Mirror artifacts are caused by indirect reflection of sound waves. When a wave hits a strong specular reflector—like the diaphragm—it can bounce off and reflect again before returning to the transducer. The ultrasound system assumes all echoes travel in straight lines, so it misplaces the delayed echo deeper than its true origin. This results in a duplicated image that mirrors the original structure. Unlike reverberation, which creates multiple linear echoes, mirror artifacts preserve the shape and echogenicity of the original structure but appear in an anatomically impossible location.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The plethysmographic waveform in the image shows a sharp systolic peak followed by a prominent dicrotic wave. What is the most likely interpretation?",
-    "image": "normal_PPG.png",
-    "opciones": [
-      "Normal arterial compliance and flow",
-      "Mild arterial disease",
-      "Moderate proximal obstruction",
-      "Severe arterial occlusion"
-    ],
-    "respuesta_correcta": [
-      "Normal arterial compliance and flow"
-    ],
-    "concept_to_study": "Recognition of normal plethysmographic waveform features",
-    "explicacion_openai": "A normal plethysmographic waveform is characterized by a sharp systolic peak and a clear dicrotic wave, reflecting healthy arterial compliance and unobstructed blood flow. This indicates normal hemodynamic status without evidence of proximal obstruction.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The waveform labeled “PLETHYSMOGRAPH” demonstrates a sharp systolic peak with a visible dicrotic notch. In which clinical scenario is this pattern most compatible?",
-    "image": "normal_PPG.png",
-    "opciones": [
-      "A healthy adult with normal ankle-brachial index",
-      "A patient with mild peripheral arterial disease",
-      "A patient with moderate arterial obstruction",
-      "A patient with acute arterial occlusion"
-    ],
-    "respuesta_correcta": [
-      "A healthy adult with normal ankle-brachial index"
-    ],
-    "concept_to_study": "Clinical correlation of normal plethysmographic waveform",
-    "explicacion_openai": "This waveform is typical of a normal physiologic state, where arterial elasticity and blood flow are preserved. The presence of a dicrotic notch indicates normal reflection of the pulse wave from peripheral resistance vessels. It is not consistent with mild, moderate, or severe arterial disease.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The waveform shown in the image labeled “PLETHYSMOGRAPH” displays a sharp systolic peak without a dicrotic notch and a bowed downslope. In which of the following clinical scenarios is this waveform most likely to be observed?",
-    "image": "mild_stenosis_PPG.png",
-    "opciones": [
-      "A healthy young adult with normal ankle-brachial index",
-      "A patient with mild peripheral arterial disease and early atherosclerotic changes",
-      "A patient with acute arterial occlusion and absent distal pulses",
-      "A patient with chronic venous insufficiency and varicosities"
-    ],
-    "respuesta_correcta": [
-      "A patient with mild peripheral arterial disease and early atherosclerotic changes"
-    ],
-    "concept_to_study": "Recognition of mildly abnormal plethysmographic waveform and its clinical correlation",
-    "explicacion_openai": "The waveform in the image represents a mildly abnormal plethysmographic pattern, characterized by a sharp systolic peak and a bowed downslope, but lacking the dicrotic wave. This is typically seen in patients with early peripheral arterial disease, where arterial compliance begins to decline due to mild atherosclerosis.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The plethysmographic waveform in the image shows a sharp systolic peak, absent dicrotic wave, and a bowed downslope. What is the most likely interpretation of this pattern?",
-    "image": "mild_stenosis_PPG.png",
-    "opciones": [
-      "Normal waveform with high compliance",
-      "Mild arterial abnormality",
-      "Severe proximal obstruction",
-      "Artifact due to patient movement"
-    ],
-    "respuesta_correcta": [
-      "Mild arterial abnormality"
-    ],
-    "concept_to_study": "Interpretation of mildly abnormal plethysmographic waveform features",
-    "explicacion_openai": "A mildly abnormal plethysmographic waveform retains a sharp systolic peak but lacks the dicrotic wave, and the downslope curves away from the baseline. This pattern suggests early changes in arterial compliance or mild flow disturbance, often without significant hemodynamic compromise.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The plethysmographic waveform in the image shows a flattened systolic peak with nearly equal upslope and downslope times, and no dicrotic wave. What is the most likely interpretation?",
-    "image": "Moderately_abnormal_plethys.png",
-    "opciones": [
-      "Normal arterial compliance",
-      "Mild arterial abnormality",
-      "Moderate proximal arterial disease",
-      "Severe arterial occlusion"
-    ],
-    "respuesta_correcta": [
-      "Moderate proximal arterial disease"
-    ],
-    "concept_to_study": "Recognition of moderately abnormal plethysmographic waveform and its diagnostic significance",
-    "explicacion_openai": "A moderately abnormal plethysmographic waveform is characterized by a flattened systolic peak, equal upslope and downslope times, and absence of the dicrotic wave. This pattern reflects hemodynamically significant disease proximal to the recording site.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The waveform in the image labeled “PLETHYSMOGRAPH” demonstrates decreased amplitude, flattened peak, and absent dicrotic wave. In which clinical scenario is this pattern most compatible?",
-    "image": "Moderately_abnormal_plethys.png",
-    "opciones": [
-      "A patient with early venous reflux",
-      "A patient with moderate peripheral arterial disease",
-      "A healthy young adult with normal ABI",
-      "A patient with acute arterial occlusion and absent pulses"
-    ],
-    "respuesta_correcta": [
-      "A patient with moderate peripheral arterial disease"
-    ],
-    "concept_to_study": "Clinical correlation of moderately abnormal plethysmographic waveform",
-    "explicacion_openai": "This waveform is typical of moderate peripheral arterial disease, where arterial compliance and flow velocity are reduced. Unlike mild disease, the peak is flattened and the dicrotic wave is absent.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The plethysmographic waveform shows very low amplitude, no dicrotic wave, and equal upslope and downslope times. What is the most likely interpretation?",
-    "image": "severely_abnormal_PPG.png",
-    "opciones": [
-      "Mild arterial disease",
-      "Artifact due to patient movement",
-      "Severe proximal arterial obstruction",
-      "Normal waveform variant"
-    ],
-    "respuesta_correcta": [
-      "Severe proximal arterial obstruction"
-    ],
-    "concept_to_study": "Recognition of severely abnormal plethysmographic waveform and its diagnostic significance",
-    "explicacion_openai": "A severely abnormal waveform is characterized by absent or minimal amplitude, equal upslope and downslope times, and no dicrotic wave. This pattern reflects critical reduction in perfusion, typically due to severe proximal arterial obstruction.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physiologic Exams",
-    "grupo": 173,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The waveform shown in the image labeled “PLETHYSMOGRAPH” demonstrates absent dicrotic wave, very low amplitude, and equal rise and fall times. In which clinical scenario is this pattern most compatible?",
-    "image": "severely_abnormal_PPG.png",
-    "opciones": [
-      "A patient with mild atherosclerosis and normal ABI",
-      "A patient with acute arterial occlusion and absent distal pulses",
-      "A patient with venous insufficiency and edema",
-      "A healthy adult undergoing routine screening"
-    ],
-    "respuesta_correcta": [
-      "A patient with acute arterial occlusion and absent distal pulses"
-    ],
-    "concept_to_study": "Clinical correlation of severely abnormal plethysmographic waveform",
-    "explicacion_openai": "This waveform is typical of severe arterial compromise, such as acute occlusion, where distal perfusion is critically reduced. The absence of a dicrotic wave and minimal amplitude reflect near-complete flow obstruction.",
-    "image_explanation": ""
-  }
-
+    }
 ]
-
