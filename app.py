@@ -298,14 +298,8 @@ def exam_screen():
     remaining_time = exam_time_limit_seconds - elapsed_time
     minutes_remaining = max(0, int(remaining_time // 60))
 
-    st.markdown(
-        f"""
-        <div style='text-align: right; font-size: 16px;'>
-          <strong>Minutes Remaining:</strong> {minutes_remaining}
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    # Guardar minutos restantes en sesión para uso en el encabezado de la pregunta
+    st.session_state["minutes_remaining"] = minutes_remaining
 
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
         st.warning("The exam will end in 10 minutes!")
