@@ -17739,5 +17739,365 @@
         "concept_to_study": "Minimizing motion artifact",
         "explicacion_openai": "Since the phenomenon is attributed to patient movement, the most direct first step is to address the source by clearly communicating with the patient, ensuring comfort, and adjusting positioning to minimize involuntary movements. (Refer to AIUM practice guidelines).",
         "image_explanation": "The image shows motion artifact, and the question asks for the initial step to correct it, which involves addressing patient movement."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 32,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient arrives for a lower extremity venous ultrasound with an order for 'rule out DVT'. The patient reports a recent history of long-haul air travel. What is the most crucial piece of information to confirm during the patient interview related to the exam's indication?",
+        "opciones": [
+            "Their favorite color and food preferences.",
+            "Their current medication list, specifically anticoagulants or recent surgeries.",
+            "Their last vacation destination.",
+            "Their preference for music during the exam."
+        ],
+        "respuesta_correcta": [
+            "Their current medication list, specifically anticoagulants or recent surgeries."
+        ],
+        "concept_to_study": "Patient history relevant to DVT, medications, recent surgeries.",
+        "explicacion_openai": "Knowing if the patient is on anticoagulants or has had recent surgery is crucial for assessing DVT risk, interpreting findings, and informing immediate patient management. Anticoagulants affect clot progression, and surgery is a major risk factor for DVT. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 33,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient is scheduled for an abdominal aorta ultrasound for suspected aneurysm. The patient states they had a large meal an hour ago. What is the most appropriate action for the sonographer to take?",
+        "opciones": [
+            "Proceed with the exam immediately as food intake does not affect this study.",
+            "Advise the patient that the exam may be suboptimal due to bowel gas and offer to reschedule if clinically appropriate.",
+            "Ask the patient to drink more water to clear the bowel gas.",
+            "Increase the transducer frequency to penetrate through the bowel gas."
+        ],
+        "respuesta_correcta": [
+            "Advise the patient that the exam may be suboptimal due to bowel gas and offer to reschedule if clinically appropriate."
+        ],
+        "concept_to_study": "Patient preparation for abdominal vascular exams, technical limitations.",
+        "explicacion_openai": "Bowel gas, often increased after a meal, is a significant technical limitation for abdominal ultrasound, obscuring the aorta. The technologist should inform the patient and suggest rescheduling if the current study is compromised, aligning with 'Knowledge of appropriate preparations for the test' and 'Knowledge of technical limitations of vascular exams'. (Refer to Hagen-Ansert, S. L. (2017). Textbook of diagnostic ultrasonography.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a carotid ultrasound, the technologist observes a critical finding (e.g., near-occlusion with trickle flow). According to '7.B.1. Document and communicate findings', what is the immediate and most appropriate communication step?",
+        "opciones": [
+            "Wait until the final report is generated days later.",
+            "Discuss the finding in detail with the patient before consulting a physician.",
+            "Immediately notify the interpreting physician or referring clinician of the critical finding.",
+            "Document the finding and archive the images without further action."
+        ],
+        "respuesta_correcta": [
+            "Immediately notify the interpreting physician or referring clinician of the critical finding."
+        ],
+        "concept_to_study": "Protocol for critical findings notification.",
+        "explicacion_openai": "The protocol for critical findings notification mandates immediate communication to the appropriate medical professional (interpreting physician or referring clinician) to ensure timely patient management and intervention, aligning with 'Knowledge of protocol for critical findings notification'. (Refer to AIUM practice guidelines for performance of carotid ultrasound.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 35,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient with severe peripheral artery disease (PAD) is scheduled for a lower extremity arterial study. They have significant resting pain and are unable to tolerate lying flat for extended periods. How should the technologist 'Adapt the exam to clinical setting and patient condition'?",
+        "opciones": [
+            "Cancel the exam due to patient discomfort.",
+            "Insist the patient lies flat, as it's the standard position.",
+            "Modify the exam by performing it with the patient in a semi-recumbent or sitting position, ensuring comfort.",
+            "Increase the room temperature to alleviate their pain."
+        ],
+        "respuesta_correcta": [
+            "Modify the exam by performing it with the patient in a semi-recumbent or sitting position, ensuring comfort."
+        ],
+        "concept_to_study": "Adapting exam to patient condition, patient positioning.",
+        "explicacion_openai": "The ability to modify the exam based on patient condition is crucial. For patients with severe PAD and pain, adapting the position to semi-recumbent or sitting allows for completion of the study while ensuring patient comfort and cooperation. (Refer to Davies, M. G. (2018). Vascular Technology: An Illustrated Review.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 36,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Before a vascular exam, a technologist reviews a patient's electronic health record. Which of the following information is least relevant to 'synthesize information from various sources in the patient's medical history' for a lower extremity arterial study?",
+        "opciones": [
+            "History of diabetes mellitus and smoking.",
+            "Results of a recent lipid panel.",
+            "History of childhood varicella (chickenpox).",
+            "Previous ankle-brachial index (ABI) measurements."
+        ],
+        "respuesta_correcta": [
+            "History of childhood varicella (chickenpox)."
+        ],
+        "concept_to_study": "Relevant patient history for vascular exams.",
+        "explicacion_openai": "While all medical history is part of a complete record, childhood varicella is generally not relevant to the assessment of lower extremity arterial disease. Diabetes, smoking, lipid levels, and previous ABI are direct risk factors or diagnostic indicators. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 37,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer is preparing to perform a superficial venous reflux study. What knowledge is essential regarding 'implications of patient position' for this specific exam?",
+        "opciones": [
+            "Patients should always be supine to minimize hydrostatic pressure.",
+            "The exam is best performed with the patient in a warm room.",
+            "The patient must be in an upright or reverse Trendelenburg position to allow for venous distension and reflux assessment.",
+            "Patient position has no significant impact on venous reflux studies."
+        ],
+        "respuesta_correcta": [
+            "The patient must be in an upright or reverse Trendelenburg position to allow for venous distension and reflux assessment."
+        ],
+        "concept_to_study": "Patient positioning for venous reflux studies, hydrostatic pressure.",
+        "explicacion_openai": "For superficial venous reflux studies, it's critical to position the patient to maximize hydrostatic pressure on the veins (upright or reverse Trendelenburg) to demonstrate venous distension and any abnormal reflux. (Refer to AIUM practice guidelines for performance of peripheral venous ultrasound.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 38,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary reason for 'reviewing and confirming patient information (patient identity, clinical history, previous imaging studies, lab findings, interventions, etc.)' before a vascular exam?",
+        "opciones": [
+            "To gather content for a research paper.",
+            "To ensure the correct patient receives the correct exam and to guide the examination approach.",
+            "To test the patient's memory.",
+            "To delay the start of the exam."
+        ],
+        "respuesta_correcta": [
+            "To ensure the correct patient receives the correct exam and to guide the examination approach."
+        ],
+        "concept_to_study": "Purpose of patient information review.",
+        "explicacion_openai": "Reviewing and confirming patient information is fundamental for patient safety (correct patient, correct exam) and for guiding the technologist in performing a focused and comprehensive study based on the clinical question. (Refer to ARDMS RVT content outline section 7.A.2).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 39,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a routine abdominal aorta scan, the technologist identifies an incidental finding of a previously undiagnosed renal artery stenosis. What action best demonstrates the 'Ability to modify exam based on real-time findings'?",
+        "opciones": [
+            "Ignore the finding as it was not on the original order.",
+            "Complete the abdominal aorta scan and then proceed to specifically evaluate the renal arteries for the stenosis.",
+            "Stop the abdominal aorta scan and immediately call the ordering physician.",
+            "Document the finding and only evaluate it if the patient returns for another exam."
+        ],
+        "respuesta_correcta": [
+            "Complete the abdominal aorta scan and then proceed to specifically evaluate the renal arteries for the stenosis."
+        ],
+        "concept_to_study": "Modifying exam based on real-time findings, incidental findings.",
+        "explicacion_openai": "A skilled technologist should be able to extend or modify an exam protocol to evaluate significant incidental findings in real-time, providing comprehensive information to the physician without requiring a separate appointment. (Refer to Davies, M. G. (2018). Vascular Technology: An Illustrated Review.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 40,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "After completing a vascular ultrasound exam, the technologist is responsible for verifying that images are appropriately archived. Why is this step crucial?",
+        "opciones": [
+            "To save space on the ultrasound machine's hard drive.",
+            "To ensure the images are available for interpretation, future comparison, and legal documentation.",
+            "To allow the technologist to review the images at home.",
+            "To automatically generate the final report."
+        ],
+        "respuesta_correcta": [
+            "To ensure the images are available for interpretation, future comparison, and legal documentation."
+        ],
+        "concept_to_study": "Image archiving, documentation importance.",
+        "explicacion_openai": "Proper archiving is essential for patient care as it ensures that the interpreting physician has access to the full study, allows for comparison with future exams, and serves as a vital part of the patient's legal medical record. (Refer to ARDMS RVT content outline section 7.B.1).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 41,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When 'selecting correct instrumentation based on protocol and patient body habitus', for an extremely thin patient requiring an abdominal aorta exam, which transducer would typically be most appropriate?",
+        "opciones": [
+            "A low-frequency curvilinear transducer (e.g., 2-5 MHz).",
+            "A high-frequency linear transducer (e.g., 7-12 MHz).",
+            "A phased array transducer (e.g., 2-4 MHz).",
+            "A specific endocavity transducer."
+        ],
+        "respuesta_correcta": [
+            "A high-frequency linear transducer (e.g., 7-12 MHz)."
+        ],
+        "concept_to_study": "Transducer selection based on patient body habitus and exam type.",
+        "explicacion_openai": "For very thin patients, a higher frequency linear transducer can sometimes be used for abdominal structures like the aorta, providing better resolution due to less attenuation, which might not be possible in a larger patient. While curvilinear is standard for abdomen, knowing when to adapt for specific body habitus is key. (Refer to Hagen-Ansert, S. L. (2017). Textbook of diagnostic ultrasonography.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 42,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary reason for 'establishing rapport and interviewing the patient' before a vascular ultrasound?",
+        "opciones": [
+            "To determine the patient's social security number.",
+            "To make the patient feel comfortable and gather crucial clinical information.",
+            "To complete the administrative paperwork.",
+            "To practice a foreign language."
+        ],
+        "respuesta_correcta": [
+            "To make the patient feel comfortable and gather crucial clinical information."
+        ],
+        "concept_to_study": "Patient interview and rapport building.",
+        "explicacion_openai": "Establishing rapport helps build trust and comfort, which is essential for patient cooperation during the exam. The interview process itself is for gathering clinical history, symptoms, and relevant information that directly impacts the diagnostic process. (Refer to ARDMS RVT content outline section 7.A.1).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 43,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient with known end-stage renal disease (ESRD) and a recent AV fistula placement reports new onset swelling in the arm with the fistula. When performing the exam, what knowledge is critical regarding 'potential effects of patient medications on exam'?",
+        "opciones": [
+            "The patient's diet will affect the exam quality.",
+            "Anti-hypertensive medications will significantly alter fistula flow rates.",
+            "The patient may be on anticoagulants, which could influence decisions if intervention is needed or if there's a hematoma.",
+            "Pain medications will make the fistula easier to visualize."
+        ],
+        "respuesta_correcta": [
+            "The patient may be on anticoagulants, which could influence decisions if intervention is needed or if there's a hematoma."
+        ],
+        "concept_to_study": "Impact of medications (e.g., anticoagulants) on vascular exams.",
+        "explicacion_openai": "Patients with ESRD and AV fistulas are often on anticoagulants to prevent clotting. Knowing this is important for evaluating potential hematomas or if any invasive intervention is considered after the ultrasound. (Refer to Davies, M. G. (2018). Vascular Technology: An Illustrated Review.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 44,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which scenario best exemplifies 'Ability to correlate information from various types of imaging studies' for a patient presenting with leg pain?",
+        "opciones": [
+            "Only focusing on the current ultrasound findings.",
+            "Comparing the current lower extremity arterial ultrasound findings with a previous CT angiogram of the same limb.",
+            "Asking the patient about their favorite TV show.",
+            "Ignoring any previous studies to maintain objectivity."
+        ],
+        "respuesta_correcta": [
+            "Comparing the current lower extremity arterial ultrasound findings with a previous CT angiogram of the same limb."
+        ],
+        "concept_to_study": "Correlating imaging studies.",
+        "explicacion_openai": "Correlating findings from different modalities (e.g., ultrasound with CT or MRI) provides a more comprehensive understanding of the patient's condition, helps confirm findings, and can guide the current ultrasound exam by highlighting areas of interest previously identified. (Refer to ARDMS RVT content outline section 7.A.1).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 45,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents for a carotid ultrasound but has a significant tremor, making image acquisition difficult. What 'technical limitation' and adaptation should the technologist consider?",
+        "opciones": [
+            "The tremor is not a technical limitation and should be ignored.",
+            "The tremor is a technical limitation; the technologist should try to stabilize the patient's head or use a higher frame rate setting.",
+            "The only solution is to reschedule the exam.",
+            "Increasing the Doppler angle will compensate for the tremor."
+        ],
+        "respuesta_correcta": [
+            "The tremor is a technical limitation; the technologist should try to stabilize the patient's head or use a higher frame rate setting."
+        ],
+        "concept_to_study": "Technical limitations of vascular exams, adapting to patient condition.",
+        "explicacion_openai": "Patient motion, including tremors, is a common technical limitation leading to motion artifact. The technologist should attempt to minimize this by ensuring patient stability, using cushions, or selecting settings that can reduce the impact of subtle movements (e.g., higher frame rates for B-mode). (Refer to 'Knowledge of technical limitations of vascular exams' from ARDMS content outline).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following describes 'Ability to communicate professionally with patient and provider' regarding exam results?",
+        "opciones": [
+            "Giving the patient a definitive diagnosis immediately after the exam.",
+            "Stating that the images look 'fine' or 'bad' without context.",
+            "Providing a clear, concise preliminary impression to the provider and explaining to the patient that the final report will come from the interpreting physician.",
+            "Refusing to answer any questions from the patient."
+        ],
+        "respuesta_correcta": [
+            "Providing a clear, concise preliminary impression to the provider and explaining to the patient that the final report will come from the interpreting physician."
+        ],
+        "concept_to_study": "Professional communication with patient and provider, preliminary findings.",
+        "explicacion_openai": "Professional communication involves clearly relaying preliminary findings to the provider while maintaining the boundary that the technologist does not provide final diagnoses to the patient, deferring that responsibility to the interpreting physician. (Refer to ARDMS RVT content outline section 7.B.1).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 47,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A technologist is about to perform an upper extremity arterial exam on a patient with suspected thoracic outlet syndrome (TOS). What specific 'Knowledge of implications of patient position' is crucial for this exam?",
+        "opciones": [
+            "The patient must be in Trendelenburg position.",
+            "Various provocative positions (e.g., Adson's maneuver, hyperabduction) are used to assess compression.",
+            "The patient should remain completely still in a neutral position.",
+            "The exam is always performed supine with arms at their side."
+        ],
+        "respuesta_correcta": [
+            "Various provocative positions (e.g., Adson's maneuver, hyperabduction) are used to assess compression."
+        ],
+        "concept_to_study": "Patient positioning for TOS assessment, provocative maneuvers.",
+        "explicacion_openai": "TOS evaluation specifically requires the use of various provocative patient positions and maneuvers to elicit or exacerbate symptoms and demonstrate vascular compression. This is a direct application of understanding patient position implications. (Refer to AIUM practice guidelines for performance of peripheral arterial ultrasound.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 48,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the most important aspect of 'Ability to interpret and follow patient identification protocols'?",
+        "opciones": [
+            "Memorizing the patient's room number.",
+            "Verifying the patient's full name and date of birth against the order.",
+            "Asking the patient what exam they think they are having.",
+            "Checking the patient's dietary restrictions."
+        ],
+        "respuesta_correcta": [
+            "Verifying the patient's full name and date of birth against the order."
+        ],
+        "concept_to_study": "Patient identification protocols.",
+        "explicacion_openai": "Adhering to patient identification protocols, typically involving confirming at least two unique identifiers like full name and date of birth, is paramount to prevent medical errors and ensure patient safety. (Refer to ARDMS RVT content outline section 7.A.1).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 49,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient is referred for a renal artery ultrasound due to uncontrolled hypertension. What 'Knowledge of appropriate indications' is key for the technologist?",
+        "opciones": [
+            "Renal artery ultrasound is indicated for evaluation of kidney stones.",
+            "Renal artery ultrasound is indicated for detection of renal artery stenosis as a cause of secondary hypertension.",
+            "Renal artery ultrasound is primarily for prostate evaluation.",
+            "Renal artery ultrasound is contraindicated in patients with hypertension."
+        ],
+        "respuesta_correcta": [
+            "Renal artery ultrasound is indicated for detection of renal artery stenosis as a cause of secondary hypertension."
+        ],
+        "concept_to_study": "Indications for renal artery ultrasound.",
+        "explicacion_openai": "Uncontrolled hypertension is a primary indication for renal artery ultrasound to evaluate for renal artery stenosis, which is a treatable cause of secondary hypertension. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 50,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When 'utilizing resources, such as physicians, literature, or peers', what is the most appropriate action for a technologist encountering an unusual vascular anomaly during an exam?",
+        "opciones": [
+            "Conclude the exam without further investigation.",
+            "Document the finding and consult with an experienced peer or interpreting physician for guidance.",
+            "Tell the patient that they have a rare condition.",
+            "Attempt to self-diagnose the anomaly based on a quick internet search."
+        ],
+        "respuesta_correcta": [
+            "Document the finding and consult with an experienced peer or interpreting physician for guidance."
+        ],
+        "concept_to_study": "Utilizing resources, problem-solving, professional collaboration.",
+        "explicacion_openai": "Encountering unusual findings requires professional judgment. Consulting with peers or the interpreting physician is a key resource for clarification, additional insight, and ensuring accurate documentation and reporting. (Refer to ARDMS RVT content outline section 7.B.1).",
+        "image_explanation": "No image provided. Question is text-based."
+    },
+    {
+        "clasificacion": "Preparation,Documentation, and Communication",
+        "grupo": 51,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A patient presents with sudden onset, severe, unilateral leg pain, pallor, and pulselessness. What 'Knowledge of signs and symptoms pertaining to the vascular exam' is critical here?",
+        "opciones": [
+            "These are symptoms of a common muscle strain.",
+            "These are classic '5 P' signs of acute arterial occlusion and require immediate attention.",
+            "These symptoms suggest a venous insufficiency problem.",
+            "These indicate a need for a carotid ultrasound."
+        ],
+        "respuesta_correcta": [
+            "These are classic '5 P' signs of acute arterial occlusion and require immediate attention."
+        ],
+        "concept_to_study": "Signs and symptoms of acute arterial occlusion (5 Ps).",
+        "explicacion_openai": "The '5 Ps' (Pain, Pallor, Pulselessness, Paresthesia, Paralysis) are classic signs of acute arterial occlusion, which is a vascular emergency requiring immediate diagnosis and intervention. Recognizing these is critical. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
+        "image_explanation": "No image provided. Question is text-based."
     }
 ]
