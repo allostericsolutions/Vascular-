@@ -6,11 +6,22 @@ def display_question(question, question_num):
   """
   Displays the question statement, image (if it exists), and options.
   """
-  col1, col2 = st.columns([1, 3])
+  col1, col2, col3 = st.columns([1, 3, 1])
   with col1:
     st.subheader(f"Question {question_num}:")
   with col2:
     st.subheader("RVT Practice Exam - ARDMS")
+  with col3:
+    minutes_remaining = st.session_state.get("minutes_remaining")
+    if minutes_remaining is not None:
+      st.markdown(
+        f"""
+        <div style='text-align: right; font-size: 20px; color: red;'>
+          <strong>Minutes Remaining:</strong> {minutes_remaining}
+        </div>
+        """,
+        unsafe_allow_html=True
+      )
 
   with st.container():
     st.write(question['enunciado'])
