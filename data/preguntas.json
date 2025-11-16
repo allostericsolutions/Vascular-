@@ -18328,5 +18328,43 @@
         "concept_to_study": "Signs and symptoms of acute arterial occlusion (5 Ps).",
         "explicacion_openai": "The '5 Ps' (Pain, Pallor, Pulselessness, Paresthesia, Paralysis) are classic signs of acute arterial occlusion, which is a vascular emergency requiring immediate diagnosis and intervention. Recognizing these is critical. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
         "image_explanation": "No image provided. Question is text-based."
+    },
+     {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The arrow in the provided angiogram points to a crucial vessel within the cerebral circulation. Which major artery is indicated?",
+        "image": "basilar-angiograma.png",
+        "opciones": [
+            "Middle Cerebral Artery",
+            "Anterior Cerebral Artery",
+            "Basilar Artery",
+            "Posterior Communicating Artery"
+        ],
+        "respuesta_correcta": [
+            "Basilar Artery"
+        ],
+        "concept_to_study": "Cerebral Anatomy (Basilar Artery)",
+        "explicacion_openai": "The angiogram shows the posterior circulation of the brain. The vessel indicated by the arrow is centrally located and superior to the vertebral arteries, which converge to form it. This anatomical position clearly identifies it as the Basilar Artery, a key component of the posterior cerebral blood supply. The Middle Cerebral Artery (A) and Anterior Cerebral Artery (B) are part of the anterior circulation and are located more anteriorly and laterally. The Posterior Communicating Artery (D) is a smaller anastomotic vessel connecting the anterior and posterior circulations.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The major artery indicated by the arrow in the angiogram (Basilar Artery) originates from the confluence of which two arteries?",
+        "image": "basilar-angiograma.png",
+        "opciones": [
+            "Internal Carotid Arteries",
+            "External Carotid Arteries",
+            "Vertebral Arteries",
+            "Posterior Cerebral Arteries"
+        ],
+        "respuesta_correcta": [
+            "Vertebral Arteries"
+        ],
+        "concept_to_study": "Cerebral Anatomy (Vertebral Artery Origin)",
+        "explicacion_openai": "The Basilar Artery is formed by the union of the right and left Vertebral Arteries. These arteries ascend through the neck, enter the skull, and then join at the level of the pontomedullary junction to form the single basilar artery. The Internal Carotid Arteries (A) and External Carotid Arteries (B) contribute to the anterior and extracranial circulation, respectively, but do not form the basilar artery. The Posterior Cerebral Arteries (D) are branches of the basilar artery, not its origin.",
+        "image_explanation": ""
     }
 ]
