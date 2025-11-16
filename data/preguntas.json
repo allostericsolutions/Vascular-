@@ -18366,5 +18366,43 @@
         "concept_to_study": "Cerebral Anatomy (Vertebral Artery Origin)",
         "explicacion_openai": "The Basilar Artery is formed by the union of the right and left Vertebral Arteries. These arteries ascend through the neck, enter the skull, and then join at the level of the pontomedullary junction to form the single basilar artery. The Internal Carotid Arteries (A) and External Carotid Arteries (B) contribute to the anterior and extracranial circulation, respectively, but do not form the basilar artery. The Posterior Cerebral Arteries (D) are branches of the basilar artery, not its origin.",
         "image_explanation": ""
+    },
+     {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Following a successful ultrasound-guided thrombin injection for a pseudoaneurysm, what is an expected post-procedural finding that the sonographer should document, as illustrated by Image B?",
+        "image": "inyección_trombina.png",
+        "opciones": [
+            "Increased color Doppler flow within the pseudoaneurysm",
+            "Persistence of a turbulent 'yin-yang' flow pattern within the pseudoaneurysm",
+            "Complete absence of color Doppler flow within the pseudoaneurysm sac",
+            "Enlargement of the pseudoaneurysm size"
+        ],
+        "respuesta_correcta": [
+            "Complete absence of color Doppler flow within the pseudoaneurysm sac"
+        ],
+        "concept_to_study": "Post-procedural findings of thrombin injection for pseudoaneurysm",
+        "explicacion_openai": "A successful thrombin injection aims to thrombose the pseudoaneurysm, effectively eliminating blood flow within its sac. Image B clearly demonstrates the absence of color Doppler flow within the previously visualized pseudoaneurysm, indicating successful thrombosis. The sonographer must confirm and document the lack of flow to ensure procedural success and identify any residual flow or complications.",
+        "image_explanation": "Image A shows a pseudoaneurysm with active turbulent flow (red and blue swirling colors). Image B, taken after the intervention, displays the pseudoaneurysm sac completely filled with thrombus, showing no internal color Doppler flow, indicating successful thrombosis."
+    },
+    {
+        "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Image A displays a pseudoaneurysm with active turbulent flow. Image B, taken after an ultrasound-guided intervention, shows the pseudoaneurysm completely thrombosed with no internal flow. Based on the ARDMS RVT curriculum related to ultrasound-guided procedures for pseudoaneurysms, what specific intervention most likely occurred between obtaining Image A and Image B?",
+        "image": "inyección_trombina.png",
+        "opciones": [
+            "Ultrasound-guided manual compression",
+            "Ultrasound-guided venous ablation",
+            "Ultrasound-guided thrombin injection",
+            "Ultrasound-guided aspiration"
+        ],
+        "respuesta_correcta": [
+            "Ultrasound-guided thrombin injection"
+        ],
+        "concept_to_study": "Pseudoaneurysm treatment interventions",
+        "explicacion_openai": "The dramatic and complete thrombosis of the pseudoaneurysm from Image A to Image B strongly suggests an ultrasound-guided thrombin injection. Thrombin injection is a common and highly effective method to induce rapid clotting within a pseudoaneurysm. While manual compression is also a treatment, thrombin injection often achieves this rapid and complete cessation of flow more definitively in a single intervention. Venous ablation is for varicose veins, and aspiration would remove fluid, not clot the pseudoaneurysm.",
+        "image_explanation": "Image A shows a pseudoaneurysm with active turbulent flow (red and blue swirling colors). Image B, taken after the intervention, displays the pseudoaneurysm sac completely filled with thrombus, showing no internal color Doppler flow, consistent with successful thrombin injection."
     }
 ]
