@@ -307,7 +307,8 @@ def exam_screen():
     if remaining_time <= 0 and not st.session_state.end_exam:
         st.session_state.end_exam = True
         st.success("Time is up. The exam will be finalized now.")
-        finalize_exam()
+        # Aquí también debemos usar st.rerun() en lugar de llamar a finalize_exam()
+        st.rerun() # CAMBIO CLAVE: Rerun en lugar de llamar a finalize_exam directamente
         return
 
     if not st.session_state.end_exam:
@@ -336,7 +337,8 @@ def exam_screen():
                 if st.session_state.confirm_finish:
                     st.info("⏳ Please wait a few seconds while we prepare your score and performance report. When ready, you will see 'Results generated in PDF' and be able to download your report.")
                     st.session_state.end_exam = True
-                    finalize_exam()
+                    # CAMBIO CLAVE: Rerun en lugar de llamar a finalize_exam directamente
+                    st.rerun()
                 else:
                     st.warning("Please confirm completion using the button above.")
 
@@ -345,6 +347,8 @@ def finalize_exam():
     """
     Marks the exam as finished, displays results, and generates the PDF.
     """
+    # Esta función ahora será llamada desde main() cuando el estado end_exam sea True
+    # Ya no necesita establecer end_exam = True aquí, pero no hace daño dejarlo.
     st.session_state.end_exam = True
     score = calculate_score()
 
@@ -373,6 +377,7 @@ def finalize_exam():
     st.success("Results generated in PDF.")
 
     with open(pdf_path, "rb") as f:
+        # Este st.download_button() ahora se ejecutará fuera del contexto de un formulario.
         st.download_button(
             label="Download Results (PDF)",
             data=f,
@@ -425,6 +430,7 @@ def main():
     elif not st.session_state.end_exam:
         main_screen()
     else:
+        # CAMBIO CLAVE: finalize_exam() se llama aquí directamente cuando el examen ha terminado
         finalize_exam()
 
 
