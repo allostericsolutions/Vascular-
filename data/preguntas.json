@@ -18404,5 +18404,25 @@
         "concept_to_study": "Pseudoaneurysm treatment interventions",
         "explicacion_openai": "The dramatic and complete thrombosis of the pseudoaneurysm from Image A to Image B strongly suggests an ultrasound-guided thrombin injection. Thrombin injection is a common and highly effective method to induce rapid clotting within a pseudoaneurysm. While manual compression is also a treatment, thrombin injection often achieves this rapid and complete cessation of flow more definitively in a single intervention. Venous ablation is for varicose veins, and aspiration would remove fluid, not clot the pseudoaneurysm.",
         "image_explanation": "Image A shows a pseudoaneurysm with active turbulent flow (red and blue swirling colors). Image B, taken after the intervention, displays the pseudoaneurysm sac completely filled with thrombus, showing no internal color Doppler flow, consistent with successful thrombin injection."
-    }
+    },
+
+{
+    "clasificacion": "Physiologic Exams",
+    "grupo": 60,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which physiological test is being performed in the image showing electrodes on the lower legs of a seated patient?",
+    "image": "pletismografia.png",
+    "opciones": [
+        "Electromyography (EMG)",
+        "Ankle-brachial index (ABI)",
+        "Plethysmography",
+        "Nerve conduction velocity (NCV)"
+    ],
+    "respuesta_correcta": [
+        "Plethysmography"
+    ],
+    "concept_to_study": "Plethysmography",
+    "explicacion_openai": "Plethysmography is a non-invasive test that measures changes in volume within an organ or body part, often used to assess blood flow in the limbs. The image shows electrodes and cables placed on the lower legs, consistent with a plethysmographic setup to evaluate peripheral circulation.",
+    "image_explanation": ""
+}
 ]
