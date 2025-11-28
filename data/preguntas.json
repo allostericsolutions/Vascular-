@@ -13148,15 +13148,15 @@
         "image": "",
         "opciones": [
             "Very small pseudoaneurysm under 5 mm",
-            "Uncorrected coagulopathy or known allergy to thrombin",
+            "Uncorrected coagulopathy",
             "Well controlled hypertension",
             "Contralateral femoral access history"
         ],
         "respuesta_correcta": [
-            "Uncorrected coagulopathy or known allergy to thrombin"
+            "Uncorrected coagulopathy"
         ],
         "concept_to_study": "Contraindications for thrombin injection",
-        "explicacion_openai": "Uncorrected coagulopathy impairs clot formation and increases bleeding risk; allergy to thrombin risks severe reaction. These conditions often require correction or alternative treatment. Absolute contraindications include inaccessible sacs or arterial‑venous fistulae that risk systemic thrombin migration.",
+        "explicacion_openai": "Uncorrected coagulopathy is a relative contraindication because it increases bleeding risk but can often be corrected prior to thrombin injection. In contrast, allergy to thrombin, arteriovenous fistula, and inaccessible pseudoaneurysm sac are absolute contraindications that make the procedure unsafe under any circumstance.",
         "image_explanation": ""
     },
     {
