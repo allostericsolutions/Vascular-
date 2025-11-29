@@ -6025,11 +6025,11 @@
         "opciones": [
             "Wall elasticity",
             "Systole",
-            "Diastole",
-            "Peripheral vascular resistance"
+            "SA Node",
+            "Early diastolic reversal due to peripheral vascular resistance"
         ],
         "respuesta_correcta": [
-            "Peripheral vascular resistance"
+            "Early diastolic reversal due to peripheral vascular resistance"
         ],
         "concept_to_study": "Triphasic waveform",
         "explicacion_openai": "The early diastolic reversal is caused by high peripheral resistance reflecting a brief backward flow.",
