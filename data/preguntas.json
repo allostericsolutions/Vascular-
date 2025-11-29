@@ -8015,19 +8015,19 @@
         "clasificacion": "Pathology, Perfusion, and Function",
         "grupo": 128,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A significant blood pressure difference, specifically a 40 mmHg lower reading in the left arm compared to the right, could be caused by any of the following conditions, EXCEPT for:",
+        "enunciado": "A significant blood pressure difference between arms (≥40 mmHg) is most commonly associated with which of the following conditions?",
         "image": "",
         "opciones": [
-            "Innominate artery occlusion.",
-            "Subclavian artery stenosis causing retrograde flow.",
-            "Takayasu arteritis involving the left subclavian artery.",
-            "An embolus obstructing the axillary artery."
+            "Subclavian artery stenosis or occlusion causing retrograde vertebral flow (subclavian steal).",
+            "Innominate (brachiocephalic) artery occlusion.",
+            "Axillary artery stenosis.",
+            "Normal physiologic variation."
         ],
         "respuesta_correcta": [
-            "Innominate artery occlusion."
+            "Subclavian artery stenosis or occlusion causing retrograde vertebral flow (subclavian steal)."
         ],
         "concept_to_study": "Causes of arm blood pressure discrepancies",
-        "explicacion_openai": "Occlusion of the innominate artery, which branches into the right subclavian and right common carotid arteries, would primarily reduce pressure in the right arm, not the left. In contrast, left subclavian disease (atherosclerotic stenosis or large-vessel vasculitis such as Takayasu arteritis) or distal obstruction of the left upper-extremity arteries can lower the left arm pressure.",
+        "explicacion_openai": "A large inter-arm blood pressure difference (≥40 mmHg) is most commonly due to subclavian artery stenosis or occlusion. This condition reduces systolic pressure in the affected arm and may cause retrograde vertebral flow (subclavian steal). Innominate artery occlusion can also produce discrepancies, but it is less common. Axillary stenosis and normal variation do not typically cause such marked differences.",
         "image_explanation": ""
     },
     {
