@@ -10224,10 +10224,10 @@
             "A triphasic arterial signal.",
             "A continuous venous signal.",
             "Flow through a narrow orifice with turbulence.",
-            "A contained hematoma communicating with an artery."
+            "A pseudoaneurysm."
         ],
         "respuesta_correcta": [
-            "A contained hematoma communicating with an artery."
+            "A pseudoaneurysm."
         ],
         "concept_to_study": "Pathophysiological basis of 'to-and-fro' flow",
         "explicacion_openai": "This answer provides the most precise description of the underlying pathology that generates the 'to-and-fro' flow. A pseudoaneurysm is, by definition, a contained hematoma (the sac) that communicates with an artery (via the neck). The pressure dynamics at this communication are what create the characteristic bidirectional flow. It is not a triphasic arterial signal, continuous venous signal, or merely flow through a narrow orifice with turbulence.",
