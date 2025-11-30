@@ -18136,10 +18136,7 @@
             "A phased array transducer (e.g., 2-4 MHz)."
         ],
         "concept_to_study": "Transducer selection based on patient body habitus and exam type.",
-        "explicacion_openai": "For a complete abdominal aorta exam, the curvilinear 2–5 MHz is preferred because it provides both penetration and a wide field of view, essential for surveying the vessel from proximal to bifurcation. The 7–12 MHz linear probe may seem attractive in thin patients due to higher resolution, but its limited depth and narrow footprint make it unsuitable as the primary choice for full aortic evaluation. Linear probes are used only adjunctively for superficial wall detail. (Refer to Hagen-Ansert, S. L. (2017). Textbook of Diagnostic Ultrasonography.)",
-"image_explanation": "No image provided. Question is text-based."
-
-",
+        "explicacion_openai": "For a complete abdominal aorta exam, the curvilinear 2–5 MHz is preferred because it provides both penetration and a wide field of view, essential for surveying the vessel from proximal to bifurcation. The 7–12 MHz linear probe may seem attractive in thin patients due to higher resolution, but its limited depth and narrow footprint make it unsuitable as the primary choice for full aortic evaluation. Linear probes are used only adjunctively for superficial wall detail. (Refer to Hagen-Ansert, S. L. (2017). Textbook of Diagnostic Ultrasonography.",
         "image_explanation": "No image provided. Question is text-based."
     },
     {
@@ -18332,7 +18329,7 @@
         "explicacion_openai": "The '5 Ps' (Pain, Pallor, Pulselessness, Paresthesia, Paralysis) are classic signs of acute arterial occlusion, which is a vascular emergency requiring immediate diagnosis and intervention. Recognizing these is critical. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
         "image_explanation": "No image provided. Question is text-based."
     },
-     {
+    {
         "clasificacion": "Normal Anatomy, Perfusion, and Function",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -18370,7 +18367,7 @@
         "explicacion_openai": "The Basilar Artery is formed by the union of the right and left Vertebral Arteries. These arteries ascend through the neck, enter the skull, and then join at the level of the pontomedullary junction to form the single basilar artery. The Internal Carotid Arteries (A) and External Carotid Arteries (B) contribute to the anterior and extracranial circulation, respectively, but do not form the basilar artery. The Posterior Cerebral Arteries (D) are branches of the basilar artery, not its origin.",
         "image_explanation": ""
     },
-     {
+    {
         "clasificacion": "Ultrasound-guided Procedures/Intraoperative Assessment",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -18408,24 +18405,23 @@
         "explicacion_openai": "The dramatic and complete thrombosis of the pseudoaneurysm from Image A to Image B strongly suggests an ultrasound-guided thrombin injection. Thrombin injection is a common and highly effective method to induce rapid clotting within a pseudoaneurysm. While manual compression is also a treatment, thrombin injection often achieves this rapid and complete cessation of flow more definitively in a single intervention. Venous ablation is for varicose veins, and aspiration would remove fluid, not clot the pseudoaneurysm.",
         "image_explanation": "Image A shows a pseudoaneurysm with active turbulent flow (red and blue swirling colors). Image B, taken after the intervention, displays the pseudoaneurysm sac completely filled with thrombus, showing no internal color Doppler flow, consistent with successful thrombin injection."
     },
-
-{
-    "clasificacion": "Physiologic Exams",
-    "grupo": 60,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which physiological test is being performed in the image showing electrodes on the lower legs of a seated patient?",
-    "image": "pletismografia.png",
-    "opciones": [
-        "Electromyography (EMG)",
-        "Ankle-brachial index (ABI)",
-        "Plethysmography",
-        "Nerve conduction velocity (NCV)"
-    ],
-    "respuesta_correcta": [
-        "Plethysmography"
-    ],
-    "concept_to_study": "Plethysmography",
-    "explicacion_openai": "Plethysmography is a non-invasive test that measures changes in volume within an organ or body part, often used to assess blood flow in the limbs. The image shows electrodes and cables placed on the lower legs, consistent with a plethysmographic setup to evaluate peripheral circulation.",
-    "image_explanation": ""
-}
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 60,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which physiological test is being performed in the image showing electrodes on the lower legs of a seated patient?",
+        "image": "pletismografia.png",
+        "opciones": [
+            "Electromyography (EMG)",
+            "Ankle-brachial index (ABI)",
+            "Plethysmography",
+            "Nerve conduction velocity (NCV)"
+        ],
+        "respuesta_correcta": [
+            "Plethysmography"
+        ],
+        "concept_to_study": "Plethysmography",
+        "explicacion_openai": "Plethysmography is a non-invasive test that measures changes in volume within an organ or body part, often used to assess blood flow in the limbs. The image shows electrodes and cables placed on the lower legs, consistent with a plethysmographic setup to evaluate peripheral circulation.",
+        "image_explanation": ""
+    }
 ]
