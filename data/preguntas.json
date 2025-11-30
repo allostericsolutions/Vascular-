@@ -18124,7 +18124,7 @@
         "clasificacion": "Preparation,Documentation, and communication",
         "grupo": 41,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "When 'selecting correct instrumentation based on protocol and patient body habitus', for an extremely thin patient requiring an abdominal aorta exam, which transducer would typically be most appropriate?",
+        "enunciado": "According to standard abdominal vascular protocols emphasizing comprehensive visualization of the abdominal aorta (proximal through bifurcation) and optimization for patient body habitus, which transducer is typically most appropriate for an extremely thin patient when the goal is a complete aortic survey?",
         "image": "",
         "opciones": [
             "A low-frequency curvilinear transducer (e.g., 2-5 MHz).",
@@ -18133,10 +18133,13 @@
             "A specific endocavity transducer."
         ],
         "respuesta_correcta": [
-            "A high-frequency linear transducer (e.g., 7-12 MHz)."
+            "A phased array transducer (e.g., 2-4 MHz)."
         ],
         "concept_to_study": "Transducer selection based on patient body habitus and exam type.",
-        "explicacion_openai": "For very thin patients, a higher frequency linear transducer can sometimes be used for abdominal structures like the aorta, providing better resolution due to less attenuation, which might not be possible in a larger patient. While curvilinear is standard for abdomen, knowing when to adapt for specific body habitus is key. (Refer to Hagen-Ansert, S. L. (2017). Textbook of diagnostic ultrasonography.)",
+        "explicacion_openai": "For a complete abdominal aorta exam, the curvilinear 2–5 MHz is preferred because it provides both penetration and a wide field of view, essential for surveying the vessel from proximal to bifurcation. The 7–12 MHz linear probe may seem attractive in thin patients due to higher resolution, but its limited depth and narrow footprint make it unsuitable as the primary choice for full aortic evaluation. Linear probes are used only adjunctively for superficial wall detail. (Refer to Hagen-Ansert, S. L. (2017). Textbook of Diagnostic Ultrasonography.)",
+"image_explanation": "No image provided. Question is text-based."
+
+",
         "image_explanation": "No image provided. Question is text-based."
     },
     {
