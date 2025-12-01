@@ -5640,7 +5640,7 @@
         "clasificacion": "Pathology, Perfusion, and Function",
         "grupo": 3,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Distal to a stenosis (post-stenotic region), the flow profile typically shows:",
+        "enunciado": "Which of the following best describes the typical flow profile in the region immediately distal to a vascular stenosis (the post-stenotic area)?",
         "image": "",
         "opciones": [
             "low pressure and high velocity",
@@ -5649,10 +5649,10 @@
             "low velocity and low pressure"
         ],
         "respuesta_correcta": [
-            "low velocity and elevated pressure"
+            "Low velocity and low pressure"
         ],
         "concept_to_study": "Post-stenotic Flow Changes",
-        "explicacion_openai": "Beyond the stenosis, velocity decreases; pressure partially recovers above pre-stenotic levels due to kinetic-to-pressure energy conversion and vessel wall recoil.",
+        "explicacion_openai": "Distal to a stenosis, the blood flow profile typically exhibits lower velocities due to turbulence and energy dissipation. Concurrently, pressure is also reduced because of the energy loss across the stenosis and the disruptive effects of turbulent flow in the post-stenotic region.",
         "image_explanation": ""
     },
     {
