@@ -6742,19 +6742,19 @@
         "clasificacion": "Pathology, Perfusion, and Function",
         "grupo": 61,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which term best describes the normal flow pattern observed in the hepatic veins?",
+        "enunciado": "Which term best describes the normal flow direction in the hepatic veins as they drain blood from the liver?",
         "image": "",
         "opciones": [
             "Hepatopetal (towards the liver)",
-            "Retrograde (away from the liver)",
+            "Hepatofugal (away from the liver)",
             "Triphasic",
             "Bidirectional"
         ],
         "respuesta_correcta": [
-            "Bidirectional"
+            "Hepatofugal (away from the liver)"
         ],
         "concept_to_study": "Hepatic Vein Flow / Normal Characteristics",
-        "explicacion_openai": "Due to their proximity to the right atrium, hepatic veins normally exhibit bidirectional flow, which mirrors changes in right atrial pressure.",
+        "explicacion_openai": "The normal flow pattern in the hepatic veins is hepatofugal, meaning it flows away from the liver towards the inferior vena cava. This flow is pulsatile due to the influence of atrial contraction and respiration. Triphasic flow is characteristic of arterial waveforms, and while hepatic vein flow has some variability, it is predominantly unidirectional away from the liver.",
         "image_explanation": ""
     },
     {
