@@ -1,4 +1,4 @@
-# components/question_display.py
+
 import streamlit as st
 import os
 from datetime import datetime
@@ -9,7 +9,7 @@ def display_question(question, question_num):
     """
     col1, col2, col3 = st.columns([1, 3, 1])
     with col1:
-        st.subheader(f"Question {}:")
+        st.subheader(f"Question {question_num}:")
     with col2:
         st.subheader("RVT Practice Exam - ARDMS")
     with col3:
@@ -18,7 +18,7 @@ def display_question(question, question_num):
             st.markdown(
                 f"""
                 <div style='text-align: right; font-size: 20px; color: red;'>
-                    <strong>Minutes Remaining:</strong> {}
+                    <strong>Minutes Remaining:</strong> {minutes_remaining}
                 </div>
                 """,
                 unsafe_allow_html=True
@@ -42,19 +42,16 @@ def display_question(question, question_num):
                 st.warning("Image file not found. Please continue the exam and report this issue.")
 
     with st.container():
-        # Recuperamos la respuesta anterior (sin letra)
         existing_answer = st.session_state.answers.get(str(question_num - 1), None)
         
-        # Busamos el índice para que el radio button aparezca marcado
         if existing_answer is not None and existing_answer in question['opciones']:
             selected_index = question['opciones'].index(existing_answer)
         else:
             selected_index = None
 
-        stable_key = f"respuesta_{}"
+        stable_key = f"respuesta_{question_num}"
 
-        # Opciones con letras visuales (a), b), c)...)
-        labeled_options = [f"{chr(97 + i)}) {}" for i, option in enumerate(question['opciones'])]
+        labeled_options = [f"{chr(97 + i)}) {option}" for i, option in enumerate(question['opciones'])]
 
         selected = st.radio(
             "Select an answer:",
@@ -63,26 +60,16 @@ def display_question(question, question_num):
             key=stable_key
         )
 
-        # Lógica de guardado y LOGGING
         if selected:
-            # Extraer el índice de la letra (0 para a, 1 para b...)
             selected_option_index = ord(selected[0]) - 97
             original_selected_option = question['opciones'][selected_option_index]
             
-            # --- NUEVO BLOQUE DE LOG EN CONSOLA ---
-            # Solo imprimimos si la respuesta ha cambiado o es nueva para no saturar
             if existing_answer != original_selected_option:
                 user_email = st.session_state.user_data.get("email", "Desconocido")
                 timestamp = datetime.now().strftime("%H:%M:%S")
-                
-                # Verificamos si es correcta (solo para tus ojos en consola)
                 es_correcta = original_selected_option in question["respuesta_correcta"]
                 status_txt = "CORRECTO" if es_correcta else "INCORRECTO"
-                
-                print(f"[{timestamp}] {user_email} | P{} | {status_txt} | Respondió: {original_selected_option[:50]}...")
-            # --------------------------------------
-
+                print(f"[{timestamp}] {user_email} | P{question_num} | {status_txt} | Respondió: {original_selected_option[:50]}...")
         else:
             original_selected_option = None
             
-        st.session_state.answers[str(question_num - 1)] = original_selected_option
