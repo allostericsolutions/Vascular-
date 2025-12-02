@@ -1,4 +1,5 @@
 
+# components/question_display.py
 import streamlit as st
 import os
 from datetime import datetime
@@ -24,9 +25,11 @@ def display_question(question, question_num):
                 unsafe_allow_html=True
             )
 
+    # Mostrar enunciado
     with st.container():
         st.write(question['enunciado'])
 
+    # Mostrar imagen si existe
     with st.container():
         image_name = (question.get('image') or "").strip()
         if image_name:
@@ -34,16 +37,17 @@ def display_question(question, question_num):
             if os.path.exists(image_path):
                 try:
                     st.markdown('<div class="image-container">', unsafe_allow_html=True)
-                    st.image(image_path) 
+                    st.image(image_path)
                     st.markdown('</div>', unsafe_allow_html=True)
                 except Exception:
                     st.warning("Image could not be displayed. Please continue the exam and report this issue.")
             else:
                 st.warning("Image file not found. Please continue the exam and report this issue.")
 
+    # Mostrar opciones
     with st.container():
         existing_answer = st.session_state.answers.get(str(question_num - 1), None)
-        
+
         if existing_answer is not None and existing_answer in question['opciones']:
             selected_index = question['opciones'].index(existing_answer)
         else:
@@ -63,13 +67,15 @@ def display_question(question, question_num):
         if selected:
             selected_option_index = ord(selected[0]) - 97
             original_selected_option = question['opciones'][selected_option_index]
-            
+
             if existing_answer != original_selected_option:
                 user_email = st.session_state.user_data.get("email", "Desconocido")
                 timestamp = datetime.now().strftime("%H:%M:%S")
                 es_correcta = original_selected_option in question["respuesta_correcta"]
                 status_txt = "CORRECTO" if es_correcta else "INCORRECTO"
-                print(f"[{timestamp}] {user_email} | P{question_num} | {status_txt} | Respondió: {original_selected_option[:50]}...")
+
+                print(f"[{timestamp}] {user_email} | P{question_num} | {status_txt} | Respondió: {original_selected_option[:50]}...", flush=True)
         else:
             original_selected_option = None
-            
+
+        st.session_state.answers[str(question_num - 1)] = original_selected_option
