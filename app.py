@@ -139,18 +139,18 @@ def access_code_generator():
     try:
       date_str = exam_date.strftime("%Y-%m-%d")
     except Exception as e:
-      st.error(f"Invalid exam date: ")
+      st.error(f"Invalid exam date: {}")
       return
 
     # 5) Generar token usando la fecha elegida
     try:
       token = generate_access_code(gen_email, base_code, date_str=date_str)
     except Exception as e:
-      st.error(f"Error generating access code: ")
+      st.error(f"Error generating access code: {}")
       return
 
     # 6) Mostrar token para que TÚ se lo des al alumno
-    st.success(f"Access code generated for this student () for :")
+    st.success(f"Access code generated for this student ({gen_email}) for {}:")
     st.code(token)
     st.info(
       "Send this access code to the student. "
@@ -227,11 +227,11 @@ def display_marked_questions_sidebar():
       question_number = index + 1
       col1, col2 = st.sidebar.columns([3, 1])
       with col1:
-        if st.button(f"Question ", key=f"goto_"):
+        if st.button(f"Question {}", key=f"goto_{}"):
           st.session_state.current_question_index = index
           st.rerun()
       with col2:
-        if st.button("X", key=f"unmark_"):
+        if st.button("X", key=f"unmark_{}"):
           st.session_state.marked.remove(index)
           st.rerun()
 
@@ -260,7 +260,8 @@ def display_unanswered_questions_sidebar():
       for j, index in enumerate(current_group_indices):
         question_number = index + 1
         with cols[j]:
-          if st.button(f"Q ", key=f"goto_unanswered_"):
+          # CORRECCION: Se añadieron las variables faltantes al f-string para que la key sea única
+          if st.button(f"Q {}", key=f"goto_unanswered_{}"):
             st.session_state.current_question_index = index
             st.rerun()
 
@@ -358,8 +359,8 @@ def finalize_exam():
     status = "Not Passed"
 
   st.header("Exam Results")
-  st.write(f"Score Obtained: ")
-  st.write(f"Status: ")
+  st.write(f"Score Obtained: {}")
+  st.write(f"Status: {}")
 
   if "classification_stats" in st.session_state:
     st.sidebar.subheader("Detailed Breakdown by Topic")
@@ -368,7 +369,7 @@ def finalize_exam():
         percent = (stats["correct"] / stats["total"]) * 100
       else:
         percent = 0.0
-      st.sidebar.write(f": {percent:.2f}%")
+      st.sidebar.write(f"{}: {percent:.2f}%")
 
   explanations = get_openai_explanation(st.session_state.incorrect_answers)
   st.session_state.explanations = explanations
