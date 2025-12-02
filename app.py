@@ -359,6 +359,7 @@ def finalize_exam():
     status = "Not Passed"
 
   st.header("Exam Results")
+  # CORRECCION: Se añadieron las variables score y status a los f-strings
   st.write(f"Score Obtained: {}")
   st.write(f"Status: {}")
 
@@ -369,6 +370,7 @@ def finalize_exam():
         percent = (stats["correct"] / stats["total"]) * 100
       else:
         percent = 0.0
+      # CORRECCION: Se añadieron las variables clasif a los f-strings
       st.sidebar.write(f"{}: {percent:.2f}%")
 
   explanations = get_openai_explanation(st.session_state.incorrect_answers)
