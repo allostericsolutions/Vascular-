@@ -18594,5 +18594,45 @@
     "concept_to_study": "Step-by-step recognition of Allen Test technique",
     "explicacion_openai": "In panel C, the radial artery remains compressed while the ulnar artery is released to evaluate blood flow through the palmar arch.",
     "image_explanation": "Panel C shows the hand opening with radial compression maintained and ulnar release."
-}
+},
+
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During an ultrasound exam, a pregnant patient with a history of DVT placed in reverse Trendelenburg position suddenly develops shortness of breath. What is the most appropriate immediate action by the sonographer?",
+        "image": "",
+        "opciones": [
+            "Continue scanning and document the findings",
+            "Stop the exam and call for emergency assistance/provider",
+            "Reposition the patient and resume the exam",
+            "Ignore the symptom since it is unrelated to the exam"
+        ],
+        "respuesta_correcta": [
+            "Stop the exam and call for emergency assistance/provider"
+        ],
+        "concept_to_study": "Patient safety and sonographer responsibilities during acute clinical events",
+        "explicacion_openai": "When a patient develops acute shortness of breath during an exam, the sonographer must immediately stop scanning and notify the provider or emergency team. This falls under patient safety and quality assurance responsibilities.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a vascular ultrasound exam, the patient suddenly reports severe chest pain and becomes diaphoretic. What is the sonographer’s most appropriate immediate response?",
+        "image": "",
+        "opciones": [
+            "Stop the exam and activate emergency response",
+            "Continue scanning to document the event",
+            "Reposition the patient and resume the exam",
+            "Ask the patient to relax and finish the study"
+        ],
+        "respuesta_correcta": [
+            "Stop the exam and activate emergency response"
+        ],
+        "concept_to_study": "Patient safety and emergency response during vascular ultrasound exams",
+        "explicacion_openai": "When a patient develops acute chest pain and diaphoresis during an exam, the sonographer must immediately stop scanning and initiate emergency response protocols. This ensures patient safety and aligns with ARDMS standards.",
+        "image_explanation": ""
+    }
 ]
+
