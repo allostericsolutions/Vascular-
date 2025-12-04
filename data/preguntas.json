@@ -18423,5 +18423,176 @@
         "concept_to_study": "Plethysmography",
         "explicacion_openai": "Plethysmography is a non-invasive test that measures changes in volume within an organ or body part, often used to assess blood flow in the limbs. The image shows electrodes and cables placed on the lower legs, consistent with a plethysmographic setup to evaluate peripheral circulation.",
         "image_explanation": ""
-    }
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is a primary clinical indication for performing the Allen Test?",
+        "image": "",
+        "opciones": [
+            "To evaluate collateral circulation before radial artery harvest for coronary bypass",
+            "To assess venous return in the forearm",
+            "To determine nerve conduction velocity in the hand",
+            "To check for lymphatic obstruction in the upper extremity"
+        ],
+        "respuesta_correcta": [
+            "To evaluate collateral circulation before radial artery harvest for coronary bypass"
+        ],
+        "concept_to_study": "Indications for the Allen Test",
+        "explicacion_openai": "The Allen Test is performed to ensure hand viability before radial artery cannulation or harvest, confirming collateral flow via the ulnar artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is a technical limitation of the Allen Test?",
+        "image": "",
+        "opciones": [
+            "Excessive wrist dorsiflexion may compress the ulnar artery, leading to false results",
+            "The test cannot be performed if the patient has a pacemaker",
+            "The test is invalid in patients with normal palmar arches",
+            "The use of photoplethysmography always guarantees accurate interpretation"
+        ],
+        "respuesta_correcta": [
+            "Excessive wrist dorsiflexion may compress the ulnar artery, leading to false results"
+        ],
+        "concept_to_study": "Limitations of the Allen Test",
+        "explicacion_openai": "Improper wrist positioning can compress the ulnar artery, producing false-positive results.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which arteries are directly evaluated during the Allen Test?",
+        "image": "",
+        "opciones": [
+            "Radial and ulnar arteries",
+            "Brachial and axillary arteries",
+            "Subclavian and brachial arteries",
+            "Digital and metacarpal arteries"
+        ],
+        "respuesta_correcta": [
+            "Radial and ulnar arteries"
+        ],
+        "concept_to_study": "Arteries assessed in the Allen Test",
+        "explicacion_openai": "The Allen Test evaluates radial and ulnar arteries to confirm collateral circulation through the palmar arch.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What finding suggests the hand is radial artery–dependent?",
+        "image": "",
+        "opciones": [
+            "Normal color return within 5–15 seconds after releasing the ulnar artery",
+            "Loss of plethysmographic waveform during radial artery compression",
+            "Increased capillary refill time after venous occlusion",
+            "Symmetric pulse amplitude between both hands"
+        ],
+        "respuesta_correcta": [
+            "Loss of plethysmographic waveform during radial artery compression"
+        ],
+        "concept_to_study": "Interpretation of Allen Test results",
+        "explicacion_openai": "If PPG waveforms disappear during radial compression, the hand is radial-dependent and lacks adequate collateral flow.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What condition can be prevented by correctly performing the Allen Test?",
+        "image": "",
+        "opciones": [
+            "Hand ischemia following radial artery cannulation",
+            "Development of carpal tunnel syndrome",
+            "Progression of peripheral neuropathy",
+            "Venous thrombosis in the forearm"
+        ],
+        "respuesta_correcta": [
+            "Hand ischemia following radial artery cannulation"
+        ],
+        "concept_to_study": "Clinical relevance of the Allen Test",
+        "explicacion_openai": "The Allen Test prevents ischemic complications by ensuring collateral circulation before radial artery cannulation or harvest.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What defines a normal Modified Allen Test result?",
+        "image": "",
+        "opciones": [
+            "Color returns within 5–15 seconds after releasing the ulnar artery",
+            "Persistent pallor despite release of both arteries",
+            "Complete disappearance of PPG waveform during radial compression",
+            "Delayed recoloration beyond 20 seconds after ulnar release"
+        ],
+        "respuesta_correcta": [
+            "Color returns within 5–15 seconds after releasing the ulnar artery"
+        ],
+        "concept_to_study": "Criteria for normal Modified Allen Test",
+        "explicacion_openai": "A normal result is defined by recoloration within 5–15 seconds, indicating adequate collateral flow via the ulnar artery.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What clinical test is being performed on the patient in the image labeled A, B, and C?",
+        "image": "Allen_test.png",
+        "opciones": [
+            "Modified Allen Test",
+            "Standard Allen Test",
+            "Capillary Refill Test",
+            "Digital Pressure Index Test"
+        ],
+        "respuesta_correcta": [
+            "Standard Allen Test"
+        ],
+        "concept_to_study": "Visual recognition of physiologic arterial tests",
+        "explicacion_openai": "The image shows the Standard Allen Test because it relies on visual assessment of hand color without using photoplethysmography or Doppler waveform recording, which are required in the Modified Allen Test.",
+        "image_explanation": "Panels A, B, and C illustrate radial artery compression, pallor induction, and color return respectively."
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During the Standard Allen Test sequence shown in panels A, B, and C, what clinical finding would indicate inadequate collateral circulation?",
+        "image": "Allen_test.png",
+        "opciones": [
+            "Persistent pallor in panel C after releasing the ulnar artery",
+            "Rapid color return in panel C within 5–15 seconds",
+            "Increased warmth of the hand in panel B",
+            "Symmetric pulse amplitude between both hands in panel A"
+        ],
+        "respuesta_correcta": [
+            "Persistent pallor in panel C after releasing the ulnar artery"
+        ],
+        "concept_to_study": "Interpretation of abnormal Allen Test results",
+        "explicacion_openai": "If the hand remains pale in panel C after releasing the ulnar artery, this indicates inadequate collateral circulation and radial artery dependence.",
+        "image_explanation": "Panel C is critical for assessing color return; persistent pallor suggests abnormal findings."
+    },
+    {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In panel C of the Allen Test image, which artery is released to assess collateral circulation?",
+    "image": "Allen_test.png",
+    "opciones": [
+        "Radial artery",
+        "Ulnar artery",
+        "Brachial artery",
+        "Digital arteries"
+    ],
+    "respuesta_correcta": [
+        "Ulnar artery"
+    ],
+    "concept_to_study": "Step-by-step recognition of Allen Test technique",
+    "explicacion_openai": "In panel C, the radial artery remains compressed while the ulnar artery is released to evaluate blood flow through the palmar arch.",
+    "image_explanation": "Panel C shows the hand opening with radial compression maintained and ulnar release."
+}
 ]
