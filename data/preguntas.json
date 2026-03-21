@@ -18633,6 +18633,26 @@
         "concept_to_study": "Patient safety and emergency response during vascular ultrasound exams",
         "explicacion_openai": "When a patient develops acute chest pain and diaphoresis during an exam, the sonographer must immediately stop scanning and initiate emergency response protocols. This ensures patient safety and aligns with ARDMS standards.",
         "image_explanation": ""
-    }
+    },
+    {
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 92,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A Doppler spectral waveform was recorded from the central flow stream of the common carotid artery. Which term most accurately characterizes the flow pattern shown?",
+        "image": "doppler_laminarflow.png",
+        "opciones": [
+            "Laminar",
+            "Turbulent",
+            "Pulsatile",
+            "High resistance",
+            "Retrograde flow"
+        ],
+        "respuesta_correcta": [
+            "Laminar"
+        ],
+        "concept_to_study": "Laminar flow",
+        "explicacion_openai": "Laminar flow occurs when blood moves in parallel layers with minimal mixing, producing a narrow and well‑defined spectral envelope. A key diagnostic feature is a clean spectral window, meaning there is little to no spectral broadening. This clean window confirms that velocities are uniform and effectively rules out turbulent flow, which would fill the window with chaotic, mixed velocities. Pulsatile describes normal arterial rhythm but does not define the quality of velocity distribution. High‑resistance flow would show reduced or absent diastolic flow, which is not consistent with laminar physiology. Retrograde flow would appear below the baseline, indicating reversed direction, which is not present in laminar flow.",
+        "image_explanation": ""
+}
 ]
 
