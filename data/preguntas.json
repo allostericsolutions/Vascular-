@@ -18658,7 +18658,7 @@
         "clasificacion": "Pathology, Perfusion, and Function",
         "grupo": 92,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the source of the bright echoes indicated by the arrows in this Doppler waveform?",
+        "enunciado": "In this Doppler waveform, what is the origin of the bright echoes marked by the arrows?",
         "image": "doppler_bruit.png",
         "opciones": [
             "Spectral bruit",
