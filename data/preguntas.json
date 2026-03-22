@@ -18653,6 +18653,26 @@
         "concept_to_study": "Laminar flow",
         "explicacion_openai": "Laminar flow occurs when blood moves in parallel layers with minimal mixing, producing a narrow and well‑defined spectral envelope. A key diagnostic feature is a clean spectral window, meaning there is little to no spectral broadening. This clean window confirms that velocities are uniform and effectively rules out turbulent flow, which would fill the window with chaotic, mixed velocities. Pulsatile describes normal arterial rhythm but does not define the quality of velocity distribution. High‑resistance flow would show reduced or absent diastolic flow, which is not consistent with laminar physiology. Retrograde flow would appear below the baseline, indicating reversed direction, which is not present in laminar flow.",
         "image_explanation": ""
+},
+{
+        "clasificacion": "Pathology, Perfusion, and Function",
+        "grupo": 92,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the source of the bright echoes indicated by the arrows in this Doppler waveform?",
+        "image": "doppler_bruit.png",
+        "opciones": [
+            "Spectral bruit",
+            "Aliasing",
+            "Mirror imaging",
+            "Reverberation",
+            "Confetti"
+        ],
+        "respuesta_correcta": [
+            "Spectral bruit"
+        ],
+        "concept_to_study": "Spectral bruit",
+        "explicacion_openai": "Spectral bruit refers to random, high-intensity echoes that appear above and below the baseline in a Doppler waveform. These echoes are caused by turbulent flow near areas of stenosis or high velocity jets, which generate tissue vibration and noise that contaminates the spectral display. The presence of a clean spectral window rules out aliasing and turbulence within the sampled flow itself. Mirror imaging and reverberation are artifacts typically seen in B-mode or color Doppler, not in spectral waveforms. 'Confetti' is a non-standard term and does not apply to Doppler interpretation.",
+        "image_explanation": ""
 }
 ]
 
