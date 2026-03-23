@@ -381,6 +381,25 @@
         "concept_to_study": "Spectral bruit",
         "explicacion_openai": "Spectral bruit refers to random, high-intensity echoes that appear above and below the baseline in a Doppler waveform. These echoes are caused by turbulent flow near areas of stenosis or high velocity jets, which generate tissue vibration and noise that contaminates the spectral display. The presence of a clean spectral window rules out aliasing and turbulence within the sampled flow itself. Mirror imaging and reverberation are artifacts typically seen in B-mode or color Doppler, not in spectral waveforms. 'Confetti' is a non-standard term and does not apply to Doppler interpretation.",
         "image_explanation": ""
-}
+},
+ {
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the same patient data, the number of false negatives is:",
+        "image": "",
+        "opciones": [
+            "11",
+            "17",
+            "19",
+            "33"
+        ],
+        "respuesta_correcta": [
+            "11"
+        ],
+        "concept_to_study": "Diagnostic test statistics",
+        "explicacion_openai": "False negatives are cases where the test fails to detect a condition that the reference standard identifies; here, 11 patients had stenosis by CTA but not by US.",
+        "image_explanation": ""
+    }
 
 ]
