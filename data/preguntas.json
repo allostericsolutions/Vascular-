@@ -628,25 +628,6 @@
     },
     {
         "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Using the same patient data, the number of false negatives is:",
-        "image": "",
-        "opciones": [
-            "11",
-            "17",
-            "19",
-            "33"
-        ],
-        "respuesta_correcta": [
-            "11"
-        ],
-        "concept_to_study": "Diagnostic test statistics",
-        "explicacion_openai": "False negatives are cases where the test fails to detect a condition that the reference standard identifies; here, 11 patients had stenosis by CTA but not by US.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Normal Anatomy, Perfusion, and Function",
         "grupo": 35,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "High-level disinfection for ultrasound probes is achieved with:",
