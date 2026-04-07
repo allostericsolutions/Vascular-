@@ -18653,5 +18653,100 @@
         "concept_to_study": "Signs and symptoms of acute arterial occlusion (5 Ps).",
         "explicacion_openai": "The '5 Ps' (Pain, Pallor, Pulselessness, Paresthesia, Paralysis) are classic signs of acute arterial occlusion, which is a vascular emergency requiring immediate diagnosis and intervention. Recognizing these is critical. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
         "image_explanation": "No image provided. Question is text-based."
-    }
+    },
+    {
+        "clasificacion": "Physiologic Exams",
+        "grupo": 79,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 67-year-old diabetic patient presents with exertional calf pain that resolves with rest. Post-exercise ABI drops from 0.92 to 0.58 and requires 10 minutes to return to baseline. Which interpretation is most accurate?",
+        "image": "",
+        "opciones": [
+            "Normal physiologic response to exercise.",
+            "Findings consistent with moderate peripheral arterial disease.",
+            "Suggestive of neurogenic claudication rather than vascular disease.",
+            "Indicates severe venous insufficiency."
+        ],
+        "respuesta_correcta": [
+            "Findings consistent with moderate peripheral arterial disease."
+        ],
+        "concept_to_study": "A significant ABI drop post-exercise with prolonged recovery indicates hemodynamically significant PAD.",
+        "explicacion_openai": "Exercise-induced ABI reduction >20% with delayed recovery strongly correlates with arterial obstruction causing true claudication.",
+        "image_explanation": ""
+},
+{
+        "clasificacion": "Physiologic Exams",
+        "grupo": 79,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 54-year-old smoker undergoes segmental pressure testing. The brachial pressure is 148 mmHg, thigh pressure 210 mmHg, and ankle pressure 92 mmHg. Which conclusion is most appropriate?",
+        "image": "",
+        "opciones": [
+            "Normal findings for a physiologic arterial exam.",
+            "Evidence of inflow disease affecting the iliac or common femoral arteries.",
+            "Findings consistent with falsely elevated thigh pressures due to cuff artifact.",
+            "Suggestive of isolated tibial artery vasospasm."
+        ],
+        "respuesta_correcta": [
+            "Evidence of inflow disease affecting the iliac or common femoral arteries."
+        ],
+        "concept_to_study": "A thigh pressure <30 mmHg above brachial or reduced ankle pressure suggests proximal inflow disease.",
+        "explicacion_openai": "Normal thigh pressures exceed brachial by 20–30 mmHg. A reduced ankle pressure with abnormal gradients indicates proximal obstruction.",
+        "image_explanation": ""
+},
+{
+        "clasificacion": "Physiologic Exams",
+        "grupo": 79,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 72-year-old patient with rest pain undergoes PVR testing. The waveforms show flattened systolic peaks and absent dicrotic notches bilaterally. What does this pattern most likely represent?",
+        "image": "",
+        "opciones": [
+            "Normal age-related waveform changes.",
+            "Severe multilevel arterial occlusive disease.",
+            "Isolated popliteal artery entrapment.",
+            "Venous outflow obstruction."
+        ],
+        "respuesta_correcta": [
+            "Severe multilevel arterial occlusive disease."
+        ],
+        "concept_to_study": "Flattened PVR waveforms with loss of dicrotic notch indicate severe arterial insufficiency.",
+        "explicacion_openai": "PVRs reflect volume change; severely dampened contours suggest significant proximal and distal arterial compromise.",
+        "image_explanation": ""
+},
+{
+        "clasificacion": "Physiologic Exams",
+        "grupo": 79,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 45-year-old runner reports exercise-induced foot numbness. Toe pressures are normal at rest but drop significantly after treadmill testing. What condition is most consistent with these findings?",
+        "image": "",
+        "opciones": [
+            "Raynaud’s phenomenon.",
+            "Small-vessel disease triggered by exertional ischemia.",
+            "Normal physiologic response to exercise.",
+            "Chronic venous insufficiency."
+        ],
+        "respuesta_correcta": [
+            "Small-vessel disease triggered by exertional ischemia."
+        ],
+        "concept_to_study": "Toe pressures are sensitive to distal microvascular disease, especially when resting ABI is normal.",
+        "explicacion_openai": "Toe pressures detect distal ischemia not reflected in ABI; exercise-induced drops suggest small-vessel PAD.",
+        "image_explanation": ""
+},
+{
+        "clasificacion": "Physiologic Exams",
+        "grupo": 79,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 60-year-old patient with suspected PAD undergoes reactive hyperemia testing. Post-occlusion ankle pressures fall by 40% and recover slowly. What does this response indicate?",
+        "image": "",
+        "opciones": [
+            "Normal hyperemic response.",
+            "Mild arterial insufficiency without hemodynamic significance.",
+            "Moderate to severe arterial obstruction.",
+            "Venous reflux causing pressure variability."
+        ],
+        "respuesta_correcta": [
+            "Moderate to severe arterial obstruction."
+        ],
+        "concept_to_study": "A pressure drop >35% after hyperemia suggests significant arterial disease.",
+        "explicacion_openai": "Reactive hyperemia simulates exercise; abnormal pressure recovery reflects impaired arterial inflow.",
+        "image_explanation": ""
+}
 ]
