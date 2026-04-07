@@ -130,9 +130,9 @@ def select_random_questions(total=120):
 
     # --- POST-PROCESO: sumar +10 con imagen en 3 clasificaciones (4/4/2) SOLO para FULL ---
     add_plan_by_class = {
-        "Normal Anatomy, Perfusion, and Function": 4,
-        "Pathology, Perfusion, and Function": 4,
-        "Surgically Altered Anatomy and Pathology": 2,
+        "Normal Anatomy, Perfusion, and Function": 7,
+        "Pathology, Perfusion, and Function": 7,
+        "Surgically Altered Anatomy and Pathology": 4,
     }
     selected_questions = ensure_additional_images_by_distribution(selected_questions, add_plan_by_class)
     # ----------------------------------------------------------------------------------------
