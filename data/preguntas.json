@@ -5541,11 +5541,11 @@
         "explicacion_openai": "For exam purposes, remember the quantitative benchmark: a normal PORH response requires a significant increase in mean velocity, typically defined as greater than 100% above the resting baseline. This demonstrates healthy vasodilation capacity.",
         "image_explanation": ""
     },
-    {
+   {
         "clasificacion": "Normal Anatomy, Perfusion, and Function",
         "grupo": 292,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The major arterial structures prominently visualized in the posterior circulation in this angiogram are primarily derived from which vessels?",
+        "enunciado": "The major arterial structures of the posterior cerebral circulation, including the basilar artery, are primarily derived from which of the following vessels?",
         "image": "vertebral_angiograma.png",
         "opciones": [
             "Internal Carotid Arteries",
@@ -5554,11 +5554,11 @@
             "Subclavian Arteries"
         ],
         "respuesta_correcta": [
-            "Vertebral Arteries"
+            "Subclavian Arteries"
         ],
-        "concept_to_study": "Posterior Cerebral Circulation Anatomy",
-        "explicacion_openai": "This angiogram predominantly visualizes the posterior cerebral circulation, which is supplied by the vertebral arteries. The vertebral arteries ascend through the neck, join to form the basilar artery, and then branch into the posterior cerebral arteries, supplying the posterior brain structures. The internal carotid arteries supply the anterior circulation, while external carotid arteries supply extracranial structures. Subclavian arteries are the origin of the vertebral arteries but are not directly visualized within the brain.",
-        "image_explanation": "Angiogram showing the posterior cerebral circulation, originating from the vertebral arteries."
+        "concept_to_study": "Origin of the Vertebrobasilar System",
+        "explicacion_openai": "In anatomical terms, 'derived from' refers to the vessel of origin. The posterior circulation of the brain is supplied by the vertebral arteries, which are the first branches of the Subclavian Arteries. The vertebral arteries ascend through the transverse foramina of the cervical vertebrae, enter the cranium via the foramen magno, and join to form the basilar artery. While the vertebral arteries are the main components of the posterior system, they themselves derive from the subclavians. In contrast, the internal carotid arteries give rise to the anterior circulation.",
+        "image_explanation": "Angiogram highlighting the vertebrobasilar system, which originates from the subclavian arteries before entering the cranium."
     },
     {
         "clasificacion": "Normal Anatomy, Perfusion, and Function",
