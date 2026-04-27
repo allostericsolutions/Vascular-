@@ -18,6 +18,25 @@
         "explicacion_openai": "Compartment syndrome is a serious condition where increased pressure within a muscle compartment restricts blood flow, potentially damaging muscles and nerves. The “5 Ps” is a mnemonic used to remember the key signs and symptoms: pain, pallor, paresthesia, paralysis, and pulselessness.",
         "image_explanation": ""
     },
+     {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 112,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A duplex ultrasound video of the carotid bifurcation is presented. During the spectral Doppler sampling of the internal carotid artery (ICA), a high-pitched, 'chirping' sound is audible, accompanied by significant spectral broadening and elevated velocities. Based on the video findings and the acoustic characteristics described, what does this specific 'sharp' sound and waveform pattern signify?",
+    "image": "stenosis_severecarotid.mp4",
+    "opciones": [
+      "Laminar flow within a normal non-diseased vessel segment.",
+      "Flow distal to a total occlusion (stump flow).",
+      "Turbulent flow resulting from a severe high-grade stenosis.",
+      "Normal compensatory flow due to contralateral disease."
+    ],
+    "respuesta_correcta": [
+      "Turbulent flow resulting from a severe high-grade stenosis."
+    ],
+    "concept_to_study": "Carotid stenosis grading and spectral analysis",
+    "explicacion_openai": "The video illustrates the classic hemodynamic features of a high-grade ICA stenosis. Beyond the numerical peak systolic velocity (PSV), the 'sharp' sound heard on pulse wave Doppler is the acoustic representation of high-frequency shifts caused by blood cells moving at disparate speeds and directions—a hallmark of turbulent flow. In severe stenosis, the laminar flow pattern is disrupted, leading to 'spectral broadening' (filling in of the spectral window) and the characteristic audible turbulence. While plaque morphology provides structural context, these spectral and acoustic parameters are essential for a holistic grading of the stenosis and guiding patient management, as they confirm the physiological impact of the plaque on cerebral perfusion.",
+    "image_explanation": "The video shows the pulse wave Doppler gate placed within a narrowed ICA lumen. The visual representation of the waveform shows spectral broadening, while the synchronized audio provides the 'sharp' turbulent sound characteristic of severe narrowing."
+  },
     {
         "clasificacion": "Normal Anatomy, Perfusion, and Function",
         "grupo": 2,
