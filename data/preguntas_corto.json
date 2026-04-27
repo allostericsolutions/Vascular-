@@ -56,7 +56,7 @@
     "concept_to_study": "Portal hypertension diagnosis",
     "explicacion_openai": "Portal hypertension is a serious complication of chronic liver disease (e.g., cirrhosis), characterized by abnormally high pressure in the portal venous system. A classic and highly significant sonographic sign of severe portal hypertension is hepatofugal flow (flow directed away from the liver) in the main portal vein, indicating reversal of the normal hepatopetal (towards the liver) flow direction. This reversal occurs as the body tries to decompress the high pressure system, often developing collateral veins. High PSV in hepatic arteries might indicate compensatory arterial flow but is not a direct sign of portal hypertension. Normal triphasic flow in hepatic veins would be unusual in significant liver disease; hepatic veins often show monophasic or dampened flow in cirrhosis. Absence of flow in the splenic vein suggests splenic vein thrombosis, which can contribute to portal hypertension but is not the most consistent finding for generalized portal hypertension.",
     "image_explanation": ""
-  }
+  },
     {
         "clasificacion": "Preparation,Documentation, and Communication",
         "grupo": 51,
