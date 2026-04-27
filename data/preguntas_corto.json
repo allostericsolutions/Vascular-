@@ -19,44 +19,44 @@
         "explicacion_openai": "Adhering to patient identification protocols, typically involving confirming at least two unique identifiers like full name and date of birth, is paramount to prevent medical errors and ensure patient safety. (Refer to ARDMS RVT content outline section 7.A.1).",
         "image_explanation": "No image provided. Question is text-based."
     },
-    {
-        "clasificacion": "Preparation,Documentation, and Communication",
-        "grupo": 49,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A patient is referred for a renal artery ultrasound due to uncontrolled hypertension. What 'Knowledge of appropriate indications' is key for the technologist?",
-        "image": "",
-        "opciones": [
-            "Renal artery ultrasound is indicated for evaluation of kidney stones.",
-            "Renal artery ultrasound is indicated for detection of renal artery stenosis as a cause of secondary hypertension.",
-            "Renal artery ultrasound is primarily for prostate evaluation.",
-            "Renal artery ultrasound is contraindicated in patients with hypertension."
-        ],
-        "respuesta_correcta": [
-            "Renal artery ultrasound is indicated for detection of renal artery stenosis as a cause of secondary hypertension."
-        ],
-        "concept_to_study": "Indications for renal artery ultrasound.",
-        "explicacion_openai": "Uncontrolled hypertension is a primary indication for renal artery ultrasound to evaluate for renal artery stenosis, which is a treatable cause of secondary hypertension. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
-        "image_explanation": "No image provided. Question is text-based."
-    },
-    {
-        "clasificacion": "Preparation,Documentation, and Communication",
-        "grupo": 50,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "When 'utilizing resources, such as physicians, literature, or peers', what is the most appropriate action for a technologist encountering an unusual vascular anomaly during an exam?",
-        "image": "",
-        "opciones": [
-            "Conclude the exam without further investigation.",
-            "Document the finding and consult with an experienced peer or interpreting physician for guidance.",
-            "Tell the patient that they have a rare condition.",
-            "Attempt to self-diagnose the anomaly based on a quick internet search."
-        ],
-        "respuesta_correcta": [
-            "Document the finding and consult with an experienced peer or interpreting physician for guidance."
-        ],
-        "concept_to_study": "Utilizing resources, problem-solving, professional collaboration.",
-        "explicacion_openai": "Encountering unusual findings requires professional judgment. Consulting with peers or the interpreting physician is a key resource for clarification, additional insight, and ensuring accurate documentation and reporting. (Refer to ARDMS RVT content outline section 7.B.1).",
-        "image_explanation": "No image provided. Question is text-based."
-    },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 112,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a duplex ultrasound evaluation, a cine loop is recorded showing the common carotid artery (CCA) and the ipsilateral vertebral artery in the same longitudinal plane. The CCA demonstrates consistent red-coded flow, while the vertebral artery demonstrates consistent blue-coded flow throughout the cardiac cycle. Which of the following is the most likely physiological explanation for this visual color mismatch?",
+    "image": "subclavian_steel.mp4",
+    "opciones": [
+      "Normal anatomical variation of the vertebral artery origin.",
+      "Complete retrograde flow due to a high-grade proximal subclavian stenosis.",
+      "Latent steal pattern with transient mid-systolic flow reversal.",
+      "Compensatory hyperemic flow due to contralateral occlusion."
+    ],
+    "respuesta_correcta": [
+      "Complete retrograde flow due to a high-grade proximal subclavian stenosis."
+    ],
+    "concept_to_study": "Subclavian steal syndrome hemodynamics",
+    "explicacion_openai": "The video demonstrates a 'complete steal' phenomenon. Under normal conditions, the CCA and the vertebral artery should present with the same color pattern because they both carry blood toward the brain (antegrade). A consistent color mismatch, where the vertebral artery flow is entirely opposite to the carotid throughout the cardiac cycle, indicates that the vertebral artery has been recruited as a collateral pathway to supply the arm. This occurs when a significant proximal subclavian artery obstruction (typically >75% stenosis or occlusion) lowers the distal pressure, forcing blood to flow downward from the basilar artery to the ipsilateral upper extremity. As the 'take home message' suggests, this visual finding is highly suggestive of proximal steno-obstructive pathology and requires immediate assessment of the subclavian origin.",
+    "image_explanation": "In the video, the red color in the carotid represents normal forward flow, while the persistent blue color in the vertebral artery signifies complete flow reversal (retrograde), confirming a high-grade proximal blockage."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 112,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A hepatoportal duplex ultrasound is performed on a patient with chronic liver disease and ascites. Which of the following findings would be most consistent with the hemodynamic changes of portal hypertension?",
+    "image": "",
+    "opciones": [
+      "Hepatofugal (away from liver) flow in the main portal vein.",
+      "High Peak Systolic Velocity (PSV) in the hepatic arteries.",
+      "Normal triphasic flow in the hepatic veins.",
+      "Absence of flow in the splenic vein."
+    ],
+    "respuesta_correcta": [
+      "Hepatofugal (away from liver) flow in the main portal vein."
+    ],
+    "concept_to_study": "Portal hypertension diagnosis",
+    "explicacion_openai": "Portal hypertension is a serious complication of chronic liver disease (e.g., cirrhosis), characterized by abnormally high pressure in the portal venous system. A classic and highly significant sonographic sign of severe portal hypertension is hepatofugal flow (flow directed away from the liver) in the main portal vein, indicating reversal of the normal hepatopetal (towards the liver) flow direction. This reversal occurs as the body tries to decompress the high pressure system, often developing collateral veins. High PSV in hepatic arteries might indicate compensatory arterial flow but is not a direct sign of portal hypertension. Normal triphasic flow in hepatic veins would be unusual in significant liver disease; hepatic veins often show monophasic or dampened flow in cirrhosis. Absence of flow in the splenic vein suggests splenic vein thrombosis, which can contribute to portal hypertension but is not the most consistent finding for generalized portal hypertension.",
+    "image_explanation": ""
+  }
     {
         "clasificacion": "Preparation,Documentation, and Communication",
         "grupo": 51,
