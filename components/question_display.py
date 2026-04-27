@@ -40,11 +40,11 @@ def display_question(question, question_num):
                         with open(media_path, "rb") as f:
                             video_bytes = f.read()
                         
-                        # Contenedor de 300x300 con autoplay, loop y muted (necesario para autoplay en navegadores)
+                        # Video con ancho fijo de 300px, alto automático (sin cortes), autoplay y loop
                         st.markdown(
                             f"""
                             <div style="display: flex; justify-content: flex-start;">
-                                <video width="300" height="300" autoplay loop muted playsinline style="object-fit: cover; border-radius: 5px;">
+                                <video width="300" autoplay loop muted playsinline style="border-radius: 5px;">
                                     <source src="data:video/mp4;base64,{__import__("base64").b64encode(video_bytes).decode()}" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -53,9 +53,9 @@ def display_question(question, question_num):
                             unsafe_allow_html=True
                         )
                     else:
-                        # Si es imagen, se muestra con el ancho limitado
+                        # La visualización de imágenes permanece idéntica a tu código original
                         st.markdown('<div class="image-container">', unsafe_allow_html=True)
-                        st.image(media_path, width=300)
+                        st.image(image_path)
                         st.markdown('</div>', unsafe_allow_html=True)
                 except Exception:
                     st.warning("Media could not be displayed. Please continue the exam and report this issue.")
