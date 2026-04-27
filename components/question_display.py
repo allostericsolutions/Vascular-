@@ -40,7 +40,7 @@ def display_question(question, question_num):
                         with open(media_path, "rb") as f:
                             video_bytes = f.read()
                         
-                        # Video con ancho fijo de 300px, alto automático (sin cortes), autoplay y loop
+                        # Video con ancho fijo de 300px, alto automático, autoplay y loop
                         st.markdown(
                             f"""
                             <div style="display: flex; justify-content: flex-start;">
@@ -53,9 +53,9 @@ def display_question(question, question_num):
                             unsafe_allow_html=True
                         )
                     else:
-                        # La visualización de imágenes permanece idéntica a tu código original
+                        # Se usa media_path para que la imagen se cargue correctamente
                         st.markdown('<div class="image-container">', unsafe_allow_html=True)
-                        st.image(image_path)
+                        st.image(media_path)
                         st.markdown('</div>', unsafe_allow_html=True)
                 except Exception:
                     st.warning("Media could not be displayed. Please continue the exam and report this issue.")
