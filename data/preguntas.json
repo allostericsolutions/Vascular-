@@ -11870,6 +11870,44 @@
         "image_explanation": ""
     },
     {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 112,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a duplex ultrasound evaluation, a cine loop is recorded showing the common carotid artery (CCA) and the ipsilateral vertebral artery in the same longitudinal plane. The CCA demonstrates consistent red-coded flow, while the vertebral artery demonstrates consistent blue-coded flow throughout the cardiac cycle. Which of the following is the most likely physiological explanation for this visual color mismatch?",
+    "image": "subclavian_steel.mp4",
+    "opciones": [
+      "Normal anatomical variation of the vertebral artery origin.",
+      "Complete retrograde flow due to a high-grade proximal subclavian stenosis.",
+      "Latent steal pattern with transient mid-systolic flow reversal.",
+      "Compensatory hyperemic flow due to contralateral occlusion."
+    ],
+    "respuesta_correcta": [
+      "Complete retrograde flow due to a high-grade proximal subclavian stenosis."
+    ],
+    "concept_to_study": "Subclavian steal syndrome hemodynamics",
+    "explicacion_openai": "The video demonstrates a 'complete steal' phenomenon. Under normal conditions, the CCA and the vertebral artery should present with the same color pattern because they both carry blood toward the brain (antegrade). A consistent color mismatch, where the vertebral artery flow is entirely opposite to the carotid throughout the cardiac cycle, indicates that the vertebral artery has been recruited as a collateral pathway to supply the arm. This occurs when a significant proximal subclavian artery obstruction (typically >75% stenosis or occlusion) lowers the distal pressure, forcing blood to flow downward from the basilar artery to the ipsilateral upper extremity. As the 'take home message' suggests, this visual finding is highly suggestive of proximal steno-obstructive pathology and requires immediate assessment of the subclavian origin.",
+    "image_explanation": "In the video, the red color in the carotid represents normal forward flow, while the persistent blue color in the vertebral artery signifies complete flow reversal (retrograde), confirming a high-grade proximal blockage."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 112,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient presents with a significant blood pressure discrepancy between arms. The following duplex video shows the ipsilateral vertebral artery flow direction in relation to the common carotid artery. Based on the documented 'color mismatch' and flow direction, what is the most likely clinical diagnosis?",
+    "image": "subclavian_steel.mp4",
+    "opciones": [
+      "Vertebral artery dissection.",
+      "Subclavian steal syndrome.",
+      "Carotid artery bulb aneurysm.",
+      "Innominate artery normal variant."
+    ],
+    "respuesta_correcta": [
+      "Subclavian steal syndrome."
+    ],
+    "concept_to_study": "Subclavian steal syndrome diagnosis",
+    "explicacion_openai": "The clinical finding of a blood pressure differential (typically >20 mmHg) combined with the sonographic 'color mismatch' seen in the video is diagnostic of Subclavian Steal Syndrome. In the video, we observed that while the carotid artery maintains its normal cephalad flow, the vertebral artery exhibits a complete reversal of flow. This reversal is a compensatory mechanism where the brain's circulation provides blood to the arm because the normal source (the subclavian artery) is blocked or severely narrowed at its origin. This hemodynamic 'theft' is the defining characteristic of the syndrome, which explains both the ultrasound findings and the physical exam findings of unequal brachial pressures.",
+    "image_explanation": "The video provides visual evidence of the steal: the vertebral artery flow is coded in a different color (direction) than the carotid, indicating that blood is moving away from the brain to satisfy the demand of the ipsilateral arm."
+  },
+    {
         "clasificacion": "Physiologic Exams",
         "grupo": 23,
         "tipo_pregunta": "opcion_multiple",
