@@ -57,44 +57,46 @@
     "explicacion_openai": "Portal hypertension is a serious complication of chronic liver disease (e.g., cirrhosis), characterized by abnormally high pressure in the portal venous system. A classic and highly significant sonographic sign of severe portal hypertension is hepatofugal flow (flow directed away from the liver) in the main portal vein, indicating reversal of the normal hepatopetal (towards the liver) flow direction. This reversal occurs as the body tries to decompress the high pressure system, often developing collateral veins. High PSV in hepatic arteries might indicate compensatory arterial flow but is not a direct sign of portal hypertension. Normal triphasic flow in hepatic veins would be unusual in significant liver disease; hepatic veins often show monophasic or dampened flow in cirrhosis. Absence of flow in the splenic vein suggests splenic vein thrombosis, which can contribute to portal hypertension but is not the most consistent finding for generalized portal hypertension.",
     "image_explanation": ""
   },
-    {
-        "clasificacion": "Preparation,Documentation, and Communication",
-        "grupo": 51,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A patient presents with sudden onset, severe, unilateral leg pain, pallor, and pulselessness. What 'Knowledge of signs and symptoms pertaining to the vascular exam' is critical here?",
-        "image": "",
-        "opciones": [
-            "These are symptoms of a common muscle strain.",
-            "These are classic '5 P' signs of acute arterial occlusion and require immediate attention.",
-            "These symptoms suggest a venous insufficiency problem.",
-            "These indicate a need for a carotid ultrasound."
-        ],
-        "respuesta_correcta": [
-            "These are classic '5 P' signs of acute arterial occlusion and require immediate attention."
-        ],
-        "concept_to_study": "Signs and symptoms of acute arterial occlusion (5 Ps).",
-        "explicacion_openai": "The '5 Ps' (Pain, Pallor, Pulselessness, Paresthesia, Paralysis) are classic signs of acute arterial occlusion, which is a vascular emergency requiring immediate diagnosis and intervention. Recognizing these is critical. (Refer to Zwiebel, W. J., & Pellerito, J. S. (2005). Introduction to vascular ultrasonography.)",
-        "image_explanation": "No image provided. Question is text-based."
-    },
-    {
-        "clasificacion": "Quality Assurance, Safety, and Physical Principles",
-        "grupo": 173,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "An ultrasound image shows a duplicated structure deep to a strong reflector, with identical shape and echogenicity. What is the most likely explanation for this finding?",
-        "image": "Mirror_artifact2.png",
-        "opciones": [
-            "Side lobe artifact",
-            "Refraction artifact",
-            "Beam width artifact",
-            "Artifact caused by sound wave reflection off a strong interface"
-        ],
-        "respuesta_correcta": [
-            "Artifact caused by sound wave reflection off a strong interface"
-        ],
-        "concept_to_study": "Identification of mirror artifact based on sonographic appearance",
-        "explicacion_openai": "This question tests the ability to recognize a mirror artifact without naming it directly. Mirror artifacts occur when ultrasound waves reflect off a strong specular interface—such as the diaphragm, pleura, or bladder wall—and return to the transducer via an indirect path. The system assumes the echo traveled in a straight line, so it places the duplicated structure deeper than the original. The duplicated image often appears identical in shape and echogenicity, but lacks true anatomical continuity. Recognizing this pattern is essential to avoid misdiagnosing a duplicated organ or lesion.",
-        "image_explanation": ""
-    },
+   
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 112,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A duplex ultrasound video of the carotid bifurcation is presented. During the spectral Doppler sampling of the internal carotid artery (ICA), a high-pitched, 'chirping' sound is audible, accompanied by significant spectral broadening and elevated velocities. Based on the video findings and the acoustic characteristics described, what does this specific 'sharp' sound and waveform pattern signify?",
+    "image": "stenosis_severecarotid.mp4",
+    "opciones": [
+      "Laminar flow within a normal non-diseased vessel segment.",
+      "Flow distal to a total occlusion (stump flow).",
+      "Turbulent flow resulting from a severe high-grade stenosis.",
+      "Normal compensatory flow due to contralateral disease."
+    ],
+    "respuesta_correcta": [
+      "Turbulent flow resulting from a severe high-grade stenosis."
+    ],
+    "concept_to_study": "Carotid stenosis grading and spectral analysis",
+    "explicacion_openai": "The video illustrates the classic hemodynamic features of a high-grade ICA stenosis. Beyond the numerical peak systolic velocity (PSV), the 'sharp' sound heard on pulse wave Doppler is the acoustic representation of high-frequency shifts caused by blood cells moving at disparate speeds and directions—a hallmark of turbulent flow. In severe stenosis, the laminar flow pattern is disrupted, leading to 'spectral broadening' (filling in of the spectral window) and the characteristic audible turbulence. While plaque morphology provides structural context, these spectral and acoustic parameters are essential for a holistic grading of the stenosis and guiding patient management, as they confirm the physiological impact of the plaque on cerebral perfusion.",
+    "image_explanation": "The video shows the pulse wave Doppler gate placed within a narrowed ICA lumen. The visual representation of the waveform shows spectral broadening, while the synchronized audio provides the 'sharp' turbulent sound characteristic of severe narrowing."
+  },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 112,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The provided video shows a longitudinal view of the ICA with significant plaque formation. While the spectral Doppler audio confirms high-grade turbulence, the sonographer also notes the visual characteristics of the plaque. According to current SRU (Society of Radiologists in Ultrasound) guidelines, which visual or gray-scale finding in this video would most strongly support a diagnosis of a >70% stenosis rather than just a 50-69% stenosis?",
+    "image": "stenosis_severecarotid.mp4",
+    "opciones": [
+      "The presence of a smooth, thin intimal-medial layer.",
+      "Visible lumen narrowing showing a residual diameter significantly less than the distal ICA.",
+      "A purely hypoechoic plaque without any shadowing.",
+      "The presence of a large carotid bulb without visible debris."
+    ],
+    "respuesta_correcta": [
+      "Visible lumen narrowing showing a residual diameter significantly less than the distal ICA."
+    ],
+    "concept_to_study": "Gray-scale assessment of carotid plaque",
+    "explicacion_openai": "While Peak Systolic Velocity (PSV) is the primary quantitative tool, gray-scale and color Doppler provide critical corroborative evidence for grading ICA stenosis. For a stenosis to be graded as >70%, the SRU criteria look for not only a PSV >230 cm/s but also visual evidence of significant lumen narrowing. In the video, the reduction of the 'residual lumen' (the space where blood actually flows) compared to the 'normal' diameter of the distal ICA is a key visual indicator. Relying solely on numbers can be misleading in cases of high cardiac output or contralateral occlusion, so a holistic view—observing the plaque's extent and the actual degree of narrowing—is essential for accurate patient management.",
+    "image_explanation": "The video provides a clear B-mode and color view where the heterogeneous plaque is seen encroaching upon the vessel lumen, visibly reducing the area available for flow to a fraction of the original vessel size."
+  },
+
     {
         "clasificacion": "Quality Assurance, Safety, and Physical Principles",
         "grupo": 173,
