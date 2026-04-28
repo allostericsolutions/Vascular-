@@ -4,7 +4,7 @@
     "clasificacion": "Pathology, Perfusion, and Function",
     "grupo": 112,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A duplex evaluation of the proximal superficial femoral artery (SFA) is performed. The B-mode image reveals visible echogenic calcium deposits within the vessel wall, while the spectral Doppler shows a PSV of 71.1 cm/s at a 60° angle. Based on these findings, which assessment is correct?",
+    "enunciado": "A duplex evaluation of the proximal superficial femoral artery (SFA) is performed. The B-mode image reveals visible echogenic calcium deposits within the vessel wall, while the spectral Doppler shows a PSV of 41.1 cm/s at a 60° angle. Based on these findings, which assessment is correct?",
     "image": "femoral_arterydisease.png",
     "opciones": [
       "The vessel presents a normal triphasic flow pattern despite the presence of non-obstructive wall calcification, with technical settings and velocities within standard limits.",
