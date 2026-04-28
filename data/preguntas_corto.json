@@ -1,24 +1,25 @@
 
 [
-    {
-        "clasificacion": "Preparation,Documentation, and Communication",
-        "grupo": 48,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the most important aspect of 'Ability to interpret and follow patient identification protocols'?",
-        "image": "",
-        "opciones": [
-            "Memorizing the patient's room number.",
-            "Verifying the patient's full name and date of birth against the order.",
-            "Asking the patient what exam they think they are having.",
-            "Checking the patient's dietary restrictions."
-        ],
-        "respuesta_correcta": [
-            "Verifying the patient's full name and date of birth against the order."
-        ],
-        "concept_to_study": "Patient identification protocols.",
-        "explicacion_openai": "Adhering to patient identification protocols, typically involving confirming at least two unique identifiers like full name and date of birth, is paramount to prevent medical errors and ensure patient safety. (Refer to ARDMS RVT content outline section 7.A.1).",
-        "image_explanation": "No image provided. Question is text-based."
-    },
+  {
+    "clasificacion": "Pathology, Perfusion, and Function",
+    "grupo": 112,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A duplex evaluation of the proximal superficial femoral artery (SFA) is performed. The B-mode image reveals visible echogenic calcium deposits within the vessel wall, while the spectral Doppler shows a PSV of 71.1 cm/s at a 60° angle. Based on these findings, which assessment is correct?",
+    "image": "femoral_arterydisease.png",
+    "opciones": [
+      "The vessel presents a normal triphasic flow pattern despite the presence of non-obstructive wall calcification, with technical settings and velocities within standard limits.",
+      "The flow is biphasic due to the observed calcification, indicating that the plaque is already causing a hemodynamically significant obstruction.",
+      "The presence of calcium in the lumen has converted the flow into a low-resistance monophasic pattern, requiring an immediate surgical referral.",
+      "The spectral waveform is staccato, suggesting that the visible calcification is associated with a total distal occlusion of the popliteal artery."
+    ],
+    "respuesta_correcta": [
+      "The vessel presents a normal triphasic flow pattern despite the presence of non-obstructive wall calcification, with technical settings and velocities within standard limits."
+    ],
+    "concept_to_study": "Assessment of arterial calcification and triphasic flow",
+    "explicacion_openai": "The proximal Superficial Femoral Artery (SFA) typically exhibits a triphasic flow pattern in a resting patient, which is characterized by three distinct phases: a sharp, rapid systolic peak (forward flow), a brief period of early-diastolic flow reversal, and a small late-diastolic forward component. This high-resistance signature is the normal physiological standard for peripheral arteries of the lower and upper extremities, such as the femoral, popliteal, and brachial arteries. Visually, the vessel in this study shows signs of early atherosclerotic disease, specifically arterial calcification. In ultrasound, calcium appears as highly echogenic (bright white) deposits along the intimal lining of the vessel. While these deposits are present, the Peak Systolic Velocity (PSV) of 71.1 cm/s confirms the absence of a hemodynamically significant stenosis, as the velocity remains within the normal range (typically <150 cm/s for this segment) and the flow remains organized. Accurate assessment is further supported by the use of a 60-degree insonation angle, which is the technical limit required for reliable velocity calculations in vascular duplex imaging.",
+    "image_explanation": "The spectral display confirms a classic triphasic waveform at 60 degrees. In the longitudinal B-mode view above, the arterial walls show bright, echo-reflective spots indicative of non-obstructive calcification, meaning the lumen is still patent despite the wall disease."
+  },
+
   {
     "clasificacion": "Pathology, Perfusion, and Function",
     "grupo": 112,
