@@ -18824,5 +18824,25 @@
         "concept_to_study": "A pressure drop >35% after hyperemia suggests significant arterial disease.",
         "explicacion_openai": "Reactive hyperemia simulates exercise; abnormal pressure recovery reflects impaired arterial inflow.",
         "image_explanation": ""
+},
+{
+        "clasificacion": "Normal Anatomy, Perfusion, and Function",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "While watching a dynamic ultrasound video of the saphenofemoral junction, a yellow arrow highlights a structure that opens and closes with venous pressure changes at the point where the great saphenous vein enters the common femoral vein. Which structure is being demonstrated?",
+        "image": "Terminal_valve.mp4",
+        "opciones": [
+            "The terminal valve of the great saphenous vein",
+            "The preterminal valve located several centimeters distal to the saphenofemoral junction",
+            "The valve of the profunda femoral vein, positioned lateral and posterior to the common femoral vein",
+            "The valve at the confluence of the superficial femoral vein, located proximal to the saphenofemoral junction"
+        ],
+        "respuesta_correcta": [
+            "The terminal valve of the great saphenous vein"
+        ],
+        "concept_to_study": "Terminal valve at the saphenofemoral junction",
+        "explicacion_openai": "The terminal valve is the most proximal valve of the great saphenous vein and is located precisely at the saphenofemoral junction, where the GSV enters the common femoral vein. In the video, the yellow arrow highlights a structure that opens and closes with venous pressure changes exactly at this junction, which corresponds only to the terminal valve. The preterminal valve is incorrect because it lies distal to the junction and would not be seen at the point where the GSV meets the CFV. The valve of the profunda femoral vein is incorrect because the PFV drains lateral and posterior to the CFV and is not visualized in a superficial junction study. The valve at the confluence of the superficial femoral vein is incorrect because that confluence is located proximal to the saphenofemoral junction and belongs to the deep venous system, not the superficial entry point of the GSV.",
+        "image_explanation": ""
 }
+
 ]
