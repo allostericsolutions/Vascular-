@@ -387,22 +387,22 @@
 },
  {
         "clasificacion": "Normal Anatomy, Perfusion, and Function",
-        "grupo": 34,
+        "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Using the same patient data, the number of false negatives is:",
-        "image": "",
+        "enunciado": "While watching the dynamic ultrasound video Terminal_valve.mp4, a yellow arrow highlights a structure that opens and closes with venous pressure changes at the point where the great saphenous vein enters the common femoral vein. Which structure is being demonstrated?",
+        "image": "Terminal_valve.mp4",
         "opciones": [
-            "11",
-            "17",
-            "19",
-            "33"
+            "The terminal valve of the great saphenous vein",
+            "The preterminal valve located distal to the saphenofemoral junction",
+            "The valve of the profunda femoral vein",
+            "The valve at the confluence of the superficial femoral vein"
         ],
         "respuesta_correcta": [
-            "11"
+            "The terminal valve of the great saphenous vein"
         ],
-        "concept_to_study": "Diagnostic test statistics",
-        "explicacion_openai": "False negatives are cases where the test fails to detect a condition that the reference standard identifies; here, 11 patients had stenosis by CTA but not by US.",
+        "concept_to_study": "Terminal valve at the saphenofemoral junction",
+        "explicacion_openai": "In the video, the yellow arrow points to the terminal valve, which is the most proximal valve of the great saphenous vein. It opens and closes with pressure changes and prevents retrograde flow from the common femoral vein into the superficial venous system.",
         "image_explanation": ""
-    }
+}
 
 ]
