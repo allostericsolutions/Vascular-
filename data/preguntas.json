@@ -17272,7 +17272,7 @@
         "grupo": 153,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the name of the artifact in Image A?",
-        "image": "Aliasing_artifact_name.png",
+        "image": "aliasing_prf_correction.png",
         "opciones": [
             "Color Aliasing",
             "Confetti",
