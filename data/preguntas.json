@@ -18,6 +18,196 @@
         "explicacion_openai": "Compartment syndrome is a serious condition where increased pressure within a muscle compartment restricts blood flow, potentially damaging muscles and nerves. The “5 Ps” is a mnemonic used to remember the key signs and symptoms: pain, pallor, paresthesia, paralysis, and pulselessness.",
         "image_explanation": ""
     },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A patient with a thigh circumference of 85 cm is evaluated for peripheral arterial disease. If a standard 12 cm blood pressure cuff is used to obtain the high-thigh pressure, how will the resulting measurement relate to the actual intra-arterial pressure?",
+    "image": "",
+    "opciones": [
+      "The measured pressure will be accurately reflected.",
+      "The measured pressure will be falsely decreased.",
+      "The measured pressure will be falsely increased.",
+      "The pressure measurement will be impossible to obtain."
+    ],
+    "respuesta_correcta": [
+      "The measured pressure will be falsely increased."
+    ],
+    "concept_to_study": "Ability to evaluate effects of limb size and cuff diameter",
+    "explicacion_openai": "According to RVT physics principles (Davies), the cuff width must be at least 20% wider than the diameter of the limb segment. If the cuff is too narrow relative to the limb (under-cuffing), it requires more inflation pressure to transmit the force through the soft tissue to occlude the artery, resulting in a 'Cuff Artifact' or falsely elevated systolic pressure.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Following a treadmill exercise test, a patient's ankle pressure drops from a baseline of 110 mmHg to 55 mmHg. The pressures take 14 minutes to return to the pre-exercise baseline. This finding is most consistent with:",
+    "image": "",
+    "opciones": [
+      "Normal physiological response",
+      "Single-level arterial disease",
+      "Multi-level arterial disease",
+      "Vasospastic disease (Raynaud's)"
+    ],
+    "respuesta_correcta": [
+      "Multi-level arterial disease"
+    ],
+    "concept_to_study": "Knowledge of provocative/exercise maneuvers and their effect on circulation",
+    "explicacion_openai": "In RVT diagnostics, a post-exercise pressure drop that takes more than 10-12 minutes to recover is highly suggestive of multi-level obstructive disease. Single-level disease typically recovers within 2 to 6 minutes. The prolonged recovery time reflects the significant time required for the distal vascular bed to re-establish equilibrium after collateral flow was maximized during exercise.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When assessing a patient with suspected severe medial calcinosis (non-compressible vessels), which instrumentation provides the most reliable physiological data regarding distal perfusion?",
+    "image": "",
+    "opciones": [
+      "CW Doppler with Ankle pressures",
+      "Photoplethysmography (PPG) with Toe pressures",
+      "Segmental pressures with 12cm cuffs",
+      "B-mode imaging of the Tibial arteries"
+    ],
+    "respuesta_correcta": [
+      "Photoplethysmography (PPG) with Toe pressures"
+    ],
+    "concept_to_study": "Select the appropriate instrumentation (PPG sensors, cuffs, etc.)",
+    "explicacion_openai": "Arteries in the toes are rarely affected by medial calcinosis (Mönckeberg's sclerosis), which often makes ankle arteries incompressible (ABI > 1.30). Therefore, PPG toe pressures provide a more accurate physiological assessment of distal perfusion in diabetic or renal patients where standard segmental limb pressures are unreliable.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a venous PPG examination, a patient has a venous refill time (VRT) of 12 seconds. A tourniquet is then applied to the upper calf, and the VRT increases to 28 seconds. This indicates:",
+    "image": "",
+    "opciones": [
+      "Deep venous insufficiency",
+      "Superficial venous insufficiency of the great saphenous vein",
+      "Superficial venous insufficiency of the small saphenous vein",
+      "Competent (normal) venous valves"
+    ],
+    "respuesta_correcta": [
+      "Superficial venous insufficiency of the small saphenous vein"
+    ],
+    "concept_to_study": "Ability to evaluate effects of tourniquet on hemodynamics",
+    "explicacion_openai": "A VRT < 20 seconds indicates reflux. If a tourniquet applied below the knee (upper calf) normalizes the VRT (> 20s), it demonstrates that the reflux was occurring in the superficial system below the level of the knee, specifically the small saphenous vein. If it normalized with a thigh tourniquet, it would suggest GSV reflux.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "While performing provocative maneuvers for Thoracic Outlet Syndrome (TOS), the radial artery signal disappears during the 'Adsons' maneuver. The patient remains asymptomatic. What is the correct interpretation?",
+    "image": "",
+    "opciones": [
+      "Positive for arterial TOS",
+      "Positive for neurogenic TOS",
+      "Negative study (Normal variant)",
+      "Inconclusive; requires angiography"
+    ],
+    "respuesta_correcta": [
+      "Negative study (Normal variant)"
+    ],
+    "concept_to_study": "Knowledge of provocative maneuvers and their effect on circulation",
+    "explicacion_openai": "RVT criteria emphasize that a TOS study is only clinically positive if the positional maneuver reproduces the patient's symptoms (pain, numbness, paresthesia). Positional compression of the subclavian artery occurs in approximately 20% of the normal population without causing pathology, making asymptomatic signal loss a normal variant.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary physical principle used by Photoplethysmography (PPG) to record physiological waveforms?",
+    "image": "",
+    "opciones": [
+      "The Doppler Shift of reflected ultrasound waves",
+      "Detection of blood volume changes via infrared light reflection",
+      "Measurement of arterial wall displacement using piezo-electric crystals",
+      "Electrical impedance changes between two electrodes"
+    ],
+    "respuesta_correcta": [
+      "Detection of blood volume changes via infrared light reflection"
+    ],
+    "concept_to_study": "Select the appropriate instrumentation (PPG sensors)",
+    "explicacion_openai": "PPG utilizes a light-emitting diode (LED) that transmits infrared light into the subcutaneous tissue. A phototransistor detects the light reflected back. Since blood attenuates light, the amount of reflected light is inversely proportional to the blood volume in the micro-circulation during the cardiac cycle.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Calculate the Ankle-Brachial Index (ABI) for the right leg given the following pressures: Right Brachial: 160 mmHg, Left Brachial: 150 mmHg, Right Posterior Tibial: 80 mmHg, Right Dorsalis Pedis: 70 mmHg.",
+    "image": "",
+    "opciones": [
+      "0.44",
+      "0.50",
+      "0.53",
+      "0.93"
+    ],
+    "respuesta_correcta": [
+      "0.50"
+    ],
+    "concept_to_study": "Manually calculate pressure indices (ABI)",
+    "explicacion_openai": "To calculate the ABI: Divide the highest systolic pressure at the ankle level (80 mmHg) by the highest of the two brachial pressures (160 mmHg). Calculation: 80 / 160 = 0.50. Using the lower brachial or lower ankle pressure would result in a calculation error.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a venous PPG assessment, excessive baseline drift and 'noise' are noted during patient foot maneuvers. What is the most effective way to optimize this recording?",
+    "image": "",
+    "opciones": [
+      "Increase the gain settings to maximum",
+      "Apply a tourniquet to stabilize the limb",
+      "Ensure the PPG sensor is securely taped to the skin to prevent motion artifact",
+      "Switch to a CW Doppler probe"
+    ],
+    "respuesta_correcta": [
+      "Ensure the PPG sensor is securely taped to the skin to prevent motion artifact"
+    ],
+    "concept_to_study": "Ability to optimize recordings (PPG)",
+    "explicacion_openai": "Baseline drift in PPG is usually caused by motion artifact (movement of the sensor relative to the skin). Ensuring the sensor is firmly secured and the cable is not pulling on the sensor during maneuvers is essential for a stable, diagnostic trace.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A digital PPG waveform obtained 10 minutes after cold water immersion remains dampened with a prolonged 'time to peak' and an absent dicrotic notch. This is most characteristic of:",
+    "image": "",
+    "opciones": [
+      "Primary Raynaud's phenomenon",
+      "Secondary Raynaud's phenomenon (obstructive)",
+      "Normal thermoregulatory response",
+      "Cervical rib syndrome"
+    ],
+    "respuesta_correcta": [
+      "Secondary Raynaud's phenomenon (obstructive)"
+    ],
+    "concept_to_study": "Obtain appropriate diagnostic waveforms with provocative maneuvers",
+    "explicacion_openai": "Primary Raynaud's (vasospasm) typically shows waveforms that return to normal within 5-10 minutes. Secondary Raynaud's involves fixed organic obstruction; the presence of abnormal waveform morphology that persists beyond 10 minutes suggests underlying small vessel disease rather than simple transient vasospasm.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physiologic Exams",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In venous photoplethysmography, a Venous Refill Time (VRT) of less than 20 seconds without a tourniquet is the diagnostic threshold for:",
+    "image": "",
+    "opciones": [
+      "Venous Hypertension",
+      "Venous Reflux (Insufficiency)",
+      "Acute Deep Vein Thrombosis",
+      "Bakers Cyst"
+    ],
+    "respuesta_correcta": [
+      "Venous Reflux (Insufficiency)"
+    ],
+    "concept_to_study": "Obtain appropriate venous PPG diagnostic waveforms",
+    "explicacion_openai": "The VRT measures how quickly the veins refill after being emptied by muscle pumps. A VRT < 20 seconds indicates that the blood is returning to the limb too quickly via retrograde flow through incompetent valves (Reflux), rather than through normal capillary beds.",
+    "image_explanation": ""
+  },
      {
     "clasificacion": "Pathology, Perfusion, and Function",
     "grupo": 112,
